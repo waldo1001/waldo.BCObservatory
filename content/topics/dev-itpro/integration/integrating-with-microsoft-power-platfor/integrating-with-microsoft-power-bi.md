@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,10 +92,10 @@ links:
   videos:
     - video/6Zb7VAvLVm4
     - video/7rIHz0zrgWU
-    - video/EVntnDFE1R4
   posts:
     - post/aardvarklabs-blog/2017
     - post/thinkaboutit-be/7995
+    - post/yzhums-com/74390
   guidelines: []
   changes:
     - change/bcapps/14212
@@ -112,8 +112,8 @@ children:
 coverage:
   learn: 8
   code: 2
-  video: 3
-  blog: 2
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 6316
@@ -166,11 +166,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#14212 Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14212.md) (code change): "Power BI auto-deployment functionality now clears only selected deployment records"
 - [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14229.md) (code change): "Power BI auto-deployment clearing now affects only the selected record instead of all records"
-- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "directly connected to Power BI using the Dynamics 365 Business Central connector"
+- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Most Business Central Power BI issues stem from configuration problems"
-- [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Business Central Integration with Power Platform including Power BI"
+- [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "build advanced compliance reports in Power BI and intelligent automation with Copilot Studio"
+- [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI New Content Apps; Power BI Embedded Reports with Full Capabilities"
 - [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "Business Central Usage Analytics PowerBI app; PowerBI metrics alerting"
-- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Power BI embed experience improvements; Power BI scorecard support in Business Central"
 
 ## Business Central pages and reports
 

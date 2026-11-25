@@ -15,8 +15,8 @@
     "Per diem calculation refactored to delegate to a local procedure for event raising without changing behavior for non-subscribers"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
-  "breaking": true,
+  "behavior_change": false,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "finance",

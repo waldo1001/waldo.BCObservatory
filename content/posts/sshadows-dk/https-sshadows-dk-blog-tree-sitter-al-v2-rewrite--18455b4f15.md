@@ -19,7 +19,7 @@ review:
   at: "2026-10-25T16:50:19.334Z"
   flags: []
 generated:
-  at: "2026-10-25T16:41:48.094Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
   image_h: null
   site_name: SShadowS
   favicon: https://sshadows.dk/favicon.svg
-  probed_at: "2026-10-25T16:46:43.765Z"
+  probed_at: "2026-11-25T01:00:52.769Z"
 ---
 
 # I Rewrote My Tree-Sitter Grammar From Scratch. It Got 10x Smaller.

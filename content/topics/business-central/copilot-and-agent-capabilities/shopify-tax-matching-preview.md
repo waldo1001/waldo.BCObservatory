@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:02.098Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,6 +112,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "Shopify order processing now preserves tax mappings and holds document creation"
 - [#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres](../../../changes/bcapps/13052.md) (code change): "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres"
 - [#9138 [Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)](../../../changes/bcapps/9138.md) (code change): "mapping customer tax IDs to the Enterprise No. field"
-- [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify tax matching (preview) AI capability; tax rate reconciliation"
+- [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify Tax Matching AI Capability; Tax Area Code Auto-Population"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

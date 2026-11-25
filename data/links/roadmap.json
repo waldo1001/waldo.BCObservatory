@@ -39708,28 +39708,28 @@
     "video/OnC0a5zy-oQ": {
       "kind": "video",
       "key": "video/OnC0a5zy-oQ",
-      "hash": "c860cb22b69ee62b9f37e9e9e7a73fe41e7237191e27220df91fd2004cdb22ca",
+      "hash": "fc678c5b77ca789016b01f70a1dc0d9e21f05696f9dc202d3d46525e8c335b49",
       "video_id": "OnC0a5zy-oQ",
       "title": "What's Cooking in Business Central: Managing Feature Management through an API",
-      "at": "2026-10-25T12:35:04.306Z",
+      "at": "2026-11-25T01:01:21.154Z",
       "matches": []
     },
     "video/OszitKuf8t0": {
       "kind": "video",
       "key": "video/OszitKuf8t0",
-      "hash": "7de047319bed0c9e819d4a2283399f3b85321775255146817ea4dfd084f78caf",
+      "hash": "04723084725e7088625937bff8b8bc804f9084f2c7fc1a847443efa5ba120c97",
       "video_id": "OszitKuf8t0",
       "title": "What's Cooking in Business Central: Limiting the Available Product Languages",
-      "at": "2026-10-23T23:48:16.867Z",
+      "at": "2026-11-25T01:01:20.108Z",
       "matches": []
     },
     "video/OvI9jaA1mJY": {
       "kind": "video",
       "key": "video/OvI9jaA1mJY",
-      "hash": "acaa7860ae977622896ca622dacf7acb58ae8ae61014d79311519892f9bd4e89",
+      "hash": "2489f2140ad603c544557600c0f9fbc07aea165050a4c64a2ce1f5d457cfd71a",
       "video_id": "OvI9jaA1mJY",
       "title": "What's New: Payables Agent (2026 release wave 1)",
-      "at": "2026-10-30T07:53:53.169Z",
+      "at": "2026-11-25T01:01:19.742Z",
       "matches": [
         {
           "feature": 0,
@@ -39739,21 +39739,35 @@
           "quote": "one-to-one matching between invoice lines and purchase order lines"
         },
         {
+          "feature": 1,
+          "name": "Receipt quantity validation in matching",
+          "t": 34,
+          "roadmap_id": "573380",
+          "quote": "agent checks if the received quantity is sufficient for invoicing"
+        },
+        {
+          "feature": 4,
+          "name": "Payables Agent free trial and credit-based pricing",
+          "t": 74,
+          "roadmap_id": "576776",
+          "quote": "agent is free to try up to a certain number of invoices"
+        },
+        {
           "feature": 7,
           "name": "Single invoice processing without setup",
           "t": 130,
           "roadmap_id": "576776",
-          "quote": "Accounts payable users can now try out the agent for free and process"
+          "quote": "process a single invoice they upload without needing to set up"
         }
       ]
     },
     "video/Oxfai-_UnTI": {
       "kind": "video",
       "key": "video/Oxfai-_UnTI",
-      "hash": "d9dafe5876bac712e88c12bb9049b5d2a251a4b3ea06c75a60926e26b667f00d",
+      "hash": "c66a903d7099098e7ec8a60f4a1ce978c2c547d2d70df747eec2e635ce761046",
       "video_id": "Oxfai-_UnTI",
       "title": "What’s New: Financial Reporting (for Administrators) (2025 release wave 1)",
-      "at": "2026-10-30T07:53:56.311Z",
+      "at": "2026-11-25T01:01:18.200Z",
       "matches": [
         {
           "feature": 0,
@@ -39768,23 +39782,16 @@
           "t": 261,
           "roadmap_id": "573325",
           "quote": "Ability to track changes to report row and column definitions using change log"
-        },
-        {
-          "feature": 3,
-          "name": "Data Analysis for Financial Report Changes",
-          "t": 351,
-          "roadmap_id": "573325",
-          "quote": "Ability to analyze financial report definition changes using the data analysis feature"
         }
       ]
     },
     "video/P-7dYVfB73E": {
       "kind": "video",
       "key": "video/P-7dYVfB73E",
-      "hash": "61670bace8f08758d626951e05475eb2d13ef3c6e6444816856278cbb2f4c84a",
+      "hash": "771d2b919381b87964d30dd5bda3bf7413eaa356c00c4a5f5d6a0da19a6656db",
       "video_id": "P-7dYVfB73E",
       "title": "Business Central Under the Hood episode 6: We Have Too Many Events!",
-      "at": "2026-10-25T12:35:05.906Z",
+      "at": "2026-11-25T01:01:20.629Z",
       "matches": []
     },
     "video/p-pwG6f5srY": {
@@ -39828,29 +39835,122 @@
     "video/P1cS4g-Lj2M": {
       "kind": "video",
       "key": "video/P1cS4g-Lj2M",
-      "hash": "85c6b38e3bde318d669341ac55b4a1e4c57cde33a494f9781518a3acd78d75db",
+      "hash": "2a63d2bcfbc64c38e67b9f5bd393725e768d9295486d2c04326009ddb5faf368",
       "video_id": "P1cS4g-Lj2M",
       "title": "#BCTalent Stories: Abakion",
-      "at": "2026-10-25T12:35:06.450Z",
+      "at": "2026-11-25T01:01:23.591Z",
       "matches": []
     },
     "video/P1V4jy08YM8": {
       "kind": "video",
       "key": "video/P1V4jy08YM8",
-      "hash": "115d4c61922ed4afdd3868f01d93bbd8c29c342fa56f5686c87787def5ea769e",
+      "hash": "1189b8c84f8b11564469743d4ba401e09de822e648109217ba7860d760e7edd2",
       "video_id": "P1V4jy08YM8",
       "title": "Expense Agent: Configuration (2026 release wave 1)",
-      "at": "2026-10-30T07:53:54.765Z",
-      "matches": []
+      "at": "2026-11-25T01:01:19.620Z",
+      "matches": [
+        {
+          "feature": 12,
+          "name": "Mileage expense configuration",
+          "t": 268,
+          "roadmap_id": "573254",
+          "quote": "Mileage expense configuration. Configures mileage expense calculation based on rate per unit and unit of measure."
+        },
+        {
+          "feature": 3,
+          "name": "Default approver configuration",
+          "t": 93,
+          "roadmap_id": "573605",
+          "quote": "Default approver configuration. Setting up a person who can approve all expenses, with option for more granular approver setup."
+        },
+        {
+          "feature": 13,
+          "name": "Project tracking for expenses",
+          "t": 284,
+          "roadmap_id": "573259",
+          "quote": "Project tracking for expenses. Allows expense users to track expenses against specific projects with visibility controls."
+        }
+      ]
     },
     "video/PB2ZG8fM3EE": {
       "kind": "video",
       "key": "video/PB2ZG8fM3EE",
-      "hash": "95c3fe40998f521160d8d4a16d1d0698a08987143f6613a91a181397c8186a44",
+      "hash": "dcf32523f1087a9ea84e86ecadada489ba11712c7863635dee9318a06ecd71fc",
       "video_id": "PB2ZG8fM3EE",
       "title": "What's New: Autofill Fields with Copilot (2025 release wave 1)",
-      "at": "2026-10-30T07:54:02.085Z",
-      "matches": []
+      "at": "2026-11-25T01:01:26.705Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Copilot autofill for card and document pages",
+          "t": 5,
+          "roadmap_id": "579980",
+          "quote": "Copilot suggests values for blank fields in cards and document pages"
+        },
+        {
+          "feature": 1,
+          "name": "Most recently used and most frequently used selection",
+          "t": 129,
+          "roadmap_id": "579980",
+          "quote": "Copilot suggests values based on what was most recently or most frequently used"
+        },
+        {
+          "feature": 2,
+          "name": "Intelligent lookup selection from predefined choices",
+          "t": 155,
+          "roadmap_id": "579980",
+          "quote": "Copilot intelligently selects values from lookup and option fields based on context"
+        },
+        {
+          "feature": 3,
+          "name": "Web search for public information",
+          "t": 199,
+          "roadmap_id": "579980",
+          "quote": "Copilot can search the web powered by Bing to fill in public information"
+        },
+        {
+          "feature": 4,
+          "name": "Keyboard shortcut for autofill (Alt+I)",
+          "t": 319,
+          "roadmap_id": "579980",
+          "quote": "Users can press Alt+I to ask Copilot to fill out a field and related fields"
+        },
+        {
+          "feature": 5,
+          "name": "Quick entry integration with Copilot",
+          "t": 356,
+          "roadmap_id": "579980",
+          "quote": "Copilot autofill works seamlessly with quick entry feature"
+        },
+        {
+          "feature": 6,
+          "name": "Copilot suggestion explanation tooltips",
+          "t": 81,
+          "roadmap_id": "579980",
+          "quote": "users can click an info icon to see why the suggestion was made"
+        },
+        {
+          "feature": 7,
+          "name": "AI foundational model suggestions",
+          "t": 408,
+          "roadmap_id": "579980",
+          "quote": "Copilot uses its foundational AI training to generate contextual suggestions"
+        },
+        {
+          "feature": 8,
+          "name": "Unsaved suggestion reminder",
+          "t": 460,
+          "roadmap_id": "579980",
+          "quote": "Business Central reminds the user of suggestions not yet reviewed"
+        },
+        {
+          "feature": 9,
+          "name": "Copilot support for custom fields and pages",
+          "t": 518,
+          "roadmap_id": "579980",
+          "quote": "Copilot autofill works with custom fields and custom pages without requiring"
+        }
+      ]
     },
     "video/pE19K17wpgI": {
       "kind": "video",
@@ -39864,10 +39964,10 @@
     "video/PeI-Jv4KVn8": {
       "kind": "video",
       "key": "video/PeI-Jv4KVn8",
-      "hash": "f7bfe53df703c0d7d49b76e74c9d697ddae3025f869f34ce70059a6ca683c2fc",
+      "hash": "a0e4b65fa3cef8b478cab5e682d0fc5613693b4574606622e8e401f6996b9468",
       "video_id": "PeI-Jv4KVn8",
       "title": "Copilot Managing Maintenance Intake by Zig",
-      "at": "2026-10-30T07:53:59.074Z",
+      "at": "2026-11-25T01:01:27.027Z",
       "matches": []
     },
     "video/pEXl-POet_4": {
@@ -39890,10 +39990,10 @@
     "video/PHmFqehrPG4": {
       "kind": "video",
       "key": "video/PHmFqehrPG4",
-      "hash": "a2a11b6c2577d334a87314d506337483fb689749955183b6885fa8cc2e6fbaaa",
+      "hash": "63dff4940f3e53fbe8e4f37a02063efd1d160aa18febda73989c74334dca84ef",
       "video_id": "PHmFqehrPG4",
       "title": "What's New: AL - Interfaces (2024 release wave 2)",
-      "at": "2026-10-25T12:35:10.288Z",
+      "at": "2026-11-25T01:01:26.536Z",
       "matches": []
     },
     "video/PIWxU93eCT4": {
@@ -39932,19 +40032,19 @@
     "video/PrGBqzTDsLw": {
       "kind": "video",
       "key": "video/PrGBqzTDsLw",
-      "hash": "9b17fb118f596b7c4a02f17b46e7e9de86a0a1c791d01f34b4a03ea6cc6ff757",
+      "hash": "d67f388658ab396344b1e277a5dc2215b05052d1faee1e948d7e0d01de144b10",
       "video_id": "PrGBqzTDsLw",
       "title": "Profiling Your Customers",
-      "at": "2026-10-25T12:35:13.435Z",
+      "at": "2026-11-25T01:01:28.686Z",
       "matches": []
     },
     "video/Pt8LrNv_Lgc": {
       "kind": "video",
       "key": "video/Pt8LrNv_Lgc",
-      "hash": "76d893a06cd554817a363dc3c31c0aeef53b7666cb3d0cd37b0604bda248c388",
+      "hash": "9055a56fcd8ac8a78e16b61c90a8b53fa67c37cbf334a37659f2386fdc143c2d",
       "video_id": "Pt8LrNv_Lgc",
       "title": "Manufacturing Fundamentals Routing (2026)",
-      "at": "2026-11-02T00:53:13.666Z",
+      "at": "2026-11-25T01:01:30.047Z",
       "matches": []
     },
     "video/px1MOyXfmnQ": {
@@ -39959,34 +40059,41 @@
     "video/PZVTTem-nZw": {
       "kind": "video",
       "key": "video/PZVTTem-nZw",
-      "hash": "045f49d14ae59e33dee4373fa7e3c23114e151320a65f13db7caf434837a1bd2",
+      "hash": "b3ef0570624621147f58dd6d8bc4dd768bbe574a5c9c368b07c86cfa984525e0",
       "video_id": "PZVTTem-nZw",
       "title": "Creating TableExtensions in BC29 like we're back in NAV (But Business Central)",
-      "at": "2026-10-30T07:53:58.281Z",
+      "at": "2026-11-25T01:01:26.611Z",
       "matches": [
         {
           "feature": 0,
           "name": "Table extensions stored in single SQL table",
           "t": 288,
           "roadmap_id": "573332",
-          "quote": "Table extensions stored in single SQL table"
+          "quote": "table extensions are no longer stored in separate tables per app but consolidated into a single SQL table"
         },
         {
           "feature": 1,
           "name": "Cross-app keys in table extensions",
           "t": 247,
           "roadmap_id": "573315",
-          "quote": "Cross-app keys in table extensions"
+          "quote": "enables creation of keys that combine standard base table fields with extension fields from different apps"
+        },
+        {
+          "feature": 3,
+          "name": "Compact extension table storage",
+          "t": 212,
+          "roadmap_id": "573332",
+          "quote": "consolidates all app extension fields into a single extra table per base table"
         }
       ]
     },
     "video/Q-oazDEucLE": {
       "kind": "video",
       "key": "video/Q-oazDEucLE",
-      "hash": "556bec44d1850d04696790a201b4a46083b69520df1ca355a4284399aca33490",
+      "hash": "64d148cd4619cdb2543537840ad312f24163a20d00c3f5ab03fae2fcdbc8a471",
       "video_id": "Q-oazDEucLE",
       "title": "20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL",
-      "at": "2026-10-30T07:54:00.979Z",
+      "at": "2026-11-25T01:01:33.468Z",
       "matches": []
     },
     "video/q-udoJPGUKE": {
@@ -40092,18 +40199,11 @@
     "video/QCo-uIfPs9g": {
       "kind": "video",
       "key": "video/QCo-uIfPs9g",
-      "hash": "7deb3ef577765811736653c3025833252288dd8c3bc1c82903c297a387d73902",
+      "hash": "42af5f0eb0b83cbdb6c3e911ab11b37bf1ed4d9629633856f2372fbff019479d",
       "video_id": "QCo-uIfPs9g",
       "title": "What's New: Extending Copilot in Business Central (2024 Release Wave 2)",
-      "at": "2026-10-30T07:54:00.587Z",
+      "at": "2026-11-25T01:01:34.539Z",
       "matches": [
-        {
-          "feature": 5,
-          "name": "Managed AI Resources",
-          "t": 516,
-          "roadmap_id": "577820",
-          "quote": "managed AI resources so partners do not need to bring their own"
-        },
         {
           "feature": 9,
           "name": "Manage Resource Authorization for Azure OpenAI",
@@ -40133,73 +40233,94 @@
     "video/QdWPlIV3Avk": {
       "kind": "video",
       "key": "video/QdWPlIV3Avk",
-      "hash": "7dc576bf80c600c9dd8ba0a3e7465f45a893cc7296f02ed664f55a89921e8468",
+      "hash": "0e5828006312b06cc19877c17494f6bdccb514c7f734a458b3fbe09ac60c4049",
       "video_id": "QdWPlIV3Avk",
       "title": "What's new in SCM: Subcontracting (2026 release wave 2)",
-      "at": "2026-10-25T12:35:24.313Z",
+      "at": "2026-11-25T01:01:39.542Z",
       "matches": [
         {
           "feature": 0,
           "name": "Subcontracting extension",
           "t": 8,
           "roadmap_id": "576872",
-          "quote": "manages subcontracting operations including logistics of raw materials"
+          "quote": "Subcontracting extension. A new extension for Business Central"
         },
         {
           "feature": 3,
           "name": "Warehouse integration for subcontracting",
           "t": 90,
           "roadmap_id": "573355",
-          "quote": "Subcontracting operations now benefit from the same powerful warehouse handling processes"
+          "quote": "Warehouse integration for subcontracting. Subcontracting operations now benefit"
         },
         {
           "feature": 6,
           "name": "Subcontracting purchase order structure",
           "t": 516,
           "roadmap_id": "573345",
-          "quote": "Purchase order created from subcontracting includes component lines, work operation lines"
+          "quote": "Subcontracting purchase order structure. Purchase order created from"
+        },
+        {
+          "feature": 7,
+          "name": "Create production order info line setting",
+          "t": 605,
+          "roadmap_id": "573345",
+          "quote": "Create production order info line setting. Manufacturing setup toggle"
         },
         {
           "feature": 9,
           "name": "Subcontracting comments and instructions",
           "t": 648,
           "roadmap_id": "573345",
-          "quote": "Comment lines in subcontracting purchase order contain instructions for the subcontractor"
+          "quote": "Subcontracting comments and instructions. Comment lines in subcontracting"
         },
         {
           "feature": 10,
           "name": "Line attachments for subcontracting instructions",
           "t": 672,
           "roadmap_id": "573345",
-          "quote": "Subcontracting purchase order lines can have attachments per line with instructions"
+          "quote": "Line attachments for subcontracting instructions. Subcontracting purchase order"
         },
         {
           "feature": 12,
           "name": "Subcontracting comment in routing",
           "t": 756,
           "roadmap_id": "573345",
-          "quote": "Production routing lines have a subcontracting comment field that contains instructions"
+          "quote": "Subcontracting comment in routing. Production routing lines have"
+        },
+        {
+          "feature": 13,
+          "name": "Work in progress item in routing",
+          "t": 812,
+          "roadmap_id": "573355",
+          "quote": "Work in progress item in routing. Routing operation can"
+        },
+        {
+          "feature": 14,
+          "name": "Transfer order to subcontractor",
+          "t": 853,
+          "roadmap_id": "573355",
+          "quote": "Transfer order to subcontractor. Create transfer orders from main"
         },
         {
           "feature": 19,
           "name": "Warehouse receipt for subcontracting operations",
           "t": 1403,
           "roadmap_id": "573355",
-          "quote": "create warehouse receipts instead of direct purchase receipts"
+          "quote": "Warehouse receipt for subcontracting operations. When warehouse handling"
         },
         {
           "feature": 20,
           "name": "Inventory put-away for basic warehouse locations",
           "t": 1493,
           "roadmap_id": "573355",
-          "quote": "create inventory put-away directly from subcontracting orders"
+          "quote": "Inventory put-away for basic warehouse locations. For basic warehouse"
         },
         {
           "feature": 22,
           "name": "Multiple receiving methods for subcontracting",
           "t": 1569,
           "roadmap_id": "573355",
-          "quote": "Subcontracting supports normal purchase document, warehouse receipt, or inventory put-away"
+          "quote": "Multiple receiving methods for subcontracting. Subcontracting supports normal"
         }
       ]
     },
@@ -40224,19 +40345,19 @@
     "video/QGG0dW6HqSg": {
       "kind": "video",
       "key": "video/QGG0dW6HqSg",
-      "hash": "764958d47e0256d09ffa821cf78e9b3ede272a0fc2c3964f259b26ddf7c9a615",
+      "hash": "db00b3ff5f4073984d883e3f16f5eee8984fd8fda3501f1422fee94b9077e93f",
       "video_id": "QGG0dW6HqSg",
       "title": "What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)",
-      "at": "2026-10-30T07:54:02.278Z",
+      "at": "2026-11-25T01:01:32.517Z",
       "matches": []
     },
     "video/QGIr_XPp8lk": {
       "kind": "video",
       "key": "video/QGIr_XPp8lk",
-      "hash": "f776511831b596945e4dc18f35043546b3d1687917f875e3b2d5c9f661de2564",
+      "hash": "19e7b6e06b0b453dab47f8e594a5b682a5e54112d508b5a011892fb5c1c4041e",
       "video_id": "QGIr_XPp8lk",
       "title": "What's New: Extending E-Documents with New Interface (2025 release wave 1)",
-      "at": "2026-11-02T00:53:14.932Z",
+      "at": "2026-11-25T01:01:32.822Z",
       "matches": [
         {
           "feature": 0,
@@ -40250,7 +40371,7 @@
           "name": "I document response handler interface",
           "t": 405,
           "roadmap_id": "573305",
-          "quote": "New optional interface for handling asynchronous responses"
+          "quote": "New optional interface for handling asynchronous responses when sending documents"
         },
         {
           "feature": 2,
@@ -40264,7 +40385,7 @@
           "name": "I received document marker interface",
           "t": 633,
           "roadmap_id": "573305",
-          "quote": "Optional interface to acknowledge receipt of documents"
+          "quote": "Optional interface to acknowledge receipt of documents to services"
         },
         {
           "feature": 4,
@@ -40278,7 +40399,7 @@
           "name": "E-document framework error handling improvements",
           "t": 96,
           "roadmap_id": "573305",
-          "quote": "Enhanced error handling for receiving logic when integration services unavailable"
+          "quote": "Enhanced error handling for receiving logic when integration services are unavailable"
         },
         {
           "feature": 6,
@@ -40381,10 +40502,10 @@
     "video/QK-Qsh_6YL4": {
       "kind": "video",
       "key": "video/QK-Qsh_6YL4",
-      "hash": "17f48d9e476d9c19a4498d70c3182e9c3cfc8bcdd2abd1158dc5d4063ab4de00",
+      "hash": "3ce21f707a87343a6c117236b131fd355c1e0fc0de76414dd6435870a7a390ec",
       "video_id": "QK-Qsh_6YL4",
       "title": "Copilot Completing Time Sheets by Pryme Global",
-      "at": "2026-10-30T07:54:04.016Z",
+      "at": "2026-11-25T01:01:35.022Z",
       "matches": []
     },
     "video/qlFEdXPjX6A": {
@@ -40637,10 +40758,10 @@
     "video/QT3RKx9rGJA": {
       "kind": "video",
       "key": "video/QT3RKx9rGJA",
-      "hash": "55a9b143e8584671aac2bf9d8b08610418bfaaef785917d4f1c19828e895c7e2",
+      "hash": "bac316129ae3854bb2997cd52c5a3c7347ab5db132af05dbf60887b3bb52b813",
       "video_id": "QT3RKx9rGJA",
       "title": "AL Go for GitHub January Office Hour",
-      "at": "2026-10-25T12:35:19.905Z",
+      "at": "2026-11-25T01:01:36.177Z",
       "matches": []
     },
     "video/qwEnuR0vgYo": {

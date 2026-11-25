@@ -2,7 +2,7 @@
 id: localization/cz
 type: localization
 title: Czech (CZ)
-summary: Czech (CZ) localization of Business Central 29. It covers VAT date, VAT statements and control reports, cash desk, bank payment orders and statements, advance payments, fixed assets tax depreciation, Intrastat, corrections posting and the unreliable payer check. It answers what the Czech layer adds to W1 and where Learn documents it.
+summary: Czech (CZ) localization of Business Central 29. It covers VAT date and VAT statements, corrections posting, cash desk, banking documents (payment orders, bank statements), advance payments, compensation, fixed assets tax depreciation, Intrastat, unreliable payer checks and Czech output documents. Use it for questions on what the Czech layer adds to W1.
 tier: official
 language: en
 tags:
@@ -11,20 +11,20 @@ tags:
 review:
   state: reviewed
   by: opus
-  at: "2026-10-30T00:59:28.804Z"
+  at: "2026-11-25T00:55:37.790Z"
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 7eb0c676f7cc1594bcf9afb94983daf882216af9a79c6cb6f74a02a58192be2f
+  input_hash: d04cae7b95f32d261a7c2a478c3734ec5c0012eb75e579268254ee8eb721d8cd
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-cz
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -48,7 +48,7 @@ links:
 country: CZ
 version: "29"
 w1_version: "29"
-added_objects: 1773
+added_objects: 1782
 replaced_objects: 8
 removed_objects: 0
 added_fields: 6
@@ -58,37 +58,37 @@ learn_folder: LocalFunctionality/Czech
 
 # Czech (CZ)
 
-> Czech (CZ) localization of Business Central 29. It covers VAT date, VAT statements and control reports, cash desk, bank payment orders and statements, advance payments, fixed assets tax depreciation, Intrastat, corrections posting and the unreliable payer check. It answers what the Czech layer adds to W1 and where Learn documents it.
+> Czech (CZ) localization of Business Central 29. It covers VAT date and VAT statements, corrections posting, cash desk, banking documents (payment orders, bank statements), advance payments, compensation, fixed assets tax depreciation, Intrastat, unreliable payer checks and Czech output documents. Use it for questions on what the Czech layer adds to W1.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/czech-republic.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Czech layer is delivered as several extensions, identified by object suffixes: CZL (Core Pack), CZA (Advance Pack), CZZ (Advance Payments), CZF (Fixed Assets), CZC (Compensation), CZP (Cash Desk), CZB (Bank Documents) and CZ (Intrastat). Almost all of it is new objects: about 1,780 in total, of which 401 codeunits, 275 table extensions, 434 page extensions and 133 reports. Few W1 objects are replaced. Most codeunits are event handlers (names ending in "Handler") that hook into W1 posting and document logic. Only 6 fields are added to W1 tables, for example on VAT Posting Setup and Bank Statement Matching Buffer.
+The Czech layer is large: 1790 objects, nearly all new. Only a few W1 tables and one codeunit are changed or replaced. It is split into extension-style packs, marked by suffix. CZL is the Core pack, CZA the Advanced pack, CZZ Advance Payments, CZP Cash Desk, CZB Banking Documents, CZF Fixed Assets and CZC Compensation. Many codeunits are named "Handler", which suggests the packs attach to W1 behavior through event subscribers. Table and page extensions add Czech fields. The code summary lists only 6 added fields on W1 tables (for example on "VAT Posting Setup", "Payment Buffer" and "Bank Statement Matching Buffer"). It lists no new events or procedures.
 
-Main capabilities are VAT date and VAT return periods, VAT statements with XML export, reverse charge, unreliable payer checks against the tax authority, ARES registration lookup, and corrections posting (red storno). Others are statutory company information, cash desk documents, payment orders and bank statements, advance letters for sales and purchases, tax depreciation of fixed assets, and Czech Intrastat. Inventory gets movement templates, transfer order posting groups and inventory documents. A set of Czech permission sets and output document reports accompanies these.
+The Core pack covers the VAT date and VAT periods, VAT statements and their XML export, the VAT control report, reverse charge, unreliable payer checks, ARES registration lookup, statutory company information, corrections posting (red storno), VAT exchange rate, sales credit memo types and many Czech output document reports. The Advanced pack adds general ledger entries application, automatic creation and update of dimensions, posting groups in transfer orders, extra fields on item ledger entries and value entries, and general product posting groups taken from stockkeeping units. Separate packs cover cash desk, banking documents, advance letters, compensation and Czech fixed assets, each with its own permission sets.
 
-Learn documents the features in pages such as "Core localization pack for Czech", "Cash Desk Localization for Czech (Extension)", "Banking Documents Localization for Czech (Extension)", "Advance Payments Localization for Czech (Extension)" and the "Czech local functionality" series. The series covers VAT, fixed assets, Intrastat, inventory and exchange rate adjustment.
+Learn documents these features on pages such as the Core Localization Base Pack, Cash Desk, Banking Documents, Advance Payments and the Czech local functionality series (VAT statement, Intrastat, Fixed assets, Inventory, Unreliable payer). The same series covers VIES and Statutory Statements.
 
 ## Key points
 
-- VAT: separate VAT date, VAT return periods, VAT statements with XML export, supplementary VAT statements, VAT exchange rate, reverse charge limit monitoring and VIES reporting.
-- Cash Desk (CZP): cash desk setup and users, receipt and withdrawal cash documents, cash desk cases as templates, reconciliation and release/post codeunits.
-- Banking Documents (CZB): payment orders with export, bank statement import and issue, SEPA credit transfer export, and matching of payments.
-- Advance Payments (CZZ): sales and purchase advance letters, VAT documents for payments, closing letters and foreign currency revaluation.
-- Fixed assets (CZF): tax depreciation groups, depreciation holidays, two-step acquisition, extended posting groups, classification codes and location/responsible history.
-- Vendor checks: unreliable payer status from the tax authority and ARES registration lookup for contacts, customers and vendors.
-- Corrections posting (red storno) and sales credit memo types for corrective tax documents.
-- Inventory and Intrastat: movement templates, transfer order posting groups, inventory documents, Czech Intrastat engine, and compensation of receivables and payables (CZC).
+- VAT date, VAT periods and the VAT statement (including XML export and supplementary statement) with Czech statutory reporting setup, plus separate VIES reporting.
+- Corrections posting (red storno) with Check Posting Debit/Credit setup and a Correction field in journals.
+- Cash Desk pack: cash documents for receipts and withdrawals, cash desk cases, reconciliation, approval, release and posting.
+- Banking Documents pack: payment orders and bank statements with import, export, SEPA export and matching.
+- Advance Payments pack: sales and purchase advance letters, VAT documents, foreign currency advances and control reports.
+- Fixed assets: tax depreciation groups, depreciation holidays, two-step acquisition, extended posting groups, classification codes, location and responsible history.
+- Unreliable payer checks on purchase documents, ARES registration lookup, and reverse charge with limit monitoring.
+- Inventory: Intrastat for CZ, inventory movement templates, posting groups in transfer orders, inventory operations documents and Czech output reports.
 
-Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: Czech (CZ) localization of Business Central in BC29: 1773 objects of its own, 8 W1 objects changed (6 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: Czech (CZ) localization of Business Central in BC29: 1782 objects of its own, 8 W1 objects changed (6 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
 | [Finance](#finance) | 2 | 775 | 2 |
-| [Inventory](#inventory) | 1 | 305 | 0 |
+| [Inventory](#inventory) | 1 | 314 | 0 |
 | [Bank](#bank) | 2 | 130 | 3 |
 | [(no namespace)](#no-namespace) | 0 | 124 | 0 |
 | [Sales](#sales) | 0 | 104 | 0 |
@@ -104,7 +104,7 @@ Narrative written by Sonnet from the code diff and 60 Learn page summaries. In n
 | [CRM](#crm) | 0 | 5 | 0 |
 | [Environment](#environment) | 0 | 5 | 0 |
 | [HumanResources](#humanresources) | 0 | 5 | 0 |
-| Upgrade | 1 | 4 | 0 |
+| [Upgrade](#upgrade) | 1 | 4 | 0 |
 | [Manufacturing](#manufacturing) | 0 | 4 | 0 |
 | Microsoft | 0 | 3 | 0 |
 | [Automation](#automation) | 0 | 2 | 0 |
@@ -115,149 +115,149 @@ Narrative written by Sonnet from the code diff and 60 Learn page summaries. In n
 
 ### Finance
 
-The largest area. It adds VAT date handling, VAT statements with XML export, VAT LCY correction, replace VAT period, corrections posting, and cash desk codeunits (CZP). It also adds the alternative customer VAT registration and compensation report selection handlers, unreliable payer and registration number logic, and CNB exchange rate import.
+The largest area (777 objects). It holds the VAT date and VAT statement logic, VAT LCY correction, corrections posting, CNB exchange rate import, registration number management and the whole Cash Desk (CZP) pack. It also holds the Advance Payments (CZZ) handlers. W1 "Detailed CV Ledg. Entry Buffer" gets a non-deductible VAT field.
 
-Why: Learn describes the VAT date as a tax date separate from posting and document dates, and VAT statements and the cash desk as meeting Czech legislation.
+Why: Learn explains the VAT date, VAT statement, corrections posting and cash desk requirements for Czech legislation.
 
-Objects: [codeunit/11723 "VAT Statement Calculation CZL"](../objects/codeunit/11723-cz.md) (own), [codeunit/11742 "VAT Date Handler CZL"](../objects/codeunit/11742-cz.md) (own), [codeunit/11741 "VAT Entry Handler CZL"](../objects/codeunit/11741-cz.md) (own), [codeunit/11724 "Cash Desk Management CZP"](../objects/codeunit/11724-cz.md) (own), [codeunit/11729 "Cash Document-Post CZP"](../objects/codeunit/11729-cz.md) (own), [codeunit/11762 "CNB Curr. Exch. Rate Mgt. CZL"](../objects/codeunit/11762-cz.md) (own), [codeunit/11769 "VAT LCY Correction Mgt. CZL"](../objects/codeunit/11769-cz.md) (own), [codeunit/11796 "Corrections Posting Mgt. CZL"](../objects/codeunit/11796-cz.md) (own).
+Objects: [codeunit/11723 "VAT Statement Calculation CZL"](../objects/codeunit/11723-cz.md) (own), [codeunit/11742 "VAT Date Handler CZL"](../objects/codeunit/11742-cz.md) (own), [codeunit/11796 "Corrections Posting Mgt. CZL"](../objects/codeunit/11796-cz.md) (own), [codeunit/11720 "Replace VAT Period Mgt. CZL"](../objects/codeunit/11720-cz.md) (own), [codeunit/11724 "Cash Desk Management CZP"](../objects/codeunit/11724-cz.md) (own), [codeunit/11729 "Cash Document-Post CZP"](../objects/codeunit/11729-cz.md) (own), [codeunit/11731 "Alt. Cust. VAT Reg. Orch. CZZ"](../objects/codeunit/11731-cz.md) (own), [table/383 "Detailed CV Ledg. Entry Buffer"](../objects/table/383.md).
 
 [All 777 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Inventory
 
-Intrastat for Czech (own tables, codeunits and enums), plus handlers for item journals, transfer orders and inventory documents. Posting groups on transfer orders and inventory movement templates are also handled here. Intrastat Jnl. Line (table 263) is changed from W1.
+Handlers for items, transfer orders, item journals and physical inventory, plus the Czech Intrastat management and inventory document print codeunits. It also covers origin interfaces. Intrastat Jnl. Line is changed.
 
-Why: Learn describes Intrastat parameterized engine options, supplementary units and CSV export, and transfer order posting groups and inventory documents for local needs.
+Why: Learn describes Intrastat engine setup, inventory movement templates, transfer order posting groups and time-sequence checks for inventory.
 
-Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [codeunit/31302 "IntrastatReportManagementCZ"](../objects/codeunit/31302-cz.md) (own), [codeunit/31303 "Intrastat Transformation CZ"](../objects/codeunit/31303-cz.md) (own), [enum/31301 "Intrastat Statement Type CZ"](../objects/enum/31301-cz.md) (own), [enum/31300 "Intrastat Rounding Type CZ"](../objects/enum/31300-cz.md) (own), [codeunit/31046 "Transfer Line Handler CZL"](../objects/codeunit/31046-cz.md) (own), [codeunit/31369 "Invt. Document Handler CZL"](../objects/codeunit/31369-cz.md) (own), [codeunit/31047 "Item Jnl-Post Line Handler CZL"](../objects/codeunit/31047-cz.md) (own).
+Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [codeunit/31302 "IntrastatReportManagementCZ"](../objects/codeunit/31302-cz.md) (own), [codeunit/31303 "Intrastat Transformation CZ"](../objects/codeunit/31303-cz.md) (own), [codeunit/11777 "Item Handler CZL"](../objects/codeunit/11777-cz.md) (own), [codeunit/31047 "Item Jnl-Post Line Handler CZL"](../objects/codeunit/31047-cz.md) (own), [codeunit/31369 "Invt. Document Handler CZL"](../objects/codeunit/31369-cz.md) (own), [codeunit/31229 "TransferOrder-Post Handler CZA"](../objects/codeunit/31229-cz.md) (own), [codeunit/31446 "Calculate Invent. Handler CZA"](../objects/codeunit/31446-cz.md) (own).
 
-[All 306 objects of Inventory in the diff](?ns=Inventory#country-diff)
+[All 315 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Bank
 
-Banking documents (CZB): payment orders and bank statements with issue, print, import and export codeunits, SEPA credit transfer export, payment matching and approvals. Also includes bank account handlers and the unreliable payer check for bank accounts.
+The Banking Documents (CZB) pack: payment orders, bank statements, issuing, SEPA export, import launchers, payment matching, approvals and unreliable payer bank checks. The W1 bank matching buffer gets advance letter fields.
 
-Why: Learn says the extension follows Czech banking practices, with specific, variable and constant symbols for payment identification.
+Why: Learn says the pack follows Czech banking practice with payment orders and bank statements across multiple accounts and currencies.
 
-Objects: [codeunit/31353 "Issue Payment Order CZB"](../objects/codeunit/31353-cz.md) (own), [codeunit/31357 "Issue Bank Statement CZB"](../objects/codeunit/31357-cz.md) (own), [codeunit/31232 "SEPA CT-Export File CZB"](../objects/codeunit/31232-cz.md) (own), [codeunit/31362 "Match Bank Payment CZB"](../objects/codeunit/31362-cz.md) (own), [codeunit/31399 "Import Bank Statement CZB"](../objects/codeunit/31399-cz.md) (own), [codeunit/31347 "Unreliable Payer Mgt. CZB"](../objects/codeunit/31347-cz.md) (own), [codeunit/31349 "Banking Approvals Mgt. CZB"](../objects/codeunit/31349-cz.md) (own), [codeunit/11776 "Bank Account Handler CZL"](../objects/codeunit/11776-cz.md) (own).
+Objects: [codeunit/31353 "Issue Payment Order CZB"](../objects/codeunit/31353-cz.md) (own), [codeunit/31357 "Issue Bank Statement CZB"](../objects/codeunit/31357-cz.md) (own), [codeunit/31232 "SEPA CT-Export File CZB"](../objects/codeunit/31232-cz.md) (own), [codeunit/31362 "Match Bank Payment CZB"](../objects/codeunit/31362-cz.md) (own), [codeunit/31399 "Import Bank Statement CZB"](../objects/codeunit/31399-cz.md) (own), [codeunit/31356 "Payment Order Management CZB"](../objects/codeunit/31356-cz.md) (own), [codeunit/31347 "Unreliable Payer Mgt. CZB"](../objects/codeunit/31347-cz.md) (own), [codeunit/11776 "Bank Account Handler CZL"](../objects/codeunit/11776-cz.md) (own).
 
 [All 132 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### (no namespace)
 
-Mostly plumbing: permission sets for each Czech extension, permission set extensions, and upgrade codeunits. It also holds page extensions such as VAT Setup CZZ and the Job, Purchase Return Order and Source Code Setup pages.
+Permission sets for each Czech pack (core, advance, advance payments, fixed asset, compensation, cash desk, bank documents, Intrastat). It also holds extensions of the standard D365 permission sets, a few page extensions and upgrade codeunits.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [permissionset/11730 "CZ Core Pack - Read CZL"](../objects/permissionset/11730-cz.md) (own), [permissionset/11731 "CZ Core Pack - Edit CZL"](../objects/permissionset/11731-cz.md) (own), [permissionset/11780 "CZ Cash Desk - Read CZP"](../objects/permissionset/11780-cz.md) (own), [permissionset/11790 "CZ Bank Documents - Read CZB"](../objects/permissionset/11790-cz.md) (own), [permissionset/31300 "Intrastat CZ - Read"](../objects/permissionset/31300-cz.md) (own), [pageextension/31235 "VAT Setup CZZ"](../objects/pageextension/31235-cz.md) (own), [permissionsetextension/11730 "D365 BASIC CZL"](../objects/permissionsetextension/11730-cz.md) (own), [codeunit/11790 "Local Upgrade Tag Definitions"](../objects/codeunit/11790-cz.md) (own).
+Objects: [permissionset/11730 "CZ Core Pack - Read CZL"](../objects/permissionset/11730-cz.md) (own), [permissionset/11731 "CZ Core Pack - Edit CZL"](../objects/permissionset/11731-cz.md) (own), [permissionset/11780 "CZ Cash Desk - Read CZP"](../objects/permissionset/11780-cz.md) (own), [permissionset/11790 "CZ Bank Documents - Read CZB"](../objects/permissionset/11790-cz.md) (own), [permissionset/31300 "Intrastat CZ - Read"](../objects/permissionset/31300-cz.md) (own), [permissionsetextension/11730 "D365 BASIC CZL"](../objects/permissionsetextension/11730-cz.md) (own), [pageextension/31235 "VAT Setup CZZ"](../objects/pageextension/31235-cz.md) (own), [codeunit/104150 "Upgrade - Local App"](../objects/codeunit/104150-cz.md) (own).
 
 [All 124 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Sales
 
-Handlers and page extensions that add Czech fields to customers, sales documents, reminders, finance charge memos and customer ledger entries. Includes the Credit Memo Type enum for corrective tax documents and customer bank account handling.
+Czech handlers and page extensions on customers, sales documents, reminders, finance charge memos and customer ledger entries. They add Czech document fields, including the credit memo type enum.
 
-Why: Learn states that Czech VAT law requires different types of sales credit memos: corrective tax document, internal correction and insolvency tax document.
+Why: Learn explains that Czech VAT law requires distinguishing types of sales credit memos, such as corrective tax documents, internal corrections and insolvency tax documents.
 
-Objects: [enum/11786 "Credit Memo Type CZL"](../objects/enum/11786-cz.md) (own), [codeunit/11743 "Sales Header Handler CZL"](../objects/codeunit/11743-cz.md) (own), [codeunit/11752 "Customer Handler CZL"](../objects/codeunit/11752-cz.md) (own), [codeunit/11783 "Sales Line Handler CZL"](../objects/codeunit/11783-cz.md) (own), [codeunit/31038 "Sales Posting Handler CZL"](../objects/codeunit/31038-cz.md) (own), [codeunit/11735 "Corr. Post. S.Inv. Handler CZL"](../objects/codeunit/11735-cz.md) (own), [pageextension/11727 "Sales Order CZL"](../objects/pageextension/11727-cz.md) (own), [pageextension/11704 "Customer Card CZL"](../objects/pageextension/11704-cz.md) (own).
+Objects: [enum/11786 "Credit Memo Type CZL"](../objects/enum/11786-cz.md) (own), [codeunit/11743 "Sales Header Handler CZL"](../objects/codeunit/11743-cz.md) (own), [codeunit/11735 "Corr. Post. S.Inv. Handler CZL"](../objects/codeunit/11735-cz.md) (own), [codeunit/11752 "Customer Handler CZL"](../objects/codeunit/11752-cz.md) (own), [codeunit/31038 "Sales Posting Handler CZL"](../objects/codeunit/31038-cz.md) (own), [codeunit/11749 "Reminder Handler CZL"](../objects/codeunit/11749-cz.md) (own), [pageextension/11727 "Sales Order CZL"](../objects/pageextension/11727-cz.md) (own), [pageextension/11704 "Customer Card CZL"](../objects/pageextension/11704-cz.md) (own).
 
 [All 104 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Purchases
 
-Unreliable payer entries and service setup, purchase document handlers, VAT delay posting, vendor bank account handling, and page extensions for purchase documents and archives. Item charge assignment is also extended.
+Unreliable payer service and management, purchase VAT delay posting, purchase document and vendor handlers, and extensions for vendor bank accounts and purchase documents.
 
-Why: Learn says unreliable payer status comes from the tax authority and purchase documents are checked against it before release.
+Why: Learn says the unreliable payer feature gets vendor reliability status from the tax authority and checks purchase documents before release.
 
-Objects: [codeunit/11757 "Unreliable Payer WS CZL"](../objects/codeunit/11757-cz.md) (own), [codeunit/11758 "Unreliable Payer Mgt. CZL"](../objects/codeunit/11758-cz.md) (own), [page/11753 "Unreliable Payer Entries CZL"](../objects/page/11753-cz.md) (own), [page/11754 "Unrel. Payer Service Setup CZL"](../objects/page/11754-cz.md) (own), [codeunit/11760 "Purchase VAT Delay Posting CZL"](../objects/codeunit/11760-cz.md) (own), [codeunit/11744 "Purchase Header Handler CZL"](../objects/codeunit/11744-cz.md) (own), [codeunit/11753 "Vendor Handler CZL"](../objects/codeunit/11753-cz.md) (own), [codeunit/31039 "Purchase Posting Handler CZL"](../objects/codeunit/31039-cz.md) (own).
+Objects: [codeunit/11757 "Unreliable Payer WS CZL"](../objects/codeunit/11757-cz.md) (own), [codeunit/11758 "Unreliable Payer Mgt. CZL"](../objects/codeunit/11758-cz.md) (own), [codeunit/11760 "Purchase VAT Delay Posting CZL"](../objects/codeunit/11760-cz.md) (own), [codeunit/11744 "Purchase Header Handler CZL"](../objects/codeunit/11744-cz.md) (own), [codeunit/11753 "Vendor Handler CZL"](../objects/codeunit/11753-cz.md) (own), [page/11753 "Unreliable Payer Entries CZL"](../objects/page/11753-cz.md) (own), [page/11754 "Unrel. Payer Service Setup CZL"](../objects/page/11754-cz.md) (own), [codeunit/31039 "Purchase Posting Handler CZL"](../objects/codeunit/31039-cz.md) (own).
 
 [All 101 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### FixedAssets
 
-Czech fixed assets (CZF): tax depreciation groups and types, extended posting groups, classification codes, FA history of location and responsible employee, and handlers for acquisition, disposal and normal depreciation. Corrective posting checks on FA journals are included.
+Czech fixed assets (CZF): tax depreciation groups and methods, FA history of location and responsible employee, extended posting groups, classification codes, disposal and acquisition handlers.
 
-Why: Learn ties tax depreciation to the Income Tax Act and describes two-step acquisition, depreciation holidays and disposal posting rules.
+Why: Learn ties this to Czech Income Tax Act rules for tax depreciation, depreciation holidays and the two-step acquisition.
 
-Objects: [codeunit/31247 "Calc. Normal Depr. Handler CZF"](../objects/codeunit/31247-cz.md) (own), [codeunit/31236 "FA Acquisition Handler CZF"](../objects/codeunit/31236-cz.md) (own), [codeunit/31235 "FA Disposal Handler CZF"](../objects/codeunit/31235-cz.md) (own), [codeunit/31237 "FA History Management CZF"](../objects/codeunit/31237-cz.md) (own), [page/31249 "Tax Depreciation Groups CZF"](../objects/page/31249-cz.md) (own), [page/31245 "FA Extended Posting Groups CZF"](../objects/page/31245-cz.md) (own), [page/31247 "Classification Codes CZF"](../objects/page/31247-cz.md) (own), [enum/31240 "Tax Depreciation Type CZF"](../objects/enum/31240-cz.md) (own).
+Objects: [codeunit/31247 "Calc. Normal Depr. Handler CZF"](../objects/codeunit/31247-cz.md) (own), [codeunit/31237 "FA History Management CZF"](../objects/codeunit/31237-cz.md) (own), [codeunit/31236 "FA Acquisition Handler CZF"](../objects/codeunit/31236-cz.md) (own), [codeunit/31235 "FA Disposal Handler CZF"](../objects/codeunit/31235-cz.md) (own), [enum/31240 "Tax Depreciation Type CZF"](../objects/enum/31240-cz.md) (own), [page/31249 "Tax Depreciation Groups CZF"](../objects/page/31249-cz.md) (own), [page/31247 "Classification Codes CZF"](../objects/page/31247-cz.md) (own), [page/31245 "FA Extended Posting Groups CZF"](../objects/page/31245-cz.md) (own).
 
 [All 81 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ### Service
 
-Table extensions, page extensions, handlers and reports that bring the Czech VAT fields and output documents to service documents. Reports cover service quote, order, contract, invoice, credit memo and shipment.
+Czech fields, handlers and page extensions on service documents and posting, plus Czech service reports (quote, order, contract, invoice, credit memo, shipment).
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/11745 "Service Header Handler CZL"](../objects/codeunit/11745-cz.md) (own), [codeunit/11785 "Service Line Handler CZL"](../objects/codeunit/11785-cz.md) (own), [codeunit/31040 "Service Posting Handler CZL"](../objects/codeunit/31040-cz.md) (own), [report/31197 "Service Invoice CZL"](../objects/report/31197-cz.md) (own), [report/31198 "Service Credit Memo CZL"](../objects/report/31198-cz.md) (own), [report/31194 "Service Order CZL"](../objects/report/31194-cz.md) (own), [tableextension/11734 "Service Header CZL"](../objects/tableextension/11734-cz.md) (own), [tableextension/11763 "Service Line CZL"](../objects/tableextension/11763-cz.md) (own).
+Objects: [codeunit/31040 "Service Posting Handler CZL"](../objects/codeunit/31040-cz.md) (own), [codeunit/11745 "Service Header Handler CZL"](../objects/codeunit/11745-cz.md) (own), [codeunit/11785 "Service Line Handler CZL"](../objects/codeunit/11785-cz.md) (own), [report/31197 "Service Invoice CZL"](../objects/report/31197-cz.md) (own), [report/31198 "Service Credit Memo CZL"](../objects/report/31198-cz.md) (own), [report/31194 "Service Order CZL"](../objects/report/31194-cz.md) (own), [tableextension/11734 "Service Header CZL"](../objects/tableextension/11734-cz.md) (own), [pageextension/11748 "Service Order CZL"](../objects/pageextension/11748-cz.md) (own).
 
 [All 43 objects of Service in the diff](?ns=Service#country-diff)
 
 ### Foundation
 
-Statutory company information: company officials, statutory reporting setup, and extensions to Company Information. Also covers report selection and substitute report handlers, address formatting, and Where Used Base Calendar (table 7604) as a W1 change.
+Statutory company information: company officials, statutory reporting setup, extended company information, report selection, substitute reports and address formatting.
 
-Why: Learn says companies must define company officials and multilingual document footers on internal and external documents.
+Why: Learn says Czech law requires company officials and multilingual document footers on documents.
 
-Objects: [table/11793 "Company Official CZL"](../objects/table/11793-cz.md) (own), [page/11766 "Company Official Card CZL"](../objects/page/11766-cz.md) (own), [page/11765 "Company Official List CZL"](../objects/page/11765-cz.md) (own), [table/31105 "Statutory Reporting Setup CZL"](../objects/table/31105-cz.md) (own), [page/31108 "Statutory Reporting Setup CZL"](../objects/page/31108-cz.md) (own), [codeunit/31041 "Company Info Handler CZL"](../objects/codeunit/31041-cz.md) (own), [codeunit/31411 "Report Selection Handler CZL"](../objects/codeunit/31411-cz.md) (own), [codeunit/31144 "Format Address Handler CZL"](../objects/codeunit/31144-cz.md) (own).
+Objects: [table/11793 "Company Official CZL"](../objects/table/11793-cz.md) (own), [page/11766 "Company Official Card CZL"](../objects/page/11766-cz.md) (own), [table/31105 "Statutory Reporting Setup CZL"](../objects/table/31105-cz.md) (own), [page/31108 "Statutory Reporting Setup CZL"](../objects/page/31108-cz.md) (own), [codeunit/31411 "Report Selection Handler CZL"](../objects/codeunit/31411-cz.md) (own), [codeunit/31097 "Substitute Report Handler CZL"](../objects/codeunit/31097-cz.md) (own), [tableextension/11747 "Company Information CZL"](../objects/tableextension/11747-cz.md) (own), [codeunit/31041 "Company Info Handler CZL"](../objects/codeunit/31041-cz.md) (own).
 
 [All 23 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Security
 
-Extended user setup: user setup lines and cards, user setup per code buffer, copy and list reports, and certificate codes. User setup is extended with Czech fields.
+Extended user setup with user setup lines and a copy and list report, plus certificate codes. This controls access to cash desks, bank accounts, journals and posting periods.
 
-Why: Learn describes extended user control that assigns employees to users and limits cash desks, bank accounts, journals, dimensions and locations.
+Why: Learn describes extended user control that assigns employees to users and manages permissions for these areas.
 
-Objects: [table/11797 "User Setup Line CZL"](../objects/table/11797-cz.md) (own), [page/31198 "User Setup Card CZL"](../objects/page/31198-cz.md) (own), [page/31199 "User Setup Lines CZL"](../objects/page/31199-cz.md) (own), [codeunit/31072 "User Setup Adv. Management CZL"](../objects/codeunit/31072-cz.md) (own), [report/31200 "Copy User Setup CZL"](../objects/report/31200-cz.md) (own), [table/31132 "Certificate Code CZL"](../objects/table/31132-cz.md) (own), [tableextension/11717 "User Setup CZL"](../objects/tableextension/11717-cz.md) (own), [pageextension/11721 "User Setup CZL"](../objects/pageextension/11721-cz.md) (own).
+Objects: [table/11797 "User Setup Line CZL"](../objects/table/11797-cz.md) (own), [page/31198 "User Setup Card CZL"](../objects/page/31198-cz.md) (own), [codeunit/31072 "User Setup Adv. Management CZL"](../objects/codeunit/31072-cz.md) (own), [report/31200 "Copy User Setup CZL"](../objects/report/31200-cz.md) (own), [table/31132 "Certificate Code CZL"](../objects/table/31132-cz.md) (own), [tableextension/11717 "User Setup CZL"](../objects/tableextension/11717-cz.md) (own), [pageextension/11721 "User Setup CZL"](../objects/pageextension/11721-cz.md) (own).
 
 [All 16 objects of Security in the diff](?ns=Security#country-diff)
 
 ### Projects
 
-Handlers and extensions on job journal lines, job ledger entries and resources. They add Czech fields and checks in job and resource journal posting.
+Handlers and extensions on job journals, job ledger entries and resources for Czech fields and checks.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/31077 "Job Journal Line Handler CZL"](../objects/codeunit/31077-cz.md) (own), [codeunit/31026 "Job Transfer Line Handler CZL"](../objects/codeunit/31026-cz.md) (own), [codeunit/31312 "Job Jnl.Check Line Handler CZL"](../objects/codeunit/31312-cz.md) (own), [tableextension/11710 "Job Journal Line CZL"](../objects/tableextension/11710-cz.md) (own), [tableextension/11795 "Job Ledger Entry CZL"](../objects/tableextension/11795-cz.md) (own), [codeunit/31324 "Job Handler CZL"](../objects/codeunit/31324-cz.md) (own), [tableextension/11762 "Resource CZL"](../objects/tableextension/11762-cz.md) (own).
+Objects: [codeunit/31077 "Job Journal Line Handler CZL"](../objects/codeunit/31077-cz.md) (own), [codeunit/31324 "Job Handler CZL"](../objects/codeunit/31324-cz.md) (own), [codeunit/31312 "Job Jnl.Check Line Handler CZL"](../objects/codeunit/31312-cz.md) (own), [tableextension/11710 "Job Journal Line CZL"](../objects/tableextension/11710-cz.md) (own), [tableextension/11795 "Job Ledger Entry CZL"](../objects/tableextension/11795-cz.md) (own), [tableextension/11762 "Resource CZL"](../objects/tableextension/11762-cz.md) (own).
 
 [All 13 objects of Projects in the diff](?ns=Projects#country-diff)
 
 ### Assembly
 
-Table and page extensions that add Czech Advance Pack fields to assembly setup, assembly orders and posted assembly orders.
+Czech Advanced pack extensions on assembly setup, assembly orders and posted assembly orders.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [tableextension/31257 "Assembly Setup CZA"](../objects/tableextension/31257-cz.md) (own), [tableextension/31258 "Assembly Header CZA"](../objects/tableextension/31258-cz.md) (own), [tableextension/31259 "Assembly Line CZA"](../objects/tableextension/31259-cz.md) (own), [pageextension/31253 "Assembly Order CZA"](../objects/pageextension/31253-cz.md) (own), [pageextension/31252 "Assembly Setup CZA"](../objects/pageextension/31252-cz.md) (own), [tableextension/31260 "Posted Assembly Header CZA"](../objects/tableextension/31260-cz.md) (own).
+Objects: [tableextension/31257 "Assembly Setup CZA"](../objects/tableextension/31257-cz.md) (own), [tableextension/31258 "Assembly Header CZA"](../objects/tableextension/31258-cz.md) (own), [tableextension/31259 "Assembly Line CZA"](../objects/tableextension/31259-cz.md) (own), [pageextension/31253 "Assembly Order CZA"](../objects/pageextension/31253-cz.md) (own), [pageextension/31252 "Assembly Setup CZA"](../objects/pageextension/31252-cz.md) (own).
 
 [All 10 objects of Assembly in the diff](?ns=Assembly#country-diff)
 
 ### Utilities
 
-Document footers (table and page), format document management, copy document handler, data classification handlers, and synchronization of deprecated fields.
+Support objects: document footers, Excel-style format helpers, copy document handler, instruction management and data sync from old fields.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/31119 "Document Footer CZL"](../objects/table/31119-cz.md) (own), [page/31119 "Document Footers CZL"](../objects/page/31119-cz.md) (own), [codeunit/11701 "Format Document Mgt. CZL"](../objects/codeunit/11701-cz.md) (own), [codeunit/11740 "Copy Document Mgt. Handler CZL"](../objects/codeunit/11740-cz.md) (own), [codeunit/11719 "Sync.Dep.Fld-VATPeriod CZL"](../objects/codeunit/11719-cz.md) (own), [codeunit/31028 "Instruction Mgt. CZL"](../objects/codeunit/31028-cz.md) (own), [codeunit/31150 "Sync.Dep.Fld-SalesHeader CZL"](../objects/codeunit/31150-cz.md) (own).
+Objects: [table/31119 "Document Footer CZL"](../objects/table/31119-cz.md) (own), [page/31119 "Document Footers CZL"](../objects/page/31119-cz.md) (own), [codeunit/11701 "Format Document Mgt. CZL"](../objects/codeunit/11701-cz.md) (own), [codeunit/11740 "Copy Document Mgt. Handler CZL"](../objects/codeunit/11740-cz.md) (own), [codeunit/11719 "Sync.Dep.Fld-VATPeriod CZL"](../objects/codeunit/11719-cz.md) (own), [codeunit/31028 "Instruction Mgt. CZL"](../objects/codeunit/31028-cz.md) (own).
 
 [All 10 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
 ### IO
 
-Excel templates, transformation rule management, and extensions to data exchange field mapping for Advance Pack.
+Excel templates and data exchange extensions, plus transformation rule management.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/11750 "Excel Template CZL"](../objects/table/11750-cz.md) (own), [page/11729 "Excel Templates CZL"](../objects/page/11729-cz.md) (own), [codeunit/11778 "Transformation Rule Mgt. CZL"](../objects/codeunit/11778-cz.md) (own), [tableextension/31267 "Data Exch. Field Mapping CZA"](../objects/tableextension/31267-cz.md) (own), [pageextension/31243 "Data Exch Field Mapp. Part CZA"](../objects/pageextension/31243-cz.md) (own).
+Objects: [table/11750 "Excel Template CZL"](../objects/table/11750-cz.md) (own), [page/11729 "Excel Templates CZL"](../objects/page/11729-cz.md) (own), [codeunit/11778 "Transformation Rule Mgt. CZL"](../objects/codeunit/11778-cz.md) (own), [codeunit/31403 "Process Data Exch. Handler CZA"](../objects/codeunit/31403-cz.md) (own), [tableextension/31267 "Data Exch. Field Mapping CZA"](../objects/tableextension/31267-cz.md) (own).
 
 [All 6 objects of IO in the diff](?ns=IO#country-diff)
 
 ### CRM
 
-Contact handler and extensions of the contact table, card and list, with Czech fields such as registration data.
+Contact handling and Czech fields on contacts, such as registration data.
 
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+Why: Learn describes ARES lookup that updates contacts, vendors and customers.
 
 Objects: [codeunit/11751 "Contact Handler CZL"](../objects/codeunit/11751-cz.md) (own), [tableextension/11700 "Contact CZL"](../objects/tableextension/11700-cz.md) (own), [pageextension/11703 "Contact Card CZL"](../objects/pageextension/11703-cz.md) (own), [pageextension/31223 "Contact List CZL"](../objects/pageextension/31223-cz.md) (own).
 
@@ -265,29 +265,39 @@ Objects: [codeunit/11751 "Contact Handler CZL"](../objects/codeunit/11751-cz.md)
 
 ### Environment
 
-Guided experience and application area handlers, a manual setup category, and the feature switch for replacing VAT period.
+Guided experience entries, application area handling, and the feature to replace the VAT period.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/11747 "Guided Experience Handler CZL"](../objects/codeunit/11747-cz.md) (own), [codeunit/11722 "Feature Replace VAT Period CZL"](../objects/codeunit/11722-cz.md) (own), [codeunit/31441 "Application Area Handler CZL"](../objects/codeunit/31441-cz.md) (own), [enumextension/11707 "Feature To Update - CZL"](../objects/enumextension/11707-cz.md) (own), [enumextension/11704 "Manual Setup Category CZL"](../objects/enumextension/11704-cz.md) (own).
+Objects: [codeunit/11722 "Feature Replace VAT Period CZL"](../objects/codeunit/11722-cz.md) (own), [codeunit/11747 "Guided Experience Handler CZL"](../objects/codeunit/11747-cz.md) (own), [codeunit/31441 "Application Area Handler CZL"](../objects/codeunit/31441-cz.md) (own), [enumextension/11707 "Feature To Update - CZL"](../objects/enumextension/11707-cz.md) (own), [enumextension/11704 "Manual Setup Category CZL"](../objects/enumextension/11704-cz.md) (own).
 
 [All 5 objects of Environment in the diff](?ns=Environment#country-diff)
 
 ### HumanResources
 
-Employee handler, extensions of the employee ledger entry and Human Resources Setup. They support alternative posting groups for employees.
+Employee handler, employee ledger entry fields and HR setup extensions, used by alternative employee posting groups.
 
-Why: Learn describes alternative employee posting groups so payables and receivables can post to other G/L accounts than the default group.
+Why: Learn describes alternative posting groups for employees.
 
 Objects: [codeunit/11750 "Employee Handler CZL"](../objects/codeunit/11750-cz.md) (own), [codeunit/31136 "Emp. Ledger Entry Handler CZL"](../objects/codeunit/31136-cz.md) (own), [tableextension/11790 "Employee Ledger Entry CZL"](../objects/tableextension/11790-cz.md) (own), [tableextension/31075 "Human Resources Setup CZL"](../objects/tableextension/31075-cz.md) (own), [pageextension/31100 "Employee Ledger Entries CZL"](../objects/pageextension/31100-cz.md) (own).
 
 [All 5 objects of HumanResources in the diff](?ns=HumanResources#country-diff)
 
-### Manufacturing
+### Upgrade
 
-Advance Pack extensions of Manufacturing Setup and Capacity Ledger Entry, with a user handler.
+Upgrade codeunits and upgrade tags for the Core and Advanced packs, and a change to the W1 VAT date update codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/104051 "Update VAT Date Field"](../objects/codeunit/104051.md), [codeunit/31017 "Upgrade Application CZL"](../objects/codeunit/31017-cz.md) (own), [codeunit/31251 "Upgrade Application CZA"](../objects/codeunit/31251-cz.md) (own).
+
+[All 5 objects of Upgrade in the diff](?ns=Upgrade#country-diff)
+
+### Manufacturing
+
+Advanced pack fields on manufacturing setup and capacity ledger entries, plus a user handler.
+
+Why: Learn mentions manufacturing cost controls in the Advanced pack.
 
 Objects: [tableextension/31256 "Manufacturing Setup CZA"](../objects/tableextension/31256-cz.md) (own), [pageextension/31251 "Manufacturing Setup CZA"](../objects/pageextension/31251-cz.md) (own), [tableextension/31264 "Capacity Ledger Entry CZA"](../objects/tableextension/31264-cz.md) (own), [codeunit/11702 "User Handler CZA"](../objects/codeunit/11702-cz.md) (own).
 
@@ -305,7 +315,7 @@ Objects: [codeunit/31396 "Workflow Response Handling CZL"](../objects/codeunit/3
 
 ### CashFlow
 
-A cash flow handler and a Cash Flow Date List report.
+A cash flow handler and a cash flow date list report.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -315,7 +325,7 @@ Objects: [codeunit/31045 "Cash Flow Handler CZL"](../objects/codeunit/31045-cz.m
 
 ### Warehouse
 
-Handlers for warehouse journal lines and warehouse worksheet lines.
+Handlers for warehouse journal lines and worksheet lines.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -325,7 +335,7 @@ Objects: [codeunit/31319 "Whse. Journal Line Handler CZL"](../objects/codeunit/3
 
 ### Integration
 
-SOAP web service request management, used for services such as the unreliable payer lookup.
+A SOAP web service request helper, used for external lookups such as unreliable payer.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -335,7 +345,7 @@ Objects: [codeunit/31031 "SOAP WS Request Management CZL"](../objects/codeunit/3
 
 ### RoleCenters
 
-A page extension that adds Czech actions to the Administrator Main role center.
+Czech actions added to the Administrator role center.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -358,7 +368,7 @@ Objects: [pageextension/31161 "Administrator Main RC CZL"](../objects/pageextens
 
 ## Objects of its own
 
-1773 objects only this country has.
+1782 objects only this country has.
 
 - [codeunit/11700 "Acc. Schedule Management CZL"](../objects/codeunit/11700-cz.md)
 - [codeunit/11701 "Format Document Mgt. CZL"](../objects/codeunit/11701-cz.md)
@@ -559,6 +569,11 @@ Objects: [pageextension/31161 "Administrator Main RC CZL"](../objects/pageextens
 - [codeunit/31156 "Pstd.Gen.Jnl.Line Handler CZL"](../objects/codeunit/31156-cz.md)
 - [codeunit/31157 "Non-Deductible VAT CZZ"](../objects/codeunit/31157-cz.md)
 - [codeunit/31158 "G/L Entry as Correction CZL"](../objects/codeunit/31158-cz.md)
+- [codeunit/31159 "Item Card Origin CZ"](../objects/codeunit/31159-cz.md)
+- [codeunit/31160 "Posted Entries Origin CZ"](../objects/codeunit/31160-cz.md)
+- [codeunit/31163 "Item Entry Origin CZ"](../objects/codeunit/31163-cz.md)
+- [codeunit/31164 "Job Entry Origin CZ"](../objects/codeunit/31164-cz.md)
+- [codeunit/31165 "No Posted Origin CZ"](../objects/codeunit/31165-cz.md)
 - [codeunit/31167 "Exch. Rate Adjmt. Mgt. CZL"](../objects/codeunit/31167-cz.md)
 - [codeunit/31168 "VAT Report Suggest Lines CZL"](../objects/codeunit/31168-cz.md)
 - [codeunit/31169 "VAT Report Export CZL"](../objects/codeunit/31169-cz.md)
@@ -834,6 +849,8 @@ Objects: [pageextension/31161 "Administrator Main RC CZL"](../objects/pageextens
 - [enum/31274 "Compensation Source Type CZC"](../objects/enum/31274-cz.md)
 - [enum/31300 "Intrastat Rounding Type CZ"](../objects/enum/31300-cz.md)
 - [enum/31301 "Intrastat Statement Type CZ"](../objects/enum/31301-cz.md)
+- [enum/31302 "Get Country/Reg. of Origin CZ"](../objects/enum/31302-cz.md)
+- [enum/31303 "Intrastat Posted Source CZ"](../objects/enum/31303-cz.md)
 - [enumextension/5607 "Purchase FA Posting Type CZF"](../objects/enumextension/5607-cz.md)
 - [enumextension/11700 "VAT Statement Line Type CZL"](../objects/enumextension/11700-cz.md)
 - [enumextension/11701 "Invt.Post.Buffer Acc. Type CZL"](../objects/enumextension/11701-cz.md)
@@ -871,6 +888,8 @@ Objects: [pageextension/31161 "Administrator Main RC CZL"](../objects/pageextens
 - [enumextension/31300 "Manual Setup Category CZ"](../objects/enumextension/31300-cz.md)
 - [interface/alt. cust. vat reg. adv. czz "Alt. Cust. VAT Reg. Adv. CZZ"](../objects/interface/alt-cust-vat-reg-adv-czz-cz.md)
 - [interface/eet cash register czl "EET Cash Register CZL"](../objects/interface/eet-cash-register-czl-cz.md)
+- [interface/intrastat origin mode cz "Intrastat Origin Mode CZ"](../objects/interface/intrastat-origin-mode-cz-cz.md)
+- [interface/intrastat posted origin cz "Intrastat Posted Origin CZ"](../objects/interface/intrastat-posted-origin-cz-cz.md)
 - [interface/vat control report export czl "VAT Control Report Export CZL"](../objects/interface/vat-control-report-export-czl-cz.md)
 - [interface/vat statement export czl "VAT Statement Export CZL"](../objects/interface/vat-statement-export-czl-cz.md)
 - [page/11700 "Constant Symbols CZL"](../objects/page/11700-cz.md)

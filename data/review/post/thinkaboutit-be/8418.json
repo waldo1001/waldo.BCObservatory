@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/8418",
+  "input_hash": "e8206f628d52dd07c74de4c94bb602e8b5f5540a11d812e6626cde6d07ec870d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-25T01:04:41.477Z",
+  "issues": [
+    "System reporting is not supported; the post is about acceptance testing with Page Scripting, not reports.",
+    "Summary, key points, quotes and features match the post; CI/CD support is correctly noted as already existing."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036813,
+    "posts_in_call": 3
+  }
+}

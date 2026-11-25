@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14077",
+  "input_hash": "d7229ae4045af2f2651629fa2ef6ecabef95536fc63490cbb967502e2e5ab7ec",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-25T01:04:58.447Z",
+  "issues": [
+    "Wildcards are not escaped. When a value contains filter characters, the filter result is treated as a superset and only exact case-insensitive matches are kept.",
+    "The renamed column was originally called Table Filter."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017318,
+    "changes_in_call": 6
+  }
+}

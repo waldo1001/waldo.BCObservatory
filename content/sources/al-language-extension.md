@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:10:49.229Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f401933accc2b364fdf88215be1ffa1f59d37b6f7da5537d6b69c0bdc19ce2cf
@@ -47,13 +47,13 @@ footprint:
       weight: 64
   topics:
     - id: github issues
-      weight: 35
+      weight: 34
     - id: miscellaneous
       weight: 29
     - id: appsourcecop
       weight: 9
     - id: bug fixes
-      weight: 7
+      weight: 6
     - id: bugs fixed
       weight: 6
     - id: inherent permissions
@@ -82,10 +82,10 @@ last_item: "2026-10-19"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (64) | github issues (35) |  |
+| development (64) | github issues (34) |  |
 |  | miscellaneous (29) |  |
 |  | appsourcecop (9) |  |
-|  | bug fixes (7) |  |
+|  | bug fixes (6) |  |
 |  | bugs fixed (6) |  |
 |  | inherent permissions (3) |  |
 |  | agents in business central move to gpt-5.3-chat (2) |  |

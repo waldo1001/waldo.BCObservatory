@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:40.869Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,7 @@ Read the introductory page first to see what the integration does. Then read the
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Introducing: Dynamics 365 Field Service Integration with Business Central (2024 release wave 1)](../../../videos/ByRoL46n-Gg.md) (video): "Field Service Integration with Business Central (2024 release wave 1)"
-- [What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)](../../../videos/Jbo2DOCd7Pw.md) (video): "Field Service Integration for Projects; Field Service Integration for Service Management; Data Synchronization"
+- [What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)](../../../videos/Jbo2DOCd7Pw.md) (video): "Field Service Integration for Projects; Dataverse Data Sync Technology"
 - [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management (2024 release wave 2)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

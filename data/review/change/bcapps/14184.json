@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14184",
+  "input_hash": "3742f05791ac18b5210d023e7aee68094099445b354a9b042d45d205bb2bce14",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-25T01:04:58.447Z",
+  "issues": [
+    "The page matches the title and the changed files. Calling the cause 'email validation' is a light inference from the title."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017318,
+    "changes_in_call": 6
+  }
+}

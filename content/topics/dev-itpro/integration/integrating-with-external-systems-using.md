@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,8 +44,6 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2907
-    - post/demiliani-com/11817
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
     - post/yzhums-com/65857
   guidelines: []
   changes:
@@ -70,7 +68,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 4
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 7b01fcfd0114917bb1dd15f243b051ffc89de365454052135af57f304ef9685e
@@ -123,9 +121,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9014 [E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit](../../../changes/bcapps/9014.md) (code change): "Partners can now call its functions from their own E-Document implementations"
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "E-Document purchase draft lines subform now includes a read-only Name column"
 - [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Digital Vouchers now automatically attach generated E-Documents to posted sales"
-- [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions which function as web hooks"
-- [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "external systems can push data to Business Central automatically when changes occur"
-- [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "export data from Business Central to CSV format using the CSV Buffer table"
+- [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions page lists all subscriptions events and notification URLs"
 - [Dynamics 365 Business Central: How to deprecate external business events (ExternalBusinessEvent)](../../../posts/yzhums-com/65857.md) (community post): "External business events enable Business Central to notify and trigger actions in external systems"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

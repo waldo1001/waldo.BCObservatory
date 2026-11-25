@@ -2,20 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned
 type: topic
 title: What's new and planned
-summary: "Release information for Business Central: the six-month release cycle, monthly minor updates, and per-update notes for 2026 release wave 2 (29.0 and 29.1), plus archived notes from 15.2 through 28.5. It answers which update introduced or changed a feature, hotfix, localization, deprecation or upgrade path."
+summary: "What's new and planned in Business Central: release notes by update, from the current 2026 release wave 2 (29.0, 29.1) back to 15.2. It answers which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note, and how releases are planned."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-11-24T01:05:18.114Z"
+  at: "2026-11-25T01:06:07.610Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c6cc371c9b4e626cd2e4b31556e91c876c042981b2c3f27bbe9f0e6518e9f683
+  input_hash: e38a01c3239bd2eec9a0fa5692518a3d95c7883244d9f3481d9db63fb2edfe53
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -329,28 +329,27 @@ narrative: generated
 
 # What's new and planned
 
-> Release information for Business Central: the six-month release cycle, monthly minor updates, and per-update notes for 2026 release wave 2 (29.0 and 29.1), plus archived notes from 15.2 through 28.5. It answers which update introduced or changed a feature, hotfix, localization, deprecation or upgrade path.
+> What's new and planned in Business Central: release notes by update, from the current 2026 release wave 2 (29.0, 29.1) back to 15.2. It answers which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note, and how releases are planned.
 
 Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section tells you what is released and what is coming in Business Central. The landing page explains the six-month release cycle, the monthly minor updates and regulatory updates. It also says that feature planning and rollout progress now live in the Microsoft Copilot Roadmap.
+This section tracks what has shipped and what is coming in Business Central. The landing page explains the six-month release cycle, the monthly minor updates and regulatory updates. It also says that feature planning has moved to the Microsoft Copilot Roadmap, where you can follow feature tracking and rollout progress.
 
-Two pages cover the current 2026 release wave 2. Update 29.0 lists new and updated features by area, such as Copilot agents, AL development, e-documents, ecommerce, expense management, finance, governance, reporting, supply chain and sustainability. Update 29.1 adds localization items, e-document changes, expense and payables agent work, finance capabilities and Copilot integration. It also covers hotfixes and upgrade paths.
+Two pages cover the 2026 release wave 2 updates. Update 29.0 lists new and updated features across Copilot agents, AL development, e-documents, ecommerce, expense management, finance, governance, reporting, supply chain and sustainability. Update 29.1 adds localization items, e-documents, expense and payables agents, finance capabilities and Copilot integration. It also covers hotfixes and upgrade paths.
 
-Start with the landing page for the release cadence, then open the 29.0 or 29.1 page for the version you run. For older versions, use the subtopic "Updates for earlier major versions". It holds 72 pages of release notes from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1).
+For older versions, use the subtopic "Updates for earlier major versions". It holds 72 pages of release notes from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus the What's New pages for 26.0, 27.0 preview and 28.0 preview. Start on the landing page for the current picture. Then open the page for the version you are checking.
 
 ## Key points
 
 - Business Central follows a six-month release cycle with monthly minor updates and regulatory updates.
-- Feature planning and rollout progress are tracked in the Microsoft Copilot Roadmap.
-- Update 29.0 (2026 release wave 2) has both generally available and public preview features.
-- 29.0 items include purchase order matching in Payables Agent, agent permissions management, the agent task pane, AL index control and AL interface default implementations.
-- Update 29.1 includes Austria and Iceland SAF-T audit file formats, a French localization extension, Germany euBP with audit files export, Czechia EET integration and a Belgium non-deductible VAT framework.
-- The 29.1 page also covers hotfixes and upgrade paths.
-- Earlier release notes run from 15.2 (2019 release wave 2) to 28.5 (2026 release wave 1), including the 26.0, 27.0 and 28.0 feature overviews.
-- Use the archived notes to trace which update introduced or changed a feature, localization, telemetry item or deprecation.
+- Feature planning has moved to the Microsoft Copilot Roadmap, which shows feature tracking and rollout progress.
+- Update 29.0 (2026 release wave 2) covers Copilot agents, AL development, e-documents, ecommerce, expense management, finance, governance, reporting, supply chain and sustainability, with both general availability and public preview items.
+- 29.0 items include the Microsoft Copilot chat experience, purchase order matching in Payables Agent, agent permissions management, the agent task pane, the AL index control and AL interface default implementations.
+- Update 29.1 adds localization items: Austria SAF-T, Iceland SAF-T, the French localization extension, Germany euBP with audit files export, Czechia EET integration and the Belgium non-deductible VAT framework. It also covers hotfixes and upgrade paths.
+- The archive of earlier updates covers 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1) in 72 pages, plus the What's New pages for 26.0, 27.0 preview and 28.0 preview.
+- Use the archive to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
 
 ## Subtopics
 

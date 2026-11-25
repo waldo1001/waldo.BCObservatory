@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,8 +107,7 @@ links:
   localizations: []
   videos:
     - video/QGIr_XPp8lk
-  posts:
-    - post/aardvarklabs-blog/4082
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10130
@@ -129,7 +128,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 198bbaa7e4c9ee4e788121e511fb23fa78de1ec0a3f9625833096531ab5a506e
@@ -186,7 +185,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](../../../../changes/bcapps/13824.md) (code change): "Fabric namespace fields on the setup pages and API now convert entered values to lowercase"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
-- [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "AL-defined APIs are the future direction Microsoft is moving toward"
 - [What's New: Extending E-Documents with New Interface (2025 release wave 1)](../../../../videos/QGIr_XPp8lk.md) (video): "I document sender interface; I document response handler interface"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

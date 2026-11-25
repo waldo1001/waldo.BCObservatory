@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,10 @@ links:
     - topic/dev-itpro/integration/web-services
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/jpearson-blog/1485
+    - post/jpearson-blog/1535
+    - post/yzhums-com/65525
   guidelines: []
   changes:
     - change/bcapps/11016
@@ -101,7 +104,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 4cc591df9ed392d40fdbd824d2af29a0ad8b2630152dcb1497a0ce948eb96f88
@@ -160,5 +163,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "Security fix that stops crafted URLs from reading files on the server"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "disable default credentials by default and require callers to opt in"
 - [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](../../../../changes/bcapps/14400.md) (code change): "explicit permission errors instead of silently stopping synchronization"
+- [Calling Business Central APIs Without a Client Secret](../../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens"
+- [Calling Business Central Directly from a Managed Identity](../../../../posts/jpearson-blog/1535.md) (community post): "Managed identities can be granted Business Central API permissions directly"
+- [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "HTTPS encryption is critical for protecting sensitive data transmission in external integrations."
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

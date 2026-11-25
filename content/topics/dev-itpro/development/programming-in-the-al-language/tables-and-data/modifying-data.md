@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,7 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2204
+    - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2875
     - post/demiliani-com/12267
     - post/duiliotacconi-com/1717
@@ -135,7 +136,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -198,6 +199,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
 - [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../../changes/bcquality/264.md) (code change): "DataTransfer is preferred for equivalent field initialization and copies at any record count"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "Convert validated staging records to actual Business Central records in a separate procedure"
+- [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "Process headers first then lines using the stored keys to establish parent child relationships"
 - [Managing Optional Extensions in Business Central AL Code](../../../../../posts/aardvarklabs-blog/2875.md) (community post): "Use RecordRef and FieldRef with field numbers taken from page inspection"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Rec.Truncate AL method to enable efficient bulk deletion of table rows"
 - [LockTimeoutDuration in AL](../../../../../posts/duiliotacconi-com/1717.md) (community post): "AL code can call Database.LockTimeoutDuration to raise or lower the lock timeout"

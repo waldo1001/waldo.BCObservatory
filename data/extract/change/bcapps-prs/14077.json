@@ -8,11 +8,11 @@
   ],
   "summary": "Master Data Management's match-based coupling now handles records excluded by the local table filter correctly by logging an error instead of attempting duplicate creation, preventing misleading insertion failures.",
   "key_points": [
-    "Match-based coupling repeats lookups without the local filter when no match is found inside the filter, then logs an error pointing to the excluded record",
-    "The local table filter column on Synchronization Tables page is renamed to Local Table Filter and always visible",
-    "Fixed a latent bug where coupling crashed when source and local tables differed due to reading local field numbers from source records",
-    "Wildcard characters in text matching values are now properly escaped to prevent false matches when filter characters appear in source values",
-    "Added MatchExcludedByLocalTableFilter dimension to existing telemetry event 0000J8E to track excluded record scenarios"
+    "If no match is found inside the local filter, match-based coupling repeats the lookup without it, then logs an error pointing to the excluded record instead of coupling it or queuing it for creation",
+    "On the Synchronization Tables page, the Table Filter column is renamed Local Table Filter and is always visible",
+    "Fixed a latent crash on the no-match path when the source and local tables differ",
+    "Text matching values that contain filter characters such as * or ? now keep only exact case-insensitive matches",
+    "Telemetry event 0000J8E gets a new MatchExcludedByLocalTableFilter dimension"
   ],
   "change_kind": "fix",
   "behavior_change": true,

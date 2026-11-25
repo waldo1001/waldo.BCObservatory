@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,7 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2565
+    - post/demiliani-com/11962
     - post/thinkaboutit-be/7061
     - post/yzhums-com/48974
   guidelines: []
@@ -154,7 +155,7 @@ coverage:
   learn: 14
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 874d34634bbd909ee523fecd2937970ee08aa309c231c470480275a3dd3e1034
@@ -208,7 +209,8 @@ For operations, use the performance guidelines, the troubleshooting page on erro
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available from Microsoft-managed pages"
+- [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "use Brotli compression instead of gzip to reduce the size of OData API responses"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Microsoft no longer allows exposing Microsoft-authored pages as OData endpoints"
 - [Dynamics 365 Business Central: How to use the OData V4 IN operator in web service queries](../../../../posts/yzhums-com/48974.md) (community post): "OData V4 IN operator simplifies web service queries in Business Central"
 

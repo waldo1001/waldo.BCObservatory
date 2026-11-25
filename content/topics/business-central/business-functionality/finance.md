@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:52.650Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -852,6 +852,7 @@ links:
   localizations: []
   videos:
     - video/d4mYltz4Zwg
+    - video/e5Dr3jzCLM8
     - video/HI7VcPzR2OE
     - video/kDixaZFPYE8
     - video/lcpk-gPfGQU
@@ -900,7 +901,7 @@ children:
 coverage:
   learn: 258
   code: 523
-  video: 6
+  video: 7
   blog: 7
   guideline: 0
 bc_forms:
@@ -1514,6 +1515,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – Month End Accruals for GRNI Purchase Orders and Unposted Purchase Invoices](../../../posts/thedynamicsexplorer-com/10122.md) (community post): "This post explains how to identify and accrue for unposted purchase invoices"
 - [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../../../videos/d4mYltz4Zwg.md) (video): "Withholding Tax Posting Groups Configuration; Vendor Withholding Tax Enablement"
+- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Financial visibility and reporting; microsoft office integration"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../../../videos/HI7VcPzR2OE.md) (video): "Topics: gl revaluation; currency posting; excel reports; consolidation; collection management"
 - [Expense Agent: Countries and Languages (2026 release wave 1)](../../../videos/kDixaZFPYE8.md) (video): "Multilingual receipt processing; Automatic receipt categorization in local languages"
 - [What's New: Excise Taxes Framework (2025 release wave 2)](../../../videos/lcpk-gPfGQU.md) (video): "Excise Tax Framework; Excise Journal; Excise Tax Registration Transaction Logs"

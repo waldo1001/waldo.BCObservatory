@@ -1,27 +1,25 @@
 {
   "week": "2026-W48",
-  "input_hash": "1b53b78386522c7b62dfc9ca9991a58f7bfe11911b909a3149d441fdb03fbe2c",
-  "text": "All twelve pull requests this week landed in microsoft/BCApps; nine change behaviour and none is breaking. #14297 makes the German ELMA XML export set the VAT report status to Exported instead of leaving it Released. #13854 stops the Set G/L Account No. function from running over all VAT entries, so the VAT Entries page and the G/L - VAT Reconciliation report respect user filters. #14225 fixes a regression so Get Return Shipment Lines works again on purchase credit memos for non-inventory items. #13904 adds unposted purchase return orders and credit memos to Find Entries on the Navigate page. In warehouse and manufacturing, #14013 stops stale pick bins from reaching item tracking on Transfer and Purchase-Return shipments, and #13206 removes the serial number error when reversing a Capacity Ledger Entry. #9193 locks the Code labels on default Transformation Rule records against translation. Two features change behaviour: #14400 gives cross-environment master data synchronization clear connection and permission errors, and #13673 exposes the active expense approver in the Expense Reports API, adds an Open Expense App action and obsoletes an unused FlowFilter. Three changes have no behaviour impact: #14405 renumbers three Expense Agent codeunits to avoid collisions with deprecated country apps, #14423 makes the FI depreciation posting buffer temporary, and #14327 exposes Payables Agent infotip sources through test fixtures only.",
-  "changes": 12,
+  "input_hash": "f3a00b92ebcd5ea5e03abb798212a9d754e18ff05e4d169fa0974fb02a081d8b",
+  "text": "Most of the week's 22 pull requests in microsoft/BCApps are behaviour-changing fixes. In warehouse and item tracking, #14240 stops the \"Cannot match item tracking\" error on partial Inventory Pick posting with Strict Expiration Posting, #13331 corrects lot assignment in Create Pick when breakbulk is off and FEFO is on, #14013 stops stale pick bins reaching warehouse shipment tracking on Transfer and Purchase-Return lines, and #13206 removes a serial number error when reversing a Capacity Ledger Entry. In finance and localisation, #13613 corrects Additional Currency amounts in Australian VAT/GST entries, #14297 sets German VAT reports to Exported after ELMA XML export, #13854 makes VAT Entries and the G/L - VAT Reconciliation report respect filters, #14225 fixes a credit memo regression for non-inventory items, #14184 stops one vendor's missing email clearing another's Document No., and #13904 adds unposted purchase returns and credit memos to Find Entries. #14139 gives Czech compensations separate customer and vendor lookup events, and #9193 locks Transformation Rule codes against translation. The Expense Agent gets configurable per diem rounding in #14136, an active approver field and navigation in #13673, and approval setup fixes in #13910 and #13927. #14405 renumbers three codeunits to avoid installation failures. Master Data Management gets clearer errors in #14400 and a duplicate-insert fix in #14077. Partner hooks arrive in #14346, with #14423 and #14327 as smaller changes.",
+  "changes": 22,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.020718,
-  "at": "2026-11-24T00:13:35.655Z",
+  "cost_usd": 0.030486,
+  "at": "2026-11-25T00:13:20.045Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-24T01:04:13.215Z",
-    "verdict": "fix",
+    "at": "2026-11-25T01:05:26.832Z",
+    "verdict": "approve",
     "issues": [
-      "The paragraph says \"Four changes have no behaviour impact\" but only three pull requests in the week have that flag: #14405, #14423 and #14327. It also lists only three.",
-      "The paragraph runs to about 230 words, which is over the 220-word limit.",
-      "The #14225 wording (\"restores ... which was a regression\") is unclear. The pull request fixes a regression, so I reworded it to say that directly.",
-      "Everything else checks out: the twelve numbers, what each pull request did, nine behaviour changes, no breaking changes, and two features that change behaviour (#14400, #13673)."
+      "#14225 is described only as a 'credit memo regression'; it is specifically purchase credit memos failing on Get Return Shipment Lines for non-inventory items. Accurate but slightly vague.",
+      "#14405 sits right after the Expense Agent sentence but does not say the renumbered codeunits are Expense Agent codeunits (6913-6915 to 6923-6925); adding that would make it clearer.",
+      "#14346 'Partner hooks' could name Expense Management and the now-public Create Expense Report codeunit.",
+      "Word count is about 216, close to the 220 upper limit."
     ],
-    "input_hash": "1b53b78386522c7b62dfc9ca9991a58f7bfe11911b909a3149d441fdb03fbe2c",
-    "cost_usd": 0.103752,
-    "applied": [
-      "text"
-    ],
+    "input_hash": "f3a00b92ebcd5ea5e03abb798212a9d754e18ff05e4d169fa0974fb02a081d8b",
+    "cost_usd": 0.1013,
+    "applied": [],
     "rejected_edits": []
   }
 }

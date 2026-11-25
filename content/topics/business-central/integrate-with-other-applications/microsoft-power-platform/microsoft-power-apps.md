@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
-  videos: []
+  videos:
+    - video/auoHUd24Gfw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -89,5 +90,11 @@ Start with the overview to see which scenario fits, then follow the canvas app p
 
 - [Build a Power Apps Canvas App with Business Central Data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps): Connect a Power Apps canvas app to Business Central APIs to work with customers, items, and other business data in an app for your organization.
 - [Business Central and Power Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview): Get an overview Business Central and Power Apps integration
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Anonymous read-only access for external users without licensing; Authenticated access for external users"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

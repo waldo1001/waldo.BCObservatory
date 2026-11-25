@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,8 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications
   localizations: []
-  videos: []
+  videos:
+    - video/YTA8c2XyTX4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -126,7 +127,7 @@ children: []
 coverage:
   learn: 11
   code: 1
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -177,6 +178,12 @@ After connecting, define what to synchronize with the mapping page (integration 
   - In the observatory: [Page 672 "Job Queue Entries"](../../../objects/page/672.md)
 - [Troubleshooting Synchronization Errors](https://learn.microsoft.com/dynamics365/business-central/admin-troubleshoot-sales-synchronization): This article provides guidance for identifying, troubleshooting, and resolving synchronization errors.
 - [Use a Power Automate flow to timely synchronize Dataverse entity changes](https://learn.microsoft.com/dynamics365/business-central/admin-power-automate-flow-dataverse): Learn how to create a flow in Power Automate that will alert you when an entity is changed in Dataverse environment.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../videos/YTA8c2XyTX4.md) (video): "Data synchronization; Business Events Filtering Support; Virtual table synthetic relations"
 
 ## Business Central pages and reports
 

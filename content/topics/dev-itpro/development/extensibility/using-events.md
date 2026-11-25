@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,8 +108,6 @@ links:
   videos:
     - video/P-7dYVfB73E
   posts:
-    - post/aardvarklabs-blog/2907
-    - post/aardvarklabs-blog/3704
     - post/waldo-be/317951
     - post/yzhums-com/63559
     - post/yzhums-com/64265
@@ -153,7 +151,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 9
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -230,8 +228,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "Subscribers that handle OnUpdateUnitPriceOnBeforeFindPrice or OnUpdateDirectUnitCostOnBeforeFindPrice"
 - [#281 fix: align READ domain examples and the event parameter addition article](../../../../changes/bcquality/281.md) (code change): "subscribers never break at any position; the only exception is callers"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
-- [Debugging Business Event Subscriptions in Business Central](../../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions Business Central has hidden pages for debugging"
-- [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit subscribes to the OnAfterPostSalesDoc event, generates the invoice as a PDF, and fires a business event"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system"
 - [Dynamics 365 Business Central: Save a document as a Word attachment (Attach as Word) – Customization](../../../../posts/yzhums-com/63559.md) (community post): "Event subscribers can hook into OnBeforeSaveReportAsPDF and OnBeforeSaveAttachment to modify the standard behavior"
 - [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../../../../posts/yzhums-com/64265.md) (community post): "OnAfterIsSystemTable event in a codeunit to mark unwanted tables as system tables and prevent users from importing them"

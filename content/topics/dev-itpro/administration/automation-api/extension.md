@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -40,8 +40,10 @@ links:
   topics:
     - topic/dev-itpro/administration/automation-api
   localizations: []
-  videos: []
+  videos:
+    - video/KbXzMR4n4h8
   posts:
+    - post/aardvarklabs-blog/3998
     - post/thinkaboutit-be/8313
   guidelines: []
   changes:
@@ -57,8 +59,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
-  blog: 1
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -82,6 +84,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
 - [#9569 Enforce permissions when reviewing orphaned extension data](../../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
+- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "automating extension management in Business Central using the Administration API"
 - [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "Per-Tenant Extension management to the Admin Center, allowing administrators to upload"
+- [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../../videos/KbXzMR4n4h8.md) (video): "Appsource transact for Business Central apps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

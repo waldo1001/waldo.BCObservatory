@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:05:03.267Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-25T01:02:13.993Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -213,9 +213,7 @@ features:
     status: preview
     t: 516
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "577820"
+    status_source: video
   - name: Suggest Project with Copilot Feature
     status: unclear
     t: 592
@@ -364,7 +362,7 @@ The second part builds a "Suggest Project with Copilot" extension on the Project
 | Column Resizing in Copilot Dialogs | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=304s) |  |
 | Parallel Function Calling | status not stated | [5:50](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=350s) |  |
 | Telemetry for Copilot Features | status not stated | [6:50](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=410s) |  |
-| Managed AI Resources | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [8:36](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=516s) | "these manag AI resources they are currently in private preview uh we expect a public preview to open in the end or Al of" ([9:17](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=557s)) |
+| Managed AI Resources | preview | [8:36](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=516s) | "these manag AI resources they are currently in private preview uh we expect a public preview to open in the end or Al of" ([9:17](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=557s)) |
 | Suggest Project with Copilot Feature | status not stated, demoed | [9:52](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=592s) |  |
 | Prompt Guides | status not stated, demoed | [14:17](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=857s) |  |
 | Copilot Progress Dialog Customization | status not stated, demoed | [14:57](https://www.youtube.com/watch?v=QCo-uIfPs9g&t=897s) |  |

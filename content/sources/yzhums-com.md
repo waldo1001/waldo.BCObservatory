@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 404 posts in the knowledge base, 2025-04-28 to 2026-11-20, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 405 posts in the knowledge base, 2025-04-28 to 2026-11-24, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d7e163e13ea91f49beaac377a97bfdde3a4a9e6d28c29b85787fb680ccf43063
+  input_hash: 23eba20c75ba55d52c2f2f4e6c1434ad8274c24085c04187a360475ae22fddf7
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -437,6 +437,7 @@ links:
     - post/yzhums-com/77505
     - post/yzhums-com/74858
     - post/yzhums-com/77046
+    - post/yzhums-com/77607
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -444,19 +445,19 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 404
+item_count: 405
 footprint:
   systems:
     - id: development
-      weight: 288
+      weight: 289
     - id: administration
       weight: 214
     - id: platform
-      weight: 203
+      weight: 204
     - id: sales
       weight: 89
     - id: integration
-      weight: 77
+      weight: 79
     - id: reporting
       weight: 77
   topics:
@@ -507,12 +508,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-20"
+last_item: "2026-11-24"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 404 posts in the knowledge base, 2025-04-28 to 2026-11-20, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 405 posts in the knowledge base, 2025-04-28 to 2026-11-24, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -520,11 +521,11 @@ last_item: "2026-11-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (288) | al development (66) | table Customer (14) |
+| development (289) | al development (66) | table Customer (14) |
 | administration (214) | bc28 (27) | table Sales Header (12) |
-| platform (203) | bc27 (23) | page Customer Card (10) |
+| platform (204) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
-| integration (77) | bc29 (21) | page Item List (9) |
+| integration (79) | bc29 (21) | page Item List (9) |
 | reporting (77) | release wave 2 (20) | page Customer List (7) |
 |  | on-premises (18) | page Sales Order (7) |
 |  | admin center (16) | table Sales Line (7) |
@@ -543,10 +544,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: *********************************** 35
+- 2026-Q4: ************************************ 36
 
 ## Most recent
 
+- [Business Central 2026 release wave 2 (BC29): New API Overview page to view all available APIs (Discover APIs with the API Overview page)](../posts/yzhums-com/77607.md) (2026-11-24)
 - [Dynamics 365 Business Central: How to easily check users and their licenses (User Details)](../posts/yzhums-com/77046.md) (2026-11-20)
 - [Dynamics 365 Business Central: How to hide the header and footer on a worksheet page to display more lines](../posts/yzhums-com/74858.md) (2026-11-19)
 - [Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)](../posts/yzhums-com/77505.md) (2026-11-18)
@@ -566,6 +568,5 @@ Items per quarter, oldest first:
 - [Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)](../posts/yzhums-com/76918.md) (2026-10-26)
 - [Business Central 2026 release wave 2 (BC29): Evolve AL interfaces with default implementations (Default interface method implementations)](../posts/yzhums-com/76547.md) (2026-10-26)
 - [Business Central 2026 release wave 2 (BC29): New “Recent Record” virtual table (2000000174)](../posts/yzhums-com/76509.md) (2026-10-23)
-- [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../posts/yzhums-com/76763.md) (2026-10-22)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

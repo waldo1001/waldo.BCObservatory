@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,6 @@ links:
   videos:
     - video/JKsLjwSh0SQ
   posts:
-    - post/aardvarklabs-blog/3998
     - post/aardvarklabs-blog/4023
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46
@@ -101,7 +100,7 @@ coverage:
   learn: 6
   code: 0
   video: 1
-  blog: 8
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 659e40a27cf83dd47d095cf06e5ddc91324a34d494c1df16216ce90809e92d5d
@@ -147,7 +146,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
 - [#12626 Fix AppSource product details opening in write transactions](../../../../changes/bcapps/12626.md) (code change): "Changed from Page.RunModal() to Page.Run() to avoid write transaction conflicts"
 - [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "Add logging table management during installation and upgrade processes"
-- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "Install a .app through the pteInstall endpoint with a multipart form request carrying the file"
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "PowerShell automation script that deploys Business Central extensions to production"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
 - [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (community post): "Business Central automatically deploys extensions during the scheduled window"

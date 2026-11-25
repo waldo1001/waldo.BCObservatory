@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,18 +66,19 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
   videos:
+    - video/6Zb7VAvLVm4
     - video/T63y0F_38SI
+    - video/V_ZyGeF5JXE
+    - video/YTA8c2XyTX4
   posts:
     - post/aardvarklabs-blog/3579
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
-    - post/olofsimren-com/3865
-    - post/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359
     - post/yzhums-com/61951
-    - post/yzhums-com/63749
-    - post/yzhums-com/63762
+    - post/yzhums-com/68672
   guidelines: []
+  changes:
+    - change/bcapps/10010
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -88,8 +89,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 1
-  blog: 9
+  video: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -126,19 +127,19 @@ The pages follow a natural order. Start with the integration overview for concep
 - [Set Up Instant Flows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/instant-flows): Learn how users can run instant flows from inside Business Central online due to the integration with Power Automate.
 - [Set Up Power Automate Integration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup): Learn how to enable Power Automate for Business Central users.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Building a low-cost RFID scan-in and scan-out system using an ESP32 microcontroller, PN532 RFID reader, Power Automate"
-- [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
-- [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table, uploads to SFTP"
-- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "Low-cost RFID integration is feasible using an ESP32 reader, Power Automate HTTP trigger"
-- [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../../../../posts/olofsimren-com/3865.md) (community post): "Automated warehouse routing and order decisions; Migrated freight calculation logic from external systems"
-- [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync"
-- [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users by marking"
-- [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "Power Automate offers no-code solutions to synchronize files and data between OneDrive and Business Central"
-- [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../posts/yzhums-com/63762.md) (community post): "Power Automate flows allow no-code data transfer between Business Central, CSV files, Google Sheets, and OneDrive"
+- [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download scheduled report outputs"
+- [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Power Automate sits in the middle so the device avoids OAuth; its HTTP trigger"
+- [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central"
+- [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata"
+- [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users"
+- [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../../posts/yzhums-com/68672.md) (community post): "Power Automate can export BC data to CSV (JSON to CSV) and import CSV into BC (CSV to JSON)."
+- [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power Automate New Designer Support; Copilot-Assisted Flow Building in Business Central"
 - [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates"
+- [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Business Central Integration with Power Platform"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../../videos/YTA8c2XyTX4.md) (video): "Data Change Events via Power Automate; Power Automate-driven customer record creation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

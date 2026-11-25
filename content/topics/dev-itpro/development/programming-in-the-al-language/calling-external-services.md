@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -177,18 +177,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "Attachments without contentBytes (item and reference attachments) are now skipped"
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
-- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "consume external APIs from within Business Central by making HTTP requests"
+- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests"
 - [Native SFTP Support in Business Central 28](../../../../posts/aardvarklabs-blog/3460.md) (community post): "native SFTP Client codeunit for listing, uploading, downloading and deleting files"
 - [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks"
-- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers"
+- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers from AL code"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions"
-- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
-- [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "QuickChart API instead. QuickChart QR parameters cover format, margin, size"
-- [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "step-by-step guidance on authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations"
+- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "flexible OAuth authentication without .NET dependencies or complex function overloading"
+- [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "external APIs like QuickChart can generate QR codes and other barcode types"
+- [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "Use OAuth 2.0 with Client Credentials grant type to authenticate with Dataverse APIs before performing any operations."
 - [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests for extensions to allow outbound HTTP calls"
-- [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security"
+- [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security."
 - [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../../posts/yzhums-com/65533.md) (community post): "Allow HttpClient Requests setting for custom extensions during installation"
-- [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../../../videos/aXM5Kuo3DHM.md) (video): "SFTP client in Business Central; SFTP code unit methods; SSH fingerprint verification"
+- [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../../../videos/aXM5Kuo3DHM.md) (video): "SFTP client in Business Central; SFTP code unit methods"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "rest client; cookies; exception handling; collectible errors; error behavior"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

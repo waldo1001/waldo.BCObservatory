@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -171,8 +171,10 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/01GoAUnpBnw
+  posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b
   guidelines: []
 learn_toc_path:
   - Administration
@@ -189,8 +191,8 @@ children:
 coverage:
   learn: 20
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
@@ -243,5 +245,12 @@ After setup, replication copies the data and the data upgrade runs from the same
   - In the observatory: [Codeunit 9800 "User"](../../../../objects/codeunit/9800.md), [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md), [Page 4020 "Post Migration Checklist"](../../../../objects/page/4020.md), [Page 9802 "Permission Sets"](../../../../objects/page/9802.md), [Page 9994 "API Data Upgrade List"](../../../../objects/page/9994.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [NAV to Business Central: What Actually Moves, and What Needs to Change?](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md) (community post): "upgrade first through version 14 and 25 waypoints, then replicate data to online"
+- [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../videos/01GoAUnpBnw.md) (video): "cloud migration; record links; notes migration; data replication"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

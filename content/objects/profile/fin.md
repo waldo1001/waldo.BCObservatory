@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fbf5643eb79486d0eeb8556fe685c38bbbf5c5bd472d71238a44e08a8fe0614e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Finance/RoleCenters/Fin.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/RoleCenters/Fin.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/Fin.Profile.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "FIN" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · captioned "Finance" · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Finance/RoleCenters/Fin.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · captioned "Finance" · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/RoleCenters/Fin.Profile.al) · facts from BC29
 
 ## Properties
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,7 +122,7 @@ Start with the overview to confirm the scenario fits, then follow the setup page
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: How to check whether the current user has only the Microsoft 365 Plan in AL](../../../../../posts/yzhums-com/64474.md) (community post): "Users with only Microsoft 365 licenses can access Business Central through Microsoft Teams"
-- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../../posts/yzhums-com/70836.md) (community post): "Microsoft Teams users can access Business Central data using Microsoft 365 licenses instead of Business Central licenses"
+- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../../posts/yzhums-com/70836.md) (community post): "Microsoft 365 licensed users can view Business Central data in Teams without a Business Central license"
 
 ## Business Central pages and reports
 

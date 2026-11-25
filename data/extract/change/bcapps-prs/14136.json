@@ -8,11 +8,11 @@
   ],
   "summary": "The Expense Agent now supports configurable rounding precision for partial-day per diem calculations, allowing administrators to set how fractional daily amounts are rounded.",
   "key_points": [
-    "New field added to Expense Agent Setup to control rounding precision",
-    "Partial-day per diem settings page now includes rounding configuration",
-    "Per diem calculation logic updated to apply the configured rounding",
-    "Setup wizard displays the new rounding precision option",
-    "Test coverage added for rounding behavior"
+    "New rounding precision setting added to the Expense Agent Setup table and page",
+    "The partial-day per diem settings page exposes the rounding setting",
+    "The per diem calculation applies the configured rounding to partial-day amounts",
+    "Small related change in the Expense Agent Setup Wizard",
+    "Tests added for the rounding behavior"
   ],
   "change_kind": "feature",
   "behavior_change": true,

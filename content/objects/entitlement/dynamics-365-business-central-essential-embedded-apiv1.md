@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7c7721b58fb109fcccc1595cc88d44f8db6ce215b54c0d52908317452b771127
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralEssentialEmbeddedAPIV1.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralEssentialEmbeddedAPIV1.Entitlement.al
     title: src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralEssentialEmbeddedAPIV1.Entitlement.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Essential - Embedded APIV1" in APIV1 (Microsoft.API.V1). Introduced in BC29, still in BC30.
 
-APIV1 · Microsoft.API.V1 · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralEssentialEmbeddedAPIV1.Entitlement.al) · facts from BC29
+APIV1 · Microsoft.API.V1 · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralEssentialEmbeddedAPIV1.Entitlement.al) · facts from BC29
 
 ## Across versions
 

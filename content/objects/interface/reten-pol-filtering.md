@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 29b57ca160ab8006ad9babd118a58f1651e459d7133f06195b766f13ed2a3e63
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al
     title: src/System Application/App/Retention Policy/src/Apply Retention Policy/RetenPolFiltering.Interface.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Reten. Pol. Filtering" in System Application (System.DataAdministration). 4 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.DataAdministration · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al) · facts from BC29
+System Application · System.DataAdministration · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolFiltering.Interface.al) · facts from BC29
 
 ## Procedures
 

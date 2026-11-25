@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:36.352Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,6 @@ links:
     - video/_OClSlushOU
   posts:
     - post/aardvarklabs-blog/1818
-    - post/yzhums-com/70836
   guidelines: []
 learn_toc_path:
   - Integration
@@ -90,7 +89,7 @@ coverage:
   learn: 6
   code: 0
   video: 1
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 046db4ac1675927d209c40e73faacdc542a406d6ea64db390f462ed3136a9f27
@@ -137,7 +136,6 @@ Start with the development overview to see the pieces, then move to the metadata
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "publishing to Teams.. Copilot Studio is a cross-platform tool that works with Business Central, Teams"
-- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../posts/yzhums-com/70836.md) (community post): "Setup is performed within Business Central via Tell me search for 'Set up access with Microsoft 365 Licenses'"
 - [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Business data tabs in Teams chat"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

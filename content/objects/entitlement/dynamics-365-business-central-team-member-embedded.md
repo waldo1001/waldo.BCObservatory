@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b1fa5dafd3e17c1c31b3357581c583dfe6d42628b7a4dc27a534d8580918178a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralTeamMemberEmbedded.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralTeamMemberEmbedded.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365BusinessCentralTeamMemberEmbedded.Entitlement.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Team Member - Embedded" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralTeamMemberEmbedded.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralTeamMemberEmbedded.Entitlement.al) · facts from BC29
 
 ## Across versions
 

@@ -7,16 +7,15 @@
   "words": 2058,
   "summary": "AI models can be manipulated through training data or fine-tuning to exhibit hidden behaviors or biased outputs, posing risks when used in ERP systems like Business Central. Protecting against AI-based fraud requires traditional internal controls: segregation of duties, approval limits, audit trails, and verification with rule-based tools.",
   "key_points": [
-    "AI models from closed, open-weight, or open-source sources all carry manipulation risks; closed-source requires vendor trust, open-weight requires trusting downloaders, open-source allows inspection but scale makes full verification impractical",
-    "Sleeper agents with hidden triggers can survive safety training and normal fine-tuning, with as few as 250 poisoned documents sufficient to plant a backdoor in billions of training documents",
-    "In Business Central, a compromised agent could bypass controls by changing vendor bank accounts, approving mismatched invoices, or splitting payments to avoid detection limits, blending with legitimate transactions",
-    "Standard fraud prevention controls - segregation of duties, approval limits, audit trails, anomaly detection, and human oversight for critical transactions - protect against both human and AI fraud equally",
-    "AI answers reflect the values and choices of model builders; users should verify information with multiple models and sources rather than treating AI outputs as absolute truth"
+    "Closed, open-weights and open-source models all need some trust: the vendor, the vendor plus the download source, or a training set too large to inspect fully",
+    "Research showed backdoors with hidden triggers can survive safety training, and around 250 poisoned documents were enough to plant one regardless of model size",
+    "A compromised agent in Business Central could change vendor bank accounts, approve invoices without a matching purchase order, or split payments under approval limits while looking legitimate",
+    "The same internal controls used against human fraud apply to agents: least-privilege permissions, segregation of duties, human approval for critical steps, logging with anomaly detection, and rule-based verification",
+    "AI answers reflect the values of their builders, so verify with sources and more than one model when it matters"
   ],
   "systems": [
     "administration",
-    "copilot",
-    "integration"
+    "copilot"
   ],
   "topics": [
     "ai security",

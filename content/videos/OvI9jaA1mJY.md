@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:16.479Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-25T01:02:13.993Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -129,10 +129,12 @@ features:
     verified: false
     status_source: video
   - name: Payables Agent free trial and credit-based pricing
-    status: unclear
+    status: ga
     t: 74
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576776"
   - name: Analysis Assist for cost projection
     status: unclear
     t: 100
@@ -223,7 +225,7 @@ The video also covers the inbound e-documents list, which shows more information
 | Receipt quantity validation in matching | status not stated | [0:34](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=34s) |  |
 | Inbound e-documents list enhancements | status not stated | [0:46](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=46s) |  |
 | Email processing visibility | status not stated | [1:04](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=64s) |  |
-| Payables Agent free trial and credit-based pricing | status not stated | [1:14](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=74s) |  |
+| Payables Agent free trial and credit-based pricing | generally available (roadmap [Try Payables Agent for free without setting up email](../features/576776.md)) | [1:14](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=74s) |  |
 | Analysis Assist for cost projection | status not stated | [1:40](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=100s) |  |
 | Agent discovery improvements | status not stated | [1:50](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=110s) |  |
 | Single invoice processing without setup | generally available (roadmap [Try Payables Agent for free without setting up email](../features/576776.md)) | [2:10](https://www.youtube.com/watch?v=OvI9jaA1mJY&t=130s) |  |

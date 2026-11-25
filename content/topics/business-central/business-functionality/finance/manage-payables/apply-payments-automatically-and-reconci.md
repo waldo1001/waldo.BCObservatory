@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,7 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9674 Fix missing table permissions on Stale Check action in Check Management Subscriber](../../../../../changes/bcapps/9674.md) (code change): "Stale Check action was failing due to missing Modify permissions"
 - [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../../changes/bcapps/9789.md) (code change): "payment discount tolerance was calculated twice for vendor payments"
 - [#9880 [Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors](../../../../../changes/bcapps/9880.md) (code change): "Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors"
-- [AI and prompt injections: the invoice that approves itself.](../../../../../posts/demiliani-com/17609.md) (community post): "hidden white text in a PDF swaps the IBAN and marks the invoice as approved"
+- [AI and prompt injections: the invoice that approves itself.](../../../../../posts/demiliani-com/17609.md) (community post): "untrusted documents contain hidden instructions that manipulate AI model behavior, posing risk to invoice processing"
 
 ## Business Central pages and reports
 

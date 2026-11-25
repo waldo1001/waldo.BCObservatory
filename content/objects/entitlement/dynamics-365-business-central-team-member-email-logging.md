@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7d807372f3c2111f411cb253eb33915066766c268376ed70c1f5074bc0d022b7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralTeamMemberEmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralTeamMemberEmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralTeamMemberEmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Team Member Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralTeamMemberEmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralTeamMemberEmailLogging.Entitlement.al) · facts from BC29
 
 ## Across versions
 

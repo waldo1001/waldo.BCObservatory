@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,6 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos:
-    - video/2vUCR16b85o
     - video/C5OdiYfxozc
     - video/qqWj_2uM0ek
   posts: []
@@ -125,7 +124,7 @@ children: []
 coverage:
   learn: 7
   code: 26
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -212,7 +211,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
 - [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet Http Web Request Mgt to native HttpClient"
-- [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
 - [Going Stargazing with the Business Central Observatory](../../../videos/C5OdiYfxozc.md) (video): "MCP server for BC Observatory; Search functionality for BC concepts"
 - [20260420 - What is GitOps and why should you care](../../../videos/qqWj_2uM0ek.md) (video): "GitOps infrastructure as code; devops; pull-based deployment"
 

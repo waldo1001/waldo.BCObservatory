@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6429e90a5069915b290f8ca802e8b94bb276d1e04ecd59d9f0585d46353a7400
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al
     title: src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "External Tax Engine" (MX) in the MX country layer (Microsoft.Finance.SalesTax). 4 public procedures. Introduced in BC29, still in BC30.
 
-MX country layer · Microsoft.Finance.SalesTax · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al) · facts from BC29
+MX country layer · Microsoft.Finance.SalesTax · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al) · facts from BC29
 
 An object of the [MX localization](../../localizations/mx.md), not part of W1.
 

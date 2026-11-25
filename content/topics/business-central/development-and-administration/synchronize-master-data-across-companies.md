@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,9 +111,9 @@ Start with the setup page if synchronization is not yet configured. Go to the ma
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management](../../../posts/yzhums-com/77263.md) (community post): "lets a company sync master data such as customers, vendors and products from a company in another Business Central environment"
+- [Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management](../../../posts/yzhums-com/77263.md) (community post): "sync master data such as customers, vendors and products from a company in another Business Central environment"
 - [Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)](../../../videos/BlkW7VC52c0.md) (video): "copying data between companies; master data management; configuration packages"
-- [What's new: Cross-environment Master Data Management (2026 release wave 2)](../../../videos/mXvKs6X1DNk.md) (video): "Cross-environment Master Data Synchronization; Entra ID-based Authorization; Read-only HQ Data Source"
+- [What's new: Cross-environment Master Data Management (2026 release wave 2)](../../../videos/mXvKs6X1DNk.md) (video): "Cross-environment Master Data Synchronization; Entra ID-based Authorization"
 
 ## Business Central pages and reports
 

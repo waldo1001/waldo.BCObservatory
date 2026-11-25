@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2d730c3c201cf4aa851f9ce4403798f1cc9af8a75e54f7f611a5ab870c955963
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManager.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManager.Profile.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "ACCOUNTING MANAGER" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · captioned "Accounting Manager" · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManager.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · captioned "Accounting Manager" · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManager.Profile.al) · facts from BC29
 
 ## Properties
 

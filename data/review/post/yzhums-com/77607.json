@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/77607",
+  "input_hash": "82c53a1fb710df8dbc4fe0f2275a78624b4af9bb89ae09e3721681274163c751",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-25T01:04:41.477Z",
+  "issues": [
+    "Feature Virtual table support is not a new capability; the Page Metadata virtual table is only mentioned as the older workaround.",
+    "Objects, views, columns, quotes and versions match the post."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036813,
+    "posts_in_call": 3
+  }
+}

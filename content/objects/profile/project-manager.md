@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 219acbf4b0ac938ca3adeeebe2eecd0e7c84088b4c4b51328385f70a11c0b4de
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManager.Profile.al
     title: src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManager.Profile.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PROJECT MANAGER" in Base Application (Microsoft.Projects.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Projects.RoleCenters · captioned "Project Manager" · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManager.Profile.al) · facts from BC29
+Base Application · Microsoft.Projects.RoleCenters · captioned "Project Manager" · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Projects/RoleCenters/ProjectManager.Profile.al) · facts from BC29
 
 ## Properties
 

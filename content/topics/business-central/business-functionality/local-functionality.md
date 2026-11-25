@@ -12,7 +12,7 @@ review:
   at: "2026-11-20T01:01:32.224Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -390,6 +390,7 @@ links:
   videos:
     - video/Ax8yXCf7BY4
     - video/N_J1HB_fUCM
+    - video/YSDfDjrMUb0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -423,7 +424,7 @@ children:
 coverage:
   learn: 603
   code: 57
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -934,6 +935,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [What's New: Legislation and Localization (2023 release wave 2)](../../../videos/Ax8yXCf7BY4.md) (video): "Topics: legislation compliance; delocalization; eu three-party trade"
 - [What's new in Finance: Overview (2026 release wave 2)](../../../videos/N_J1HB_fUCM.md) (video): "Invoicing for France GA; Payment terms expansion for Australia and Great Britain"
+- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Shopify Connector localization extensions - Belgium and US"
 
 ## Business Central pages and reports
 

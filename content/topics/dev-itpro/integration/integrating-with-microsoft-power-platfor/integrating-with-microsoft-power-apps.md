@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,8 +57,7 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
-  videos:
-    - video/auoHUd24Gfw
+  videos: []
   posts:
     - post/yzhums-com/67024
   guidelines: []
@@ -72,7 +71,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -115,7 +114,6 @@ For delivery, the application lifecycle management page explains how to keep AL 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "problem I encountered when opening Power Apps with Zscaler"
-- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Using Power Pages with Business Central; virtual tables; multi-company support; external user access"
+- [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "Regarding the recent problem I encountered when opening Power Apps with Zscaler."
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

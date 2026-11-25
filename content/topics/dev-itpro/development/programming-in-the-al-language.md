@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:47.678Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -365,8 +365,6 @@ links:
     - video/nMiLzdfidos
     - video/QhHgkCe3kkk
   posts:
-    - post/aardvarklabs-blog/2838
-    - post/aardvarklabs-blog/2953
     - post/nataliekarolak-com/1855
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/4184
@@ -404,7 +402,7 @@ coverage:
   learn: 340
   code: 37
   video: 4
-  blog: 7
+  blog: 5
   guideline: 0
 bc_forms:
   - 16
@@ -504,8 +502,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
-- [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "code examples using AL to read separate header and line"
-- [How to Use External APIs in Business Central](../../../posts/aardvarklabs-blog/2953.md) (community post): "HttpClient data type with complete AL code samples"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "introduces new AL methods, properties, and features for developers"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"

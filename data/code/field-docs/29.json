@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "b42f520c380a64062ca700b5f5450acc436e5b05",
+      "e646fc169eb3bb7b1947b2089ed943d91dec46b0",
       "4",
-      "b42f520c380a64062ca700b5f5450acc436e5b05",
+      "e646fc169eb3bb7b1947b2089ed943d91dec46b0",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 19054,
-    "bound": 12965,
+    "tooltips": 19055,
+    "bound": 12966,
     "unparsed": 2998,
     "unmatched": 3091,
     "tables": 1096,
-    "fields": 9104
+    "fields": 9105
   },
   "tables": {
     "table/4": {
@@ -31173,6 +31173,11 @@
         "tooltip": "Specifies how often the system should send notifications for open expense reports.",
         "page": "page/6991",
         "control": "Open Report Notif. Freq."
+      },
+      "Partial Day Rounding Precision": {
+        "tooltip": "Specifies the rounding precision applied to the calculated partial-day per diem amount, for example 0.01, 0.10, or 1. If the field is empty, the partial-day amount is not rounded.",
+        "page": "page/6994",
+        "control": "Partial Day Rounding Precision"
       },
       "Partial Day Rules": {
         "tooltip": "Specifies how per diem for partial days is determined. This value is set by the per diem calculation method.",

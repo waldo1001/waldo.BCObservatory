@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f77693a53db33d84a35a80ec1f2b2e0cdd4f9e82ca5e56e0655d021de4561b4a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Entitlements/Microsoft365BaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Entitlements/Microsoft365BaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/Microsoft365BaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Microsoft 365 BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Entitlements/Microsoft365BaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Entitlements/Microsoft365BaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

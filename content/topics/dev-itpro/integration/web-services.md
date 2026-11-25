@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:51.939Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -415,8 +415,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
 - [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document"
 - [How to Work with JSON in Business Central’s AL Code](../../../posts/aardvarklabs-blog/1826.md) (community post): "Working with JSON in Business Central AL involves understanding JSON structures"
-- [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Editable Property Support in OData for Edit in Excel; HTTP 503 Return Code for Request Queue Timeout"
-- [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "Web Services in Business Central; OData; API performance; Web service queue; SOAP deprecation"
+- [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "web services; odata; http status codes; error handling"
+- [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "cookies support; http client; odata; api performance; web service queue"
 
 ## Business Central pages and reports
 

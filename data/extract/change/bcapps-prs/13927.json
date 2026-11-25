@@ -6,12 +6,12 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Fixed Expense Agent's approval setup page to allow users to manually configure multiple approval routes without rejecting duplicate configuration attempts.",
+  "summary": "Fixes a bug in the Expense Agent where manually adding an approval setup from the Expense User Card failed with a duplicate error. The change is in the Expense Approval Setups Part page and is a backport to 29.x.",
   "key_points": [
-    "Corrected validation logic in Expense Approval Setups page that prevented legitimate duplicate entries",
-    "Users can now set up multiple approval routes for the Expense Agent",
-    "Added test coverage for the duplicate approval setup scenario",
-    "Bug occurred when users attempted manual approval configuration"
+    "Adding an approval setup manually from the Expense User Card no longer fails with a duplicate error",
+    "The change is in page 6947 Expense Approval Setups Part",
+    "Tests were added to the Expense Agent test codeunit",
+    "Backport to the releases/29.x branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

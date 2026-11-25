@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.266Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,10 +57,10 @@ links:
   topics:
     - topic/dev-itpro/integration/web-services
   localizations: []
-  videos: []
+  videos:
+    - video/VpNQ-CYNrkM
   posts:
     - post/demiliani-com/11654
-    - post/yzhums-com/77505
   guidelines: []
 learn_toc_path:
   - Integration
@@ -72,8 +72,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
-  blog: 2
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 9aa1f3edba197b5586f439fa5d8b256ee1a551d64a8a275a5c1392b1a9ba83e5
@@ -112,7 +112,7 @@ Start with Use SystemService to Find Companies if your client needs a company na
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.](../../../../posts/demiliani-com/11654.md) (community post): "Exposing Microsoft UI pages as SOAP endpoints is off by default"
-- [Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)](../../../../posts/yzhums-com/77505.md) (community post): "Microsoft pages can no longer be exposed as OData endpoints starting in BC v30"
+- [Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.](../../../../posts/demiliani-com/11654.md) (community post): "exposing Microsoft UI pages as SOAP endpoints is off by default"
+- [What's New: Web Services in Business Central (2024 release wave 1)](../../../../videos/VpNQ-CYNrkM.md) (video): "SOAP Web Services Removal on Microsoft Pages"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -342,6 +342,8 @@ links:
   videos:
     - video/a1LQ3-SCtPE
   posts:
+    - post/aardvarklabs-blog/2838
+    - post/aardvarklabs-blog/2866
     - post/demiliani-com/15968
     - post/demiliani-com/17538
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
@@ -352,7 +354,6 @@ links:
     - post/yzhums-com/63320
     - post/yzhums-com/64478
     - post/yzhums-com/76509
-    - post/yzhums-com/76918
   guidelines: []
   changes:
     - change/bcapps/10255
@@ -380,7 +381,7 @@ coverage:
   learn: 56
   code: 24
   video: 1
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 16
@@ -462,6 +463,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#7938 Bugs/632378 make quality inspection gen rule warning actionable](../../../../changes/bcapps/7938.md) (code change): "Makes the warning about quality inspection generation rules actionable"
 - [#203 knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts](../../../../changes/bcquality/203.md) (code change): "Prices Including VAT header flag affects the basis of line amount fields in sales, purchase, and service documents"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "Call CalcFields on a BLOB before reading its stream"
+- [Importing Multi-Tab Excel Files into Business Central](../../../../posts/aardvarklabs-blog/2838.md) (community post): "Read each sheet independently using TempExcelBuffer OpenBookStream with the sheet name parameter"
+- [Importing XML into Business Central with AL](../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML commerce eXtensible Markup Language files in Business Central using AL"
 - [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../posts/demiliani-com/15968.md) (community post): "AL query objects now support the ReadState property in Dynamics 365 Business Central"
 - [Dynamics 365 Business Central: introducing the new “Recent Record” virtual table](../../../../posts/demiliani-com/17538.md) (community post): "new Recent Record virtual table that tracks records recently accessed"
 - [Record.IsDirty in Business Central 29: a worked example](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (community post): "Record.IsDirty() returns true when in-memory values differ"
@@ -472,7 +475,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 1 (BC26.2): Implicit conversion between Record and RecordRef](../../../../posts/yzhums-com/63320.md) (community post): "Record variables can now be directly assigned to RecordRef with implicit conversion"
 - [Dynamics 365 Business Central: How to quickly check if a field is a primary key field](../../../../posts/yzhums-com/64478.md) (community post): "how to check in AL whether a field belongs to a table's primary key"
 - [Business Central 2026 release wave 2 (BC29): New “Recent Record” virtual table (2000000174)](../../../../posts/yzhums-com/76509.md) (community post): "Recent Record virtual table that tracks records most recently accessed"
-- [Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)](../../../../posts/yzhums-com/76918.md) (community post): "Proxy tables act as integration connectors linking Business Central tables to Microsoft Dataverse columns"
 - [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "New companion table schema for table extensions"
 
 ## Business Central pages and reports

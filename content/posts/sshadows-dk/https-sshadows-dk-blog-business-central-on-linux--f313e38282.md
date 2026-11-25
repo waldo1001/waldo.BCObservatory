@@ -20,7 +20,7 @@ review:
   at: "2026-10-25T16:50:16.573Z"
   flags: []
 generated:
-  at: "2026-10-25T16:41:48.094Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -105,7 +105,7 @@ preview:
   image_h: null
   site_name: SShadowS
   favicon: https://sshadows.dk/favicon.svg
-  probed_at: "2026-10-25T16:46:49.558Z"
+  probed_at: "2026-11-25T01:00:58.317Z"
 ---
 
 # Business Central on Linux? Here, hold my beer!

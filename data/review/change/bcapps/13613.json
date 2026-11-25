@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13613",
+  "input_hash": "64e0825fbb2e140826eb022a25b3da6345f4b599f2035bd5cc193cd7432eda7c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-25T01:04:59.904Z",
+  "issues": [
+    "Title refers to a Sales Invoice line discount, but the code change is in Purch. Post Invoice; the summary's 'purchase invoices with line discounts' is not clearly stated by the inputs.",
+    "Rewrote the summary to match the given evidence: purchase posting fixes ported from 29.x.",
+    "Quote slightly alters the description wording (drops 'This PR')."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024833,
+    "changes_in_call": 4
+  }
+}

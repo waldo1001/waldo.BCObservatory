@@ -2,7 +2,7 @@
 id: source/freddysblog
 type: source
 title: Freddys blog
-summary: "Freddys blog (Freddy Kristiansen): 12 posts in the knowledge base, 2026-08-04 to 2026-11-10, mostly about development, platform, administration."
+summary: "Freddys blog (Freddy Kristiansen): 13 posts in the knowledge base, 2026-08-04 to 2026-11-24, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:17:15.357Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 109f55c7f009b4c191faaac9aa8ee792fc06654154e94aadf117a3ce3b45ddd1
+  input_hash: afb0d5b38a8abe69914bcfabcdba8f7b79514e04d1390b7b72484bcca01799c4
 evidence:
   - kind: blog
     url: https://freddysblog.com
@@ -45,6 +45,7 @@ links:
     - post/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6
     - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
     - post/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7
+    - post/freddysblog/https-freddysblog-com-2026-11-24-can-an-ai-model-be-brainwashed--613cab9c3d
   guidelines: []
 source_id: freddysblog
 kind: blog
@@ -52,7 +53,7 @@ url: https://freddysblog.com
 author: Freddy Kristiansen
 mvp: false
 full_text: false
-item_count: 12
+item_count: 13
 footprint:
   systems:
     - id: development
@@ -60,9 +61,9 @@ footprint:
     - id: platform
       weight: 11
     - id: administration
-      weight: 5
+      weight: 7
     - id: copilot
-      weight: 5
+      weight: 6
     - id: integration
       weight: 1
   topics:
@@ -93,12 +94,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2026-08-04"
-last_item: "2026-11-10"
+last_item: "2026-11-24"
 ---
 
 # Freddys blog
 
-> Freddys blog (Freddy Kristiansen): 12 posts in the knowledge base, 2026-08-04 to 2026-11-10, mostly about development, platform, administration.
+> Freddys blog (Freddy Kristiansen): 13 posts in the knowledge base, 2026-08-04 to 2026-11-24, mostly about development, platform, administration.
 
 [https://freddysblog.com](https://freddysblog.com) · blog · tier community
 
@@ -108,8 +109,8 @@ last_item: "2026-11-10"
 |---|---|---|
 | development (16) | kubernetes (4) | other BCApps repository (1) |
 | platform (11) | agents (3) | other Fkh (Freddy's Kubernetes Helper) (1) |
-| administration (5) | azure (3) |  |
-| copilot (5) | devops (3) |  |
+| administration (7) | azure (3) |  |
+| copilot (6) | devops (3) |  |
 | integration (1) | fkh (3) |  |
 |  | authentication (2) |  |
 |  | automation (2) |  |
@@ -122,10 +123,11 @@ last_item: "2026-11-10"
 Items per quarter, oldest first:
 
 - 2026-Q3: ********** 10
-- 2026-Q4: ** 2
+- 2026-Q4: *** 3
 
 ## Most recent
 
+- [Can an AI model be brainwashed?](../posts/freddysblog/https-freddysblog-com-2026-11-24-can-an-ai-model-be-brainwashed--613cab9c3d.md) (2026-11-24)
 - [“Human” vs. AI](../posts/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7.md) (2026-11-10)
 - [Directions EMEA 2026 Reflections](../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (2026-11-07)
 - [The End Justifies the Means](../posts/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6.md) (2026-09-15)

@@ -20,7 +20,7 @@ review:
   at: "2026-10-25T17:03:56.403Z"
   flags: []
 generated:
-  at: "2026-10-25T16:55:04.528Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
-  probed_at: "2026-10-25T17:00:08.343Z"
+  probed_at: "2026-11-25T01:00:50.277Z"
 ---
 
 # What to do in the age of code printing

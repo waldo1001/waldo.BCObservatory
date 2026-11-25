@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/11/24/can-an-ai-model-be-brainwashed",
+  "input_hash": "25beb398fa715c478c55c81ff9ce6f1fde8f12a008aa8889946b0ef625a686ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-25T01:04:41.477Z",
+  "issues": [
+    "Mostly a general AI security essay, but it has a concrete Business Central agent scenario, so it is kept.",
+    "System integration is not supported by the post.",
+    "First key point misstates the open-weights trust issue: you trust the vendor and the source you downloaded from, not downloaders."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036813,
+    "posts_in_call": 3
+  }
+}

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 99efeae1d2bf91e890dc7efe309ac2c602569790a676ad2c8b187273cfe2e1b9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/US/IRSForms/app/src/Interface/IRS1099CreateFormDocs.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/US/IRSForms/app/src/Interface/IRS1099CreateFormDocs.Interface.al
     title: src/Apps/US/IRSForms/app/src/Interface/IRS1099CreateFormDocs.Interface.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "IRS 1099 Create Form Docs" (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 1 public procedures. Introduced in BC29, still in BC30.
 
-US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/US/IRSForms/app/src/Interface/IRS1099CreateFormDocs.Interface.al) · facts from BC29
+US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/US/IRSForms/app/src/Interface/IRS1099CreateFormDocs.Interface.al) · facts from BC29
 
 An object of the [US localization](../../localizations/us.md), not part of W1.
 

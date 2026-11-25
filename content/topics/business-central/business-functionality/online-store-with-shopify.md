@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -326,8 +326,8 @@ For operations and support, use the troubleshooting page (logging, skipped recor
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../../../changes/bcapps/13899.md) (code change): "Shopify refund sales line creation when shop and presentment currencies differ"
-- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Shopify connector; product information management; item variants; presentment currency; price synchronization"
-- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
+- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Item variant images and attributes support; Shopify collections import"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "Shopify B2B company locations import; Tax ID automatic entity mapping"
 
 ## Business Central pages and reports
 

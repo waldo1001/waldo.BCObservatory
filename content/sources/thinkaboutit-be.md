@@ -2,7 +2,7 @@
 id: source/thinkaboutit-be
 type: source
 title: think about IT - Steven Renders
-summary: "think about IT - Steven Renders (Steven Renders): 71 posts in the knowledge base, 2025-07-31 to 2026-11-14, mostly about copilot, development, reporting."
+summary: "think about IT - Steven Renders (Steven Renders): 72 posts in the knowledge base, 2025-07-31 to 2026-11-24, mostly about development, copilot, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:17:15.357Z"
+  at: "2026-11-25T00:13:20.045Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e6856a46c924c2ad4239f6f7135c67d9bc8a72e61dfc4ad23085fb19a207d310
+  input_hash: 3996d94fcd513a2711502f959b9a2d611a4e295282187cf393ed4453063271ae
 evidence:
   - kind: blog
     url: https://thinkaboutit.be
@@ -104,6 +104,7 @@ links:
     - post/thinkaboutit-be/8379
     - post/thinkaboutit-be/8393
     - post/thinkaboutit-be/8400
+    - post/thinkaboutit-be/8418
   guidelines: []
 source_id: thinkaboutit-be
 kind: blog
@@ -111,13 +112,13 @@ url: https://thinkaboutit.be
 author: Steven Renders
 mvp: false
 full_text: false
-item_count: 71
+item_count: 72
 footprint:
   systems:
+    - id: development
+      weight: 55
     - id: copilot
       weight: 54
-    - id: development
-      weight: 53
     - id: reporting
       weight: 43
     - id: platform
@@ -174,12 +175,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-07-31"
-last_item: "2026-11-14"
+last_item: "2026-11-24"
 ---
 
 # think about IT - Steven Renders
 
-> think about IT - Steven Renders (Steven Renders): 71 posts in the knowledge base, 2025-07-31 to 2026-11-14, mostly about copilot, development, reporting.
+> think about IT - Steven Renders (Steven Renders): 72 posts in the knowledge base, 2025-07-31 to 2026-11-24, mostly about development, copilot, reporting.
 
 [https://thinkaboutit.be](https://thinkaboutit.be) · blog · tier community
 
@@ -187,8 +188,8 @@ last_item: "2026-11-14"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (54) | al development (15) | page Customer Ledger Entries (2) |
-| development (53) | power bi (11) | codeunit Rest Api Helper (1) |
+| development (55) | al development (15) | page Customer Ledger Entries (2) |
+| copilot (54) | power bi (11) | codeunit Rest Api Helper (1) |
 | reporting (43) | code generation (8) | codeunit Sales Posting Helper (1) |
 | platform (23) | release wave 2 (8) | codeunit Sales Posting Helper Test (1) |
 | administration (22) | reporting (8) | codeunit Semantic Data Search (1) |
@@ -209,10 +210,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************ 12
 - 2026-Q3: ************* 13
-- 2026-Q4: ************* 13
+- 2026-Q4: ************** 14
 
 ## Most recent
 
+- [Business Central 29: What’s New in Page Scripting?](../posts/thinkaboutit-be/8418.md) (2026-11-24)
 - [Business Central 29: What’s New in the MCP Server?](../posts/thinkaboutit-be/8400.md) (2026-11-14)
 - [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.1?](../posts/thinkaboutit-be/8393.md) (2026-11-11)
 - [Business Central 29: Match Production Database Configuration in Sandbox Environments](../posts/thinkaboutit-be/8379.md) (2026-11-03)
@@ -232,6 +234,5 @@ Items per quarter, oldest first:
 - [Plan, Custom Agents, and Session Target: What Actually Changed in Copilot Chat](../posts/thinkaboutit-be/8170.md) (2026-09-17)
 - [Quick Tip: GitHub Copilot Chat Modes Are Now Agents, and Edit Mode Is Gone](../posts/thinkaboutit-be/8157.md) (2026-09-10)
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../posts/thinkaboutit-be/8132.md) (2026-09-09)
-- [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.0 Preview](../posts/thinkaboutit-be/8120.md) (2026-09-07)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

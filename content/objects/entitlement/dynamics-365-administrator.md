@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ee65b2e965eeb68e75974baca09c44b905aea7af7c8d5232e475e43e5c8833d7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Entitlements/Dynamics365Administrator.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/Entitlements/Dynamics365Administrator.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365Administrator.Entitlement.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Administrator" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Entitlements/Dynamics365Administrator.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/Entitlements/Dynamics365Administrator.Entitlement.al) · facts from BC29
 
 ## Across versions
 

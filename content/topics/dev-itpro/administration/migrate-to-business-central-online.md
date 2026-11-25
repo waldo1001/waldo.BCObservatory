@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,13 +315,12 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl
   localizations: []
   videos:
-    - video/01GoAUnpBnw
     - video/6bX7Ab4KYMA
     - video/f_i4_BRz-oA
     - video/Gwgpj1U1wxI
     - video/lCXrKdxneKo
-    - video/O921cRqXdiw
-  posts: []
+  posts:
+    - post/demiliani-com/13676
   guidelines: []
 learn_toc_path:
   - Administration
@@ -336,8 +335,8 @@ children:
 coverage:
   learn: 47
   code: 1
-  video: 6
-  blog: 0
+  video: 4
+  blog: 1
   guideline: 0
 bc_forms:
   - 2502
@@ -419,12 +418,11 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../videos/01GoAUnpBnw.md) (video): "cloud migration; record links; notes migration; data replication"
-- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "Cloud migration; custom migration tool; migration platform; table mappings"
+- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../posts/demiliani-com/13676.md) (community post): "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data"
+- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "Custom Migration Tooling Platform; Customer Migration Provider Interface"
 - [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration from any SQL; cloud migration; upgrade paths"
-- [Introduction to Business Central Cloud Migration (2023)](../../../videos/Gwgpj1U1wxI.md) (video): "Cloud Migration Tooling; Azure Data Factory Pipeline; Integration Runtime; Data Replication"
-- [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "Cloud Migration Tooling; One-Step Upgrade; Direct Cloud Migration"
-- [What's New: Cloud Migration and Upgrade (2023)](../../../videos/O921cRqXdiw.md) (video): "Cloud migration and upgrade; data replication; performance optimization"
+- [Introduction to Business Central Cloud Migration (2023)](../../../videos/Gwgpj1U1wxI.md) (video): "Cloud Migration Tooling; Azure Data Factory Pipeline; Integration Runtime"
+- [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "cloud migration; upgrade; data replication; table mapping"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14139",
+  "input_hash": "e582000e706583404477c50e509fee16e712a678d422967f899a820293caf567",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-25T01:04:59.904Z",
+  "issues": [
+    "Breaking flag is wrong: the original event is kept under #if not CLEAN30 and the description states existing subscribers remain supported, so existing extensions do not stop compiling or working.",
+    "The PR does obsolete the original event in 30.0, but the page lists no obsoletions; nothing to drop.",
+    "Summary and key points are otherwise supported by the description."
+  ],
+  "applied": [
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024833,
+    "changes_in_call": 4
+  }
+}

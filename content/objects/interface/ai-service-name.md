@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 235527274f2f7d5c6a3a60813ff511ef5f65d69980d7a945977f03f21c4183bf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al
     title: src/System Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "AI Service Name" in System Application (System.AI). 2 public procedures. Introduced in BC26, still in BC30.
 
-System Application · System.AI · BC26-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al) · facts from BC29
+System Application · System.AI · BC26-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al) · facts from BC29
 
 ## Procedures
 

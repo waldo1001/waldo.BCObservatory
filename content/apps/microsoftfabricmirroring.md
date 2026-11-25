@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:52:02.399Z"
+  at: "2026-11-25T00:59:43.106Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bb59034faa4280b741aa4a65f3ad29848b313f812458c09d9d8e7d06a2936111
+  input_hash: 07bf6f8cada02d5a3d7ef859fe254b1899a2408f544c2e32d46c6075a421ac46
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/MicrosoftFabricMirroring/app
@@ -71,7 +71,7 @@ links:
   features: []
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator
-    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
+    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview
     - topic/dev-itpro/integration/integrating-with-microsoft-fabric
   localizations: []
   videos: []
@@ -106,7 +106,7 @@ First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespac
 The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
 
 - [Administrator](../topics/dev-itpro/integration/integrating-with-microsoft-fabric/administrator.md) (Integration > Integrating with Microsoft Fabric): 9 objects
-- [Microsoft Fabric](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric.md) (Analytics, business intelligence, and reporting > Analyze data in business intelligence tools): 9 objects
+- [Microsoft Fabric (preview)](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview.md) (Analytics, business intelligence, and reporting > Analyze data in business intelligence tools): 9 objects
 - [Integrating with Microsoft Fabric](../topics/dev-itpro/integration/integrating-with-microsoft-fabric.md) (Integration): 2 objects
 
 ## Objects

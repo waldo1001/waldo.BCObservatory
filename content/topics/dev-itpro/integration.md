@@ -12,7 +12,7 @@ review:
   at: "2026-11-22T01:00:28.230Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -380,12 +380,17 @@ links:
     - topic/dev-itpro/integration/integrating-with-shopify
   localizations: []
   videos:
-    - video/gAzmWJg9Z5g
+    - video/aXM5Kuo3DHM
     - video/xqwJTCPD9tA
   posts:
     - post/demiliani-com/13215
+    - post/gerardorenteria-blog/11401
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-41-line-separator-in-data-exchange-definition--3a4ec8c135
   guidelines: []
   changes:
+    - change/bcapps/10141
+    - change/bcapps/10143
+    - change/bcapps/10162
     - change/bcapps/10437
     - change/bcapps/11386
     - change/bcapps/11484
@@ -410,7 +415,7 @@ coverage:
   learn: 378
   code: 62
   video: 2
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -532,13 +537,18 @@ Two pages in this section cover Dynamics 365 products directly. Integrating with
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10141 [Quality Management] Make transaction blocked error more understandable and actionable](../../changes/bcapps/10141.md) (code change): "Quality Management transaction blocking errors now display more clearly with actionable information"
+- [#10143 Handle non-invoice or currupt PDF extraction](../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs that return empty data"
+- [#10162 Fix stale start status in e-document import pipeline](../../changes/bcapps/10162.md) (code change): "The e-document import pipeline now uses the initial processing status"
 - [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support added to enable payment and invoice lifecycle communication"
 - [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected"
 - [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
 - [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
-- [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "Integration Overview Documentation; New Integration Landing Page"
+- [🤖 Manage your projects, repositories, and more with Azure DevOps MCP Server ✅](../../posts/gerardorenteria-blog/11401.md) (community post): "Manage your projects, repositories, and more with Azure DevOps MCP Server"
+- [BC Friday Tips #41 Line Separator in Data Exchange Definition](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-41-line-separator-in-data-exchange-definition--3a4ec8c135.md) (community post): "importing files with different line break formats without custom development"
+- [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../videos/aXM5Kuo3DHM.md) (video): "file transfer; ssh; encryption; al development; business central api"
 - [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"
 
 ## Business Central pages and reports

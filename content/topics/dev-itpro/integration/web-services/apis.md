@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -334,10 +334,9 @@ links:
   posts:
     - post/aardvarklabs-blog/2017
     - post/aardvarklabs-blog/2565
-    - post/aardvarklabs-blog/2812
     - post/aardvarklabs-blog/4082
-    - post/demiliani-com/11962
     - post/demiliani-com/12036
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thinkaboutit-be/7683
@@ -347,6 +346,7 @@ links:
     - post/yzhums-com/68873
     - post/yzhums-com/70369
     - post/yzhums-com/74390
+    - post/yzhums-com/77607
   guidelines: []
   changes:
     - change/bcapps/10010
@@ -447,7 +447,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the automate"
+- [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the 'automate' API group"
 - [#10478 [Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries](../../../../changes/bcapps/10478.md) (code change): "The APIV2 dimension set lines page now uses FindSet() instead of FindFirst()"
 - [#11741 [MCP] Add company and environment descriptions](../../../../changes/bcapps/11741.md) (code change): "Read-only fields exposed in API v2.0 companyInformation endpoint."
 - [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData public APIs"
@@ -459,21 +459,21 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema version determines how enum fields are published in custom APIs"
 - [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "describe API objects intended for MCP tools to describe entities"
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../changes/bcquality/253.md) (code change): "New knowledge article documents how to use AddLoadFields on API pages to prevent JIT loading failures"
-- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "create Query objects configured as APIs in Business Central"
-- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "migrate to Business Central API 2.0, create custom 2.0 APIs"
-- [Advanced JSON Management for Business Central Developers](../../../../posts/aardvarklabs-blog/2812.md) (community post): "Codeunit 5459 JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
-- [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "Business Central's new API Overview page provides a modern, unified interface to discover all API pages"
-- [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Brotli compression instead of gzip to reduce the size of OData API responses"
+- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs or copy pages to custom objects"
+- [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "API Overview page provides a modern, unified interface to discover all API pages"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
-- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "The Sales Invoices API in Business Central aggregates posted and unposted invoices"
+- [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages"
+- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "Sales Invoices API in Business Central aggregates posted and unposted invoices"
 - [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579.md) (community post): "The Exclude_APIV2 app holds the standard API V2 objects used by Business Central"
-- [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types in Business Central"
+- [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types"
 - [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "36 new API endpoints cover sales, purchasing, inventory and assembly documents"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable external applications and automation tools to interact with scheduled reports"
-- [Dynamics 365 Business Central Blog Series: REST API web services (APIs)](../../../../posts/yzhums-com/63801.md) (community post): "Business Central supports multiple API types: standard APIs, automation APIs, and custom APIs"
+- [Dynamics 365 Business Central Blog Series: REST API web services (APIs)](../../../../posts/yzhums-com/63801.md) (community post): "REST API web services in Dynamics 365 Business Central, including standard and automation APIs"
 - [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../../posts/yzhums-com/68873.md) (community post): "MCP is an open standard that lets AI agents discover and invoke Business Central operations"
-- [Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)](../../../../posts/yzhums-com/70369.md) (community post): "The Business Central REST API supports multi-level expand (nested data retrieval) using nested parentheses"
+- [Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)](../../../../posts/yzhums-com/70369.md) (community post): "Business Central REST API supports multi-level expand nested data retrieval"
 - [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "Seven new API V2.0 endpoints provide read-only access to workflow approval data"
+- [Business Central 2026 release wave 2 (BC29): New API Overview page to view all available APIs (Discover APIs with the API Overview page)](../../../../posts/yzhums-com/77607.md) (community post): "New API Overview page available in BC29 for discovering and viewing all available APIs"
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"
 

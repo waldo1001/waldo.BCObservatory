@@ -6,7 +6,7 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Fixed incorrect Additional Currency Base and Amount calculations in VAT/GST entries for purchase invoices with line discounts in the Australian version.",
+  "summary": "Fixes incorrect Additional Currency Base and Additional Currency Amount in VAT/GST entries in the Australian version by changing purchase invoice posting. The change brings additional fixes and regression tests from the 29.x branch into main.",
   "key_points": [
     "Corrects Additional Currency Base and Additional Currency Amount calculations when line discounts are applied",
     "Addresses VAT/GST entry calculations in purchase posting for APAC/Australian localization",

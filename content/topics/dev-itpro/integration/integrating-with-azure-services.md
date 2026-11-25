@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,6 +66,7 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos:
+    - video/2vUCR16b85o
     - video/oN0XfuCe6Qg
     - video/Qz-V7qvOY-8
   posts:
@@ -73,9 +74,6 @@ links:
     - post/demiliani-com/11887
     - post/demiliani-com/12002
     - post/demiliani-com/12313
-    - post/demiliani-com/17492
-    - post/jpearson-blog/1485
-    - post/jpearson-blog/1535
     - post/jpearson-blog/1601
   guidelines: []
   changes:
@@ -90,8 +88,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 2
-  blog: 8
+  video: 3
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -159,13 +157,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8318 SharePoint Graph Module - extend functionality with additional methods](../../../changes/bcapps/8318.md) (code change): "SharePoint Graph module gains update and rename operations for drive items"
 - [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations"
-- [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "third-party systems require a static IP address for API calls to Business Central"
+- [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "Azure Function with a virtual network NAT gateway to route traffic through a fixed outbound IP"
 - [Azure Logic Apps: are you handling large blobs? Keep memory usage under control.](../../../posts/demiliani-com/12002.md) (community post): "Handling large blob files in Azure Logic Apps for Dynamics 365 Business Central integration"
 - [Can I use AI to create and deploy an Azure Logic Apps with Business Central connector?](../../../posts/demiliani-com/12313.md) (community post): "Azure Logic Apps with Business Central connector; ai-assisted development"
-- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "restrict an Azure Storage Account to Business Central traffic by choosing the Dynamics365BusinessCentral service tag"
-- [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
-- [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"
 - [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "integrate an Azure Static Web App with Business Central by using the WebPageViewer"
+- [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
 - [What's Cooking in Business Central: External File Storage Module](../../../videos/oN0XfuCe6Qg.md) (video): "external file storage; api; azure blob storage; file accounts; file scenarios; al development"
 - [What's New: Enhancements in E-Documents (2025 release wave 1)](../../../videos/Qz-V7qvOY-8.md) (video): "Azure Document Intelligence for PDF processing; Embed PDF in e-document XML export"
 

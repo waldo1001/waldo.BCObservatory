@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:56:51.308Z"
+  at: "2026-11-25T00:57:14.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ee1ef95ffefc25ae2a574038a7974a74271f9f0925a9706419aa5b8da1589844
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchange.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchange.Interface.al
     title: src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchange.Interface.al (releases/29.x)
     date: null
-    commit: b42f520c380a64062ca700b5f5450acc436e5b05
+    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "IC Data Exchange" in Base Application (Microsoft.Intercompany.DataExchange). 24 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Intercompany.DataExchange · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchange.Interface.al) · facts from BC29
+Base Application · Microsoft.Intercompany.DataExchange · BC23-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/ICDataExchange.Interface.al) · facts from BC29
 
 ## Properties
 

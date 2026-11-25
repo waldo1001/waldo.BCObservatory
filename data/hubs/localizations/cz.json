@@ -1,68 +1,68 @@
 {
   "country": "CZ",
   "version": "29",
-  "input_hash": "29ee7847ed96d6d5ca05b2c30faacd0616d7e10a50194d2f1badac63d8b50df1",
-  "summary": "Czech (CZ) localization of Business Central 29. It covers VAT date, VAT statements and control reports, cash desk, bank payment orders and statements, advance payments, fixed assets tax depreciation, Intrastat, corrections posting and the unreliable payer check. It answers what the Czech layer adds to W1 and where Learn documents it.",
-  "overview": "The Czech layer is delivered as several extensions, identified by object suffixes: CZL (Core Pack), CZA (Advance Pack), CZZ (Advance Payments), CZF (Fixed Assets), CZC (Compensation), CZP (Cash Desk), CZB (Bank Documents) and CZ (Intrastat). Almost all of it is new objects: about 1,780 in total, of which 401 codeunits, 275 table extensions, 434 page extensions and 133 reports. Few W1 objects are replaced. Most codeunits are event handlers (names ending in \"Handler\") that hook into W1 posting and document logic. Only 6 fields are added to W1 tables, for example on VAT Posting Setup and Bank Statement Matching Buffer.\n\nMain capabilities are VAT date and VAT return periods, VAT statements with XML export, reverse charge, unreliable payer checks against the tax authority, ARES registration lookup, and corrections posting (red storno). Others are statutory company information, cash desk documents, payment orders and bank statements, advance letters for sales and purchases, tax depreciation of fixed assets, and Czech Intrastat. Inventory gets movement templates, transfer order posting groups and inventory documents. A set of Czech permission sets and output document reports accompanies these.\n\nLearn documents the features in pages such as \"Core localization pack for Czech\", \"Cash Desk Localization for Czech (Extension)\", \"Banking Documents Localization for Czech (Extension)\", \"Advance Payments Localization for Czech (Extension)\" and the \"Czech local functionality\" series. The series covers VAT, fixed assets, Intrastat, inventory and exchange rate adjustment.",
+  "input_hash": "3a644553e520627f11e91dfa98ffadd6a80e1043ac8284ea07a8bc26542ee3f0",
+  "summary": "Czech (CZ) localization of Business Central 29. It covers VAT date and VAT statements, corrections posting, cash desk, banking documents (payment orders, bank statements), advance payments, compensation, fixed assets tax depreciation, Intrastat, unreliable payer checks and Czech output documents. Use it for questions on what the Czech layer adds to W1.",
+  "overview": "The Czech layer is large: 1790 objects, nearly all new. Only a few W1 tables and one codeunit are changed or replaced. It is split into extension-style packs, marked by suffix. CZL is the Core pack, CZA the Advanced pack, CZZ Advance Payments, CZP Cash Desk, CZB Banking Documents, CZF Fixed Assets and CZC Compensation. Many codeunits are named \"Handler\", which suggests the packs attach to W1 behavior through event subscribers. Table and page extensions add Czech fields. The code summary lists only 6 added fields on W1 tables (for example on \"VAT Posting Setup\", \"Payment Buffer\" and \"Bank Statement Matching Buffer\"). It lists no new events or procedures.\n\nThe Core pack covers the VAT date and VAT periods, VAT statements and their XML export, the VAT control report, reverse charge, unreliable payer checks, ARES registration lookup, statutory company information, corrections posting (red storno), VAT exchange rate, sales credit memo types and many Czech output document reports. The Advanced pack adds general ledger entries application, automatic creation and update of dimensions, posting groups in transfer orders, extra fields on item ledger entries and value entries, and general product posting groups taken from stockkeeping units. Separate packs cover cash desk, banking documents, advance letters, compensation and Czech fixed assets, each with its own permission sets.\n\nLearn documents these features on pages such as the Core Localization Base Pack, Cash Desk, Banking Documents, Advance Payments and the Czech local functionality series (VAT statement, Intrastat, Fixed assets, Inventory, Unreliable payer). The same series covers VIES and Statutory Statements.",
   "key_points": [
-    "VAT: separate VAT date, VAT return periods, VAT statements with XML export, supplementary VAT statements, VAT exchange rate, reverse charge limit monitoring and VIES reporting.",
-    "Cash Desk (CZP): cash desk setup and users, receipt and withdrawal cash documents, cash desk cases as templates, reconciliation and release/post codeunits.",
-    "Banking Documents (CZB): payment orders with export, bank statement import and issue, SEPA credit transfer export, and matching of payments.",
-    "Advance Payments (CZZ): sales and purchase advance letters, VAT documents for payments, closing letters and foreign currency revaluation.",
-    "Fixed assets (CZF): tax depreciation groups, depreciation holidays, two-step acquisition, extended posting groups, classification codes and location/responsible history.",
-    "Vendor checks: unreliable payer status from the tax authority and ARES registration lookup for contacts, customers and vendors.",
-    "Corrections posting (red storno) and sales credit memo types for corrective tax documents.",
-    "Inventory and Intrastat: movement templates, transfer order posting groups, inventory documents, Czech Intrastat engine, and compensation of receivables and payables (CZC)."
+    "VAT date, VAT periods and the VAT statement (including XML export and supplementary statement) with Czech statutory reporting setup, plus separate VIES reporting.",
+    "Corrections posting (red storno) with Check Posting Debit/Credit setup and a Correction field in journals.",
+    "Cash Desk pack: cash documents for receipts and withdrawals, cash desk cases, reconciliation, approval, release and posting.",
+    "Banking Documents pack: payment orders and bank statements with import, export, SEPA export and matching.",
+    "Advance Payments pack: sales and purchase advance letters, VAT documents, foreign currency advances and control reports.",
+    "Fixed assets: tax depreciation groups, depreciation holidays, two-step acquisition, extended posting groups, classification codes, location and responsible history.",
+    "Unreliable payer checks on purchase documents, ARES registration lookup, and reverse charge with limit monitoring.",
+    "Inventory: Intrastat for CZ, inventory movement templates, posting groups in transfer orders, inventory operations documents and Czech output reports."
   ],
   "areas": [
     {
       "area": "Finance",
-      "what": "The largest area. It adds VAT date handling, VAT statements with XML export, VAT LCY correction, replace VAT period, corrections posting, and cash desk codeunits (CZP). It also adds the alternative customer VAT registration and compensation report selection handlers, unreliable payer and registration number logic, and CNB exchange rate import.",
-      "why": "Learn describes the VAT date as a tax date separate from posting and document dates, and VAT statements and the cash desk as meeting Czech legislation.",
+      "what": "The largest area (777 objects). It holds the VAT date and VAT statement logic, VAT LCY correction, corrections posting, CNB exchange rate import, registration number management and the whole Cash Desk (CZP) pack. It also holds the Advance Payments (CZZ) handlers. W1 \"Detailed CV Ledg. Entry Buffer\" gets a non-deductible VAT field.",
+      "why": "Learn explains the VAT date, VAT statement, corrections posting and cash desk requirements for Czech legislation.",
       "objects": [
         "codeunit/11723",
         "codeunit/11742",
-        "codeunit/11741",
+        "codeunit/11796",
+        "codeunit/11720",
         "codeunit/11724",
         "codeunit/11729",
-        "codeunit/11762",
-        "codeunit/11769",
-        "codeunit/11796"
+        "codeunit/11731",
+        "table/383"
       ]
     },
     {
       "area": "Inventory",
-      "what": "Intrastat for Czech (own tables, codeunits and enums), plus handlers for item journals, transfer orders and inventory documents. Posting groups on transfer orders and inventory movement templates are also handled here. Intrastat Jnl. Line (table 263) is changed from W1.",
-      "why": "Learn describes Intrastat parameterized engine options, supplementary units and CSV export, and transfer order posting groups and inventory documents for local needs.",
+      "what": "Handlers for items, transfer orders, item journals and physical inventory, plus the Czech Intrastat management and inventory document print codeunits. It also covers origin interfaces. Intrastat Jnl. Line is changed.",
+      "why": "Learn describes Intrastat engine setup, inventory movement templates, transfer order posting groups and time-sequence checks for inventory.",
       "objects": [
         "table/263",
         "codeunit/31302",
         "codeunit/31303",
-        "enum/31301",
-        "enum/31300",
-        "codeunit/31046",
+        "codeunit/11777",
+        "codeunit/31047",
         "codeunit/31369",
-        "codeunit/31047"
+        "codeunit/31229",
+        "codeunit/31446"
       ]
     },
     {
       "area": "Bank",
-      "what": "Banking documents (CZB): payment orders and bank statements with issue, print, import and export codeunits, SEPA credit transfer export, payment matching and approvals. Also includes bank account handlers and the unreliable payer check for bank accounts.",
-      "why": "Learn says the extension follows Czech banking practices, with specific, variable and constant symbols for payment identification.",
+      "what": "The Banking Documents (CZB) pack: payment orders, bank statements, issuing, SEPA export, import launchers, payment matching, approvals and unreliable payer bank checks. The W1 bank matching buffer gets advance letter fields.",
+      "why": "Learn says the pack follows Czech banking practice with payment orders and bank statements across multiple accounts and currencies.",
       "objects": [
         "codeunit/31353",
         "codeunit/31357",
         "codeunit/31232",
         "codeunit/31362",
         "codeunit/31399",
+        "codeunit/31356",
         "codeunit/31347",
-        "codeunit/31349",
         "codeunit/11776"
       ]
     },
     {
       "area": "(no namespace)",
-      "what": "Mostly plumbing: permission sets for each Czech extension, permission set extensions, and upgrade codeunits. It also holds page extensions such as VAT Setup CZZ and the Job, Purchase Return Order and Source Code Setup pages.",
+      "what": "Permission sets for each Czech pack (core, advance, advance payments, fixed asset, compensation, cash desk, bank documents, Intrastat). It also holds extensions of the standard D365 permission sets, a few page extensions and upgrade codeunits.",
       "why": null,
       "objects": [
         "permissionset/11730",
@@ -70,94 +70,93 @@
         "permissionset/11780",
         "permissionset/11790",
         "permissionset/31300",
-        "pageextension/31235",
         "permissionsetextension/11730",
-        "codeunit/11790"
+        "pageextension/31235",
+        "codeunit/104150"
       ]
     },
     {
       "area": "Sales",
-      "what": "Handlers and page extensions that add Czech fields to customers, sales documents, reminders, finance charge memos and customer ledger entries. Includes the Credit Memo Type enum for corrective tax documents and customer bank account handling.",
-      "why": "Learn states that Czech VAT law requires different types of sales credit memos: corrective tax document, internal correction and insolvency tax document.",
+      "what": "Czech handlers and page extensions on customers, sales documents, reminders, finance charge memos and customer ledger entries. They add Czech document fields, including the credit memo type enum.",
+      "why": "Learn explains that Czech VAT law requires distinguishing types of sales credit memos, such as corrective tax documents, internal corrections and insolvency tax documents.",
       "objects": [
         "enum/11786",
         "codeunit/11743",
-        "codeunit/11752",
-        "codeunit/11783",
-        "codeunit/31038",
         "codeunit/11735",
+        "codeunit/11752",
+        "codeunit/31038",
+        "codeunit/11749",
         "pageextension/11727",
         "pageextension/11704"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Unreliable payer entries and service setup, purchase document handlers, VAT delay posting, vendor bank account handling, and page extensions for purchase documents and archives. Item charge assignment is also extended.",
-      "why": "Learn says unreliable payer status comes from the tax authority and purchase documents are checked against it before release.",
+      "what": "Unreliable payer service and management, purchase VAT delay posting, purchase document and vendor handlers, and extensions for vendor bank accounts and purchase documents.",
+      "why": "Learn says the unreliable payer feature gets vendor reliability status from the tax authority and checks purchase documents before release.",
       "objects": [
         "codeunit/11757",
         "codeunit/11758",
-        "page/11753",
-        "page/11754",
         "codeunit/11760",
         "codeunit/11744",
         "codeunit/11753",
+        "page/11753",
+        "page/11754",
         "codeunit/31039"
       ]
     },
     {
       "area": "FixedAssets",
-      "what": "Czech fixed assets (CZF): tax depreciation groups and types, extended posting groups, classification codes, FA history of location and responsible employee, and handlers for acquisition, disposal and normal depreciation. Corrective posting checks on FA journals are included.",
-      "why": "Learn ties tax depreciation to the Income Tax Act and describes two-step acquisition, depreciation holidays and disposal posting rules.",
+      "what": "Czech fixed assets (CZF): tax depreciation groups and methods, FA history of location and responsible employee, extended posting groups, classification codes, disposal and acquisition handlers.",
+      "why": "Learn ties this to Czech Income Tax Act rules for tax depreciation, depreciation holidays and the two-step acquisition.",
       "objects": [
         "codeunit/31247",
+        "codeunit/31237",
         "codeunit/31236",
         "codeunit/31235",
-        "codeunit/31237",
+        "enum/31240",
         "page/31249",
-        "page/31245",
         "page/31247",
-        "enum/31240"
+        "page/31245"
       ]
     },
     {
       "area": "Service",
-      "what": "Table extensions, page extensions, handlers and reports that bring the Czech VAT fields and output documents to service documents. Reports cover service quote, order, contract, invoice, credit memo and shipment.",
+      "what": "Czech fields, handlers and page extensions on service documents and posting, plus Czech service reports (quote, order, contract, invoice, credit memo, shipment).",
       "why": null,
       "objects": [
+        "codeunit/31040",
         "codeunit/11745",
         "codeunit/11785",
-        "codeunit/31040",
         "report/31197",
         "report/31198",
         "report/31194",
         "tableextension/11734",
-        "tableextension/11763"
+        "pageextension/11748"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Statutory company information: company officials, statutory reporting setup, and extensions to Company Information. Also covers report selection and substitute report handlers, address formatting, and Where Used Base Calendar (table 7604) as a W1 change.",
-      "why": "Learn says companies must define company officials and multilingual document footers on internal and external documents.",
+      "what": "Statutory company information: company officials, statutory reporting setup, extended company information, report selection, substitute reports and address formatting.",
+      "why": "Learn says Czech law requires company officials and multilingual document footers on documents.",
       "objects": [
         "table/11793",
         "page/11766",
-        "page/11765",
         "table/31105",
         "page/31108",
-        "codeunit/31041",
         "codeunit/31411",
-        "codeunit/31144"
+        "codeunit/31097",
+        "tableextension/11747",
+        "codeunit/31041"
       ]
     },
     {
       "area": "Security",
-      "what": "Extended user setup: user setup lines and cards, user setup per code buffer, copy and list reports, and certificate codes. User setup is extended with Czech fields.",
-      "why": "Learn describes extended user control that assigns employees to users and limits cash desks, bank accounts, journals, dimensions and locations.",
+      "what": "Extended user setup with user setup lines and a copy and list report, plus certificate codes. This controls access to cash desks, bank accounts, journals and posting periods.",
+      "why": "Learn describes extended user control that assigns employees to users and manages permissions for these areas.",
       "objects": [
         "table/11797",
         "page/31198",
-        "page/31199",
         "codeunit/31072",
         "report/31200",
         "table/31132",
@@ -167,34 +166,32 @@
     },
     {
       "area": "Projects",
-      "what": "Handlers and extensions on job journal lines, job ledger entries and resources. They add Czech fields and checks in job and resource journal posting.",
+      "what": "Handlers and extensions on job journals, job ledger entries and resources for Czech fields and checks.",
       "why": null,
       "objects": [
         "codeunit/31077",
-        "codeunit/31026",
+        "codeunit/31324",
         "codeunit/31312",
         "tableextension/11710",
         "tableextension/11795",
-        "codeunit/31324",
         "tableextension/11762"
       ]
     },
     {
       "area": "Assembly",
-      "what": "Table and page extensions that add Czech Advance Pack fields to assembly setup, assembly orders and posted assembly orders.",
+      "what": "Czech Advanced pack extensions on assembly setup, assembly orders and posted assembly orders.",
       "why": null,
       "objects": [
         "tableextension/31257",
         "tableextension/31258",
         "tableextension/31259",
         "pageextension/31253",
-        "pageextension/31252",
-        "tableextension/31260"
+        "pageextension/31252"
       ]
     },
     {
       "area": "Utilities",
-      "what": "Document footers (table and page), format document management, copy document handler, data classification handlers, and synchronization of deprecated fields.",
+      "what": "Support objects: document footers, Excel-style format helpers, copy document handler, instruction management and data sync from old fields.",
       "why": null,
       "objects": [
         "table/31119",
@@ -202,26 +199,25 @@
         "codeunit/11701",
         "codeunit/11740",
         "codeunit/11719",
-        "codeunit/31028",
-        "codeunit/31150"
+        "codeunit/31028"
       ]
     },
     {
       "area": "IO",
-      "what": "Excel templates, transformation rule management, and extensions to data exchange field mapping for Advance Pack.",
+      "what": "Excel templates and data exchange extensions, plus transformation rule management.",
       "why": null,
       "objects": [
         "table/11750",
         "page/11729",
         "codeunit/11778",
-        "tableextension/31267",
-        "pageextension/31243"
+        "codeunit/31403",
+        "tableextension/31267"
       ]
     },
     {
       "area": "CRM",
-      "what": "Contact handler and extensions of the contact table, card and list, with Czech fields such as registration data.",
-      "why": null,
+      "what": "Contact handling and Czech fields on contacts, such as registration data.",
+      "why": "Learn describes ARES lookup that updates contacts, vendors and customers.",
       "objects": [
         "codeunit/11751",
         "tableextension/11700",
@@ -231,11 +227,11 @@
     },
     {
       "area": "Environment",
-      "what": "Guided experience and application area handlers, a manual setup category, and the feature switch for replacing VAT period.",
+      "what": "Guided experience entries, application area handling, and the feature to replace the VAT period.",
       "why": null,
       "objects": [
-        "codeunit/11747",
         "codeunit/11722",
+        "codeunit/11747",
         "codeunit/31441",
         "enumextension/11707",
         "enumextension/11704"
@@ -243,8 +239,8 @@
     },
     {
       "area": "HumanResources",
-      "what": "Employee handler, extensions of the employee ledger entry and Human Resources Setup. They support alternative posting groups for employees.",
-      "why": "Learn describes alternative employee posting groups so payables and receivables can post to other G/L accounts than the default group.",
+      "what": "Employee handler, employee ledger entry fields and HR setup extensions, used by alternative employee posting groups.",
+      "why": "Learn describes alternative posting groups for employees.",
       "objects": [
         "codeunit/11750",
         "codeunit/31136",
@@ -254,14 +250,42 @@
       ]
     },
     {
-      "area": "Manufacturing",
-      "what": "Advance Pack extensions of Manufacturing Setup and Capacity Ledger Entry, with a user handler.",
+      "area": "Upgrade",
+      "what": "Upgrade codeunits and upgrade tags for the Core and Advanced packs, and a change to the W1 VAT date update codeunit.",
       "why": null,
+      "objects": [
+        "codeunit/104051",
+        "codeunit/31017",
+        "codeunit/31251"
+      ]
+    },
+    {
+      "area": "Manufacturing",
+      "what": "Advanced pack fields on manufacturing setup and capacity ledger entries, plus a user handler.",
+      "why": "Learn mentions manufacturing cost controls in the Advanced pack.",
       "objects": [
         "tableextension/31256",
         "pageextension/31251",
         "tableextension/31264",
         "codeunit/11702"
+      ]
+    },
+    {
+      "area": "CashFlow",
+      "what": "A cash flow handler and a cash flow date list report.",
+      "why": null,
+      "objects": [
+        "codeunit/31045",
+        "report/31005"
+      ]
+    },
+    {
+      "area": "Warehouse",
+      "what": "Handlers for warehouse journal lines and worksheet lines.",
+      "why": null,
+      "objects": [
+        "codeunit/31319",
+        "codeunit/31320"
       ]
     },
     {
@@ -274,26 +298,8 @@
       ]
     },
     {
-      "area": "CashFlow",
-      "what": "A cash flow handler and a Cash Flow Date List report.",
-      "why": null,
-      "objects": [
-        "codeunit/31045",
-        "report/31005"
-      ]
-    },
-    {
-      "area": "Warehouse",
-      "what": "Handlers for warehouse journal lines and warehouse worksheet lines.",
-      "why": null,
-      "objects": [
-        "codeunit/31319",
-        "codeunit/31320"
-      ]
-    },
-    {
       "area": "Integration",
-      "what": "SOAP web service request management, used for services such as the unreliable payer lookup.",
+      "what": "A SOAP web service request helper, used for external lookups such as unreliable payer.",
       "why": null,
       "objects": [
         "codeunit/31031"
@@ -301,7 +307,7 @@
     },
     {
       "area": "RoleCenters",
-      "what": "A page extension that adds Czech actions to the Administrator Main role center.",
+      "what": "Czech actions added to the Administrator role center.",
       "why": null,
       "objects": [
         "pageextension/31161"
@@ -310,25 +316,31 @@
   ],
   "learn_pages_used": 60,
   "prompt_version": 2,
-  "at": "2026-10-30T00:59:01.651Z",
+  "at": "2026-11-25T00:55:07.493Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.255006
+    "cost_usd": 0.25379799999999997
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-30T00:59:28.804Z",
-    "verdict": "approve",
+    "at": "2026-11-25T00:55:37.790Z",
+    "verdict": "fix",
     "issues": [
-      "\"Most codeunits are event handlers\" is only roughly supported: about 64 of the roughly 120 codeunits in the visible sample end in \"Handler\". \"Many\" would be safer. The phrase \"hook into W1 posting and document logic\" is inferred from the names, not stated in the input.",
-      "The key point labelled \"Vendor checks\" also covers the ARES lookup for contacts and customers, so the label is a little narrow.",
-      "Compensation (CZC) is grouped with inventory and Intrastat in the last key point. It is accurate but placed with unrelated items."
+      "Overview says the Advanced pack (CZA) adds inventory movement templates. Neither source supports this: the Learn page for the Advanced pack doesn't list them, and the related object 'Item Jnl. Template Handler CZL' belongs to the Core pack.",
+      "Overview calls the Advanced pack only inventory features. Learn also lists General Ledger Entries Application and automatic creation and update of dimensions for it.",
+      "Key point 1 puts VIES inside the VAT statement. Learn documents VIES as a separate reporting feature with its own setup, history and file export.",
+      "Overview presents event subscription through 'Handler' codeunits as fact. The input shows only the codeunit names, so the claim was softened.",
+      "Small gap: the summary left out Compensation (CZC), which the input documents through its objects and its own Learn page."
     ],
-    "input_hash": "29ee7847ed96d6d5ca05b2c30faacd0616d7e10a50194d2f1badac63d8b50df1",
-    "cost_usd": 0.368076,
-    "applied": [],
+    "input_hash": "3a644553e520627f11e91dfa98ffadd6a80e1043ac8284ea07a8bc26542ee3f0",
+    "cost_usd": 0.38223599999999996,
+    "applied": [
+      "summary",
+      "overview",
+      "key_points"
+    ],
     "rejected_edits": []
   }
 }

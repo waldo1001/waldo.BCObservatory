@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:59.535Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,7 +48,7 @@ links:
     - topic/business-central/business-functionality/online-store-with-shopify
   localizations: []
   videos:
-    - video/B-pxLlb-UN0
+    - video/VjYMhjjc3uw
   posts: []
   guidelines: []
   changes:
@@ -118,7 +118,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12214 [Shopify] Store currency handling for auto-created orders](../../../../changes/bcapps/12214.md) (code change): "Shopify connector now persists the currency handling mode used"
 - [#12215 [Shopify] Link grouped invoice to all originating orders](../../../../changes/bcapps/12215.md) (code change): "Invoice document linking to Shopify orders now correctly associates"
 - [#12260 [Shopify] Fix shop card transaction navigation](../../../../changes/bcapps/12260.md) (code change): "Shopify Shop Card payment transaction navigation now opens the correct"
-- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../../videos/B-pxLlb-UN0.md) (video): "Shopify collections import and mapping; Item import from Shopify with product details"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)](../../../../videos/VjYMhjjc3uw.md) (video): "customer mapping; sell-to customer; bill-to customer; payment terms"
 
 ## Business Central pages and reports
 

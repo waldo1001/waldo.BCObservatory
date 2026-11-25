@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,7 +112,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#14143 Enable internal SLS hooks for harms evaluations](../../../changes/bcapps/14143.md) (code change): "Internal hooks are added to the Sales Lines Suggestions feature to support harms evaluations"
 - [#14198 [SLS] Update accuracy prompts for GPT-5.6 Ceres migration](../../../changes/bcapps/14198.md) (code change): "Sales Lines Suggestions prompts and accuracy evaluations are updated for GPT-5.6"
 - [#14307 [SLS][29.x] Backport production app updates for GPT-5.6 Ceres](../../../changes/bcapps/14307.md) (code change): "Sales Lines Suggestions production changes from main to 29.x"
-- [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../posts/yzhums-com/68672.md) (community post): "Copilot can suggest sales lines from a CSV file"
+- [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../posts/yzhums-com/68672.md) (community post): "Since 2024 wave 2 (BC25), Copilot can suggest sales lines from a CSV file."
 - [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Sales line suggestion with Copilot; Data search enhancement"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Lines Suggestions with Copilot; natural language processing"

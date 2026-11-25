@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:51.613Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/yzhums-com/77505
+    - post/aardvarklabs-blog/2565
   guidelines: []
   changes:
     - change/bcapps/10341
@@ -135,6 +135,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9363 GP - Updates 202607](../../../../changes/bcapps/9363.md) (code change): "The GP migration now spreads item transactions across multiple batches"
 - [#9438 SL - Add support for migrating historical project transactions](../../../../changes/bcapps/9438.md) (code change): "A new migration setting enables historical project transactions to be migrated alongside other historical data"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "upgrade phase data writes, install-versus-upgrade dispatch logic, install code dispatch"
-- [Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)](../../../../posts/yzhums-com/77505.md) (community post): "Customers using OData integrations on Microsoft pages must copy the page source code into their own extensions before upgrading"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Three migration paths exist: switch to API 2.0 endpoints, create custom Page or Query APIs"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-25T01:06:09.711Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -408,6 +408,7 @@ links:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
   localizations: []
   videos:
+    - video/07G7aC14Y_w
     - video/8C9JmtHdExM
     - video/8VRtBLNAOiI
     - video/D56EVy3JgHA
@@ -486,7 +487,7 @@ children:
 coverage:
   learn: 62
   code: 82
-  video: 7
+  video: 8
   blog: 16
   guideline: 0
 bc_forms:
@@ -699,6 +700,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages"
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../../../posts/yzhums-com/71666.md) (community post): "self-billed invoices, allowing buyers to generate invoices on behalf of suppliers"
 - [Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices](../../../posts/yzhums-com/76268.md) (community post): "vendor-specific number series for self-billed purchase invoices"
+- [What's new in E-Documents: Overview (2026 release wave 2)](../../../videos/07G7aC14Y_w.md) (video): "Purchase order EDI document type; EDI purchase order to sales order linkage"
 - [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
 - [Introducing: Self-Billing Invoices (2026 release wave 1)](../../../videos/8VRtBLNAOiI.md) (video): "self-billing; purchase invoice; vendor setup; invoicing process"
 - [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../../../videos/D56EVy3JgHA.md) (video): "purchase order matching; copilot; automatic matching; invoice lines"
