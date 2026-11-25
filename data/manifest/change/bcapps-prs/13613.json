@@ -6,10 +6,35 @@
   "title": "[main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version",
   "url": "https://github.com/microsoft/BCApps/pull/13613",
   "published_at": "2026-11-24T06:01:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:15:06.163Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:15:11.753Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003469
+    },
+    "linked": {
+      "at": "2026-11-25T00:15:11.978Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:15:11.987Z",
+      "path": "content/changes/bcapps/13613.md"
     }
   },
   "input_hash": "e35755efb9493c02a173819e83c620c71b26efd2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "incorrect additional currency base and additional currency amount calculation in vat gst entries when line discount is applied on sales invoice in the australian version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ab8be263e5487951ee1ed0423e791d2305002743667910aed2c3ddf203aed1d9"
 }

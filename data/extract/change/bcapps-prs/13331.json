@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13331",
+  "number": 13331,
+  "title": "[Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Create Pick now correctly assigns lot quantities when breakbulk is disabled and FEFO is enabled, preventing shipments from being underpicked by ensuring only inventory in the requested unit of measure counts toward lot availability.",
+  "key_points": [
+    "Fixed lot quantity calculation in FEFO picking to respect unit of measure constraints when breakbulk is not allowed",
+    "New CalcQtyAvailToPickInUnitOfMeasure procedure calculates how much of a lot can be picked from bins holding the requested unit only",
+    "Prevents scenarios where the first-expiring lot could be assigned more quantity than physically available in the requested unit of measure",
+    "Ensures subsequent lots receive the remaining quantity needed to fulfill shipments completely",
+    "Added regression tests for single and multiple shipment scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Create Pick can assign the first-expiring lot more quantity than is stored in the requested unit of measure.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004061,
+    "changes_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "microsoft/BCApps releases/29.x (BC29)",
   "url": "https://github.com/microsoft/BCApps/tree/releases/29.x",
   "published_at": null,
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,8 +17,8 @@
       "branch": "releases/29.x"
     },
     "extracted": {
-      "at": "2026-11-24T00:18:25.845Z",
-      "commit": "b42f520c380a64062ca700b5f5450acc436e5b05",
+      "at": "2026-11-25T00:18:08.586Z",
+      "commit": "e646fc169eb3bb7b1947b2089ed943d91dec46b0",
       "w1_objects": 9478,
       "app_objects": 7051,
       "files": 9578,
@@ -50,7 +50,7 @@
           "absent": 0
         },
         "cz": {
-          "added": 1773,
+          "added": 1782,
           "replaced": 8,
           "absent": 0
         },
@@ -162,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f18ea0d0f761d9c493f54f8c7acc81bb1b38092c14dd4514f1ee5b78e4ec4636"
+  "output_hash": "e646fc169eb3bb7b1947b2089ed943d91dec46b0"
 }

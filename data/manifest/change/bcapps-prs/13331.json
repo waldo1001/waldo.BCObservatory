@@ -6,10 +6,35 @@
   "title": "[Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.",
   "url": "https://github.com/microsoft/BCApps/pull/13331",
   "published_at": "2026-11-24T05:50:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:15:08.073Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:15:14.283Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004061
+    },
+    "linked": {
+      "at": "2026-11-25T00:15:14.496Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:15:14.504Z",
+      "path": "content/changes/bcapps/13331.md"
     }
   },
   "input_hash": "024ed26c439952ffa052829b8436610f921de076:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "warehouse picks creating incorrect line splitting final pick"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f9c4ff1de68a4fb0ba870a3e18afb29a9880c527eea4b319b44aeb9c2b9a08f7"
 }

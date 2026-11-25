@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14346",
+  "number": 14346,
+  "title": "[Main] Expense Management: add partner extension events and make Create Expense Report public",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense management adds integration events for partners to customize expense report lines and posting without friend access, and makes the Create Expense Report codeunit public with a focused API surface.",
+  "key_points": [
+    "Seven new integration events cover copying expense fields to report lines, posting operations, per diem calculations, and post-posting follow-up actions",
+    "Create Expense Report codeunit changed from internal to public, exposing only the AddSingleExpenseToExpenseReport procedure while keeping UI methods internal",
+    "Integration events added to Expense Report-Post, Expense Ledger Entry, and Expense Per Diem Calculation objects to support localization and partner customizations",
+    "Existing events like OnAfterReleaseExpense and OnCheckExpenseReportPostRestrictions are reused for consistency",
+    "Per diem calculation refactored to delegate to a local procedure for event raising without changing behavior for non-subscribers"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "adds a minimal set of integration events, each tied to a scenario, so partners can customize expense report lines and posting",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004849,
+    "changes_in_call": 1
+  }
+}

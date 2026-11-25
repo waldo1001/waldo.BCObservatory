@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13613",
+  "number": 13613,
+  "title": "[main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fixed incorrect Additional Currency Base and Amount calculations in VAT/GST entries for purchase invoices with line discounts in the Australian version.",
+  "key_points": [
+    "Corrects Additional Currency Base and Additional Currency Amount calculations when line discounts are applied",
+    "Addresses VAT/GST entry calculations in purchase posting for APAC/Australian localization",
+    "Includes regression tests to prevent similar issues in the future",
+    "Aligns main branch with fixes from 29.x branch after review feedback"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "finance",
+    "localization"
+  ],
+  "quote": "Brings the differences between 29.x PR #11723 and main PR #11434 into main, following review comments on the 29.x PR.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003469,
+    "changes_in_call": 1
+  }
+}

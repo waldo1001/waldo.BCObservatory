@@ -6,14 +6,39 @@
   "title": "[Main] Expense Management: add partner extension events and make Create Expense Report public",
   "url": "https://github.com/microsoft/BCApps/pull/14346",
   "published_at": "2026-11-23T10:54:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:16:21.704Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:16:39.126Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004849
+    },
+    "linked": {
+      "at": "2026-11-25T00:16:39.352Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:16:39.360Z",
+      "path": "content/changes/bcapps/14346.md"
     }
   },
   "input_hash": "79dc0b262a1826292a7b13a51a7e1a27f43622b2:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14346,
@@ -31,6 +56,7 @@
     "community_contribution": false,
     "title_key": "expense management add partner extension events and make create expense report public"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-24T02:16:22.977Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "309d53fcc5521a7c65a4c1e0dda16b786a7a418b0948abdb76739d7cb529f856"
 }
