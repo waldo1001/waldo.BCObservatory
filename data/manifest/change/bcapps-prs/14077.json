@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14077",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master Data Management] Avoid duplicate excluded record insertion after match-based coupling",
+  "url": "https://github.com/microsoft/BCApps/pull/14077",
+  "published_at": "2026-11-24T13:19:03Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:14:41.602Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:14:48.816Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004461
+    },
+    "linked": {
+      "at": "2026-11-25T00:14:49.034Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:14:49.048Z",
+      "path": "content/changes/bcapps/14077.md"
+    }
+  },
+  "input_hash": "d2d63846ef9e5bb2a77cccb7a2a1449012823357:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14077,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d2d63846ef9e5bb2a77cccb7a2a1449012823357",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master data management avoid duplicate excluded record insertion after match based coupling"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5421ad65a763b1511f91e3fc998c4c1b800b1274070da64dfd792952fac09bfc"
+}

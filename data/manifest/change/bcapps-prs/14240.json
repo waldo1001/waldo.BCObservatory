@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14240",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-\"Cannot match item tracking\" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled",
+  "url": "https://github.com/microsoft/BCApps/pull/14240",
+  "published_at": "2026-11-24T13:28:05Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:14:22.819Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:14:30.978Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003804
+    },
+    "linked": {
+      "at": "2026-11-25T00:14:31.163Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:14:31.173Z",
+      "path": "content/changes/bcapps/14240.md"
+    }
+  },
+  "input_hash": "d078d15c63bba88b1853867d21616d54e2ef575d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14240,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d078d15c63bba88b1853867d21616d54e2ef575d",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "cannot match item tracking when partially posting an inventory pick for lot tracked items with strict expiration posting enabled"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0667c1bf18705076b6a682c3a62a9b5189477616d36780f4f8239a844b011a83"
+}

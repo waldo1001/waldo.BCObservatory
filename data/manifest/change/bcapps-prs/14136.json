@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14136",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - Bug 659462: [Expense Agent]  Add configurable rounding precision for partial-day per diem",
+  "url": "https://github.com/microsoft/BCApps/pull/14136",
+  "published_at": "2026-11-24T16:11:56Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:14:11.114Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:14:19.880Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003463
+    },
+    "linked": {
+      "at": "2026-11-25T00:14:20.089Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:14:20.098Z",
+      "path": "content/changes/bcapps/14136.md"
+    }
+  },
+  "input_hash": "ad1340a55a0ca918488f71e180781e5020c33881:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14136,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ad1340a55a0ca918488f71e180781e5020c33881",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 659462 expense agent add configurable rounding precision for partial day per diem"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aa9676a156aa81f60b5e38477e71833e42a7db2f486df8d1d004084a70877cb4"
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14139",
+  "number": 14139,
+  "title": "[main] bug - Fix incorrect source entry lookup event in Czech compensations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Czech compensations now expose separate customer and vendor source entry lookup events with modifiable record parameters, replacing the previous event that passed the customer ledger entry by value and incorrectly used the customer event for vendor lookups.",
+  "key_points": [
+    "New separate customer and vendor lookup events use var record parameters so subscribers can modify filters",
+    "Original event marked obsolete in version 30.0 and retained under conditional compilation for compatibility",
+    "Vendor lookup now correctly invokes vendor-specific event instead of customer event",
+    "Regression tests verify subscriber-defined filters restrict lookups and selected entries are saved",
+    "Existing release and posting tests updated to use their own posted documents instead of relying on existing ledger entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 1
+  }
+}

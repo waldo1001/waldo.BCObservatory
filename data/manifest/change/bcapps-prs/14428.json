@@ -1,0 +1,37 @@
+{
+  "id": "change/bcapps-prs/14428",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] Fix Create Payment tests' journal template setup (AB#659096)",
+  "url": "https://github.com/microsoft/BCApps/pull/14428",
+  "published_at": "2026-11-24T12:50:49Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    }
+  },
+  "input_hash": "000f778ae12d26dddb1c4c7371b141af7445d113:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14428,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "000f778ae12d26dddb1c4c7371b141af7445d113",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master fix create payment tests journal template setup ab 659096"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-25T00:14:36.986Z",
+  "retry_after": null
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14077",
+  "number": 14077,
+  "title": "[Master Data Management] Avoid duplicate excluded record insertion after match-based coupling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management's match-based coupling now handles records excluded by the local table filter correctly by logging an error instead of attempting duplicate creation, preventing misleading insertion failures.",
+  "key_points": [
+    "Match-based coupling repeats lookups without the local filter when no match is found inside the filter, then logs an error pointing to the excluded record",
+    "The local table filter column on Synchronization Tables page is renamed to Local Table Filter and always visible",
+    "Fixed a latent bug where coupling crashed when source and local tables differed due to reading local field numbers from source records",
+    "Wildcard characters in text matching values are now properly escaped to prevent false matches when filter characters appear in source values",
+    "Added MatchExcludedByLocalTableFilter dimension to existing telemetry event 0000J8E to track excluded record scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "If that finds a record, the source record is neither coupled nor queued for creation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004461,
+    "changes_in_call": 1
+  }
+}

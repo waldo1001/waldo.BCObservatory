@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13910",
+  "number": 13910,
+  "title": "[Main] - Bug 657627: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense User Card now reuses an existing unassigned approval setup instead of rejecting it with a duplicate error, and allows replacing an assigned approver after confirmation.",
+  "key_points": [
+    "An unassigned existing setup is automatically assigned to the card owner",
+    "Replacing a different approver requires confirmation showing both approvers",
+    "Adding a user already assigned to the same approver preserves the original validation error",
+    "Noninteractive execution does not authorize approver replacement",
+    "Regression tests added for unassigned setup, confirmed replacement, and duplicate assignment scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Reuse an existing Expense Approval Setup when manually adding a user from the Expense User Card, rather than failing to insert a duplicate.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004019,
+    "changes_in_call": 1
+  }
+}

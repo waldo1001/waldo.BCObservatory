@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14184",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x]-Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
+  "url": "https://github.com/microsoft/BCApps/pull/14184",
+  "published_at": "2026-11-24T16:15:53Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:13:47.965Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:13:56.162Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003358
+    },
+    "linked": {
+      "at": "2026-11-25T00:13:56.367Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "b42f520c380a64062ca700b5f5450acc436e5b05"
+    },
+    "published": {
+      "at": "2026-11-25T00:13:56.457Z",
+      "path": "content/changes/bcapps/14184.md"
+    }
+  },
+  "input_hash": "aa67259e9915492b2d4c41c0ce28553a96ea7533:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14184,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "aa67259e9915492b2d4c41c0ce28553a96ea7533",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x export electronic payments one vendor s missing email can clear another vendor s document no"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f65011e49745a1aee57e6e3405a099dde3fac4c9b787f3452deda9c4ddafba4"
+}

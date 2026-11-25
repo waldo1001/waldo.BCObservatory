@@ -1,0 +1,55 @@
+{
+  "from": "2026-10-20",
+  "to": "2026-11-25",
+  "added": [],
+  "removed": [],
+  "changed": [
+    "al-30.0",
+    "al-17.0",
+    "al-16.4"
+  ],
+  "entries": {
+    "al-30.0": {
+      "added": [
+        "permission-set-descriptive-help",
+        "localized-about-descriptions",
+        "development-tools-runtime",
+        "word-layout-diagnostics",
+        "snapshot-mcp-test-coverage",
+        "al-tool-workspace-restore-command"
+      ],
+      "changed": [
+        "modify-several-fields-in-one-modifyall-call",
+        "github-issues",
+        "bug-fixes",
+        "altool-changes"
+      ],
+      "removed": []
+    },
+    "al-17.0": {
+      "added": [],
+      "changed": [
+        "agents-in-business-central-move-to-gpt-5-3-chat",
+        "bug-fixes",
+        "al-language-changes",
+        "github-issues",
+        "support-for-packaging-analysis-views-in-extensions",
+        "support-for-namespaces-and-fully-qualified-names",
+        "connecting-to-the-business-central-troubleshooting-mcp-server",
+        "al-code-analyzers-changes",
+        "appsourcecop",
+        "miscellaneous",
+        "attach-to-agent-session",
+        "quick-uptake-of-namespaces"
+      ],
+      "removed": []
+    },
+    "al-16.4": {
+      "added": [],
+      "changed": [
+        "bug-fixes"
+      ],
+      "removed": []
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14231",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - Deliverable 643989: [Expense Agent] Remove direct DotNet usage from the test app (app stays target OnPrem)",
+  "url": "https://github.com/microsoft/BCApps/pull/14231",
+  "published_at": "2026-11-24T11:26:05Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    }
+  },
+  "input_hash": "1aad3c2687cf3b053bfaf5b1599fa87d26a269ff:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14231,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1aad3c2687cf3b053bfaf5b1599fa87d26a269ff",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "deliverable 643989 expense agent remove direct dotnet usage from the test app app stays target onprem"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-25T00:14:52.007Z",
+  "retry_after": null
+}

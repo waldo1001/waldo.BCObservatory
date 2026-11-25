@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13927",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": " [29.x]-Bug 658800: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error",
+  "url": "https://github.com/microsoft/BCApps/pull/13927",
+  "published_at": "2026-11-24T16:48:18Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:13:47.506Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:13:56.464Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003164
+    },
+    "linked": {
+      "at": "2026-11-25T00:13:56.677Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "b42f520c380a64062ca700b5f5450acc436e5b05"
+    },
+    "published": {
+      "at": "2026-11-25T00:13:56.685Z",
+      "path": "content/changes/bcapps/13927.md"
+    }
+  },
+  "input_hash": "9226b25555006e1c48ff684df763836e6d3f9b8b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13927,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "9226b25555006e1c48ff684df763836e6d3f9b8b",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x bug 658800 expense agent expense user card rejects manual approval setup with duplicate error"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9928488f32e0b10cc04da69d9a3e3a9fb7d2d011e997dc02421d7d27a6fa364"
+}

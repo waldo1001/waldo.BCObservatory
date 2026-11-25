@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/yzhums-com/77607",
+  "url": "https://yzhums.com/77607/",
+  "title": "Business Central 2026 release wave 2 (BC29): New API Overview page to view all available APIs (Discover APIs with the API Overview page)",
+  "source": "yzhums-com",
+  "published_at": "2026-11-24T01:26:23.000Z",
+  "words": 567,
+  "summary": "Business Central 2026 release wave 2 introduces a new API Overview page that provides a standard way to explore all available APIs in the environment, including Microsoft APIs and custom APIs from extensions. This replaces the previous method of manually filtering the Page Metadata virtual table.",
+  "key_points": [
+    "New API Overview page available in BC29 for discovering and viewing all available APIs",
+    "Page displays APIs as pages, queries, or codeunits with detailed information like API URL, publisher, group, and version",
+    "Predefined views simplify filtering (All, API Pages, API Queries, API Codeunits, API v2.0, Microsoft APIs, Custom APIs)",
+    "Users can directly access API endpoints from the page or filter by publisher, group, and version"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "api",
+    "apis",
+    "discovery",
+    "web services",
+    "rest",
+    "odata",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "API Overview"
+    },
+    {
+      "type": "table",
+      "name": "Page Metadata"
+    }
+  ],
+  "features": [
+    "API Overview page",
+    "API discovery",
+    "API filtering",
+    "API endpoint access",
+    "Virtual table support"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Starting with Business Central 2026 release wave 2 (BC 29), Microsoft has introduced a new standard page called API Overview.",
+      "why_it_matters": "Marks the introduction of the new feature that simplifies API discovery"
+    },
+    {
+      "text": "The page provides a single place to explore the APIs available in the current Business Central environment.",
+      "why_it_matters": "Explains the core value proposition of consolidating API information in one standard location"
+    },
+    {
+      "text": "You can also filter the list by API Publisher, API Group, or API Version, which makes it much easier to find a particular API.",
+      "why_it_matters": "Demonstrates the practical filtering capabilities that improve usability with many extensions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005225,
+    "posts_in_call": 1
+  }
+}

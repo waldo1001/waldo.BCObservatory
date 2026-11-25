@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14136",
+  "number": 14136,
+  "title": "[Main] - Bug 659462: [Expense Agent]  Add configurable rounding precision for partial-day per diem",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent now supports configurable rounding precision for partial-day per diem calculations, allowing administrators to set how fractional daily amounts are rounded.",
+  "key_points": [
+    "New field added to Expense Agent Setup to control rounding precision",
+    "Partial-day per diem settings page now includes rounding configuration",
+    "Per diem calculation logic updated to apply the configured rounding",
+    "Setup wizard displays the new rounding precision option",
+    "Test coverage added for rounding behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003463,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14139",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug - Fix incorrect source entry lookup event in Czech compensations",
+  "url": "https://github.com/microsoft/BCApps/pull/14139",
+  "published_at": "2026-11-24T11:29:26Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    },
+    "fetched": {
+      "at": "2026-11-25T00:14:50.779Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-25T00:14:57.516Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004557
+    },
+    "linked": {
+      "at": "2026-11-25T00:14:57.739Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-25T00:14:57.748Z",
+      "path": "content/changes/bcapps/14139.md"
+    }
+  },
+  "input_hash": "8aa6909de76f136e6ca8811105173ff5cfd93e03:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14139,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8aa6909de76f136e6ca8811105173ff5cfd93e03",
+    "author": "v-janpopr",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix incorrect source entry lookup event in czech compensations"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e3e21c550f23fc870cc147f347d2a3286da2a3a637771bdb03b422bf0a6573a8"
+}

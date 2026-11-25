@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13331",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.",
+  "url": "https://github.com/microsoft/BCApps/pull/13331",
+  "published_at": "2026-11-24T05:50:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-25T00:13:20.045Z"
+    }
+  },
+  "input_hash": "024ed26c439952ffa052829b8436610f921de076:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13331,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "024ed26c439952ffa052829b8436610f921de076",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "warehouse picks creating incorrect line splitting final pick"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13927",
+  "number": 13927,
+  "title": " [29.x]-Bug 658800: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Fixed Expense Agent's approval setup page to allow users to manually configure multiple approval routes without rejecting duplicate configuration attempts.",
+  "key_points": [
+    "Corrected validation logic in Expense Approval Setups page that prevented legitimate duplicate entries",
+    "Users can now set up multiple approval routes for the Expense Agent",
+    "Added test coverage for the duplicate approval setup scenario",
+    "Bug occurred when users attempted manual approval configuration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003164,
+    "changes_in_call": 1
+  }
+}

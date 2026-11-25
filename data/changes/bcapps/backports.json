@@ -1277,6 +1277,15 @@
       "title_key": "use gpt 5 6 ceres for no series copilot"
     }
   ],
+  "14148": [
+    {
+      "number": 14415,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-24T11:43:53Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14415",
+      "title_key": "only skip draft preparation for the payables agent s own e documents with agent driven line matching"
+    }
+  ],
   "14218": [
     {
       "number": 14221,
@@ -2893,6 +2902,34 @@
       "merged_at": "2026-11-23T19:50:26Z",
       "url": "https://github.com/microsoft/BCApps/pull/13863",
       "title_key": "hide use concurrent posting in general ledger setup"
+    },
+    {
+      "number": 14237,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-24T09:57:24Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14237",
+      "title_key": "bug 652275 backport cz add the country region of origin code field to a document line"
+    },
+    {
+      "number": 14246,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-24T11:32:47Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14246",
+      "title_key": "deliverable 643989 expense agent remove direct dotnet usage from the test app app stays target onprem"
+    },
+    {
+      "number": 14178,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-24T16:48:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14178",
+      "title_key": "bug 659571 expense agent add configurable rounding precision for partial day per diem"
+    },
+    {
+      "number": 14493,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-24T20:15:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14493",
+      "title_key": "expense agent register the copilot capability as generally available"
     }
   ]
 }
