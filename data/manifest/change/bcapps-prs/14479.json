@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14479",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[QM] Demo PRODUCTION generation rule no longer shows Bicycle Checklist",
+  "url": "https://github.com/microsoft/BCApps/pull/14479",
+  "published_at": "2026-11-25T09:18:49Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    }
+  },
+  "input_hash": "1096c67ed0b850f88905d936823e483ab320ab7a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14479,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1096c67ed0b850f88905d936823e483ab320ab7a",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "qm demo production generation rule no longer shows bicycle checklist"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-26T00:14:26.182Z",
+  "retry_after": null
+}

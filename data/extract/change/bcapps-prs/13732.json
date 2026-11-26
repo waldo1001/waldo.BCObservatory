@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13732",
+  "number": 13732,
+  "title": "Initialize report filename defaults for new and existing companies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Report Filename Manager now initializes default filename patterns for 69 standard reports during company initialization, installation, and upgrade, ensuring consistent report naming without requiring manual setup.",
+  "key_points": [
+    "New companies receive enabled filename setup with 65 report-specific defaults and 4 generic document defaults during Company-Initialize",
+    "Existing companies get missing configuration added during installation and upgrade without changing their feature switch or filename-length settings",
+    "Customized, filtered, or enabled patterns are preserved and not overwritten",
+    "Three reports with no document context (5085, 6520, 6521) use report name and date instead of document identifiers",
+    "Caller-owned server output paths are preserved for legacy API PDF generation while patterns apply to client display and attachment names"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Provision Report Filename Manager defaults through real company initialization, installation and upgrade.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005189,
+    "changes_in_call": 1
+  }
+}

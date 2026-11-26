@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14480",
+  "number": 14480,
+  "title": "Show release versions and getting-started steps in the EAP cockpit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Early Access Preview cockpit now displays release versions in the list and opens a dedicated details page with getting-started steps, overview content, and action links for each feature.",
+  "key_points": [
+    "New dedicated details page shows full feature overview with numbered getting-started guidance",
+    "Release version information visible in the compact list view",
+    "Help, video, and feature-feedback action links available from the details page",
+    "Uses EAP-local metadata instead of cramped FactBox or description field",
+    "AL tests added for ordered full text, optional metadata, and malformed values"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004275,
+    "changes_in_call": 1
+  }
+}

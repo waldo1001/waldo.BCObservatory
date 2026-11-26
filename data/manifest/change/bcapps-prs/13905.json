@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13905",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Exclude WorkIQ feature key from demo data feature enablement",
+  "url": "https://github.com/microsoft/BCApps/pull/13905",
+  "published_at": "2026-11-25T00:27:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    }
+  },
+  "input_hash": "8981ebf65136df691ae368f3c4115cbba77c3579:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13905,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8981ebf65136df691ae368f3c4115cbba77c3579",
+    "author": "SVinchi",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "exclude workiq feature key from demo data feature enablement"
+  }
+}

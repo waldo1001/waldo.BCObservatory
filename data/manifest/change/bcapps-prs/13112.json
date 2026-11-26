@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13112",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": " [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/13112",
+  "published_at": "2026-11-25T08:20:51Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:14:49.014Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 8,
+      "objects": 5,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-26T00:14:54.803Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004405
+    },
+    "linked": {
+      "at": "2026-11-26T00:15:01.256Z",
+      "objects": 5,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:15:01.265Z",
+      "path": "content/changes/bcapps/13112.md"
+    }
+  },
+  "input_hash": "5dbd1580edea704fd88b8dd083b57bf3ec2e226d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13112,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5dbd1580edea704fd88b8dd083b57bf3ec2e226d",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "main all e canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than purchase receiptsinitial commit"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc51172cd43e75b83883e65ecac1c99f87275191a0a84711beede9257d81f0a3"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14430",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "List adding subcontracting suggestions to an existing purchase order in EAP",
+  "url": "https://github.com/microsoft/BCApps/pull/14430",
+  "published_at": "2026-11-25T11:17:42Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    }
+  },
+  "input_hash": "a0990ec2a9848652e29031e2c4fa61e5ff47d0cf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14430,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a0990ec2a9848652e29031e2c4fa61e5ff47d0cf",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "list adding subcontracting suggestions to an existing purchase order in eap"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-26T00:13:58.212Z",
+  "retry_after": null
+}

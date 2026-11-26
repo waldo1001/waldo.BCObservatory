@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14491",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Emit the E-Document LLM calls under the Payables Agent copilot capability",
+  "url": "https://github.com/microsoft/BCApps/pull/14491",
+  "published_at": "2026-11-25T10:10:28Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:14:13.085Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-26T00:14:19.765Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.00379
+    },
+    "linked": {
+      "at": "2026-11-26T00:14:19.938Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:14:19.943Z",
+      "path": "content/changes/bcapps/14491.md"
+    }
+  },
+  "input_hash": "ba8009ec45876fd6f91be324dbda5622bd16bcf2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14491,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ba8009ec45876fd6f91be324dbda5622bd16bcf2",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "emit the e document llm calls under the payables agent copilot capability"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b31626ef36c0e3a5049b30ae19ad3116d62bdac8e64b13c10d96b3638f8fe14"
+}

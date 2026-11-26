@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14471",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix incoming document attachment overview Line No. type",
+  "url": "https://github.com/microsoft/BCApps/pull/14471",
+  "published_at": "2026-11-25T13:03:43Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:13:56.949Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-26T00:14:02.142Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003861
+    },
+    "linked": {
+      "at": "2026-11-26T00:14:02.359Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:14:02.367Z",
+      "path": "content/changes/bcapps/14471.md"
+    }
+  },
+  "input_hash": "54ef38c91da20c1a551b0fd846f84f66bd29b561:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14471,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "54ef38c91da20c1a551b0fd846f84f66bd29b561",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix incoming document attachment overview line no type"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d31b7c385f46f334e456b5baa8c23e9ffaef792107776b0f55eaca0262b9ddc9"
+}

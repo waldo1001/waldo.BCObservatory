@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13112",
+  "number": 13112,
+  "title": " [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Fixed a bug where canceling a posted purchase invoice could fail or misallocate item charges when those charges were assigned to documents other than Purchase Receipts. The fix ensures all supported document types are handled and correct cost amounts are used.",
+  "key_points": [
+    "Item charge assignments are now recreated for all supported targets (Purchase Receipt, Transfer Receipt, Purchase Return Shipment, Sales Shipment, Sales Return Receipt) during corrective document creation",
+    "Correct cost amount types are applied based on document type: Cost Amount (Non-Invtbl.) for Purchase Return Shipment and Sales Shipment; Cost Amount (Actual) for others",
+    "Rounding adjustments now only affect supported value entries, preventing quantities from shifting to incorrect assignments",
+    "Changes applied across all localization layers (W1, ES, IT, NA, NL, RU)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "quote": "Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase Receipts",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004405,
+    "changes_in_call": 1
+  }
+}

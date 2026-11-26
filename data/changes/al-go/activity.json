@@ -1,6 +1,45 @@
 {
   "open": [
     {
+      "number": 2425,
+      "title": "Admin API for PTE publishing/installing for BC29 and later",
+      "url": "https://github.com/microsoft/AL-Go/pull/2425",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-29T12:58:22Z",
+      "updated_at": "2026-11-25T15:49:54Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2446,
+      "title": "Add top-level token permissions to issue workflows",
+      "url": "https://github.com/microsoft/AL-Go/pull/2446",
+      "base": "main",
+      "major": null,
+      "author": "mazhelez",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-09T12:10:10Z",
+      "updated_at": "2026-11-25T13:32:25Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2397,
+      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
+      "url": "https://github.com/microsoft/AL-Go/pull/2397",
+      "base": "main",
+      "major": null,
+      "author": "y0m0",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-07T11:05:23Z",
+      "updated_at": "2026-11-25T12:56:58Z",
+      "community_contribution": false
+    },
+    {
       "number": 2273,
       "title": "Improve file handling in Update AL-Go System Files",
       "url": "https://github.com/microsoft/AL-Go/pull/2273",
@@ -10,7 +49,7 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-06-03T15:24:31Z",
-      "updated_at": "2026-11-24T17:58:27Z",
+      "updated_at": "2026-11-25T10:33:28Z",
       "community_contribution": false
     },
     {
@@ -63,19 +102,6 @@
       "draft": false,
       "created_at": "2026-09-25T14:54:28Z",
       "updated_at": "2026-11-24T14:53:08Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2397,
-      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
-      "url": "https://github.com/microsoft/AL-Go/pull/2397",
-      "base": "main",
-      "major": null,
-      "author": "y0m0",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-07T11:05:23Z",
-      "updated_at": "2026-11-24T14:53:03Z",
       "community_contribution": false
     },
     {
@@ -222,19 +248,6 @@
       "community_contribution": false
     },
     {
-      "number": 2425,
-      "title": "Admin API for PTE publishing/installing for BC29 and later",
-      "url": "https://github.com/microsoft/AL-Go/pull/2425",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-29T12:58:22Z",
-      "updated_at": "2026-11-24T14:51:17Z",
-      "community_contribution": false
-    },
-    {
       "number": 2458,
       "title": "Fail when dependency artifacts built in the current run are missing",
       "url": "https://github.com/microsoft/AL-Go/pull/2458",
@@ -271,32 +284,6 @@
       "draft": false,
       "created_at": "2026-11-19T12:18:52Z",
       "updated_at": "2026-11-24T14:50:50Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2469,
-      "title": "E2E tests run on private repos",
-      "url": "https://github.com/microsoft/AL-Go/pull/2469",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-23T14:28:15Z",
-      "updated_at": "2026-11-23T15:36:54Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2446,
-      "title": "Add top-level token permissions to issue workflows",
-      "url": "https://github.com/microsoft/AL-Go/pull/2446",
-      "base": "main",
-      "major": null,
-      "author": "mazhelez",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-09T12:10:10Z",
-      "updated_at": "2026-11-09T12:14:26Z",
       "community_contribution": false
     },
     {
@@ -366,15 +353,6 @@
     }
   ],
   "issues": [
-    {
-      "number": 2472,
-      "title": "[Bug]: BC 22 MinVersion builds fail on Linux with PowerShell 7.6.10",
-      "url": "https://github.com/microsoft/AL-Go/issues/2472",
-      "labels": [],
-      "author": "kalileddendani",
-      "created_at": "2026-11-24T13:01:00Z",
-      "comments": 0
-    },
     {
       "number": 2459,
       "title": "[Bug]: Create release replaces umlauts and other non-ASCII characters in the generated release notes with '?'",

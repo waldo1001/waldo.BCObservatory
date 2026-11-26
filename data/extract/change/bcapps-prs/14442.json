@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/14442",
+  "number": 14442,
+  "title": "Offer the Payables Agent again in a company recreated with the same name",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The Payables Agent is now offered again in the plus menu when a company is recreated with the same name, by checking only the agent linked in the company setup instead of searching by user name.",
+  "key_points": [
+    "Agent lookup now uses the company setup link instead of searching for a user named 'Payables Agent - <company>'",
+    "Recreating a company with the same name no longer prevents the agent from appearing in the plus menu",
+    "Existing agent users are still reused during setup to avoid creating duplicates",
+    "Changes apply to both the plus menu and Purchase Invoices actions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "copilot"
+  ],
+  "quote": "Setup still finds the existing agent by user name and reuses it, so no second agent user is created.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003827,
+    "changes_in_call": 1
+  }
+}

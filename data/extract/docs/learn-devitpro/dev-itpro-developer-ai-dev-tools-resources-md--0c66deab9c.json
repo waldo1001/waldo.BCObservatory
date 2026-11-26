@@ -1,23 +1,21 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-resources.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources",
-  "title": "Use developer tools for Copilot in Business Central AI resources",
-  "blob": "e9aa6e15f0bbb4bc4067a767534c954afe23a1d8",
-  "summary": "Business Central AI resources enable partners to use Azure OpenAI models (GPT-4.1, GPT-4.1-mini) for Copilot extensions via Microsoft-managed infrastructure, with consumption-based billing and optional bring-your-own subscription support for custom scenarios.",
+  "title": "Business Central AI Resources for Copilot Development",
+  "blob": "0c7d2cdb4872e796d51bb13c6393e81f6b66354a",
+  "summary": "Business Central AI resources for Copilot development enable partners to build AI-powered Marketplace extensions using Microsoft-managed Azure OpenAI LLMs, with options to use custom subscriptions for specific needs. Use this to understand the default and recommended approach to Copilot development, supported models, billing, and error handling.",
   "systems": [
     "copilot",
-    "integration",
-    "development"
+    "development",
+    "integration"
   ],
   "topics": [
+    "copilot development",
     "azure openai",
-    "copilot extension",
-    "ai models",
-    "billing",
-    "subscription management",
-    "lmm integration",
-    "responsible ai",
-    "developer tools"
+    "llm integration",
+    "ai billing",
+    "error handling",
+    "marketplace extensions"
   ],
   "objects": [
     {
@@ -26,22 +24,18 @@
     },
     {
       "type": "codeunit",
-      "name": "AzureOpenAI"
-    },
-    {
-      "type": "enum",
-      "name": "AOAI Model Type"
+      "name": "AI Module AzureOpenAI"
     }
   ],
   "features": [
     "Microsoft-managed Azure OpenAI resources",
     "GPT-4.1 and GPT-4.1-mini models",
     "Consumption-based customer billing",
+    "Bring-your-own (BYO) Azure OpenAI subscription",
+    "Error handling for overconsumption",
     "SetManagedResourceAuthorization method",
-    "SetAuthorization method for custom subscriptions",
-    "Error handling with AOAI Operation Response",
-    "Data residency compliance",
-    "Content filtering and safeguard prompts"
+    "SetAuthorization method",
+    "Data residency compliance"
   ],
   "versions": [],
   "parts": 1,
@@ -50,7 +44,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.022069,
+      "cost_usd": 0.012643,
       "pages_in_call": 1
     }
   ]

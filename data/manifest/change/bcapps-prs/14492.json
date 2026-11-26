@@ -1,0 +1,45 @@
+{
+  "id": "change/bcapps-prs/14492",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Expense Agent: register the Copilot capability as generally available",
+  "url": "https://github.com/microsoft/BCApps/pull/14492",
+  "published_at": "2026-11-25T07:24:54Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:14:51.000Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "310317de7de7391da0383789cd0e5f365af1789d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14492,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "310317de7de7391da0383789cd0e5f365af1789d",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent register the copilot capability as generally available"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fdd6763e207a6a7cb37e53027f9fa2a53737848a957d7f2b045243eb016682f0"
+}

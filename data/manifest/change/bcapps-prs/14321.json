@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14321",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix flaky Email Retry Test Date Queued assertions",
+  "url": "https://github.com/microsoft/BCApps/pull/14321",
+  "published_at": "2026-11-25T16:17:29Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    }
+  },
+  "input_hash": "163caeef07da87ca239d4b3ba0e216c6cfba0c8d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14321,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "163caeef07da87ca239d4b3ba0e216c6cfba0c8d",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix flaky email retry test date queued assertions"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-26T00:13:46.392Z",
+  "retry_after": null
+}

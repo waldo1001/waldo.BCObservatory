@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14390",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] [E-Documents][PEPPOL] V1 import fails for UBL invoices using alternate cac/cbc namespace prefixes",
+  "url": "https://github.com/microsoft/BCApps/pull/14390",
+  "published_at": "2026-11-25T06:30:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    }
+  },
+  "input_hash": "2ccd6f3ab7af9611cf5ed5072a0e9e176cc55f4c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14390,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2ccd6f3ab7af9611cf5ed5072a0e9e176cc55f4c",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e documents peppol v1 import fails for ubl invoices using alternate cac cbc namespace prefixes"
+  }
+}

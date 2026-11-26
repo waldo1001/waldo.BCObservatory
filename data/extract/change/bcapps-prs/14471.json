@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14471",
+  "number": 14471,
+  "title": "Fix incoming document attachment overview Line No. type",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Line No. field in the Inc. Doc. Attachment Overview table is changed from Integer to BigInteger to match the corresponding field in Incoming Document Attachment after 64-bit migration.",
+  "key_points": [
+    "Field type mismatch resolved between two related tables after 64-bit migration",
+    "Line No. field now consistently uses BigInteger (8 bytes) instead of Integer (4 bytes)",
+    "Prevents data narrowing when transferring fields between the tables",
+    "Overview table is temporary, so no data migration needed",
+    "Existing regression test TestFieldDefinitionsMatch validates the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Change `Inc. Doc. Attachment Overview.\"Line No.\"` from `Integer` to `BigInteger` to match `Incoming Document Attachment.\"Line No.\"`",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003861,
+    "changes_in_call": 1
+  }
+}

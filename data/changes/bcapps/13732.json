@@ -1,0 +1,240 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13732,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13732",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-25T16:30:12Z",
+  "merge_commit_sha": "ae2bfcefa2266d3feb4976b406892a716795ccbf",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Initialize report filename defaults for new and existing companies",
+  "body_hash": "146a0fffcf1cd7fb166c0be8bd2696f18f6480f5450ba33a229192c2a99c0cd1",
+  "fixes_issues": [],
+  "work_items": [
+    658065
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DK/OIOUBL/test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/test/src/OIOUBLERMElecDocumentSales.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameDefaults.Codeunit.al",
+      "status": "added",
+      "additions": 241,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameInstall.Codeunit.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameUpgrade.Codeunit.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameSetup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/permissionset/ReportFilenameMgr.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenamePattern.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameSetup.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameApiTests.Codeunit.al",
+      "status": "added",
+      "additions": 122,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameCardTests.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 52,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameDefaultsTests.Codeunit.al",
+      "status": "added",
+      "additions": 816,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofGuard.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 16,
+    "additions": 1302,
+    "deletions": 66,
+    "al": 9
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8125",
+        "type": "codeunit",
+        "id": 8125,
+        "name": "Report Filename Mgt.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8126",
+        "type": "codeunit",
+        "id": 8126,
+        "name": "Report Filename Subscribers",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8126"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameSetup.Page.al",
+        "status": "modified",
+        "key": "page/8134",
+        "type": "page",
+        "id": 8134,
+        "name": "Report Filename Setup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8134"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/permissionset/ReportFilenameMgr.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/8125",
+        "type": "permissionset",
+        "id": 8125,
+        "name": "Report Filename Mgr.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "permissionset/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenamePattern.Table.al",
+        "status": "modified",
+        "key": "table/8125",
+        "type": "table",
+        "id": 8125,
+        "name": "Report Filename Pattern",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameSetup.Table.al",
+        "status": "modified",
+        "key": "table/8130",
+        "type": "table",
+        "id": 8130,
+        "name": "Report Filename Setup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8130"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameDefaults.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameInstall.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameUpgrade.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "ReportFilenameManager"
+  ]
+}

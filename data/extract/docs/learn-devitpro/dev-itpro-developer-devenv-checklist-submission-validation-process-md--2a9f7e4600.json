@@ -2,29 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-checklist-submission-validation-process.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-validation-process",
   "title": "Marketplace Technical validation process FAQ",
-  "blob": "5036dfbfa94f1c7b89ebc12746980ebb530fa44b",
-  "summary": "Marketplace technical validation process FAQ explains validation scope by release and country, breaking change checks, baseline comparisons, submission troubleshooting, and remediation steps for common validation failures.",
+  "blob": "76a33c08f22d89b5dc5b08f45fb21c941e7dced1",
+  "summary": "Marketplace technical validation process FAQ covers submission validation against releases, countries/regions, baselines, breaking changes, and troubleshooting common validation failures during app submission.",
   "systems": [
+    "integration",
     "development",
-    "integration"
+    "administration"
   ],
   "topics": [
     "marketplace",
-    "validation",
-    "testing",
-    "troubleshooting",
-    "app submission",
-    "code signing"
+    "technical validation",
+    "submission",
+    "app deployment",
+    "breaking changes",
+    "code signing",
+    "troubleshooting"
   ],
   "objects": [],
   "features": [
-    "Automated validation",
-    "Country/region validation",
-    "Breaking change detection",
-    "Baseline comparison",
-    "Code signing validation",
-    "Malware scanning",
-    "App preview"
+    "automated application validation",
+    "breaking change detection",
+    "country/region validation",
+    "release targeting",
+    "baseline comparison",
+    "code signing requirements",
+    "malware detection",
+    "preview audience support"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007392,
-      "pages_in_call": 8
+      "cost_usd": 0.013051,
+      "pages_in_call": 1
     }
   ]
 }

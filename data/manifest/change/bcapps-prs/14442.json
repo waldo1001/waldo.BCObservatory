@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14442",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Offer the Payables Agent again in a company recreated with the same name",
+  "url": "https://github.com/microsoft/BCApps/pull/14442",
+  "published_at": "2026-11-25T15:28:48Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:13:46.569Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-26T00:13:52.710Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003827
+    },
+    "linked": {
+      "at": "2026-11-26T00:13:52.973Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:13:52.981Z",
+      "path": "content/changes/bcapps/14442.md"
+    }
+  },
+  "input_hash": "4c5a5a984de72214c1e1dbb58db4fdaf4cea132f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14442,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4c5a5a984de72214c1e1dbb58db4fdaf4cea132f",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "offer the payables agent again in a company recreated with the same name"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "723494515779bbc84b6a93c074c2bfef26ded3f528e9616c46300aba04f7d827"
+}

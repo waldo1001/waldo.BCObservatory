@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14480",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Show release versions and getting-started steps in the EAP cockpit",
+  "url": "https://github.com/microsoft/BCApps/pull/14480",
+  "published_at": "2026-11-25T11:17:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:14:16.565Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-26T00:14:24.890Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004275
+    },
+    "linked": {
+      "at": "2026-11-26T00:14:25.084Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:14:25.091Z",
+      "path": "content/changes/bcapps/14480.md"
+    }
+  },
+  "input_hash": "a0c8f757d2b39227b8ad7d624d4e7617ed5b34d2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14480,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a0c8f757d2b39227b8ad7d624d4e7617ed5b34d2",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "show release versions and getting started steps in the eap cockpit"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61480e07d55d8248049e92769d45c23657cb7fd62beb1c946ed4c8774c5d5a80"
+}

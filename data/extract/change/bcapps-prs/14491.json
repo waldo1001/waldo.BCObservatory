@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14491",
+  "number": 14491,
+  "title": "Emit the E-Document LLM calls under the Payables Agent copilot capability",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document LLM calls designed for Payables Agent use are now routed through the Payables Agent app instead of the E-Document app to streamline billing feature management.",
+  "key_points": [
+    "LLM calls specific to Payables Agent scenarios are moved from E-Document to Payables Agent app",
+    "New codeunit PADraftBasedCopilotCaller added to handle Payables Agent copilot calls",
+    "E-Document and E-Document MLLM Handler codeunits updated to support the routing change",
+    "Change aligns with dataplane request to simplify billing feature management"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "purchasing"
+  ],
+  "quote": "Routing the calls done for the Payables Agent functionality that are done today in the E-Documents app via the Payables Agent app.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00379,
+    "changes_in_call": 1
+  }
+}

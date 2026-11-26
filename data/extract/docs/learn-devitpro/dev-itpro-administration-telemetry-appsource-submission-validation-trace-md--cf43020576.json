@@ -2,33 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-appsource-submission-validation-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
   "title": "Analyzing Marketplace Submission Validation Telemetry",
-  "blob": "aa7b467afaa9f0b5f144985c4a7196d30066b242",
-  "summary": "Analyzing marketplace submission validation telemetry describes how to monitor and troubleshoot app validation results when submitting extensions to AppSource, using Application Insights telemetry traces that track validation phases, diagnostics, and failures.",
+  "blob": "5872c75bd57d4f7090693edaa6935d0527b0816a",
+  "summary": "Analyzing Marketplace submission validation telemetry documents how to monitor and troubleshoot app validation in AppSource using Application Insights traces. Use this for understanding validation process phases, diagnostic events, and debugging submission failures.",
   "systems": [
     "development",
-    "administration",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "telemetry",
     "appsource",
-    "marketplace",
-    "submission",
     "validation",
-    "app insights",
+    "marketplace",
+    "extensions",
     "diagnostics",
-    "extension"
+    "application insights",
+    "submission"
   ],
   "objects": [],
   "features": [
-    "Marketplace submission validation telemetry",
-    "Application Insights integration",
-    "Validation process tracking",
-    "Extension validation diagnostics",
-    "AL compiler validation",
-    "AppSourceCop code analyzer",
-    "Version and country-region validation",
-    "Hotfix validation"
+    "marketplace submission validation request",
+    "validation diagnostic reporting",
+    "version and country-region validation",
+    "extension validation",
+    "AL compiler integration",
+    "AppSourceCop analyzer",
+    "hotfix validation",
+    "telemetry schema"
   ],
   "versions": [
     "2021 release wave 1",
@@ -40,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016352,
+      "cost_usd": 0.016339,
       "pages_in_call": 1
     }
   ]

@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Analyzing Marketplace Submission Validation Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
-  "published_at": "2026-11-18T09:47:34.000Z",
+  "published_at": "2026-11-25T09:36:25.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-19T00:24:17.546Z",
-      "blob": "aa7b467afaa9f0b5f144985c4a7196d30066b242",
-      "words": 2523,
+      "at": "2026-11-26T00:13:28.460Z",
+      "blob": "5872c75bd57d4f7090693edaa6935d0527b0816a",
+      "words": 2573,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-19T00:24:22.689Z",
+      "at": "2026-11-26T00:13:36.630Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.016352
+      "cost_usd": 0.016339
     },
     "summarized": {
-      "at": "2026-11-19T00:24:22.690Z",
+      "at": "2026-11-26T00:13:36.631Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-19T00:24:22.691Z",
+      "at": "2026-11-26T00:13:36.631Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-19T00:24:22.691Z",
+      "at": "2026-11-26T00:13:36.633Z",
       "page": false
     }
   },
-  "input_hash": "aa7b467afaa9f0b5f144985c4a7196d30066b242",
+  "input_hash": "5872c75bd57d4f7090693edaa6935d0527b0816a",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-appsource-submission-validation-trace.md",
     "description": "Analyze Business Central Marketplace submission validation telemetry to track validation stages, identify diagnostics, and investigate publication failures.",
-    "ms_date": "2026-11-17",
+    "ms_date": "2026-11-23",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -59,8 +59,10 @@
       "validation"
     ],
     "ai_usage": "ai-assisted",
-    "words": 2523,
+    "words": 2573,
     "identifiers": [
+      "allExtensions",
+      "baselineExtensions",
       "LC0034",
       "severityLevel",
       "LC0028",
@@ -80,5 +82,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9296472ecbe23eeb5922a3152e179b5e01239b42a72bad7d85fbbc66a4e8ed0e"
+  "output_hash": "12cc498ed9a39163cac9d322083b342a711dad43b9a57a542f9c943c2a84454c"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "change/al-go-prs/2469",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "E2E tests run on private repos",
+  "url": "https://github.com/microsoft/AL-Go/pull/2469",
+  "published_at": "2026-11-25T09:19:26Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-26T00:13:01.755Z"
+    }
+  },
+  "input_hash": "75b9d331df8a53753d70a607b3b10589b4e232d1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2469,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "75b9d331df8a53753d70a607b3b10589b4e232d1",
+    "author": "spetersenms",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "e2e tests run on private repos"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-26T00:14:33.028Z",
+  "retry_after": null
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/yzhums-com/75960",
+  "url": "https://yzhums.com/75960/",
+  "title": "Dynamics 365 Business Central: How to clear all Customized Pages for a Profile (Role)",
+  "source": "yzhums-com",
+  "published_at": "2026-11-25T02:16:30.000Z",
+  "words": 494,
+  "summary": "Administrators can clear all customized pages for a Business Central profile to return it to its original state, or selectively manage individual page customizations through the Customized Pages interface. This differs from user personalization, which individual users apply to their own workspaces.",
+  "key_points": [
+    "The 'Clear customized pages' action removes all page customizations for a selected profile at once",
+    "The 'Manage customized pages' option lets administrators review and delete customizations for specific pages individually",
+    "Profile customizations apply to all users assigned to that profile and can include hidden, moved, or added fields and actions",
+    "Profile customizations are distinct from user personalization; clearing profile customizations won't affect individual user settings"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "page customization",
+    "profile management",
+    "user roles",
+    "personalization",
+    "page management"
+  ],
+  "objects": [],
+  "features": [
+    "Clear customized pages for profiles",
+    "Manage customized pages interface",
+    "Profile-level page customization",
+    "Add existing table fields to pages",
+    "User personalization management"
+  ],
+  "versions": [
+    "BC23"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Profile customization is configured by an administrator for a profile (role), while personalization is made by individual users for their own workspace.",
+      "why_it_matters": "Clarifies the fundamental distinction between administrator-managed profile customizations and user-driven personalization, essential for understanding customization scope."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005038,
+    "posts_in_call": 1
+  }
+}
