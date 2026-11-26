@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:54:15.395Z"
   flags: []
 generated:
-  at: "2026-11-11T00:54:03.655Z"
+  at: "2026-11-26T01:01:19.782Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,7 +66,8 @@ links:
   learn: []
   objects:
     - object/page/6221
-  features: []
+  features:
+    - feature/573375
   topics: []
   localizations: []
   videos: []
@@ -128,10 +129,12 @@ features:
     verified: false
     status_source: video
   - name: Sustainability Fast Tab on Resources
-    status: unclear
+    status: ga
     t: 237
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573375"
   - name: Project Statistics with Emissions Data
     status: unclear
     t: 349
@@ -211,10 +214,12 @@ The demo covers the sustainability configuration, posting a project journal, and
 |---|---|---|
 | Value Chain Automation in Projects | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=60s) |
 | Sustainability Fast Tab on Items | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=201s) |
-| Sustainability Fast Tab on Resources | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=237s) |
+| Sustainability Fast Tab on Resources | generally available (roadmap [Estimate your carbon footprint in Service Management](../features/573375.md)), demoed | [3:57](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=237s) |
 | Project Statistics with Emissions Data | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=349s) |
 | Scope Three Coverage via Value Chain | status not stated | [1:29](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=89s) |
 | Procurement Setup for Value Chain Tracking | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=147s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

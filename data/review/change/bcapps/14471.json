@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14471",
+  "input_hash": "2fd34d25cdd4088e7bb65f267c0bdb051c9ebd82478f824807a90690b2acf487",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-26T01:03:54.974Z",
+  "issues": [
+    "Accurate: Line No. changed from Integer to BigInteger on a temporary table to match Incoming Document Attachment; existing test TestFieldDefinitionsMatch covers it (not rerun per description)."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025605,
+    "changes_in_call": 6
+  }
+}

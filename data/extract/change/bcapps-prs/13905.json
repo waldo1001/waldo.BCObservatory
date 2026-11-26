@@ -6,16 +6,15 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "The WorkIQ feature key is now excluded from automatic enablement in demo data setup, requiring explicit admin opt-in through Feature Management instead.",
+  "summary": "Demo data tools no longer enable the new platform WorkIQ feature key (Allow WorkIQ to read data from Business Central). It stays an explicit admin opt-in through Feature Management.",
   "key_points": [
-    "WorkIQ feature added to ExcludeNewFeature lists in demo data creation codeunits",
-    "Applied consistently across W1, CZ, and IN layers plus Contoso demo dataset",
-    "WorkIQ remains a platform feature requiring explicit admin configuration",
-    "Prevents unintended automatic enablement for data access functionality",
-    "Aligns with security-sensitive features like PowerAutomateCopilot and FullTextSearch"
+    "WorkIQ added to the existing ExcludeNewFeature lists in the demo data codeunits",
+    "Applied to the Contoso Coffee demo dataset and the W1, CZ and IN DemoTool layers",
+    "Joins already excluded keys such as PowerAutomateCopilot, FullTextSearch, AdvancedTellMe and SemanticMetadataSearch",
+    "Admins can still turn WorkIQ on from Feature Management"
   ],
-  "change_kind": "feature",
-  "behavior_change": false,
+  "change_kind": "other",
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:57:14.902Z"
+  at: "2026-11-26T00:52:49.089Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 29a7d8c716bf97ac5650b9678893a8d98d2d3b6f45645a4c30b4541d25615cca
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentWithParams.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentWithParams.Interface.al
     title: src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentWithParams.Interface.al (releases/29.x)
     date: null
-    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
+    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "Cost Adjustment With Params" in Base Application (Microsoft.Inventory.Costing). 1 public procedures. Introduced in BC26, still in BC30.
 
-Base Application · Microsoft.Inventory.Costing · BC26-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentWithParams.Interface.al) · facts from BC29
+Base Application · Microsoft.Inventory.Costing · BC26-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentWithParams.Interface.al) · facts from BC29
 
 ## Procedures
 

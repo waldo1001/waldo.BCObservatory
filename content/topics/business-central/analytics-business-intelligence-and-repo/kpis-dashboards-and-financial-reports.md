@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,8 +212,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central
   localizations: []
   videos:
-    - video/7lxkboRGw28
     - video/9g1vwaXmy2s
+    - video/fy96_jdL1PQ
   posts:
     - post/yzhums-com/71758
   guidelines: []
@@ -361,8 +361,8 @@ Two subtopics cover Power BI. One covers getting Business Central data into Powe
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../../../posts/yzhums-com/71758.md) (community post): "Item Statistics page that provides financial and performance metrics for items"
-- [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../../../videos/7lxkboRGw28.md) (video): "Power BI Apps as Embedded Business Central Reports; Multi-company reporting with Fabric"
 - [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "reporting capabilities; training strategy; user adoption; learning management"
 
 ## Business Central pages and reports
 

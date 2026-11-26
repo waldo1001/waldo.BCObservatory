@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,7 @@ links:
   localizations: []
   videos:
     - video/CBRjbRd7uLM
+    - video/hS8yWS3bxWE
   posts:
     - post/aardvarklabs-blog/3680
     - post/gerardorenteria-blog/12801
@@ -63,7 +64,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 2
   blog: 6
   guideline: 0
 bc_forms: []
@@ -112,5 +113,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "add a calculator control to the sales order page using control add-in objects built with AL and JavaScript"
 - [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../../posts/yzhums-com/75073.md) (community post): "Control add-in objects can load the public signature pad JavaScript library"
 - [Building the World's Best ControlAddIn for AL code in Business Central](../../../../videos/CBRjbRd7uLM.md) (video): "Building the World's Best ControlAddIn for AL code in Business Central"
+- [What's New: Telemetry (2025 release wave 1)](../../../../videos/hS8yWS3bxWE.md) (video): "Client Add-ins Exception Telemetry; Server-side Certificate Validation Telemetry"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

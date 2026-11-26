@@ -2,7 +2,7 @@
 id: topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area
 type: topic
 title: Telemetry by area
-summary: Telemetry by area documents the Business Central telemetry events sent to Application Insights, grouped by functional area. It answers which event IDs and custom dimensions exist for a given area (security, performance, extensions, web services, AI/MCP, environments, jobs) and how to analyze them with KQL.
+summary: Telemetry by area documents the Business Central telemetry events written to Application Insights, grouped by functional area. It answers which events exist, their event IDs and custom dimensions, and how to analyze them with KQL. Areas include security, performance, extensions, AI and MCP, web services, jobs, and environment lifecycle.
 tier: official
 language: en
 system: platform
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c974f62268f298fbcdfc3e7cb753fbebb9e83e3c9156ba08d30f43d1bfd7242d
+  input_hash: 0a879ea129d6ec686402da74c5a9fe0f8ab69f7fab1e9bae7c272cbcd43f0d52
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace
@@ -266,7 +266,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace
     title: Analyzing Marketplace Submission Validation Telemetry
-    date: "2026-11-17"
+    date: "2026-11-23"
     commit: null
     t: null
     quote: null
@@ -390,24 +390,28 @@ narrative: generated
 
 # Telemetry by area
 
-> Telemetry by area documents the Business Central telemetry events sent to Application Insights, grouped by functional area. It answers which event IDs and custom dimensions exist for a given area (security, performance, extensions, web services, AI/MCP, environments, jobs) and how to analyze them with KQL.
+> Telemetry by area documents the Business Central telemetry events written to Application Insights, grouped by functional area. It answers which events exist, their event IDs and custom dimensions, and how to analyze them with KQL. Areas include security, performance, extensions, AI and MCP, web services, jobs, and environment lifecycle.
 
 Path: [Administration](../../administration.md) > [Monitor and analyze telemetry](../monitor-and-analyze-telemetry.md) > Telemetry by area · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a catalog of telemetry pages, one per area of the product. Each page lists the events emitted for that area, their event IDs where given (for example RT0001-RT0004 for authorization, RT0028 for deadlocks, RT0054 for MCP tool calls), the custom dimensions, and sample KQL queries. Pages note the release wave or version in which an area became available.
+This section has one page per telemetry area, with no subtopics. Each page lists the trace events for that area (many with IDs such as RT0001-RT0004, RT0009, RT0018, RT0028, RT0031, RT0032, RT0052, RT0054, RT0055, RT0056), their custom dimensions, the versions where they were introduced, and often sample KQL queries.
+
+The areas cover several groups. Security and audit: authorization, permission changes and errors, field monitoring, changelog configuration. Performance: long running AL methods and SQL queries, SQL query trace, database deadlocks, lock timeouts, wait statistics, and incoming and outgoing web service calls. Extension and environment operations: extension lifecycle, update and upload validation, Marketplace validation, environment lifecycle and validation, and cloud migration. Newer AI areas: agent lifecycle, MCP configuration, MCP server tool calls, and AI consumption.
+
+Start with "Business Central Telemetry Area Overview" to see how the areas and event IDs map to the Application Insights traces and pageViews tables. Then open the page for the area you are diagnosing. "Feature telemetry" is the page for developers who want to log their own app's usage, errors and uptake.
 
 ## Key points
 
-- Start with Business Central Telemetry Area Overview. It describes the traces and pageViews tables in Application Insights and lists the telemetry areas and event IDs.
-- Performance and database areas: long running SQL queries (over 750 ms), long running AL methods (RT0018), SQL query trace (RT0009), deadlocks (RT0028), lock timeouts, wait statistics, and table index changes.
-- Security and audit areas: authorization (RT0001-RT0004), permission errors (RT0031), permission dependency cycles (RT0032), permission set changes, field monitoring, and changelog configuration.
-- Extension and app areas: extension lifecycle, extension update and upgrade tags, per-tenant extension upload validation, AppSource submission validation, breaking changes validation, and environment validation.
-- Web service areas: incoming requests, outgoing HttpClient requests, certificate validation errors (RT0052), access key authentication, and web service publish failures.
-- AI and agent areas (2026 release wave 1, version 28.0): agent lifecycle, MCP configuration, MCP server tool calls (RT0054). AI consumption (RT0055) tracks Copilot Credits.
-- Operations areas: environment and company lifecycle, job queue, task scheduler, cloud migration, configuration packages, retention policies, and stopped sessions.
-- Developer-facing pages cover Feature telemetry (LogUsage, LogError, LogUptake) and the Performance Toolkit. Verbose logging controls extra trace detail.
+- Business Central Telemetry Area Overview is the entry point. It describes telemetry logged in the Application Insights traces and pageViews tables.
+- Performance pages cover long running AL methods (RT0018), long running SQL queries (over 750 ms), SQL query trace (RT0009), deadlocks (RT0028, needs EnableDeadlockMonitoring), lock timeouts, and wait statistics.
+- Security and audit pages cover authorization (RT0001-RT0004), permission changes, permission errors (RT0031), permission dependency cycles (RT0032), sensitive field monitoring, and changelog configuration.
+- Web service pages cover incoming requests (SOAP, OData, REST), outgoing HttpClient requests, certificate validation errors (RT0052), access key authentication, Azure Function calls, and publish failures.
+- Extension and environment pages cover extension lifecycle, extension update and upgrade tags, PTE upload validation, AppSource submission and breaking changes validation, environment lifecycle, environment validation, and cloud migration.
+- Newer AI areas (2026 release wave 1, version 28.0) cover agent lifecycle (LC0066-LC0068), MCP configuration changes, and MCP server tool calls (RT0054). AI consumption of Copilot Credits is tracked by RT0055.
+- Other pages cover job queue and task scheduler events, report generation and layouts, financial report usage, retention policies, onboarding and user checklists, and Open in Excel (RT0056, 2026 release wave 2).
+- Developers can use the FeatureTelemetry codeunit (LogUsage, LogError, LogUptake) to emit custom feature telemetry.
 
 ## Learn pages
 
@@ -652,13 +656,14 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Limit: AL compiler errors and AppSourceCop analyzer issues are reported as validation diagnostics during the process.
   - Validation diagnostics can be information, warning, or error severity levels based on issue type.
 - [Analyzing Marketplace Submission Validation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace): Analyze Business Central Marketplace submission validation telemetry to track validation stages, identify diagnostics, and investigate publication failures.
-  - Status: Generally available from version 18.4 (2021 release wave 1)
-  - Marketplace submission validation telemetry is emitted when apps are published from Partner Center
-  - Validation runs against each extension for each targeted country/region and Business Central version
-  - Extensions are validated using AL compiler and AppSourceCop code analyzer
-  - Each submission receives unique validationRequestId included in all traces for query tracking
-  - Validation process emits traces at different phases: request started, diagnostic reported, validation started/completed per extension and version/country-region
-  - Event IDs track validation flow: LC0028 request started, LC0029 completed successfully, LC0035 completed with failures
+  - Status: Generally available from Business Central 2021 release wave 1, version 18.4 and later
+  - Telemetry traces record automated validation results when apps are submitted to Marketplace via Partner Center
+  - Validation checks extensions against each targeted Business Central version and each specified country or region
+  - AL compiler and AppSourceCop code analyzer perform the validation checks
+  - Each submission receives a unique ID included in all traces to query related submission data
+  - Validation results can be reused across versions or regions to reduce validation time
+  - Prerequisite: Extensions must be set up to emit telemetry to Application Insights for analysis
+  - Review technical validation checklist before submitting to reduce Marketplace validation failure risk
 - [Analyzing metadata embeddings telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-metadata-embeddings-trace): Learn about the metadata embeddings telemetry in Business Central.
   - Metadata embeddings telemetry tracks vector representations of extension metadata that power AI features like Copilot search.
   - Event LC0059 indicates successful metadata embedding generation for an extension.

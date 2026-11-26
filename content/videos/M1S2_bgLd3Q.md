@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:54:01.669Z"
   flags: []
 generated:
-  at: "2026-11-24T01:01:15.134Z"
+  at: "2026-11-26T01:01:19.782Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,8 +147,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573328
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -258,9 +257,7 @@ features:
     status: ga
     t: 905
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573328"
+    status_source: video
   - name: PDF/UA accessible PDFs
     status: unclear
     t: 965
@@ -386,14 +383,12 @@ It also covers database optimizations for flow fields and server-side pivot on d
 | Preview semantic similarity search toggle | preview | [8:54](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=534s) | "the chat and analysis assist it that is the very nicely named preview semantic similarity search and application metadata" ([9:07](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=547s)) |
 | Semantic embedding maintenance | status not stated | [9:28](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=568s) |  |
 | Tooltips on report data item fields | status not stated, demoed | [14:06](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=846s) |  |
-| Word addin data picker | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s) | "this is a a new feature in the word addin that we are shipping in this wave as well a new data picker" ([15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s)) |
+| Word addin data picker | generally available, demoed | [15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s) | "this is a a new feature in the word addin that we are shipping in this wave as well a new data picker" ([15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s)) |
 | PDF/UA accessible PDFs | status not stated | [16:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=965s) |  |
 | PDF/A archival format support | status not stated | [16:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=965s) |  |
 | SQL call information in performance profiles | status not stated | [17:27](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1047s) |  |
 | App version in error details | status not stated | [17:56](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1076s) |  |
 | Semantic search on-premises limitation | status not stated | [18:23](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1103s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

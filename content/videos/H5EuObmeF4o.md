@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-25T01:02:13.993Z"
+  at: "2026-11-26T01:01:19.782Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,7 +83,6 @@ links:
     - feature/573624
     - feature/576872
     - feature/577820
-    - feature/578065
   topics: []
   localizations: []
   videos: []
@@ -145,12 +144,10 @@ cautions:
     t: 1355
 features:
   - name: Enhanced sales order agent
-    status: ga
+    status: unclear
     t: 288
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578065"
+    status_source: video
   - name: MCP server for Business Central
     status: unclear
     t: 303
@@ -424,7 +421,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Enhanced sales order agent | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)) | [4:48](https://www.youtube.com/watch?v=H5EuObmeF4o&t=288s) |  |
+| Enhanced sales order agent | status not stated | [4:48](https://www.youtube.com/watch?v=H5EuObmeF4o&t=288s) |  |
 | MCP server for Business Central | status not stated | [5:03](https://www.youtube.com/watch?v=H5EuObmeF4o&t=303s) |  |
 | Advanced Tell Me search | preview, demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) | "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users." ([6:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s)) |
 | Autofill with Copilot field suggestions | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |

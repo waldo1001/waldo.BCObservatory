@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:57:14.902Z"
+  at: "2026-11-26T00:52:49.089Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5a0c9b8190ce75c9e294a744ea34261c647f8af56fccae74e60df6cdbbc144a6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/EmailLogging/app/src/entitlements/AzureADApplicationAutomationEmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/EmailLogging/app/src/entitlements/AzureADApplicationAutomationEmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/AzureADApplicationAutomationEmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
+    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Azure AD Application Automation Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/EmailLogging/app/src/entitlements/AzureADApplicationAutomationEmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/EmailLogging/app/src/entitlements/AzureADApplicationAutomationEmailLogging.Entitlement.al) · facts from BC29
 
 ## Across versions
 

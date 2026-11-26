@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -213,21 +213,22 @@ links:
     - video/V4zCPAsYi_Y
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
-    - video/WjF_sESaIPo
   posts:
     - post/aardvarklabs-blog/3097
     - post/aardvarklabs-blog/3348
+    - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1237
     - post/bertverbeek-nl/1272
     - post/bertverbeek-nl/1290
     - post/demiliani-com/12644
     - post/kauffmann-nl/8436
-    - post/thinkaboutit-be/8170
     - post/yzhums-com/70502
     - post/yzhums-com/74431
   guidelines: []
   changes:
+    - change/bcapps/10431
     - change/bcapps/13761
+    - change/bcapps/14346
     - change/bcapps/8967
     - change/bcapps/9359
     - change/bcapps/9910
@@ -246,7 +247,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 11
+  video: 10
   blog: 10
   guideline: 0
 bc_forms: []
@@ -303,7 +304,9 @@ This section is for developers, product owners and consultants who want to build
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../changes/bcapps/10431.md) (code change): "Links to an archived agent now open the Agent Card"
 - [#13761 SOA search selection adjustments](../../../changes/bcapps/13761.md) (code change): "Sales Order Agent's broader item search was adjusted"
+- [#14346 [Main] Expense Management: add partner extension events and make Create Expense Report public](../../../changes/bcapps/14346.md) (code change): "Expense management adds integration events for partners to customize expense report"
 - [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List"
 - [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](../../../changes/bcapps/9359.md) (code change): "Sales Order Agent now ignores email attachments larger than 25 MB"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4"
@@ -314,12 +317,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version from app.json"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "secure AI agents in Business Central by implementing restrictive profiles"
+- [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "create custom agents that process tasks asynchronously using an orchestrator architecture"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL"
-- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "agents built directly in Business Central with those created in Copilot Studio"
+- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "compares agents built directly in Business Central with those created in Copilot Studio"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../posts/demiliani-com/12644.md) (community post): "debug agent sessions directly from Visual Studio Code"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
-- [Plan, Custom Agents, and Session Target: What Actually Changed in Copilot Chat](../../../posts/thinkaboutit-be/8170.md) (community post): "Plan is now a proper role that reads workspace context, creates structured implementation plans"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "users build custom AI agents that turn natural language goals into actions"
 - [Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI](../../../posts/yzhums-com/74431.md) (community post): "agents use different AI models directly in the UI"
 - [What's New: Working with Instructions for Agents in Business Central](../../../videos/1IIlArcHpOY.md) (video): "Agent Instructions Framework; task execution; task chaining in agent workflows"
@@ -332,6 +335,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Custom agents; agent instructions; agent profiles; permissions; prompt engineering"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "agent instruction history; autosave; version control; instruction playground; download instructions"
-- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "agent automation; purchase order creation; document extraction"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

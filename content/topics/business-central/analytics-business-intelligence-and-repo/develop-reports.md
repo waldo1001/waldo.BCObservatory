@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,7 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets
   localizations: []
   videos:
-    - video/fy96_jdL1PQ
+    - video/2N2NhNH7dsk
   posts:
     - post/gerardorenteria-blog/12801
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553
@@ -192,7 +192,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../posts/gerardorenteria-blog/12801.md) (community post): "renders Mermaid.js diagrams from live BC table data"
 - [BC Friday Tips #58 Spotting Report with SaveValues](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553.md) (community post): "The SaveValues property in Business Central reports remembers user-selected options on the request page"
 - [Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)](../../../posts/yzhums-com/72933.md) (community post): "Layout statuses control approval stages: Draft, Pending Approval, Approved, and Retired"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "reporting capabilities; training strategy; reporting technologies; power bi; dashboards"
+- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../videos/2N2NhNH7dsk.md) (video): "Layout management; layout status; report layouts; report inbox"
 
 ## Business Central pages and reports
 

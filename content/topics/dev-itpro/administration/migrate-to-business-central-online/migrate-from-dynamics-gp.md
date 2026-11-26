@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#14006 GP - Better item transaction duplicate handling](../../../../changes/bcapps/14006.md) (code change): "Fixes duplicate records during GP migration when inventory transactions contain multiple lot"
 - [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "GP Assessment Tool; migration planning; cloud migration; gp to business central"
-- [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "Dynamics GP Cloud Migration - Moving to Business Central"
+- [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "dynamics gp cloud migration; moving to business central; data migration"
 
 ## Business Central pages and reports
 

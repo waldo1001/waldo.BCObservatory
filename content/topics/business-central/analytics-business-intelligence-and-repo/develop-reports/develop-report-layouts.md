@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,8 +108,8 @@ links:
     - video/-vdhfNMNZQk
     - video/1ft4o9lQzsU
     - video/BofJJPqgrTI
+    - video/fy96_jdL1PQ
     - video/hn92Al_x-s8
-    - video/mS6NDhj20yI
     - video/vLcb31rfZ48
     - video/XLUAuUWtJDw
     - video/z7UTBiCNOo8
@@ -117,8 +117,10 @@ links:
     - post/aardvarklabs-blog/2271
     - post/miljan-rs/698
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
+    - post/thinkaboutit-be/7813
     - post/thinkaboutit-be/8096
     - post/thinkaboutit-be/8250
+    - post/yzhums-com/69812
     - post/yzhums-com/76147
     - post/yzhums-com/76205
     - post/yzhums-com/76231
@@ -135,7 +137,7 @@ coverage:
   learn: 9
   code: 7
   video: 8
-  blog: 9
+  blog: 11
   guideline: 0
 bc_forms:
   - 9650
@@ -193,17 +195,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Understanding RDLC Reports in Business Central](../../../../posts/aardvarklabs-blog/2271.md) (community post): "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports"
 - [Conditional Page Breaks in Word Layouts for Business Central Reports](../../../../posts/miljan-rs/698.md) (community post): "Conditional page breaks in Word layouts for Business Central Reports"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts in Business Central 29.0: branding is split into three separate parts"
+- [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "table builder for layouts; lifecycle status management for user-defined layouts"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../posts/thinkaboutit-be/8096.md) (community post): "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026"
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
+- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Reports with Excel layouts can open in Excel for the web"
 - [Business Central 2026 release wave 2 (BC29): Brand document reports with report themes](../../../../posts/yzhums-com/76147.md) (community post): "Brand document reports with composable layout themes"
 - [Business Central 2026 release wave 2 (BC29): Report layout subtype on Word layouts](../../../../posts/yzhums-com/76205.md) (community post): "Word layout report design introduces a new Subtype property"
 - [Business Central 2026 release wave 2 (BC29): Reuse header/footer layouts across document reports](../../../../posts/yzhums-com/76231.md) (community post): "reuse and apply consistent header/footer layouts across document reports"
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../../posts/yzhums-com/76763.md) (community post): "Copied layouts can be customized after creation"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
-- [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "Translatable Excel Layouts; Report Metadata Worksheet; Refreshable Excel Reports via Power Query"
+- [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "Translatable Excel Layouts; Refreshable Excel Reports via Power Query"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "Multiple report layouts; RDLC reports and layouts; Word report layouts; Excel report layouts"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
-- [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "word add-in; data picker; document layout; table builder; layout lifecycle"
 - [What's New: Document Reporting (2025 release wave 2)](../../../../videos/vLcb31rfZ48.md) (video): "word layouts; data picker; document reporting; word addin"
 - [What's new in Document Reporting: Word add-in (2026 release wave 2)](../../../../videos/XLUAuUWtJDw.md) (video): "Word add-in; document reporting; data picker; company information"
 - [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Excel Layouts for Built-in Reports; Report Customization in Excel"

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:57:14.902Z"
+  at: "2026-11-26T00:52:49.089Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5d6f4b664c3f210471a6126e80d49fe56691675a0970f70586de1398f44f6806
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/Consolidation/ConsolidationMethod.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Layers/W1/BaseApp/Finance/Consolidation/ConsolidationMethod.Interface.al
     title: src/Layers/W1/BaseApp/Finance/Consolidation/ConsolidationMethod.Interface.al (releases/29.x)
     date: null
-    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
+    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Consolidation Method" in Base Application (Microsoft.Finance.Consolidation). 1 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 
-Base Application · Microsoft.Finance.Consolidation · BC24-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Layers/W1/BaseApp/Finance/Consolidation/ConsolidationMethod.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.Consolidation · BC24-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Layers/W1/BaseApp/Finance/Consolidation/ConsolidationMethod.Interface.al) · facts from BC29
 
 ## Properties
 

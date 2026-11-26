@@ -2,7 +2,7 @@
 id: app/payablesagent
 type: app
 title: PayablesAgent
-summary: "PayablesAgent (Microsoft.Agent): 76 objects in BC29-30 (20 codeunits, 15 page customizations, 14 pages, 8 tables, 5 enums, ...); documented by 1 Learn hub."
+summary: "PayablesAgent (Microsoft.Agent): 77 objects in BC29-30 (20 codeunits, 15 page customizations, 14 pages, 8 tables, 5 enums, ...); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-26T00:55:06.850Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: aae06ad2a0b40b0a075fc9cd55c699a5b504f7d4683fd2307613e5644b89cbe6
+  input_hash: dadc8c338ab636e8bcd7ffe33dfe0c02b6d712fb7b203f5ac1bfca67dd2ab0d8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/PayablesAgent/app
@@ -78,6 +78,7 @@ links:
     - object/codeunit/3324
     - object/codeunit/3328
     - object/query/3303
+    - object/query/3304
     - object/enum/3303
     - object/enum/3304
     - object/enum/3305
@@ -119,7 +120,7 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 76
+  objects: 77
   by_type:
     codeunit: 20
     pagecustomization: 15
@@ -128,9 +129,9 @@ counts:
     enum: 5
     pageextension: 4
     permissionset: 4
+    query: 2
     enumextension: 2
     tableextension: 1
-    query: 1
     entitlement: 1
     profile: 1
   hubs: 1
@@ -140,7 +141,7 @@ counts:
 
 # PayablesAgent
 
-> PayablesAgent (Microsoft.Agent): 76 objects in BC29-30 (20 codeunits, 15 page customizations, 14 pages, 8 tables, 5 enums, ...); documented by 1 Learn hub.
+> PayablesAgent (Microsoft.Agent): 77 objects in BC29-30 (20 codeunits, 15 page customizations, 14 pages, 8 tables, 5 enums, ...); documented by 1 Learn hub.
 
 First-party app · folder `src/Apps/W1/PayablesAgent/app` · namespace `Microsoft.Agent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -152,7 +153,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-76 objects, by type.
+77 objects, by type.
 
 ### Tables (8)
 
@@ -226,11 +227,12 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 3324 | [PA Email Cleanup Scheduler](../objects/codeunit/3324.md) |  |
 | 3328 | [PA Email Inbox Row Delete](../objects/codeunit/3328.md) |  |
 
-### Queries (1)
+### Queries (2)
 
 | Id | Name | Caption |
 |---|---|---|
 | 3303 | [PA Posted Purch. Inv. Users](../objects/query/3303.md) |  |
+| 3304 | [PA Recent Purch. Inv. Creators](../objects/query/3304.md) |  |
 
 ### Enums (5)
 

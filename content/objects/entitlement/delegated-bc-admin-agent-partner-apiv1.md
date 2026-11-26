@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:57:14.902Z"
+  at: "2026-11-26T00:52:49.089Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 56aad8c9b02ebe36ba44d4f6aa94f69210f70f5007e2ba63ed7cd3d55d981c79
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/APIV1/app/src/Entitlements/DelegatedBCAdminAgentPartnerAPIV1.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/APIV1/app/src/Entitlements/DelegatedBCAdminAgentPartnerAPIV1.Entitlement.al
     title: src/Apps/W1/APIV1/app/src/Entitlements/DelegatedBCAdminAgentPartnerAPIV1.Entitlement.al (releases/29.x)
     date: null
-    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
+    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Delegated BC Admin agent - Partner APIV1" in APIV1 (Microsoft.API.V1). Introduced in BC29, still in BC30.
 
-APIV1 · Microsoft.API.V1 · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/W1/APIV1/app/src/Entitlements/DelegatedBCAdminAgentPartnerAPIV1.Entitlement.al) · facts from BC29
+APIV1 · Microsoft.API.V1 · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/APIV1/app/src/Entitlements/DelegatedBCAdminAgentPartnerAPIV1.Entitlement.al) · facts from BC29
 
 ## Across versions
 

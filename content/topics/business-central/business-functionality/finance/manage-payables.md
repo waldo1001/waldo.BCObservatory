@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -328,6 +328,7 @@ links:
     - change/bcapps/11095
     - change/bcapps/12532
     - change/bcapps/12762
+    - change/bcapps/13112
     - change/bcapps/13228
     - change/bcapps/13396
     - change/bcapps/13467
@@ -531,6 +532,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
 - [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor"
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12762.md) (code change): "Dispute status is now retained when editing vendor ledger entries"
+- [#13112 [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit](../../../../changes/bcapps/13112.md) (code change): "canceling a posted purchase invoice could fail or misallocate item charges"
 - [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "Fixes inconsistent syncing of On Hold and document dispute status"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../../changes/bcapps/13396.md) (code change): "partial purchase invoices with non-base units of measure and quantity rounding"
 - [#13467 [29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](../../../../changes/bcapps/13467.md) (code change): "Payment discounts now correctly reflected in sales and purchase totals"

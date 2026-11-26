@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14442",
+  "input_hash": "482949f10bdb074231bcd53ea372100a995d8005b1f4021289f13f58e2c4bff3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-26T01:03:54.974Z",
+  "issues": [
+    "Key point 1 overgeneralizes: only the set-up check for the plus menu and Purchase Invoices actions uses the setup link; setup still finds the agent by user name."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025605,
+    "changes_in_call": 6
+  }
+}

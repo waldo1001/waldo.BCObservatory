@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,12 +86,14 @@ links:
     - video/Fz8NLByllRc
     - video/M0IzeLSn7qU
     - video/P1V4jy08YM8
+    - video/pjML7lXSsd0
     - video/s3d9vW6tuT8
     - video/vyQnSxRGJDA
   posts: []
   guidelines: []
   changes:
     - change/bcapps/12544
+    - change/bcapps/13673
     - change/bcapps/13925
     - change/bcapps/14295
     - change/bcapps/14335
@@ -106,7 +108,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 6
+  video: 7
   blog: 0
   guideline: 0
 bc_forms: []
@@ -153,6 +155,7 @@ The pages follow the expense workflow. Start with the overview, then read about 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "selecting a 'No Receipt' option, which generates a standardized document"
+- [#13673 Expose active expense approver and expense app navigation](../../../../changes/bcapps/13673.md) (code change): "The Expense Reports API now exposes activeApproverExpenseUserNo"
 - [#13925 [29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13925.md) (code change): "Fixes mileage starting and ending point addresses longer than 50 characters"
 - [#14295 [Main] Expense Management: make core expense business objects public](../../../../changes/bcapps/14295.md) (code change): "Expense Management core business objects are now publicly accessible for extensions"
 - [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../../../../changes/bcapps/14335.md) (code change): "Table 6930 Expense Agent Setup, which holds company-wide expense management settings, is now public"
@@ -161,6 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Round trip toggle; Mileage rate configuration"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "Expense Agent; approval process; audit trail; delegated approvers"
 - [Expense Agent: Configuration (2026 release wave 1)](../../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; approval workflow; posting groups; mileage expenses; per diem"
+- [Introducing: Expense Management (2026 release wave 1)](../../../../videos/pjML7lXSsd0.md) (video): "Expense approval workflow; Credit card provider integration; Expense management rules"
 - [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../../videos/s3d9vW6tuT8.md) (video): "Travel Request; Travel Request Line Items; Expense Ledger Entries"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowance Calculation; Expense Agent Wizard Configuration"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
   videos:
     - video/06vgkq2EXmA
     - video/2isrH3RcSK8
+    - video/BofJJPqgrTI
     - video/mhfjycxWTyY
     - video/TSLXzbeyE7Y
     - video/V7NgFOIcGgM
@@ -87,7 +88,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 8
+  video: 9
   blog: 7
   guideline: 0
 bc_forms: []
@@ -134,17 +135,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11204 Chat v2 privacy notice behavior changed to not auto agree for Eval companies](../../../changes/bcapps/11204.md) (code change): "Copilot chat privacy notice now requires explicit agreement for evaluation companies"
 - [#9206 Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes](../../../changes/bcapps/9206.md) (code change): "Added new privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "unified Copilot-style chat that reasons over Business Central data"
-- [Business Central 29: Exploring the New Microsoft Copilot Chat](../../../posts/thinkaboutit-be/8342.md) (community post): "unified Microsoft Copilot Chat that combines Business Central data, web information, and Microsoft 365 work context"
+- [Business Central 29: Exploring the New Microsoft Copilot Chat](../../../posts/thinkaboutit-be/8342.md) (community post): "Business Central 29 introduces a new unified Microsoft Copilot Chat"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "Edit with Copilot enables users to modify business data using natural language"
 - [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../posts/yzhums-com/65781.md) (community post): "Copilot chat to explain and guide users through installed add-on apps"
 - [Business Central 2025 wave 2 (BC27): Use enhanced chat with Copilot (Supports 20 more languages)](../../../posts/yzhums-com/67542.md) (community post): "Copilot chat supports 20 more languages, understands prompts"
-- [Business Central 2026 release wave 2 (BC29): Enable unified Copilot chat experience consistent with Microsoft Copilot (New Chat with Copilot)](../../../posts/yzhums-com/75811.md) (community post): "unified Copilot chat experience that matches Microsoft 365 Copilot's interface"
-- [Microsoft Announces New Business Central + Copilot Bundles Starting January 2027](../../../posts/yzhums-com/77170.md) (community post): "Copilot is available directly inside Business Central as a unified chat experience"
+- [Business Central 2026 release wave 2 (BC29): Enable unified Copilot chat experience consistent with Microsoft Copilot (New Chat with Copilot)](../../../posts/yzhums-com/75811.md) (community post): "unified Copilot chat experience consistent with Microsoft Copilot"
+- [Microsoft Announces New Business Central + Copilot Bundles Starting January 2027](../../../posts/yzhums-com/77170.md) (community post): "From BC29 (2026 release wave 2), Copilot is available directly inside Business Central"
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../videos/06vgkq2EXmA.md) (video): "How we built Copilot Chat in Business Central. Topics: copilot chat; prompt engineering"
-- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../videos/2isrH3RcSK8.md) (video): "Copilot Chat for data inquiries; Copilot Chat multilingual support"
+- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../videos/2isrH3RcSK8.md) (video): "Copilot Chat for data inquiries; Copilot Chat multilingual support; Copilot for Finance"
+- [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../videos/BofJJPqgrTI.md) (video): "Excel Copilot for Data Analysis; OneDrive Integration for Copilot"
 - [Business Central Gets a New Microsoft Copilot Chat Experience](../../../videos/mhfjycxWTyY.md) (video): "Business Central Gets a New Microsoft Copilot Chat Experience"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "Microsoft Copilot Chat in Business Central; Sales data analysis with Copilot"
-- [What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/V7NgFOIcGgM.md) (video): "Microsoft Copilot Chat in Business Central; Agentic Loop; Intent Detection; Multi-source Data Integration"
+- [What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/V7NgFOIcGgM.md) (video): "Microsoft Copilot Chat in Business Central; Agentic Loop; Citations and Verification"
 - [Introducing: Copilot Chat in Business Central (2026)](../../../videos/wBx8TkIHJ04.md) (video): "Introducing: Copilot Chat in Business Central (2026)"
 - [Introducing: New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/WL3m2dffwU8.md) (video): "Unified Microsoft Copilot Chat; Copilot with Work IQ integration"
 - [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../../../videos/YX9UfUF0EsA.md) (video): "M365 Copilot chat in Business Central; Business Central data access from chat"

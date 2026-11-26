@@ -12,7 +12,7 @@ review:
   at: "2026-11-23T00:57:43.266Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -482,7 +482,6 @@ links:
   posts:
     - post/aardvarklabs-blog/2965
     - post/aardvarklabs-blog/3704
-    - post/demiliani-com/11739
     - post/duiliotacconi-com/1667
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
@@ -567,7 +566,7 @@ coverage:
   learn: 133
   code: 138
   video: 8
-  blog: 22
+  blog: 21
   guideline: 0
 bc_forms:
   - 7
@@ -823,7 +822,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12461 [29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12461.md) (code change): "Item charge assignment on sales orders now refreshes record set after bulk updates"
 - [#12551 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../changes/bcapps/12551.md) (code change): "Fixes a regression in Sales Line behaviour related to the VAT Prod. field"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code"
-- [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "User encounters a "record is not open" error when attaching a document to a posted sales shipment"
+- [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "attaching a document to a posted sales shipment in Dynamics 365"
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../changes/bcapps/12982.md) (code change): "Fixes changed VAT behavior affecting Sales Lines since BC 28.4"
 - [#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.](../../../changes/bcapps/13417.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
@@ -854,7 +853,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "automatically adds free samples to sales orders shipping to targeted regions"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../posts/aardvarklabs-blog/3704.md) (community post): "push a Sales Invoice PDF from Business Central to an SFTP site"
-- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "reads customer emails, clarifies missing details over multi-turn email, checks item availability"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"

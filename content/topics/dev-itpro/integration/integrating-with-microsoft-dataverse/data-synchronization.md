@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,7 +140,6 @@ links:
     - video/-q8Gm7u7R2A
   posts:
     - post/yzhums-com/63916
-    - post/yzhums-com/77184
     - post/yzhums-com/77263
   guidelines: []
   changes:
@@ -159,7 +158,7 @@ coverage:
   learn: 15
   code: 1
   video: 1
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 7214
@@ -232,7 +231,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13928 Bug 658681: [Master Data Management] Support certificate secret for cross-environment synchronization](../../../../changes/bcapps/13928.md) (code change): "cross-environment master data synchronization now supports certificate authentication"
 - [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](../../../../changes/bcapps/14400.md) (code change): "Cross-environment master data synchronization now provides clear error messages"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../../posts/yzhums-com/63916.md) (community post): "Integration table mappings can be customized and extended for both standard and custom Dataverse tables."
-- [Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)](../../../../posts/yzhums-com/77184.md) (community post): "Data mirroring replicates Business Central data to Microsoft Fabric's OneLake in Delta Parquet format"
 - [Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management](../../../../posts/yzhums-com/77263.md) (community post): "data synchronization; oauth authentication; multi-environment; data governance"
 - [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../../videos/-q8Gm7u7R2A.md) (video): "Data Sync Overview; Virtual Tables; Data Change Events"
 

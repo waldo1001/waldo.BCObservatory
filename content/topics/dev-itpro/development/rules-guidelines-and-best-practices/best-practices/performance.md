@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,6 +80,7 @@ links:
     - change/bcquality/205
     - change/bcquality/215
     - change/bcquality/225
+    - change/bcquality/253
     - change/bcquality/275
     - change/bcquality/94
     - change/bcquality/97
@@ -136,7 +137,7 @@ This section is about finding and fixing performance problems in Business Centra
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12186 Set several fields in one ModifyAll call](../../../../../changes/bcapps/12186.md) (code change): "Consecutive ModifyAll calls on the same filtered record are merged"
+- [#12186 Set several fields in one ModifyAll call](../../../../../changes/bcapps/12186.md) (code change): "Consecutive ModifyAll calls on the same filtered record are merged into a single call"
 - [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../../../../changes/bcapps/13953.md) (code change): "improve performance when deleting emails, avoiding full table scans"
 - [#14002 External File Storage: reject "." and ".." path segments](../../../../../changes/bcapps/14002.md) (code change): "rejects any path where a whole segment is . or .., for all operations and connectors"
 - [#134 knowledge(performance): add community rules for performance](../../../../../changes/bcquality/134.md) (code change): "16 community performance rules for Business Central to BCQuality"
@@ -147,6 +148,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#205 Preserve business filters when recommending Record.Get](../../../../../changes/bcquality/205.md) (code change): "Preserve business filters when recommending Record.Get. The performance guidance for replacing"
 - [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../../../../../changes/bcquality/215.md) (code change): "use query objects with grouped methods and column filters to detect duplicate values"
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "compute Role Center headlines in the background"
+- [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../../changes/bcquality/253.md) (code change): "prevent JIT loading failures when accessing unbound fields in OnAfterGetRecord"
 - [#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call](../../../../../changes/bcquality/275.md) (code change): "Get behind a key-is-set check in and-condition wastes a DB call"
 - [#94 Correct performance knowledge guidance](../../../../../changes/bcquality/94.md) (code change): "Several performance knowledge articles and their samples were corrected for partial records, transactions"
 - [#97 Add per-row AL performance guidance](../../../../../changes/bcquality/97.md) (code change): "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields"

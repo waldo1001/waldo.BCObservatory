@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/75960",
+  "input_hash": "7ff1818111beda41640ca73dfb86c326c8010ee05adfa29e293cd66f92619d31",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-26T01:03:29.263Z",
+  "issues": [
+    "The summary and key points match the post: one action clears all profile customizations, the Manage option removes them page by page, and profile customization is separate from user personalization.",
+    "Key point 4 is an inference, but the post supports it by suggesting a check of the user's own personalization if a page still looks different.",
+    "Quote 1 appears word for word in the post and is useful.",
+    "The BC23 version tag is supported by the post's mention of adding existing table fields to pages, a capability it ties to the 2023 wave 2 release.",
+    "Minor omission: the confirmation dialog says customizations that come from extensions are not cleared. This is not an error."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.0379,
+    "posts_in_call": 1
+  }
+}

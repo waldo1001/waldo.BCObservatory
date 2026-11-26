@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,6 @@ links:
   localizations: []
   videos:
     - video/DRUr4byy8xQ
-    - video/KpQS7c6YGRo
     - video/UQmuMPRlHek
   posts:
     - post/bertverbeek-nl/1263
@@ -104,7 +103,7 @@ children: []
 coverage:
   learn: 5
   code: 3
-  video: 3
+  video: 2
   blog: 14
   guideline: 0
 bc_forms:
@@ -168,7 +167,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Copilot and agent data movement across geographies](../../../posts/yzhums-com/74703.md) (community post): "controls for managing Copilot and agent data movement across Azure geographies"
 - [Dynamics 365 Business Central: How to turn off feedback on AI-generated content](../../../posts/yzhums-com/76396.md) (community post): "Administrators can disable Copilot feedback controls in Business Central"
 - [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../videos/DRUr4byy8xQ.md) (video): "Agent access control; permissions; profiles; Sales Order Agent"
-- [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "Feature Toggle in Feature Management; Copilot and AI Capabilities Page Toggle"
 - [What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)](../../../videos/UQmuMPRlHek.md) (video): "Copilot setup; ai capabilities; data governance; azure openai; regional availability"
 
 ## Business Central pages and reports

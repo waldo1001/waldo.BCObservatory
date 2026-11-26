@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,6 @@ links:
     - change/bcapps/11894
     - change/bcapps/12198
     - change/bcapps/12201
-    - change/bcapps/12507
     - change/bcapps/13272
     - change/bcapps/13458
     - change/bcapps/13488
@@ -145,7 +144,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11894 Fix mixed-currency totals in Close Income Statement](../../../../changes/bcapps/11894.md) (code change): "Fixed grouped calculations to process each filtered GL entry group"
 - [#12198 [29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/12198.md) (code change): "Source Currency Inconsistency for LCY Postings and cash posting"
 - [#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12201.md) (code change): "non-deductible VAT is posted to a foreign-currency project"
-- [#12507 [DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds](../../../../changes/bcapps/12507.md) (code change): "Removed 10 MB cap on currency exchange rate downloads where legitimate responses grow"
 - [#13272 Keep historical FX balances when unapplying payments](../../../../changes/bcapps/13272.md) (code change): "Keep historical FX balances when unapplying payments. The exchange rate revaluation"
 - [#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../changes/bcapps/13458.md) (code change): "posting logic now handles ACY for these entries when applying across posting groups"
 - [#13488 [29.X]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../changes/bcapps/13488.md) (code change): "Fixed handling of additional currency (ACY) calculations when posting across multiple"

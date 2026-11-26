@@ -3,16 +3,25 @@
 > Merged pull requests of Microsoft's Business Central code (microsoft/BCApps) that touch AL source: what changed, in our words,
 > joined by exact file path to the AL object pages. Tier official, metadata only. Frontmatter: schemas/frontmatter.change.json.
 
-1585 changes, newest first.
+1594 changes, newest first.
 
-- [#13927 [29.x]-Bug 658800: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error](bcapps/13927.md): Fixed Expense Agent's approval setup page to allow users to manually configure multiple approval routes without rejecting duplicate configuration attempts. (releases/29.x, 2026-11-24, fix)
+- [#13732 Initialize report filename defaults for new and existing companies](bcapps/13732.md): Report Filename Manager now initializes default filename patterns for 69 standard reports during company initialization, installation, and upgrade, ensuring consistent report naming without requiring manual setup. (main, 2026-11-25, feature)
+- [#14442 Offer the Payables Agent again in a company recreated with the same name](bcapps/14442.md): The Payables Agent is now offered again in the plus menu when a company is recreated with the same name, by checking only the agent linked in the company setup instead of searching by user name. (main, 2026-11-25, fix)
+- [#14471 Fix incoming document attachment overview Line No. type](bcapps/14471.md): The Line No. field in the Inc. Doc. Attachment Overview table is changed from Integer to BigInteger to match the corresponding field in Incoming Document Attachment after 64-bit migration. (main, 2026-11-25, fix)
+- [#14480 Show release versions and getting-started steps in the EAP cockpit](bcapps/14480.md): The Early Access Preview cockpit now displays release versions in the list and opens a dedicated details page with getting-started steps, overview content, and action links for each feature. (main, 2026-11-25, feature)
+- [#14491 Emit the E-Document LLM calls under the Payables Agent copilot capability](bcapps/14491.md): E-Document LLM calls designed for Payables Agent use are now routed through the Payables Agent app instead of the E-Document app to streamline billing feature management. (main, 2026-11-25, refactor)
+- [#13676 [29.X]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](bcapps/13676.md): Fixed inconsistent behavior where the On Hold status and document synchronization were not properly managed on vendor and customer ledger entries. (releases/29.x, 2026-11-25, fix)
+- [#13112 [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit](bcapps/13112.md): Fixed a bug where canceling a posted purchase invoice could fail or misallocate item charges when those charges were assigned to documents other than Purchase Receipts. The fix ensures all supported document types are handled and correct cost amounts are used. (main, 2026-11-25, fix)
+- [#14492 [Main] Expense Agent: register the Copilot capability as generally available](bcapps/14492.md): The Expense Agent Copilot capability is now registered as Generally Available instead of Preview, applying the same pattern used by the Sales Order and Payables agents. (main, 2026-11-25, feature)
+- [#13905 Exclude WorkIQ feature key from demo data feature enablement](bcapps/13905.md): The WorkIQ feature key is now excluded from automatic enablement in demo data setup, requiring explicit admin opt-in through Feature Management instead. (main, 2026-11-25, feature)
+- [#13927 [29.x]-Bug 658800: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error](bcapps/13927.md): Fixes a bug in the Expense Agent where manually adding an approval setup from the Expense User Card failed with a duplicate error. The change is in the Expense Approval Setups Part page and is a backport to 29.x. (releases/29.x, 2026-11-24, fix)
 - [#14184 [29x]-Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.](bcapps/14184.md): Fixed a bug in bulk vendor remittance reporting where a missing email address for one vendor would incorrectly clear the document number field for other vendors during electronic payment export. (releases/29.x, 2026-11-24, fix)
 - [#14136 [Main] - Bug 659462: [Expense Agent] Add configurable rounding precision for partial-day per diem](bcapps/14136.md): The Expense Agent now supports configurable rounding precision for partial-day per diem calculations, allowing administrators to set how fractional daily amounts are rounded. (main, 2026-11-24, feature)
 - [#13910 [Main] - Bug 657627: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error](bcapps/13910.md): The Expense User Card now reuses an existing unassigned approval setup instead of rejecting it with a duplicate error, and allows replacing an assigned approver after confirmation. (main, 2026-11-24, fix)
 - [#14240 [Main]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](bcapps/14240.md): Fixed an error that occurred when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled. The fix filters item tracking validation to only check pick lines with quantities being posted. (main, 2026-11-24, fix)
 - [#14077 [Master Data Management] Avoid duplicate excluded record insertion after match-based coupling](bcapps/14077.md): Master Data Management's match-based coupling now handles records excluded by the local table filter correctly by logging an error instead of attempting duplicate creation, preventing misleading insertion failures. (main, 2026-11-24, fix)
 - [#14139 [main] bug - Fix incorrect source entry lookup event in Czech compensations](bcapps/14139.md): Czech compensations now expose separate customer and vendor source entry lookup events with modifiable record parameters, replacing the previous event that passed the customer ledger entry by value and incorrectly used the customer event for vendor lookups. (main, 2026-11-24, fix)
-- [#13613 [main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version](bcapps/13613.md): Fixed incorrect Additional Currency Base and Amount calculations in VAT/GST entries for purchase invoices with line discounts in the Australian version. (main, 2026-11-24, fix)
+- [#13613 [main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version](bcapps/13613.md): Fixes incorrect Additional Currency Base and Additional Currency Amount in VAT/GST entries in the Australian version by changing purchase invoice posting. The change brings additional fixes and regression tests from the 29.x branch into main. (main, 2026-11-24, fix)
 - [#13331 [Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.](bcapps/13331.md): Create Pick now correctly assigns lot quantities when breakbulk is disabled and FEFO is enabled, preventing shipments from being underpicked by ensuring only inventory in the requested unit of measure counts toward lot availability. (main, 2026-11-24, fix)
 - [#13904 [29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](bcapps/13904.md): Unposted purchase return orders and credit memos are now discoverable through the Find Entries page, making it easier for users to locate these documents during document tracing workflows. (releases/29.x, 2026-11-23, fix)
 - [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](bcapps/14400.md): Cross-environment master data synchronization now provides clear error messages when connections fail or permissions are insufficient, helping administrators diagnose and fix setup issues quickly instead of seeing bare HTTP status codes. (main, 2026-11-23, feature)
@@ -1595,44 +1604,43 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
+- [#13811 Enable custom agent task creation from the timeline](https://github.com/microsoft/BCApps/pull/13811) (open into main, updated 2026-11-26)
+- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2825061](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-11-25)
 - [#10046 Obsolete objects and add deprecation notices for PTE upload/install in Extension Management](https://github.com/microsoft/BCApps/pull/10046) (open into main, updated 2026-11-25)
-- [#14228 Fix Permissions Mock lifecycle for native test execution](https://github.com/microsoft/BCApps/pull/14228) (open into main, updated 2026-11-24)
-- [#14445 AB#658839 Update for SL Migration Bug 658839 with Next Year 1099 amounts.](https://github.com/microsoft/BCApps/pull/14445) (open into main, updated 2026-11-24)
-- [#14471 Fix incoming document attachment overview Line No. type](https://github.com/microsoft/BCApps/pull/14471) (open into main, updated 2026-11-24)
-- [#14480 Show release versions and getting-started steps in the EAP cockpit](https://github.com/microsoft/BCApps/pull/14480) (open into main, updated 2026-11-24)
-- [#14484 [Bug][E-Document] "New from file" fails with Import Process Version 2.0: "No method to structure the received e-document has been provided"](https://github.com/microsoft/BCApps/pull/14484) (open into main, updated 2026-11-24)
-- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2823592](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-11-24)
-- [#14485 [Job Queue] Apply Job Timeout to tasks re-created by the dispatcher](https://github.com/microsoft/BCApps/pull/14485) (open into main, updated 2026-11-24)
-- [#14486 Fixes #10144](https://github.com/microsoft/BCApps/pull/14486) (open into main, updated 2026-11-24)
-- [#14498 Return the saved description for accessible Agent Builder agents](https://github.com/microsoft/BCApps/pull/14498) (open into main, updated 2026-11-24)
-- [#14499 Job Queue: resume interrupted finalization on task retry](https://github.com/microsoft/BCApps/pull/14499) (open into main, updated 2026-11-24)
-- [#13676 [29.X]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](https://github.com/microsoft/BCApps/pull/13676) (open into releases/29.x, updated 2026-11-24)
-- [#13015 Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.](https://github.com/microsoft/BCApps/pull/13015) (open into main, updated 2026-11-24)
-- [#14514 CI: accelerate whole-repository preprocessor symbol validation](https://github.com/microsoft/BCApps/pull/14514) (open into main, draft, updated 2026-11-24)
-- [#14513 CI: avoid duplicate analyzers in the temporary Clean baseline pass](https://github.com/microsoft/BCApps/pull/14513) (open into main, draft, updated 2026-11-24)
-- [#14492 [Main] Expense Agent: register the Copilot capability as generally available](https://github.com/microsoft/BCApps/pull/14492) (open into main, updated 2026-11-24)
-- [#11610 Obsoletion Skill: Add and fix CLEANSCHEMA tags](https://github.com/microsoft/BCApps/pull/11610) (open into main, updated 2026-11-24)
-- [#14507 [29.x]-All VAT Entries are gone through without filters with "Set G/L Account No." function.](https://github.com/microsoft/BCApps/pull/14507) (open into releases/29.x, updated 2026-11-24)
-- [#9185 Extract IT withholding tax code](https://github.com/microsoft/BCApps/pull/9185) (open into main, updated 2026-11-24)
-- [#13674 Add expense interim approval controls and approval outcomes](https://github.com/microsoft/BCApps/pull/13674) (open into main, updated 2026-11-24)
-- [#13872 Concurrent Posting for General Ledger (follow up 1)](https://github.com/microsoft/BCApps/pull/13872) (open into main, updated 2026-11-24)
-- [#14298 [Bug][Subscription Billing] Supplier charge period is ignored when crediting usage-based vendor subscription lines](https://github.com/microsoft/BCApps/pull/14298) (open into main, updated 2026-11-24)
-- [#14334 Bug 660000: [64bit] Overflow in item application entry. Amend tests to run with big integers](https://github.com/microsoft/BCApps/pull/14334) (open into main, updated 2026-11-24)
-- [#14500 Adding "Description 2" when available under ram:Description](https://github.com/microsoft/BCApps/pull/14500) (open into main, updated 2026-11-24)
-- [#14038 Reference repository actions locally instead of @main](https://github.com/microsoft/BCApps/pull/14038) (open into main, updated 2026-11-24)
-- [#14430 List adding subcontracting suggestions to an existing purchase order in EAP](https://github.com/microsoft/BCApps/pull/14430) (open into main, updated 2026-11-24)
-- [#14451 [master]Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.](https://github.com/microsoft/BCApps/pull/14451) (open into main, updated 2026-11-24)
-- [#14505 [main] Bug 649010: Validate direct transfer routes before posting](https://github.com/microsoft/BCApps/pull/14505) (open into main, updated 2026-11-24)
-- [#14506 [29.x]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](https://github.com/microsoft/BCApps/pull/14506) (open into releases/29.x, updated 2026-11-24)
-- [#14508 [29.x]-Warehouse Picks Creating Incorrect Line Splitting final pick.](https://github.com/microsoft/BCApps/pull/14508) (open into releases/29.x, updated 2026-11-24)
+- [#14422 Show "Authentication Email" on the Users list for on-prem](https://github.com/microsoft/BCApps/pull/14422) (open into main, updated 2026-11-25)
+- [#14486 Fixes #10144](https://github.com/microsoft/BCApps/pull/14486) (open into main, updated 2026-11-25)
+- [#14498 Return the saved description for accessible Agent Builder agents](https://github.com/microsoft/BCApps/pull/14498) (open into main, updated 2026-11-25)
+- [#13015 Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.](https://github.com/microsoft/BCApps/pull/13015) (open into main, updated 2026-11-25)
+- [#14241 [Expense Agent] Fix corporate card data integrity](https://github.com/microsoft/BCApps/pull/14241) (open into main, updated 2026-11-25)
+- [#14334 Bug 660000: [64bit] Overflow in item application entry. Amend tests to run with big integers](https://github.com/microsoft/BCApps/pull/14334) (open into main, updated 2026-11-25)
+- [#14425 Create contract renewal quotes from code without dialogs (#14090)](https://github.com/microsoft/BCApps/pull/14425) (open into main, updated 2026-11-25)
+- [#14528 Deliverable 660629: [29.x] BCApps part of No Receipt expenses](https://github.com/microsoft/BCApps/pull/14528) (open into releases/29.x, updated 2026-11-25)
+- [#14541 [Expense Agent] Send company scope header on company-bound requests](https://github.com/microsoft/BCApps/pull/14541) (open into main, updated 2026-11-25)
+- [#13213 [29x] Bug 653921 Warehouse pick fails with "Nothing to handle" when an earlier unshipped pick uses a non-default shipment bin](https://github.com/microsoft/BCApps/pull/13213) (open into releases/29.x, updated 2026-11-25)
+- [#14105 [29.x]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.](https://github.com/microsoft/BCApps/pull/14105) (open into releases/29.x, updated 2026-11-25)
+- [#14358 [29.x]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)](https://github.com/microsoft/BCApps/pull/14358) (open into releases/29.x, updated 2026-11-25)
+- [#14371 Fix Price Inv. Increase Code text skipped when Standard Text Description is empty](https://github.com/microsoft/BCApps/pull/14371) (open into main, updated 2026-11-25)
+- [#14426 [main][Repair item] Standard Sales Quote Word layouts rejected when reimporting an unchanged export](https://github.com/microsoft/BCApps/pull/14426) (open into main, updated 2026-11-25)
+- [#14508 [29.x]-Warehouse Picks Creating Incorrect Line Splitting final pick.](https://github.com/microsoft/BCApps/pull/14508) (open into releases/29.x, updated 2026-11-25)
+- [#14539 [Master]- Onward WIP shipment records the destination work center on the source operation's ledger entry](https://github.com/microsoft/BCApps/pull/14539) (open into main, updated 2026-11-25)
+- [#13903 Add V2 AI consumption APIs and quota checks](https://github.com/microsoft/BCApps/pull/13903) (open into main, updated 2026-11-25)
+- [#14566 Add global registration number framework and staged migration](https://github.com/microsoft/BCApps/pull/14566) (open into main, draft, updated 2026-11-25)
+- [#13831 [Agent Design Experience] Use native Markdown for custom-agent instructions](https://github.com/microsoft/BCApps/pull/13831) (open into main, updated 2026-11-25)
+- [#14388 [IRS Forms] Prepare IRIS for tax year 2026](https://github.com/microsoft/BCApps/pull/14388) (open into main, updated 2026-11-25)
+- [#14537 [Main][all-e]Subscription Billing: posting or previewing a contract renewal Sales Order fails with "International Standard Code" error when e-invoicing (PEPPOL / XRechnung) is active in the German version. - Copy](https://github.com/microsoft/BCApps/pull/14537) (open into main, updated 2026-11-25)
+- [#14437 Bugs/659500](https://github.com/microsoft/BCApps/pull/14437) (open into main, updated 2026-11-25)
+- [#14540 Add read-only troubleshooting session pages](https://github.com/microsoft/BCApps/pull/14540) (open into main, draft, updated 2026-11-25)
+- [#14395 [Expense Agent] Use BigInteger for expense ledger entry numbers](https://github.com/microsoft/BCApps/pull/14395) (open into main, updated 2026-11-25)
+- [#14513 CI: avoid duplicate analyzers in the temporary Clean baseline pass](https://github.com/microsoft/BCApps/pull/14513) (open into main, updated 2026-11-25)
+- [#13606 Bug 657603: Withholding tax for employees - wrong calculation](https://github.com/microsoft/BCApps/pull/13606) (open into main, updated 2026-11-25)
+- [#13674 Add expense interim approval controls and approval outcomes](https://github.com/microsoft/BCApps/pull/13674) (open into main, updated 2026-11-25)
 
 Open issues:
 
-- [#14512 CI: reduce preprocessor scan and Clean baseline overhead](https://github.com/microsoft/BCApps/issues/14512) (2026-11-24, Team: SCM)
-- [#14497 [Feature]: Return the saved Agent Builder description during agent discovery](https://github.com/microsoft/BCApps/issues/14497) (2026-11-24, Approved, BCIdea, Team: Other)
-- [#14495 [Event Request] Codeunit 900 "Assembly-Post" - Procedure "RestoreItemTracking"](https://github.com/microsoft/BCApps/issues/14495) (2026-11-24, Team: SCM, missing-info)
-- [#14489 [Bug][SubscriptionBilling] DeleteUsageDataBillingLines deletes API-imported Usage Data Generic Import lines when "Process without UsageDataBlobs" is enabled](https://github.com/microsoft/BCApps/issues/14489) (2026-11-24, Team: Finance)
-- [#14478 [Feature]: REPORT 10748 "Vendor - Overdue Payments"](https://github.com/microsoft/BCApps/issues/14478) (2026-11-24, BCIdea, Team: Finance)
+- [#14568 [Contribution Process Bug]: Changed files after compiling](https://github.com/microsoft/BCApps/issues/14568) (2026-11-25, Contribution-Bug, Ownership: Needs Review, Team: Other)
+- [#14563 Allow extending available font sizes in RichContent editor (sizes 5-7)](https://github.com/microsoft/BCApps/issues/14563) (2026-11-25, Team: SCM)
+- [#14530 [Bug][SubscriptionBilling] Line discount from customer price list is not applied to subscription lines created via Extend Contract or the Subscription card](https://github.com/microsoft/BCApps/issues/14530) (2026-11-25, Team: Finance)
+- [#14524 [Feature]: EUDR lot certification and DDS details through the existing report extension of Standard Sales - Invoice](https://github.com/microsoft/BCApps/issues/14524) (2026-11-25, Team: Finance)
 
 Releases:
 
@@ -1651,12 +1659,14 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-11-24)
+- [#2425 Admin API for PTE publishing/installing for BC29 and later](https://github.com/microsoft/AL-Go/pull/2425) (open into main, updated 2026-11-25)
+- [#2446 Add top-level token permissions to issue workflows](https://github.com/microsoft/AL-Go/pull/2446) (open into main, updated 2026-11-25)
+- [#2397 Support calling AL-Go workflows as reusable workflows (workflow_call)](https://github.com/microsoft/AL-Go/pull/2397) (open into main, draft, updated 2026-11-25)
+- [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-11-25)
 - [#2449 Optional builds for PR validation](https://github.com/microsoft/AL-Go/pull/2449) (open into main, updated 2026-11-24)
 - [#2451 Add missing settings to JSON schema](https://github.com/microsoft/AL-Go/pull/2451) (open into main, updated 2026-11-24)
 - [#2033 Hide default values from workflow dispatch input](https://github.com/microsoft/AL-Go/pull/2033) (open into main, updated 2026-11-24)
 - [#2384 Publish to AppSource failback to current version.](https://github.com/microsoft/AL-Go/pull/2384) (open into main, updated 2026-11-24)
-- [#2397 Support calling AL-Go workflows as reusable workflows (workflow_call)](https://github.com/microsoft/AL-Go/pull/2397) (open into main, draft, updated 2026-11-24)
 - [#2399 Fix framework-dependent AL tool invocation on Linux](https://github.com/microsoft/AL-Go/pull/2399) (open into main, draft, updated 2026-11-24)
 - [#2409 Include agentic workflows when updating system files from AL-Go or indirect templates](https://github.com/microsoft/AL-Go/pull/2409) (open into main, updated 2026-11-24)
 - [#2426 RunTests - test discovery using ALTool instead of BcContainerHelper](https://github.com/microsoft/AL-Go/pull/2426) (open into main, updated 2026-11-24)
@@ -1668,12 +1678,9 @@ Open pull requests (no page until merged), most recently updated first; then the
 - [#2216 Add Test Isolation support](https://github.com/microsoft/AL-Go/pull/2216) (open into main, updated 2026-11-24)
 - [#2361 Fix incremental PR builds affected by baseline drift](https://github.com/microsoft/AL-Go/pull/2361) (open into main, updated 2026-11-24)
 - [#2385 Issue 2336 - Option to fail deployment](https://github.com/microsoft/AL-Go/pull/2385) (open into main, updated 2026-11-24)
-- [#2425 Admin API for PTE publishing/installing for BC29 and later](https://github.com/microsoft/AL-Go/pull/2425) (open into main, updated 2026-11-24)
 - [#2458 Fail when dependency artifacts built in the current run are missing](https://github.com/microsoft/AL-Go/pull/2458) (open into main, draft, updated 2026-11-24)
 - [#2462 RunTests - Code Coverage](https://github.com/microsoft/AL-Go/pull/2462) (open into main, draft, updated 2026-11-24)
 - [#2467 Support repository custom properties in conditional settings](https://github.com/microsoft/AL-Go/pull/2467) (open into main, updated 2026-11-24)
-- [#2469 E2E tests run on private repos](https://github.com/microsoft/AL-Go/pull/2469) (open into main, updated 2026-11-23)
-- [#2446 Add top-level token permissions to issue workflows](https://github.com/microsoft/AL-Go/pull/2446) (open into main, updated 2026-11-09)
 - [#2428 Propose a BCQuality knowledge advisor for AL-Go issues and pull requests](https://github.com/microsoft/AL-Go/pull/2428) (open into main, draft, updated 2026-11-07)
 - [#2265 move the BuildInitialize hook to after determine build project](https://github.com/microsoft/AL-Go/pull/2265) (open into main, updated 2026-10-05)
 - [#2206 [Draft] Add agentic workflow to comment on release notes PRs](https://github.com/microsoft/AL-Go/pull/2206) (open into main, draft, updated 2026-07-24)
@@ -1682,7 +1689,6 @@ Open pull requests (no page until merged), most recently updated first; then the
 
 Open issues:
 
-- [#2472 [Bug]: BC 22 MinVersion builds fail on Linux with PowerShell 7.6.10](https://github.com/microsoft/AL-Go/issues/2472) (2026-11-24)
 - [#2459 [Bug]: Create release replaces umlauts and other non-ASCII characters in the generated release notes with '?'](https://github.com/microsoft/AL-Go/issues/2459) (2026-11-13)
 - [#2456 [Bug]: GHE setup is not working as expected](https://github.com/microsoft/AL-Go/issues/2456) (2026-11-12, bug)
 - [#2455 [Bug]: Incremental builds never reuse baseline artifacts for single-project repos (project ".")](https://github.com/microsoft/AL-Go/issues/2455) (2026-11-12, bug)
@@ -1702,6 +1708,7 @@ Open issues:
 - [#2339 [Bug]: DeliverToAppSource ignores includeDependencies and packages additional dependency apps](https://github.com/microsoft/AL-Go/issues/2339) (2026-08-05, bug)
 - [#2281 [Bug]: Publish to appsource - current version failback](https://github.com/microsoft/AL-Go/issues/2281) (2026-06-16, bug)
 - [#2228 [Bug]: Orverwritesettings fail with custom Al-Go Template](https://github.com/microsoft/AL-Go/issues/2228) (2026-04-29, bug)
+- [#2151 [Bug]: Create Release workflow violates GitHub release patterns and creates misleading user experience](https://github.com/microsoft/AL-Go/issues/2151) (2026-03-02)
 
 Releases:
 
@@ -1720,6 +1727,9 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
+- [#286 docs: link community Azure DevOps runners from the integration reference](https://github.com/microsoft/BCQuality/pull/286) (open into main, updated 2026-11-25)
+- [#285 Recognize compatible same-app extraction into extension objects](https://github.com/microsoft/BCQuality/pull/285) (open into main, updated 2026-11-25)
+- [#284 Recognize BigInteger ledger identifiers and supported Integer widening](https://github.com/microsoft/BCQuality/pull/284) (open into main, updated 2026-11-25)
 - [#272 knowledge(data-modeling): Init() keeps the primary key; recompute an editable derived field only while unedited](https://github.com/microsoft/BCQuality/pull/272) (open into main, updated 2026-11-23)
 - [#279 knowledge(testing): a changed permission set needs a test that runs an allowed operation under it](https://github.com/microsoft/BCQuality/pull/279) (open into main, updated 2026-11-23)
 - [#274 knowledge(data-modeling): distinguish Modify from primary-key Rename](https://github.com/microsoft/BCQuality/pull/274) (open into main, updated 2026-11-17)

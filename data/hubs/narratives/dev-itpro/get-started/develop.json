@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/get-started/develop",
-  "input_hash": "d20562a05a595c95d665c4dca2ce507d56b43156b7ca2547a24f5886c38826b0",
-  "summary": "Develop covers how to build, customize, publish and maintain Business Central apps and extensions. It answers questions about getting started as a partner, per-tenant customization, localization, marketplace submission and validation, embed apps, app lifecycle, and Microsoft versus partner responsibilities online.",
-  "overview": "The Develop section is for partners and developers who build on Business Central. It covers two paths: customizing a tenant (Designer for UI changes, AL extensions in Visual Studio Code for deeper changes, tested in sandbox environments first) and building apps to sell on the Microsoft commercial marketplace. It also has pages on localization apps and on the components and ecosystem integration options available to apps, such as APIs, Power BI, Power Automate, Power Apps and Outlook add-in.\n\nFor publishers, the pages follow the app's life. \"The SMB opportunity for app publishers\" explains the market and app types (Connect and Add-on). \"Get started building apps\" walks through partner registration, publisher setup, unique object range and submission via Partner Center. \"Add your App to Marketplace\" covers marketing and technical validation. After release, the lifecycle, maintenance and discontinuation pages describe updates, breaking changes and removal. The Microsoft responsibilities page clarifies what Microsoft runs online and what partners maintain.\n\nTwo subtopics go deeper: Marketplace validation (technical checklist, marketing rules, landing pages and videos) and Embed apps (partner-branded solutions built on the platform). Start with \"Get started building apps\" for publishing, or \"Customizing Tenants\" for in-tenant changes.",
+  "input_hash": "5cb33551398c6422551da18427cbb1339db2fc1d4c486d06c88f08bb74bb43b4",
+  "summary": "Develop covers building, customizing, publishing and maintaining Business Central apps and extensions. It answers questions on getting started as a partner, Marketplace submission and validation, embed apps, app lifecycle, localization, and Microsoft versus partner responsibilities online.",
+  "overview": "The Develop section is for partners and developers who tailor Business Central or build apps for the Microsoft commercial marketplace. It ranges from customizing a tenant with the in-client Designer or AL extensions, to building Connect and Add-on apps, localization solutions, and embed apps.\n\nStart with \"The SMB opportunity for app publishers\" for the business context and app types, then \"Get started building apps\" for partner registration, publisher setup, object range and submission to Partner Center. \"Components and capabilities\" shows integration options such as APIs, Power BI, Power Automate and Power Apps.\n\nFor submission and upkeep, use \"Add your App to Marketplace\" and the Marketplace validation subtopic for the technical and marketing checklists. After release, the lifecycle, maintenance and Microsoft responsibilities pages explain updates, breaking changes and who runs what. \"Discontinuing a Marketplace App\" covers removal. The Embed apps subtopic covers partner-branded solutions.",
   "key_points": [
-    "Customizing tenants uses the in-client Designer for UI changes and AL extensions (page and table extensions, business logic) in Visual Studio Code, tested in sandbox or Docker before production.",
-    "Getting started as a publisher involves Partner Center registration, PartnerSource Business Center access, a unique object range, a developer license file, prefix or suffix registration, and technical validation.",
-    "Marketplace submission requires both marketing and technical validation, with special handling for embed apps.",
-    "Apps can integrate through a Dynamics 365 API endpoint, Outlook Add-in, Power BI, Power Automate, Power Apps and Azure Machine Learning.",
-    "Localization apps address local regulatory requirements, national standards and market needs, using features like RapidStart data packages, translations and setup guides.",
-    "Maintaining Marketplace apps and per-tenant extensions means keeping up with major and minor releases, using preview versions, the AppSourceCop analyzer and automated validation to detect incompatibility.",
-    "Microsoft handles infrastructure, storage, high availability, disaster recovery, platform security, diagnostics and patching online. Partners maintain their own apps and extensions.",
-    "Discontinuing a Marketplace app involves stopping distribution, updating the listing (such as the Contact Me type), notifying customers and handling uninstallation."
+    "Customize a tenant with the in-client Designer for UI changes, or with AL extensions (page and table extensions, business logic) in Visual Studio Code. Test in sandbox or Docker first.",
+    "Getting started on Marketplace involves becoming a partner, registering as a publisher, getting a unique object range, building the solution and submitting through Partner Center.",
+    "Marketplace submission needs both technical and marketing validation. The Marketplace validation subtopic has 15 pages, including checklists, landing page and video guidance, and a technical validation FAQ.",
+    "Apps can integrate through the Dynamics 365 API endpoint, Outlook Add-in, Power BI, Power Automate, Power Apps and Azure Machine Learning.",
+    "Lifecycle pages cover service updates, app updates, bug fixes, breaking changes and extension data retention. Publishers and resellers must keep Marketplace apps and per-tenant extensions compatible with major and minor releases. The AppSourceCop analyzer, preview testing and enforcement periods support this.",
+    "Microsoft handles infrastructure, storage, high availability, disaster recovery, platform security, diagnostics and patching, plus the base application. Partners maintain their own apps and extensions.",
+    "Localization apps address local regulatory requirements and national standards. They can use RapidStart data packages, translations and setup guides.",
+    "Embed apps are partner-branded solutions. Their pages cover partner qualification, application family name in URLs, LCS deployment, customer access management and the App Management API."
   ],
   "members_used": 10,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-21T01:00:29.718Z",
+  "at": "2026-11-26T01:05:05.036Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.020027
+    "cost_usd": 0.019861
   }
 }

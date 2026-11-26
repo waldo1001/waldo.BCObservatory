@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13778 []Main[ALL-E] Dimensions of components are incorrectly populated when creating Production Order through Order Planning](../../../../changes/bcapps/13778.md) (code change): "Component dimensions in Order Planning now follow Production Order source code and dimension-priority rules"
 - [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
 - [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Allowed Values Filter on the GL Account card restricts which dimension values can be posted"
-- [Dynamics 365 Business Central Blog Series: Work with dimensions](../../../../posts/yzhums-com/69639.md) (community post): "Dimensions in Dynamics 365 Business Central; default dimensions; shortcut dimensions; dimension setup"
+- [Dynamics 365 Business Central Blog Series: Work with dimensions](../../../../posts/yzhums-com/69639.md) (community post): "covers dimensions in Dynamics 365 Business Central, including how to add shortcut dimensions"
 - [Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business](../../../../videos/4EnvGMwbuBY.md) (video): "Subaccount segments; dimensions; dimension values; flex key"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "dimensions; project billable costs; employee payments; default dimensions"
 - [Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics](../../../../videos/BC82BSrtng0.md) (video): "Segments; dimensions; default dimensions; posting; reporting; migration"

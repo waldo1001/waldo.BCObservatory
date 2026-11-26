@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -343,6 +343,7 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage
   localizations: []
   videos:
+    - video/2isrH3RcSK8
     - video/5xeATIUFiGg
     - video/jJxBswIy_Xw
     - video/ywyaIenKix8
@@ -376,7 +377,7 @@ children:
 coverage:
   learn: 47
   code: 27
-  video: 3
+  video: 4
   blog: 0
   guideline: 0
 bc_forms:
@@ -471,6 +472,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../changes/bcapps/13240.md) (code change): "Subscription Billing app, Finance team"
 - [#13431 Extend sales document edit permissions with subscrition billing edit](../../../../changes/bcapps/13431.md) (code change): "Sales Order Agent to add items with subscription billing to sales documents"
 - [#13582 [main] Price Groups of Subscription Packages are not considered.](../../../../changes/bcapps/13582.md) (code change): "offered subscription packages are now always filtered to the customer's price group"
+- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../../videos/2isrH3RcSK8.md) (video): "Subscription billing; Power BI reports expansion; Financial reports and definitions"
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing recurring invoicing contract management revenue deferrals billing templates"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"

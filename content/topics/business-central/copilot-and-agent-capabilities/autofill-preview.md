@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:09:06.420Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,6 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/H5EuObmeF4o
     - video/PB2ZG8fM3EE
     - video/SH4Ffukj3P4
   posts:
@@ -57,7 +56,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
+  video: 2
   blog: 1
   guideline: 0
 bc_forms: []
@@ -100,7 +99,6 @@ Start with the first page to learn how to use Autofill. Read the FAQ if you need
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central 2025 wave 2 (BC27): Autofill contact details with Copilot](../../../posts/yzhums-com/68043.md) (community post): "Copilot autofill now searches the web via Bing to suggest customer or vendor contact details"
-- [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "Autofill with Copilot field suggestions"
 - [What's New: Autofill Fields with Copilot (2025 release wave 1)](../../../videos/PB2ZG8fM3EE.md) (video): "copilot autofill; field suggestions; keyboard shortcuts; web search"
 - [What's New: Autofill Contact Details with Copilot (2025 release wave 2)](../../../videos/SH4Ffukj3P4.md) (video): "Copilot Autofill with Web Search for Contact Details; Bing Search"
 

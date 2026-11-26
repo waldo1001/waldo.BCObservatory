@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,14 +61,16 @@ links:
     - topic/business-central/business-functionality/expense-management-preview
   localizations: []
   videos:
-    - video/egE6UdOfar0
     - video/M0IzeLSn7qU
+    - video/pjML7lXSsd0
   posts: []
   guidelines: []
   changes:
     - change/bcapps/12544
     - change/bcapps/12599
     - change/bcapps/12670
+    - change/bcapps/13910
+    - change/bcapps/14327
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -129,8 +131,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "Expense Agent now allows users to submit expenses without a receipt by selecting"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
 - [#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸](../../../../changes/bcapps/12670.md) (code change): "Expense Management role centers now display activity cues showing expense report statuses"
-- [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../../videos/egE6UdOfar0.md) (video): "Expense Agent, receipt processing, approval workflow, expense reporting"
+- [#13910 [Main] - Bug 657627: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error](../../../../changes/bcapps/13910.md) (code change): "The Expense User Card now reuses an existing unassigned approval setup"
+- [#14327 Expose Payables Agent infotip sources through test fixtures](../../../../changes/bcapps/14327.md) (code change): "Payables Agent now expose infotip sources and business context, allowing offline evaluations"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "AI-driven approval policies; Enhanced approval history and audit trail"
+- [Introducing: Expense Management (2026 release wave 1)](../../../../videos/pjML7lXSsd0.md) (video): "Expense agent with AI-driven categorization; Expense collection and itemization"
 
 ## Business Central pages and reports
 

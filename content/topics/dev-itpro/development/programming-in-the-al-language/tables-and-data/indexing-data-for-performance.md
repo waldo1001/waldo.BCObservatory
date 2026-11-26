@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,6 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos:
-    - video/1x3QyBX3swg
     - video/qABlX4AL3GM
     - video/Sh3ySQSTw-o
   posts:
@@ -127,7 +126,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 3
+  video: 2
   blog: 9
   guideline: 0
 bc_forms: []
@@ -184,7 +183,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Clustered indexes define physical row ordering and are used by Get()"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added by development, through an AppSource app"
 - [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../../../../../posts/yzhums-com/76518.md) (community post): "AL developers can now programmatically enable and disable database indexes"
-- [Microsoft presents: Index management](../../../../../videos/1x3QyBX3swg.md) (video): "index management; sql server indexes; storage optimization; index usage statistics"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Unified table storage for extensions; Cross-field indexes spanning base and extension tables"
 - [What's new: Server and Database (2026 release wave 2)](../../../../../videos/Sh3ySQSTw-o.md) (video): "Runtime-controlled index enablement; Cross-table indexes"
 

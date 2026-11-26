@@ -6,10 +6,10 @@
   "systems_joined": [],
   "summary": "The Payables Agent is now offered again in the plus menu when a company is recreated with the same name, by checking only the agent linked in the company setup instead of searching by user name.",
   "key_points": [
-    "Agent lookup now uses the company setup link instead of searching for a user named 'Payables Agent - <company>'",
-    "Recreating a company with the same name no longer prevents the agent from appearing in the plus menu",
-    "Existing agent users are still reused during setup to avoid creating duplicates",
-    "Changes apply to both the plus menu and Purchase Invoices actions"
+    "Only the agent linked in the company's setup counts as set up for the plus menu and Purchase Invoices actions",
+    "Deleted companies keep their agent user, which previously made a recreated company with the same name look already set up",
+    "Setup still locates the existing agent by user name and reuses it, so no duplicate agent user is created",
+    "Setup, intake and upgrade find the agent as before"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:07.048Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,7 +65,8 @@ links:
   topics:
     - topic/business-central/business-functionality/local-functionality/denmark
   localizations: []
-  videos: []
+  videos:
+    - video/205F8ljmInU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -79,7 +80,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -123,6 +124,12 @@ The pages follow the order of the work. Start with the overview and the extensio
 - [OIOUBL Extension for Electronic Invoicing](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl): The OIOUBL extension simplifies the process of sending sales documents electronically to customers in the Danish public sector using the OIOUBL format.
 - [Set Up the OIOUBL Extension for Electronic Invoicing \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl): Prepare to submit sales documents in the Offentlig Information Online - Universal Business Language (OIOUBL) format by following the steps outlined in this article.
   - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 1875 "Manual Setup"](../../../../../objects/page/1875.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Page 4 "Payment Terms"](../../../../../objects/page/4.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Page 5800 "Item Charges"](../../../../../objects/page/5800.md)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../../videos/205F8ljmInU.md) (video): "e-invoicing for denmark; digital voucher storage for five years"
 
 ## Business Central pages and reports
 

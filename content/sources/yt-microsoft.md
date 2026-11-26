@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:13:20.045Z"
+  at: "2026-11-26T00:13:01.755Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
@@ -92,6 +92,7 @@ links:
     - feature/573369
     - feature/573372
     - feature/573374
+    - feature/573375
     - feature/573376
     - feature/573377
     - feature/573378
@@ -120,7 +121,6 @@ links:
     - feature/576881
     - feature/577820
     - feature/578065
-    - feature/578068
   topics: []
   localizations: []
   videos:
@@ -724,7 +724,7 @@ footprint:
     - id: feature/577820
       weight: 5
     - id: feature/573254
-      weight: 4
+      weight: 3
     - id: feature/573265
       weight: 3
     - id: feature/573320
@@ -788,7 +788,7 @@ Items per quarter, oldest first:
 
 - [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 5 videos
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 5 videos
-- [Add date ranges and vehicle types in your mileage calculation](../features/573254.md): Expense Agent, in preview, GA 2026-10, 4 videos
+- [Add date ranges and vehicle types in your mileage calculation](../features/573254.md): Expense Agent, in preview, GA 2026-10, 3 videos
 - [Control the lifecycle of all report layouts](../features/573320.md): Reporting and data analysis, generally available, GA 2026-10, 3 videos
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 3 videos
@@ -801,7 +801,6 @@ Items per quarter, oldest first:
 - [Carry subcontracting instructions into purchase orders](../features/573345.md): Supply Chain Management, generally available, GA 2026-10, 2 videos
 - [Create expense reports per trip automatically](../features/573257.md): Expense Agent, in preview, GA 2026-11, 2 videos
 - [Create expenses from credit card feeds](../features/573256.md): Expense Agent, announced, GA 2026-12, 2 videos
-- [Design document reports with the updated Word add-in](../features/573328.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 2 videos
 - [Enable approving limits and alternate approvers when primary is not available](../features/573605.md): Expense Agent, announced, GA 2027-02, 2 videos
 - [Enable electronic invoicing in France](../features/576832.md): Country and regional, generally available, GA 2026-08, 2 videos
@@ -837,11 +836,12 @@ Items per quarter, oldest first:
 - [Data mirroring to Microsoft Fabric](../features/574126.md): in preview, GA 2027-04, 1 video
 - [Debug recorded Business Central failures with an AI agent](../features/573361.md): Development, generally available, GA 2026-10, 1 video
 - [Design document report themes with the updated Word add-in](../features/573330.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
+- [Design document reports with the updated Word add-in](../features/573328.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design header/footer layouts for document reports with the updated Word add-in](../features/573331.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Discover objects in connected Business Central environments](../features/573339.md): Development, generally available, GA 2026-10, 1 video
 - [Enable SAF-T audit file format](../features/573619.md): Austria, in preview, GA 2027-04, 1 video
 - [Enable SAF-T audit file format](../features/573620.md): Iceland, in preview, GA 2027-04, 1 video
-- [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 1 video
+- [Estimate your carbon footprint in Service Management](../features/573375.md): Sustainabilty Management, generally available, GA 2026-10, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
 - [Exchange EDI documents](../features/573305.md): E-Documents, in preview, GA 2027-04, 1 video
 - [Export euBP with audit files export](../features/573617.md): Germany, in preview, GA 2027-01, 1 video

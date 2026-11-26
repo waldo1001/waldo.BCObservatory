@@ -1,24 +1,22 @@
 {
   "week": "2026-W48",
-  "input_hash": "f3a00b92ebcd5ea5e03abb798212a9d754e18ff05e4d169fa0974fb02a081d8b",
-  "text": "Most of the week's 22 pull requests in microsoft/BCApps are behaviour-changing fixes. In warehouse and item tracking, #14240 stops the \"Cannot match item tracking\" error on partial Inventory Pick posting with Strict Expiration Posting, #13331 corrects lot assignment in Create Pick when breakbulk is off and FEFO is on, #14013 stops stale pick bins reaching warehouse shipment tracking on Transfer and Purchase-Return lines, and #13206 removes a serial number error when reversing a Capacity Ledger Entry. In finance and localisation, #13613 corrects Additional Currency amounts in Australian VAT/GST entries, #14297 sets German VAT reports to Exported after ELMA XML export, #13854 makes VAT Entries and the G/L - VAT Reconciliation report respect filters, #14225 fixes a credit memo regression for non-inventory items, #14184 stops one vendor's missing email clearing another's Document No., and #13904 adds unposted purchase returns and credit memos to Find Entries. #14139 gives Czech compensations separate customer and vendor lookup events, and #9193 locks Transformation Rule codes against translation. The Expense Agent gets configurable per diem rounding in #14136, an active approver field and navigation in #13673, and approval setup fixes in #13910 and #13927. #14405 renumbers three codeunits to avoid installation failures. Master Data Management gets clearer errors in #14400 and a duplicate-insert fix in #14077. Partner hooks arrive in #14346, with #14423 and #14327 as smaller changes.",
-  "changes": 22,
+  "input_hash": "58ad343f2409aaba533a3723d6314d195a831b4d6001f1cf44bdb98c284e1b4a",
+  "text": "The week's behaviour changes centre on the Expense Agent and Payables Agent. #14492 registers the Expense Agent Copilot capability as Generally Available instead of Preview, #14491 moves E-Document LLM calls under the Payables Agent capability, and #14442 offers the Payables Agent again in a company recreated with the same name. Expense Agent work also includes configurable per diem rounding (#14136), approval setup fixes (#13910, backported in #13927), and API changes that expose the active approver and obsolete an unused FlowFilter (#13673). Partners get new extension events and a public Create Expense Report codeunit (#14346). Codeunits were renumbered in #14405 to avoid collisions with deprecated country apps. Posting and warehouse fixes cover item charges on purchase invoice cancellation (#13112), partial inventory picks with strict expiration (#14240), FEFO pick splitting (#13331), stale pick bins (#14013) and serial numbers when reversing capacity entries (#13206). Finance and localization fixes include #13676, #14184, #14139, #13613, #14297, #13854 and #14225. Other changes: Report Filename defaults (#13732), clearer Master Data Management errors (#14400, #14077), EAP cockpit details (#14480), demo data excluding the WorkIQ feature key (#13905), Navigate (#13904), and locked Transformation Rule codes (#9193). Type and buffer fixes are #14471 and #14423, and #14327 is test fixtures only.",
+  "changes": 31,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.030486,
-  "at": "2026-11-25T00:13:20.045Z",
+  "cost_usd": 0.038296,
+  "at": "2026-11-26T00:13:01.755Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-25T01:05:26.832Z",
+    "at": "2026-11-26T01:04:12.635Z",
     "verdict": "approve",
     "issues": [
-      "#14225 is described only as a 'credit memo regression'; it is specifically purchase credit memos failing on Get Return Shipment Lines for non-inventory items. Accurate but slightly vague.",
-      "#14405 sits right after the Expense Agent sentence but does not say the renumbered codeunits are Expense Agent codeunits (6913-6915 to 6923-6925); adding that would make it clearer.",
-      "#14346 'Partner hooks' could name Expense Management and the now-public Create Expense Report codeunit.",
-      "Word count is about 216, close to the 220 upper limit."
+      "The opening sentence says the week's behaviour changes centre on the Expense Agent and Payables Agent. That framing is a little narrow: 26 of the 31 pull requests are flagged as behaviour changes, and most of them are posting, warehouse, finance and localization fixes, not agent work.",
+      "The finance and localization sentence lists seven pull request numbers (#13676, #14184, #14139, #13613, #14297, #13854, #14225) without saying what any of them do. That makes the sentence less useful. Short labels would help, for example dispute status on ledger entries, the electronic payment Document No. fix, Czech compensation lookup events, Australian VAT/GST additional currency, German ELMA export status, VAT Entries filters, and the purchase credit memo return shipment regression."
     ],
-    "input_hash": "f3a00b92ebcd5ea5e03abb798212a9d754e18ff05e4d169fa0974fb02a081d8b",
-    "cost_usd": 0.1013,
+    "input_hash": "58ad343f2409aaba533a3723d6314d195a831b4d6001f1cf44bdb98c284e1b4a",
+    "cost_usd": 0.092192,
     "applied": [],
     "rejected_edits": []
   }

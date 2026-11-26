@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -95,7 +95,6 @@ links:
     - post/duiliotacconi-com/2001
     - post/duiliotacconi-com/2238
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
-    - post/thinkaboutit-be/8359
     - post/waldo-be/317739
     - post/waldo-be/318212
     - post/yzhums-com/77070
@@ -113,7 +112,7 @@ coverage:
   learn: 7
   code: 0
   video: 5
-  blog: 13
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -153,11 +152,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
 - [About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)](../../posts/duiliotacconi-com/2238.md) (community post): "Storing large BLOB objects in the database instead of external storage dramatically slows upgrades"
 - [Planning Table Indexes for the Best Performance](../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "justify each index by confirming it's actually needed and used"
-- [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../../posts/thinkaboutit-be/8359.md) (community post): "Platform improvements include table-extension storage optimization, AL-based index management"
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../posts/waldo-be/317739.md) (community post): "to improve system performance and resolve resource issues"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
 - [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../../posts/yzhums-com/77070.md) (community post): "Enables more accurate performance testing using the Performance Toolkit"
-- [Microsoft presents: Index management](../../videos/1x3QyBX3swg.md) (video): "performance tuning; fragmentation; missing indexes; disabled indexes"
+- [Microsoft presents: Index management](../../videos/1x3QyBX3swg.md) (video): "index management; sql server indexes; storage optimization; index usage statistics"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
 - [Meet the OptimAL Performance Initiative](../../videos/LW2JNV01sJo.md) (video): "performance optimization; continuous improvement; proactive management; code modernization"
 - [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "User scalability in Business Central cloud"

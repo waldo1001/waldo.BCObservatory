@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:57:14.902Z"
+  at: "2026-11-26T00:52:49.089Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 59e4e7993c4212aa7e988fd7ee3d01db9c9824858cd4e9a30c5df7952a5fb037
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al
     title: src/System Application/App/SFTP Client/src/ISFTPClient.Interface.al (releases/29.x)
     date: null
-    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
+    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Interface "ISFTP Client" in System Application (System.SFTPClient). 16 public procedures. Introduced in BC28, still in BC30, changed in BC29.
 
-System Application · System.SFTPClient · BC28-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al) · facts from BC29
+System Application · System.SFTPClient · BC28-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al) · facts from BC29
 
 ## Properties
 

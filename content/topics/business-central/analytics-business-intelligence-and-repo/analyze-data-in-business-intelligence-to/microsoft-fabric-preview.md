@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,9 +73,17 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/7lxkboRGw28
+    - video/kOCiyVql0go
+  posts:
+    - post/demiliani-com/15981
+    - post/waldo-be/318707
+    - post/yzhums-com/77184
   guidelines: []
+  changes:
+    - change/bcapps/10348
+    - change/bcapps/12242
 learn_toc_path:
   - Analytics, business intelligence, and reporting
   - Analyze data in business intelligence tools
@@ -86,8 +94,8 @@ children: []
 coverage:
   learn: 5
   code: 8
-  video: 0
-  blog: 0
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 48508
@@ -173,6 +181,18 @@ Start with the overview page to confirm the feature fits your needs, then follow
   - In the observatory: [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10348 Adding a Power BI workspace to Company Information to be used when deploying reports](../../../../changes/bcapps/10348.md) (code change): "Power BI Workspace field added to the Reporting section of Company Information"
+- [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is no longer limited to evaluation companies"
+- [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
+- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "native data mirroring to Microsoft Fabric, allowing users to replicate"
+- [Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)](../../../../posts/yzhums-com/77184.md) (community post): "data mirroring to Microsoft Fabric, enabling organizations to synchronize selected companies"
+- [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../../../../videos/7lxkboRGw28.md) (video): "Business Central mirroring to Fabric; Fabric mirrored database setup; Multi-company reporting"
+- [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md) (video): "Microsoft Fabric integration; Mirror database in OneLake; Multi-company Power BI apps"
 
 ## Business Central pages and reports
 

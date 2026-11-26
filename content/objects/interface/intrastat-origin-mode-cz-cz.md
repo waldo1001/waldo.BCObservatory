@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T00:57:14.902Z"
+  at: "2026-11-26T00:52:49.089Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 267b365cdd796fd9f2e87976d0ef8aece625472399be48e25ad6d976bcd86a37
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al
     title: src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al (releases/29.x)
     date: null
-    commit: e646fc169eb3bb7b1947b2089ed943d91dec46b0
+    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
     t: null
     quote: null
 links:
@@ -87,7 +87,7 @@ relations:
 
 > Interface "Intrastat Origin Mode CZ" (CZ) in the CZ country layer (Microsoft.Inventory.Intrastat). 1 public procedures. Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Inventory.Intrastat · BC29-30 · [source at e646fc16](https://github.com/microsoft/BCApps/blob/e646fc169eb3bb7b1947b2089ed943d91dec46b0/src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al) · facts from BC29
+CZ country layer · Microsoft.Inventory.Intrastat · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 

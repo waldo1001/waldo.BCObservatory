@@ -10553,214 +10553,184 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview": {
-      "post/katson-com/4678@37fb41e1d36fd114": {
-        "verdict": "drop",
-        "reason": "About connecting external agents through an MCP proxy, which the sibling MCP section documents, not designing or coding BC agents.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "post/kauffmann-nl/8436@159cad033a1bf8c6": {
-        "verdict": "keep",
-        "reason": "Covers the Agent Design Experience and turning a designed agent into AL code with the Agent template, which is the core of this section.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8359@a6bca20eafd3b9df": {
-        "verdict": "drop",
-        "reason": "Conference recap whose agent topics are AI-assisted AL development tooling and Cowork orchestration, not designing or coding BC agents.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html@40fc0d3b72d92f90": {
-        "verdict": "drop",
-        "reason": "About the built-in BC MCP server, which the sibling MCP section documents.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "post/yzhums-com/70502@90efeb6abdf13c52": {
-        "verdict": "keep",
-        "reason": "Walks through the agent designer wizard, profiles, permissions, instructions and the task playground for custom agents.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "post/yzhums-com/71603@bd1401b024142e11": {
-        "verdict": "drop",
-        "reason": "A broad release-plan overview that mentions coding agents only in passing, as AL developer productivity tools.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "video/1IIlArcHpOY@44a0785f08cf471c": {
-        "verdict": "keep",
-        "reason": "Covers writing agent instructions, including page-specific syntax and versioning, which is a central part of designing agents.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "video/4HE3BBCcV84@887694324cf2c66e": {
-        "verdict": "drop",
-        "reason": "About API queries in the MCP server, which the sibling MCP section covers.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "video/EpDIrJE0HzA@9c3c2c0b5b7d7b14": {
-        "verdict": "drop",
-        "reason": "About Copilot Studio agents built on the BC MCP server, which the MCP section documents rather than AL agent design.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "video/IDYhxt-8ImI@9411e3eae061bc8b": {
-        "verdict": "drop",
-        "reason": "About consultants using Copilot in project delivery, not designing or coding BC agents.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "video/juUBVPfIp8A@f0534b54c2a95d2f": {
-        "verdict": "keep",
-        "reason": "The AI Development Toolkit video covers agent development and design, agent evaluation and the agent library.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "video/jWqjDTbqjeE@dfa05d51d925a8ea": {
-        "verdict": "keep",
-        "reason": "Directly introduces envisioning, designing and coding BC agents, including the Agent Designer and creating agent code with the AI Development Toolkit.",
-        "at": "2026-11-17T00:57:19.388Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
-        "verdict": "drop",
-        "reason": "A multi-step Copilot-style feature that calls an AI model belongs to the sibling Copilot developer tools section, not the agent framework.",
-        "at": "2026-11-17T00:57:20.677Z",
-        "v": 2
-      },
       "post/aardvarklabs-blog/3097@3427df6d2cab4147": {
         "verdict": "keep",
-        "reason": "A step-by-step guide to building an agent in AL with the IAgentFactory and IAgentMetadata interfaces, setup tables and AgentTaskBuilder.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Walks through coding a custom agent in AL with IAgentFactory, IAgentMetadata and AgentTaskBuilder.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3348@8dd698d018a4b006": {
         "verdict": "keep",
-        "reason": "Shows how to secure AL-coded agents with profiles, page customizations and permission sets.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Shows how to limit what an agent can access, using profiles and permission sets set up in its AL code.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3388@e3f629c1c1435ebe": {
         "verdict": "drop",
-        "reason": "A tradeshow schedule with no substantive content on designing agents.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Lists conference sessions on Azure AI extensions, telemetry and OData, none of them about building agents.",
+        "at": "2026-11-26T01:03:13.323Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1183@d89073ddddaa6fb0": {
+        "verdict": "drop",
+        "reason": "Covers external Agent Framework clients using the MCP server, which the sibling Model Context Protocol section documents.",
+        "at": "2026-11-26T01:03:13.323Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1219@9a6a47bd468ac69d": {
+        "verdict": "keep",
+        "reason": "Explains how custom agents work: task creation, the orchestrator and messages handled in code.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
       "post/bertverbeek-nl/1237@d5c6960170d66c40": {
         "verdict": "keep",
-        "reason": "Covers designing agent instructions and prompts, which is part of designing agents.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Covers writing agent instructions, a core part of designing an agent.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
       "post/bertverbeek-nl/1272@5592e82161ab5c60": {
         "verdict": "keep",
-        "reason": "Explains how to create and register agents programmatically in AL using the agent interfaces.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Shows how to create and register agents in AL using the agent interfaces, a setup page and KPIs.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1290@3d4036aecf99e101": {
+      "post/bertverbeek-nl/1290@867814ab677e6775": {
         "verdict": "keep",
-        "reason": "Compares agents built in Business Central with Copilot Studio agents to guide the choice of design approach.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Weighs agents built in Business Central against Copilot Studio, which helps readers choose an approach.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
       "post/demiliani-com/12644@f3c1ed483aecb970": {
         "verdict": "keep",
-        "reason": "Covers debugging agent sessions from VS Code, a tool that works directly with coded agents.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Covers debugging agent sessions from VS Code, a developer tool for coding agents.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
-      "post/demiliani-com/17653@09b903de1c3d5f0a": {
+      "post/demiliani-com/13611@e3c49892fed21054": {
         "verdict": "drop",
-        "reason": "About curating the MCP catalog, which the sibling Model Context Protocol section documents.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "About the System.AI and Azure OpenAI APIs, which the sibling Copilot developer-tools section covers, not agent design.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
-      "post/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026@844e172f6db4a6ab": {
-        "verdict": "drop",
-        "reason": "Conference reflections where 'AI agents' means AI-assisted development, not Business Central agents.",
-        "at": "2026-11-17T00:57:20.677Z",
+      "post/kauffmann-nl/8436@159cad033a1bf8c6": {
+        "verdict": "keep",
+        "reason": "Covers the Agent Design Experience and turning a designed agent into AL code.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
-      "post/jeremyvyska-com/1739@0a6ca3ff4daf59ff": {
+      "post/thinkaboutit-be/8170@9bc92d049fc1a4e7": {
         "verdict": "drop",
-        "reason": "Training on AI-assisted coding workflows, not on designing agents in Business Central.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "About custom agents in VS Code Copilot Chat, not Business Central agents.",
+        "at": "2026-11-26T01:03:13.323Z",
         "v": 2
       },
-      "post/jeremyvyska-com/1770@2ea70905f36ae767": {
+      "post/thinkaboutit-be/8359@a5ae375c81391f51": {
         "verdict": "drop",
-        "reason": "Classes on Copilot and Claude Code for writing AL, not on building Business Central agents.",
-        "at": "2026-11-17T00:57:20.677Z",
+        "reason": "Conference recap focused on AI-assisted AL coding, Cowork and Fabric, not on building Business Central agents.",
+        "at": "2026-11-26T01:03:13.323Z",
+        "v": 2
+      },
+      "post/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/@ebb557e6ecd4b5e0": {
+        "verdict": "drop",
+        "reason": "Its listed topics (prompt caching, session handoffs, context management) are about managing LLM sessions in general, with nothing on agents built in Business Central.",
+        "at": "2026-11-26T01:03:13.323Z",
+        "v": 2
+      },
+      "post/yzhums-com/70502@90efeb6abdf13c52": {
+        "verdict": "keep",
+        "reason": "Walks through the BC27.4 agent designer for creating custom agents.",
+        "at": "2026-11-26T01:03:13.323Z",
+        "v": 2
+      },
+      "post/yzhums-com/74431@5bbbce420cd34472": {
+        "verdict": "keep",
+        "reason": "Covers selecting AI models per agent, part of agent configuration and design.",
+        "at": "2026-11-26T01:03:15.265Z",
+        "v": 2
+      },
+      "video/1IIlArcHpOY@44a0785f08cf471c": {
+        "verdict": "keep",
+        "reason": "Explains writing agent instructions, a core part of designing agents.",
+        "at": "2026-11-26T01:03:15.265Z",
+        "v": 2
+      },
+      "video/EpDIrJE0HzA@94cd416c5f87a9c9": {
+        "verdict": "drop",
+        "reason": "About Copilot Studio agents via the MCP server, documented more exactly by the sibling MCP section.",
+        "at": "2026-11-26T01:03:15.265Z",
+        "v": 2
+      },
+      "video/IDYhxt-8ImI@9411e3eae061bc8b": {
+        "verdict": "drop",
+        "reason": "About AI-assisted consulting delivery; agents are only mentioned in passing.",
+        "at": "2026-11-26T01:03:15.265Z",
+        "v": 2
+      },
+      "video/juUBVPfIp8A@f0534b54c2a95d2f": {
+        "verdict": "keep",
+        "reason": "AI Development Toolkit covers agent development, design and evaluation.",
+        "at": "2026-11-26T01:03:15.265Z",
+        "v": 2
+      },
+      "video/jWqjDTbqjeE@dfa05d51d925a8ea": {
+        "verdict": "keep",
+        "reason": "Directly about envisioning, designing and coding Business Central agents.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
       "video/MNwTt06ZxwY@84b9b76fb70d705a": {
         "verdict": "keep",
-        "reason": "Covers building agents in AL: agent template, factory/metadata interfaces, and testing coded agents.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "Covers building agents in AL, the agent interfaces, deployment and testing.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
       "video/moPzf04Mwlc@4c8411058bdb3ae6": {
         "verdict": "keep",
-        "reason": "Shows how to design and configure an agent (instructions, permissions, creation wizard), which is part of designing agents.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "Demonstrates creating agents with the designer, including instructions and permissions.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
       "video/nbGw2g3KMXI@61321df23330d53b": {
         "verdict": "keep",
-        "reason": "Builds custom agents in AL using the agent factory, task builder codeunits and the AL agent project template.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "Walks through building custom agents, including AL agent development and SDK codeunits.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
       "video/nPF84Ufkn4k@dee0569db1149362": {
         "verdict": "keep",
-        "reason": "Explains the agent runtime and Agent SDK behaviour that coded agents run on, which matters when designing agents.",
-        "at": "2026-11-17T00:57:21.034Z",
-        "v": 2
-      },
-      "video/q3xnjJD32kk@6476ce202d58d970": {
-        "verdict": "drop",
-        "reason": "About the MCP server, which the sibling Model Context Protocol section documents.",
-        "at": "2026-11-17T00:57:21.034Z",
-        "v": 2
-      },
-      "video/qs1cg-GoDeQ@53f0a9316fdc92cf": {
-        "verdict": "drop",
-        "reason": "About the MCP server's data tools, which the sibling Model Context Protocol section documents.",
-        "at": "2026-11-17T00:57:21.034Z",
-        "v": 2
-      },
-      "video/Rvgt_VXFr1I@1285c256f05ecee3": {
-        "verdict": "drop",
-        "reason": "About running AL tests in VS Code, not about designing or coding agents.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "Explains the agent runtime and SDK that coded agents run on.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
       "video/V4zCPAsYi_Y@49f1df97bbf72b54": {
         "verdict": "keep",
-        "reason": "Covers setting up tests for agents with the AI Development Toolkit, which is part of developing agents.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "Covers testing AL agents with the AI Development Toolkit evaluation app.",
+        "at": "2026-11-26T01:03:15.265Z",
+        "v": 2
+      },
+      "video/vcKHOR4p1MQ@4f8eead27c60bcd8": {
+        "verdict": "drop",
+        "reason": "About AL-Go and BCContainerHelper CI/CD, not designing or coding agents.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
       "video/Vq9Nk6_uxmQ@675a1c7533323a91": {
         "verdict": "keep",
-        "reason": "Covers building custom agents: instructions, profiles, permissions and the Agent SDK.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "About building custom agents: instructions, profiles, permissions and the Agent SDK.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
-      "video/WjF_sESaIPo@357cfb9dc00807a3": {
-        "verdict": "drop",
-        "reason": "A customer story about an automation solution that doesn't explain how agents are designed or coded.",
-        "at": "2026-11-17T00:57:21.034Z",
+      "video/WFAZLsUTk20@b5038b1844a7c226": {
+        "verdict": "keep",
+        "reason": "Covers the agent instruction history feature used when designing agents.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       },
-      "video/xqwJTCPD9tA@2558a94f5d6bfe2c": {
+      "video/WjF_sESaIPo@bfd3482c0de868d5": {
         "verdict": "drop",
-        "reason": "About integration patterns built with AI coding assistants, not Business Central agents.",
-        "at": "2026-11-17T00:57:21.034Z",
+        "reason": "Customer showcase of an automation outcome, not about how agents are designed or coded.",
+        "at": "2026-11-26T01:03:15.265Z",
         "v": 2
       }
     },
@@ -11081,214 +11051,76 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
-      "post/aardvarklabs-blog/1609@edab5653e97cb81b": {
+      "post/aardvarklabs-blog/1609@3fcb11f9f743c240": {
         "verdict": "keep",
-        "reason": "Builds a Copilot capability in AL with Azure OpenAI: it registers the capability, stores secrets in isolated storage and writes the prompts.",
-        "at": "2026-11-20T00:56:30.632Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/1816@2fe830a92a92a24b": {
-        "verdict": "keep",
-        "reason": "Shows a Copilot codeunit built in AL that sends prompts to Azure OpenAI and sets the temperature, which is the section's developer tooling.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including capability registration and prompts.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@acd02c808815148e": {
         "verdict": "keep",
-        "reason": "Builds an AI-assisted sales-recommendation process in AL with Azure OpenAI calls and token management.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "Shows an AI-assisted feature in AL that calls Azure OpenAI to pull out keywords for item recommendations.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2467@56bcab3f1ae67f3d": {
+      "post/aardvarklabs-blog/2467@3ca0dd88204c02f4": {
         "verdict": "keep",
-        "reason": "Builds a Copilot-style address matcher that calls Azure OpenAI from Business Central with system prompts and JSON.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "Builds an AI feature in Business Central that uses Azure OpenAI chat completion with a system prompt.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@8922993c3a103e02": {
         "verdict": "keep",
-        "reason": "Compares the two ways AL code can authenticate to Azure OpenAI (your own deployment or the Microsoft-managed one), which is part of the Copilot developer tools.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization, which are part of the AI developer tools for Copilot.",
+        "at": "2026-11-26T01:03:20.499Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2759@9372b0a4a18dc232": {
+        "verdict": "keep",
+        "reason": "Builds a Copilot feature in AL with a PromptDialog page and Azure OpenAI chat completion.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@6e75b1d333dd4bae": {
         "verdict": "drop",
-        "reason": "Covers GitHub Copilot skills in VS Code for AL coding, not building Copilot features in Business Central.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "About GitHub Copilot skills for AI-assisted AL coding in VS Code, not about building Copilot features in Business Central.",
+        "at": "2026-11-26T01:03:20.499Z",
+        "v": 2
+      },
+      "post/demiliani-com/13611@e3c49892fed21054": {
+        "verdict": "keep",
+        "reason": "Discusses how the System.AI namespace wraps Chat Completions and how it could support the Responses API.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14522@bad4b76377204575": {
         "verdict": "drop",
-        "reason": "Covers VS Code agent hooks for GitHub Copilot, which this section does not document.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "About VS Code agent hooks for coding assistants, a feature this section doesn't document.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14663@1b6ca2e438286ef2": {
         "verdict": "drop",
-        "reason": "Covers memory settings for the VS Code Copilot agent, not building Copilot features in Business Central.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "About memory settings for the VS Code coding agent, which has nothing to do with building Copilot features in Business Central.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14730@291342724016cef4": {
         "verdict": "drop",
-        "reason": "Covers cutting GitHub Copilot credit use, which this section does not document.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "About cutting GitHub Copilot credit usage, not about Business Central Copilot development.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/gerardorenteria-blog/15298@fd9dd06bc5970be6": {
         "verdict": "drop",
-        "reason": "Describes a GitHub Copilot chat skill for trust labels, not Business Central Copilot development.",
-        "at": "2026-11-20T00:56:30.632Z",
+        "reason": "A GitHub Copilot chat skill for labeling claims, not a Business Central Copilot development topic.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       },
       "post/olofsimren-com/3585@15ba5b5a0e881166": {
         "verdict": "keep",
-        "reason": "An AppSource extension built with Microsoft's Copilot capability tools for AL and Azure OpenAI, with the API key in isolated storage.",
-        "at": "2026-11-20T00:56:30.632Z",
-        "v": 2
-      },
-      "post/olofsimren-com/3630@6b0fd3846f4092a2": {
-        "verdict": "keep",
-        "reason": "A custom extension that uses Copilot through Azure OpenAI from AL with JSON-formatted prompts to suggest planning parameters.",
-        "at": "2026-11-20T00:56:30.632Z",
-        "v": 2
-      },
-      "video/jdevJbGgB-k@3b95c296c2040e38": {
-        "verdict": "keep",
-        "reason": "Covers building AI features in Business Central with the AI developer toolkit, function calling and prompting, which this section documents.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/jfvUkNa4gyg@e5db3db2dfaaae41": {
-        "verdict": "drop",
-        "reason": "About using Claude Code to write AL code, not about building Copilot features with the developer tools.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/juUBVPfIp8A@f0534b54c2a95d2f": {
-        "verdict": "keep",
-        "reason": "Covers what's new in the AI Development Toolkit: content filtering, prompt injection protection and evaluations, all part of the developer tools for Copilot.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/NE7NIjpkX3c@2e5bec9bf8a81635": {
-        "verdict": "keep",
-        "reason": "Gives practical advice on building and deploying Copilot extensions, including Azure OpenAI models, validation and function calling.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/nMiLzdfidos@bc64d3b6b0e36a5a": {
-        "verdict": "drop",
-        "reason": "An overview of AL language changes; its Copilot parts are about AI-assisted coding in VS Code, not building Copilot features.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/Q-oazDEucLE@0be41d0d668352fe": {
-        "verdict": "drop",
-        "reason": "About using AI agents to refactor and test legacy AL code, which is AI-assisted coding rather than the Copilot developer tools.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/QCo-uIfPs9g@59b1a32b0a63b532": {
-        "verdict": "keep",
-        "reason": "Shows how to extend Copilot in Business Central: prompt dialogs, function calling, capability registration and managed AI resources.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/qFGTq40UinE@d9a497a64fa23b3b": {
-        "verdict": "drop",
-        "reason": "About GitHub Copilot as a coding assistant, not about building Copilot features in Business Central.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/RfHVHa_Qiqk@cc0c8bf13e8f1e08": {
-        "verdict": "keep",
-        "reason": "Mostly about Microsoft's model choices, but it covers the AI test toolkit and prompt engineering, which apply to building Copilot features.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/sv1utmneaXA@1ee66df1a8733a3e": {
-        "verdict": "keep",
-        "reason": "Shows how developers can extend Copilot chat with their app's documentation through app.json, which is a way to extend Copilot.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "video/sycmF3cJa_s@0055d7202fe4643d": {
-        "verdict": "drop",
-        "reason": "Demos a partner's Copilot scheduling feature, not the developer tools for building Copilot features.",
-        "at": "2026-11-20T00:56:34.094Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@6f73990c21cad57e": {
-        "verdict": "drop",
-        "reason": "About using GitHub Copilot to write AL code, not about extending Copilot in Business Central.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8132@38977d3cd41e7df5": {
-        "verdict": "drop",
-        "reason": "Covers AL code-quality rules for coding agents; this section does not document that.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8204@02b73bd72c222403": {
-        "verdict": "keep",
-        "reason": "Covers Microsoft-managed Azure OpenAI resources for building Copilot extensions, which this section documents.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8331@18306746658fa300": {
-        "verdict": "drop",
-        "reason": "A benchmark of AI coding agents on AL tasks, not about building Copilot features.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
-        "verdict": "drop",
-        "reason": "About VS Code's GitHub Copilot harness setup, not about extending Copilot in Business Central.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "post/vondervoort-be/84@76d6c845b8b82118": {
-        "verdict": "drop",
-        "reason": "Mainly about Business Central agents (the sibling agents section) and AI pair programming.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "post/yzhums-com/67990@bef190f7e71656b7": {
-        "verdict": "drop",
-        "reason": "Covers GitHub Copilot agent tools in the AL extension for development workflows, not building Copilot capabilities.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "video/9zQZHfXK-PQ@aa24364b9bd4a57b": {
-        "verdict": "drop",
-        "reason": "Uses GitHub Copilot to automate documentation; nothing in it is about extending Copilot in Business Central.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "video/c91E6IykUnk@f6e298ea60c4a4dc": {
-        "verdict": "drop",
-        "reason": "Covers AI-assisted coding, report layouts and agents, not the Copilot developer toolkit.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "video/e4S2LXKAARs@01444c363f837e78": {
-        "verdict": "drop",
-        "reason": "About AI-assisted test plan generation, which this section does not document.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "video/FUtePZVZLKs@0e26e74618fa30f5": {
-        "verdict": "drop",
-        "reason": "A short clip on AI-generated documentation with no link to Copilot extensibility.",
-        "at": "2026-11-20T00:56:34.856Z",
-        "v": 2
-      },
-      "video/gd2TycVywv4@c13d27e23ba440b2": {
-        "verdict": "drop",
-        "reason": "About the mindset for agentic development with GitHub Copilot, not about building Copilot features in Business Central.",
-        "at": "2026-11-20T00:56:34.856Z",
+        "reason": "An extension built with the AL Copilot capability tools and Azure OpenAI, with the API key in isolated storage.",
+        "at": "2026-11-26T01:03:20.499Z",
         "v": 2
       }
     },
@@ -11411,232 +11243,214 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol": {
-      "post/aardvarklabs-blog/2724@835aa5e152aa4b41": {
+      "post/aardvarklabs-blog/2724@6f31f2aba49d5296": {
         "verdict": "keep",
-        "reason": "Shows how to set up a Business Central MCP server configuration with per-API permissions and connect it in Copilot Studio.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Explains MCP server configuration, permissions and Copilot Studio connection for Business Central.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1183@38b217cdcf959340": {
+      "post/aardvarklabs-blog/3775@492c52a4c4b14ebc": {
         "verdict": "keep",
-        "reason": "Shows how to connect pro-code agents to the Business Central MCP server endpoint, including authentication.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Step-by-step guide connecting a client to the Business Central MCP server, including Entra registration.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/demiliani-com/13470@315c43b5d77dc93a": {
+      "post/demiliani-com/13470@f4e88eb199706c50": {
         "verdict": "keep",
-        "reason": "Builds MCP servers that expose Business Central to AI agents through Logic Apps, a related way of integrating Business Central with MCP.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Shows building MCP servers for Business Central with Logic Apps, a related way to integrate via MCP.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/demiliani-com/13611@6c96e55c3dcf715b": {
-        "verdict": "drop",
-        "reason": "About Azure OpenAI's Responses API and System.AI, not MCP integration.",
-        "at": "2026-11-19T00:56:27.344Z",
+      "post/demiliani-com/17653@541782dcc363072d": {
+        "verdict": "keep",
+        "reason": "Covers MCP configurations, per-object permissions and default server behavior in Business Central.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/demiliani-com/17653@3bd55f252eafe20e": {
+      "post/gerardorenteria-blog/12682@a8ed3154f01d1017": {
         "verdict": "keep",
-        "reason": "Covers MCP server configurations, permissions, dynamic tool mode and the default configuration, all of which the section documents.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "AboutText property describes APIs as tools exposed through the MCP server.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/gerardorenteria-blog/12682@f9e052c6e87216fe": {
+      "post/katson-com/4678@a3f83ee5aa9a245f": {
         "verdict": "keep",
-        "reason": "The AboutText property sets the tool descriptions that the MCP server shows to AI clients.",
-        "at": "2026-11-19T00:56:27.344Z",
-        "v": 2
-      },
-      "post/katson-com/4678@37fb41e1d36fd114": {
-        "verdict": "keep",
-        "reason": "Connects external agents to the Business Central MCP server through a proxy, including the MCP Server Configuration prerequisites.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Covers connecting external agents to the Business Central MCP server via a proxy, with prerequisites and configuration.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
       "post/katson-com/5026@bdacfbac3a71c5ff": {
         "verdict": "keep",
-        "reason": "Explains how to enable the native Business Central MCP server and connect Claude Desktop to it.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Setup of Business Central's native MCP server with Claude Desktop.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
+      "post/thinkaboutit-be/8342@3ff8d6091deec1f5": {
         "verdict": "drop",
-        "reason": "Its subject is the new Copilot Chat; the MCP server is only mentioned as the mechanism behind it.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Subject is the new Copilot Chat experience; MCP server is only mentioned as a background component.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8400@19dd29f8b5e2cd5f": {
+      "post/thinkaboutit-be/8400@1ab9c41d9b5c1104": {
         "verdict": "keep",
-        "reason": "Covers new MCP server system tools and the new Server Features and System Tools sections of the MCP configuration page.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Describes new MCP server data query tools and configuration sections.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
       "post/waldo-be/318371@f8eeca6f0820e518": {
         "verdict": "drop",
-        "reason": "A separate MCP tool for analysing telemetry, not integration with Business Central's MCP server.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "A telemetry analysis tool that uses its own MCP, not Business Central's MCP server integration.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html@40fc0d3b72d92f90": {
+      "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html@89136b019b4a0bb0": {
         "verdict": "keep",
-        "reason": "Talk about Business Central's built-in MCP server and how agents use it.",
-        "at": "2026-11-19T00:56:27.344Z",
+        "reason": "Talk on Business Central's built-in MCP server for agents.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/yzhums-com/68873@d0cac12b6c6c4959": {
-        "verdict": "keep",
-        "reason": "Walks through the MCP server configuration page, its permissions and options, and the Copilot Studio connection.",
-        "at": "2026-11-19T00:56:27.344Z",
+      "post/yzhums-com/65908@464ac535a8d14ee6": {
+        "verdict": "drop",
+        "reason": "General release plan overview that only lists the MCP server among many items.",
+        "at": "2026-11-26T01:03:11.467Z",
         "v": 2
       },
-      "post/yzhums-com/76419@b026fea1d37aa5ab": {
+      "post/yzhums-com/68873@7f0c9e06a68d0709": {
         "verdict": "keep",
-        "reason": "Covers new Data Query Tools for the Business Central MCP Server and its configuration page.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers the Business Central MCP server preview, its configuration page and connecting Copilot Studio agents.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
-      "video/0WAOtNaKjws@30ae39eddcc63477": {
+      "post/yzhums-com/76419@32a9281915939cca": {
         "verdict": "keep",
-        "reason": "Covers MCP Server enhancements such as configuration validation, import/export, and connection setup.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers Data Query Tools, a new feature on the MCP Server Configuration page.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
-      "video/4HE3BBCcV84@887694324cf2c66e": {
+      "video/0WAOtNaKjws@6336e3bb9c3176d3": {
         "verdict": "keep",
-        "reason": "Shows how to expose API queries through the MCP server configuration.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers MCP server improvements: configuration validation, import/export, connection strings and telemetry.",
+        "at": "2026-11-26T01:03:11.770Z",
+        "v": 2
+      },
+      "video/4HE3BBCcV84@584615ab819be746": {
+        "verdict": "keep",
+        "reason": "Covers exposing API queries through the MCP server configuration.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
       "video/AMVAiPTfSrU@714cbb737c9bdc05": {
         "verdict": "keep",
-        "reason": "Partners build agents with Copilot Studio on top of the Business Central MCP server.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Shows partners building agents on the Business Central MCP server with Copilot Studio; kept on doubt because MCP is only part of the video.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
-      "video/C5cmG3sNjUg@b9ff5d4f6a7c8a79": {
+      "video/C5cmG3sNjUg@c70c22608fd80a1f": {
         "verdict": "keep",
-        "reason": "Goes deep on MCP server configurations, dynamic tools, and API page tools.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers advanced MCP server topics: named configurations, dynamic tools and the MCP proxy.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
       "video/D_Lur52IrIg@a25df74a3246ae7e": {
         "verdict": "drop",
-        "reason": "Its MCP content is about the AL developer tooling (AL MCP), which the sibling developer-tools section documents.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "About AL developer tooling (AL MCP, language server), which the sibling section on Copilot developer tools covers.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
-      "video/EpDIrJE0HzA@9c3c2c0b5b7d7b14": {
+      "video/GeT5E_f9A9Q@c30fa50a7eca1fc3": {
         "verdict": "keep",
-        "reason": "Builds a Copilot Studio agent using the Business Central MCP server and its MCP Configurations page.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers MCP server configurations, dynamic tool mode, bound actions and the authentication model.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
-      "video/GeT5E_f9A9Q@552414c7a4306ac7": {
-        "verdict": "keep",
-        "reason": "Introduces MCP Server Configurations, dynamic tool mode, and authentication.",
-        "at": "2026-11-19T00:56:27.426Z",
-        "v": 2
-      },
-      "video/H5EuObmeF4o@65e5d25e65e102e1": {
-        "verdict": "keep",
-        "reason": "This release overview includes the MCP server for Business Central as one of its features.",
-        "at": "2026-11-19T00:56:27.426Z",
+      "video/I7i25zBfyEQ@11b5dfdbb39e0b85": {
+        "verdict": "drop",
+        "reason": "About the Sales Order Agent, with no MCP integration content.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
       "video/iViHfCgL2L8@86bf1ad9e4406c42": {
         "verdict": "keep",
-        "reason": "Introduces the MCP Server for Business Central with its default and write configurations.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "An introduction to the Business Central MCP server and its default configuration.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
       "video/K8nFVw5M-Po@643e82f9b7c66777": {
         "verdict": "drop",
-        "reason": "About AI-assisted AL coding, where MCP is used as developer tooling; that subject belongs to the sibling developer-tools section.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "About AI-assisted AL coding (vibe coding); its MCP mentions are developer-tool servers, which the sibling developer tools section covers.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
       "video/LerAo-GGl8U@a026b373ecce8d1f": {
         "verdict": "keep",
-        "reason": "Covers connecting agents to Business Central through an MCP server, including MCP fundamentals and authentication.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers the Business Central admin MCP server and MCP fundamentals; kept on doubt because it is an admin server rather than the main one.",
+        "at": "2026-11-26T01:03:11.770Z",
         "v": 2
       },
       "video/nMiLzdfidos@bc64d3b6b0e36a5a": {
         "verdict": "drop",
-        "reason": "About AL language and developer tooling; its AL MCP server content belongs to the sibling developer-tools section.",
-        "at": "2026-11-19T00:56:27.426Z",
+        "reason": "Covers AL language release features; the AL MCP server mentioned is a developer tool, not the Business Central MCP server this section documents.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
       "video/nPF84Ufkn4k@dee0569db1149362": {
         "verdict": "drop",
-        "reason": "About the agent runtime internals; MCP tools for agents is a minor point better suited to the agents sibling section.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "About the agent runtime internals; MCP tool use by agents belongs under the agents design section.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
-      "video/q3xnjJD32kk@6476ce202d58d970": {
+      "video/q3xnjJD32kk@2f2ddbc624357407": {
         "verdict": "keep",
-        "reason": "Covers the Business Central MCP server's query tools, configuration and security settings.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "Shows the new Business Central MCP server tools, how to configure them and the security toggle.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
-      "video/qs1cg-GoDeQ@53f0a9316fdc92cf": {
+      "video/qs1cg-GoDeQ@301023cdef06d7df": {
         "verdict": "keep",
-        "reason": "Covers the Business Central MCP server's data tools and configuration.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "Shows Business Central MCP server data tools, configuration and permissions.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
-      "video/rm-FstU_I80@257925a273b21192": {
+      "video/rm-FstU_I80@7fe1c5b8bec1eedb": {
         "verdict": "keep",
-        "reason": "Explains the Business Central MCP server: setup, configuration and connecting it from Copilot Studio and VS Code.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "Explains how to configure the Business Central MCP server and connect to it from Copilot Studio.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
       "video/Rvgt_VXFr1I@1ae2843a5945ec61": {
         "verdict": "drop",
-        "reason": "About running AL tests in VS Code; AL MCP is a passing mention about developer tooling.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "About running AL tests in VS Code; the AL MCP mention is incidental and isn't about this section's MCP server.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
       "video/U1dAdtUjidc@2d1eb4c89d7629d4": {
         "verdict": "drop",
-        "reason": "The Admin Center MCP server is a separate server for the admin center API, not the Business Central integration MCP server this section documents.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "Admin Center MCP server is a separate administration server, not the Business Central MCP integration documented here.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
       "video/UFLo2XGGS14@672e6d5f3019befa": {
         "verdict": "drop",
-        "reason": "About AL developer tools exposed through MCP for debugging and profiling, which the developer-tools sibling covers better.",
-        "at": "2026-11-19T00:56:27.503Z",
-        "v": 2
-      },
-      "video/UIL8ej7mSKQ@24814d31abc584d1": {
-        "verdict": "keep",
-        "reason": "Release overview that includes a segment introducing the Business Central MCP server.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "About AL developer tooling for debugging and profiling through MCP, not the Business Central MCP server.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
       "video/uMKLsKfKPc0@0bf15ee4e4d6825f": {
         "verdict": "keep",
-        "reason": "Shows connecting Copilot Studio agents to the Business Central MCP server and controlling access to it.",
-        "at": "2026-11-19T00:56:27.503Z",
-        "v": 2
-      },
-      "video/V7NgFOIcGgM@33fa3f6007423f1b": {
-        "verdict": "drop",
-        "reason": "About Copilot Chat in Business Central; MCP only appears as the technology underneath it.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "Shows how to connect Copilot Studio agents to the Business Central MCP server and control access to it.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
       "video/yIYUCSK0Bh4@86b6c5254c903ff8": {
         "verdict": "drop",
-        "reason": "About benchmarking AL coding agents; AL-MCP is incidental.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "About benchmarking coding agents; AL-MCP is a side mention.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       },
-      "video/zei-IszvYNU@244b0b60ce997ba7": {
+      "video/zei-IszvYNU@19317a001c979c22": {
         "verdict": "keep",
-        "reason": "Covers exposing Microsoft APIs as tools in the MCP server configuration.",
-        "at": "2026-11-19T00:56:27.503Z",
+        "reason": "Covers configuring API groups as tools in the Business Central MCP server.",
+        "at": "2026-11-26T01:03:12.534Z",
         "v": 2
       }
     },
@@ -11996,52 +11810,64 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-fabric": {
-      "post/bertverbeek-nl/1209@e6a14b19887045d4": {
+      "post/bertverbeek-nl/1143@8bab7528928666fe": {
         "verdict": "keep",
-        "reason": "bc2adls is a third-party extension that exports Business Central data to Azure Data Lake or a Fabric lakehouse, so it works with this section's subject; borderline but kept when in doubt.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "bc2adls is a tool that feeds Business Central data into Fabric through Open Mirroring, so it extends the Fabric integration.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1318@66757640fefca2c5": {
+      "post/bertverbeek-nl/1196@15937f748f7af7c5": {
         "verdict": "keep",
-        "reason": "Covers native Fabric integration: Open Mirroring sync, workspace, company and table setup, and requirements.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "Fabric Data Agents answer questions on Business Central data that has been mirrored into Fabric, so the post builds directly on the Fabric integration.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1342@c17dc7ac9511127e": {
+      "post/bertverbeek-nl/1209@d907850136383ee9": {
         "verdict": "keep",
-        "reason": "Shows how to track changes in data mirrored to Fabric, which extends the documented mirroring feature.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "The bc2adls export tool works with Fabric and lakehouse integration, and this post covers moving it from a per-tenant extension (PTE) to the AppSource version.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1353@4af7d1826e1ebba7": {
+      "post/bertverbeek-nl/1318@5dac9d35e095e5bd": {
         "verdict": "keep",
-        "reason": "Explains the credential and app-registration setup for Fabric Mirroring in Business Central.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "It describes Business Central's native Fabric integration: how it works, how to set it up and its limits.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "post/demiliani-com/15981@55ae2a85bbd0cb51": {
+      "post/bertverbeek-nl/1342@c4fd726ab6ea919e": {
         "verdict": "keep",
-        "reason": "Covers the Fabric mirroring announcement, its setup steps and its capacity requirements.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "It shows how to track changes in Business Central data mirrored to Fabric by turning on the delta change data feed.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8229@bdff85f5a4a7b5fa": {
+      "post/bertverbeek-nl/1353@84d34b54fa8c0d1c": {
         "verdict": "keep",
-        "reason": "Describes the Fabric mirroring setup, configuration packages and monitoring.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "It covers the credentials and app registration needed to set up Fabric Mirroring in Business Central.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "post/waldo-be/318707@27aec2562468b346": {
+      "post/thinkaboutit-be/8229@33c683d61e619439": {
         "verdict": "keep",
-        "reason": "Covers the native Fabric mirroring app, monitoring pages and costs.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "It explains the new Business Central data mirroring to Fabric, including setup, configuration packages and monitoring.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       },
-      "video/kOCiyVql0go@3896a9065d8984c8": {
+      "post/thinkaboutit-be/8359@a5ae375c81391f51": {
         "verdict": "keep",
-        "reason": "Official video demonstrating the Fabric integration app, mirroring, monitoring, APIs and permissions.",
-        "at": "2026-11-12T00:54:44.051Z",
+        "reason": "The conference recap is broad, but one part discusses native Business Central - Fabric mirroring and what it needs for data modeling and security.",
+        "at": "2026-11-26T01:03:09.983Z",
+        "v": 2
+      },
+      "post/waldo-be/318707@6c18fe42b5483235": {
+        "verdict": "keep",
+        "reason": "It explains native Fabric mirroring from Business Central, including the monitoring pages and licensing and capacity costs.",
+        "at": "2026-11-26T01:03:09.983Z",
+        "v": 2
+      },
+      "post/yzhums-com/77184@1846b2fd2a883b2e": {
+        "verdict": "keep",
+        "reason": "It gives step-by-step setup and troubleshooting for Business Central data mirroring to Fabric.",
+        "at": "2026-11-26T01:03:09.983Z",
         "v": 2
       }
     },

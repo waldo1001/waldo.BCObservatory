@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:47.235Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../../../posts/yzhums-com/72069.md) (community post): "AI-generated marketing text suggestions are available through Copilot"
 - [Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)](../../../videos/ayXdXFyFEjY.md) (video): "product descriptions; copilot; ai-generated content; image analysis"
-- [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "marketing text suggestions; copilot; ai-powered features; product descriptions"
+- [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "Marketing Text Suggestions; Fact Box UI for Marketing Text; Prompt Customization"
 
 ## Business Central pages and reports
 

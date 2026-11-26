@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview
   localizations: []
   videos:
+    - video/6zj34hjbpGU
     - video/B9VbZzC2p7E
   posts: []
   guidelines: []
@@ -107,7 +108,7 @@ children:
 coverage:
   learn: 8
   code: 8
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -162,6 +163,7 @@ The Performance Articles for AL Developers page covers tuning pages, web service
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [How Business Central Integrates with Microsoft Excel (2025)](../../../videos/6zj34hjbpGU.md) (video): "Pivot table creation; Pivot chart visualization; Data connection refresh"
 - [Use an Agent to SQL Query data inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../videos/B9VbZzC2p7E.md) (video): "AI Agent SQL Query Generation; Advanced Spreadsheets with Agent Integration"
 
 ## Business Central pages and reports

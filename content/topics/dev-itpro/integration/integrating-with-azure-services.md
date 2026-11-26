@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
     - post/jpearson-blog/1601
   guidelines: []
   changes:
+    - change/bcapps/12507
     - change/bcapps/8318
     - change/bcapps/9430
 learn_toc_path:
@@ -154,6 +155,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12507 [DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds](../../../changes/bcapps/12507.md) (code change): "Remove unsafe fixed response-size caps on scaling/customer-configured feeds"
 - [#8318 SharePoint Graph Module - extend functionality with additional methods](../../../changes/bcapps/8318.md) (code change): "SharePoint Graph module gains update and rename operations for drive items"
 - [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations"

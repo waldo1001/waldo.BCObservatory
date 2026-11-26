@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started/develop/marketplace-validation/marketplace-technical-validation-faq
 type: topic
 title: Marketplace technical validation FAQ
-summary: Marketplace technical validation FAQ collects answers for partners submitting Business Central apps to the Marketplace. It covers the validation process, app identity, previews, offers, code-signing, affixes and ID ranges, Application Insights, and support channels.
+summary: Marketplace technical validation FAQ pages for Business Central apps. They answer questions on submission validation, app identity, code-signing, affixes and ID ranges, Application Insights, previews, offer types, dependencies and licensing, and support channels.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:21.167Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5e1a299697ab71a591e6a61625a3842fb8ed0a07b8845cc1888236d1959752ba
+  input_hash: f3b0c91fd60f36a5b50d1f2f85d2a89217165152df13304898ce49c366dd7e6d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-develop-maintain
@@ -76,7 +76,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-validation-process
     title: Marketplace Technical validation process FAQ
-    date: "2025-10-08"
+    date: "2026-11-23"
     commit: null
     t: null
     quote: null
@@ -128,26 +128,28 @@ narrative: generated
 
 # Marketplace technical validation FAQ
 
-> Marketplace technical validation FAQ collects answers for partners submitting Business Central apps to the Marketplace. It covers the validation process, app identity, previews, offers, code-signing, affixes and ID ranges, Application Insights, and support channels.
+> Marketplace technical validation FAQ pages for Business Central apps. They answer questions on submission validation, app identity, code-signing, affixes and ID ranges, Application Insights, previews, offer types, dependencies and licensing, and support channels.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a set of FAQ pages for partners who build, submit and maintain Business Central apps on the Marketplace. Each page focuses on one topic, so you can go straight to the one that matches the problem you have.
+This section collects FAQs for partners who submit apps to the Business Central Marketplace. Each page covers one topic that often causes trouble during submission or maintenance: the validation process, app identity, code-signing, naming, telemetry, previews, offers, and development issues.
 
-Start with the Technical validation FAQ, which gives an entry point to the main topics. The Technical validation process FAQ then explains what is checked (by release and country/region, breaking changes, baseline comparison, code signing, malware scanning) and how to fix common failures. Other pages cover specific areas: app identity, names, affixes and ID ranges, code-signing, Azure Application Insights, offer types, previews, and developing and maintaining apps. The channels page tells you who to contact when a question is not answered.
+The Technical validation FAQ page is the entry point. It gives a broad list of common questions and points to the specific topics. For failed validations, go to the technical validation process FAQ. It covers releases, countries/regions, baselines, and breaking changes.
+
+For preparation work, use the pages on names, affixes and ID ranges, code-signing, and Application Insights. Use the offer, previews, and identity pages when you plan a listing or a change to an existing app. The support channels page tells you whom to contact when a question is not answered.
 
 ## Key points
 
-- The Technical validation process FAQ covers automated validation, country/region scope, breaking change detection, baseline comparison, and remediation of common failures.
-- The App Identity FAQ explains when an extension can change its name, publisher or App ID, with version requirements (2021 release wave 2, version 19.0) and migration implications.
-- The App Previews FAQ covers preview audience control, a hide key, the preview installation URL, preview listing, and how previews interact with environment upgrades and public releases (2023 release wave 2).
-- The Application Insights and Submission FAQ helps with enabling telemetry, validating connection strings, data sampling and reading validation signals.
-- The Offer FAQ describes connect and add-on app types, offer type conversion, keeping offer URLs, Contact Me listings, and Partner Center API use for automated submissions.
-- The Code-signing FAQ covers certificate requirements, signing procedures, the .pfx format and reusing code-signing.
-- The Names, Affixes and ID Ranges FAQ explains registering and reusing affixes and ID ranges across apps, plus prefix/suffix naming and object name limits.
-- The Channels FAQ says when to use d365val@microsoft.com, Partner Center support, Business Central support or Viva Engage.
+- The technical validation process FAQ covers validation against releases, countries/regions, and baselines, plus breaking change detection and common failures.
+- The app identity FAQ explains when an extension can change its name, publisher, or App ID. It lists version requirements (2021 release wave 2, version 19.0) and migration implications.
+- The code-signing FAQ covers certificate requirements, the .pfx certificate format, signing procedures, and reusing code-signing.
+- The names, affixes, and ID ranges FAQ explains how to register affixes and ID ranges and reuse them across multiple apps.
+- The Application Insights FAQ helps with enabling telemetry for submissions, validating connection strings, and reading validation signals.
+- The previews FAQ covers limiting a preview to selected customers with a hide key, the preview installation URL, and how previews interact with upgrades and public releases (2023 release wave 2).
+- The offer FAQ covers connect and add-on app types, converting offer types, keeping offer URLs, and using the Partner Center API for automated submissions.
+- The development FAQ covers dependency range conflicts and license validation in Docker or SaaS environments.
 
 ## Learn pages
 

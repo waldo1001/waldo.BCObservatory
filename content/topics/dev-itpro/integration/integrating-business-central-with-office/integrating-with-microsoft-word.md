@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,10 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-business-central-with-office
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/mS6NDhj20yI
+  posts:
+    - post/thinkaboutit-be/7813
   guidelines: []
 learn_toc_path:
   - Integration
@@ -54,8 +56,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 45ea8e5914f82b3e0f0eb2aa15e40f00f0aaae204120c7e6916381e5025bf59a
@@ -90,5 +92,12 @@ Start with the Word templates page if you need mail merge for communication. Sta
 - [Map Data Fields in Word Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout): Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
 - [Use Word Templates for Business Central Communication](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Learn how to create Word templates in Business Central, select merge fields, and generate personalized documents or email content for business contacts.
   - In the observatory: [Page 14929 "Field Selection (RU)"](../../../../objects/page/14929-ru.md), [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "improved Word add-in with a redesigned data picker; company-level default document language"
+- [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "word add-in; data picker; document layout; multi-language documents"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

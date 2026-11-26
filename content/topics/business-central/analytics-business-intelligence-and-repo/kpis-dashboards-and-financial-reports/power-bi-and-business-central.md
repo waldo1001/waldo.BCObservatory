@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,13 +60,16 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
   localizations: []
   videos:
-    - video/7lxkboRGw28
     - video/DVgclv3alZU
+    - video/F_pssS0FtUc
     - video/fy96_jdL1PQ
     - video/hSJW3LiOBxg
+    - video/kOCiyVql0go
   posts:
     - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7753
+    - post/thinkaboutit-be/7943
+    - post/thinkaboutit-be/7995
   guidelines: []
   changes:
     - change/bcapps/14229
@@ -80,8 +83,8 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 4
-  blog: 2
+  video: 5
+  blog: 4
   guideline: 0
 bc_forms:
   - 6316
@@ -129,10 +132,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14229.md) (code change): "Power BI auto-deployment clearing now affects only the selected record instead of all records"
 - [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
-- [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../../../../videos/7lxkboRGw28.md) (video): "Five-click deployment for Business Central Power BI apps; Power BI workspace setup and access control"
+- [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Power BI template apps; download PBIX files from Power BI workspaces"
+- [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Power BI and Business Central each have their own security model"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards; PowerBI Scorecards"
+- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../../videos/F_pssS0FtUc.md) (video): "Power BI Metrics; Usage Report; Excel layouts for reports"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"
 - [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "power bi integration; analytical reports"
+- [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md) (video): "Power BI apps; multi-company reporting; synchronization; monitoring"
 
 ## Business Central pages and reports
 

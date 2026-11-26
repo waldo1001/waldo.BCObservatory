@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:46:47.102Z"
   flags: []
 generated:
-  at: "2026-11-25T01:02:13.993Z"
+  at: "2026-11-26T01:01:19.782Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,6 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573254
     - feature/573259
     - feature/573605
   topics: []
@@ -181,12 +180,10 @@ features:
     verified: false
     status_source: video
   - name: Mileage expense configuration
-    status: preview
+    status: unclear
     t: 268
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573254"
+    status_source: video
   - name: Project tracking for expenses
     status: preview
     t: 284
@@ -278,7 +275,7 @@ Setup covers access and submission by web app or email, expense users and a defa
 | Rules and controls enforcement | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=P1V4jy08YM8&t=201s) |
 | Email notification configuration | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=232s) |
 | Approval notifications | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=P1V4jy08YM8&t=257s) |
-| Mileage expense configuration | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [4:28](https://www.youtube.com/watch?v=P1V4jy08YM8&t=268s) |
+| Mileage expense configuration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=P1V4jy08YM8&t=268s) |
 | Project tracking for expenses | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [4:44](https://www.youtube.com/watch?v=P1V4jy08YM8&t=284s) |
 | Per diem expense configuration | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=P1V4jy08YM8&t=304s) |
 | Welcome email to expense users | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s) |

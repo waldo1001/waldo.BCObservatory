@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -333,7 +333,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10058
-    - change/bcapps/12517
     - change/bcapps/8085
     - change/bcapps/8115
     - change/bcapps/8634
@@ -415,7 +414,6 @@ Start with the Extensibility overview, then the extension objects overview. Move
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10058 [Master]-Withholding Tax Posting generates Unbalanced G/L Entries when Multiple Withholding Tax Rates are used on one Purchase Invoice.](../../../changes/bcapps/10058.md) (code change): "Fixes unbalanced G/L entries when one purchase invoice uses several withholding tax rates"
-- [#12517 Suppress AS0099 for existing extension field IDs](../../../changes/bcapps/12517.md) (code change): "Suppress AS0099 for existing extension field IDs"
 - [#8085 [MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)](../../../changes/bcapps/8085.md) (code change): "Server Features surface to MCP configuration allowing admins to enable Data Query Tools"
 - [#8115 Subscription Billing: respect Default Dimension Priorities on Subscription Lines](../../../changes/bcapps/8115.md) (code change): "Subscription Billing now respects Default Dimension Priorities when creating subscription lines"
 - [#8634 [MCP] Register MCP server as a Copilot capability](../../../changes/bcapps/8634.md) (code change): "MCP server is now registered as a Copilot capability"

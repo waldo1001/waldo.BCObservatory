@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/14492",
+  "input_hash": "a1a138ad09504f422855c3e6ada282985d93aba211ee1226b08ddda730c0a70f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-26T01:03:41.144Z",
+  "issues": [
+    "Everything on the page is supported: GA registration, ModifyCapability on the existing registration, the upgrade path through OnUpgradePerDatabase, the one-time reactivation, and the same pattern as SOA and PA.",
+    "Feature is an acceptable change kind. Not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023605,
+    "changes_in_call": 3
+  }
+}

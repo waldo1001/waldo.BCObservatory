@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13676",
+  "input_hash": "d9f3700811b41fd3678b341c2559cee0727cbd5fa97a45f9d6ffaa87955d245a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-26T01:03:54.974Z",
+  "issues": [
+    "Description only links a work item; details are inferred from the title and file list.",
+    "Claim of uniform fixes across all localized versions is wrong: some layers change only vendor or only customer tables, BE only has tests.",
+    "Key point 5 is vague filler."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025605,
+    "changes_in_call": 6
+  }
+}

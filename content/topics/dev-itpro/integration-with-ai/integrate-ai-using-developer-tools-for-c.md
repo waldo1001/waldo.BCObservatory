@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c
 type: topic
 title: Integrate AI using developer tools for Copilot
-summary: "Developer tools for Copilot in Business Central: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Business Central AI resources, Help preparation, and the transparency note. It answers planning, setup and design questions for partners building generative AI features in AL."
+summary: "Developer tools for Copilot in Business Central: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Microsoft-managed resources, preparing app Help, and the transparency note. It answers questions for AL developers and partners building AI features."
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:47.695Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 91c26a4ae44866a51d5b77d00c37dc59649c1c2cfb47065a017ab6a6aa59d1c5
+  input_hash: 0c15fee34d4717abf1b834151f3661429855a849df480133842a3e8361fef70d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-bestpractices
@@ -36,6 +36,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al
     title: Build the Copilot capability in AL
     date: "2026-10-02"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources
+    title: Business Central AI Resources for Copilot Development
+    date: "2026-11-25"
     commit: null
     t: null
     quote: null
@@ -152,13 +159,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources
-    title: Use developer tools for Copilot in Business Central AI resources
-    date: "2026-10-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview
     title: What are the developer tools for Copilot?
     date: "2026-10-02"
@@ -188,13 +188,13 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-function-calling
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-get-started
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-prepare-app-help-copilot
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-token-counting
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview
   objects: []
@@ -204,24 +204,38 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central
   localizations: []
   videos:
+    - video/9zQZHfXK-PQ
+    - video/c91E6IykUnk
+    - video/e4S2LXKAARs
+    - video/FUtePZVZLKs
+    - video/gd2TycVywv4
     - video/jdevJbGgB-k
+    - video/jfvUkNa4gyg
     - video/juUBVPfIp8A
     - video/NE7NIjpkX3c
+    - video/nMiLzdfidos
+    - video/Q-oazDEucLE
     - video/QCo-uIfPs9g
+    - video/qFGTq40UinE
     - video/RfHVHa_Qiqk
     - video/sv1utmneaXA
+    - video/sycmF3cJa_s
+    - video/T63y0F_38SI
   posts:
     - post/aardvarklabs-blog/1609
-    - post/aardvarklabs-blog/1816
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2663
+    - post/aardvarklabs-blog/2759
+    - post/demiliani-com/13611
     - post/olofsimren-com/3585
     - post/olofsimren-com/3630
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9
     - post/thinkaboutit-be/7299
     - post/thinkaboutit-be/7352
-    - post/thinkaboutit-be/8204
+    - post/thinkaboutit-be/8132
     - post/thinkaboutit-be/8331
+    - post/vondervoort-be/84
   guidelines: []
   changes:
     - change/al-go/2402
@@ -241,8 +255,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 6
-  blog: 11
+  video: 17
+  blog: 14
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -251,28 +265,28 @@ narrative: generated
 
 # Integrate AI using developer tools for Copilot
 
-> Developer tools for Copilot in Business Central: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Business Central AI resources, Help preparation, and the transparency note. It answers planning, setup and design questions for partners building generative AI features in AL.
+> Developer tools for Copilot in Business Central: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Microsoft-managed resources, preparing app Help, and the transparency note. It answers questions for AL developers and partners building AI features.
 
-Path: [Integration with AI](../integration-with-ai.md) > Integrate AI using developer tools for Copilot · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Integration with AI](../integration-with-ai.md) > Integrate AI using developer tools for Copilot · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for partners and AL developers who want to add generative AI to Business Central extensions. It starts with concepts: what the developer tools are (the System.AI namespace, the PromptDialog page type, partner key management, Power BI monitoring, responsible AI) and what is considered an extension to Copilot. An extension must be LLM-based, respond to natural language, and manage risk with human-in-the-loop patterns such as previews, confidence indication, and undo or discard.
+This section is for partners and AL developers who want to add generative AI to Business Central extensions. It starts with concepts: what the developer tools are (the System.AI namespace, the PromptDialog page type, partner key management, Power BI monitoring and responsible AI), and what qualifies as an extension to Copilot (LLM-based, natural language, with human-in-the-loop patterns such as previews and feedback).
 
-The setup pages cover two routes to Azure OpenAI. You can get your own Azure subscription, access, permissions, resource, and deployment. Or you can use Business Central AI resources, which are Microsoft-managed, use GPT-4.1 and GPT-4.1-mini, and bill customers by consumption. Bring-your-own subscription is optional for custom scenarios. The pages also cover how to influence Copilot and agents without extending them, how to prepare app Help for Copilot (preview), and the transparency note.
+The resource pages cover the backend. By default, partners use Microsoft-managed Azure OpenAI resources, with consumption-based customer billing. A bring-your-own Azure OpenAI subscription is an option for specific needs, and the setup page lists the prerequisites for it. Other pages cover making app Help usable by Copilot and influencing Copilot and agents without extending them. The transparency note covers intended use of the tools.
 
-Start with "What are the developer tools for Copilot?" and "What is considered an extension to Copilot?". Then follow the setup pages for your authorization model. The subtopic "Extend Copilot in Business Central" (15 pages) has the AL how-to detail: building a capability, designing the PromptDialog experience, and testing capabilities and agents.
+Start with "What are the developer tools for Copilot?" and "What is considered an extension to Copilot?". Then read the AI resources page to choose a resource approach. For hands-on work, move to the subtopic "Extend Copilot in Business Central", which has 15 pages on building capabilities, designing the PromptDialog experience, and testing capabilities and agents.
 
 ## Key points
 
-- A Copilot extension must be LLM-based, respond to natural language to help users finish tasks, and manage generative AI risk with human-in-the-loop patterns (preview, confidence level, undo and discard).
-- The developer tools include the System.AI namespace, the PromptDialog page type, partner key management, Power BI monitoring, and responsible AI guidance.
-- Azure OpenAI prerequisites: an Azure subscription, verified service access, role-based access control permissions, a resource, a model deployment, and API key management.
-- Business Central AI resources offer Microsoft-managed Azure OpenAI with GPT-4.1 and GPT-4.1-mini, billed to customers by consumption.
-- Use the SetManagedResourceAuthorization method for managed resources and SetAuthorization for your own subscription. Handle errors with AOAI Operation Response.
-- Copilot and agents can use content from AL extensions without direct extensibility, for example in Analyze list, Autofill, Chat, Summarize, Sales Order Agent, and bank reconciliation. The page references 2025 wave 1.
-- App Help for Copilot (preview) needs public HTTPS English documentation, Bing indexing, the app.json Help property, and a favicon for brand visibility.
-- The transparency note covers text and chat completion APIs, prompt dialog UI, embeddings, feature governance, the feedback loop, and the admin screen for managing AI features.
+- The developer tools include the System.AI namespace, the PromptDialog page type, partner key management, Power BI monitoring and responsible AI guidance.
+- A Copilot extension must be LLM-based, respond to natural language, and manage AI risk with human-in-the-loop patterns such as previews, confidence indication, and undo or discard.
+- The default and recommended approach uses Microsoft-managed Azure OpenAI resources with GPT-4.1 and GPT-4.1-mini models and consumption-based customer billing.
+- Partners can use their own Azure OpenAI subscription (BYO) for specific needs. The SetManagedResourceAuthorization method and error handling for overconsumption are covered.
+- Azure OpenAI setup needs an Azure subscription, verified service access, role-based permissions, a created resource, a model deployment and API key management.
+- Copilot and agents can use custom code and content from AL extensions without direct extensibility. Examples are Analyze list, Autofill, Chat, Summarize and Sales Order Agent (2025 wave 1).
+- App Help for Copilot (preview) needs public HTTPS English documentation, indexed by Bing and set in the app.json Help property. A favicon adds brand visibility.
+- The subtopic Extend Copilot in Business Central has 15 pages on building capabilities, PromptDialog design, and testing capabilities and agents.
 
 ## Subtopics
 
@@ -280,14 +294,14 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 
 ## More Learn pages
 
+- [Business Central AI Resources for Copilot Development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources): Learn how to choose between Microsoft-managed Business Central AI resources and your own Azure OpenAI subscription for Copilot in Marketplace extensions.
+  - In the observatory: [Codeunit 7770 "AOAI Operation Response"](../../../objects/codeunit/7770.md)
 - [Function calling in AI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-function-calling): Learn how to call functions in Azure OpenAI.
 - [Get set up with Azure OpenAI Service](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-get-started): Learn about the tasks that must be completed so that you can start integrating Azure OpenAI Service in your extensions to create Copilot experiences in Business Central
 - [Influence Copilot and agents without extending them](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending): Learn how to influence Copilot and agents without extending them in Business Central.
 - [Prepare your app Help for Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-prepare-app-help-copilot): Explore how Copilot uses your app's online content as grounding data to deliver precise answers to user queries.
 - [Token counting in AI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-system-app-token-counting): Learn how to count the number of tokens in your input before sending a request to Azure OpenAI
 - [Transparency Note Developer Tools for Copilot in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot): Developer tools for Copilot in Business Central help you build safer, adaptable AI features. Learn how to use the toolkit and boost productivity.
-- [Use developer tools for Copilot in Business Central AI resources](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources): Learn how you can use the developer tools for Copilot in Business Central AI resources in your own Marketplace extensions to create Copilot experiences in Business Central
-  - In the observatory: [Codeunit 7770 "AOAI Operation Response"](../../../objects/codeunit/7770.md), [Enum 7773 "AOAI Model Type"](../../../objects/enum/7773.md)
 - [What are the developer tools for Copilot?](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview): Get an overview of the toolkit from Business Central for extending Copilot in your extensions.
 - [What is considered an extension to Copilot?](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview): Learn whether your AI idea or feature is a match for Copilot in Business Central
 
@@ -302,22 +316,36 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
 - [#246 Expose plan guidance as a preview plugin skill](../../../changes/bcquality/246.md) (code change): "BCQuality now exposes plan guidance as a preview plugin skill"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "packages BCQuality as an installable plugin for Copilot CLI"
-- [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central"
-- [Creating Data Driven Text with AI in Business Central](../../../posts/aardvarklabs-blog/1816.md) (community post): "build a Copilot in Business Central that generates personalized reminder text"
+- [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central that automates customer address extraction"
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "build a multi-step AI-assisted process in Business Central that generates product recommendations"
-- [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
+- [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses against existing Business Central address records"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "SetAuthorization uses your own Azure OpenAI deployment, which gives you control"
+- [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
+- [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../../posts/demiliani-com/13611.md) (community post): "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
 - [Copilot Inventory Queries](../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
 - [Copilot in Planning Parameter Worksheet](../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
+- [🚀 Exploring Vibe Coding with GitHub Copilot for Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9.md) (community post): "GitHub Copilot to co-create AL solutions for Business Central"
 - [Introduction to GitHub Copilot in VSCode for AL Development](../../../posts/thinkaboutit-be/7299.md) (community post): "GitHub Copilot in VSCode offers multiple AI-powered modes for AL developers with code generation"
 - [Copilot Agent in AL: Using It Well Without Losing Control](../../../posts/thinkaboutit-be/7352.md) (community post): "Copilot Agent works at a task level across multiple AL objects and files"
-- [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
+- [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../posts/thinkaboutit-be/8132.md) (community post): "designed to guide both human developers and AI agents toward shared coding standards"
 - [Business Central 29: What’s New in BC-Bench?](../../../posts/thinkaboutit-be/8331.md) (community post): "AI MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents"
+- [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "AI pair programming in AL development. Effective prompts and instruction files"
+- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "GitHub Copilot to Automate Business Central Documentation"
+- [Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?](../../../videos/c91E6IykUnk.md) (video): "GitHub Copilot for AL development; Multi-agent workflow for development"
+- [20251208 - You don't have to make Test Plans anymore...](../../../videos/e4S2LXKAARs.md) (video): "AI-assisted test plan generation; MCP integration for test planning in Visual Studio Code"
+- [AI consuming AI output. #businesscentral #bc #msdyn365bc](../../../videos/FUtePZVZLKs.md) (video): "AI consuming AI output; documentation generation; extension development"
+- [20260326 - From AI Novice to Agentic Thinking For the CAL Brained](../../../videos/gd2TycVywv4.md) (video): "AI-assisted development with GitHub Copilot; Agentic development mindset shift"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Marketing text generation; Chat Copilot for Business Central; AI developer toolkit"
+- [AL Development using Claude Code - The Business Central Coding Stream](../../../videos/jfvUkNa4gyg.md) (video): "Agent-based development workflow; Agent-Driven Development Orchestration"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"
+- [What's New: AL Language (2026 release wave 1)](../../../videos/nMiLzdfidos.md) (video): "AL tools for GitHub Copilot in VS Code; Automatic diagnostic fixing with Copilot"
+- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../videos/Q-oazDEucLE.md) (video): "AI agents for legacy AL refactoring; Test-driven development with AI"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features; Managed AI Resources; Temperature and Max Tokens"
+- [GitHub Copilot Can Generate Your Entire App Blueprint (Most Developers Miss This)](../../../videos/qFGTq40UinE.md) (video): "GitHub Copilot inline suggestions; Copilot-generated AL object creation; App blueprint generation"
 - [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../../videos/RfHVHa_Qiqk.md) (video): "small language models; fine-tuning; model distillation; phi models"
 - [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../videos/sv1utmneaXA.md) (video): "Extending Copilot Chat with Your App's Documentation"
+- [Copilot Assisted Scheduling by PrintVis](../../../videos/sycmF3cJa_s.md) (video): "Copilot Assisted Scheduling; Optimization Options; Schedule Loading"
+- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; natural language; ai-assisted workflow"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

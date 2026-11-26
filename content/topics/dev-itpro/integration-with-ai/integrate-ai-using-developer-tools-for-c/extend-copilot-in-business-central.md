@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,9 +143,12 @@ links:
     - video/qP0id91bIlA
     - video/sv1utmneaXA
     - video/UgagVZVKCso
+    - video/V7NgFOIcGgM
     - video/ytYKvn2MiGs
   posts:
+    - post/aardvarklabs-blog/1816
     - post/aardvarklabs-blog/2759
+    - post/thinkaboutit-be/8204
     - post/yzhums-com/67462
   guidelines: []
   changes:
@@ -162,8 +165,8 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 9
-  blog: 2
+  video: 10
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
@@ -209,7 +212,9 @@ Start with the introduction, then build the capability, then design the dialog, 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md) (code change): "Community Copilot articles with good and bad samples: capability registration on install"
-- [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
+- [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "build a Copilot in Business Central that generates personalized reminder text for overdue customer balances"
+- [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "implementing a Copilot prompt dialog that generates formatted HTML summaries"
+- [Quick Tip: What’s in Business Central Update 28.5?](../../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI resources"
 - [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../../posts/yzhums-com/67462.md) (community post): "Developers must manually set the billing type when registering capabilities"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../../videos/7SSNcUMFtCw.md) (video): "System prompts for AI safety; Model deprecation notifications via telemetry; Azure OpenAI Deployments"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../../videos/jdevJbGgB-k.md) (video): "Few-shot learning prompting technique; Chain of Thought prompting; Function calling"
@@ -219,6 +224,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../../../videos/qP0id91bIlA.md) (video): "Designing Generative AI Experiences copilot; prompt dialogue; unstructured input"
 - [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../../videos/sv1utmneaXA.md) (video): "app.json configuration; help links; partner support"
 - [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "copilot development; prompt engineering; testing and validation"
+- [What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../../videos/V7NgFOIcGgM.md) (video): "Microsoft Copilot Chat in Business Central; Intent Detection; Permission Enforcement"
 - [What's New: Extending Copilot Using AL Code (2024 Release Wave 1)](../../../../videos/ytYKvn2MiGs.md) (video): "Extending Copilot Using AL Code (2024 Release Wave 1)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

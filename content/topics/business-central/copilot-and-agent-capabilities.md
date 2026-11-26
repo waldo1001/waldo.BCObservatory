@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -360,6 +360,7 @@ links:
   localizations: []
   videos:
     - video/q0TxpWfm9rc
+    - video/q9Q1fOA0818
     - video/xJ8gYzvWnTI
   posts:
     - post/thinkaboutit-be/7797
@@ -394,7 +395,7 @@ children:
 coverage:
   learn: 55
   code: 35
-  video: 2
+  video: 3
   blog: 2
   guideline: 0
 bc_forms:
@@ -499,6 +500,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: Business Central Launch Edition 2026 Wave 1: 37 Sessions](../../posts/thinkaboutit-be/7797.md) (community post): "New Payables Agent and Business Central integration with Microsoft Copilot Studio"
 - [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) (community post): "Business Central offers multiple AI-powered Copilot features for productivity"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../videos/q0TxpWfm9rc.md) (video): "Developer Configuration for Summarization; Enhanced Fields for Richer Insights"
+- [Microsoft Dynamics 365 Business Central](../../videos/q9Q1fOA0818.md) (video): "AI capabilities for repetitive tasks; Dynamics 365 Copilot"
 - [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "agent task pane; sales order agent; payables agent; review bar"
 
 ## Business Central pages and reports

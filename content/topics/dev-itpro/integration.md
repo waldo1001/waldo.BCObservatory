@@ -12,7 +12,7 @@ review:
   at: "2026-11-22T01:00:28.230Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -381,6 +381,7 @@ links:
   localizations: []
   videos:
     - video/aXM5Kuo3DHM
+    - video/qqWj_2uM0ek
     - video/xqwJTCPD9tA
   posts:
     - post/demiliani-com/13215
@@ -414,7 +415,7 @@ children:
 coverage:
   learn: 378
   code: 62
-  video: 2
+  video: 3
   blog: 3
   guideline: 0
 bc_forms:
@@ -549,6 +550,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🤖 Manage your projects, repositories, and more with Azure DevOps MCP Server ✅](../../posts/gerardorenteria-blog/11401.md) (community post): "Manage your projects, repositories, and more with Azure DevOps MCP Server"
 - [BC Friday Tips #41 Line Separator in Data Exchange Definition](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-41-line-separator-in-data-exchange-definition--3a4ec8c135.md) (community post): "importing files with different line break formats without custom development"
 - [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../videos/aXM5Kuo3DHM.md) (video): "file transfer; ssh; encryption; al development; business central api"
+- [20260420 - What is GitOps and why should you care](../../videos/qqWj_2uM0ek.md) (video): "gitops; infrastructure as code; devops; click-ops; drift reconciliation"
 - [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"
 
 ## Business Central pages and reports

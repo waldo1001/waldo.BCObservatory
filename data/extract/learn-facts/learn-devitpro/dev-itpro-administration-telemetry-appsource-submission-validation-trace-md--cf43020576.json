@@ -2,37 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-appsource-submission-validation-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
   "title": "Analyzing Marketplace Submission Validation Telemetry",
-  "blob": "aa7b467afaa9f0b5f144985c4a7196d30066b242",
+  "blob": "5872c75bd57d4f7090693edaa6935d0527b0816a",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Generally available from version 18.4 (2021 release wave 1)"
+      "text": "Generally available from Business Central 2021 release wave 1, version 18.4 and later"
     },
     {
       "kind": "fact",
-      "text": "Marketplace submission validation telemetry is emitted when apps are published from Partner Center"
+      "text": "Telemetry traces record automated validation results when apps are submitted to Marketplace via Partner Center"
     },
     {
       "kind": "fact",
-      "text": "Validation runs against each extension for each targeted country/region and Business Central version"
+      "text": "Validation checks extensions against each targeted Business Central version and each specified country or region"
     },
     {
       "kind": "fact",
-      "text": "Extensions are validated using AL compiler and AppSourceCop code analyzer"
+      "text": "AL compiler and AppSourceCop code analyzer perform the validation checks"
     },
     {
       "kind": "fact",
-      "text": "Each submission receives unique validationRequestId included in all traces for query tracking"
+      "text": "Each submission receives a unique ID included in all traces to query related submission data"
     },
     {
       "kind": "fact",
-      "text": "Validation process emits traces at different phases: request started, diagnostic reported, validation started/completed per extension and version/country-region"
+      "text": "Validation results can be reused across versions or regions to reduce validation time"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Extensions must be set up to emit telemetry to Application Insights for analysis"
     },
     {
       "kind": "fact",
-      "text": "Event IDs track validation flow: LC0028 request started, LC0029 completed successfully, LC0035 completed with failures"
+      "text": "Review technical validation checklist before submitting to reduce Marketplace validation failure risk"
     }
   ],
   "dropped": 0,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00732,
-      "pages_in_call": 7
+      "cost_usd": 0.015997,
+      "pages_in_call": 1
     }
   ]
 }

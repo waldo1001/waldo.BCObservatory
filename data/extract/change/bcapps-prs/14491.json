@@ -6,15 +6,15 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "E-Document LLM calls designed for Payables Agent use are now routed through the Payables Agent app instead of the E-Document app to streamline billing feature management.",
+  "summary": "E-Document LLM calls that exist for the Payables Agent are now routed through the Payables Agent app and emitted under its copilot capability, at the dataplane's request to simplify billed feature management.",
   "key_points": [
-    "LLM calls specific to Payables Agent scenarios are moved from E-Document to Payables Agent app",
-    "New codeunit PADraftBasedCopilotCaller added to handle Payables Agent copilot calls",
-    "E-Document and E-Document MLLM Handler codeunits updated to support the routing change",
-    "Change aligns with dataplane request to simplify billing feature management"
+    "E-Document LLM calls used only for Payables Agent scenarios now run under the Payables Agent copilot capability",
+    "New Payables Agent codeunit PADraftBasedCopilotCaller makes these calls",
+    "E-Doc. AI Tool Processor and E-Document MLLM Handler updated for the routing",
+    "Requested by dataplane to simplify management of billed features"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

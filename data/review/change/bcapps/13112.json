@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13112",
+  "input_hash": "9864b29b915b6e58cdac4f3aeba9e6755405520cd207dfd64191d8d86e777440",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-26T01:03:41.144Z",
+  "issues": [
+    "Summary and key points match the description: assignments are recreated for all supported targets, the cost amount field depends on the target type, and rounding uses supported value entries only.",
+    "The localization layer list (W1, ES, IT, NA, NL, RU) matches the changed files. Flags and kind are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023605,
+    "changes_in_call": 3
+  }
+}

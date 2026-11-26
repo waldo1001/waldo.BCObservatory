@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:42.712Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,7 +141,8 @@ links:
     - topic/business-central/business-functionality/local-functionality/denmark/banking-and-payments
     - topic/business-central/business-functionality/local-functionality/denmark/electronic-invoicing
   localizations: []
-  videos: []
+  videos:
+    - video/205F8ljmInU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -158,7 +159,7 @@ children:
 coverage:
   learn: 15
   code: 5
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -211,6 +212,12 @@ Start with the Denmark local functionality page for the overview, then go to the
 
 - [Denmark local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality): The following article provides links that describe local functionality in Denmark.
 - [Payroll Data Definitions [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk): This article explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../videos/205F8ljmInU.md) (video): "danish bookkeeping act; audit trail; saf-t export; digital vouchers"
 
 ## Business Central pages and reports
 

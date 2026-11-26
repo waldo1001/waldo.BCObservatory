@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,7 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office
   localizations: []
   videos:
+    - video/1ft4o9lQzsU
     - video/6zj34hjbpGU
   posts:
     - post/aardvarklabs-blog/1824
@@ -76,7 +77,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 1
+  video: 2
   blog: 2
   guideline: 0
 bc_forms:
@@ -124,8 +125,9 @@ Start with the page on viewing and editing data in Excel for everyday use. Go to
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Step-by-Step Guide to Excel Reporting in Business Central](../../../../posts/aardvarklabs-blog/1824.md) (community post): "uploading the customized layout back to Business Central"
-- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Excel layouts can open in Excel for the web instead of downloading"
-- [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option"
+- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Use OneDrive for system features is turned on in the OneDrive Setup"
+- [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "OneDrive integration for Excel reports; Excel report layout testing"
+- [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
 
 ## Business Central pages and reports
 

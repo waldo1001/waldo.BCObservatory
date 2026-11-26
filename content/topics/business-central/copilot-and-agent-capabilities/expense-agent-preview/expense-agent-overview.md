@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,6 +63,8 @@ links:
   videos:
     - video/4TE8uwIi91k
     - video/ARKckFygbWQ
+    - video/cVfZoDwKYpI
+    - video/egE6UdOfar0
     - video/q-udoJPGUKE
     - video/qZALauRY_So
   posts:
@@ -72,15 +74,17 @@ links:
   changes:
     - change/bcapps/10032
     - change/bcapps/10386
-    - change/bcapps/10431
     - change/bcapps/10670
     - change/bcapps/12544
     - change/bcapps/13587
     - change/bcapps/13920
+    - change/bcapps/13927
     - change/bcapps/13978
     - change/bcapps/14022
     - change/bcapps/14081
     - change/bcapps/14082
+    - change/bcapps/14136
+    - change/bcapps/14492
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -91,7 +95,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 4
+  video: 6
   blog: 2
   guideline: 0
 bc_forms:
@@ -140,19 +144,23 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10032 Fix Agent List and Agent Task List filter and refresh issues (AB#646062)](../../../../changes/bcapps/10032.md) (code change): "Fixed filter visibility and refresh issues on Agent List and Agent Task List"
 - [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../../changes/bcapps/10386.md) (code change): "Archived custom agents can now be viewed for auditing but are protected from modification"
-- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../../changes/bcapps/10431.md) (code change): "Reference links to archived agents and their tasks now open the Agent Card"
 - [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "The Expense Agent now allows users to submit expenses without a receipt"
 - [#13587 Update Corp Card manual selection](../../../../changes/bcapps/13587.md) (code change): "Updates corporate card manual selection in the Expense Agent app"
 - [#13920 [Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13920.md) (code change): "Fixes mileage starting and ending point addresses longer than 50 characters"
+- [#13927 [29.x]-Bug 658800: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error](../../../../changes/bcapps/13927.md) (code change): "Expense Agent where manually adding an approval setup from the Expense User Card failed"
 - [#13978 [Main] - Bug 658633: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver](../../../../changes/bcapps/13978.md) (code change): "Fixed approval handling in Expense Agent to allow limited self-approval"
 - [#14022 [Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history](../../../../changes/bcapps/14022.md) (code change): "Travel requests can now be deleted after linked posted reports are canceled"
 - [#14081 [Main] - Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../../../../changes/bcapps/14081.md) (code change): "Expense Agent setup wizard updates UI text to clarify that the submission channels option"
 - [#14082 [29.x]-Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../../../../changes/bcapps/14082.md) (code change): "Expense Agent setup wizard text is updated to clarify that users can submit expenses"
+- [#14136 [Main] - Bug 659462: [Expense Agent] Add configurable rounding precision for partial-day per diem](../../../../changes/bcapps/14136.md) (code change): "Expense Agent now supports configurable rounding precision for partial-day per diem calculations"
+- [#14492 [Main] Expense Agent: register the Copilot capability as generally available](../../../../changes/bcapps/14492.md) (code change): "Expense Agent Copilot capability is now registered as Generally Available"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent automates receipt extraction, categorization, per diem calculation"
 - [Quick Tip: What’s in Business Central Update 28.3](../../../../posts/thinkaboutit-be/8022.md) (community post): "Expense Agent adds support for Danish, French, Spanish languages with German coming soon"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../../videos/4TE8uwIi91k.md) (video): "Receipt scanning with auto capture; Bulk receipt upload; Mileage expense creation"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../../videos/ARKckFygbWQ.md) (video): "receipt capture; receipt extraction; automatic categorization; itemization; compliance rules"
+- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Mobile Expense Submission"
+- [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../../videos/egE6UdOfar0.md) (video): "expense agent in business central; receipt processing; expense categorization"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent expense agent; workflow; notification; policy compliance"
 

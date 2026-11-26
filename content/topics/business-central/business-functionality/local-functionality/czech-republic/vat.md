@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:28.780Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,6 +163,7 @@ links:
     - change/bcapps/12067
     - change/bcapps/13868
     - change/bcapps/9598
+    - change/bcapps/9839
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -243,6 +244,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12067 [main] bug 652323 - Move creating VAT Period to setup demo data level](../../../../../changes/bcapps/12067.md) (code change): "VAT periods exist when setup-level processes depend on them"
 - [#13868 [main] bug 658615 - Fix print of VAT Statement with Opposite Sign option](../../../../../changes/bcapps/13868.md) (code change): "The Czech VAT Statement report now prints amounts with the correct sign"
 - [#9598 [main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL](../../../../../changes/bcapps/9598.md) (code change): "VAT Statement Calculation CZL were moved to a new codeunit"
+- [#9839 [main] feature 623913 - EET 2.0](../../../../../changes/bcapps/9839.md) (code change): "EET 2.0 message format and security model for Czech electronic sales registration"
 
 ## Business Central pages and reports
 

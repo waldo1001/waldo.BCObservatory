@@ -1033,10 +1033,10 @@
     "change/bcapps/10088": {
       "kind": "change",
       "key": "change/bcapps/10088",
-      "hash": "820360de62ee01aed57d725b5e3d3241ffc7c30e42cc7e3a8e6f0de9fa0fb885",
+      "hash": "355473e9aee05be316c25e0bda11b3e7a420aef2dd89c2a582076557410eac21",
       "title": "#10088 Harden base ruleset: promote 21 rules back to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.645Z",
+      "at": "2026-11-26T01:02:03.026Z",
       "matches": []
     },
     "change/bcapps/10090": {
@@ -2496,14 +2496,14 @@
     "change/bcapps/10348": {
       "kind": "change",
       "key": "change/bcapps/10348",
-      "hash": "70beb95beded7f504d42cd5ca2ed394c9e45ccfc73db3b05ebfe75e0126703c6",
+      "hash": "1d1fe92a97c66d3b79715a8ebf44abc8bdcb7641ef07fbffb915ee12f428e71c",
       "title": "#10348 Adding a Power BI workspace to Company Information to be used when deploying reports",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:39.211Z",
+      "at": "2026-11-26T01:01:58.701Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "Power BI Workspace field added to the Reporting section"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
+          "quote": "Power BI Workspace field added to the Reporting section of Company Information"
         }
       ]
     },
@@ -2774,14 +2774,14 @@
     "change/bcapps/10409": {
       "kind": "change",
       "key": "change/bcapps/10409",
-      "hash": "21e0433457c978e823fb360fda83f0904e92a9eba0f2db0c62f331906ced01a7",
+      "hash": "1c0a88bfe3ad5091fbf9c73d76eff91f60831fb49019b8c05a666841157d9b2a",
       "title": "#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)",
       "source": "bcapps-prs",
-      "at": "2026-11-13T00:57:19.546Z",
+      "at": "2026-11-26T01:01:53.020Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
-          "quote": "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience"
+          "quote": "The Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience"
         }
       ]
     },
@@ -2922,14 +2922,14 @@
     "change/bcapps/10431": {
       "kind": "change",
       "key": "change/bcapps/10431",
-      "hash": "fbd756576728a6aa6ce0cc1f50c6c5866a6a2e1f8ce8567dd296329c810764c9",
+      "hash": "75a2c62264ee39f2d1fdc739c3ea25702fed81a75f5e2bba9db5ca5bf8de20e6",
       "title": "#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks",
       "source": "bcapps-prs",
-      "at": "2026-11-13T00:57:19.546Z",
+      "at": "2026-11-26T01:01:53.020Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Reference links to archived agents and their tasks now open the Agent Card"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Links to an archived agent now open the Agent Card"
         }
       ]
     },
@@ -3400,10 +3400,10 @@
     "change/bcapps/10516": {
       "kind": "change",
       "key": "change/bcapps/10516",
-      "hash": "7c6a66fb1e7f76db51f0b3457737805c5d0661ebde1499b1ee41425cb9880d03",
+      "hash": "4ddfc47cd68c00197fd862e2c1207876ceae178fa5e2a77be7923e4af7beb161",
       "title": "#10516 Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.645Z",
+      "at": "2026-11-26T01:02:03.026Z",
       "matches": []
     },
     "change/bcapps/10518": {
@@ -3589,10 +3589,10 @@
     "change/bcapps/10559": {
       "kind": "change",
       "key": "change/bcapps/10559",
-      "hash": "3140ea72c662183a81adc02431313877c3130bd71e9c4bf380bca484a950bb98",
+      "hash": "c5dafcde267ed705356a0636da7a7f460053946ec21c1cf10acebd67f38963fe",
       "title": "#10559 Ruleset hardening: promote AL0659 and AL0685 to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.810Z",
+      "at": "2026-11-26T01:02:03.026Z",
       "matches": []
     },
     "change/bcapps/10561": {
@@ -4465,10 +4465,10 @@
     "change/bcapps/10878": {
       "kind": "change",
       "key": "change/bcapps/10878",
-      "hash": "39d08772c01b0b1bb6e9391721b55a4d5415786bde26e1e47546ded93ec29dad",
+      "hash": "8b5588af5c980bc937650b68cae07381837abb4c882cabf700c7743ad9bf751d",
       "title": "#10878 Ruleset hardening: promote five low-risk rules to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.810Z",
+      "at": "2026-11-26T01:02:03.026Z",
       "matches": []
     },
     "change/bcapps/10879": {
@@ -5060,14 +5060,14 @@
     "change/bcapps/11036": {
       "kind": "change",
       "key": "change/bcapps/11036",
-      "hash": "1c3080c92c4331026a1e43daaff5a735676796cfc613e8c4b51e1758fd02e62b",
+      "hash": "c4b096598179dc512ad1501d20c86fc3682b70c2ba75c55eaf650ed1e1539e61",
       "title": "#11036 Ruleset hardening: promote four compatibility rules to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.810Z",
+      "at": "2026-11-26T01:02:03.026Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/development-environment/code-analysis",
-          "quote": "Four AL compatibility rules are promoted from warnings to errors"
+          "quote": "Four AL compatibility rules (AA0052, PTE0018, AS0099, AW0009) are promoted from warnings to errors"
         }
       ]
     },
@@ -5491,16 +5491,11 @@
     "change/bcapps/11160": {
       "kind": "change",
       "key": "change/bcapps/11160",
-      "hash": "8fefff6f179bcf3cb8e6b78c6bbcc88d41d17c33528660fff9d7eb09a506ae8a",
+      "hash": "a4c51f57f0449317b677ed2034959187c18a64600712a38f1040a7e9c7def571",
       "title": "#11160 Ruleset hardening: promote three mechanical rules to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.810Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/development-environment/code-analysis",
-          "quote": "Ruleset hardening: promote three mechanical rules to Error"
-        }
-      ]
+      "at": "2026-11-26T01:02:06.712Z",
+      "matches": []
     },
     "change/bcapps/11161": {
       "kind": "change",
@@ -7281,18 +7276,14 @@
     "change/bcapps/11741": {
       "kind": "change",
       "key": "change/bcapps/11741",
-      "hash": "43edbc95b732513fa3af3bfa4fe9e4751f8101a961c3f0ec600f6d30d7b366dc",
+      "hash": "fa9305f4568b539a9c525ea12b2078c529ae7aa5836c390faabd1fec713eabb9",
       "title": "#11741 [MCP] Add company and environment descriptions",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:39.211Z",
+      "at": "2026-11-26T01:01:58.701Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/company-hub",
-          "quote": "Company Description field added to Company Information table as a BLOB"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Read-only fields exposed in API v2.0 companyInformation endpoint."
+          "quote": "Company and environment descriptions are now stored and exposed via APIs"
         }
       ]
     },
@@ -8636,14 +8627,14 @@
     "change/bcapps/12186": {
       "kind": "change",
       "key": "change/bcapps/12186",
-      "hash": "d9951584989c2fe9051c2d069fe64143804816ffbc3dc70bb486c78ac605ba16",
+      "hash": "f891fb2bda67c11ecc22cbf9f6c20b4d68d467d82ad2c59e685e13db67f2db4c",
       "title": "#12186 Set several fields in one ModifyAll call",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:40.810Z",
+      "at": "2026-11-26T01:02:06.712Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "Consecutive ModifyAll calls on the same filtered record are merged"
+          "quote": "Consecutive ModifyAll calls on the same filtered record are merged into a single call"
         }
       ]
     },
@@ -8848,13 +8839,13 @@
     "change/bcapps/12242": {
       "kind": "change",
       "key": "change/bcapps/12242",
-      "hash": "a0709a084995d87463f8fce374aecd015126daeb7977b63014488d874565b2ab",
+      "hash": "6b2f4b3b818097715ff2aed1299e327408991fe69337885bcd1e733adb816c1c",
       "title": "#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:39.211Z",
+      "at": "2026-11-26T01:01:58.701Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
           "quote": "Power BI report deployment is no longer limited to evaluation companies"
         }
       ]
@@ -9441,14 +9432,14 @@
     "change/bcapps/12507": {
       "kind": "change",
       "key": "change/bcapps/12507",
-      "hash": "b8f74fd16cc65b919afeeb00dd16854852fdeef25cb34521a972b3e22f9f816e",
+      "hash": "72ff7203e19caefc581d4d53893aa0bd428e8d57a4bf16ef3d948107b3c00262",
       "title": "#12507 [DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:42.207Z",
+      "at": "2026-11-26T01:02:06.712Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
-          "quote": "Removed 10 MB cap on currency exchange rate downloads where legitimate responses grow"
+          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+          "quote": "Remove unsafe fixed response-size caps on scaling/customer-configured feeds"
         }
       ]
     },
@@ -9478,16 +9469,11 @@
     "change/bcapps/12517": {
       "kind": "change",
       "key": "change/bcapps/12517",
-      "hash": "308d19fb5451bcb96b4e1a0d2ecb7f64e283ae53c06ce9d210de3e1b0fbfda0a",
+      "hash": "bd23fc58c685e649940418ac3f153b43e6e007ed881aaf266d0658a9321a4e96",
       "title": "#12517 Suppress AS0099 for existing extension field IDs",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:42.207Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/extensibility",
-          "quote": "Suppress AS0099 for existing extension field IDs"
-        }
-      ]
+      "at": "2026-11-26T01:02:06.712Z",
+      "matches": []
     },
     "change/bcapps/12518": {
       "kind": "change",
@@ -9692,14 +9678,14 @@
     "change/bcapps/12554": {
       "kind": "change",
       "key": "change/bcapps/12554",
-      "hash": "a8febb2883edd5d6dbbf6cd666947d70b2ca3da1fec765e3d560b9eb85156755",
+      "hash": "27da2a9ed14ad98078caaa7838232d1fa5f4fdc4f88253822d268ef542a2ef21",
       "title": "#12554 [Main] - User encounters a \"record is not open\" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:35.725Z",
+      "at": "2026-11-26T01:01:58.701Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales",
-          "quote": "User encounters a \"record is not open\" error when attaching a document to a posted sales shipment"
+          "quote": "attaching a document to a posted sales shipment in Dynamics 365"
         }
       ]
     },
@@ -9888,13 +9874,13 @@
     "change/bcapps/12617": {
       "kind": "change",
       "key": "change/bcapps/12617",
-      "hash": "e057e7a4c851f19882801e94b635653cf231556814aeff1e07f1176e2c1c96a2",
+      "hash": "830fbb40a02fd283be07fcea24d921ca777353eddb99bf6f902a264090543b29",
       "title": "#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:42.207Z",
+      "at": "2026-11-26T01:02:06.712Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
           "quote": "Move URL checks from Web Request Helper to System Application Uri module"
         }
       ]
@@ -10940,6 +10926,20 @@
         {
           "topic": "topic/business-central/business-functionality/quality-management",
           "quote": "large text modal helper on page 20441 Qlty. Edit Large Text in Quality Management"
+        }
+      ]
+    },
+    "change/bcapps/13112": {
+      "kind": "change",
+      "key": "change/bcapps/13112",
+      "hash": "9ad0e4babd0cee45486a01677a41501347c0b9d0118d71c4ecf4fd455695d5a6",
+      "title": "#13112  [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:58.701Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "canceling a posted purchase invoice could fail or misallocate item charges"
         }
       ]
     },
@@ -12686,14 +12686,14 @@
     "change/bcapps/13673": {
       "kind": "change",
       "key": "change/bcapps/13673",
-      "hash": "838995044f2c71cb6138a5ab6fab5ae78b80036d6fdae05df9aa05d8e6988a10",
+      "hash": "2c25c6eaa7d5b2b6770cb3cfedb0da8dfe0bbe164ef0d00019c51de9b4c1da76",
       "title": "#13673 Expose active expense approver and expense app navigation",
       "source": "bcapps-prs",
-      "at": "2026-11-24T01:01:47.283Z",
+      "at": "2026-11-26T01:01:53.020Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "activeApproverExpenseUserNo field exposed in Expense Reports API for direct approver linking"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "The Expense Reports API now exposes activeApproverExpenseUserNo"
         }
       ]
     },
@@ -12875,6 +12875,15 @@
           "quote": "Initialize missing vendor number series for the Expense Agent"
         }
       ]
+    },
+    "change/bcapps/13732": {
+      "kind": "change",
+      "key": "change/bcapps/13732",
+      "hash": "3fba3653b894fd5695ec1cbef2308e50cf27772811c7fb795bfdb519ab32bd47",
+      "title": "#13732 Initialize report filename defaults for new and existing companies",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:59.700Z",
+      "matches": []
     },
     "change/bcapps/13739": {
       "kind": "change",
@@ -13216,11 +13225,34 @@
     "change/bcapps/13904": {
       "kind": "change",
       "key": "change/bcapps/13904",
-      "hash": "2d3ee914e611299f31581dc042cbfabd850662d2ac08626d50075be5cb53cac1",
+      "hash": "5fa0ba320edf62db9bdb6548b3bfb2959c345092e57e685844762a4a16b81a48",
       "title": "#13904 [29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
       "source": "bcapps-prs",
-      "at": "2026-11-24T01:01:50.376Z",
+      "at": "2026-11-26T01:01:59.700Z",
       "matches": []
+    },
+    "change/bcapps/13905": {
+      "kind": "change",
+      "key": "change/bcapps/13905",
+      "hash": "2425c5be675491044656ea8cdfc8e0a9f87e50f0a1a23fcfe33fca549658d2dd",
+      "title": "#13905 Exclude WorkIQ feature key from demo data feature enablement",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:59.700Z",
+      "matches": []
+    },
+    "change/bcapps/13910": {
+      "kind": "change",
+      "key": "change/bcapps/13910",
+      "hash": "c54e9148f331367318d0ba38e15052bef97d77bcbab67ef8ead49ff0082be74f",
+      "title": "#13910 [Main] - Bug 657627: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:53.020Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "quote": "The Expense User Card now reuses an existing unassigned approval setup"
+        }
+      ]
     },
     "change/bcapps/13917": {
       "kind": "change",
@@ -13275,6 +13307,20 @@
         {
           "topic": "topic/business-central/business-functionality/inventory",
           "quote": "Transfer Routes matrix does not indicate configured direct routes"
+        }
+      ]
+    },
+    "change/bcapps/13927": {
+      "kind": "change",
+      "key": "change/bcapps/13927",
+      "hash": "ab38f3407015c56979d2c71221e7d372d055df3fc14288e9dedffee0752e843e",
+      "title": "#13927  [29.x]-Bug 658800: [Expense Agent] Expense User Card rejects manual approval setup with duplicate error",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:54.798Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent where manually adding an approval setup from the Expense User Card failed"
         }
       ]
     },
@@ -13803,6 +13849,20 @@
         }
       ]
     },
+    "change/bcapps/14136": {
+      "kind": "change",
+      "key": "change/bcapps/14136",
+      "hash": "5472ff19af7588e151b4933c643253b1056659da835c68b9807fa2d938098b3c",
+      "title": "#14136 [Main] - Bug 659462: [Expense Agent]  Add configurable rounding precision for partial-day per diem",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:54.798Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent now supports configurable rounding precision for partial-day per diem calculations"
+        }
+      ]
+    },
     "change/bcapps/14138": {
       "kind": "change",
       "key": "change/bcapps/14138",
@@ -13814,6 +13874,20 @@
         {
           "topic": "topic/business-central/business-functionality/purchasing",
           "quote": "Fixed a bug where undoing the final subcontracting operation on a posted purchase receipt"
+        }
+      ]
+    },
+    "change/bcapps/14139": {
+      "kind": "change",
+      "key": "change/bcapps/14139",
+      "hash": "1a20503a794e555840cdbe612edbc7ad6ecabe770b6f02ffee66de6ec29c72ac",
+      "title": "#14139 [main] bug - Fix incorrect source entry lookup event in Czech compensations",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:02:06.712Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
+          "quote": "Czech compensations now expose separate customer and vendor source entry lookup events"
         }
       ]
     },
@@ -13874,6 +13948,15 @@
       "title": "#14154 [SOA] Keep email attachments next to the current message",
       "source": "bcapps-prs",
       "at": "2026-11-20T00:54:24.788Z",
+      "matches": []
+    },
+    "change/bcapps/14184": {
+      "kind": "change",
+      "key": "change/bcapps/14184",
+      "hash": "54230b31ec1ade740a9a8b0a5828b285ba03cf5966813335c63efcb7bf4c52ce",
+      "title": "#14184 [29x]-Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:02:04.153Z",
       "matches": []
     },
     "change/bcapps/14198": {
@@ -14119,14 +14202,14 @@
     "change/bcapps/14327": {
       "kind": "change",
       "key": "change/bcapps/14327",
-      "hash": "e9d342023d0935256df4638ac05c8e32b22f12ea04eb00711d8b0c1bd5b8a09d",
+      "hash": "b4bf70998e06e777c693db6403af071207211adb0649af0021e254b9e6607fb3",
       "title": "#14327 Expose Payables Agent infotip sources through test fixtures",
       "source": "bcapps-prs",
-      "at": "2026-11-24T01:01:45.243Z",
+      "at": "2026-11-26T01:02:04.153Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expose Payables Agent infotip sources through test fixtures"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "quote": "Payables Agent now expose infotip sources and business context, allowing offline evaluations"
         }
       ]
     },
@@ -14196,6 +14279,20 @@
         {
           "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
           "quote": "The SOA Setup timestamp helper now saves through the caller's buffer"
+        }
+      ]
+    },
+    "change/bcapps/14346": {
+      "kind": "change",
+      "key": "change/bcapps/14346",
+      "hash": "e84bf44e5318e6e4250bceafd33ca8f2e8c4199e16cc8d89fafa0bec2b14b4f0",
+      "title": "#14346 [Main] Expense Management: add partner extension events and make Create Expense Report public",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:54.798Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Expense management adds integration events for partners to customize expense report"
         }
       ]
     },
@@ -14274,6 +14371,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
           "quote": "FI depreciation posting buffer table is now marked as temporary"
+        }
+      ]
+    },
+    "change/bcapps/14492": {
+      "kind": "change",
+      "key": "change/bcapps/14492",
+      "hash": "13a32a2d87fcac150a5d6399aadbd814c239e921635ef9a16eb47614d967e175",
+      "title": "#14492 [Main] Expense Agent: register the Copilot capability as generally available",
+      "source": "bcapps-prs",
+      "at": "2026-11-26T01:01:54.798Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent Copilot capability is now registered as Generally Available"
         }
       ]
     },
@@ -17781,18 +17892,14 @@
     "change/bcapps/9578": {
       "kind": "change",
       "key": "change/bcapps/9578",
-      "hash": "3351f0b819f4859cd781d38bafc07d841a786a04d856fed07d6f5a5dfdbb8ec4",
+      "hash": "0156bcdd26f66e4a63260540c9b0675fe703039838efd12a5f562087d06b9222",
       "title": "#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:35.725Z",
+      "at": "2026-11-26T01:01:59.700Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
-          "quote": "Remittance Advice E-Document type with data assembly, validation, and PEPPOL 3.0 export"
+          "quote": "E-Documents now supports exporting remittance advice from payment journals"
         }
       ]
     },
@@ -19131,14 +19238,14 @@
     "change/bcapps/9839": {
       "kind": "change",
       "key": "change/bcapps/9839",
-      "hash": "d47fe89b5cede5f14a91f5412ce82e3941f13c0e5d58d0a659a01be11ada6e73",
+      "hash": "4b1e8c8ad8f123fbbd0e56b70d397873076ca8fb71c19fbd2c64eae0ad7d2ee2",
       "title": "#9839 [main] feature 623913 - EET 2.0",
       "source": "bcapps-prs",
-      "at": "2026-11-10T00:52:43.134Z",
+      "at": "2026-11-26T01:02:04.153Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
-          "quote": "Implements EET 2.0 message format and security model for Czech electronic sales registration"
+          "topic": "topic/business-central/business-functionality/local-functionality/czech-republic/vat",
+          "quote": "EET 2.0 message format and security model for Czech electronic sales registration"
         }
       ]
     },
@@ -21296,14 +21403,14 @@
     "change/bcquality/253": {
       "kind": "change",
       "key": "change/bcquality/253",
-      "hash": "00ac3f1b380349bb9d21ddb6ad7c7fb8da6764d67e0ae5aa5a96c1f62f86a995",
+      "hash": "e61b5fa47896d0d12045e464e54414d2019e7adbf95855532142987898215711",
       "title": "#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields",
       "source": "bcquality-prs",
-      "at": "2026-11-10T00:52:35.725Z",
+      "at": "2026-11-26T01:01:59.700Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "New knowledge article documents how to use AddLoadFields on API pages to prevent JIT loading failures"
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "prevent JIT loading failures when accessing unbound fields in OnAfterGetRecord"
         }
       ]
     },
@@ -21710,18 +21817,14 @@
     "post/aardvarklabs-blog/1609": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/1609",
-      "hash": "edab5653e97cb81b8ca2789b5f26d0fd1bb1c97ccf977a42d7b2ced7a41404c9",
+      "hash": "3fcb11f9f743c240563f6fa36a6cedf030ffb763d558b4b4ea1cabf772c78e37",
       "title": "Integrating AI in Business Central: A Step-by-Step Guide",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-09T00:41:41.809Z",
+      "at": "2026-11-26T01:01:47.319Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "building a custom AI-powered Copilot agent in Business Central"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
-          "quote": "Azure OpenAI resources and credentials must be securely stored in Isolated Storage"
+          "quote": "building a custom AI-powered Copilot agent in Business Central that automates customer address extraction"
         }
       ]
     },
@@ -21801,18 +21904,14 @@
     "post/aardvarklabs-blog/1816": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/1816",
-      "hash": "2fe830a92a92a24b1592f244921246879f613eee0ee5bf967fada746ae829b5a",
+      "hash": "51e1277de707eaaf70332d533f4a2045daca749021afaef330fb6fba07dce084",
       "title": "Creating Data Driven Text with AI in Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-09T00:41:41.809Z",
+      "at": "2026-11-26T01:01:47.319Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "build a Copilot in Business Central that generates personalized reminder text"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/manage-receivables",
-          "quote": "reminder text for overdue customer balances by combining user input with customer data"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "build a Copilot in Business Central that generates personalized reminder text for overdue customer balances"
         }
       ]
     },
@@ -22073,14 +22172,14 @@
     "post/aardvarklabs-blog/2467": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2467",
-      "hash": "56bcab3f1ae67f3d30fa7d27ae6bcda9085e0f8b738f373e564ec0b6b9efd81e",
+      "hash": "3ca0dd88204c02f432739506d6f1d3323f38488751c07007097693a1a02b83d1",
       "title": "Enhancing Business Central with Address Validation AI",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-09T00:41:41.809Z",
+      "at": "2026-11-26T01:01:47.319Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Address validation using Azure OpenAI compares user-entered addresses"
+          "quote": "Address validation using Azure OpenAI compares user-entered addresses against existing Business Central address records"
         }
       ]
     },
@@ -22227,18 +22326,14 @@
     "post/aardvarklabs-blog/2724": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2724",
-      "hash": "835aa5e152aa4b4159ea7f05b9f21909d6325f6d65e3e997323cd60428f716f4",
+      "hash": "6f31f2aba49d5296931efff94db4f45717935c8c8779e23d5297b85790a13b40",
       "title": "Exploring Model Context Protocol (MCP) for Business Automation in Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-09T00:41:41.809Z",
+      "at": "2026-11-26T01:01:47.319Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
           "quote": "Model Context Protocol (MCP) servers enable AI agents to interact with Business Central data"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "purpose-built custom APIs should be used to limit which fields are shared"
         }
       ]
     },
@@ -22268,18 +22363,18 @@
     "post/aardvarklabs-blog/2759": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2759",
-      "hash": "5ed95368f7334ba4d94a689453780db9c48dfed6c4d87b77f75936f80fa907f6",
+      "hash": "9372b0a4a18dc2325d96061cc7ce11fea74580155c8421befe0719eb1402d205",
       "title": "Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-09T00:41:41.809Z",
+      "at": "2026-11-26T01:01:48.231Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
           "quote": "use Copilot to automatically upgrade raw service technician notes into professional"
         },
         {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "customer-facing text for invoices in Business Central using Copilot"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "implementing a Copilot prompt dialog that generates formatted HTML summaries"
         }
       ]
     },
@@ -22978,11 +23073,16 @@
     "post/aardvarklabs-blog/3775": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3775",
-      "hash": "7c10049e66795d0b65434ec3503fa3af158e238ca8318d056d42266c7e1da85d",
+      "hash": "492c52a4c4b14ebc414b25e679b43a340a807e045c10119d1ffbdf968183833b",
       "title": "Connect Claude to Business Central MCP: A Step-by-Step Guide",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-09T00:41:42.615Z",
-      "matches": []
+      "at": "2026-11-26T01:01:48.231Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "Connect Claude to Business Central MCP: connecting Claude Desktop to a Business Central MCP server"
+        }
+      ]
     },
     "post/aardvarklabs-blog/3837": {
       "kind": "post",
@@ -23395,14 +23495,14 @@
     "post/bertverbeek-nl/1183": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1183",
-      "hash": "38b217cdcf9593405a969867bce6e80299d38f7473dcf81c1f17a94e7ace530c",
+      "hash": "d89073ddddaa6fb08b0e58da37c33b6350380c3004e807c7b97c1f5522fd2f68",
       "title": "Microsoft Agent Framework and Business Central MCP server",
       "source": "bertverbeek-nl",
-      "at": "2026-11-09T00:41:42.615Z",
+      "at": "2026-11-26T01:01:48.231Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Business Central MCP server enables AI agents to connect to Business Central"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "build .NET and Python agents that authenticate, connect to the MCP endpoint"
         }
       ]
     },
@@ -23450,11 +23550,16 @@
     "post/bertverbeek-nl/1219": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1219",
-      "hash": "605c2bc62cc36948afa4ef2e7108085a64c76ad43606eefdcef5e95d5716cc26",
+      "hash": "9a6a47bd468ac69d9f532d92d4ac107804d333afd5c13b44a0046ba8fc33ac05",
       "title": "Agents in Business Central – part 1 – the architecture",
       "source": "bertverbeek-nl",
-      "at": "2026-11-09T00:41:42.615Z",
-      "matches": []
+      "at": "2026-11-26T01:01:48.231Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "create custom agents that process tasks asynchronously using an orchestrator architecture"
+        }
+      ]
     },
     "post/bertverbeek-nl/1237": {
       "kind": "post",
@@ -23541,18 +23646,14 @@
     "post/bertverbeek-nl/1290": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1290",
-      "hash": "3d4036aecf99e101c919c30e28833c355377eca48874ad9835b0a44508f6a941",
+      "hash": "867814ab677e6775efce11838d433441eca610d3d9d3aa4938446af987048c78",
       "title": "Agents in Business Central – part 6 – The conclusion",
       "source": "bertverbeek-nl",
-      "at": "2026-11-09T00:41:45.411Z",
+      "at": "2026-11-26T01:01:48.231Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "agents built directly in Business Central with those created in Copilot Studio"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle",
-          "quote": "BC agents suit large-scale email processing and data entry tasks"
+          "quote": "compares agents built directly in Business Central with those created in Copilot Studio"
         }
       ]
     },
@@ -23633,18 +23734,14 @@
     "post/demiliani-com/11739": {
       "kind": "post",
       "key": "post/demiliani-com/11739",
-      "hash": "4526778a0429d0ccd1b8062bbe9bd961a19daf97e50ad9c7d7cbe249964bc0fb",
+      "hash": "d2a01470befed8d3fcdf276bb49e0d1f4827aa8d9675832d768e88cabbe0749e",
       "title": "Dynamics 365 Business Central agent capabilities: how much does they cost me?",
       "source": "demiliani-com",
-      "at": "2026-11-09T00:41:45.411Z",
+      "at": "2026-11-26T01:01:48.231Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales Order Agent in 2025 Wave 1 (version 26) reads customer emails, clarifies missing details"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "reads customer emails, clarifies missing details over multi-turn email, checks item availability"
+          "quote": "Sales Order Agent in Business Central 2025 Wave 1 automates email-based sales quote processing"
         }
       ]
     },
@@ -24211,11 +24308,16 @@
     "post/demiliani-com/12705": {
       "kind": "post",
       "key": "post/demiliani-com/12705",
-      "hash": "229cd6556f1c071df58d1ba6d8458eb7ad11b12c11018c23e9069305d921916b",
+      "hash": "920b83f418c5a0c435563d1ac59e3bafd20d71b55cd1b328f865fbc1f6109d5e",
       "title": "Understanding LLM performance degradation: a deep dive into Context Window limits",
       "source": "demiliani-com",
-      "at": "2026-11-09T00:41:45.411Z",
-      "matches": []
+      "at": "2026-11-26T01:01:48.993Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "Understanding LLM performance degradation: a deep dive into Context Window limits"
+        }
+      ]
     },
     "post/demiliani-com/12734": {
       "kind": "post",
@@ -24636,18 +24738,18 @@
     "post/demiliani-com/13611": {
       "kind": "post",
       "key": "post/demiliani-com/13611",
-      "hash": "6c96e55c3dcf715be694d2800cb30382f92ed7ad48eb67101776fba1374a28e5",
+      "hash": "e3c49892fed21054e97cb5f200becff29169532ac6718af44040c90a349a5f0a",
       "title": "From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.",
       "source": "demiliani-com",
-      "at": "2026-11-09T00:41:45.860Z",
+      "at": "2026-11-26T01:01:48.993Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "agentic by default, enabling models to call multiple tools and external services within a single request"
         }
       ]
     },
@@ -25176,13 +25278,13 @@
     "post/demiliani-com/15981": {
       "kind": "post",
       "key": "post/demiliani-com/15981",
-      "hash": "55ae2a85bbd0cb51aae2c786bffbdb0598df8c77015b9e543bd215e68a6c1177",
+      "hash": "332050469cf4e86929bce06cb63a3fa45a3bbad8a60d206b719d79ae17b9cc4c",
       "title": "Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.",
       "source": "demiliani-com",
-      "at": "2026-11-10T00:52:31.320Z",
+      "at": "2026-11-26T01:01:56.888Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
           "quote": "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
         }
       ]
@@ -28465,18 +28567,14 @@
     "post/katson-com/4678": {
       "kind": "post",
       "key": "post/katson-com/4678",
-      "hash": "37fb41e1d36fd114eeb73140cebdda59febbfe3526f9c28a45c4e36924b6f4bc",
+      "hash": "a3f83ee5aa9a245faa9c1a2788d42dab002ecb66ea537d9b23151ab3a43f442f",
       "title": "Connect Any Agent to Business Central",
       "source": "katson-com",
-      "at": "2026-11-09T00:41:45.860Z",
+      "at": "2026-11-26T01:01:48.993Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Connect external AI agents to Business Central using the Model Context Protocol"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "The author's Python bc-mcp-proxy installs via pip, runs on Mac, Windows and Linux"
+          "quote": "Connect Any Agent to Business Central using the Model Context Protocol"
         }
       ]
     },
@@ -29113,10 +29211,10 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242",
-      "hash": "325ff4c022be55e3fded8a4b6ba5d4bad94309d92f91ff631429c8f2398319e0",
+      "hash": "02308698ae90bc122262ebce6ae37d991d51a912900e7e7fe955f06b5fb5a553",
       "title": "Dynamics NAV, GP and SL: Why I Think Customers Should Start Planning Now",
       "source": "mohana-blog",
-      "at": "2026-11-10T00:52:40.645Z",
+      "at": "2026-11-26T01:02:02.647Z",
       "matches": []
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190": {
@@ -33750,18 +33848,22 @@
     "post/thinkaboutit-be/7813": {
       "kind": "post",
       "key": "post/thinkaboutit-be/7813",
-      "hash": "08df4ae6085ebe135d94b307b04a3626f5a11187b2a4c4056d9a17dd6be1d2dc",
+      "hash": "7d6e96d49e1d4db77bbab50f852f95557b1dd97ec5674eb88c41d0dce540df8a",
       "title": "Quick Tip: BC28: What Is New in Document Reporting",
       "source": "thinkaboutit-be",
-      "at": "2026-11-10T00:52:31.320Z",
+      "at": "2026-11-26T01:01:56.888Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-          "quote": "BC28 introduces enhanced document reporting features including an improved Word add-in"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "table builder for layouts; lifecycle status management for user-defined layouts"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-word",
+          "quote": "improved Word add-in with a redesigned data picker; company-level default document language"
         },
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "36 new API endpoints cover sales, purchasing, inventory and assembly documents"
+          "quote": "36 new document APIs covering sales, purchasing, inventory, and assembly"
         }
       ]
     },
@@ -33881,14 +33983,18 @@
     "post/thinkaboutit-be/7943": {
       "kind": "post",
       "key": "post/thinkaboutit-be/7943",
-      "hash": "9b4d8153261d2f20a09dbd1fc6032b9b777317cbee317d6cbac50371b28c4615",
+      "hash": "8b33f018863c9bbbfb3c62092032f25082dd8a4d1643e00f03606bf7fe3a768b",
       "title": "Quick Tip: How Can You Download the Standard Business Central Power BI Reports?",
       "source": "thinkaboutit-be",
-      "at": "2026-11-10T00:52:31.320Z",
+      "at": "2026-11-26T01:01:56.888Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central",
-          "quote": "Business Central standard Power BI reports are now distributed through official Power BI template apps"
+          "quote": "Standard Power BI reports for Business Central through official Power BI template apps"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Power BI template apps; download PBIX files from Power BI workspaces"
         }
       ]
     },
@@ -33918,14 +34024,22 @@
     "post/thinkaboutit-be/7995": {
       "kind": "post",
       "key": "post/thinkaboutit-be/7995",
-      "hash": "0754a73caaccbe4d65016c23df45e9b860d63044afa017f28d67d874c75c6b75",
+      "hash": "e9197ae431e75e59c5ab6af58c33a8916fb168f0c5184f53ccc39459af17fbef",
       "title": "Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist",
       "source": "thinkaboutit-be",
-      "at": "2026-11-10T00:52:31.320Z",
+      "at": "2026-11-26T01:01:56.756Z",
       "matches": [
         {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Power BI and Business Central each have their own security model"
+        },
+        {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-          "quote": "Most Business Central Power BI issues stem from configuration problems"
+          "quote": "troubleshooting checklist covering environment connectivity, data source verification"
+        },
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings",
+          "quote": "SUPER in Business Central does not grant Power BI access"
         }
       ]
     },
@@ -34153,14 +34267,14 @@
     "post/thinkaboutit-be/8204": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8204",
-      "hash": "02b73bd72c2224031f8362caa2d613af78347e2820adc8d5c84a95f6d1f1050e",
+      "hash": "2471d3c14e2a90cf1a8e94a002eebb8d8a1d465485152ca4004e5b8c5be7afce",
       "title": "Quick Tip: What’s in Business Central Update 28.5?",
       "source": "thinkaboutit-be",
-      "at": "2026-11-09T00:41:43.926Z",
+      "at": "2026-11-26T01:01:48.993Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI resources"
         }
       ]
     },
@@ -34239,18 +34353,18 @@
     "post/thinkaboutit-be/8272": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8272",
-      "hash": "71ec5916f286464e4f51ac796d3bf126b5c1115abf661b76d2df11352ddbb34f",
+      "hash": "dc891335971dc49b746f444899a959e22a25de9a7475987d5e4e26bc65374b4d",
       "title": "Business Central 29: More Control Over Report Layouts and New Report Inbox APIs",
       "source": "thinkaboutit-be",
-      "at": "2026-11-10T00:52:31.320Z",
+      "at": "2026-11-26T01:01:56.756Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-          "quote": "extends report layout lifecycle management to layouts delivered by Microsoft and extensions"
+          "quote": "More Control Over Report Layouts and New Report Inbox APIs"
         },
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Report Inbox APIs enable external applications and automation tools to interact with scheduled reports"
+          "quote": "Report Inbox APIs enable Power Automate, Copilot Studio agents, and external applications"
         }
       ]
     },
@@ -34324,22 +34438,18 @@
     "post/thinkaboutit-be/8342": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8342",
-      "hash": "4a230f2efa38bf14cbf736706c061b1d642ec97e07fa0fb610b55d75c0e238c9",
+      "hash": "3ff8d6091deec1f5713e039021d430b0aa4b0ba0ecb24dfcf56223990cdcd17a",
       "title": "Business Central 29: Exploring the New Microsoft Copilot Chat",
       "source": "thinkaboutit-be",
-      "at": "2026-11-09T00:41:48.728Z",
+      "at": "2026-11-26T01:01:48.993Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "unified Microsoft Copilot Chat that combines Business Central data, web information, and Microsoft 365 work context"
+          "quote": "Business Central 29 introduces a new unified Microsoft Copilot Chat"
         },
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
           "quote": "Business Central MCP server enables Copilot to access standard data, extension data, and custom tables"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "administrators can manage AI capabilities through the Copilot & Agent Capabilities page"
         }
       ]
     },
@@ -34364,22 +34474,18 @@
     "post/thinkaboutit-be/8359": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8359",
-      "hash": "a6bca20eafd3b9df3a23e76ba7acfaee6939a9bbe21303687b4d93c0a72c93be",
+      "hash": "a5ae375c81391f51cee6d53916b6b80f383a9082d91683e15354459d01cf9376",
       "title": "Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric",
       "source": "thinkaboutit-be",
-      "at": "2026-11-09T00:41:48.728Z",
+      "at": "2026-11-26T01:01:48.993Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "agentic AL development with BCQuality, native Business Central-Fabric integration"
+          "quote": "agentic AL development with BCQuality for Business Central-specific knowledge"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "native Business Central-Fabric integration, native Business Central-Fabric mirroring replicates ERP data"
-        },
-        {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "Platform improvements include table-extension storage optimization, AL-based index management"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+          "quote": "native Business Central-Fabric integration, and platform performance improvements"
         }
       ]
     },
@@ -34422,14 +34528,14 @@
     "post/thinkaboutit-be/8400": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8400",
-      "hash": "19dd29f8b5e2cd5fde94e7117815fc7379ec9c8ec89e6c7661a0e751ccb0de29",
+      "hash": "1ab9c41d9b5c1104221e8ddd0a41589945eabbee88c7ee500468e36be6141815",
       "title": "Business Central 29: What’s New in the MCP Server?",
       "source": "thinkaboutit-be",
-      "at": "2026-11-16T00:55:34.926Z",
+      "at": "2026-11-26T01:01:52.875Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP server Data Query Tools that let AI agents dynamically construct and execute AL queries"
+          "quote": "new MCP server Data Query Tools that let AI agents dynamically construct and execute AL queries"
         }
       ]
     },
@@ -34540,11 +34646,16 @@
     "post/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/",
-      "hash": "d52359e3692146c0a6c862165f703190bc253ebd0ba68863b89cb8a39f5f2106",
+      "hash": "ebb557e6ecd4b5e0ca1b94eaba2bc1ffcf738fc85386c937ec0172a2b001785e",
       "title": "Context is a voting chamber",
       "source": "tine-staric-net",
-      "at": "2026-11-09T00:41:48.728Z",
-      "matches": []
+      "at": "2026-11-26T01:01:52.875Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "agent sessions; prompt caching; attention mechanisms; context management"
+        }
+      ]
     },
     "post/vjeko-com/https://vjeko.com/2025/11/09/end-of-free-backend-for-al-object-id-ninja/": {
       "kind": "post",
@@ -35420,11 +35531,15 @@
     "post/waldo-be/318707": {
       "kind": "post",
       "key": "post/waldo-be/318707",
-      "hash": "27aec2562468b346f7bea6f7e7d76c8347f0c81e13a38d488c7e3db6313e9983",
+      "hash": "6c18fe42b54832350d0fbaca3a8ff8c8e6d9466096cc812a34fae643728f056b",
       "title": "Business Central data in Fabric: the way it should be",
       "source": "waldo-be",
-      "at": "2026-11-10T00:52:31.320Z",
+      "at": "2026-11-26T01:01:56.756Z",
       "matches": [
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
+          "quote": "native data mirroring to Microsoft Fabric, allowing users to replicate"
+        },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
           "quote": "Business Central now supports native data mirroring to Microsoft Fabric"
@@ -35620,18 +35735,14 @@
     "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html",
-      "hash": "40fc0d3b72d92f909b43693876cfb595a511afef8551346c09dff3d5120b279a",
+      "hash": "89136b019b4a0bb0790a98c752155d29ac279ed9995ed60947e2082338eb3b04",
       "title": "AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026",
       "source": "wingate365-com",
-      "at": "2026-11-09T00:41:49.251Z",
+      "at": "2026-11-26T01:01:52.875Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Business Central now has a built-in MCP server"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "MCP is the standard protocol for connecting AI tools to external systems"
+          "quote": "Business Central now has a built-in MCP (Model Context Protocol) server"
         }
       ]
     },
@@ -36240,14 +36351,18 @@
     "post/yzhums-com/63730": {
       "kind": "post",
       "key": "post/yzhums-com/63730",
-      "hash": "ef73a6db5399316f93db1c62bbe143ec828b2beda3ae76ea187da0c781674f7e",
+      "hash": "c09f4320606058521690fc4919b515d79df6445b466ddf3397acf83f4a7a8527",
       "title": "Dynamics 365 Business Central Blog Series: Preview files directly in the web client",
       "source": "yzhums-com",
-      "at": "2026-11-10T00:52:30.246Z",
+      "at": "2026-11-26T01:01:59.452Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
-          "quote": "preview files directly in the web client; native support"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "preview various file types; pdf viewer; image viewer; web client"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "SharePoint-hosted files; sharepoint integration; document preview"
         }
       ]
     },
@@ -36491,11 +36606,16 @@
     "post/yzhums-com/63942": {
       "kind": "post",
       "key": "post/yzhums-com/63942",
-      "hash": "b925ed552513deffa037b1d97a7aa2b589c9073b6cebebae9711fc3cc6542370",
+      "hash": "aa16a47f6aa5f048c0652643f4df3b7a68fbec668f73b492a4fbd5d33b32bb2a",
       "title": "Dynamics 365 Business Central: How to preview Word (.docx) in web client without downloading (No control add-in and APIs)",
       "source": "yzhums-com",
-      "at": "2026-11-10T00:52:30.246Z",
-      "matches": []
+      "at": "2026-11-26T01:01:58.701Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "preview Word (.docx) files in Business Central 2025 wave 1 without downloading"
+        }
+      ]
     },
     "post/yzhums-com/64010": {
       "kind": "post",
@@ -37024,14 +37144,14 @@
     "post/yzhums-com/65721": {
       "kind": "post",
       "key": "post/yzhums-com/65721",
-      "hash": "2d71c4335b88bc4039d89d0b9e2553052a68f7d3ea58f834111da0c55f02b8ad",
+      "hash": "d05b7912b7d17eda6a4dc49ed6fd2e0ad696c11c155fbc74b04cf47b3cb7c40b",
       "title": "Business Central 2025 wave 1 (BC26.3): Automate payables processes with the Payables Agent",
       "source": "yzhums-com",
-      "at": "2026-11-09T00:41:49.251Z",
+      "at": "2026-11-26T01:01:52.875Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
-          "quote": "Payables Agent in Business Central 2025 wave 1 automates accounts payable work"
+          "quote": "The Payables Agent in Business Central 2025 wave 1 automates accounts payable work"
         }
       ]
     },
@@ -38432,18 +38552,14 @@
     "post/yzhums-com/68873": {
       "kind": "post",
       "key": "post/yzhums-com/68873",
-      "hash": "d0cac12b6c6c495930d6bf4c96f1b2fa8970c8eeb3978db0ce56a7d144e7dfc1",
+      "hash": "7f0c9e06a68d0709ce1154207d624aef08aa5dddba2e377b9a756760bcf58725",
       "title": "Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)",
       "source": "yzhums-com",
-      "at": "2026-11-09T00:41:48.862Z",
+      "at": "2026-11-26T01:01:52.875Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
           "quote": "Connect AI agents to Business Central through MCP server"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "MCP is an open standard that lets AI agents discover and invoke Business Central operations"
         }
       ]
     },
@@ -38836,18 +38952,14 @@
     "post/yzhums-com/69639": {
       "kind": "post",
       "key": "post/yzhums-com/69639",
-      "hash": "2167eebadbc3c55a713972ab9c1089309f586f982cadb3250dc3571a3ba8def9",
+      "hash": "dd37c6c84dde4e56aca778bb6c3fce27b77ec20224d8a404773b28fc31f4bb3e",
       "title": "Dynamics 365 Business Central Blog Series: Work with dimensions",
       "source": "yzhums-com",
-      "at": "2026-11-10T00:52:40.645Z",
+      "at": "2026-11-26T01:02:03.026Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-dimensions",
-          "quote": "Dimensions in Dynamics 365 Business Central; default dimensions; shortcut dimensions; dimension setup"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "setting dimensions through the standard API; reading dimension captions in AL"
+          "quote": "covers dimensions in Dynamics 365 Business Central, including how to add shortcut dimensions"
         }
       ]
     },
@@ -38905,18 +39017,18 @@
     "post/yzhums-com/69812": {
       "kind": "post",
       "key": "post/yzhums-com/69812",
-      "hash": "06f4b3b6339c97bb99cf8ad66970d5b532da1de24bba9ca2260589364f36918d",
+      "hash": "42a528337b3e10201649e3e051468d7f67d82cf9838c3f347cd8e11d6cad8184",
       "title": "Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)",
       "source": "yzhums-com",
-      "at": "2026-11-10T00:52:32.078Z",
+      "at": "2026-11-26T01:01:56.756Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-excel",
-          "quote": "Excel layouts can open in Excel for the web instead of downloading"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "Reports with Excel layouts can open in Excel for the web"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive",
-          "quote": "Use OneDrive for system features copies Excel and Word report output to OneDrive"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-excel",
+          "quote": "Use OneDrive for system features is turned on in the OneDrive Setup"
         }
       ]
     },
@@ -41551,14 +41663,14 @@
     "post/yzhums-com/75811": {
       "kind": "post",
       "key": "post/yzhums-com/75811",
-      "hash": "dee39f6485728482dc8eeb243ae7b27c75c33ba3266d6c41467c2aa7b2ad2a49",
+      "hash": "ffb4672174d40231b715fb41c839318f4c29346e7dad278e0012fbfc6dc35fca",
       "title": "Business Central 2026 release wave 2 (BC29): Enable unified Copilot chat experience consistent with Microsoft Copilot (New Chat with Copilot)",
       "source": "yzhums-com",
-      "at": "2026-11-13T00:57:19.570Z",
+      "at": "2026-11-26T01:01:52.875Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "unified Copilot chat experience that matches Microsoft 365 Copilot's interface"
+          "quote": "unified Copilot chat experience consistent with Microsoft Copilot"
         }
       ]
     },
@@ -41954,14 +42066,14 @@
     "post/yzhums-com/76419": {
       "kind": "post",
       "key": "post/yzhums-com/76419",
-      "hash": "b026fea1d37aa5abaa02a2821f3f149239955df1068b7bb83f2eca7a524631f5",
+      "hash": "32a9281915939cca621243bcd4a742142466583ee29b109fa16600f8425e92b4",
       "title": "Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)",
       "source": "yzhums-com",
-      "at": "2026-11-13T00:57:19.570Z",
+      "at": "2026-11-26T01:01:53.020Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Data Query Tools for the MCP Server, enabling AI agents to define, validate, and run"
+          "quote": "Data Query Tools is a new preview feature that adds system tools"
         }
       ]
     },
@@ -42378,36 +42490,32 @@
     "post/yzhums-com/77170": {
       "kind": "post",
       "key": "post/yzhums-com/77170",
-      "hash": "644b4d8d294e3869db91abc5f871e3de1287be624bb412e1ca69736e0f613704",
+      "hash": "95af7ec1608b2f301038850995b0f3229eeb412e4bbf22e94d4e6a539412af31",
       "title": "Microsoft Announces New Business Central + Copilot Bundles Starting January 2027",
       "source": "yzhums-com",
-      "at": "2026-11-13T00:57:19.570Z",
+      "at": "2026-11-26T01:01:53.020Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Copilot is available directly inside Business Central as a unified chat experience"
+          "quote": "From BC29 (2026 release wave 2), Copilot is available directly inside Business Central"
         }
       ]
     },
     "post/yzhums-com/77184": {
       "kind": "post",
       "key": "post/yzhums-com/77184",
-      "hash": "cfe1141b1a64f50b1931a40be9a0003d1f3846ba74e46e1ebf4691cd0f747f70",
+      "hash": "1846b2fd2a883b2eb65f8164c3fff29870ad3fba11959b21802046d64c1786b2",
       "title": "Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)",
       "source": "yzhums-com",
-      "at": "2026-11-19T00:54:31.459Z",
+      "at": "2026-11-26T01:01:56.756Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "data mirroring to Microsoft Fabric, enabling organizations to synchronize"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
+          "quote": "data mirroring to Microsoft Fabric, enabling organizations to synchronize selected companies"
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
-          "quote": "data mirroring replicates Business Central data to Microsoft Fabric's OneLake"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
-          "quote": "Data mirroring replicates Business Central data to Microsoft Fabric's OneLake in Delta Parquet format"
+          "quote": "Data mirroring replicates Business Central data to Microsoft Fabric's OneLake"
         }
       ]
     },
@@ -42573,14 +42681,14 @@
     "video/_JkZCp64jNw": {
       "kind": "video",
       "key": "video/_JkZCp64jNw",
-      "hash": "adc1eaf9565d464540064e6bb0a3ce0bd5bf3a9b2db5d55481b3e3970b1db257",
+      "hash": "6bfe3f7d02e70327e0c3945a1ec5911d1bcb98303333987c31b2b697efa00b5c",
       "title": "Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:35.844Z",
+      "at": "2026-11-26T01:01:47.506Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales Order Agent; Sales Order Agent Item Availability Feature; Sales Order Agent"
+          "quote": "Sales Order Agent; Sales Order Agent Item Availability Feature; Sales Order Agent Email Insights"
         }
       ]
     },
@@ -42836,14 +42944,14 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "30ae39eddcc63477b34be8d96df7d7380a8475dcf4e38df183bd19099526dc17",
+      "hash": "6336e3bb9c3176d3c8375c139b1fccc9fbfa7379cb970d48424f7050c98cbbb9",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:31.256Z",
+      "at": "2026-11-26T01:01:47.851Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Enhanced MCP Server. Topics: mcp server; configuration validation; import export"
+          "quote": "MCP Server; configuration validation; import export; connection string; telemetry"
         }
       ]
     },
@@ -42877,14 +42985,22 @@
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "8080a420e7126b951c086a283dc774d9bab0ac33c48017351deef33a8f4145c6",
+      "hash": "192ca45ee4d2d92816c4bc9f166475984eeff8add7addab4fae25bcdbb094dee",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
       "source": "yt-areopa",
-      "at": "2026-11-10T00:52:33.054Z",
+      "at": "2026-11-26T01:01:56.652Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
           "quote": "Excel report layouts; Power Query integration for refreshable reports"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-excel",
+          "quote": "OneDrive integration for Excel reports; Excel report layout testing"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "Business Central API structure and authentication; Custom APIs for Excel reports"
         }
       ]
     },
@@ -42982,22 +43098,14 @@
     "video/1x3QyBX3swg": {
       "kind": "video",
       "key": "video/1x3QyBX3swg",
-      "hash": "245a293a08fbace4bf64b0dde7ac156cc39116ccde01a538b551834083ba3ec3",
+      "hash": "78699e7bd67c47065862277cff4b8a12e03d212ca8f4d8069d05cc6b03e9f790",
       "title": "Microsoft presents: Index management",
       "source": "yt-mibuso",
-      "at": "2026-11-10T00:52:34.479Z",
+      "at": "2026-11-26T01:01:59.452Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
-          "quote": "index management; sql server indexes; storage optimization; index usage statistics"
-        },
-        {
           "topic": "topic/dev-itpro/performance",
-          "quote": "performance tuning; fragmentation; missing indexes; disabled indexes"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
-          "quote": "Telemetry for Index Changes; Just-in-time index enabling; Automatic index rebuild"
+          "quote": "index management; sql server indexes; storage optimization; index usage statistics"
         }
       ]
     },
@@ -43032,14 +43140,18 @@
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "384487f8389132cc1cc09024467928eb66f4491e1b7b4e96796a4b1fba22d603",
+      "hash": "083489d3451dd093432fdec2120579336ce24059f4827d20c71a5fce52ee703e",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:38.805Z",
+      "at": "2026-11-26T01:02:03.969Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/denmark/auditing",
-          "quote": "Mandatory Digital Vouchers; SAF-T Module; NemHandle Registration Notification; E-invoicing for Denmark"
+          "topic": "topic/business-central/business-functionality/local-functionality/denmark",
+          "quote": "danish bookkeeping act; audit trail; saf-t export; digital vouchers"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/denmark/electronic-invoicing",
+          "quote": "e-invoicing for denmark; digital voucher storage for five years"
         }
       ]
     },
@@ -43078,21 +43190,17 @@
     "video/2isrH3RcSK8": {
       "kind": "video",
       "key": "video/2isrH3RcSK8",
-      "hash": "96278b9fcbfa908fa37859f52e5531bfe7350ab9d1802cd8e887c3b9535d9c3e",
+      "hash": "35cd1d29540a4a993ae65eea3211e30d903e927ee469a8d3100515c833806ebb",
       "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:31.256Z",
+      "at": "2026-11-26T01:01:47.851Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Copilot Chat for data inquiries; Copilot Chat multilingual support"
+          "quote": "Copilot Chat for data inquiries; Copilot Chat multilingual support; Copilot for Finance"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
-          "quote": "Copilot item substitution generation; Copilot number series generation"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics",
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
           "quote": "Subscription billing; Power BI reports expansion; Financial reports and definitions"
         }
       ]
@@ -43118,11 +43226,15 @@
     "video/2N2NhNH7dsk": {
       "kind": "video",
       "key": "video/2N2NhNH7dsk",
-      "hash": "acb509797df6c172e6773bb089fcce8f72257fb64a1ba965bbce63150236c0f0",
+      "hash": "387e3d27e94912443fd4773dc70f9b035f94164d5df45c2eb63ac53cf0f28f20",
       "title": "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:33.054Z",
+      "at": "2026-11-26T01:01:56.652Z",
       "matches": [
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports",
+          "quote": "Layout management; layout status; report layouts; report inbox"
+        },
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
           "quote": "Report inbox APIs; API overview page for report inbox"
@@ -43355,22 +43467,14 @@
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "887694324cf2c66e69a18437ba7518a1f45ecd5b72093a7b7240a30ca325811f",
+      "hash": "584615ab819be7460f8291bf3d8e911d16cbc2b1e7a2d7cf0ab573f728c2133b",
       "title": "MCP Server and API Queries (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:32.442Z",
+      "at": "2026-11-26T01:01:47.851Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
           "quote": "API queries in MCP server; Analytics API reference documentation; MCP server configuration"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis/analytics-api-reference",
-          "quote": "Analytics APIs; agent development. Shows: API queries in MCP server"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "external agents; agent development. Shows: API queries in MCP server"
         }
       ]
     },
@@ -43939,17 +44043,17 @@
     "video/6zj34hjbpGU": {
       "kind": "video",
       "key": "video/6zj34hjbpGU",
-      "hash": "5e4a129aecb4f1ffe5d32a504f2446d511a69d5659c50ba839468e3ef4295372",
+      "hash": "a228759fb78359c789506aa2c29895ea969e5b8128206f06de9f59b92ef2ca34",
       "title": "How Business Central Integrates with Microsoft Excel (2025)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:33.054Z",
+      "at": "2026-11-26T01:01:56.652Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-excel",
-          "quote": "Export data to Excel; Open or Edit in Excel option"
+          "quote": "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
           "quote": "Pivot table creation; Pivot chart visualization; Data connection refresh"
         }
       ]
@@ -43975,22 +44079,18 @@
     "video/7lxkboRGw28": {
       "kind": "video",
       "key": "video/7lxkboRGw28",
-      "hash": "e7468c3cef5b5a2563e48db7389eac2c62a8086e7e546b29bff004bcea205319",
+      "hash": "2f9a4854c4c1ee398e239c69e4e6d58c030b3a2b1a4b3aa6f360bf5dc99c6c0c",
       "title": "20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central",
       "source": "yt-areopa",
-      "at": "2026-11-17T00:55:36.904Z",
+      "at": "2026-11-26T01:01:56.652Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central",
-          "quote": "Deploy & Embed Power BI Apps in Business Central. Topics: power bi apps; licensing; deployment"
+          "quote": "Power BI apps for Business Central; Five-click deployment for Business Central Power BI apps"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-          "quote": "Five-click deployment for Business Central Power BI apps; Power BI workspace setup and access control"
-        },
-        {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports",
-          "quote": "Power BI Apps as Embedded Business Central Reports; Multi-company reporting with Fabric"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
+          "quote": "Business Central mirroring to Fabric; Fabric mirrored database setup; Multi-company reporting"
         }
       ]
     },
@@ -44034,22 +44134,14 @@
     "video/7rIHz0zrgWU": {
       "kind": "video",
       "key": "video/7rIHz0zrgWU",
-      "hash": "4c0228258f9ba1ab2b44a0666e799b9696df3a62c9ca3fa37d513a70d70d9d29",
+      "hash": "08d1ceb7df018220c844dca7f26810ec35ddcc25937d221bba682b6337b7508a",
       "title": "What's New: Telemetry (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:33.054Z",
+      "at": "2026-11-26T01:01:56.652Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
-          "quote": "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
-        },
-        {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
-          "quote": "Long running AL telemetry - total and exclusive time; Web service error troubleshooting guides"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-          "quote": "Business Central Usage Analytics PowerBI app; PowerBI metrics alerting"
+          "quote": "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
         }
       ]
     },
@@ -45046,14 +45138,14 @@
     "video/BofJJPqgrTI": {
       "kind": "video",
       "key": "video/BofJJPqgrTI",
-      "hash": "c0db061a5384c7fa3d0798b29ac4bfc523f5eff7be9dbcc685cff7efa5b43e91",
+      "hash": "4894d7fc955b110718348c37812a45769687bc9eb879943f17f600a6fa56b94b",
       "title": "What's New: Excel Layouts For Developers (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:33.054Z",
+      "at": "2026-11-26T01:01:56.652Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-          "quote": "Translatable Excel Layouts; Report Metadata Worksheet; Refreshable Excel Reports via Power Query"
+          "quote": "Translatable Excel Layouts; Refreshable Excel Reports via Power Query"
         },
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
@@ -45201,14 +45293,14 @@
     "video/C5cmG3sNjUg": {
       "kind": "video",
       "key": "video/C5cmG3sNjUg",
-      "hash": "b9ff5d4f6a7c8a7904ea46f3d8d5c4e491d1c8d987e2e0e4a9bbe846af864f2c",
+      "hash": "c70c22608fd80a1ffe1443d7c8564bb30a4938dcc12fbf33ad251e7ca8a185aa",
       "title": "MCP Server for Business Central - Advanced Topics (Part 3)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:32.442Z",
+      "at": "2026-11-26T01:01:47.851Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP Server for Business Central; Dynamic Tools System; Copilot Studio Support"
+          "quote": "MCP Server for Business Central; Default Configuration Mode; Named Configurations; Dynamic Tools System"
         }
       ]
     },
@@ -45474,18 +45566,14 @@
     "video/cVfZoDwKYpI": {
       "kind": "video",
       "key": "video/cVfZoDwKYpI",
-      "hash": "e71250f55704858f5c806f8017872d12642d24c38347fd6833f3c151783b54d7",
+      "hash": "6c1952b9ef69e6d445fb9abd1dd58bcc42603579ce5763657039ff7302db1706",
       "title": "Microsoft presents: Behind the scenes of how we build the new Expense Agent",
       "source": "yt-mibuso",
-      "at": "2026-11-09T00:41:37.818Z",
+      "at": "2026-11-26T01:01:47.506Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Behind the scenes of how we build the new Expense Agent"
-        },
-        {
-          "topic": "topic/business-central/responsible-ai",
-          "quote": "harmful eval testing and red teaming; eval-driven development"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent; Receipt Extraction via AI; Mobile Expense Submission"
         }
       ]
     },
@@ -45533,18 +45621,14 @@
     "video/cZCSi6khZFo": {
       "kind": "video",
       "key": "video/cZCSi6khZFo",
-      "hash": "71ef88d1aae712ed95cae2c54c11ec7562a740b94540ef612be33298fbe445b8",
+      "hash": "310c4a050af22c2869d8b8353e2b87c32f183b6455c0b3a0a529310230b24cf0",
       "title": "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:37.818Z",
+      "at": "2026-11-26T01:01:47.506Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
-          "quote": "Sales Lines Suggestions with Copilot; natural language processing"
-        },
-        {
-          "topic": "topic/business-central/responsible-ai",
-          "quote": "ai-powered search; confidence scoring; item matching"
+          "quote": "Sales Line Suggestion with Copilot; Item Search via Attributes and Catalog"
         }
       ]
     },
@@ -46059,32 +46143,28 @@
     "video/egE6UdOfar0": {
       "kind": "video",
       "key": "video/egE6UdOfar0",
-      "hash": "adbd641b88f817b1ffa6fb8ffc3a7ab77bf85d28b918974a1d7a4d48f59863b3",
+      "hash": "ea222933d6dcd25af96a13e7f830a653cb604afede0bba78ee823001812f8f77",
       "title": "Introducing: Expense Agent in Business Central (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:37.260Z",
+      "at": "2026-11-26T01:02:03.969Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
-          "quote": "Expense Agent, receipt processing, approval workflow, expense reporting"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "expense agent in business central; receipt processing; expense categorization"
         }
       ]
     },
     "video/EpDIrJE0HzA": {
       "kind": "video",
       "key": "video/EpDIrJE0HzA",
-      "hash": "9c3c2c0b5b7d7b144a262fc757c75186eebbb954c25d72428b07a5964af585d6",
+      "hash": "94cd416c5f87a9c9db5265b8ec480e6c3aa6e0f9c3fb00ea7f4f6030f9cfb332",
       "title": "Build an Agent in Microsoft Copilot Studio for Business Central (2025)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:30.509Z",
+      "at": "2026-11-26T01:01:47.851Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Model Context Protocol (MCP) server for Business Central"
-        },
-        {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Copilot Studio agents for Business Central"
+          "quote": "Copilot Studio agents for Business Central; Model Context Protocol (MCP) server for Business Central"
         }
       ]
     },
@@ -46204,10 +46284,10 @@
     "video/F_pssS0FtUc": {
       "kind": "video",
       "key": "video/F_pssS0FtUc",
-      "hash": "5a2b94b55b112835ec5edaf334484a701d0b3dac8ac8477ad4783166a1aebdfb",
+      "hash": "48c190036c64d434a769ace373ed7d02d371c32e6189af9a74f388b342060bb8",
       "title": "Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:34.479Z",
+      "at": "2026-11-26T01:01:59.452Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
@@ -46215,7 +46295,7 @@
         },
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-          "quote": "Business Central Usage App; DAU/WAU/MAU Report; Sessions Report; User Locations Report"
+          "quote": "Power BI Metrics; Usage Report; Excel layouts for reports"
         }
       ]
     },
@@ -46497,18 +46577,22 @@
     "video/fy96_jdL1PQ": {
       "kind": "video",
       "key": "video/fy96_jdL1PQ",
-      "hash": "3c254f17091a943f27c8444b637ec446f425ec7dd193d522a59b01102c8162b2",
+      "hash": "1467539de0fc2f62a4eab33bc96e4c6572d3559deb7d269dc27e98ef7916c344",
       "title": "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central",
       "source": "yt-dynamicscorner",
-      "at": "2026-11-10T00:52:31.739Z",
+      "at": "2026-11-26T01:01:56.888Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports",
-          "quote": "reporting capabilities; training strategy; reporting technologies; power bi; dashboards"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports",
+          "quote": "reporting capabilities; training strategy; user adoption; learning management"
         },
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-          "quote": "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards; PowerBI Scorecards"
+          "quote": "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "Multiple report layouts; RDLC reports and layouts; Word report layouts; Excel report layouts"
         }
       ]
     },
@@ -46627,14 +46711,14 @@
     "video/GeT5E_f9A9Q": {
       "kind": "video",
       "key": "video/GeT5E_f9A9Q",
-      "hash": "552414c7a4306ac791d2fc0447a721f0f9540ab33b88b4960a82076cf76bd5be",
+      "hash": "c30fa50a7eca1fc35e7cc416a282baf3fe8fb0ade70597fc0bc77c4a574b1f14",
       "title": "Introducing MCP Server Configurations for Business Central (Part 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:30.509Z",
+      "at": "2026-11-26T01:01:47.851Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP Server Configurations; Dynamic Tool Mode"
+          "quote": "MCP Server Configurations; Dynamic Tool Mode; Discover Additional Objects; Bound Actions in MCP"
         }
       ]
     },
@@ -46894,22 +46978,14 @@
     "video/H5EuObmeF4o": {
       "kind": "video",
       "key": "video/H5EuObmeF4o",
-      "hash": "65e5d25e65e102e1c9029fbd5899615f445c1e7061e63d0954e4051ac7385936",
+      "hash": "e94a48d9dfb55854dfa216df84a753df6ab887b8fa3927d2b4b2afb9040a22a1",
       "title": "Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)",
       "source": "yt-bcmusings",
-      "at": "2026-11-09T00:41:30.509Z",
+      "at": "2026-11-26T01:01:50.430Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
-          "quote": "Enhanced sales order agent; Payables agent contextual invoice drafts"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/autofill-preview",
-          "quote": "Autofill with Copilot field suggestions"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP server for Business Central"
+          "quote": "Payables agent contextual invoice drafts; Payables agent confidence level prioritization"
         }
       ]
     },
@@ -46930,14 +47006,14 @@
     "video/h6a8BVzvuZ4": {
       "kind": "video",
       "key": "video/h6a8BVzvuZ4",
-      "hash": "d1400ff1055ee3ea3ad6ede18526197df72f434fd179ec42fccfbd33a2cd8766",
+      "hash": "c32b4fa85a38489480107214bd18208943e8609cbd6b68a873c292459fb11e42",
       "title": "What's New: E-Documents and Clearance Model (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:38.455Z",
+      "at": "2026-11-26T01:02:02.647Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "E-documents and Clearance Model; e-invoicing; access points; qr codes"
+          "quote": "Clearance model for e-documents; E-document workflow orchestration; Clearance service"
         }
       ]
     },
@@ -47168,14 +47244,18 @@
     "video/hS8yWS3bxWE": {
       "kind": "video",
       "key": "video/hS8yWS3bxWE",
-      "hash": "8908012b0ebcae3158190adc786e45973421985926ab7b080c225e0fa9c5c664",
+      "hash": "96a69aeab068b7e0458f90eefa2d26e304885937eaab3c0369b98f4b5b013aa3",
       "title": "What's New: Telemetry (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:34.479Z",
+      "at": "2026-11-26T01:01:59.452Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/financial-analytics/financial-reporting",
-          "quote": "Financial Reporting Usage Telemetry; Financial Reporting Definition Changes Telemetry"
+          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
+          "quote": "telemetry; financial reporting; client add-ins; certificate validation"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
+          "quote": "Client Add-ins Exception Telemetry; Server-side Certificate Validation Telemetry"
         }
       ]
     },
@@ -47326,14 +47406,18 @@
     "video/I7i25zBfyEQ": {
       "kind": "video",
       "key": "video/I7i25zBfyEQ",
-      "hash": "ee1071475f8df3b93bc43804eea41d1aec9b42d857af03dfac4d971ac880f9c0",
+      "hash": "11b5dfdbb39e0b859cad3154c5931cc9fe3f9345a23ae0e82b96799ab819e318",
       "title": "Sales Order Agent for Dynamics 365 Business Central (2025)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:33.761Z",
+      "at": "2026-11-26T01:01:50.430Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales Order Agent; autonomous agents; email integration; quote creation"
+          "quote": "Sales Order Agent; Agent setup and configuration; Outlook email integration for agent"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "Sales Order Agent for Dynamics 365 Business Central"
         }
       ]
     },
@@ -47958,14 +48042,14 @@
     "video/k0pugXY4CEw": {
       "kind": "video",
       "key": "video/k0pugXY4CEw",
-      "hash": "d4383167465bd560aa0e69fc8eaebd49781f8958cc72045c300102983eb1652d",
+      "hash": "1241aa7290a94cbb153a387fa726b520043e5e514a6d006e4666fac145cf92c1",
       "title": "What's New: IRS1099 Integration with IRIS (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:38.455Z",
+      "at": "2026-11-26T01:02:02.647Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/united-states/tax",
-          "quote": "1099 forms; irs integration; electronic filing; tax compliance"
+          "quote": "1099 electronic filing to IRS; 1099 form documents; IRS transmission"
         }
       ]
     },
@@ -48232,36 +48316,32 @@
     "video/kOCiyVql0go": {
       "kind": "video",
       "key": "video/kOCiyVql0go",
-      "hash": "3896a9065d8984c8a0473513d319943e8fe4e0c527dbbce20c0611762094cacc",
+      "hash": "cc0c754dba7a75668edac0f04208f4f1402eb4c3288e08e2d20432d5f232ae96",
       "title": "Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:31.739Z",
+      "at": "2026-11-26T01:01:56.888Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "fabric mirroring; datalake; onelake; power bi apps; multi-company reporting"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
+          "quote": "Microsoft Fabric integration; Mirror database in OneLake; Multi-company Power BI apps"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
-          "quote": "Business Central Fabric mirroring; Mirror database in OneLake; Fabric integration APIs"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Power BI apps; multi-company reporting; synchronization; monitoring"
         }
       ]
     },
     "video/KpQS7c6YGRo": {
       "kind": "video",
       "key": "video/KpQS7c6YGRo",
-      "hash": "43dedad1ea4318eedcec7ea9e4748bd75e7c078c621e237af499cea130b9338e",
+      "hash": "b3146826acf460d46e073fa7bd1b68e7e23dff0faaa7a5f91466ac966e941413",
       "title": "What's New: Marketing Text Suggestions (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:33.761Z",
+      "at": "2026-11-26T01:01:50.430Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/marketing-text-suggestions",
-          "quote": "marketing text suggestions; copilot; ai-powered features; product descriptions"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Feature Toggle in Feature Management; Copilot and AI Capabilities Page Toggle"
+          "quote": "Marketing Text Suggestions; Fact Box UI for Marketing Text; Prompt Customization"
         }
       ]
     },
@@ -48885,14 +48965,14 @@
     "video/mS6NDhj20yI": {
       "kind": "video",
       "key": "video/mS6NDhj20yI",
-      "hash": "131879ac7f0154e95874c2790e606bfadc9f46716a2bec1d1e607ff493443504",
+      "hash": "11bb8213f206caa83aacad32dc14c7d1d4110bf352d5f03c15f84bb0b322e685",
       "title": "What's New: Enhanced Document Reporting (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:31.739Z",
+      "at": "2026-11-26T01:01:56.888Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-          "quote": "word add-in; data picker; document layout; table builder; layout lifecycle"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-word",
+          "quote": "word add-in; data picker; document layout; multi-language documents"
         }
       ]
     },
@@ -49877,14 +49957,18 @@
     "video/pjML7lXSsd0": {
       "kind": "video",
       "key": "video/pjML7lXSsd0",
-      "hash": "d18c1167cff93de9d57936218b43871b6bfbaebac863f62fd3bb7edad16b6efc",
+      "hash": "9c92c8c901da2a623d62796cd274c6bccf8f40a60f5f4b94a6d3515f6e18cb6d",
       "title": "Introducing: Expense Management (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:38.455Z",
+      "at": "2026-11-26T01:02:02.647Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent; AI-driven categorization; expense approval workflow"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "quote": "Expense agent with AI-driven categorization; Expense collection and itemization"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "Expense approval workflow; Credit card provider integration; Expense management rules"
         }
       ]
     },
@@ -50044,18 +50128,14 @@
     "video/q3xnjJD32kk": {
       "kind": "video",
       "key": "video/q3xnjJD32kk",
-      "hash": "6476ce202d58d970617bd69a15269dbd41eea85157adcc296b24e2381d034f84",
+      "hash": "2f2ddbc624357407437db09fd05246cadf96999bac3022ead10916d9e0fb1f56",
       "title": "What's new: MCP Server (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:43.069Z",
+      "at": "2026-11-26T01:01:47.506Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP Server query tools; data analysis; agent capabilities; al queries"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "MCP server; query tools; data analysis; agent capabilities"
+          "quote": "MCP query data access without APIs; MCP configuration UX improvements"
         }
       ]
     },
@@ -50085,14 +50165,14 @@
     "video/q9Q1fOA0818": {
       "kind": "video",
       "key": "video/q9Q1fOA0818",
-      "hash": "9ee684fff81a4bb7168ef585ea556a3897aaa14e7d4bede7c80bf658676bf109",
+      "hash": "7f1d98f29b7e8e652f0c9e00fe87e0bd7f4f51d24d217ed45a93ab4faf0f2a04",
       "title": "Microsoft Dynamics 365 Business Central",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:38.455Z",
+      "at": "2026-11-26T01:02:02.647Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/inventory",
-          "quote": "Inventory management optimization; Automated workflows; Real-time insights"
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "AI capabilities for repetitive tasks; Dynamics 365 Copilot"
         }
       ]
     },
@@ -50229,14 +50309,14 @@
     "video/QGG0dW6HqSg": {
       "kind": "video",
       "key": "video/QGG0dW6HqSg",
-      "hash": "53e791b25d4a0e5ff84fd9619490dd077b2fff617cba26d042b492c3629d3b7e",
+      "hash": "f3364f67776d6453898a92acb6da8182cebbd369f19766893c676fb7309c111f",
       "title": "What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:37.260Z",
+      "at": "2026-11-26T01:02:03.969Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/manage-intercompany-transactions",
-          "quote": "Cross environment intercompany posting and intercompany partner setup"
+          "quote": "cross environment intercompany posting; intercompany partner setup"
         }
       ]
     },
@@ -50448,32 +50528,28 @@
     "video/qqWj_2uM0ek": {
       "kind": "video",
       "key": "video/qqWj_2uM0ek",
-      "hash": "8a3e5ab42aea42a43a5c7ed0969cc0ec55940bb79ff3f9dda66b0409ea6d1f2f",
+      "hash": "6ccf2d6124c71effee2c80ffd210a6e82fe3510bbda250b33f8243f03f9fa761",
       "title": "20260420 - What is GitOps and why should you care",
       "source": "yt-areopa",
-      "at": "2026-11-10T00:52:30.246Z",
+      "at": "2026-11-26T01:01:59.452Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-infrastructure-services",
-          "quote": "GitOps infrastructure as code; devops; pull-based deployment"
+          "topic": "topic/dev-itpro/integration",
+          "quote": "gitops; infrastructure as code; devops; click-ops; drift reconciliation"
         }
       ]
     },
     "video/qs1cg-GoDeQ": {
       "kind": "video",
       "key": "video/qs1cg-GoDeQ",
-      "hash": "53f0a9316fdc92cf112e40cf8852282b7c456ec2ea01a5e4e1186d53ba622096",
+      "hash": "301023cdef06d7dfd050e1869e0f6ea64f4902e12a648285b1ccb0b1a71c82f6",
       "title": "What's new: MCP Server (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:43.069Z",
+      "at": "2026-11-26T01:01:47.319Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP Server data tools; query tool; agents; al queries"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "mcp server; data tools; query tool; agents"
+          "quote": "mcp server; data tools; query tool; agents; al queries; copilot studio"
         }
       ]
     },
@@ -50787,10 +50863,10 @@
     "video/rm-FstU_I80": {
       "kind": "video",
       "key": "video/rm-FstU_I80",
-      "hash": "257925a273b2119270b15deebe1ab87aa6e648a42f881ae2d8fd0d3cc274af3f",
+      "hash": "7fe1c5b8bec1eedb12f70e5416a22db7b5b9701da377ec840e48cf8ef0cf3fe1",
       "title": "20260831 - Business Central MCP Server, standard and custom",
       "source": "yt-areopa",
-      "at": "2026-11-09T00:41:39.102Z",
+      "at": "2026-11-26T01:01:47.319Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
@@ -50910,14 +50986,14 @@
     "video/Ry9QvV6D7lg": {
       "kind": "video",
       "key": "video/Ry9QvV6D7lg",
-      "hash": "857d56b783850d2407f575846b62766fb458b63133c7a4619de1b6a84b254469",
+      "hash": "f531633cbf0cdccd968e6a6644304a09024aa99adcbff0a6073537ea1d0e495d",
       "title": "Dynamics GP Cloud Migration - Moving to Business Central",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:37.260Z",
+      "at": "2026-11-26T01:02:03.969Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp",
-          "quote": "Dynamics GP Cloud Migration - Moving to Business Central"
+          "quote": "dynamics gp cloud migration; moving to business central; data migration"
         }
       ]
     },
@@ -51319,18 +51395,18 @@
     "video/T63y0F_38SI": {
       "kind": "video",
       "key": "video/T63y0F_38SI",
-      "hash": "80c72b7e901ddb4ef6ea554ec988757da89a9a34c33e3bd92c5bbe0514886c35",
+      "hash": "0220f004afa416c0c75139f7f1ae94d5a2cce84f4e53dd67d115fe93ff3bf98f",
       "title": "Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:33.101Z",
+      "at": "2026-11-26T01:01:50.430Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
           "quote": "Create Power Automate Flows with Copilot; Power Automate Templates"
         },
         {
-          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
-          "quote": "power automate; copilot; flow creation; natural language; power platform integration"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Create Power Automate Flows with Copilot; natural language; ai-assisted workflow"
         }
       ]
     },
@@ -51877,18 +51953,14 @@
     "video/UIL8ej7mSKQ": {
       "kind": "video",
       "key": "video/UIL8ej7mSKQ",
-      "hash": "24814d31abc584d15a7f3ef51dd9054b3fff5dd0725c3c69727235aeb6b75d4f",
+      "hash": "9471b695036144298976249fbba9d360a3c5f266204389af1fbf96c5ed445cff",
       "title": "Dynamics 365 Business Central 2025 Release Wave 2",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:30.759Z",
+      "at": "2026-11-26T01:01:50.430Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
           "quote": "Sales order agent automatic email processing; Sales order agent multiple shipping addresses"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP server for Business Central"
         }
       ]
     },
@@ -52120,18 +52192,18 @@
     "video/V7NgFOIcGgM": {
       "kind": "video",
       "key": "video/V7NgFOIcGgM",
-      "hash": "33fa3f6007423f1ba94dae29f6ab39d2f3210006b04732a17263459563335436",
+      "hash": "531b8b7c4ca53dbf6ded028f04ed90034e94b9488f9c81e69dd910065e6d4a7d",
       "title": "What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:30.759Z",
+      "at": "2026-11-26T01:01:50.430Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Microsoft Copilot Chat in Business Central; Agentic Loop; Intent Detection; Multi-source Data Integration"
+          "quote": "Microsoft Copilot Chat in Business Central; Agentic Loop; Citations and Verification"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP Server Technology"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "Microsoft Copilot Chat in Business Central; Intent Detection; Permission Enforcement"
         }
       ]
     },
@@ -52152,11 +52224,16 @@
     "video/vcKHOR4p1MQ": {
       "kind": "video",
       "key": "video/vcKHOR4p1MQ",
-      "hash": "f114982204e58214ccf3529f3851a413a388486854357579c462af08b4adda5b",
+      "hash": "4f8eead27c60bcd8dd57a3431ae7f1a0978bdc0b6a17717bb3473c54281aaedb",
       "title": "Microsoft presents: Looking ahead: the future of AL-Go and BCContainerHelper",
       "source": "yt-mibuso",
-      "at": "2026-11-10T00:52:30.246Z",
-      "matches": []
+      "at": "2026-11-26T01:01:59.452Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "agentic engineering; github actions; business central apps; pr reviewer agent"
+        }
+      ]
     },
     "video/vDGrVHQHLA0": {
       "kind": "video",
@@ -52717,16 +52794,11 @@
     "video/WI_3mjpQ2JU": {
       "kind": "video",
       "key": "video/WI_3mjpQ2JU",
-      "hash": "f38b8f026ba39ae167cdbfdc9c868113547e27c7b03120da2cab71ab7293bfd4",
+      "hash": "ca3faad6fc82510319c75ceade27d025c9cfe7d38d8e750fc69e3e87586495ec",
       "title": "What's New: Automated IRS1099 Reporting (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:37.260Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/local-functionality/united-states/tax",
-          "quote": "Automated IRS1099 Reporting, US tax forms, vendor setup"
-        }
-      ]
+      "at": "2026-11-26T01:02:03.969Z",
+      "matches": []
     },
     "video/WjF_sESaIPo": {
       "kind": "video",
@@ -53351,11 +53423,16 @@
     "video/y_8xralhVMM": {
       "kind": "video",
       "key": "video/y_8xralhVMM",
-      "hash": "e79ca8e64cf5292ac60130a307ee0376e19d9bffeb44315f4da748bd483cad2e",
+      "hash": "c121ba721a51e7606cff70758abe896ae1f2bb13eb75ab970f7989771aca4ae8",
       "title": "What's New: Cross-Environment Consolidations (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:40.645Z",
-      "matches": []
+      "at": "2026-11-26T01:02:02.647Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/consolidate-financial-data-from-multiple",
+          "quote": "Cross-environment consolidation; Consolidation wizard; API endpoint configuration"
+        }
+      ]
     },
     "video/y4yexz_hWPc": {
       "kind": "video",
@@ -53518,11 +53595,16 @@
     "video/YL50nOTAPIY": {
       "kind": "video",
       "key": "video/YL50nOTAPIY",
-      "hash": "f7caa4ede9a9ac17fffc626095d0b2b219ae488f047744bf7ce7fcd69adfff56",
+      "hash": "785decd95117254d39b53f631371fe448b2afc664e38a2107ce487d3dff1fc2d",
       "title": "Introducing: Copilot for Finance: Why Is This a Game Changer (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-10T00:52:37.260Z",
-      "matches": []
+      "at": "2026-11-26T01:02:03.969Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "copilot for finance; role-based agents; accounts receivable"
+        }
+      ]
     },
     "video/yLKISB83KW8": {
       "kind": "video",
@@ -53558,14 +53640,14 @@
     "video/YsmwHqxL1Zc": {
       "kind": "video",
       "key": "video/YsmwHqxL1Zc",
-      "hash": "64c4bc6ef6da42f307db69ad9f48395de0f81ed4b9e3f0ffd9eea483f08885a8",
+      "hash": "18176f8f99f6621da19ea4b08278f8e6dd02f98ca5d5aeb595cf554e8db31fbf",
       "title": "Introducing: Payables Agent (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-09T00:41:35.844Z",
+      "at": "2026-11-26T01:01:47.506Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
-          "quote": "Payables Agent; E-document connector for Microsoft 365; Inbound e-document"
+          "quote": "Payables Agent; E-document connector for Microsoft 365; Invoice approval workflow"
         }
       ]
     },
@@ -53649,10 +53731,10 @@
     "video/YX9UfUF0EsA": {
       "kind": "video",
       "key": "video/YX9UfUF0EsA",
-      "hash": "8d0160ba05894eb627f9aedd531a8914c1f29f379571ed337adc50cff8034181",
+      "hash": "59354e3647ff54804f1038da32a17a998fc5522474f6545a14596356eacbb8e9",
       "title": "Microsoft presents: Introducing M365 Copilot Chat in Business Central",
       "source": "yt-mibuso",
-      "at": "2026-11-09T00:41:35.844Z",
+      "at": "2026-11-26T01:01:47.506Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",

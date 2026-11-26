@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.775Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -171,7 +171,6 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
-    - video/2isrH3RcSK8
     - video/jJxBswIy_Xw
   posts: []
   guidelines: []
@@ -186,7 +185,7 @@ children: []
 coverage:
   learn: 18
   code: 1
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -253,7 +252,6 @@ The report pages fall into groups. Overview and year-over-year reports give a hi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../../../videos/2isrH3RcSK8.md) (video): "Subscription billing; Power BI reports expansion; Financial reports and definitions"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../../videos/jJxBswIy_Xw.md) (video): "Power BI Embedded Reporting; Excel Reports for Subscription Billing"
 
 ## Business Central pages and reports

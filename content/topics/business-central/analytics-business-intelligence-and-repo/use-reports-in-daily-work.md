@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-26T01:05:31.204Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,6 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo
   localizations: []
   videos:
-    - video/6zj34hjbpGU
     - video/z7UTBiCNOo8
   posts:
     - post/yzhums-com/76763
@@ -113,7 +112,7 @@ children: []
 coverage:
   learn: 8
   code: 9
-  video: 2
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -174,7 +173,6 @@ Start with the overview page, then "Run and Print Reports". Move to layouts, sav
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../posts/yzhums-com/76763.md) (community post): "Users can quickly copy an existing layout by selecting it, toggling 'Save Changes to Copy'"
-- [How Business Central Integrates with Microsoft Excel (2025)](../../../videos/6zj34hjbpGU.md) (video): "Pivot table creation; Pivot chart visualization; Data connection refresh"
 - [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../videos/z7UTBiCNOo8.md) (video): "Report Customization in Excel; Slicer Controls for Report Filtering"
 
 ## Business Central pages and reports

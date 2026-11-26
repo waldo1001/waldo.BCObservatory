@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "e646fc169eb3bb7b1947b2089ed943d91dec46b0",
+      "30498f50fecbd814d09f7d6e125190fc95d6c7f2",
       "4",
       9478,
-      "e646fc169eb3bb7b1947b2089ed943d91dec46b0",
+      "30498f50fecbd814d09f7d6e125190fc95d6c7f2",
       "4",
-      7051
+      7052
     ]
   ],
   "schema": "al-relations@1",
@@ -256651,7 +256651,13 @@
       "OnUpdateVATAmountsOnAfterSetFilters": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/2674",
+            "proc": "PurchaseExcludeAllocationSourceLinesOnUpdateVATAmounts",
+            "app": "Base Application"
+          }
+        ]
       },
       "OnUpdateVATAmountsOnBeforeCalcAmounts": {
         "kind": "integration",
@@ -284623,7 +284629,7 @@
     }
   },
   "dead_events": {
-    "count": 22507
+    "count": 22506
   },
   "unresolved": [
     {
@@ -294893,9 +294899,9 @@
     "drilldown_page": 526,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5198,
+    "subscribes": 5199,
     "edges": 20695,
     "published_events": 26337,
-    "dead_events": 22507
+    "dead_events": 22506
   }
 }

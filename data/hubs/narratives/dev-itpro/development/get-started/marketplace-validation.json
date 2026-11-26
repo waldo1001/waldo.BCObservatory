@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/get-started/marketplace-validation",
-  "input_hash": "b94f00d63a4cb4cf50c014977fb78ba1ef026ce9f4d78b74e25e53663cc743cf",
-  "summary": "Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource. It answers questions about the technical validation checklist and FAQ, validation telemetry in Application Insights, breaking changes validation, and marketing assets such as landing pages and videos.",
-  "overview": "This section is for partners who publish Business Central extensions on the Marketplace. It has no subtopics. Its six pages fall into two groups: technical validation and marketing guidance.\n\nFor technical validation, start with the Technical validation checklist. It lists the mandatory requirements before submission and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop analysis. The Technical validation FAQ covers common questions on the process, app identity, code-signing, Azure Application Insights, app previews and marketplace offers. Two telemetry pages explain how to use Application Insights traces. One covers submission validation results and the other covers breaking changes validation against upcoming Business Central releases.\n\nTwo further pages give marketing advice: how to build an effective sales landing page and how to make compelling videos for different personas.",
+  "input_hash": "d9aa52bd88c818699dc79ee5ad96bfff7e33dcaa3378a4ad56a5b90ce4bdd9d2",
+  "summary": "Marketplace validation covers how partners prepare, validate and market Business Central apps for AppSource. It answers questions about the technical validation checklist, validation telemetry in Application Insights, breaking changes validation, and landing page and video guidance.",
+  "overview": "This section is for partners who publish Business Central extensions on AppSource. It combines the technical side of getting an app through validation with guidance on presenting the app to customers.\n\nFor validation, start with the technical validation checklist. It lists the mandatory requirements before submission and explains self-validation with BcContainerHelper and AppSourceCop analysis. The technical validation FAQ answers common questions on the process, app identity, code-signing and Application Insights. Two telemetry pages then help you monitor and troubleshoot: one for submission validation and one for breaking changes validation against upcoming Business Central releases.\n\nThe remaining two pages are about marketing. They give best practices for building a sales landing page and for making videos aimed at different personas.",
   "key_points": [
-    "The Technical validation checklist lists mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.",
-    "Partners can self-validate with BcContainerHelper and AppSourceCop analysis before submitting.",
-    "Submission validation telemetry uses Application Insights traces to track validation phases, diagnostics and failures, including AL compiler and AppSourceCop checks.",
-    "The submission validation telemetry page references 2021 release wave 1 and version 18.4.",
-    "Breaking changes validation telemetry helps partners detect when their AppSource apps fail validation against upcoming Business Central releases.",
-    "The Technical validation FAQ covers app identity, code-signing, Azure Application Insights, app previews and marketplace offers.",
+    "The technical validation checklist sets mandatory requirements before Marketplace submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.",
+    "Partners can self-validate using BcContainerHelper and AppSourceCop analysis before submitting.",
+    "Submission validation telemetry uses Application Insights traces to show validation phases, diagnostic events and submission failures. The page mentions 2021 release wave 1 and version 18.4.",
+    "Validation covers version and country-region checks, extension validation and AL compiler integration.",
+    "Breaking changes validation telemetry shows when an AppSource app fails validation against upcoming Business Central releases.",
+    "The technical validation FAQ covers app identity, code-signing, Azure Application Insights, app previews and marketplace offers.",
     "The landing page guide covers layout, headline copy, pain-based messaging, benefits, testimonials and video demonstrations.",
-    "The video guide describes why, how, what and customer testimony videos, with a structure built around benefits, pain points and a call to action."
+    "The video guide describes why, how and what videos and customer testimony, with a structure built around benefits, pain points and call to action."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-19T01:01:06.792Z",
+  "at": "2026-11-26T01:04:53.565Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013739000000000001
+    "cost_usd": 0.013311
   }
 }
