@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14492",
+  "number": 14492,
+  "title": "[Main] Expense Agent: register the Copilot capability as generally available",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent Copilot capability is now registered as Generally Available instead of Preview, applying the same pattern used by the Sales Order and Payables agents.",
+  "key_points": [
+    "Install process now registers the capability as Generally Available from the start",
+    "If already registered as Preview, the capability is modified to Generally Available status",
+    "Upgrade process automatically moves existing tenants from Preview to GA status",
+    "Deactivated capabilities are re-activated once during the upgrade to GA",
+    "Pattern matches the existing implementation for Sales Order and Payables agents"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003597,
+    "changes_in_call": 1
+  }
+}

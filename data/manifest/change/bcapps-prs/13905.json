@@ -6,10 +6,35 @@
   "title": "Exclude WorkIQ feature key from demo data feature enablement",
   "url": "https://github.com/microsoft/BCApps/pull/13905",
   "published_at": "2026-11-25T00:27:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-26T00:15:11.410Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-26T00:15:31.363Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004028
+    },
+    "linked": {
+      "at": "2026-11-26T00:15:31.532Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:15:31.537Z",
+      "path": "content/changes/bcapps/13905.md"
     }
   },
   "input_hash": "8981ebf65136df691ae368f3c4115cbba77c3579:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "exclude workiq feature key from demo data feature enablement"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ae904677178bfe8f35368f856179a4a8f2b8c23a3b9767e3596f8afd1743d1c"
 }

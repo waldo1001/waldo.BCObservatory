@@ -6,7 +6,7 @@
   "title": "[Main] Expense Agent: register the Copilot capability as generally available",
   "url": "https://github.com/microsoft/BCApps/pull/14492",
   "published_at": "2026-11-25T07:24:54Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-26T00:13:01.755Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-26T00:15:10.974Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003597
+    },
+    "linked": {
+      "at": "2026-11-26T00:15:11.173Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-26T00:15:11.182Z",
+      "path": "content/changes/bcapps/14492.md"
     }
   },
   "input_hash": "310317de7de7391da0383789cd0e5f365af1789d:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdd6763e207a6a7cb37e53027f9fa2a53737848a957d7f2b045243eb016682f0"
+  "output_hash": "9c4fd8a5521a694516af562b1cec772c49485a75a6f0e68a7081d10b75e406c4"
 }

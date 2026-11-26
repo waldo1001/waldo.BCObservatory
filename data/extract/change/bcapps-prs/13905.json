@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13905",
+  "number": 13905,
+  "title": "Exclude WorkIQ feature key from demo data feature enablement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The WorkIQ feature key is now excluded from automatic enablement in demo data setup, requiring explicit admin opt-in through Feature Management instead.",
+  "key_points": [
+    "WorkIQ feature added to ExcludeNewFeature lists in demo data creation codeunits",
+    "Applied consistently across W1, CZ, and IN layers plus Contoso demo dataset",
+    "WorkIQ remains a platform feature requiring explicit admin configuration",
+    "Prevents unintended automatic enablement for data access functionality",
+    "Aligns with security-sensitive features like PowerAutomateCopilot and FullTextSearch"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004028,
+    "changes_in_call": 1
+  }
+}

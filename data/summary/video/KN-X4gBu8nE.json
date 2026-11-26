@@ -1,0 +1,28 @@
+{
+  "video_id": "KN-X4gBu8nE",
+  "item_id": "video/yt-areopa/KN-X4gBu8nE",
+  "summary": "Comparison of Azure DevOps and GitHub for Business Central teams, covering repository structure, licensing, data residency, Copilot, migration tools (Enterprise Importer, Live Migration in preview, GH Actions Importer), hybrid setups with the Azure Boards app, and AL-Go for GitHub.",
+  "overview": "The webinar helps teams that use Azure DevOps decide whether and how to move to GitHub. It maps DevOps concepts to GitHub ones: a DevOps project is a container for all resources, while a GitHub project is only a collection of issues. It then covers monorepo versus multirepo, licensing (Team at 4 USD, Enterprise at 21 USD), and Enterprise data residency requirements.\n\nThe second half covers migration. It compares GitHub Enterprise Importer, the Live Migration tool (in preview) and GH Actions Importer, with limits and a demo. It also covers hybrid setups that keep DevOps boards and pipelines while moving repositories, the impact on developers and stakeholders, and the speaker's opinions on Microsoft's direction.",
+  "key_points": [
+    "A DevOps project contains all resources, but a GitHub project is only a collection of issues. Permissions in GitHub are set per repository, and teams group repositories.",
+    "GitHub Team costs 4 USD per user per month with no single sign-on. GitHub Enterprise costs 21 USD, includes an Azure DevOps basic license and Copilot access (pay-as-you-go, no credits included), and has no free stakeholder license equivalent.",
+    "Data residency on GitHub Enterprise Cloud needs a ghe.com URL and enterprise managed users, and allows no public repositories. In-region AI processing costs 10% more in AI credits and is limited to Europe and US.",
+    "GitHub Enterprise Importer migrates pull requests, work items, links and branch policies. Limits include 40GB per repository and 2GB per commit, and mannequin users must be mapped afterward.",
+    "The Live Migration tool is in preview. It needs a Linux agent, handles up to 30 repositories per migration, gives a 21-day window before cutover and cannot sync back.",
+    "A hybrid setup is possible: move repositories to GitHub, keep boards, wikis and pipelines on DevOps, and link them with the Azure Boards app or gate pull requests with DevOps pipelines.",
+    "AL-Go for GitHub uses a monorepo, so a change to one app triggers the pipeline for the whole repository. It is still evolving. The full Copilot cloud agent is only on GitHub."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "decision maker",
+    "functional consultant"
+  ],
+  "extraction_hash": "a235885ef07c7214659b3273e072ae2af7ad280671bf1cfb20943c932a6e414c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.050046
+  }
+}

@@ -1,0 +1,1394 @@
+{
+  "video_id": "KN-X4gBu8nE",
+  "item_id": "video/yt-areopa/KN-X4gBu8nE",
+  "title": "20261123  -  GitHub for Azure DevOps users",
+  "duration_s": 4263,
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "azure devops",
+    "github",
+    "migration",
+    "workflow comparison",
+    "repository structure",
+    "monorepo",
+    "multirepo",
+    "copilot",
+    "al-go",
+    "branching strategy",
+    "licensing",
+    "github enterprise"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 214.2
+    },
+    {
+      "title": "Speaker introduction and presentation overview",
+      "t_start": 214.2,
+      "t_end": 428.7
+    },
+    {
+      "title": "Development workflow comparison: Azure DevOps",
+      "t_start": 428.7,
+      "t_end": 546.2
+    },
+    {
+      "title": "DevOps organization and project structure",
+      "t_start": 546.2,
+      "t_end": 613.1
+    },
+    {
+      "title": "GitHub workflow and container model",
+      "t_start": 613.1,
+      "t_end": 745.1
+    },
+    {
+      "title": "Repository strategies: monorepo vs multirepo",
+      "t_start": 745.1,
+      "t_end": 904.6
+    },
+    {
+      "title": "GitHub licensing options and costs",
+      "t_start": 904.6,
+      "t_end": 1120.7
+    },
+    {
+      "title": "GitHub Enterprise features and data residency",
+      "t_start": 1120.7,
+      "t_end": 1381.9
+    },
+    {
+      "title": "DevOps vs GitHub feature comparison",
+      "t_start": 1381.9,
+      "t_end": 1555.8
+    },
+    {
+      "title": "GitHub and DevOps cooperation and integration",
+      "t_start": 1555.8,
+      "t_end": 1708.5
+    },
+    {
+      "title": "Azure Boards app and work item linking",
+      "t_start": 1708.5,
+      "t_end": 1872.2
+    },
+    {
+      "title": "Microsoft strategy and GitHub package service",
+      "t_start": 1872.2,
+      "t_end": 2113
+    },
+    {
+      "title": "Migration decision and repository migration approach",
+      "t_start": 2113,
+      "t_end": 2351.1
+    },
+    {
+      "title": "Migration tools: Enterprise Importer and Live Migration",
+      "t_start": 2351.1,
+      "t_end": 2730.7
+    },
+    {
+      "title": "GH Actions Importer and migration demo results",
+      "t_start": 2730.7,
+      "t_end": 3010
+    },
+    {
+      "title": "DevOps pipeline gating and GitHub connection setup",
+      "t_start": 3010,
+      "t_end": 3182.5
+    },
+    {
+      "title": "GitHub advantages and migration decision factors",
+      "t_start": 3182.5,
+      "t_end": 3435
+    },
+    {
+      "title": "Cost analysis and hybrid strategy",
+      "t_start": 3435,
+      "t_end": 3599.4
+    },
+    {
+      "title": "AL-Go for GitHub and workflow comparison",
+      "t_start": 3599.4,
+      "t_end": 3815.3
+    },
+    {
+      "title": "Migration impact on developers and stakeholders",
+      "t_start": 3815.3,
+      "t_end": 4004.4
+    },
+    {
+      "title": "DevOps consolidation and GitHub interface unification",
+      "t_start": 4004.4,
+      "t_end": 4263
+    }
+  ],
+  "features": [
+    {
+      "name": "GitHub Actions",
+      "description": "GitHub's pipeline equivalent to Azure DevOps pipelines for validating code during pull requests and automating workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 613.1,
+      "t_end": 641.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ci-cd",
+        "automation",
+        "validation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Issues",
+      "description": "GitHub's work item equivalent to Azure DevOps work items for defining and tracking features and user stories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 613.1,
+      "t_end": 641.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "work items",
+        "issue tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Copilot",
+      "description": "AI-assisted development feature mentioned as a reason to consider moving to GitHub, though not the primary focus of the decision.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 403,
+      "t_end": 418,
+      "is_demoed": false,
+      "caveats": [
+        "Not the main reason for migration decision"
+      ],
+      "tags": [
+        "ai",
+        "copilot",
+        "development assistance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub Projects",
+      "description": "Collections of issues from different repositories in GitHub, different from Azure DevOps projects which serve as containers for all resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 716.8,
+      "t_end": 731.7,
+      "is_demoed": false,
+      "caveats": [
+        "Not a container for all resources like in DevOps"
+      ],
+      "tags": [
+        "project management",
+        "issue organization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Environments",
+      "description": "Environment management in GitHub repositories with configurable properties and attributes for deployment gates and controlled delivery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 654,
+      "t_end": 675,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "environments",
+        "deployment",
+        "gates"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub repository permissions per repository",
+      "description": "Permissions are managed at the repository level in GitHub, with teams used to group repositories and assign access to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 690.1,
+      "t_end": 702.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "access control",
+        "teams"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "GitHub Team license",
+      "description": "GitHub Team license available at 4 USD per user per month without single sign-on support, requiring personal developer accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 915.7,
+      "t_end": 927,
+      "is_demoed": false,
+      "caveats": [
+        "No single sign-on support",
+        "Requires personal developer accounts",
+        "Difficult to manage for teams larger than 5 developers"
+      ],
+      "tags": [
+        "licensing",
+        "identity management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Enterprise license",
+      "description": "GitHub Enterprise license at 21 USD allowing Entra integration, single sign-on, data residency options, SOC reports, environment protection rules, and more action minutes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.4,
+      "t_end": 1024.6,
+      "is_demoed": false,
+      "caveats": [
+        "Includes Azure DevOps basic license automatically",
+        "Available through Visual Studio subscriptions but via Enterprise agreement only"
+      ],
+      "tags": [
+        "licensing",
+        "identity management",
+        "entra"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Enterprise Copilot access",
+      "description": "GitHub Enterprise license now includes Copilot access for all users with pay-as-you-go usage charging, no credits included.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1120.7,
+      "t_end": 1158.1,
+      "is_demoed": false,
+      "caveats": [
+        "No credits included",
+        "Pay-as-you-go pricing model",
+        "Changed a few months ago"
+      ],
+      "tags": [
+        "copilot",
+        "ai",
+        "licensing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data residency for GitHub Enterprise Cloud",
+      "description": "GitHub Enterprise Cloud now supports data residency in multiple regions including US, EU, Japan, and Australia, with Brazil, India and more regions planned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1231.2,
+      "t_end": 1269.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires ghe.com subdomain instead of github.com",
+        "Some tools may not support the new URL format",
+        "No public repositories allowed",
+        "Requires enterprise managed users"
+      ],
+      "tags": [
+        "data residency",
+        "regional",
+        "compliance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Enterprise managed users requirement",
+      "description": "When using data residency, enterprise managed users is mandatory and personal accounts cannot be used, eliminating anonymous access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1303.7,
+      "t_end": 1327.8,
+      "is_demoed": false,
+      "caveats": [
+        "No public repositories allowed",
+        "No anonymous access"
+      ],
+      "tags": [
+        "managed users",
+        "data residency",
+        "identity"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "In-region AI processing",
+      "description": "In-region AI processing available for Europe and US regions with 10% higher AI credit cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1350.7,
+      "t_end": 1361,
+      "is_demoed": false,
+      "caveats": [
+        "Costs 10% more in AI credits",
+        "Limited to Europe and US regions",
+        "Data residency feature",
+        "No marketplace support"
+      ],
+      "tags": [
+        "ai",
+        "data residency",
+        "regional",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub Issues sub-issues and dependencies",
+      "description": "GitHub Issues now supports sub-issues, issue types, and dependencies, though still lighter than Azure DevOps work items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1397.7,
+      "t_end": 1411.8,
+      "is_demoed": false,
+      "caveats": [
+        "Less customizable than DevOps work items",
+        "New features added this year",
+        "Still lighter than Azure DevOps work items"
+      ],
+      "tags": [
+        "issues",
+        "tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot MCP server for DevOps",
+      "description": "Copilot integration with Azure DevOps including MCP server support for code review, app agents, and work delegation to cloud agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1445.7,
+      "t_end": 1465.5,
+      "is_demoed": false,
+      "caveats": [
+        "Only through integration",
+        "Some features work better with GitHub repositories",
+        "MCP server already available"
+      ],
+      "tags": [
+        "copilot",
+        "devops",
+        "integration",
+        "mcp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub and DevOps cooperation",
+      "description": "Repositories can be migrated to GitHub while maintaining DevOps project management, work items, dashboards, wikis, and pipelines, with choice to run pipelines on DevOps or GitHub workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1631.7,
+      "t_end": 1696.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires repositories to be on GitHub",
+        "Must choose between DevOps pipelines or GitHub workflows or combine both"
+      ],
+      "tags": [
+        "devops",
+        "github",
+        "integration",
+        "cooperation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Actions triggers",
+      "description": "GitHub Actions provide more trigger options compared to Azure DevOps pipelines. You can trigger actions when new issues are created or other events, whereas DevOps pipelines can only run when repository changes occur or pull requests are created.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1565.9,
+      "t_end": 1591.6,
+      "is_demoed": false,
+      "caveats": [
+        "DevOps requires service hooks for custom triggers"
+      ],
+      "tags": [
+        "github actions",
+        "triggers",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure Boards app integration",
+      "description": "The Azure Boards app connects GitHub repositories to Azure DevOps projects, enabling linking of commits to work items, pull requests to work items, and status badge synchronization between platforms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1708.5,
+      "t_end": 1800.4,
+      "is_demoed": false,
+      "caveats": [
+        "One repository maps to one DevOps project",
+        "Linking happens automatically via commit hash or pull request mentions"
+      ],
+      "tags": [
+        "azure boards",
+        "work items",
+        "linking",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot cloud agent for pull requests",
+      "description": "DevOps users can hand work items to a Copilot cloud agent which creates draft pull requests automatically. This functionality is now available in GA on DevOps, providing the same capability as GitHub's agent feature.",
+      "status": "ga",
+      "status_evidence_t": 1862.1,
+      "status_evidence_quote": "Same functionality is now available already in in GA on on DevOps",
+      "status_evidence_verified": true,
+      "t_start": 1826.6,
+      "t_end": 1884.3,
+      "is_demoed": false,
+      "caveats": [
+        "Creates drafts that need review",
+        "Available in both GitHub and DevOps"
+      ],
+      "tags": [
+        "copilot",
+        "agent",
+        "pull requests",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Code review and Copilot app for Azure repositories",
+      "description": "New agentic app released this month supporting code review and Copilot functionality for Azure repositories, extending GitHub's development experience to DevOps repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1991.6,
+      "t_end": 2003.7,
+      "is_demoed": false,
+      "caveats": [
+        "GitHub remains the primary platform for agentic development"
+      ],
+      "tags": [
+        "copilot",
+        "code review",
+        "azure repositories",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Public project retirement on DevOps",
+      "description": "Microsoft is ending support for public projects on Azure DevOps next year, affecting Business Central symbol feeds that depend on public artifact feeds for public access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2018.3,
+      "t_end": 2043.3,
+      "is_demoed": false,
+      "caveats": [
+        "GitHub package service appears public but requires tokens",
+        "Requires alternative solution for symbol feeds"
+      ],
+      "tags": [
+        "devops",
+        "public projects",
+        "artifact feeds",
+        "roadmap"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Enterprise Importer tool",
+      "description": "Migration tool for moving repositories from Azure DevOps to GitHub, migrating pull requests, user history, work items, links, attachments, and branch policies. Supports data residency options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2351.1,
+      "t_end": 2409.7,
+      "is_demoed": true,
+      "caveats": [
+        "User scope and cross policies not migrated",
+        "2GB limit per commit",
+        "255 byte limit on branch names and tags",
+        "100MB per file on GitHub (400MB when migrating)",
+        "40GB per repository limit",
+        "Loses data when using basic git clone method",
+        "Need to map mannequin users to GitHub users post-migration"
+      ],
+      "tags": [
+        "repository migration",
+        "pull requests",
+        "work items",
+        "enterprise importer"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Branch policy migration",
+      "description": "Migration capability that moves repository policies from Azure DevOps to GitHub during migration, excluding user scope and cross policies but including repository-level policies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2386,
+      "t_end": 2398.5,
+      "is_demoed": false,
+      "caveats": [
+        "User scope policies excluded",
+        "Cross policies excluded"
+      ],
+      "tags": [
+        "branch policies",
+        "policies",
+        "repository policies"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure DevOps Enterprise Live Migration tool",
+      "description": "New migration tool supporting ghe.com migration to GitHub with data residency. Requires on-premises Linux agent. Performs validation, initial synchronization of repositories and pull requests, then incremental sync with cutover capability.",
+      "status": "preview",
+      "status_evidence_t": 2516.4,
+      "status_evidence_quote": "It's a new tool. It's in public preview, but it have some limitations",
+      "status_evidence_verified": true,
+      "t_start": 2504.9,
+      "t_end": 2724.6,
+      "is_demoed": false,
+      "caveats": [
+        "Only supports ghe.com migration",
+        "Requires on-premises Linux machine to host agent",
+        "Limited to 30 repositories per migration",
+        "No sync back after cutover",
+        "21-day window for decision before final cutover",
+        "New since August 26",
+        "Some customers with 1000+ repositories cannot use it effectively"
+      ],
+      "tags": [
+        "live migration",
+        "data residency",
+        "public preview",
+        "linux agent",
+        "incremental sync"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GH Actions Importer",
+      "description": "Tool to migrate pipelines and actions from Azure DevOps to GitHub workflows. Can migrate Azure DevOps pipelines to GitHub Actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2730.7,
+      "t_end": 2783.9,
+      "is_demoed": false,
+      "caveats": [
+        "Not easy to set up",
+        "Low activity on project (last commit 25)",
+        "Depends on which actions used in Azure DevOps pipelines",
+        "Requires replacement of ALOps until ALOps has GitHub version",
+        "May need manual work for custom actions"
+      ],
+      "tags": [
+        "actions migration",
+        "pipelines",
+        "github workflows",
+        "azure devops pipelines"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "DevOps pull request pipeline gating",
+      "description": "Capability to connect GitHub pull requests to Azure DevOps pipelines as gates. When pull request is triggered, it runs the pipeline in DevOps and prevents PR closure if pipeline fails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3030.5,
+      "t_end": 3088.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires setup configuration",
+        "Can be used as alternative to GitHub Actions"
+      ],
+      "tags": [
+        "pull request gating",
+        "pipelines",
+        "devops integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub connection in Azure DevOps",
+      "description": "Connection configuration in Azure Boards that links GitHub repositories to DevOps projects. Allows linking work items to GitHub pull requests and repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3116.9,
+      "t_end": 3182.5,
+      "is_demoed": true,
+      "caveats": [
+        "Connection can link all repositories from project or selected ones",
+        "Part of Boards section"
+      ],
+      "tags": [
+        "github connection",
+        "azure boards integration",
+        "work items linking"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Live migration tool",
+      "description": "A tool that allows migration of repositories from Azure DevOps to GitHub, supporting up to 70 repositories with automatic connection creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3182.5,
+      "t_end": 3264.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Linux agent for execution",
+        "Requires personal access tokens and agent pool configuration"
+      ],
+      "tags": [
+        "migration",
+        "github",
+        "devops",
+        "linux"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot code review",
+      "description": "Available in both Azure DevOps and GitHub for automated code review capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3288.2,
+      "t_end": 3299.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "code review",
+        "devops",
+        "github"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot app agents in Azure repositories",
+      "description": "Support for Copilot app agents is available in Azure DevOps repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3299.7,
+      "t_end": 3312.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "agents",
+        "azure devops"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure DevOps remote MCP server",
+      "description": "MCP server support available for Azure DevOps repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3299.7,
+      "t_end": 3312.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "azure devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot auto fix",
+      "description": "An agent that automatically drafts pull requests with fixes for security issues found by advanced security alerts when using advanced security features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3312.1,
+      "t_end": 3334.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires advanced security features to be enabled"
+      ],
+      "tags": [
+        "copilot",
+        "security",
+        "auto-fix",
+        "github"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure DevOps plugin in Copilot Cowork",
+      "description": "Copilot Cowork now has a plugin for Azure DevOps allowing it to work with work items for creating bugs or user stories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3334.7,
+      "t_end": 3359.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "cowork",
+        "azure devops",
+        "work items"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Hybrid Azure Boards with GitHub connection",
+      "description": "Ability to connect GitHub repositories to Azure DevOps Boards for hybrid work item tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3359.4,
+      "t_end": 3370.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "hybrid",
+        "boards",
+        "github",
+        "azure devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot cloud agent",
+      "description": "Full-featured Copilot cloud agent available only on GitHub, not on Azure DevOps repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3370.9,
+      "t_end": 3382,
+      "is_demoed": false,
+      "caveats": [
+        "Only available on GitHub, not on Azure DevOps"
+      ],
+      "tags": [
+        "copilot",
+        "github",
+        "cloud agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot cloud and Codex agents on GitHub",
+      "description": "GitHub exclusive feature providing cloud and Codex agents for Copilot, not available on Azure DevOps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3382,
+      "t_end": 3394.9,
+      "is_demoed": false,
+      "caveats": [
+        "Not available on Azure DevOps"
+      ],
+      "tags": [
+        "copilot",
+        "github",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot approvals and max review",
+      "description": "GitHub feature for Copilot-powered approvals and max settings review functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3394.9,
+      "t_end": 3408.2,
+      "is_demoed": false,
+      "caveats": [
+        "GitHub exclusive feature"
+      ],
+      "tags": [
+        "copilot",
+        "github",
+        "approvals"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub Actions and Pages",
+      "description": "GitHub exclusive features including Actions for CI-CD workflows and Pages for static site hosting, not available on Azure DevOps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3408.2,
+      "t_end": 3420.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not available on Azure DevOps"
+      ],
+      "tags": [
+        "github",
+        "actions",
+        "pages"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go for GitHub",
+      "description": "A DevOps solution for Business Central AL development based on a monorepo approach available for GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3599.4,
+      "t_end": 3691.7,
+      "is_demoed": false,
+      "caveats": [
+        "Based on monorepo working model",
+        "Requires agenting implementation",
+        "Still evolving and changing"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "al development",
+        "monorepo"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub workflows",
+      "description": "YAML-based workflow automation in GitHub supporting templating and custom triggers for CI-CD, with more trigger options than Azure DevOps pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3743.5,
+      "t_end": 3815.3,
+      "is_demoed": false,
+      "caveats": [
+        "Developers need to learn GitHub interface",
+        "PowerShell tools work on both platforms"
+      ],
+      "tags": [
+        "workflows",
+        "github",
+        "ci-cd",
+        "yaml"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot code analysis for bug detection",
+      "description": "Consultants can ask an agent or copilot to analyze code and repositories to find bugs or identify if problems exist in the code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3904.5,
+      "t_end": 3921.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "code analysis",
+        "debugging"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "GitHub",
+      "t": 225.1
+    },
+    {
+      "type": "other",
+      "name": "Azure DevOps",
+      "t": 225.1
+    },
+    {
+      "type": "other",
+      "name": "AL-GO",
+      "t": 844.6
+    },
+    {
+      "type": "other",
+      "name": "Azure Boards app",
+      "t": 1708.5
+    },
+    {
+      "type": "other",
+      "name": "GitHub Enterprise Importer",
+      "t": 2351.1
+    },
+    {
+      "type": "other",
+      "name": "Azure DevOps Enterprise Live Migration",
+      "t": 2504.9
+    },
+    {
+      "type": "other",
+      "name": "GHE Migrator",
+      "t": 2532.2
+    },
+    {
+      "type": "other",
+      "name": "GH Actions Importer",
+      "t": 2730.7
+    },
+    {
+      "type": "other",
+      "name": "ADO to GitHub tool",
+      "t": 2834.9
+    },
+    {
+      "type": "other",
+      "name": "Live migration tool",
+      "t": 3182.5
+    },
+    {
+      "type": "other",
+      "name": "AL-Go for GitHub",
+      "t": 3640.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Camille Sijpkens",
+      "confidence": "high"
+    },
+    {
+      "name": "Luc van Vught",
+      "confidence": "high"
+    },
+    {
+      "name": "Kamil Sacek",
+      "confidence": "medium"
+    },
+    {
+      "name": "Arthur van der Vondervoort",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 236.5,
+      "text": "last year or maybe multiple years we are mostly standing in front of decision if we are using DevOps, should we move to GitHub",
+      "why_it_matters": "Establishes the core business challenge this presentation addresses - organizations must decide whether to migrate from Azure DevOps to GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 403,
+      "text": "GitHub Copilot and GitHub at all is too good to ignore",
+      "why_it_matters": "Identifies the pull toward GitHub as a destination despite DevOps strengths - GitHub has capabilities that are hard to dismiss.",
+      "check": "exact"
+    },
+    {
+      "t": 613.1,
+      "text": "the main container is the project on DevOps and we need to to remember that",
+      "why_it_matters": "Key structural difference - DevOps organizes work around projects while GitHub does not, affecting migration planning.",
+      "check": "exact"
+    },
+    {
+      "t": 654,
+      "text": "because project is totally different thing in in github",
+      "why_it_matters": "Fundamental architectural difference between platforms that impacts how work is organized and permissions are managed.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 782.8,
+      "text": "if you push some change for one app, it will trigger the the pipeline or action for whole repository",
+      "why_it_matters": "Monorepo limitation - requires additional filtering configuration to prevent unnecessary builds for multiple apps in one repository.",
+      "check": "exact"
+    },
+    {
+      "t": 844.6,
+      "text": "GitHub ALGO, it's mostly using the monorepo as a, for example, for for customer project",
+      "why_it_matters": "AL-GO tooling assumes monorepo structure which differs from traditional Azure DevOps multirepo approaches used by many teams.",
+      "check": "exact"
+    },
+    {
+      "t": 904.6,
+      "text": "Licensing, of course, before we decide what we will do, we should understand the licensing.",
+      "why_it_matters": "Licensing decisions are foundational to choosing between GitHub and DevOps solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 927,
+      "text": "GitHub team license for $4 per user per month, but it's not allowing to use single sign on.",
+      "why_it_matters": "Establishes the cost and limitations of the basic GitHub team option.",
+      "check": "exact"
+    },
+    {
+      "t": 1054.6,
+      "text": "the GitHub Enterprise license is already including Azure DevOps basic license.",
+      "why_it_matters": "GitHub Enterprise provides dual licensing benefit, eliminating additional DevOps license costs.",
+      "check": "exact"
+    },
+    {
+      "t": 1120.7,
+      "text": "New in this year is that the GitHub Enterprise license is including the Copilot access license.",
+      "why_it_matters": "Marks a significant change in GitHub Enterprise value proposition with Copilot now included.",
+      "check": "exact"
+    },
+    {
+      "t": 1183.2,
+      "text": "stakeholder license, which is for free in DevOps, there is no equivalent in in GitHub Enterprise",
+      "why_it_matters": "Identifies a key difference in licensing models where DevOps offers free stakeholder access but GitHub does not.",
+      "check": "exact"
+    },
+    {
+      "t": 1231.2,
+      "text": "On the beginning of this year it was only United State and EU region. Now we have even Japan and Australia region available",
+      "why_it_matters": "Documents expansion of data residency options throughout 2026.",
+      "check": "exact"
+    },
+    {
+      "t": 1303.7,
+      "text": "When you are you have the data residency the enterprise managed users is a must.",
+      "why_it_matters": "Establishes mandatory requirement for managed users when using data residency.",
+      "check": "exact"
+    },
+    {
+      "t": 1579.8,
+      "text": "On on DevOps we can only run the pipelines when something happened with the repository or when someone create pull request but not for",
+      "why_it_matters": "Explains the key limitation of DevOps pipelines compared to GitHub Actions, showing why GitHub triggers are more flexible.",
+      "check": "exact"
+    },
+    {
+      "t": 1643,
+      "text": "If you migrate the repositories to GitHub you can still use the project and work items and dashboards and wikis on DevOps.",
+      "why_it_matters": "Shows that hybrid operation is possible without fully abandoning DevOps capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1743.2,
+      "text": "It means if I commit something with AB hash 1 2 3, this commit will be automatically linked to user story 1 2 3",
+      "why_it_matters": "Demonstrates the automatic linking capability between GitHub commits and DevOps work items through the Azure Boards app.",
+      "check": "exact"
+    },
+    {
+      "t": 1862.1,
+      "text": "Same functionality is now available already in in GA on on DevOps. It means it's not the reason why to move from DevOps to",
+      "why_it_matters": "States that Copilot agent for pull request creation is GA on DevOps, reducing pressure to migrate from DevOps to GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 1930.1,
+      "text": "In June 26 Microsoft encourage customers to move their repositories to from Azure DevOps to to GitHub.",
+      "why_it_matters": "Marks Microsoft's official encouragement for DevOps users to migrate to GitHub as part of their strategic shift.",
+      "check": "exact"
+    },
+    {
+      "t": 2373.7,
+      "text": "Just it will migrate your repository together with all the pull requests you have on DevOps including user history, work items, links and attachments.",
+      "why_it_matters": "Defines the comprehensive scope of data migrated by GitHub Enterprise Importer, including critical metadata and history.",
+      "check": "exact"
+    },
+    {
+      "t": 2409.7,
+      "text": "I was able to migrate our 1,000 repositories from DevOps to GitHub in something like 6 hours, I think.",
+      "why_it_matters": "Provides real-world evidence that large-scale migrations are feasible with the GitHub Enterprise Importer tool.",
+      "check": "exact"
+    },
+    {
+      "t": 2447.3,
+      "text": "You can't have more than two gigabytes per commit and per push on the git repository",
+      "why_it_matters": "States a technical limitation of the migration tool that users need to be aware of.",
+      "check": "exact"
+    },
+    {
+      "t": 2516.4,
+      "text": "It's a new tool. It's in public preview, but it have some limitations and we will talk about that on the next slide.",
+      "why_it_matters": "Establishes the preview status of the Live Migration tool and signals that it has significant constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 2653.1,
+      "text": "you have 21 days, I think, for this this phase with life yeah cutover within 21 days and in 21 days you need to",
+      "why_it_matters": "Specifies the decision window for the Live Migration cutover phase, a critical operational constraint.",
+      "check": "exact"
+    },
+    {
+      "t": 2692.1,
+      "text": "up to 30 repositories. We have 1,000 repositories. It means I will need to go project by project or something, ...",
+      "why_it_matters": "Reveals a critical limitation of Live Migration tool that makes it impractical for large-scale BC deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 2772.2,
+      "text": "It's it will do, I think, in 98% without any problem. Depends on which actions you are using on on in your Azure DevOps",
+      "why_it_matters": "Provides realistic expectations for GH Actions Importer success rate based on pipeline complexity and tool dependencies.",
+      "check": "exact"
+    },
+    {
+      "t": 2900.6,
+      "text": "That's why these scripts have in my case nearly 22,000 lines because I'm migrating 1,000 repositories. Running the this script ...",
+      "why_it_matters": "Shows the scale of the generated migration script and overall execution time for enterprise-scale migration.",
+      "check": "exact"
+    },
+    {
+      "t": 3208.7,
+      "text": "I don't know why Microsoft decided that only the Linux agents are supported because no one from Business Central is right now using the",
+      "why_it_matters": "Identifies a significant adoption barrier for Live Migration in BC ecosystem where Windows agents are the standard.",
+      "check": "exact"
+    },
+    {
+      "t": 3254.3,
+      "text": "it will automatically create it for me and I then run the the live migration. Yeah that's that's the easy part",
+      "why_it_matters": "Demonstrates the ease of the live migration process and automatic connection creation.",
+      "check": "exact"
+    },
+    {
+      "t": 3264.7,
+      "text": "you can migrate up to 70 repositories like that very easily.",
+      "why_it_matters": "Establishes the scale capability of the migration tool.",
+      "check": "exact"
+    },
+    {
+      "t": 3370.9,
+      "text": "Only on GitHub we have the Copilot cloud agent. It means really the the cloud agent with all the things. It's not working with",
+      "why_it_matters": "Highlights a key GitHub exclusive feature unavailable on Azure DevOps.",
+      "check": "exact"
+    },
+    {
+      "t": 3420.6,
+      "text": "the new features lands on the GitHub first, maybe later are then available on DevOps. And the question is when it ends, but nobody",
+      "why_it_matters": "Indicates Microsoft's investment priority in GitHub over Azure DevOps for new feature delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 3505.5,
+      "text": "you will need additional $21 but again, you have the the Copilot included in that.",
+      "why_it_matters": "Provides cost context for GitHub Enterprise including Copilot licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 3550.1,
+      "text": "you don't need to choose. You can combine together. You can connect, for example, move the repositories only and use the the DevOps as",
+      "why_it_matters": "Presents the hybrid approach as a viable strategy without forcing complete migration.",
+      "check": "exact"
+    },
+    {
+      "t": 3570.2,
+      "text": "the hybrid approach is not a compromise, it's a strategy.",
+      "why_it_matters": "Reframes hybrid approach as a strategic choice rather than a workaround.",
+      "check": "exact"
+    },
+    {
+      "t": 3769,
+      "text": "From basic working, there is no difference. It's very easy to to migrate.",
+      "why_it_matters": "Addresses the technical difficulty of migrating from Azure DevOps pipelines to GitHub workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 3957.9,
+      "text": "they will need the license and yeah. That's the question if if the GitHub is is good interface for such a uh",
+      "why_it_matters": "Highlights a key barrier to GitHub adoption: licensing requirements for non-technical stakeholders and customers.",
+      "check": "exact"
+    },
+    {
+      "t": 4047.2,
+      "text": "The answer was on DevOps there are already partner tools that's and we decided to cover GitHub because it's not covered by the partners",
+      "why_it_matters": "Explains the rationale for why Microsoft chose GitHub for AL-Go instead of continuing with Azure DevOps.",
+      "check": "exact"
+    },
+    {
+      "t": 4076.8,
+      "text": "My personal opinion is that Microsoft will end the DevOps repositories in some future because it have no meaning why to have two server",
+      "why_it_matters": "Suggests the eventual deprecation of Azure DevOps repositories as part of consolidation toward GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 4097.3,
+      "text": "the next step will be to and I hope it will be in unifying the interface. It means moving the DevOps enterprise management or",
+      "why_it_matters": "Outlines the vision for merging Azure Boards functionality into GitHub's interface for unified work management.",
+      "check": "exact"
+    },
+    {
+      "t": 4139.9,
+      "text": "Microsoft is still extending the issues with new functionality. And we have the relations now which were not there. We have issue types which",
+      "why_it_matters": "Documents ongoing enhancements to GitHub issues to build out project planning capabilities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 365.4,
+      "kind": "other",
+      "text": "how many of you are feeling the pressure to adopt GitHub"
+    },
+    {
+      "t": 1245.1,
+      "kind": "coming-later",
+      "text": "in plan there is a Brazil, India and moder moderate region"
+    },
+    {
+      "t": 1284.4,
+      "kind": "subject-to-change",
+      "text": "some tools for GitHub are not ready for for that. It's much better these days. It was problem on the beginning of the year"
+    },
+    {
+      "t": 1371.3,
+      "kind": "not-in-this-release",
+      "text": "But still no marketplace for data residency"
+    },
+    {
+      "t": 1930.1,
+      "kind": "other",
+      "text": "In June 26 Microsoft encourage customers to move their repositories to from Azure DevOps to to GitHub but still DevOps stays fully supported"
+    },
+    {
+      "t": 2018.3,
+      "kind": "coming-later",
+      "text": "Next year Microsoft is ending support for public project on DevOps"
+    },
+    {
+      "t": 2516.4,
+      "kind": "preview",
+      "text": "It's a new tool. It's in public preview, but it have some limitations"
+    },
+    {
+      "t": 2596.7,
+      "kind": "subject-to-change",
+      "text": "Live Enterprise Live Migration tool new from August 26"
+    },
+    {
+      "t": 3691.7,
+      "kind": "subject-to-change",
+      "text": "It's really changing every time."
+    },
+    {
+      "t": 3981.5,
+      "kind": "not-in-this-release",
+      "text": "that's probably a major effort Microsoft in a way still needs to do to get that whole let's say work ..."
+    },
+    {
+      "t": 4076.8,
+      "kind": "other",
+      "text": "Personal opinion that Microsoft will end DevOps repositories in future, not an official announcement"
+    },
+    {
+      "t": 4111.6,
+      "kind": "other",
+      "text": "Hope to unify interface is a future aspiration, not a confirmed roadmap item"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 41,
+    "quotes_dropped": 1,
+    "evidence_verified": 5,
+    "evidence_unverified": 44
+  },
+  "windows": 6,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024097
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027729
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026592
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027989999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034095
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019707000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.063571
+    }
+  ]
+}
