@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v29.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v29",
   "title": "System requirements for Business Central 2026 release wave 2",
-  "blob": "085925eeb350b006b4f15cc242c43acd7523eb6a",
-  "summary": "System requirements for installing and running Business Central 2026 release wave 2 on-premises, including minimum hardware and software requirements for client components (web, mobile, desktop), server components, database, and optional features like ADCS and Outlook integration.",
+  "blob": "405c3b292418c553a99dacf4f7523c1db9486b6f",
+  "summary": "System requirements for Business Central 2026 release wave 2 (version 29) on-premises deployment, covering minimum hardware, software, and browser requirements for client, server, database components, and integrations.",
   "systems": [
     "administration",
     "platform",
@@ -11,28 +11,29 @@
   ],
   "topics": [
     "system requirements",
-    "hardware",
-    "software",
-    "installation",
+    "hardware requirements",
+    "software requirements",
+    "web client",
+    "server components",
+    "database",
     "deployment",
-    "sql server",
-    "windows",
-    "browser"
+    "al development"
   ],
   "objects": [],
   "features": [
-    "Web client",
+    "web client",
     "mobile app",
     "desktop app",
-    "Excel integration",
-    "Word integration",
-    "Outlook integration",
-    "ADCS",
-    "CRM integration",
-    "AL development environment"
+    "excel integration",
+    "word integration",
+    "outlook integration",
+    "al development environment",
+    "crm integration",
+    "dataverse integration"
   ],
   "versions": [
-    "2026 release wave 2"
+    "2026 release wave 2",
+    "version 29"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -40,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010603,
-      "pages_in_call": 3
+      "cost_usd": 0.012898,
+      "pages_in_call": 1
     }
   ]
 }

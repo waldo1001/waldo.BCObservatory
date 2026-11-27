@@ -2,35 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/save-business-contacts-to-outlook.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook",
   "title": "Save Business Contacts to Microsoft Outlook",
-  "blob": "e8e9e7744c6a6a4ce21806189846d0bcee8e37c0",
-  "summary": "Save Business Central contacts to Microsoft Outlook and Teams by synchronizing a filtered list of contacts to your Microsoft 365 account for easy access in Outlook and Teams. Use this to maintain business contact information across both systems.",
+  "blob": "3f53c06073528fbafee9edb0bed84baaaf30eb1a",
+  "summary": "Contact synchronization feature that saves Business Central contacts to Microsoft 365 for access in Outlook and Teams, with optional two-way synchronization.",
   "systems": [
     "crm",
     "integration",
-    "platform"
+    "administration"
   ],
   "topics": [
-    "contact synchronization",
-    "outlook integration",
-    "teams integration",
-    "contact management",
+    "contacts",
+    "outlook",
+    "teams",
+    "synchronization",
     "microsoft 365",
-    "two-way sync"
+    "collaboration"
   ],
   "objects": [],
   "features": [
     "Synchronize with Outlook action",
-    "contact filtering",
-    "Outlook folder selection",
-    "full synchronization",
-    "force full sync",
-    "two-way synchronization",
-    "exclusion actions",
-    "synchronization preview"
+    "Contact filtering",
+    "Contacts folder selection",
+    "Full synchronization",
+    "Delta synchronization",
+    "Two-way synchronization",
+    "Force full sync",
+    "Clear last sync details"
   ],
   "versions": [
-    "2026 release wave 1",
-    "version 28"
+    "2026 release wave 1 (v28)"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,7 +37,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005372,
+      "cost_usd": 0.009602,
       "pages_in_call": 1
     }
   ]

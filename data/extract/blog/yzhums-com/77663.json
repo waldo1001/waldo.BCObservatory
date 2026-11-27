@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/yzhums-com/77663",
+  "url": "https://yzhums.com/77663/",
+  "title": "Dynamics 365 Business Central: How to pad a string to a specified length with a character (GetPaddedString)",
+  "source": "yzhums-com",
+  "published_at": "2026-11-26T04:25:51.000Z",
+  "words": 258,
+  "summary": "GetPaddedString is a method in Business Central's StringConversionManagement codeunit that fills a string with a specified character until it reaches a desired length, supporting both left and right justification.",
+  "key_points": [
+    "GetPaddedString pads strings by adding a character to reach a target length",
+    "Left justification adds padding characters to the right, right justification adds them to the left",
+    "If the original string exceeds the pad length, it is not truncated",
+    "The method is built into standard codeunit 47 StringConversionManagement"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "string manipulation",
+    "al development",
+    "getpaddedstring",
+    "codeunit"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "StringConversionManagement"
+    }
+  ],
+  "features": [
+    "GetPaddedString",
+    "string padding",
+    "character fill",
+    "left justification",
+    "right justification"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "there is already a very simple method in the standard codeunit 47 StringConversionManagement that can do this: GetPaddedString().",
+      "why_it_matters": "Identifies the built-in method developers should use instead of writing custom padding logic"
+    },
+    {
+      "text": "If the original string is already longer than PadLength, GetPaddedString() does not truncate the string.",
+      "why_it_matters": "Clarifies important behavior: the method preserves longer strings without cutting them"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004633,
+    "posts_in_call": 1
+  }
+}

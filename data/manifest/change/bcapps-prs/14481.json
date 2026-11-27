@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14481",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Generate Lines from Allocation Account Line leaves incorrect Non-deductible VAT amounts when Prices Including VAT is enabled.",
+  "url": "https://github.com/microsoft/BCApps/pull/14481",
+  "published_at": "2026-11-26T10:50:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "5593078f38242fc7d1426f92d8f800b34fb025f1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14481,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5593078f38242fc7d1426f92d8f800b34fb025f1",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "generate lines from allocation account line leaves incorrect non deductible vat amounts when prices including vat is enabled"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13811",
+  "number": 13811,
+  "title": "Enable custom agent task creation from the timeline",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Custom agents now support creating tasks directly from the timeline through an interface implementation, offering options to create a simple task or open the full test agent UI with draft preservation.",
+  "key_points": [
+    "Implements IAgentManualTaskCreation interface for custom agents following the Sales Order Agent pattern",
+    "Adds option dialog defaulting to 'Create in Test Agent page' with alternative 'Create task' choice",
+    "Simple task dialog includes 'Open test agent' action visible only for custom agents",
+    "Maintains security checks for configuration permissions, inactive agents, and archived agents",
+    "Timeline file-upload task creation remains disabled"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004145,
+    "changes_in_call": 1
+  }
+}

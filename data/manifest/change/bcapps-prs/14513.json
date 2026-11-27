@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14513",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "CI: avoid duplicate analyzers in the temporary Clean baseline pass",
+  "url": "https://github.com/microsoft/BCApps/pull/14513",
+  "published_at": "2026-11-26T11:46:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "86461ca62217c5790812e8e22b35f29e9d02c5fe:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14513,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "86461ca62217c5790812e8e22b35f29e9d02c5fe",
+    "author": "dsyme",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Build: scripts & configs",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "ci avoid duplicate analyzers in the temporary clean baseline pass"
+  }
+}

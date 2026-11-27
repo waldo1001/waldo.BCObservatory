@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14527",
+  "number": 14527,
+  "title": "Don't reuse a Payables Agent user that has no permissions in the company",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Payables Agent setup now verifies that a reused agent user has permissions in the current company before attempting to reuse it, preventing task failures when a company is deleted and recreated with the same name.",
+  "key_points": [
+    "Agent user lookup by name now includes a permissions check for the current company",
+    "If an agent user lacks permissions in the current company, a new agent is created instead of reused",
+    "Uses the same permissions verification the agent framework runs before accepting tasks",
+    "Agents already linked in company setup continue to work as before",
+    "Resolves task failures with 'agent has no access control permissions' error after company recreation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "The setup found it by that name and reused it, but its permissions belonged to the deleted company.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003957,
+    "changes_in_call": 1
+  }
+}

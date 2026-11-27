@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14450",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": " [29.x] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation",
+  "url": "https://github.com/microsoft/BCApps/pull/14450",
+  "published_at": "2026-11-26T15:11:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "172abc08b982e6dba52fb4d1534000daa8fb2b0c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14450,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "172abc08b982e6dba52fb4d1534000daa8fb2b0c",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x reversed output entry stays uninvoiced invoiced quantity 0 after reopening a finished production order causing quantity discrepancy in inventory valuation"
+  }
+}

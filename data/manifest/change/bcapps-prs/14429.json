@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/14429",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
+  "url": "https://github.com/microsoft/BCApps/pull/14429",
+  "published_at": "2026-11-26T15:42:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "a39069ff43098adfba1b83570e2aa491ce897d68:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14429,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "a39069ff43098adfba1b83570e2aa491ce897d68",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "purchase credit memo get return shipment lines fails for non inventory items with corrective credit memo can only reverse the original posted invoice error regression from bug 636861"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "change/bcapps-prs/14576",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Run full stability validation on Mondays",
+  "url": "https://github.com/microsoft/BCApps/pull/14576",
+  "published_at": "2026-11-26T19:36:18Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "d29d43e56750f9821711a3d0773e6d52e5d28023:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14576,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d29d43e56750f9821711a3d0773e6d52e5d28023",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "run full stability validation on mondays"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-27T00:13:46.972Z",
+  "retry_after": null
+}

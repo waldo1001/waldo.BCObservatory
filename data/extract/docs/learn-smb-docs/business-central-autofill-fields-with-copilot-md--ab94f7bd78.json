@@ -2,27 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/autofill-fields-with-copilot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/autofill-fields-with-copilot",
   "title": "Autofill fields with Copilot (preview)",
-  "blob": "d3f238dc7f5f49b164ba91072b4d51483d375c69",
-  "summary": "Autofill with Copilot automatically fills blank editable fields on card and document pages with suggestions based on Business Central data, AI-generation, or web search results. Users review and accept or reject each suggestion before saving.",
+  "blob": "0b5b2069c6e3367b51c1faa68191bec6ef6ee82e",
+  "summary": "Copilot's autofill feature automatically suggests values for editable blank fields on card and document pages, including suggestions from Business Central data, AI, or web search, with user control over acceptance or rejection.",
   "systems": [
-    "copilot"
+    "copilot",
+    "platform",
+    "integration"
   ],
   "topics": [
     "autofill",
     "copilot",
+    "ai suggestions",
     "field suggestions",
+    "auto paste",
     "web search",
-    "ai",
     "data entry"
   ],
   "objects": [],
   "features": [
-    "Autofill feature",
-    "Field suggestions",
-    "Web search integration",
-    "Bing Search",
-    "Suggestion details",
-    "Accept/Discard workflow"
+    "Autofill on card and document pages",
+    "Auto paste from clipboard",
+    "Web search suggestions",
+    "AI-generated suggestions",
+    "Show details for suggestions",
+    "Keep all button",
+    "Keyboard shortcuts"
   ],
   "versions": [
     "update 26.4"
@@ -33,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00772,
-      "pages_in_call": 4
+      "cost_usd": 0.005319,
+      "pages_in_call": 1
     }
   ]
 }

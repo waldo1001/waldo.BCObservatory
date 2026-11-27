@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14577,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14577",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T19:15:14Z",
+  "merge_commit_sha": "802e15cb26623f2aa01d7fcff61b0b00886f1e03",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Enable incremental builds on push events",
+  "body_hash": "24ce53fa6b8cc96cbfa7ec5550542b4d69b8d42e175b73281caf854530761f6c",
+  "fixes_issues": [],
+  "work_items": [
+    660834
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

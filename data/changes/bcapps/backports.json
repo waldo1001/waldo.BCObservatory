@@ -71,6 +71,15 @@
       "title_key": "fix item charge unit codes in xrechnung zugferd"
     }
   ],
+  "9880": [
+    {
+      "number": 14525,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-26T10:14:10Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14525",
+      "title_key": "bug 660615 29 x it is possible to specify 1099 information in vendor ledger entry even though the vendor is not 1099"
+    }
+  ],
   "9953": [
     {
       "number": 12673,
@@ -1059,6 +1068,15 @@
       "merged_at": "2026-10-30T07:56:43Z",
       "url": "https://github.com/microsoft/BCApps/pull/13436",
       "title_key": "bank acc reconciliation with copilot implement ability to switch llm with a simple configuration change"
+    }
+  ],
+  "13329": [
+    {
+      "number": 13328,
+      "base": "main",
+      "merged_at": "2026-11-26T13:21:30Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13328",
+      "title_key": "fix opportunity chance refresh after changing skip jump destination"
     }
   ],
   "13330": [
@@ -2953,6 +2971,27 @@
       "merged_at": "2026-11-25T13:33:08Z",
       "url": "https://github.com/microsoft/BCApps/pull/14414",
       "title_key": "sales or purchase order with 100 prepayment prepmt line amo"
+    },
+    {
+      "number": 14449,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-26T09:17:52Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14449",
+      "title_key": "exporting the vat report using the new elma xml export the report status remains released instead of changing to exported in the german version"
+    },
+    {
+      "number": 13874,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-26T12:30:52Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13874",
+      "title_key": "slice 611452 at ic regf enable danish saf t to be used in austria and iceland"
+    },
+    {
+      "number": 13329,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-26T19:40:28Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13329",
+      "title_key": "fix opportunity chance refresh after changing skip jump destination"
     }
   ]
 }

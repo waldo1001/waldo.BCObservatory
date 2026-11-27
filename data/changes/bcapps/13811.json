@@ -1,0 +1,132 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13811,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13811",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T18:26:48Z",
+  "merge_commit_sha": "c7a29700d1fb47e6ffb21827dae759afda062cff",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Enable custom agent task creation from the timeline",
+  "body_hash": "625038e33391a1f16604ca781a7bd1d3fc3160ad655d17ae7e79f14c36e25f09",
+  "fixes_issues": [],
+  "work_items": [
+    658368
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.EnumExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/Interaction/AgentNewTaskMessage.Page.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/test/Integration/CustomAgentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 222,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/test/Setup/DesignerTestMetadata.EnumExt.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 322,
+    "deletions": 13,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4358",
+        "type": "codeunit",
+        "id": 4358,
+        "name": "Custom Agent Metadata Provider",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "codeunit/4358"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/4351",
+        "type": "enumextension",
+        "id": 4351,
+        "name": "Custom Agent Metadata Provider",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "enumextension/4351"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4350",
+        "type": "codeunit",
+        "id": 4350,
+        "name": "Custom Agent Setup",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "codeunit/4350"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/Interaction/AgentNewTaskMessage.Page.al",
+        "status": "modified",
+        "key": "page/4359",
+        "type": "page",
+        "id": 4359,
+        "name": "Agent New Task Message",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4359"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "AgentDesignExperience"
+  ]
+}

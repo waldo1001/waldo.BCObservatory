@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13786",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
+  "url": "https://github.com/microsoft/BCApps/pull/13786",
+  "published_at": "2026-11-26T15:27:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "0dcbd03c25b1966c3282bd7ddf50cc9889f5641b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13786,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "0dcbd03c25b1966c3282bd7ddf50cc9889f5641b",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "sales purchase price list activation allows duplicate lines when the price list is inactive"
+  }
+}

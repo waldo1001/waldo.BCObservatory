@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12153",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.",
+  "url": "https://github.com/microsoft/BCApps/pull/12153",
+  "published_at": "2026-11-26T16:27:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "330985a5563366ad4dd32883ed9a444770614dcd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12153,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "330985a5563366ad4dd32883ed9a444770614dcd",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "adjust cost creates an output value entry with entry type variance and expected cost yes after reversing a finished production order"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13562",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
+  "url": "https://github.com/microsoft/BCApps/pull/13562",
+  "published_at": "2026-11-26T14:56:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "07407791a31f8df035ae093c6d65289c7de627f8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13562,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "07407791a31f8df035ae093c6d65289c7de627f8",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "production order fails to finish due to quantity rounding difference between component consumption and item tracking quantity copy"
+  }
+}

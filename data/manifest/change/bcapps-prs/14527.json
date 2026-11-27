@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14527",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Don't reuse a Payables Agent user that has no permissions in the company",
+  "url": "https://github.com/microsoft/BCApps/pull/14527",
+  "published_at": "2026-11-26T23:12:33Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:13:37.660Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-27T00:13:44.169Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003957
+    },
+    "linked": {
+      "at": "2026-11-27T00:13:44.355Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:13:44.443Z",
+      "path": "content/changes/bcapps/14527.md"
+    }
+  },
+  "input_hash": "8e490a7b17d19122c1031369cbf82097cf65cfa9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14527,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8e490a7b17d19122c1031369cbf82097cf65cfa9",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "don t reuse a payables agent user that has no permissions in the company"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e774532cdcb0c6869252a2b1fe9720bcde2564237f6c9b2762447a5fbc888a93"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "change/bcapps-prs/13565",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Log churn-based test proposals without skipping tests",
+  "url": "https://github.com/microsoft/BCApps/pull/13565",
+  "published_at": "2026-11-26T23:59:41Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "cbfa6e9ca13309361c8b6d864de54e2e137d3773:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13565,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cbfa6e9ca13309361c8b6d864de54e2e137d3773",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "log churn based test proposals without skipping tests"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-27T00:13:37.716Z",
+  "retry_after": null
+}

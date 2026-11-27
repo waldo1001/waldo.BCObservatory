@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14186",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption",
+  "url": "https://github.com/microsoft/BCApps/pull/14186",
+  "published_at": "2026-11-26T10:58:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "cf052565c35a39fd48966ace4450a56b29a0e215:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14186,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cf052565c35a39fd48966ace4450a56b29a0e215",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master production order wip shows different wip depending on starting date after revaluing reversed consumption"
+  }
+}

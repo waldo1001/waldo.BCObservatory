@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14501",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "29.x: Adding \"Description 2\"  when available under ram:Description",
+  "url": "https://github.com/microsoft/BCApps/pull/14501",
+  "published_at": "2026-11-26T16:17:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "1f679c4a70633a1596aa39734f63b8ff2d0a0228:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14501,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "1f679c4a70633a1596aa39734f63b8ff2d0a0228",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x adding description 2 when available under ram description"
+  }
+}

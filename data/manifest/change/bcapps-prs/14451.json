@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14451",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.",
+  "url": "https://github.com/microsoft/BCApps/pull/14451",
+  "published_at": "2026-11-26T16:44:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "45f75a0f181ab90876c3937dc622e759d971e0f3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14451,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "45f75a0f181ab90876c3937dc622e759d971e0f3",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master sales quote for subscription billing report layout incorrectly includes the quote variant lines in subscription totals in the switzerland version"
+  }
+}

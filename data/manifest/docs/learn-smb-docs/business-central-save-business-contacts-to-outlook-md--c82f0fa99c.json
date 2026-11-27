@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Save Business Contacts to Microsoft Outlook",
   "url": "https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook",
-  "published_at": "2026-11-10T08:04:53.000Z",
+  "published_at": "2026-11-26T13:07:15.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-11T00:24:40.858Z",
-      "blob": "e8e9e7744c6a6a4ce21806189846d0bcee8e37c0",
-      "words": 1759,
+      "at": "2026-11-27T00:13:46.089Z",
+      "blob": "3f53c06073528fbafee9edb0bed84baaaf30eb1a",
+      "words": 1854,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:24:46.461Z",
+      "at": "2026-11-27T00:13:54.883Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005372
+      "cost_usd": 0.009602
     },
     "summarized": {
-      "at": "2026-11-11T00:24:46.462Z",
+      "at": "2026-11-27T00:13:54.885Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:24:46.463Z",
+      "at": "2026-11-27T00:13:54.886Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:24:46.464Z",
+      "at": "2026-11-27T00:13:54.887Z",
       "page": false
     }
   },
-  "input_hash": "e8e9e7744c6a6a4ce21806189846d0bcee8e37c0",
+  "input_hash": "3f53c06073528fbafee9edb0bed84baaaf30eb1a",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/save-business-contacts-to-outlook.md",
     "description": "Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.",
-    "ms_date": "2026-11-09",
+    "ms_date": "2026-11-25",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1759,
+    "words": 1854,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8267906e436cc1d86b045540d903579677d8b8a87a0b929f86165f17d371690"
+  "output_hash": "52c98fb2c6ee2c2a7b5fa0a0abbb956868b920b3178081622308c963a1f509a2"
 }

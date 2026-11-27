@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Data movement across geographies for Business Central Copilot and agent capabilities",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement",
-  "published_at": "2026-11-18T19:09:35.000Z",
+  "published_at": "2026-11-26T14:14:44.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-20T00:17:48.164Z",
-      "blob": "2d63b0864842a6d29d87c6c4f241a040e88d21f7",
-      "words": 1335,
+      "at": "2026-11-27T00:13:37.776Z",
+      "blob": "1e79bf6c37eb648857319ff4c77ba3276f015a24",
+      "words": 1269,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-20T00:17:53.011Z",
+      "at": "2026-11-27T00:13:44.162Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.010661
+      "cost_usd": 0.010477
     },
     "summarized": {
-      "at": "2026-11-20T00:17:53.011Z",
+      "at": "2026-11-27T00:13:44.163Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-20T00:17:53.012Z",
+      "at": "2026-11-27T00:13:44.163Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-20T00:17:53.013Z",
+      "at": "2026-11-27T00:13:44.164Z",
       "page": false
     }
   },
-  "input_hash": "2d63b0864842a6d29d87c6c4f241a040e88d21f7",
+  "input_hash": "1e79bf6c37eb648857319ff4c77ba3276f015a24",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -56,11 +56,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 1335,
+    "words": 1269,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7e7629e7ff6aebee2afa48a8fbc42a332672ea51df83e2ee9f4cad14b0274e1"
+  "output_hash": "0fb73fa0047603f38db2f559713b400eaa32afc0726fdb639a1108eb19f97f01"
 }

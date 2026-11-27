@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13811",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable custom agent task creation from the timeline",
+  "url": "https://github.com/microsoft/BCApps/pull/13811",
+  "published_at": "2026-11-26T18:26:48Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:13:56.728Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:02.034Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004145
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:02.166Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:02.173Z",
+      "path": "content/changes/bcapps/13811.md"
+    }
+  },
+  "input_hash": "c7a29700d1fb47e6ffb21827dae759afda062cff:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13811,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c7a29700d1fb47e6ffb21827dae759afda062cff",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "enable custom agent task creation from the timeline"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2c3a016887b2ba25a5f1bc2cb646178c6720a0195586933baf98d539d66a63fb"
+}

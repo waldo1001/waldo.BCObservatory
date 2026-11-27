@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Responsible AI FAQ for Autofill (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-autofill",
-  "published_at": "2026-10-29T14:01:01.000Z",
+  "published_at": "2026-11-26T14:15:13.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-30T00:17:32.669Z",
-      "blob": "54d7f4a241fd468f4c6fffcb1fa65823d0cbf597",
-      "words": 913,
+      "at": "2026-11-27T00:13:36.485Z",
+      "blob": "eab6ad698973044ac18a34a5e87b5118110724c3",
+      "words": 1168,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-30T00:17:41.535Z",
+      "at": "2026-11-27T00:13:41.320Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.008776
+      "cost_usd": 0.004776
     },
     "summarized": {
-      "at": "2026-10-30T00:17:41.539Z",
+      "at": "2026-11-27T00:13:41.320Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-30T00:17:41.540Z",
+      "at": "2026-11-27T00:13:41.321Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-30T00:17:41.541Z",
+      "at": "2026-11-27T00:13:41.321Z",
       "page": false
     }
   },
-  "input_hash": "54d7f4a241fd468f4c6fffcb1fa65823d0cbf597",
+  "input_hash": "eab6ad698973044ac18a34a5e87b5118110724c3",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/faqs-autofill.md",
     "description": "Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.",
-    "ms_date": "2026-10-29",
+    "ms_date": "2026-11-24",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [
@@ -54,11 +54,11 @@
       "chat"
     ],
     "ai_usage": "ai-assisted",
-    "words": 913,
+    "words": 1168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb421a1cbb7b45f34fb34f03a59575e949cfe73f9a4f357bb6dd3f40a241aa6b"
+  "output_hash": "455bc001f34a068c8eeda841b3f48933de250b65666fce51dc229eaa0c49fb8c"
 }

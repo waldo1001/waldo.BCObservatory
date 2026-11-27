@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13871",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-W2 2026 - Bug Bash I: Employee No. get exhausted very quickly for our bug bash tenant",
+  "url": "https://github.com/microsoft/BCApps/pull/13871",
+  "published_at": "2026-11-26T10:51:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "6ded0fc36c325f1f9f10a418e8a9e9e2e850894f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13871,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6ded0fc36c325f1f9f10a418e8a9e9e2e850894f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master w2 2026 bug bash i employee no get exhausted very quickly for our bug bash tenant"
+  }
+}

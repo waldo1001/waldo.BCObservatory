@@ -2,32 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v28.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v28",
   "title": "System requirements for Business Central 2026 release wave 1",
-  "blob": "1de8dca17e22dc7b9f15aef26554dbe563dcdf51",
-  "summary": "Minimum hardware and software requirements for installing and running Business Central on-premises version 28, covering client components, server components, AL development, and integrated features.",
+  "blob": "8efead3b9926c04688004364736f98a7191cac9d",
+  "summary": "System requirements for Business Central 2026 release wave 1 (version 28) on-premises, including minimum hardware and software requirements for web client, mobile app, desktop app, server components, database, and integrations.",
   "systems": [
+    "administration",
     "platform",
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "system requirements",
     "hardware",
     "software",
     "deployment",
-    "installation",
-    "client components",
-    "server components"
+    "on-premises",
+    "version 28"
   ],
   "objects": [],
   "features": [
-    "web client",
-    "mobile app",
-    "desktop app",
-    "AL development",
+    "Web client browser support",
+    "Mobile app (iOS and Android)",
+    "Desktop app",
+    "Office integration (Excel, Word, Outlook)",
+    "AL development environment",
     "SQL Server database",
-    "ADCS",
-    "Outlook integration",
-    "CRM integration"
+    "Automated Data Capture System (ADCS)",
+    "Business inbox in Outlook",
+    "Dataverse and Dynamics 365 Sales integration"
   ],
   "versions": [
     "2026 release wave 1",
@@ -39,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.015963,
-      "pages_in_call": 2
+      "cost_usd": 0.013109,
+      "pages_in_call": 1
     }
   ]
 }

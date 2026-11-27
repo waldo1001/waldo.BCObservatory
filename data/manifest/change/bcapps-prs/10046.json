@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10046",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Obsolete objects and add deprecation notices for PTE upload/install in Extension Management",
+  "url": "https://github.com/microsoft/BCApps/pull/10046",
+  "published_at": "2026-11-26T14:45:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "a751b15368453c5fc15e40bd1a4037b1dee3553f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10046,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a751b15368453c5fc15e40bd1a4037b1dee3553f",
+    "author": "PooyaKharamesh",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "obsolete objects and add deprecation notices for pte upload install in extension management"
+  }
+}

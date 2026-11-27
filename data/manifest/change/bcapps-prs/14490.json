@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14490",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Repeated partial return posting reuses first credit memo and corrupts original order quantities",
+  "url": "https://github.com/microsoft/BCApps/pull/14490",
+  "published_at": "2026-11-26T17:10:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:13:59.933Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 12,
+      "objects": 9,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:06.540Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003796
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:06.694Z",
+      "objects": 9,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:10.456Z",
+      "path": "content/changes/bcapps/14490.md"
+    }
+  },
+  "input_hash": "959e97763dcdc6afbb3a50f3035c9c4bd675ef69:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14490,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "959e97763dcdc6afbb3a50f3035c9c4bd675ef69",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master repeated partial return posting reuses first credit memo and corrupts original order quantities"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "421dbb8c3a636be951cbc72f73c0efc2b3d5e0edf31dc2d879f4dc4d8857ce89"
+}

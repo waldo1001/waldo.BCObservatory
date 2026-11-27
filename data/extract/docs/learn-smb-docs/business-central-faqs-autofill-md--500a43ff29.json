@@ -2,31 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/faqs-autofill.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-autofill",
   "title": "Responsible AI FAQ for Autofill (preview)",
-  "blob": "54d7f4a241fd468f4c6fffcb1fa65823d0cbf597",
-  "summary": "Autofill is an AI-powered Copilot feature that suggests and fills field values automatically to reduce manual data entry time and errors. It uses Azure OpenAI Service and optional Bing Search, operates under user permissions, and requires manual review before suggestions are saved.",
+  "blob": "eab6ad698973044ac18a34a5e87b5118110724c3",
+  "summary": "Responsible AI FAQ for Autofill, a Copilot feature that uses AI to automatically suggest and fill field values in Business Central. Explains capabilities, evaluation methodology, limitations, data residency, security, and best practices for reviewing suggestions.",
   "systems": [
     "copilot",
-    "administration",
-    "integration"
+    "platform",
+    "administration"
   ],
   "topics": [
-    "copilot",
     "autofill",
-    "ai",
-    "data entry",
+    "copilot",
     "responsible ai",
-    "copilot capabilities",
-    "web search"
+    "data security",
+    "clipboard",
+    "web search",
+    "ai limitations"
   ],
   "objects": [],
   "features": [
-    "Autofill with Copilot",
-    "Azure OpenAI Service integration",
+    "Autofill",
+    "Auto paste",
     "Bing Search",
-    "field suggestions",
-    "content filtering",
-    "malicious site detection",
-    "user feedback mechanism"
+    "Clipboard suggestions",
+    "Web search",
+    "Content filtering",
+    "Malicious site detection",
+    "Responsible AI Standard"
   ],
   "versions": [
     "version 26.4"
@@ -37,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008776,
-      "pages_in_call": 3
+      "cost_usd": 0.004776,
+      "pages_in_call": 1
     }
   ]
 }

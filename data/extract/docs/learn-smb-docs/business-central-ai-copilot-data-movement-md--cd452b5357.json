@@ -2,32 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/ai-copilot-data-movement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement",
   "title": "Data movement across geographies for Business Central Copilot and agent capabilities",
-  "blob": "2d63b0864842a6d29d87c6c4f241a040e88d21f7",
-  "summary": "Data movement across geographies for Business Central Copilot and agent capabilities explains how prompts and outputs are routed to Azure OpenAI endpoints outside your geography when local processing isn't available, and how to manage consent via the Allow data movement setting on the Copilot & agent capabilities page.",
+  "blob": "1e79bf6c37eb648857319ff4c77ba3276f015a24",
+  "summary": "Data movement across geographies for Business Central Copilot and agent capabilities explains how prompts and outputs are processed through Microsoft-managed Azure OpenAI resources that may be hosted in different geographies from the Business Central environment. Organizations can control cross-geography processing via the Allow data movement setting on the Copilot & agent capabilities page.",
   "systems": [
     "copilot",
-    "platform",
-    "administration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "data residency",
-    "copilot capabilities",
-    "agent features",
+    "copilot",
+    "ai processing",
     "azure openai",
-    "geographic data movement",
-    "data privacy",
+    "data movement",
+    "geography",
     "compliance",
-    "consent management"
+    "consent"
   ],
   "objects": [],
   "features": [
     "Allow data movement setting",
     "Copilot & agent capabilities page",
     "Azure OpenAI routing",
+    "Data movement consent",
     "EU Data Boundary processing",
-    "cross-geography data processing",
-    "abuse monitoring",
-    "data residency compliance"
+    "Cross-geography processing"
   ],
   "versions": [
     "version 29"
@@ -38,7 +37,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010661,
+      "cost_usd": 0.010477,
       "pages_in_call": 1
     }
   ]

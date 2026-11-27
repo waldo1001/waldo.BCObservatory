@@ -1,0 +1,37 @@
+{
+  "id": "change/bcapps-prs/14577",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable incremental builds on push events",
+  "url": "https://github.com/microsoft/BCApps/pull/14577",
+  "published_at": "2026-11-26T19:15:14Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-27T00:13:11.976Z"
+    }
+  },
+  "input_hash": "802e15cb26623f2aa01d7fcff61b0b00886f1e03:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14577,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "802e15cb26623f2aa01d7fcff61b0b00886f1e03",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "enable incremental builds on push events"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-27T00:13:50.591Z",
+  "retry_after": null
+}

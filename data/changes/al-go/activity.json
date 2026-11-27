@@ -10,7 +10,33 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-10-29T12:58:22Z",
-      "updated_at": "2026-11-25T15:49:54Z",
+      "updated_at": "2026-11-26T16:43:04Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2465,
+      "title": "De-duplicate library app dependencies when delivering app source apps.",
+      "url": "https://github.com/microsoft/AL-Go/pull/2465",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-18T14:13:10Z",
+      "updated_at": "2026-11-26T15:48:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2426,
+      "title": "RunTests - test discovery using ALTool instead of BcContainerHelper",
+      "url": "https://github.com/microsoft/AL-Go/pull/2426",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-29T14:40:16Z",
+      "updated_at": "2026-11-26T15:46:23Z",
       "community_contribution": false
     },
     {
@@ -131,19 +157,6 @@
       "community_contribution": false
     },
     {
-      "number": 2426,
-      "title": "RunTests - test discovery using ALTool instead of BcContainerHelper",
-      "url": "https://github.com/microsoft/AL-Go/pull/2426",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-29T14:40:16Z",
-      "updated_at": "2026-11-24T14:52:49Z",
-      "community_contribution": false
-    },
-    {
       "number": 2468,
       "title": "Support multi-level custom template inheritance",
       "url": "https://github.com/microsoft/AL-Go/pull/2468",
@@ -180,19 +193,6 @@
       "draft": false,
       "created_at": "2026-11-13T08:01:24Z",
       "updated_at": "2026-11-24T14:52:41Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2465,
-      "title": "De-duplicate library app dependencies when delivering app source apps.",
-      "url": "https://github.com/microsoft/AL-Go/pull/2465",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-18T14:13:10Z",
-      "updated_at": "2026-11-24T14:52:36Z",
       "community_contribution": false
     },
     {
@@ -354,6 +354,15 @@
   ],
   "issues": [
     {
+      "number": 2475,
+      "title": "[Bug]: Dependency artifact download is not retried; transient 503 \"Egress is over the account limit\" fails the build",
+      "url": "https://github.com/microsoft/AL-Go/issues/2475",
+      "labels": [],
+      "author": "youngdanger2",
+      "created_at": "2026-11-26T07:59:49Z",
+      "comments": 0
+    },
+    {
       "number": 2459,
       "title": "[Bug]: Create release replaces umlauts and other non-ASCII characters in the generated release notes with '?'",
       "url": "https://github.com/microsoft/AL-Go/issues/2459",
@@ -449,18 +458,6 @@
       "comments": 0
     },
     {
-      "number": 2417,
-      "title": "[Bug]: \"\"build ('-1') must be a non-negative value\" after enabling workspace compilation",
-      "url": "https://github.com/microsoft/AL-Go/issues/2417",
-      "labels": [
-        "In Progress",
-        "bug"
-      ],
-      "author": "Mkublbock",
-      "created_at": "2026-10-23T09:49:03Z",
-      "comments": 0
-    },
-    {
       "number": 2416,
       "title": "[Bug]: PipelineCleanup of one build mode removes the container of another build mode of the same project (shared Docker host)",
       "url": "https://github.com/microsoft/AL-Go/issues/2416",
@@ -481,32 +478,6 @@
       "author": "FrankAuwers",
       "created_at": "2026-10-16T07:19:37Z",
       "comments": 0
-    },
-    {
-      "number": 2398,
-      "title": "[Bug]: AL-Go v9.1/v9.2 splits dependency app filenames containing a comma `",
-      "url": "https://github.com/microsoft/AL-Go/issues/2398",
-      "labels": [
-        "Fix Ready",
-        "In Preview",
-        "bug"
-      ],
-      "author": "OlhaIshyna",
-      "created_at": "2026-10-07T19:50:06Z",
-      "comments": 0
-    },
-    {
-      "number": 2387,
-      "title": "[Bug]: DetermineDeploymentEnvironments ignores GitHub environments after the first 30 (no pagination)",
-      "url": "https://github.com/microsoft/AL-Go/issues/2387",
-      "labels": [
-        "Fix Ready",
-        "In Preview",
-        "bug"
-      ],
-      "author": "faisahu",
-      "created_at": "2026-10-01T09:59:27Z",
-      "comments": 2
     },
     {
       "number": 2373,
