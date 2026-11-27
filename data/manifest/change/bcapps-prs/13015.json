@@ -6,10 +6,35 @@
   "title": "Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.",
   "url": "https://github.com/microsoft/BCApps/pull/13015",
   "published_at": "2026-11-26T16:44:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:26.621Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:34.262Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004169
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:34.391Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:34.397Z",
+      "path": "content/changes/bcapps/13015.md"
     }
   },
   "input_hash": "56254fd42d6bee37ab8a3042a7fbcdff01f183a0:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648925 vat charged in sales invoice with cash basis unrealized vat is not paid on sales credit note applied to that posted sales invoice if we use a similar cash basis vat prod posting group in the mexican version regression"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "959cb948f3b79b8eae0989b35ace72d5a616999a2db760efc8234ceaf01d84d1"
 }

@@ -6,10 +6,35 @@
   "title": "29.x: Adding \"Description 2\"  when available under ram:Description",
   "url": "https://github.com/microsoft/BCApps/pull/14501",
   "published_at": "2026-11-26T16:17:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:33.316Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:38.044Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003394
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:38.178Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:38.185Z",
+      "path": "content/changes/bcapps/14501.md"
     }
   },
   "input_hash": "1f679c4a70633a1596aa39734f63b8ff2d0a0228:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x adding description 2 when available under ram description"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0a40d9affdccdecdb8e35233a3217ba1ab130b70726a39a7678ab2a927c0eec1"
 }

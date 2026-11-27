@@ -2,32 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/deployment/system-requirements-business-central-v27.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v27",
   "title": "System requirements for Business Central 2025 release wave 2",
-  "blob": "40ea11a6dbeec7548d3c7ba467c190e7b83f24a2",
-  "summary": "Minimum hardware and software requirements for installing and running Business Central on-premises version 27, covering client components, server components, AL development, and integrated features.",
+  "blob": "54434cb2feacd26b897164aa4e613f0f76fc017a",
+  "summary": "System requirements for Business Central on-premises version 27, covering minimum hardware and software requirements for client components (web client, mobile app, desktop app), server components, database, and additional features.",
   "systems": [
     "platform",
-    "development",
-    "administration"
+    "administration",
+    "development"
   ],
   "topics": [
     "system requirements",
-    "hardware",
-    "software",
+    "hardware requirements",
+    "software requirements",
+    "web client",
+    "server components",
+    "database",
     "deployment",
-    "installation",
-    "client components",
-    "server components"
+    "al development"
   ],
   "objects": [],
   "features": [
     "web client",
     "mobile app",
     "desktop app",
-    "AL development",
-    "SQL Server database",
-    "ADCS",
-    "Outlook integration",
-    "CRM integration"
+    "excel integration",
+    "outlook integration",
+    "al development",
+    "automated data capture system",
+    "crm integration"
   ],
   "versions": [
     "2025 release wave 2",
@@ -39,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.015963,
-      "pages_in_call": 2
+      "cost_usd": 0.012809,
+      "pages_in_call": 1
     }
   ]
 }

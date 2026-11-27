@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13015",
+  "number": 13015,
+  "title": "Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "sales"
+  ],
+  "summary": "Sales credit memos now correctly realize unrealized VAT from invoices when using equivalent but differently coded VAT posting groups in Cash Basis VAT mode, addressing a regression in the Mexican version.",
+  "key_points": [
+    "Cash Basis VAT realization logic updated to identify equivalent VAT posting setups between invoices and credit memos",
+    "Equivalence determined by matching VAT business posting groups, calculation types, percentages, and account references",
+    "Supports full and partial credit memos with multiple VAT groups while preserving credit memo VAT posting groups in generated entries",
+    "Prevents unnecessary G/L entries and maintains existing public PostUnrealVATEntry interface",
+    "Automated tests added for full/partial credits, multiple VAT groups, and non-equivalent configurations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Updated the Cash Basis VAT realization logic to identify equivalent VAT posting setups between sales invoices and sales credit memos.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004169,
+    "changes_in_call": 1
+  }
+}

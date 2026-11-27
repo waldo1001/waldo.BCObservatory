@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14501",
+  "number": 14501,
+  "title": "29.x: Adding \"Description 2\"  when available under ram:Description",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The ZUGFeRD export now includes Description 2 field when available, aligning with XRechnung implementation and XSD specifications for German e-invoice standards.",
+  "key_points": [
+    "Adds Description 2 field to ZUGFeRD document exports",
+    "Aligns behavior with existing XRechnung implementation",
+    "Complies with XSD schema validation for ZUGFeRD",
+    "Addresses reported customer case in German e-invoicing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003394,
+    "changes_in_call": 1
+  }
+}

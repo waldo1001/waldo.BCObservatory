@@ -6,10 +6,35 @@
   "title": "[master]Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.",
   "url": "https://github.com/microsoft/BCApps/pull/14451",
   "published_at": "2026-11-26T16:44:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:20.397Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 13,
+      "objects": 12,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:28.375Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00546
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:28.551Z",
+      "objects": 12,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:28.556Z",
+      "path": "content/changes/bcapps/14451.md"
     }
   },
   "input_hash": "45f75a0f181ab90876c3937dc622e759d971e0f3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master sales quote for subscription billing report layout incorrectly includes the quote variant lines in subscription totals in the switzerland version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84466bc540d7c1e980b2c78ab9f6b9877733d4294df27ce039308a6708349479"
 }

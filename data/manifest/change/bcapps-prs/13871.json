@@ -6,10 +6,35 @@
   "title": "[Master]-W2 2026 - Bug Bash I: Employee No. get exhausted very quickly for our bug bash tenant",
   "url": "https://github.com/microsoft/BCApps/pull/13871",
   "published_at": "2026-11-26T10:51:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:16:37.238Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:16:47.350Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003133
+    },
+    "linked": {
+      "at": "2026-11-27T00:16:47.477Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:16:47.481Z",
+      "path": "content/changes/bcapps/13871.md"
     }
   },
   "input_hash": "6ded0fc36c325f1f9f10a418e8a9e9e2e850894f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master w2 2026 bug bash i employee no get exhausted very quickly for our bug bash tenant"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e9c28b1843048009c468e9d0f71712e727561145f272363e3282485e0a02a88f"
 }

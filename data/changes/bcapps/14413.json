@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14413,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14413",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-26T14:57:49Z",
+  "merge_commit_sha": "3ceaa760f1a7eec4ab4679ce2e6e90727f42c715",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)",
+  "body_hash": "4f4bb1aa95a70fab4e9c60991c574d7a81f9f4bb2192ba97a240ce8dc47b3eee",
+  "fixes_issues": [],
+  "work_items": [
+    658537
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMCorrectInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 108,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 135,
+    "deletions": 7,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1303",
+        "type": "codeunit",
+        "id": 1303,
+        "name": "Correct Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/1303"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1303",
+        "type": "codeunit",
+        "id": 1303,
+        "name": "Correct Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1303"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

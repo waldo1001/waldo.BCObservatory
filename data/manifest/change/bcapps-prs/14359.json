@@ -6,7 +6,7 @@
   "title": "[29.x]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted",
   "url": "https://github.com/microsoft/BCApps/pull/14359",
   "published_at": "2026-11-26T13:48:03Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": true,
     "title_key": "prepayment amounts are incorrectly recalculated in statistics after partial posting when prepmt amt to deduct excl vat is manually adjusted"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-27T00:15:49.719Z",
+  "retry_after": null
 }

@@ -6,10 +6,35 @@
   "title": "[29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
   "url": "https://github.com/microsoft/BCApps/pull/13562",
   "published_at": "2026-11-26T14:56:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:15:24.849Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:15:35.025Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00309
+    },
+    "linked": {
+      "at": "2026-11-27T00:15:35.132Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-27T00:15:35.135Z",
+      "path": "content/changes/bcapps/13562.md"
     }
   },
   "input_hash": "07407791a31f8df035ae093c6d65289c7de627f8:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "production order fails to finish due to quantity rounding difference between component consumption and item tracking quantity copy"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8ac751eb3a3f31ccef5b3f6a662a0c3636e5b0e44635ab2a787146f0cea900da"
 }

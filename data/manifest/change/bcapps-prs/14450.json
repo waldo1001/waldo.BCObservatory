@@ -6,10 +6,35 @@
   "title": " [29.x] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation",
   "url": "https://github.com/microsoft/BCApps/pull/14450",
   "published_at": "2026-11-26T15:11:55Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:50.373Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:15:08.394Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003405
+    },
+    "linked": {
+      "at": "2026-11-27T00:15:10.832Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-27T00:15:10.837Z",
+      "path": "content/changes/bcapps/14450.md"
     }
   },
   "input_hash": "172abc08b982e6dba52fb4d1534000daa8fb2b0c:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x reversed output entry stays uninvoiced invoiced quantity 0 after reopening a finished production order causing quantity discrepancy in inventory valuation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9d86cb58b6c59833f519e600b64e955d7813fbfeac1df0eb8d2909afb52c5baf"
 }

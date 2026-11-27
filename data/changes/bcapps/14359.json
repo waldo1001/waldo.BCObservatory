@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14359,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14359",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-26T13:48:03Z",
+  "merge_commit_sha": "7bfeb2b125d625c263540051970f514da0671467",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[29.x]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted",
+  "body_hash": "a8f0876b867574104bc784ce2cd5c093b5277d33986ab2df584ab1d7d9f6f665",
+  "fixes_issues": [],
+  "work_items": [
+    657598
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 82,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "29",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

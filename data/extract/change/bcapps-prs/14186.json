@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14186",
+  "number": 14186,
+  "title": "[Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Inventory Valuation - WIP report now correctly displays consistent work-in-progress values regardless of production order starting dates when consumption has been reversed and revalued.",
+  "key_points": [
+    "Fixed calculation issue in Inventory Valuation - WIP report",
+    "Report now handles reversed consumption with revaluation correctly",
+    "WIP values no longer vary based on production order starting dates",
+    "Test coverage added for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003231,
+    "changes_in_call": 1
+  }
+}

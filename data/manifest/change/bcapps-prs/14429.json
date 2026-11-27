@@ -6,10 +6,35 @@
   "title": "[29.x]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
   "url": "https://github.com/microsoft/BCApps/pull/14429",
   "published_at": "2026-11-26T15:42:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:37.665Z",
+      "change_class": "code",
+      "files": 21,
+      "al": 14,
+      "objects": 14,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:57.714Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.008373
+    },
+    "linked": {
+      "at": "2026-11-27T00:15:00.693Z",
+      "objects": 14,
+      "unjoined": 0,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-27T00:15:00.705Z",
+      "path": "content/changes/bcapps/14429.md"
     }
   },
   "input_hash": "a39069ff43098adfba1b83570e2aa491ce897d68:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "purchase credit memo get return shipment lines fails for non inventory items with corrective credit memo can only reverse the original posted invoice error regression from bug 636861"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6c1cc75d9cb88e95a5de45e2b3e573c540c4682f3464851c407109a597380e1"
 }

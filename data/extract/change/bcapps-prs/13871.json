@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13871",
+  "number": 13871,
+  "title": "[Master]-W2 2026 - Bug Bash I: Employee No. get exhausted very quickly for our bug bash tenant",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The employee number series initialization for the Contoso Coffee demo dataset was adjusted to prevent employee numbers from being exhausted too quickly during testing.",
+  "key_points": [
+    "Employee number series setup modified in demo data",
+    "Addresses rapid depletion of employee IDs in test environments",
+    "Single line change in CreateEmployeeNoSeries codeunit",
+    "Affects Contoso Coffee demo dataset initialization",
+    "Improves test scenario sustainability"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "hr"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003133,
+    "changes_in_call": 1
+  }
+}

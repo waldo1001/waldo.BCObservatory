@@ -6,7 +6,7 @@
   "title": "CI: avoid duplicate analyzers in the temporary Clean baseline pass",
   "url": "https://github.com/microsoft/BCApps/pull/14513",
   "published_at": "2026-11-26T11:46:49Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
@@ -32,5 +32,8 @@
     ],
     "community_contribution": true,
     "title_key": "ci avoid duplicate analyzers in the temporary clean baseline pass"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-27T00:16:14.184Z",
+  "retry_after": null
 }

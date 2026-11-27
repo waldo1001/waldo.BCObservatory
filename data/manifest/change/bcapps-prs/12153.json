@@ -6,10 +6,35 @@
   "title": "[Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.",
   "url": "https://github.com/microsoft/BCApps/pull/12153",
   "published_at": "2026-11-26T16:27:19Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:26.794Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:34.105Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004363
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:34.257Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:34.260Z",
+      "path": "content/changes/bcapps/12153.md"
     }
   },
   "input_hash": "330985a5563366ad4dd32883ed9a444770614dcd:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "adjust cost creates an output value entry with entry type variance and expected cost yes after reversing a finished production order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2eff854a9c50b474b98ccfffd58c3953c857a10864170909985620f396410eb4"
 }

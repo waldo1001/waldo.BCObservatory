@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14501,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14501",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-26T16:17:02Z",
+  "merge_commit_sha": "1f679c4a70633a1596aa39734f63b8ff2d0a0228",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "29.x: Adding \"Description 2\"  when available under ram:Description",
+  "body_hash": "4e50c704dcbdbf307e1464304f7f5e8032375f11eef11262ca321f54df8e39c9",
+  "fixes_issues": [],
+  "work_items": [
+    660478
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4",
+    "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13917",
+        "type": "codeunit",
+        "id": 13917,
+        "name": "Export ZUGFeRD Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13917-de"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocumentDE"
+  ]
+}

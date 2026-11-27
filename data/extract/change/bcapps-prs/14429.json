@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14429",
+  "number": 14429,
+  "title": "[29.x]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Purchase credit memo retrieval for non-inventory items now works correctly without triggering an error about reversing the original invoice, fixing a regression from an earlier bug fix.",
+  "key_points": [
+    "Fixed 'Get Return Shipment Lines' functionality for non-inventory items in purchase credit memos",
+    "Resolves incorrect validation error that prevented creating corrective credit memos",
+    "Regression fix related to earlier corrective credit memo logic",
+    "Changes applied across all localization layers",
+    "Test coverage added for the correction scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008373,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14451",
+  "number": 14451,
+  "title": "[master]Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales Quote reports for subscription billing now correctly exclude quote variant lines from subscription totals across all localization versions.",
+  "key_points": [
+    "Quote variant lines are excluded from subscription total calculations in reports",
+    "Fix applied consistently across 13 regional localization versions",
+    "New test coverage added for Sales Service Commitment subscription calculations",
+    "Corrects reporting accuracy for subscription billing functionality",
+    "Switzerland-specific test case enhanced with additional validations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "quote": "Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00546,
+    "changes_in_call": 1
+  }
+}

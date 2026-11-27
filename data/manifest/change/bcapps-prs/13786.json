@@ -6,10 +6,35 @@
   "title": "[29.X]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
   "url": "https://github.com/microsoft/BCApps/pull/13786",
   "published_at": "2026-11-26T15:27:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:14:37.144Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:14:40.942Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003016
+    },
+    "linked": {
+      "at": "2026-11-27T00:14:41.081Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-27T00:14:41.084Z",
+      "path": "content/changes/bcapps/13786.md"
     }
   },
   "input_hash": "0dcbd03c25b1966c3282bd7ddf50cc9889f5641b:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "sales purchase price list activation allows duplicate lines when the price list is inactive"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "59bbce1b65934169f0cd2cd035fa6ae34978ba71e64a00e2350326ba852794d5"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12153",
+  "number": 12153,
+  "title": "[Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed a bug where reversing a finished production order and reposting output caused Adjust Cost to create variance value entries incorrectly marked as expected cost instead of actual cost, preventing Post Inventory Cost to G/L from completing.",
+  "key_points": [
+    "Variance and Indirect Cost entries with zero invoiced quantity now use Valued Quantity instead when posting actual cost adjustments",
+    "New local procedure GetActualCostAdjmtInvoicedQty determines the correct quantity for posting based on entry type",
+    "Prevents expected cost flag from being incorrectly set on actual cost adjustments for variance entries",
+    "Resolves Post Inventory Cost to G/L failures on standard cost items after production order reopening",
+    "Fix applied across W1, APAC, and RU layers with new test coverage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": "Fixed in codeunit 5895 \"Inventory Adjustment\" (W1, APAC, RU layers), as suggested in review",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004363,
+    "changes_in_call": 1
+  }
+}

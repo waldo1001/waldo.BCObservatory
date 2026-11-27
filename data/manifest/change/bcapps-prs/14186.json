@@ -6,10 +6,35 @@
   "title": "[Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption",
   "url": "https://github.com/microsoft/BCApps/pull/14186",
   "published_at": "2026-11-26T10:58:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:16:35.254Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:16:47.207Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003231
+    },
+    "linked": {
+      "at": "2026-11-27T00:16:47.339Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:16:47.347Z",
+      "path": "content/changes/bcapps/14186.md"
     }
   },
   "input_hash": "cf052565c35a39fd48966ace4450a56b29a0e215:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master production order wip shows different wip depending on starting date after revaluing reversed consumption"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff128fe9fb4ce856ea2736586243bcd05569934094b312889a8a90b95b5e1dea"
 }

@@ -1,0 +1,45 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14513,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14513",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T11:46:49Z",
+  "merge_commit_sha": "86461ca62217c5790812e8e22b35f29e9d02c5fe",
+  "author": "dsyme",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "Build: scripts & configs",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "CI: avoid duplicate analyzers in the temporary Clean baseline pass",
+  "body_hash": "9dee922d5c0f212d46d9c7aa489d4728ae5954a2408a1ffb264122a1b98ac9ed",
+  "fixes_issues": [
+    14512
+  ],
+  "work_items": [
+    1234
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 120,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}
