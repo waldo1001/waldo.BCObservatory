@@ -6,14 +6,39 @@
   "title": "[main] feature 624914 - Refactor depreciation calculation logic to use GetDepreciationCalculationBase for improved clarity and maintainability",
   "url": "https://github.com/microsoft/BCApps/pull/13813",
   "published_at": "2026-11-23T16:28:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:17:01.544Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 8,
+      "objects": 6,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-27T00:17:06.531Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004801
+    },
+    "linked": {
+      "at": "2026-11-27T00:17:06.658Z",
+      "objects": 6,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:17:06.661Z",
+      "path": "content/changes/bcapps/13813.md"
     }
   },
   "input_hash": "518fcb43c51e03bc9243eea7d6c44b4c5a4ddb50:c1",
-  "attempts": 3,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13813,
@@ -29,6 +54,7 @@
     "community_contribution": false,
     "title_key": "feature 624914 refactor depreciation calculation logic to use getdepreciationcalculationbase for improved clarity and maintainability"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-26T08:15:32.493Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db6028ddb1512f15010e395ed7696a86e018c3e80bd532324ab1185bb12f7e3f"
 }

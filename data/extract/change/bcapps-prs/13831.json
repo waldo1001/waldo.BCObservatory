@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13831",
+  "number": 13831,
+  "title": "[Agent Design Experience] Use native Markdown for custom-agent instructions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Custom agent instructions now use the native Markdown field instead of a WebPageViewer control, with a new per-agent checkbox to enable business skills that provide specialized guidance.",
+  "key_points": [
+    "Replace WebPageViewer textarea with native multiline Markdown field for instruction editing",
+    "Add optional per-agent Use business skills checkbox that defaults to enabled for new agents",
+    "Preserve instruction text as raw UTF-8 without HTML conversion, maintaining formatting and whitespace",
+    "Share Markdown part across setup dialog, agent card, history previews, and import previews",
+    "Load instructions explicitly and refresh after history restore instead of relying on control-add-in events"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Replace the custom-agent instructions textarea hosted by WebPageViewer with the native multiline Markdown field.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004864,
+    "changes_in_call": 1
+  }
+}

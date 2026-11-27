@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14390",
+  "number": 14390,
+  "title": "[main] [E-Documents][PEPPOL] V1 import fails for UBL invoices using alternate cac/cbc namespace prefixes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "PEPPOL import for UBL invoices now handles alternate XML namespace prefixes correctly by matching elements through namespace URI instead of lexical prefix matching.",
+  "key_points": [
+    "Fixed V1 PEPPOL import failures when UBL elements use alternate namespace prefixes like cac1 and cbc1",
+    "Changed namespace matching from lexical prefix-based to URI-aware namespace resolution",
+    "Added URI awareness with multiple aliases and namespace-scope validation to codeunit 6166",
+    "Added regression test coverage for complete V1 parsing including invoices, credit notes, attributes, attachments, lines, and document charges"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "V1 PEPPOL import fails when equivalent UBL 2 elements use alternate namespace prefixes such as cac1 and cbc1.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003656,
+    "changes_in_call": 1
+  }
+}

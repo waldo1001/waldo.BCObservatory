@@ -1,0 +1,291 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13831,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13831",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T07:52:37Z",
+  "merge_commit_sha": "3967c9290dea599de7623d26fa6aebaa11948670",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Agent Design Experience] Use native Markdown for custom-agent instructions",
+  "body_hash": "cf37b9107098fbc92760598929c1a386a532f4c4cbc1c7ddd3be9c449379e78a",
+  "fixes_issues": [],
+  "work_items": [
+    660091
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Import/AgentImportBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustAgentInstructionsLog.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustAgentSaveVersionDlg.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgInstructionsDialog.Page.al",
+      "status": "renamed",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src",
+      "previous_filename": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgInstructionsDialog.page.al"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentInstructions.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 61,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentInstructionsLog.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentInstructionsPart.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentMarkdownPart.Page.al",
+      "status": "added",
+      "additions": 185,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/InstructionEditor/AgentInstructionEditor.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/test/Import/CustomAgentImportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/test/Integration/CustomAgentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 409,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 718,
+    "deletions": 86,
+    "al": 13
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Import/AgentImportBuffer.Table.al",
+        "status": "modified",
+        "key": "table/4353",
+        "type": "table",
+        "id": 4353,
+        "name": "Agent Import Buffer",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "table/4353"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4358",
+        "type": "codeunit",
+        "id": 4358,
+        "name": "Custom Agent Metadata Provider",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "codeunit/4358"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Integration/CustomAgentMetadataProvider.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/4351",
+        "type": "enumextension",
+        "id": 4351,
+        "name": "Custom Agent Metadata Provider",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "enumextension/4351"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/4350",
+        "type": "page",
+        "id": 4350,
+        "name": "Custom Agent Setup",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4350"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/CustomAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/4350",
+        "type": "table",
+        "id": 4350,
+        "name": "Custom Agent Setup",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "table/4350"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustAgentInstructionsLog.Page.al",
+        "status": "modified",
+        "key": "page/4352",
+        "type": "page",
+        "id": 4352,
+        "name": "Cust. Agent Instructions Log",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4352"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustAgentSaveVersionDlg.Page.al",
+        "status": "modified",
+        "key": "page/4355",
+        "type": "page",
+        "id": 4355,
+        "name": "Cust. Agent Save Version Dlg",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4355"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgInstructionsDialog.Page.al",
+        "status": "renamed",
+        "key": "page/4354",
+        "type": "page",
+        "id": 4354,
+        "name": "Custom Ag. Instructions Dialog",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4354",
+        "previous_filename": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgInstructionsDialog.page.al"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentInstructions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4352",
+        "type": "codeunit",
+        "id": 4352,
+        "name": "Custom Agent Instructions",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "codeunit/4352"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentInstructionsLog.Table.al",
+        "status": "modified",
+        "key": "table/4352",
+        "type": "table",
+        "id": 4352,
+        "name": "Custom Agent Instructions Log",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "table/4352"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentInstructionsPart.Page.al",
+        "status": "modified",
+        "key": "page/4353",
+        "type": "page",
+        "id": 4353,
+        "name": "Custom Agent Instructions Part",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4353"
+      },
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/InstructionEditor/AgentInstructionEditor.Page.al",
+        "status": "modified",
+        "key": "page/4363",
+        "type": "page",
+        "id": 4363,
+        "name": "Agent Instruction Editor",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4363"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/CustomAgent/Setup/Instructions/CustomAgentMarkdownPart.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "AgentDesignExperience"
+  ]
+}

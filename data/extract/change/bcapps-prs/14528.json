@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14528",
+  "number": 14528,
+  "title": "Deliverable 660629: [29.x] BCApps part of No Receipt expenses",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent now allows users to submit expenses with missing original receipts by selecting a Lost Receipt option, with the system generating a standardized declaration document and enforcing mandatory approver review.",
+  "key_points": [
+    "New Lost Receipt functionality lets users mark expenses without original receipts",
+    "System automatically generates a standardized Lost Receipt declaration document based on expense data",
+    "Enhanced compliance controls require mandatory approver review for no-receipt expenses",
+    "New enums for Expense Compliance Status and Expense No Receipt Type added",
+    "New management codeunit and report created to handle no-receipt declarations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005575,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Deliverable 660629: [29.x] BCApps part of No Receipt expenses",
   "url": "https://github.com/microsoft/BCApps/pull/14528",
   "published_at": "2026-11-26T09:14:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:16:58.591Z",
+      "change_class": "code",
+      "files": 40,
+      "al": 34,
+      "objects": 34,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:17:03.156Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005575
+    },
+    "linked": {
+      "at": "2026-11-27T00:17:03.322Z",
+      "objects": 34,
+      "unjoined": 0,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-27T00:17:03.336Z",
+      "path": "content/changes/bcapps/14528.md"
     }
   },
   "input_hash": "37fa52a9ef322da1ba4b3904c75b1825ffa5edb3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "deliverable 660629 29 x bcapps part of no receipt expenses"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "26ac2e1f8e8e91c570b0436982779ceb3c12bc7db7aa5073f8b86b9612a86aae"
 }

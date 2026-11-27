@@ -6,10 +6,35 @@
   "title": "[Agent Design Experience] Use native Markdown for custom-agent instructions",
   "url": "https://github.com/microsoft/BCApps/pull/13831",
   "published_at": "2026-11-26T07:52:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:16:59.776Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 13,
+      "objects": 12,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-27T00:17:04.956Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004864
+    },
+    "linked": {
+      "at": "2026-11-27T00:17:05.102Z",
+      "objects": 12,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:17:05.107Z",
+      "path": "content/changes/bcapps/13831.md"
     }
   },
   "input_hash": "3967c9290dea599de7623d26fa6aebaa11948670:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "agent design experience use native markdown for custom agent instructions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a6d4f486dd06637e32e416848f74fe1896b522876a15d0b0b1366c45ef92df5"
 }

@@ -1,0 +1,45 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14514,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14514",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T09:04:08Z",
+  "merge_commit_sha": "c7c3b9283daa113c635718e1928c5039e178743f",
+  "author": "dsyme",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "Build: scripts & configs",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "CI: accelerate whole-repository preprocessor symbol validation",
+  "body_hash": "43cc949f0d2f6796e698a6f7edfba5773da3460159824bd91d81a24e0685cd93",
+  "fixes_issues": [
+    14512
+  ],
+  "work_items": [
+    1234
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 51,
+    "deletions": 23,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

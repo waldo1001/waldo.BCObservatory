@@ -6,14 +6,39 @@
   "title": "[main] [E-Documents][PEPPOL] V1 import fails for UBL invoices using alternate cac/cbc namespace prefixes",
   "url": "https://github.com/microsoft/BCApps/pull/14390",
   "published_at": "2026-11-25T06:30:55Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-26T00:13:01.755Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:17:00.647Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-27T00:17:05.111Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003656
+    },
+    "linked": {
+      "at": "2026-11-27T00:17:05.276Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-27T00:17:05.279Z",
+      "path": "content/changes/bcapps/14390.md"
     }
   },
   "input_hash": "2ccd6f3ab7af9611cf5ed5072a0e9e176cc55f4c:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14390,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "e documents peppol v1 import fails for ubl invoices using alternate cac cbc namespace prefixes"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-26T02:15:21.474Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2566eb5523d3216cb2ef278b5abc3d42110e0814a857dc34af8868ffe5b41a3"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13813",
+  "number": 13813,
+  "title": "[main] feature 624914 - Refactor depreciation calculation logic to use GetDepreciationCalculationBase for improved clarity and maintainability",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "Czech Fixed Asset Localization adds an optional checkbox to deduct ending book value from the depreciation base, supporting residual-value treatment under new accounting requirements while preserving existing behavior by default.",
+  "key_points": [
+    "New 'Include Ending Book Value in Depreciation Base' checkbox in Fixed Asset Setup for Czech localization",
+    "When enabled, reduces applicable depreciation base by ending book value before calculation",
+    "Respects individual and default ending book values, with ignoring options for tax depreciation groups",
+    "Disabled by default to maintain backward compatibility with existing calculations",
+    "Depreciation formulas affected only on subsequent calculations; posted entries remain unchanged"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004801,
+    "changes_in_call": 1
+  }
+}

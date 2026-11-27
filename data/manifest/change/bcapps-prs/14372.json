@@ -6,14 +6,22 @@
   "title": "Move Business Skills core into System Application",
   "url": "https://github.com/microsoft/BCApps/pull/14372",
   "published_at": "2026-11-23T11:22:45Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-27T00:17:04.953Z",
+      "change_class": "code",
+      "files": 51,
+      "al": 15,
+      "objects": 1,
+      "unjoined": 14
     }
   },
   "input_hash": "dc3bdd237dec6ff76eb16a7e708b5b1fca806f32:c1",
-  "attempts": 3,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14372,
@@ -32,6 +40,7 @@
     "community_contribution": false,
     "title_key": "move business skills core into system application"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-26T08:16:11.916Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16ed929daf2d3b6416f5a840657f55829772f98995e8519a8eb31f2f2f3ec766"
 }

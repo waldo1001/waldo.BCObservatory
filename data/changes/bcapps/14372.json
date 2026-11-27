@@ -1,0 +1,487 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14372,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14372",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-23T11:22:45Z",
+  "merge_commit_sha": "dc3bdd237dec6ff76eb16a7e708b5b1fca806f32",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "AL: Tools",
+    "Build: scripts & configs",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Move Business Skills core into System Application",
+  "body_hash": "0d459b1843b9c69d2c5eac84ff1db95d63bea93601d39c233feb8533bab65682",
+  "fixes_issues": [],
+  "work_items": [
+    625753
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps BE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CA/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CH/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DK/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps ES/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FI/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FR/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps GB/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IN/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IS/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps MX/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NL/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NO/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps RU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps SE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps US/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps W1/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/README.md",
+      "status": "added",
+      "additions": 172,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/app.json",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkill.Codeunit.al",
+      "status": "added",
+      "additions": 119,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkillBuilder.Codeunit.al",
+      "status": "added",
+      "additions": 106,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkillBuilderImpl.Codeunit.al",
+      "status": "added",
+      "additions": 236,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkillCard.Page.al",
+      "status": "added",
+      "additions": 277,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkillContentPart.Page.al",
+      "status": "added",
+      "additions": 159,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkillImpl.Codeunit.al",
+      "status": "added",
+      "additions": 584,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkillTestImpl.Codeunit.al",
+      "status": "added",
+      "additions": 96,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/BusinessSkills.Page.al",
+      "status": "added",
+      "additions": 138,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/History/BusSkillContentVersion.Table.al",
+      "status": "added",
+      "additions": 119,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/History/BusSkillContentVersions.Page.al",
+      "status": "added",
+      "additions": 232,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/History/BusinessSkillContentHistory.Codeunit.al",
+      "status": "added",
+      "additions": 180,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/ImportExport/BusinessSkillExport.XmlPort.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/ImportExport/BusinessSkillImport.XmlPort.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Business Skills/src/ImportExport/BusinessSkillPort.Codeunit.al",
+      "status": "added",
+      "additions": 150,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/app.json",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/Business Skills/app.json",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/Business Skills/src/BusinessSkillBuilderTest.Codeunit.al",
+      "status": "added",
+      "additions": 1212,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/Business Skills/src/BusinessSkillTest.Codeunit.al",
+      "status": "added",
+      "additions": 1450,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/Business Skills/src/BusinessSkillUITest.Codeunit.al",
+      "status": "added",
+      "additions": 594,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/Test Framework/Test Libraries/LibraryBusinessSkill/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/Test Framework/Test Libraries/LibraryBusinessSkill/app.json",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/Test Framework/Test Libraries/LibraryBusinessSkill/src/LibraryBusinessSkill.Codeunit.al",
+      "status": "added",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 51,
+    "additions": 6290,
+    "deletions": 2,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1751",
+        "type": "codeunit",
+        "id": 1751,
+        "name": "Data Classification Eval. Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1751"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkill.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkillBuilder.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkillBuilderImpl.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkillCard.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkillContentPart.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkillImpl.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkillTestImpl.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/BusinessSkills.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/History/BusSkillContentVersion.Table.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/History/BusSkillContentVersions.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/History/BusinessSkillContentHistory.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/ImportExport/BusinessSkillExport.XmlPort.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/ImportExport/BusinessSkillImport.XmlPort.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/System Application/App/Business Skills/src/ImportExport/BusinessSkillPort.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

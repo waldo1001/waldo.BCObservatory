@@ -1,0 +1,200 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13813,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13813",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-23T16:28:00Z",
+  "merge_commit_sha": "518fcb43c51e03bc9243eea7d6c44b4c5a4ddb50",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] feature 624914 - Refactor depreciation calculation logic to use GetDepreciationCalculationBase for improved clarity and maintainability",
+  "body_hash": "6446ceb21c2fa067ea2682a9802eba4be02541bef35da3eb3248db6cab867e06",
+  "fixes_issues": [],
+  "work_items": [
+    624914
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/CalcNormalDeprHandlerCZF.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/PageExtensions/FixedAssetSetupCZF.PageExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FASetupCZF.TableExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/test/Src/FixedAssetsCZF.Codeunit.al",
+      "status": "modified",
+      "additions": 898,
+      "deletions": 88,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/FixedAssetLocalization/test/Src/FixedAssetsUICZF.Codeunit.al",
+      "status": "added",
+      "additions": 237,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Fixed_Asset_Localization_for_Czech_Tests/Fixed_Asset_Localization_for_Czech_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 30,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 26,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 1283,
+    "deletions": 252,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/Codeunits/CalcNormalDeprHandlerCZF.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31247",
+        "type": "codeunit",
+        "id": 31247,
+        "name": "Calc. Normal Depr. Handler CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "codeunit/31247-cz"
+      },
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/PageExtensions/FixedAssetSetupCZF.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31249",
+        "type": "pageextension",
+        "id": 31249,
+        "name": "Fixed Asset Setup CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "pageextension/31249-cz"
+      },
+      {
+        "path": "src/Apps/CZ/FixedAssetLocalization/app/Src/TableExtensions/FASetupCZF.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31249",
+        "type": "tableextension",
+        "id": 31249,
+        "name": "FA Setup CZF",
+        "app": "FixedAssetLocalization",
+        "cc": "cz",
+        "page": "tableextension/31249-cz"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5611",
+        "type": "codeunit",
+        "id": 5611,
+        "name": "Calculate Normal Depreciation",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5611"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5611",
+        "type": "codeunit",
+        "id": 5611,
+        "name": "Calculate Normal Depreciation",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5611"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5611",
+        "type": "codeunit",
+        "id": 5611,
+        "name": "Calculate Normal Depreciation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5611"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/FixedAssets/Depreciation/CalculateNormalDepreciation.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "fixed-assets"
+  ],
+  "apps": [
+    "Base Application",
+    "FixedAssetLocalization"
+  ]
+}
