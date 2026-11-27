@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -361,8 +361,8 @@ links:
     - change/bcapps/12967
     - change/bcapps/13060
     - change/bcapps/13240
-    - change/bcapps/13431
     - change/bcapps/13582
+    - change/bcapps/14451
 learn_toc_path:
   - Business functionality
   - Sales
@@ -470,10 +470,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12967.md) (code change): "Billing total calculations now filter by both subscription contract number and partner"
 - [#13060 [Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation](../../../../changes/bcapps/13060.md) (code change): "Subscription Billing adds extension points including public methods, purchase-side events"
 - [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../changes/bcapps/13240.md) (code change): "Subscription Billing app, Finance team"
-- [#13431 Extend sales document edit permissions with subscrition billing edit](../../../../changes/bcapps/13431.md) (code change): "Sales Order Agent to add items with subscription billing to sales documents"
 - [#13582 [main] Price Groups of Subscription Packages are not considered.](../../../../changes/bcapps/13582.md) (code change): "offered subscription packages are now always filtered to the customer's price group"
+- [#14451 [master]Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.](../../../../changes/bcapps/14451.md) (code change): "Sales Quote reports for subscription billing now correctly exclude quote variant lines"
 - [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../../videos/2isrH3RcSK8.md) (video): "Subscription billing; Power BI reports expansion; Financial reports and definitions"
-- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing recurring invoicing contract management revenue deferrals billing templates"
+- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing; recurring invoicing; contract management; revenue deferrals"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"
 

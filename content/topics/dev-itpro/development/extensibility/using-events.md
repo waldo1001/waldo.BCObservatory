@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -219,7 +219,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds"
 - [#9077 [Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit](../../../../changes/bcapps/9077.md) (code change): "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag"
 - [#9225 [Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters](../../../../changes/bcapps/9225.md) (code change): "Added OnAfterSetUsageDataBillingFilters integration event for extensibility"
-- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "Add integration events across base app and SMTP module"
+- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "adding new integration events or extra parameters on existing ones"
 - [#9950 [Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)](../../../../changes/bcapps/9950.md) (code change): "Withholding Tax entries from a previous posting preview appear on unrelated documents"
 - [#139 knowledge(breaking-changes): adding a parameter to an event publisher is not a signature break](../../../../changes/bcquality/139.md) (code change): "Event subscribers bind to publishers by parameter name, not by position"
 - [#144 Avoid Public Event publisher](../../../../changes/bcquality/144.md) (code change): "event publishers local or internal instead of public"

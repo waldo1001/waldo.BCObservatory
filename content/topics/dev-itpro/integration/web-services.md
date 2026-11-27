@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:51.939Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,8 +324,6 @@ links:
     - post/aardvarklabs-blog/1826
   guidelines: []
   changes:
-    - change/bcapps/11563
-    - change/bcapps/11745
     - change/bcapps/12324
     - change/bcapps/12606
     - change/bcapps/8051
@@ -402,8 +400,6 @@ This section covers how external systems connect to Business Central through web
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../../changes/bcapps/11563.md) (code change): "Add PEPPOL Requested Delivery Period support header + line"
-- [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
 - [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../changes/bcapps/12324.md) (code change): "webhook and OData public APIs by replacing DotNet-based code with native HttpClient"
 - [#12606 Obsolete Http Web Request Mgt. codeunit](../../../changes/bcapps/12606.md) (code change): "Http Web Request Mgt. codeunit and its test are marked obsolete"
 - [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../changes/bcapps/8051.md) (code change): "Exposes ExternalizeODataObjectName as public procedure for external apps"

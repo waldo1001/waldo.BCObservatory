@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:08.140Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-27T01:00:57.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,7 +87,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573380
+    - feature/576789
   topics: []
   localizations: []
   videos: []
@@ -162,15 +164,19 @@ features:
     verified: true
     status_source: video
   - name: Payables agent
-    status: preview
+    status: ga
     t: 109
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573380"
   - name: MCP server for Business Central
-    status: preview
+    status: ga
     t: 152
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576789"
 objects_mentioned: []
 quotes:
   - t: 26
@@ -233,8 +239,10 @@ The video then covers the Payables agent, which handles vendor invoices from ema
 | Sales order agent alternative delivery dates | status not stated | [1:09](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=69s) |  |
 | Sales order agent natural language guidance | status not stated | [1:21](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=81s) |  |
 | Sales order agent European availability | generally available | [1:38](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=98s) | "the sales order agent and its latest capabilities are now available in Denmark, Spain, Germany, France, and Italy" ([1:38](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=98s)) |
-| Payables agent | preview | [1:49](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=109s) | "It's currently in public preview across four English-speaking countries with general availability coming soon." ([2:20](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=140s)) |
-| MCP server for Business Central | preview | [2:32](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=152s) | "we're introducing the public preview of MCP server for Business Central" ([2:32](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=152s)) |
+| Payables agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)) | [1:49](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=109s) | "It's currently in public preview across four English-speaking countries with general availability coming soon." ([2:20](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=140s)) |
+| MCP server for Business Central | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)) | [2:32](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=152s) | "we're introducing the public preview of MCP server for Business Central" ([2:32](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=152s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

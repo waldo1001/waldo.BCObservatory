@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,6 +167,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10311
+    - change/bcapps/12053
 learn_toc_path:
   - Business functionality
   - Sustainability management
@@ -237,6 +238,7 @@ The Power BI sustainability app subtopic holds the reports, semantic model, and 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10311 [Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC](../../../../changes/bcapps/10311.md) (code change): "Sustainability entries can now be found more easily through a Find"
+- [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../../changes/bcapps/12053.md) (code change): "Removes code marked for cleanup in Sustainability Power BI embedded pages"
 - [Business Central 2025 Release Wave 2 Is Here! (v27)](../../../../posts/thinkaboutit-be/7159.md) (community post): "Sustainability system allows emissions tracking and CSRD-compliant report generation"
 - [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../../videos/_ynMUzh956w.md) (video): "Sustainability journal chart of sustainability accounts emissions calculation formulas"
 - [What's New in Sustainability (2024 release wave 2)](../../../../videos/NYG4pOtW-Xw.md) (video): "Sustainability Manager Role Center; Sustainability Scorecards and Goals"

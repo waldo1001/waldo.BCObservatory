@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -262,7 +262,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Get the new BCQuality plugin for VS Code!](../../../../posts/nataliekarolak-com/4271.md) (community post): "helps AI agents and AL developers generate better code for Business Central"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
 - [BC Friday Tips #33 Month Enum](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca.md) (community post): "Developers can reuse these existing enums rather than creating custom ones"
-- [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
+- [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs and prevents data corruption"
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Reduces code complexity when validating and modifying multiple fields"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../posts/thinkaboutit-be/8132.md) (community post): "organizes domain-specific rules in markdown files filtered by BC version"
 - [Dynamics 365 Business Central: Suggested Abbreviations](../../../../posts/yzhums-com/75344.md) (community post): "Gives file-naming abbreviations for AL object types"

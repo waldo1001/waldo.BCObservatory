@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -339,7 +339,6 @@ links:
     - post/demiliani-com/12036
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thinkaboutit-be/7683
     - post/thinkaboutit-be/7813
     - post/thinkaboutit-be/8272
@@ -372,7 +371,7 @@ coverage:
   learn: 261
   code: 1
   video: 3
-  blog: 14
+  blog: 13
   guideline: 0
 bc_forms:
   - 812
@@ -461,7 +460,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "Sales Invoices API in Business Central aggregates posted and unposted invoices"
-- [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579.md) (community post): "The Exclude_APIV2 app holds the standard API V2 objects used by Business Central"
 - [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types"
 - [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "36 new document APIs covering sales, purchasing, inventory, and assembly"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable Power Automate, Copilot Studio agents, and external applications"

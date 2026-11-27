@@ -487,28 +487,23 @@
     "573261": {
       "video/H5EuObmeF4o#27@81bcc46a2071446e": {
         "verdict": "drop",
-        "reason": "It describes the new Accounts Payable role center, not the updated Expense Manager role center.",
-        "at": "2026-11-21T00:52:33.528Z"
+        "reason": "This is about the new Accounts Payable Role Center, not the updated Expense Manager Role Center.",
+        "at": "2026-11-27T01:00:32.452Z"
       },
-      "video/Tl2B-85JQIw#0@c1940e8dd14b70d3": {
+      "video/Tl2B-85JQIw#0@040cbdbc820d95cc": {
         "verdict": "drop",
-        "reason": "It introduces the Accounts Payable role center, which is a different role center from Expense Manager.",
-        "at": "2026-11-21T00:52:33.528Z"
+        "reason": "This introduces the Accounts Payable Role Center, a different role center from Expense Manager.",
+        "at": "2026-11-27T01:00:32.452Z"
       },
-      "video/Tl2B-85JQIw#1@c1940e8dd14b70d3": {
+      "video/Tl2B-85JQIw#1@040cbdbc820d95cc": {
         "verdict": "drop",
-        "reason": "It covers workflow consolidation in the Accounts Payable role center, not the Expense Manager role center.",
-        "at": "2026-11-21T00:52:33.528Z"
+        "reason": "This covers Accounts Payable workflow consolidation, not the Expense Manager Role Center.",
+        "at": "2026-11-27T01:00:32.452Z"
       },
-      "video/Tl2B-85JQIw#2@c1940e8dd14b70d3": {
+      "video/Tl2B-85JQIw#5@040cbdbc820d95cc": {
         "verdict": "drop",
-        "reason": "It covers purchase and e-document access in the Accounts Payable role center, not the Expense Manager role center.",
-        "at": "2026-11-21T00:52:33.528Z"
-      },
-      "video/Tl2B-85JQIw#5@c1940e8dd14b70d3": {
-        "verdict": "drop",
-        "reason": "It covers payment and approval access in the Accounts Payable role center, not the Expense Manager role center.",
-        "at": "2026-11-21T00:52:33.528Z"
+        "reason": "This covers payments and approvals in the Accounts Payable Role Center, not expense management.",
+        "at": "2026-11-27T01:00:32.452Z"
       }
     },
     "573262": {
@@ -1312,238 +1307,243 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
-        "reason": "MCP configuration telemetry, not custom data queries.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "MCP configuration telemetry, not custom data query tools.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "Tool call telemetry, not the data query tools.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Tool call telemetry is a different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
-        "reason": "AL development MCP server, a different product.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "AL development MCP server, unrelated to data queries.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
-        "reason": "Unrelated 2023 update.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Old 22.1 update unrelated to MCP queries.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "MCP resources support is a different capability.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/0WAOtNaKjws#6@7b84cb59744f5d3c": {
         "verdict": "drop",
-        "reason": "Embedded file resources, not custom query tools.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Embedded resources for large data is a different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Exposes existing API queries, not custom queries where no API exists.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Exposing existing API queries is an older, different capability than custom queries.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Configuring existing API query objects is an older, different capability.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Selecting existing analytics API queries in configuration, not custom query tools.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
         "reason": "General MCP server mention.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/B9VbZzC2p7E#0@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet SQL agent, not MCP query tools.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Spreadsheet app SQL agent, not MCP server query tools.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/B9VbZzC2p7E#1@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet app, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Spreadsheet app agent, different product.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/C5cmG3sNjUg#0@a099f952caced881": {
         "verdict": "drop",
-        "reason": "General MCP server over APIs.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "General MCP server API exposure.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/C5cmG3sNjUg#3@a099f952caced881": {
         "verdict": "drop",
-        "reason": "Dynamic tools over API pages, not data query tools.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Dynamic tools search is a different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/C5OdiYfxozc#2@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "BC Observatory MCP server, a different product.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "BC Observatory MCP server, different product.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/C5OdiYfxozc#5@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "Observatory metadata queries, not BC MCP data queries.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Observatory metadata queries, not BC MCP data query tools.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/EpDIrJE0HzA#2@0082858619a6cfc5": {
         "verdict": "drop",
-        "reason": "MCP configurations page for APIs, too general.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "MCP configurations page in general.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/H5EuObmeF4o#1@81bcc46a2071446e": {
         "verdict": "drop",
         "reason": "General MCP server announcement.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/IDYhxt-8ImI#22@6aa27ab1780c7a48": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only configuration, a different capability.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Default read-only configuration, different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write scenarios configuration, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Write configurations, different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/LerAo-GGl8U#0@5a41f3a049d4ef06": {
         "verdict": "drop",
-        "reason": "Admin MCP server, a different product.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Admin MCP server, different product.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/LerAo-GGl8U#4@5a41f3a049d4ef06": {
         "verdict": "drop",
         "reason": "Admin MCP setup, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/LerAo-GGl8U#5@5a41f3a049d4ef06": {
         "verdict": "drop",
-        "reason": "Admin diagnostics, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Admin MCP diagnostics, unrelated.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/LerAo-GGl8U#8@5a41f3a049d4ef06": {
         "verdict": "drop",
         "reason": "Admin MCP tool invocation, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/LerAo-GGl8U#9@5a41f3a049d4ef06": {
         "verdict": "drop",
         "reason": "Admin MCP connection, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
         "reason": "AL MCP server, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
         "reason": "AL dev MCP tools, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
         "reason": "AL dev MCP servers, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Shows agents constructing and running queries through MCP tools without APIs.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Shows agents constructing and running queries via MCP tools without APIs.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the MCP data query tool set.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Find tables tool is part of the new data query tool set.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table relations tool supports writing the data queries.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Table relations tool supports defining join queries in this feature.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool is part of the data query tool set.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Table schema tool is part of the query definition tooling.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
         "reason": "Data query tool runs AL queries directly without APIs.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Describes agents constructing and compiling AL queries for ad hoc analysis.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Describes constructing and compiling AL queries for ad hoc analysis.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration for writes, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Static configuration for writes, different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Default read-only access, different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke tools, not data query tools.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Core search/describe/invoke tools, older capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Natural language retrieval via existing APIs, not custom queries.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Natural language queries via existing APIs, not custom data queries.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate here concerns API related entities, not query validation.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Validate for API related entities, not query validation.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP tools component.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing existing queries via configuration, a different capability.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Exposing existing queries through configuration, not custom query tools.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page/API selection, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Page/API selection, different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP description.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "General MCP standard description.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration, unrelated.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Dynamic tool mode, different capability.",
+        "at": "2026-11-27T01:00:52.860Z"
+      },
+      "video/U1dAdtUjidc#0@65dd11bfb4b873e1": {
+        "verdict": "drop",
+        "reason": "Admin Center MCP server, unrelated.",
+        "at": "2026-11-27T01:00:52.860Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Explicitly announces running data queries with MCP server in version 29.",
-        "at": "2026-11-23T00:54:18.741Z"
+        "reason": "Announces the Run data queries with MCP Server feature by name.",
+        "at": "2026-11-27T01:00:52.860Z"
       }
     },
     "573313": {
@@ -1592,49 +1592,54 @@
       "docs/learn-devitpro/dev-itpro/developer/devenv-table-keys.md@21f3ad43d15b290f": {
         "verdict": "drop",
         "reason": "General Learn page on table keys; it lists the existing Enabled property but doesn't describe turning indexes on or off from AL code at runtime.",
-        "at": "2026-11-17T00:54:43.316Z"
+        "at": "2026-11-27T01:00:35.999Z"
       },
       "video/1x3QyBX3swg#2@a139808ee668f539": {
         "verdict": "keep",
         "reason": "Shows indexes defined with enabled set to false in AL and then switched on at runtime for specific companies, which is the capability this feature adds.",
-        "at": "2026-11-17T00:54:43.316Z"
+        "at": "2026-11-27T01:00:35.999Z"
       },
       "video/2u5_F9Ztt7U#4@2ee38684e0681185": {
         "verdict": "drop",
         "reason": "Covers index usage insights and removing or auto-tuning unused indexes, a different capability from switching indexes on or off in AL code.",
-        "at": "2026-11-17T00:54:43.316Z"
+        "at": "2026-11-27T01:00:35.999Z"
       },
-      "video/Sh3ySQSTw-o#6@e4496cd7c1ef9d3b": {
+      "video/Sh3ySQSTw-o#6@ab5f899d72a2f29f": {
         "verdict": "keep",
         "reason": "Directly describes indexes defined with enabled equal false and turned on or off at runtime by code based on feature usage.",
-        "at": "2026-11-17T00:54:43.316Z"
+        "at": "2026-11-27T01:00:35.999Z"
       }
     },
     "573315": {
       "video/1x3QyBX3swg#18@a139808ee668f539": {
         "verdict": "keep",
-        "reason": "It explains that extension fields are merged into the base table, which allows keys on extension fields. This is the data-model change that makes the feature possible.",
-        "at": "2026-11-26T01:01:05.702Z"
+        "reason": "Explains the merged storage model and states it allows creating keys on extension fields, which is the feature's capability.",
+        "at": "2026-11-27T01:00:34.085Z"
       },
       "video/D_Lur52IrIg#8@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "It announces SQL indexes that combine base-table fields with extension fields.",
-        "at": "2026-11-26T01:01:05.702Z"
+        "reason": "Directly describes creating SQL indexes that combine base table fields with extension fields.",
+        "at": "2026-11-27T01:00:34.085Z"
       },
       "video/PZVTTem-nZw#1@b3ef057062462114": {
         "verdict": "keep",
-        "reason": "It shows BC29 creating keys that combine base-table fields with fields from table extensions.",
-        "at": "2026-11-26T01:01:05.702Z"
+        "reason": "Describes creating keys that combine base table fields with extension fields.",
+        "at": "2026-11-27T01:00:34.085Z"
       },
       "video/qABlX4AL3GM#1@49760ada4fba889a": {
         "verdict": "keep",
-        "reason": "It directly describes indexes that span fields from a base table and its extensions.",
-        "at": "2026-11-26T01:01:05.702Z"
+        "reason": "Directly states developers can define indexes spanning base table and extension fields.",
+        "at": "2026-11-27T01:00:34.085Z"
       },
-      "video/Sh3ySQSTw-o#7@e4496cd7c1ef9d3b": {
+      "video/Sh3ySQSTw-o#7@ab5f899d72a2f29f": {
         "verdict": "keep",
-        "reason": "It explains that indexes can now span base and extension fields because of the merged table structure.",
-        "at": "2026-11-26T01:01:05.702Z"
+        "reason": "States indexes can now span base table and extension fields, enabled by the consolidated structure.",
+        "at": "2026-11-27T01:00:34.085Z"
+      },
+      "video/TH70oJI4Ae0#1@7e32b56dd30bdd3c": {
+        "verdict": "drop",
+        "reason": "Only describes the new storage model and its performance gain, not defining keys or indexes across base and extension fields.",
+        "at": "2026-11-27T01:00:34.085Z"
       }
     },
     "573316": {
@@ -1697,28 +1702,23 @@
     "573317": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md@ccdd5c7a1e716107": {
         "verdict": "keep",
-        "reason": "This page documents the Open in Excel telemetry event (RT0056) that the feature adds.",
-        "at": "2026-11-09T00:40:37.591Z"
+        "reason": "This Learn page documents the Open in Excel telemetry (event RT0056), which is the exact capability the feature adds.",
+        "at": "2026-11-27T01:00:43.005Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-application-insights-for-extensions-data.md@739ee2fbb06f9089": {
         "verdict": "drop",
-        "reason": "It's a general list of telemetry events and doesn't mention Open in Excel logging.",
-        "at": "2026-11-09T00:40:37.591Z"
+        "reason": "This page covers app telemetry events in general and doesn't mention Open in Excel.",
+        "at": "2026-11-27T01:00:43.005Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-application-insights-for-extensions.md@6fb8718d64676d6d": {
         "verdict": "drop",
-        "reason": "It covers general extension telemetry setup, not Open in Excel usage monitoring.",
-        "at": "2026-11-09T00:40:37.591Z"
+        "reason": "This page only explains how to set up extension telemetry and doesn't describe logging Open in Excel actions.",
+        "at": "2026-11-27T01:00:43.005Z"
       },
-      "video/6zj34hjbpGU#1@5e110c4d8844cd4d": {
-        "verdict": "drop",
-        "reason": "It describes the existing Open/Edit in Excel actions, with nothing about telemetry.",
-        "at": "2026-11-09T00:40:37.591Z"
-      },
-      "video/Sh3ySQSTw-o#11@e4496cd7c1ef9d3b": {
+      "video/Sh3ySQSTw-o#11@ab5f899d72a2f29f": {
         "verdict": "keep",
-        "reason": "The video announces the new RT0056 telemetry for auditing who opens data in Excel.",
-        "at": "2026-11-09T00:40:37.591Z"
+        "reason": "This video segment announces the new RT0056 telemetry that tracks who opens data in Excel, for auditing.",
+        "at": "2026-11-27T01:00:43.005Z"
       }
     },
     "573318": {
@@ -2462,73 +2462,68 @@
     "573332": {
       "video/1x3QyBX3swg#19@a139808ee668f539": {
         "verdict": "keep",
-        "reason": "Describes merging extension fields so inserts go from two SQL statements to one, which is the new single-table model and its faster runtime.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It describes merging extension fields so inserts go from two SQL statements to one and runtime gets faster, which matches the new single-table model.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/a1LQ3-SCtPE#0@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Describes the older 2023 companion-table schema, not storing extension fields in the base table.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It describes the older 2023 companion table model, not storing all fields in the base table.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/a1LQ3-SCtPE#1@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Performance gains belong to the older companion-table model, a different capability.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "Its delete speed gains belong to the older companion table model.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/a1LQ3-SCtPE#2@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Performance gains belong to the older companion-table model, a different capability.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "Its insert speed gains belong to the older companion table model.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/a1LQ3-SCtPE#3@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Performance gains belong to the older companion-table model, a different capability.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "Its modify speed gains belong to the older companion table schema.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/a1LQ3-SCtPE#4@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Performance gains belong to the older companion-table model, a different capability.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "Its read speed gains belong to the older companion table model.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/a1LQ3-SCtPE#5@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Database size reduction belongs to the older companion-table model, not this feature.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "Its database size reduction belongs to the older companion table model.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/PZVTTem-nZw#0@b3ef057062462114": {
         "verdict": "keep",
-        "reason": "Explains that in BC29 table extensions are consolidated into a single SQL table with the base table, for better performance.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It explains that in BC29 table extensions are stored in a single SQL table with the base table.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/PZVTTem-nZw#3@b3ef057062462114": {
         "verdict": "drop",
-        "reason": "Describes the earlier BC24-era compact companion-table storage, an older capability.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It describes the older BC24-era storage with one extra table per base table, not the new model.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/qABlX4AL3GM#0@49760ada4fba889a": {
         "verdict": "keep",
-        "reason": "Announces BC29 storing extension fields in the same table as the base table.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It announces that BC29 stores table extension fields in the same database table as the base table.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
       "video/qABlX4AL3GM#2@49760ada4fba889a": {
         "verdict": "keep",
-        "reason": "Explains faster data loading because all fields are now in a single table.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It explains the faster data loading that comes from storing all fields in a single table.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
-      "video/Sh3ySQSTw-o#3@e4496cd7c1ef9d3b": {
+      "video/Sh3ySQSTw-o#3@ab5f899d72a2f29f": {
         "verdict": "keep",
-        "reason": "Describes extension fields stored back on the base table, removing all joins.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It describes extension fields being stored back on the base table, which removes the joins.",
+        "at": "2026-11-27T01:00:35.998Z"
       },
-      "video/Sh3ySQSTw-o#4@e4496cd7c1ef9d3b": {
+      "video/Sh3ySQSTw-o#4@ab5f899d72a2f29f": {
         "verdict": "keep",
-        "reason": "Gives the performance gains from the new no-join data model.",
-        "at": "2026-11-25T01:02:01.446Z"
-      },
-      "video/TH70oJI4Ae0#1@ef7e774bc20a0233": {
-        "verdict": "keep",
-        "reason": "Explains BC29 storing extension fields in the base SQL table, with about 30% better performance.",
-        "at": "2026-11-25T01:02:01.446Z"
+        "reason": "It shows the speed gains on database operations that come from removing the joins in the new model.",
+        "at": "2026-11-27T01:00:35.998Z"
       }
     },
     "573333": {
@@ -2768,98 +2763,88 @@
     "573335": {
       "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md@30b55020b61a8f6f": {
         "verdict": "keep",
-        "reason": "The Learn page lists AI agent profiling and MCP server integration as features of the profiler.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The Learn page explicitly lists AI agent profiling and MCP server integration as part of the scheduled profiler.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/0qt0Zy9ZsRo#1@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Describes the 2024 scheduled profiles capability, which has no AI agent involvement.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "This 2024 segment introduces scheduled profiles, an older capability with no AI agent involved.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/0qt0Zy9ZsRo#2@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Shows manual setup of a profile schedule from the 2024 release, not agent-driven profiling.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "Setting up a profile schedule by hand is the older capability, not agent-driven profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/0qt0Zy9ZsRo#3@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Shows the general Performance Profiles page from the older release.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The Performance Profiles page is an existing feature and has no agent involvement.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/0qt0Zy9ZsRo#4@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Shows manual call tree analysis in the older profiler, not done by an agent.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "Call tree analysis in profile results is an older manual capability.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/D_Lur52IrIg#15@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Coding agents capture performance profiles through MCP tools without an active debugging session, which is exactly this feature.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "Coding agents capture performance profiles through MCP tools without an active debugging session, which matches the feature directly.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/D_Lur52IrIg#16@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "An MCP proxy command lets agents start and monitor profiling, which is part of this feature.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The MCP proxy command lets agents start and monitor profiling, which is the core of this feature.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/D_Lur52IrIg#17@1d309b6a70eb87de": {
         "verdict": "drop",
-        "reason": "Covers agents capturing snapshot recordings, a separate capability from profiling.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "It covers agents capturing snapshot recordings, a different capability from profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/M1S2_bgLd3Q#13@b48a0d1bb3ed1101": {
         "verdict": "drop",
-        "reason": "Describes the 2025 addition of SQL call information to profiles, an older change with no agent involvement.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "SQL call information in profiles is an earlier 2025 profiler improvement with no agent involvement.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/mBU2Iu0urw8#13@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Covers MCP tools used during debugging sessions, not profiling.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "These are MCP debugger tools that need an active debugging session, not session profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/mBU2Iu0urw8#20@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Covers database statistics available to the agent during debugging, not profiling.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The agent reads database statistics within a debugging context, not by capturing profiles.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/mBU2Iu0urw8#21@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Covers stack frame and variable analysis while debugging, a different capability.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "Stack frame and variable inspection is a debugging capability, not profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/MNwTt06ZxwY#21@479041a494d87db7": {
         "verdict": "drop",
-        "reason": "Covers AI evaluation tools for testing agents, which is unrelated.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "AI evaluation tools for testing agents are unrelated to performance profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/MNwTt06ZxwY#30@479041a494d87db7": {
         "verdict": "drop",
-        "reason": "Covers an extension for agent evaluation tests, which is unrelated.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The evaluation extension for agent tests is unrelated to profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
       "video/MNwTt06ZxwY#31@479041a494d87db7": {
         "verdict": "drop",
-        "reason": "Covers a library for writing agent tests, which is unrelated.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The agent test library is unrelated to profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
-      "video/UFLo2XGGS14#0@022c4252c5c9fc07": {
+      "video/UFLo2XGGS14#0@9a29ae3529dd40c9": {
         "verdict": "keep",
-        "reason": "Describes an AI-guided workflow in which the agent coordinates profiling to investigate production problems.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "It describes the AI-guided workflow for investigating production problems, where the agent coordinates profiling.",
+        "at": "2026-11-27T01:00:38.404Z"
       },
-      "video/UFLo2XGGS14#5@022c4252c5c9fc07": {
+      "video/UFLo2XGGS14#2@9a29ae3529dd40c9": {
         "verdict": "keep",
-        "reason": "A profiling MCP server captures CPU profiles with SQL, HTTP and memory metrics for specific sessions.",
-        "at": "2026-11-23T00:54:13.040Z"
-      },
-      "video/UFLo2XGGS14#6@022c4252c5c9fc07": {
-        "verdict": "keep",
-        "reason": "Agents start sampling schedules for a session ID and get back CPU profiles with SQL and HTTP metrics.",
-        "at": "2026-11-23T00:54:13.040Z"
-      },
-      "video/UFLo2XGGS14#7@022c4252c5c9fc07": {
-        "verdict": "keep",
-        "reason": "Agents use telemetry to find performance issues and then trigger profiling with session IDs.",
-        "at": "2026-11-23T00:54:13.040Z"
+        "reason": "The AL tool acting as an MCP proxy enables sampling profiling for agents.",
+        "at": "2026-11-27T01:00:38.404Z"
       }
     },
     "573336": {
@@ -4158,245 +4143,245 @@
     "573361": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md@dc07ded4333f6f1b": {
         "verdict": "keep",
-        "reason": "It lists the al_snapshotdebugging tool, which lets AI agents run snapshot debugging from chat, a core part of this feature.",
-        "at": "2026-10-30T08:02:26.724Z"
+        "reason": "Lists the al_snapshotdebugging tool that AI agents in Copilot use from chat, which is how the agent drives snapshot debugging in this feature.",
+        "at": "2026-11-27T01:00:36.075Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-debug.md@d7bb59d853c978e1": {
         "verdict": "keep",
-        "reason": "It documents the al_snapshotdebugging tool, covering snapshot capture from live environments and offline inspection of the trace.",
-        "at": "2026-10-30T08:02:26.724Z"
+        "reason": "Documents the al_snapshotdebugging tool, with snapshot capture from live environments and offline trace inspection, the steps the agent automates.",
+        "at": "2026-11-27T01:00:36.075Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshoot-vscode-webclient.md@e94b8aa5c9931071": {
         "verdict": "drop",
-        "reason": "It describes the 2023 manual workflow of opening Visual Studio Code from the web client, which is an older capability with no AI agent.",
-        "at": "2026-10-30T08:02:26.724Z"
+        "reason": "Describes an older (2023) manual way to troubleshoot from the web client, with no AI agent workflow.",
+        "at": "2026-11-27T01:00:36.075Z"
       },
-      "video/D_Lur52IrIg#17@27cf5cb45e38c4b5": {
+      "video/UFLo2XGGS14#0@9a29ae3529dd40c9": {
         "verdict": "keep",
-        "reason": "It shows an MCP proxy that lets agents capture snapshot recordings on a specific environment and tenant, which matches the agent arming the recording.",
-        "at": "2026-10-30T08:02:26.724Z"
+        "reason": "Describes an AI-guided workflow where the agent coordinates snapshot debugging to investigate production problems.",
+        "at": "2026-11-27T01:00:36.075Z"
       },
-      "video/UFLo2XGGS14#0@022c4252c5c9fc07": {
+      "video/UFLo2XGGS14#7@9a29ae3529dd40c9": {
         "verdict": "keep",
-        "reason": "It shows an AI-guided workflow for investigating production problems in which the agent coordinates snapshot debugging.",
-        "at": "2026-10-30T08:02:26.724Z"
-      },
-      "video/UFLo2XGGS14#1@022c4252c5c9fc07": {
-        "verdict": "keep",
-        "reason": "It shows the snapshot debugging MCP server that lets agents capture runtime snapshots from production sessions.",
-        "at": "2026-10-30T08:02:26.724Z"
+        "reason": "Shows agents setting up and triggering snapshot debugging with snap points or session IDs, matching the recording of a matching or known session.",
+        "at": "2026-11-27T01:00:36.075Z"
       }
     },
     "573362": {
       "docs/learn-smb-docs/business-central/ai-in-bc.md@b12ae04da7a9bc20": {
         "verdict": "drop",
-        "reason": "General AI overview listing the legacy Chat with Copilot among many features; does not describe the new Microsoft Copilot chat experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "General AI overview page listing legacy Chat with Copilot among many features, not the new experience.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "docs/learn-smb-docs/business-central/autofill-fields-with-copilot.md@2f02530b7a62fcdb": {
         "verdict": "drop",
         "reason": "Autofill is a different Copilot capability.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "docs/learn-smb-docs/business-central/chat-with-copilot-faq.md@851b9e704df0cf23": {
         "verdict": "keep",
         "reason": "FAQ documents the new Microsoft Copilot experience that replaces Chat with Copilot in version 29.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "docs/learn-smb-docs/business-central/chat-with-copilot.md@a23be745388d7cd6": {
         "verdict": "keep",
-        "reason": "Learn page documents using the new Microsoft Copilot in Business Central from version 29.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Documents using the new Microsoft Copilot in Business Central from version 29.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "docs/learn-smb-docs/business-central/faqs-chat-with-copilot.md@7ad8c858db14dc17": {
         "verdict": "drop",
         "reason": "Covers the legacy Chat with Copilot, not the new experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md@175faa5adad9eef4": {
         "verdict": "keep",
-        "reason": "Application card documents Microsoft Copilot in Business Central, the new chat experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Application card describes Microsoft Copilot in Business Central combining BC with Microsoft Copilot capabilities.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/06vgkq2EXmA#0@2fc13d2016352ab8": {
         "verdict": "drop",
-        "reason": "Describes the earlier Copilot Chat built in Business Central, not the new Microsoft Copilot experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Describes the older built-in Copilot Chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/2uXVammbab0#0@10681f557720691d": {
         "verdict": "drop",
-        "reason": "2025 wave 1 legacy Chat with Copilot.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy Chat with Copilot from 2025 wave 1.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/gvIGhtqADS0#0@4622ba51ffb2179e": {
         "verdict": "drop",
-        "reason": "2024 wave 1 legacy conversational chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy 2024 wave 1 conversational chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/gvIGhtqADS0#1@4622ba51ffb2179e": {
         "verdict": "drop",
-        "reason": "Follow-up questions in the 2024 legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy 2024 chat follow-up capability.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/gvIGhtqADS0#2@4622ba51ffb2179e": {
         "verdict": "drop",
-        "reason": "Virtual assistant capability of the 2024 legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy 2024 chat capability.",
+        "at": "2026-11-27T01:00:56.006Z"
+      },
+      "video/H5EuObmeF4o#13@81bcc46a2071446e": {
+        "verdict": "drop",
+        "reason": "Language enhancement to the legacy chat in 2025 wave 2.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/j5ULVClJaKU#0@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Introduces the legacy Chat with Copilot from update 24.0.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Introduces the legacy Chat with Copilot from 2024.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/j5ULVClJaKU#1@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Record finding in the legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy chat record finding.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/j5ULVClJaKU#13@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Field-level help in the legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy chat field-level help.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/j5ULVClJaKU#2@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Query refinement in the legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy chat query refinement.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/j5ULVClJaKU#3@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Documentation search in the legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy chat documentation search.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/j5ULVClJaKU#4@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Custom object support in the legacy chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Legacy chat custom object support.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/jdevJbGgB-k#1@bb7fbfc12bea0394": {
         "verdict": "drop",
-        "reason": "Describes the earlier BC chat, not the new Microsoft Copilot experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Describes the older chat in general AI development context.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/lNASlydCidI#27@d217c57d0ea3a871": {
         "verdict": "drop",
-        "reason": "About Copilot being on by default in 2023; a different capability.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "About Copilot default enablement in 2023, unrelated to the new chat experience.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/mhfjycxWTyY#0@5ef6cdae76f76745": {
         "verdict": "keep",
         "reason": "Announces the new modern unified Copilot chat interface for Business Central.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/mhfjycxWTyY#1@5ef6cdae76f76745": {
         "verdict": "keep",
-        "reason": "Shows Business Central data access in the new Copilot chat experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows BC data reasoning in the new Copilot chat experience.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/mhfjycxWTyY#5@5ef6cdae76f76745": {
         "verdict": "keep",
-        "reason": "Explains the conversational interaction model of the new chat experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Explains the new chat interaction model of the new experience.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/mhfjycxWTyY#8@5ef6cdae76f76745": {
         "verdict": "keep",
-        "reason": "Demonstrates multi-step reasoning in the new Copilot chat experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Demonstrates multi-step reasoning in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/qP0id91bIlA#16@34178426c0fe2c60": {
         "verdict": "drop",
-        "reason": "The Copilot action menu on list pages is a different capability.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Copilot action menu on list pages is a different developer capability.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/qP0id91bIlA#17@34178426c0fe2c60": {
         "verdict": "drop",
-        "reason": "The floating Copilot action overlay is a different capability.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Floating copilot action overlay is a different capability.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/qP0id91bIlA#7@34178426c0fe2c60": {
         "verdict": "drop",
-        "reason": "The prompt dialog page type is a developer feature, not the chat experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Prompt dialog page type is a developer feature, not the chat experience.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
-      "video/TSLXzbeyE7Y#0@370cc3ac45f98b9b": {
+      "video/TSLXzbeyE7Y#0@5adf71e51cbacc4f": {
         "verdict": "keep",
-        "reason": "Introduces Microsoft Copilot Chat built into Business Central.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Introduces Microsoft Copilot Chat built into Business Central in 2026 wave 2.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/uMKLsKfKPc0#26@9325e23695d00c9a": {
         "verdict": "keep",
         "reason": "Announces M365 Copilot chat coming to Business Central.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#0@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Announces the new Microsoft Copilot Chat for all Business Central users.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Announces the new Microsoft Copilot Chat capability for all BC users.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#10@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows conversation context and suggested follow-ups in the new chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows conversation context and suggestions in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#11@ccc6a44fd65066b1": {
         "verdict": "keep",
         "reason": "Shows rich output formatting in the new Copilot chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#12@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows progress messages behavior of the new Copilot chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows progress messages in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#14@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows the new chat using context from the current page.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows UI context awareness in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#4@ccc6a44fd65066b1": {
         "verdict": "keep",
         "reason": "Shows multi-source data integration in the new Copilot chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/V7NgFOIcGgM#5@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows citation pills and sources in the new Copilot chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows citation pills in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/WL3m2dffwU8#0@8c6deb05c030c4e8": {
         "verdict": "keep",
         "reason": "Introduces the unified Microsoft Copilot Chat in Business Central.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/WL3m2dffwU8#2@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Shows the Copilot button that opens the updated unified experience.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows the new Copilot button opening the updated experience.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/WL3m2dffwU8#3@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Shows question answering on Business Central data in the new chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Demonstrates question answering in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/WL3m2dffwU8#4@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Shows side-by-side viewing of data next to the new Copilot responses.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Shows side-by-side viewing in the new Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/WL3m2dffwU8#5@8c6deb05c030c4e8": {
         "verdict": "keep",
         "reason": "Shows multi-turn conversation in the new Copilot chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/YX9UfUF0EsA#0@afcf77ac4a6c5c58": {
         "verdict": "keep",
-        "reason": "Announces M365 Copilot chat as the unified Copilot home in Business Central.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Explains M365 Copilot chat becoming the home for Copilot experiences in BC.",
+        "at": "2026-11-27T01:00:56.006Z"
       },
       "video/YX9UfUF0EsA#14@afcf77ac4a6c5c58": {
         "verdict": "keep",
-        "reason": "Explains that M365 Copilot replaces the legacy Business Central chat.",
-        "at": "2026-11-16T00:54:58.309Z"
+        "reason": "Explains M365 Copilot replacing the existing BC Copilot chat.",
+        "at": "2026-11-27T01:00:56.006Z"
       }
     },
     "573363": {
@@ -6268,238 +6253,238 @@
     "578068": {
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md@fdfca3629b5b049b": {
         "verdict": "drop",
-        "reason": "Covers configuring agents in AL code with the Agent codeunit, not the in-product designer.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers configuring agents through AL code, a separate developer capability rather than the in-product designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-define-register.md@aeebd523e88ebd8b": {
         "verdict": "drop",
-        "reason": "Covers defining agents in AL through interfaces, which is a separate pro-code capability.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers defining and registering coded AL agents, not the agent design experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md@acc793d92a92e413": {
         "verdict": "drop",
-        "reason": "Covers coding agents in AL, not the in-product design experience.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers coding agents in AL with interfaces, which is a separate capability from the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md@1cbdcaf8fe40b8d2": {
         "verdict": "drop",
-        "reason": "Covers setup pages for agents coded in AL, not the designer.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers building setup pages for coded agents, not part of the design experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md@a306d39a4af1dd7a": {
         "verdict": "drop",
-        "reason": "Covers the AL task API for coded agents rather than the design experience.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers managing tasks for coded AL agents (version 28.1) rather than the designer experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md@39adb9608d662181": {
         "verdict": "keep",
-        "reason": "Documents creating agents with the toolkit, covering identity, instructions, profiles, permissions and sandbox testing.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Documents creating and activating custom agents in the AI Development Toolkit, including instructions, profiles, permissions and a task playground.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md@3efe778bc7ba13bd": {
         "verdict": "drop",
-        "reason": "Covers agent visibility in the role center, not designing agents.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers when agents appear in the role center, which is not this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md@3c3a16e836716f2e": {
         "verdict": "drop",
-        "reason": "Covers attachment limits for agent tasks, which is too narrow and a different topic.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers attachment limits for agent tasks, which is too peripheral to this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-best-practices.md@874e3c18622dcd61": {
         "verdict": "keep",
-        "reason": "Gives best practices for designing agents, including clear instructions and testing.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Gives best practices for designing an agent, including instructions, permissions and testing.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md@75815405dd5f4219": {
         "verdict": "keep",
-        "reason": "Covers the Tasks API for custom agents that developers use to work with designed agents.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Documents the Tasks AL API for custom agents, the developer API the feature mentions for triggering custom agents.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-4.md@395084ec7c785ba3": {
         "verdict": "keep",
-        "reason": "The 27.4 release notes announce the Envision and design AI agents feature.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Release notes announce the Envision and design AI agents feature in 27.4.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/7QJeTXzZaEk#0@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Shows only the built-in Sales Order Agent.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows the built-in Sales Order Agent, not the design experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/7QJeTXzZaEk#1@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Covers email account setup for the Sales Order Agent.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows email setup for the Sales Order Agent, not this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/7QJeTXzZaEk#2@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Shows a Sales Order Agent behavior, not agent design.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows contact creation by the Sales Order Agent, not this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/9cOdjHU15rE#1@5dcd5b11aad8e24d": {
         "verdict": "drop",
-        "reason": "Gives a general mention of the sales agent.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "General mention of the sales agent, too unspecific for this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/AMVAiPTfSrU#5@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "Describes partner agent development too generally to tie to the designer.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "General partner agent development, too unspecific to the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#0@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows agent type definition in AL code, which is a different capability.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers defining agent types in AL code, a separate capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#1@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows the AL agent factory interface, which is a pro-code capability.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers the AL agent factory interface, not the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#11@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows the AL Tasks API for coded agents.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers the Tasks API in AL coding, not the in-product designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#12@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Explains the task and message model within AL agent coding.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Explains the task and message model for coded agents, not this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#13@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows message attachments in AL agent coding.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers message attachments in coded agents, which is peripheral.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#14@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows multi-turn interactions in AL agent coding, not the designer.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers multi-turn interactions in coded agents, not the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#16@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows triggering tasks through AL code for coded agents.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers triggering tasks from AL code, not the designer experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#2@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows the AL agent metadata interface.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers the AL agent metadata interface, a separate capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#5@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Explains the agent instance model in an AL coding context.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Explains agent instances in the AL coding context, not the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#6@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows the AL setup page type for coded agents.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers setup pages for coded agents, not the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#8@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows creating agents in code through the codeunit.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers creating agents from AL code, a separate capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/EwN3xb2q7vE#9@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Shows loading instructions from resources in AL code.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers loading instructions from an AL resource, which belongs to AL coding.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/MNwTt06ZxwY#3@479041a494d87db7": {
         "verdict": "keep",
-        "reason": "Shows defining and refining agent instructions with prompting best practices and Copilot, as the feature describes.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows defining and iteratively refining agent instructions with prompting best practices and Copilot help, as the feature describes.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#0@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in Sales Order Agent only.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Describes the built-in Sales Order Agent, not the design experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#1@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in Payables Agent only.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Describes the built-in Payables Agent, not the design experience.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#2@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in Expense agent only.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Describes the Expense agent, not this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#3@243db13b53ccaf67": {
         "verdict": "keep",
         "reason": "Shows building custom agents inside Business Central in a sandbox on version 27.4.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#31@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Shows creating agents from AL code with a factory codeunit.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers the AL Agent Factory codeunit, a separate coding capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#35@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Shows an AL codeunit that creates agents, which is pro-code.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers an AL codeunit that creates agents, which belongs to AL coding.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#37@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Covers AL agent development, which differs from the in-product designer.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Covers AL agent development, not the in-product designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/nbGw2g3KMXI#5@243db13b53ccaf67": {
         "verdict": "keep",
-        "reason": "Shows configuring agents with natural-language instructions, a core part of the design experience.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows configuring a custom agent with natural language instructions, a core part of the designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/Qmd6_5vYKDg#0@6e64dcbbd8acced9": {
         "verdict": "drop",
-        "reason": "Describes the built-in Sales Order Agent only.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows Sales Order Agent item matching, which is a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
-      "video/UIL8ej7mSKQ#0@ac155d6baa339527": {
+      "video/UIL8ej7mSKQ#0@4f8446f09d13e0af": {
         "verdict": "drop",
-        "reason": "Describes a Sales Order Agent email feature.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows a Sales Order Agent improvement, a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
-      "video/UIL8ej7mSKQ#1@ac155d6baa339527": {
+      "video/UIL8ej7mSKQ#1@4f8446f09d13e0af": {
         "verdict": "drop",
-        "reason": "Describes a Sales Order Agent shipping address feature.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows a Sales Order Agent shipping address feature, a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
-      "video/UIL8ej7mSKQ#2@ac155d6baa339527": {
+      "video/UIL8ej7mSKQ#2@4f8446f09d13e0af": {
         "verdict": "drop",
-        "reason": "Describes a Sales Order Agent delivery date feature.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows a Sales Order Agent delivery date feature, a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
-      "video/UIL8ej7mSKQ#3@ac155d6baa339527": {
+      "video/UIL8ej7mSKQ#3@4f8446f09d13e0af": {
         "verdict": "drop",
-        "reason": "Describes Sales Order Agent guidance, not custom agent design.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows Sales Order Agent guidance, not the agent designer.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/XhO4oFmoh1M#0@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Introduces the built-in Sales Order Agent.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Introduces the built-in Sales Order Agent, not this feature.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/XhO4oFmoh1M#5@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Describes Sales Order Agent quote creation.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows Sales Order Agent quote creation, a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/XhO4oFmoh1M#8@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Describes Sales Order Agent email processing.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows Sales Order Agent email processing, a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/XhO4oFmoh1M#9@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Describes Sales Order Agent conversations.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Shows Sales Order Agent conversation, a different capability.",
+        "at": "2026-11-27T01:00:57.812Z"
       },
       "video/xJ8gYzvWnTI#2@a156f6f7a8eca787": {
         "verdict": "drop",
-        "reason": "Gives a general mention of the built-in sales order agent.",
-        "at": "2026-11-26T01:01:19.777Z"
+        "reason": "Only mentions the built-in Sales Order Agent.",
+        "at": "2026-11-27T01:00:57.812Z"
       }
     },
     "579980": {

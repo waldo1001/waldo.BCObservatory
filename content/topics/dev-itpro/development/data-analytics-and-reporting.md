@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
   localizations: []
   videos:
     - video/6dEZQlmBlyI
+    - video/C5OdiYfxozc
     - video/jqVt0hYDfz0
   posts: []
   guidelines: []
@@ -123,7 +124,7 @@ children: []
 coverage:
   learn: 7
   code: 28
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -198,6 +199,7 @@ The other pages go deeper on each option. Data analysis mode lets users explore 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../videos/6dEZQlmBlyI.md) (video): "Report Region in Advanced Spreadsheets; Query Region; Chart Creation"
+- [Going Stargazing with the Business Central Observatory](../../../videos/C5OdiYfxozc.md) (video): "galaxy visualization; al objects; markdown documentation; table schema"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
 
 ## Business Central pages and reports

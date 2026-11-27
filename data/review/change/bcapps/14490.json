@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14490",
+  "input_hash": "a5654934e8357811330893b0c7268bcfca0d70b8992f60637113880676870a00",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-27T01:03:39.433Z",
+  "issues": [
+    "Key point claims the fix covers all localization layers; the files show 12 specific layers, so 'all' is not supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022484,
+    "changes_in_call": 6
+  }
+}

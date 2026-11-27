@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/relationship-management
 type: topic
 title: Relationship management
-summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects, grouping contacts for campaigns, and managing the sales pipeline.
+summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing setup, built-in analytics reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customer communication and running the sales pipeline.
 tier: official
 language: en
 system: crm
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b0c30d4719645e2a55bd1933cc59aaa45d371d05d73f0867c3e60ba79203ba2d
+  input_hash: 023746de657b860223df58f63cc10f9c1ad93c3750b7d9a7c3fbd14f87aede03
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
@@ -245,7 +245,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     title: Save Business Contacts to Microsoft Outlook
-    date: "2026-11-09"
+    date: "2026-11-25"
     commit: null
     t: null
     quote: null
@@ -392,28 +392,28 @@ narrative: generated
 
 # Relationship management
 
-> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects, grouping contacts for campaigns, and managing the sales pipeline.
+> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing setup, built-in analytics reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customer communication and running the sales pipeline.
 
 Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Relationship management helps sales and marketing staff keep complete contact information, track communication, and move leads through to opportunities. The section starts with an introduction to the features and a setup page for marketing and contact management.
+Relationship management helps manage sales efforts by keeping complete contact information, tracking communication, and handling leads through to opportunities across customer segments. It also supports marketing campaign planning and integration with Dynamics 365 Sales.
 
-The subtopics follow the working flow. Manage contacts covers creating and linking contacts, profile questionnaires, duplicates, and Outlook sync. Manage segments groups contacts for campaigns. Manage interactions records communication history. Manage sales opportunities handles sales cycles, stages, quotes, and orders. Analytics offers reports on all of these, and the Dynamics 365 Sales subtopic covers the integration with Dataverse.
+Start with the setup page, "Set Up Marketing and Contact Management". It covers contact synchronization with customers, vendors, and bank accounts, number series, field inheritance, duplicate detection, and automatic interaction recording. The overview page, "Manage Business Relationships and Marketing", lists the feature areas.
 
-Start with the setup page to configure number series, contact synchronization, field inheritance, duplicate detection, and automatic interaction recording. Then move to the subtopic that matches your task.
+The subtopics follow the working flow. Manage contacts covers creating, classifying, merging, and syncing contacts. Manage segments groups contacts for campaigns. Manage interactions records communication history. Manage sales opportunities covers sales cycles, stages, and conversion to quotes and orders. The analytics subtopic describes the reports, and the Dynamics 365 Sales subtopic covers coupling, synchronization, and troubleshooting.
 
 ## Key points
 
-- Features include contact management, interaction tracking, segment creation, sales opportunity management, marketing campaign planning, and Dynamics 365 Sales integration.
-- Setup covers contact synchronization with customers, vendors, and bank accounts, and business relation codes.
-- Setup also covers number series for contacts and opportunities, and field inheritance from company contacts to contact persons.
-- Automatic duplicate contact detection and automatic interaction recording are configured during setup.
-- Contacts can be classified with profile questionnaires, merged to remove duplicates, and synced to Outlook.
-- Segments group contacts for targeted campaigns such as direct mail, and allow logging interactions for the whole group.
-- Sales opportunities use sales cycles and stages and can be closed or turned into quotes and orders.
-- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments, and questionnaires, and can print labels, cover sheets, and merged letters.
+- Contacts can be linked to customers, vendors, employees, and bank accounts, and synced to Outlook.
+- Setup covers number series for contacts and opportunities, business relation codes, and field inheritance from company contacts to contact persons.
+- Automatic duplicate contact detection is available, and duplicates can be merged.
+- Profile questionnaires classify contacts.
+- Segments group contacts for targeted campaigns such as direct mail, and interactions can be logged for the whole segment.
+- Interaction templates and automatic recording support documents, emails, and phone calls.
+- Sales opportunities move through the stages of a sales cycle and can be closed or turned into quotes and orders.
+- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments, and questionnaires, including labels, cover sheets, and merged letters.
 
 ## Subtopics
 

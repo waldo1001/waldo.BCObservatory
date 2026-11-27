@@ -8,11 +8,11 @@
   ],
   "summary": "Czech Fixed Asset Localization adds an optional checkbox to deduct ending book value from the depreciation base, supporting residual-value treatment under new accounting requirements while preserving existing behavior by default.",
   "key_points": [
-    "New 'Include Ending Book Value in Depreciation Base' checkbox in Fixed Asset Setup for Czech localization",
-    "When enabled, reduces applicable depreciation base by ending book value before calculation",
-    "Respects individual and default ending book values, with ignoring options for tax depreciation groups",
-    "Disabled by default to maintain backward compatibility with existing calculations",
-    "Depreciation formulas affected only on subsequent calculations; posted entries remain unchanged"
+    "Adds an 'Include Ending Book Value in Depreciation Base' checkbox to Czech Fixed Asset Setup, cleared by default",
+    "When enabled, the ending book value is deducted from the depreciation base, but it still acts as the final floor",
+    "Respects individual and default ending book values and Ignore Def. Ending Book Value; assets in a tax depreciation group ignore ending book value entirely",
+    "Calculate Normal Depreciation in the Base Application gets a new integration event and a shared calculation-base helper",
+    "Affects only later calculations; asks for confirmation when the setting is changed interactively"
   ],
   "change_kind": "feature",
   "behavior_change": true,

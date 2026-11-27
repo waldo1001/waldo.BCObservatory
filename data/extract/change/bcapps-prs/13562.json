@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Fixed a production order finishing failure caused by quantity rounding differences between component consumption and item tracking quantities.",
+  "summary": "A production order can now be finished when the component consumption and the item tracking quantity differ only by rounding. The fix is a small change in Mfg. Cost Calculation Mgt., with a new test.",
   "key_points": [
-    "Addresses rounding discrepancies in manufacturing cost calculations",
-    "Prevents production orders from getting stuck during finalization",
-    "Improves handling of component quantity tracking in item tracking scenarios",
-    "Includes test coverage for the production order completion scenario"
+    "Production orders no longer fail to finish because of a rounding difference between consumption and item tracking quantities",
+    "Small change in the Mfg. Cost Calculation Mgt. codeunit",
+    "Test added in SCM Production Orders II"
   ],
   "change_kind": "fix",
   "behavior_change": true,

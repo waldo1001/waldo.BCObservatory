@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -221,6 +221,7 @@ links:
     - post/bertverbeek-nl/1272
     - post/bertverbeek-nl/1290
     - post/demiliani-com/12644
+    - post/freddysblog/https-freddysblog-com-2026-11-24-can-an-ai-model-be-brainwashed--613cab9c3d
     - post/kauffmann-nl/8436
     - post/yzhums-com/70502
     - post/yzhums-com/74431
@@ -248,7 +249,7 @@ coverage:
   learn: 23
   code: 0
   video: 10
-  blog: 10
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -322,6 +323,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 5 – Creating agent from code](../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "compares agents built directly in Business Central with those created in Copilot Studio"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../posts/demiliani-com/12644.md) (community post): "debug agent sessions directly from Visual Studio Code"
+- [Can an AI model be brainwashed?](../../../posts/freddysblog/https-freddysblog-com-2026-11-24-can-an-ai-model-be-brainwashed--613cab9c3d.md) (community post): "A compromised agent in Business Central could change vendor bank accounts"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "users build custom AI agents that turn natural language goals into actions"
 - [Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI](../../../posts/yzhums-com/74431.md) (community post): "agents use different AI models directly in the UI"

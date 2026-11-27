@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,6 +66,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10631
     - change/bcapps/12544
     - change/bcapps/12599
     - change/bcapps/12670
@@ -128,6 +129,7 @@ Start with the overview for the big picture. Then read the email page if you use
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
 - [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "Expense Agent now allows users to submit expenses without a receipt by selecting"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
 - [#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸](../../../../changes/bcapps/12670.md) (code change): "Expense Management role centers now display activity cues showing expense report statuses"

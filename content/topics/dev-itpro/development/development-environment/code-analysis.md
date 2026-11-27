@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
@@ -96,8 +96,7 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos:
-    - video/TY82NR2hGEg
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -113,7 +112,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -145,6 +144,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../changes/bcapps/11036.md) (code change): "Four AL compatibility rules (AA0052, PTE0018, AS0099, AW0009) are promoted from warnings to errors"
 - [#11260 Ruleset hardening: promote four legacy warning rules to Error](../../../../changes/bcapps/11260.md) (code change): "Ruleset hardening: promote four legacy warning rules to Error"
-- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL language extension; DevOps syntax highlighting; code actions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

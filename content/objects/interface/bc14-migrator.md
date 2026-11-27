@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7655a28f620d72859a3b7defe0d3e50795d3030aed4667e1da1f6fc8cbe72daf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al
     title: src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "BC14 Migrator" in HybridBC14 (Microsoft.DataMigration.BC14Reimplementation). 5 public procedures. Introduced in BC29, still in BC30.
 
-HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al) · facts from BC29
+HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13562",
+  "input_hash": "f1790bc5cfaf7b349007b10d25c05a8a119953a678e08c9f875fc15686124c95",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-27T01:03:39.784Z",
+  "issues": [
+    "The key point about 'improves handling of component quantity tracking' is not supported by what was given.",
+    "The page does not say that the change is a small edit in Mfg. Cost Calculation Mgt."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017391,
+    "changes_in_call": 6
+  }
+}

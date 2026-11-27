@@ -6,16 +6,14 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "The employee number series initialization for the Contoso Coffee demo dataset was adjusted to prevent employee numbers from being exhausted too quickly during testing.",
+  "summary": "The Contoso Coffee demo data now sets up the employee number series differently, so employee numbers no longer run out quickly on tenants such as the bug bash tenant.",
   "key_points": [
-    "Employee number series setup modified in demo data",
-    "Addresses rapid depletion of employee IDs in test environments",
-    "Single line change in CreateEmployeeNoSeries codeunit",
-    "Affects Contoso Coffee demo dataset initialization",
-    "Improves test scenario sustainability"
+    "One-line change in codeunit Create Employee No Series",
+    "Employee numbers in demo data no longer get exhausted quickly",
+    "Affects Contoso Coffee demo dataset setup"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

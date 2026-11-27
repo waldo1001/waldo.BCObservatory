@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ddb0ef3e416cc3c6332c3d2a33cb0a3f8a0685cd828231991ca9df8fb4cbb45a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IVendorProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IVendorProvider.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IVendorProvider.Interface.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "IVendorProvider" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IVendorProvider.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IVendorProvider.Interface.al) · facts from BC29
 
 ## Procedures
 

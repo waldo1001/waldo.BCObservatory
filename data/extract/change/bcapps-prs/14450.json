@@ -6,13 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Reversed output entries now correctly maintain their invoiced quantity when a finished production order is reopened, preventing quantity discrepancies in inventory valuation.",
+  "summary": "After a finished production order is reopened, the reversed output entry no longer stays uninvoiced with Invoiced Quantity = 0. This removes the quantity discrepancy it caused in Inventory Valuation. The fix is in Calc. Inventory Adjmt. - Order.",
   "key_points": [
-    "Fixes incorrect handling of reversed output entries during production order reopening",
-    "Ensures invoiced quantity remains properly set instead of becoming zero",
-    "Prevents inventory quantity discrepancies in valuation reports",
-    "Changes applied to inventory adjustment calculation logic",
-    "Test coverage added to verify the fix"
+    "Reversed output entries are no longer left with Invoiced Quantity = 0 after a finished production order is reopened",
+    "Removes the quantity discrepancy in Inventory Valuation",
+    "Small change in the Calc. Inventory Adjmt. - Order codeunit",
+    "Production order tests updated and extended"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 97a3f127355c2e1043ee040cc35773eabf5e66bee77aa7284e48aae0758ef769
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobType.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobType.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobType.Interface.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "IBlobType" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 3 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 26.0).
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobType.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobType.Interface.al) · facts from BC29
 
 ## Properties
 

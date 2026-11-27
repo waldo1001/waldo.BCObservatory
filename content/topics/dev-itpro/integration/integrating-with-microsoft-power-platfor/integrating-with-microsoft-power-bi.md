@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2017
     - post/thinkaboutit-be/7995
+    - post/yzhums-com/74366
     - post/yzhums-com/74390
   guidelines: []
   changes:
@@ -112,7 +113,7 @@ coverage:
   learn: 8
   code: 2
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 6316
@@ -167,6 +168,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14229.md) (code change): "Power BI auto-deployment clearing now affects only the selected record instead of all records"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "troubleshooting checklist covering environment connectivity, data source verification"
+- [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing permissions for auditors and IT staff](../../../../posts/yzhums-com/74366.md) (community post): "Organizations can integrate APIs with Power BI and Copilot Studio to create advanced auditing reports"
 - [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "build advanced compliance reports in Power BI and intelligent automation with Copilot Studio"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI New Content Apps; Power BI Embedded Reports with Full Capabilities"
 

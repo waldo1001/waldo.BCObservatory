@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:47.678Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -370,9 +370,9 @@ links:
     - post/nataliekarolak-com/4184
     - post/yzhums-com/65768
     - post/yzhums-com/70325
+    - post/yzhums-com/77663
   guidelines: []
   changes:
-    - change/bcapps/10270
     - change/bcapps/11507
     - change/bcquality/195
     - change/bcquality/260
@@ -402,7 +402,7 @@ coverage:
   learn: 340
   code: 37
   video: 4
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 16
@@ -498,7 +498,6 @@ The rest covers extending and running code. Events, security, background tasks, 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10270 [Quality Management] Repair and improve XML documentation of procedures](../../../changes/bcapps/10270.md) (code change): "Repair and improve XML documentation of procedures. XML documentation for Quality Management"
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
@@ -507,6 +506,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
+- [Dynamics 365 Business Central: How to pad a string to a specified length with a character (GetPaddedString)](../../../posts/yzhums-com/77663.md) (community post): "GetPaddedString pads strings by adding a character to reach a target length"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New: AL Language (2026 release wave 1)](../../../videos/nMiLzdfidos.md) (video): "json support; data transfer; namespaces; fully qualified names"

@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:00:02.289Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-27T01:00:57.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,9 @@ links:
   objects:
     - object/page/99000852
     - object/page/99000768
-  features: []
+  features:
+    - feature/573345
+    - feature/573358
   topics: []
   localizations: []
   videos: []
@@ -161,10 +163,12 @@ features:
     verified: false
     status_source: video
   - name: Attachments in production order headers and lines
-    status: unclear
+    status: ga
     t: 81
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Default business posting group in production orders
     status: unclear
     t: 91
@@ -176,10 +180,12 @@ features:
     verified: false
     status_source: video
   - name: Enhanced routing overview and link code updates
-    status: unclear
+    status: ga
     t: 120
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573358"
   - name: Item tracking in consumption and output journals
     status: unclear
     t: 133
@@ -256,12 +262,14 @@ Most items are demoed. Production orders can be moved between statuses in bulk, 
 | Bulk status change for production orders | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=37s) |
 | Safety lead time buffer in production orders | status not stated | [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s) |
 | Rescheduling production orders without changing due date | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s) |
-| Attachments in production order headers and lines | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=81s) |
+| Attachments in production order headers and lines | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [1:21](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=81s) |
 | Default business posting group in production orders | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=91s) |
 | Improved component availability information | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=103s) |
-| Enhanced routing overview and link code updates | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) |
+| Enhanced routing overview and link code updates | generally available (roadmap [Work more efficiently with manufacturing documents and capacity calendars](../features/573358.md)), demoed | [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) |
 | Item tracking in consumption and output journals | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=133s) |
 | Barcode label printing for tracked items | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=163s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

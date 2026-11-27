@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,17 +93,21 @@ links:
     - video/EwN3xb2q7vE
     - video/MNwTt06ZxwY
     - video/nbGw2g3KMXI
+    - video/WjFx9yYf1js
     - video/xqwJTCPD9tA
   posts:
     - post/bertverbeek-nl/1272
     - post/demiliani-com/13814
     - post/demiliani-com/17529
-    - post/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6
+    - post/vondervoort-be/130
+    - post/vondervoort-be/147
+    - post/waldo-be/318755
+    - post/wingate365-com/https-blog-wingate365-com-2026-10-directions-emea-2026-paris-the-consultant-zone-and-two-panels-html--9438fa651d
     - post/yzhums-com/71363
   guidelines: []
   changes:
     - change/bcapps/10007
+    - change/bcapps/10008
     - change/bcapps/10017
     - change/bcapps/10020
     - change/bcapps/10022
@@ -172,6 +176,7 @@ links:
     - change/bcapps/9310
     - change/bcapps/9364
     - change/bcapps/9365
+    - change/bcapps/9482
     - change/bcapps/9541
     - change/bcapps/9572
     - change/bcapps/9606
@@ -194,8 +199,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 4
-  blog: 6
+  video: 5
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -249,6 +254,7 @@ If you already prototyped an agent in the design experience, use the convert pag
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10007 [SOA] Ignore item availability when disabled](../../../../changes/bcapps/10007.md) (code change): "The Sales Order Agent now ignores item availability signals when availability checking is disabled"
+- [#10008 [MCP] Add codeunit APIs as MCP tools in MCP configuration](../../../../changes/bcapps/10008.md) (code change): "Codeunit APIs are now integrated into MCP configuration as a new object type"
 - [#10017 [Master] - Bug 644751 Moving an expense report line to another report wrongly reports a duplicate](../../../../changes/bcapps/10017.md) (code change): "Moving an expense report line to another report wrongly reports a duplicate"
 - [#10020 [Master] - Bug 641894: [Expense Agent] [Rules] Mileage expense should not validate require receipt number rule](../../../../changes/bcapps/10020.md) (code change): "Mileage expenses in Expense Agent no longer incorrectly trigger the receipt number mandatory validation"
 - [#10022 Known senders table should only be inserted to when the task is coming from an email](../../../../changes/bcapps/10022.md) (code change): "The Known Senders table now only gets populated when tasks arrive from email"
@@ -312,11 +318,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11970 Allow Azure OpenAI privacy notice in evaluation](../../../../changes/bcapps/11970.md) (code change): "Azure OpenAI privacy notice assumed approved in evaluation"
 - [#12074 Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment](../../../../changes/bcapps/12074.md) (code change): "Expense Agent travel request feature now supports expense location selection using per diem rules"
 - [#12332 [MCP] Add Agent Tools server feature](../../../../changes/bcapps/12332.md) (code change): "MCP server now includes Agent Tools feature for managing and loading available custom agents"
-- [#7546 [Payables Agent] Agent-driven line matching](../../../../changes/bcapps/7546.md) (code change): "Adds agent-driven line matching to the Payables Agent allowing agents to resolve"
+- [#7546 [Payables Agent] Agent-driven line matching](../../../../changes/bcapps/7546.md) (code change): "Adds agent-driven line matching to the Payables Agent"
 - [#8875 [master] SOA: Bugbash for releases 28.x - Select an existing contact, or create a new one - Use another contact always](../../../../changes/bcapps/8875.md) (code change): "Sales Order Agent by adding a commit before opening the contact selection"
 - [#9310 SOA: Open Item Availability from Agent panel](../../../../changes/bcapps/9310.md) (code change): "The Sales Order Agent can now open the multi-item availability page"
 - [#9364 Slice 622414: [SOA] [Pioneer] Enhancing Sales Order Agent with Item Variant : availability and prices](../../../../changes/bcapps/9364.md) (code change): "The Sales Order Agent now resolves customer requests to a specific item variant"
 - [#9365 [SOA] Prevent translated username token and remove dead GetAgent helpers](../../../../changes/bcapps/9365.md) (code change): "Sales Order Agent usernames are now prevented from being translated by marking the label as locked"
+- [#9482 Make service-invoked System Application facades callable by any user (Privacy Notice + Page Summary Provider)](../../../../changes/bcapps/9482.md) (code change): "allows Copilot capabilities and agent tasks to function for all users"
 - [#9541 [SOA] Bound outbound reply retries](../../../../changes/bcapps/9541.md) (code change): "Outbound replies in the Sales Order Agent now limit retry attempts to five per message"
 - [#9572 Obsolete E-Document Purchase Order Matching Copilot](../../../../changes/bcapps/9572.md) (code change): "E-Document Purchase Order Matching Copilot objects are marked obsolete pending"
 - [#9606 [SOA] Disable available-items-only search by default](../../../../changes/bcapps/9606.md) (code change): "The Sales Order Agent now initializes the Search Only Available Items setting"
@@ -332,12 +339,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "Implement IAgentFactory to control agent creation, setup experience, and access"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "new Agent codeunit methods: SetModelId, SetModelIdToAuto, GetModelId"
 - [Copilots and agents for Dynamics 365 Business Central: our new book is out!](../../../../posts/demiliani-com/17529.md) (community post): "covering copilots, agents, and various implementation approaches using AL"
-- [“Human” vs. AI](../../../../posts/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7.md) (community post): "how AI coding agents are set up, using AL and Business Central partner work as the context"
-- [Data query tools in the Business Central MCP server: a hands-on test guide](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6.md) (community post): "Data Query Tools feature on the Business Central MCP server enables agents to query tables"
+- [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "AI agent integration (Claude Code, GitHub Copilot), and potential MCP integration"
+- [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops now integrates with AI assistants like Claude, Codex, and Cursor via an MCP server"
+- [Agent Maron & waldo: Mission AL Runner](../../../../posts/waldo-be/318755.md) (community post): "Two AI agents coordinated continuously over one week"
+- [Directions EMEA 2026 - Paris, the Consultant Zone, and Two Panels](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-10-directions-emea-2026-paris-the-consultant-zone-and-two-panels-html--9438fa651d.md) (community post): "practical AI prompts used in actual Business Central work"
 - [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../../posts/yzhums-com/71363.md) (community post): "the AL Language extension adds an Agent template to the AL: New Project command"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent creation and configuration; Agent instructions configuration; Agent model selection"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central; AL Agent Development"
+- [Vibe Coding Risks in Business Central. #businesscentral #bc #podcast](../../../../videos/WjFx9yYf1js.md) (video): "Vibe Coding Risks in Business Central"
 - [Designing Modern Integrations in Business Central](../../../../videos/xqwJTCPD9tA.md) (video): "AI agents for integration design; Agent skills documentation; Agent-generated technical documentation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

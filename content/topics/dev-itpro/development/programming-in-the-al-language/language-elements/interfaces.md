@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:46.553Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Docs: What’s new in BC 29 for developers and admins](../../../../../posts/nataliekarolak-com/4179.md) (community post): "interface default implementations allow adding functionality to published interfaces"
 - [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies"
 - [Business Central 2026 release wave 2 (BC29): Evolve AL interfaces with default implementations (Default interface method implementations)](../../../../../posts/yzhums-com/76547.md) (community post): "Interfaces can now have method bodies serving as default implementations"
-- [20260504 - Super fast tests covering 100% of your code](../../../../../videos/EurgqGU1jG0.md) (video): "Interfaces; Context interfaces pattern; Environment interfaces"
+- [20260504 - Super fast tests covering 100% of your code](../../../../../videos/EurgqGU1jG0.md) (video): "Interfaces; Context interfaces pattern; Environment interfaces; Interface pattern"
 - [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "Default implementation for AL interfaces; Required pending attribute"
 - [What's New: AL - Interfaces (2024 release wave 2)](../../../../../videos/PHmFqehrPG4.md) (video): "Interface Extension; Type Checking with Is Operator for Interfaces; Interface Casting with As Operator"
 

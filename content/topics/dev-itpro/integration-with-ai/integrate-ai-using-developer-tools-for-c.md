@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,23 +204,12 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central
   localizations: []
   videos:
-    - video/9zQZHfXK-PQ
-    - video/c91E6IykUnk
-    - video/e4S2LXKAARs
-    - video/FUtePZVZLKs
-    - video/gd2TycVywv4
     - video/jdevJbGgB-k
-    - video/jfvUkNa4gyg
     - video/juUBVPfIp8A
     - video/NE7NIjpkX3c
-    - video/nMiLzdfidos
-    - video/Q-oazDEucLE
     - video/QCo-uIfPs9g
-    - video/qFGTq40UinE
     - video/RfHVHa_Qiqk
     - video/sv1utmneaXA
-    - video/sycmF3cJa_s
-    - video/T63y0F_38SI
   posts:
     - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/1891
@@ -230,12 +219,6 @@ links:
     - post/demiliani-com/13611
     - post/olofsimren-com/3585
     - post/olofsimren-com/3630
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9
-    - post/thinkaboutit-be/7299
-    - post/thinkaboutit-be/7352
-    - post/thinkaboutit-be/8132
-    - post/thinkaboutit-be/8331
-    - post/vondervoort-be/84
   guidelines: []
   changes:
     - change/al-go/2402
@@ -255,8 +238,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 17
-  blog: 14
+  video: 6
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -324,28 +307,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../../posts/demiliani-com/13611.md) (community post): "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
 - [Copilot Inventory Queries](../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
 - [Copilot in Planning Parameter Worksheet](../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
-- [🚀 Exploring Vibe Coding with GitHub Copilot for Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9.md) (community post): "GitHub Copilot to co-create AL solutions for Business Central"
-- [Introduction to GitHub Copilot in VSCode for AL Development](../../../posts/thinkaboutit-be/7299.md) (community post): "GitHub Copilot in VSCode offers multiple AI-powered modes for AL developers with code generation"
-- [Copilot Agent in AL: Using It Well Without Losing Control](../../../posts/thinkaboutit-be/7352.md) (community post): "Copilot Agent works at a task level across multiple AL objects and files"
-- [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../posts/thinkaboutit-be/8132.md) (community post): "designed to guide both human developers and AI agents toward shared coding standards"
-- [Business Central 29: What’s New in BC-Bench?](../../../posts/thinkaboutit-be/8331.md) (community post): "AI MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents"
-- [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "AI pair programming in AL development. Effective prompts and instruction files"
-- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "GitHub Copilot to Automate Business Central Documentation"
-- [Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?](../../../videos/c91E6IykUnk.md) (video): "GitHub Copilot for AL development; Multi-agent workflow for development"
-- [20251208 - You don't have to make Test Plans anymore...](../../../videos/e4S2LXKAARs.md) (video): "AI-assisted test plan generation; MCP integration for test planning in Visual Studio Code"
-- [AI consuming AI output. #businesscentral #bc #msdyn365bc](../../../videos/FUtePZVZLKs.md) (video): "AI consuming AI output; documentation generation; extension development"
-- [20260326 - From AI Novice to Agentic Thinking For the CAL Brained](../../../videos/gd2TycVywv4.md) (video): "AI-assisted development with GitHub Copilot; Agentic development mindset shift"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Marketing text generation; Chat Copilot for Business Central; AI developer toolkit"
-- [AL Development using Claude Code - The Business Central Coding Stream](../../../videos/jfvUkNa4gyg.md) (video): "Agent-based development workflow; Agent-Driven Development Orchestration"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"
-- [What's New: AL Language (2026 release wave 1)](../../../videos/nMiLzdfidos.md) (video): "AL tools for GitHub Copilot in VS Code; Automatic diagnostic fixing with Copilot"
-- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../videos/Q-oazDEucLE.md) (video): "AI agents for legacy AL refactoring; Test-driven development with AI"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features; Managed AI Resources; Temperature and Max Tokens"
-- [GitHub Copilot Can Generate Your Entire App Blueprint (Most Developers Miss This)](../../../videos/qFGTq40UinE.md) (video): "GitHub Copilot inline suggestions; Copilot-generated AL object creation; App blueprint generation"
 - [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../../videos/RfHVHa_Qiqk.md) (video): "small language models; fine-tuning; model distillation; phi models"
 - [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../videos/sv1utmneaXA.md) (video): "Extending Copilot Chat with Your App's Documentation"
-- [Copilot Assisted Scheduling by PrintVis](../../../videos/sycmF3cJa_s.md) (video): "Copilot Assisted Scheduling; Optimization Options; Schedule Loading"
-- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; natural language; ai-assisted workflow"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

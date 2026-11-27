@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,6 +80,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background/al-language-reference-background-process
   localizations: []
   videos:
+    - video/a3j6JjyWDv0
     - video/D7GxnNiGQ14
   posts:
     - post/aardvarklabs-blog/3837
@@ -107,7 +108,7 @@ children:
 coverage:
   learn: 7
   code: 0
-  video: 1
+  video: 2
   blog: 3
   guideline: 0
 bc_forms: []
@@ -168,6 +169,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves"
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
 - [If You Can't Make It Fast, Make It Feel Fast](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "moving blocking work to the background instead of waiting for user input"
+- [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../../../../videos/a3j6JjyWDv0.md) (video): "External Business Events post-commit behavior; Batch checkpoint pattern; Commit Behavior function attribute"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../../../videos/D7GxnNiGQ14.md) (video): "background processing; job queue; page background task; task scheduler"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

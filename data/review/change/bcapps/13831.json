@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13831",
+  "input_hash": "c89762d50c4d984d22f290b051b10228d80f974877eea1ca192faa191dfc89bf",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-27T01:03:41.007Z",
+  "issues": [
+    "Matches the description: the native Markdown field replaces the WebPageViewer, raw text is kept, and a per-agent Use business skills checkbox is added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023635,
+    "changes_in_call": 6
+  }
+}

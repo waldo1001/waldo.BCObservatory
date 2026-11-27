@@ -1,0 +1,1315 @@
+{
+  "date": "2026-11-27",
+  "started_at": "2026-11-27T00:13:11.976Z",
+  "finished_at": "2026-11-27T01:07:39.692Z",
+  "status": "ok",
+  "pipeline": "0.2.0",
+  "runner": {
+    "node": "v22.23.4",
+    "runner_name": "macmini-bcobs"
+  },
+  "guard": {
+    "decision": "reduced",
+    "status": "unavailable:not_configured",
+    "five_hour": null,
+    "seven_day": null,
+    "resets_at": null,
+    "headroom": null,
+    "factor": 0.5,
+    "facts_only": false,
+    "detail": "BCOBS_USAGE_OAUTH_TOKEN unset"
+  },
+  "ingest": {
+    "sources": [
+      {
+        "id": "learn-smb-docs",
+        "kind": "docs-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 4,
+          "updated": 0,
+          "unchanged": 2158,
+          "removed": 0
+        },
+        "note": "2162 pages at e81c92c3c095",
+        "duration_ms": 5793
+      },
+      {
+        "id": "learn-devitpro",
+        "kind": "docs-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 3,
+          "updated": 0,
+          "unchanged": 5892,
+          "removed": 0
+        },
+        "note": "5895 pages at 700c74161e9e",
+        "duration_ms": 8254
+      },
+      {
+        "id": "m365-roadmap",
+        "kind": "roadmap-api",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 134,
+          "removed": 0
+        },
+        "note": "134 Business Central items of 2420; snapshot unchanged",
+        "duration_ms": 452
+      },
+      {
+        "id": "al-language-extension",
+        "kind": "vsmarketplace",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 1,
+          "updated": 0,
+          "unchanged": 63,
+          "removed": 0
+        },
+        "note": "64 versions from 193 uploads; stable 17.10.2902953 (2026-10-19), pre-release 30.0.3128326 (2026-11-26); 90,767 bytes before 4.0.0 dropped; snapshot written (+0 -0 ~1: al-30.0 +2 entries)",
+        "duration_ms": 2447
+      },
+      {
+        "id": "ms-support-updates",
+        "kind": "support-updates",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "3 updates: 28.6, 28.5, 28.4",
+        "duration_ms": 1004
+      },
+      {
+        "id": "bcquality",
+        "kind": "guidelines-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 485,
+          "removed": 0
+        },
+        "note": "485 pages at aaaf6c13c219",
+        "duration_ms": 772
+      },
+      {
+        "id": "alguidelines",
+        "kind": "guidelines-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 232,
+          "removed": 0
+        },
+        "note": "232 pages at 53923c5010f2",
+        "duration_ms": 659
+      },
+      {
+        "id": "bcapps",
+        "kind": "code-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 2,
+          "updated": 0,
+          "unchanged": 1,
+          "removed": 0
+        },
+        "note": "3/3 branches",
+        "duration_ms": 904
+      },
+      {
+        "id": "bcapps-prs",
+        "kind": "github-pr",
+        "ok": true,
+        "counts": {
+          "new": 26,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 1,
+          "removed": 0
+        },
+        "note": "38 merged in main, releases/29.x; 6 bots, 5 backports skipped; cursor 2026-11-26",
+        "duration_ms": 8054
+      },
+      {
+        "id": "al-go-prs",
+        "kind": "github-pr",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "5 merged in main; 2 bots, 0 backports skipped; cursor 2026-11-25",
+        "duration_ms": 6337
+      },
+      {
+        "id": "bcquality-prs",
+        "kind": "github-pr",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 1,
+          "removed": 0
+        },
+        "note": "1 merged in main; 0 bots, 0 backports skipped; cursor 2026-11-26",
+        "duration_ms": 3991
+      },
+      {
+        "id": "sandbox-history",
+        "kind": "code-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 5,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "8/8 branches",
+        "duration_ms": 478
+      },
+      {
+        "id": "onprem-history",
+        "kind": "code-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 2,
+          "removed": 0
+        },
+        "note": "2/2 branches",
+        "duration_ms": 614
+      },
+      {
+        "id": "yt-microsoft",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 131
+      },
+      {
+        "id": "yt-hougaard",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 35
+      },
+      {
+        "id": "yt-saurav",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 99
+      },
+      {
+        "id": "yt-areopa",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 86
+      },
+      {
+        "id": "yt-mibuso",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 80
+      },
+      {
+        "id": "yt-stefanmaron",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 177
+      },
+      {
+        "id": "yt-bcmusings",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 97
+      },
+      {
+        "id": "yt-dynamicscorner",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 108
+      },
+      {
+        "id": "waldo-be",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 18,
+          "removed": 0
+        },
+        "note": "18 posts via WordPress REST",
+        "duration_ms": 415
+      },
+      {
+        "id": "stefanmaron-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 28,
+          "removed": 0
+        },
+        "note": "28 posts via feed",
+        "duration_ms": 364
+      },
+      {
+        "id": "kauffmann-nl",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "3 posts via WordPress REST",
+        "duration_ms": 631
+      },
+      {
+        "id": "demiliani-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 94,
+          "removed": 0
+        },
+        "note": "94 posts via WordPress REST",
+        "duration_ms": 621
+      },
+      {
+        "id": "freddysblog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 10,
+          "removed": 0
+        },
+        "note": "10 posts via feed",
+        "duration_ms": 258
+      },
+      {
+        "id": "jpearson-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 6,
+          "removed": 0
+        },
+        "note": "6 posts via WordPress REST",
+        "duration_ms": 349
+      },
+      {
+        "id": "katson-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 5,
+          "removed": 0
+        },
+        "note": "5 posts via feed",
+        "duration_ms": 1085
+      },
+      {
+        "id": "sauravdhyani-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 25,
+          "removed": 0
+        },
+        "note": "25 posts via feed",
+        "duration_ms": 300
+      },
+      {
+        "id": "gerardorenteria-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 77,
+          "removed": 0
+        },
+        "note": "77 posts via WordPress REST",
+        "duration_ms": 594
+      },
+      {
+        "id": "bertverbeek-nl",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 13,
+          "removed": 0
+        },
+        "note": "13 posts via WordPress REST",
+        "duration_ms": 891
+      },
+      {
+        "id": "kine-cz",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "3 posts via feed",
+        "duration_ms": 303
+      },
+      {
+        "id": "keytogoodcode-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "deferred": true,
+        "note": "scrape-only source: HTML ingest arrives with the blogs milestone (M3)",
+        "duration_ms": 0
+      },
+      {
+        "id": "olofsimren-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 14,
+          "removed": 0
+        },
+        "note": "14 posts via WordPress REST",
+        "duration_ms": 640
+      },
+      {
+        "id": "mohana-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 25,
+          "removed": 0
+        },
+        "note": "25 posts via feed",
+        "duration_ms": 323
+      },
+      {
+        "id": "duiliotacconi-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 22,
+          "removed": 0
+        },
+        "note": "22 posts via WordPress REST",
+        "duration_ms": 400
+      },
+      {
+        "id": "thinkaboutit-be",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 72,
+          "removed": 0
+        },
+        "note": "72 posts via WordPress REST",
+        "duration_ms": 304
+      },
+      {
+        "id": "thatnavguy-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 68,
+          "removed": 0
+        },
+        "note": "68 posts via feed",
+        "duration_ms": 242
+      },
+      {
+        "id": "dvlprlife-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 20,
+          "removed": 0
+        },
+        "note": "20 posts via feed",
+        "duration_ms": 262
+      },
+      {
+        "id": "tine-staric-net",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 9,
+          "removed": 0
+        },
+        "note": "9 posts via feed",
+        "duration_ms": 267
+      },
+      {
+        "id": "aardvarklabs-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 83,
+          "removed": 0
+        },
+        "note": "83 posts via WordPress REST",
+        "duration_ms": 550
+      },
+      {
+        "id": "vondervoort-be",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 6,
+          "removed": 0
+        },
+        "note": "6 posts via WordPress REST",
+        "duration_ms": 1309
+      },
+      {
+        "id": "thedynamicsexplorer-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 17,
+          "removed": 0
+        },
+        "note": "17 posts via WordPress REST",
+        "duration_ms": 367
+      },
+      {
+        "id": "vld-bc-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "deferred": true,
+        "note": "scrape-only source: HTML ingest arrives with the blogs milestone (M3)",
+        "duration_ms": 0
+      },
+      {
+        "id": "miljan-rs",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 7,
+          "removed": 0
+        },
+        "note": "7 posts via feed",
+        "duration_ms": 634
+      },
+      {
+        "id": "sshadows-dk",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 13,
+          "removed": 0
+        },
+        "note": "13 posts via feed",
+        "duration_ms": 224
+      },
+      {
+        "id": "vjeko-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 22,
+          "removed": 0
+        },
+        "note": "22 posts via feed",
+        "duration_ms": 177
+      },
+      {
+        "id": "nataliekarolak-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 posts via WordPress REST",
+        "duration_ms": 351
+      },
+      {
+        "id": "yzhums-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 384,
+          "removed": 0
+        },
+        "note": "385 posts via WordPress REST",
+        "duration_ms": 6757
+      },
+      {
+        "id": "jeremyvyska-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 13,
+          "removed": 0
+        },
+        "note": "13 posts via WordPress REST",
+        "duration_ms": 1376
+      },
+      {
+        "id": "wingate365-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 14,
+          "removed": 0
+        },
+        "note": "14 posts via feed",
+        "duration_ms": 251
+      },
+      {
+        "id": "bccaptain-com-au",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 7,
+          "removed": 0
+        },
+        "note": "7 posts via feed",
+        "duration_ms": 185
+      },
+      {
+        "id": "wingate-combined",
+        "kind": "discovery",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "suggestions": [
+          {
+            "host": "abccgroup.com",
+            "count": 10,
+            "sample_title": "Microsoft Business Central Pricing and Implementation Cost: 12 Costs Behind $80 a User",
+            "sample_url": "https://www.abccgroup.com/post/microsoft-business-central-pricing-1"
+          },
+          {
+            "host": "linkedin.com",
+            "count": 5,
+            "sample_title": "BC29 AL Builds: Keep the Warnings After the Build Finishes",
+            "sample_url": "https://www.linkedin.com/pulse/bc29-al-builds-keep-warnings-after-build-finishes-ammolh-saallvi-29dkf"
+          },
+          {
+            "host": "dara365.blogspot.com",
+            "count": 2,
+            "sample_title": "Dynamics 365 Business Central, Power BI and Microsoft Fabric: The Next Generation of ERP Reporting",
+            "sample_url": "https://dara365.blogspot.com/2026/11/dynamics-365-business-central-power-bi.html"
+          },
+          {
+            "host": "msdyn365bc.blogspot.com",
+            "count": 2,
+            "sample_title": "Copilot & Agents in Business Central",
+            "sample_url": "https://msdyn365bc.blogspot.com/2026/11/copilot-agents-in-business-central.html"
+          },
+          {
+            "host": "apcdynamics.com",
+            "count": 1,
+            "sample_title": "Prepayment Process in Business Central Shouldn’t Be This Hard",
+            "sample_url": "https://www.apcdynamics.com/articles/prepayment-process-in-business-central-shouldnt-be-this-hard/"
+          },
+          {
+            "host": "bcforfinance.com",
+            "count": 1,
+            "sample_title": "Business Central as the IFRS Book of Record: My BC Waves Barcelona Session, Written Up",
+            "sample_url": "https://bcforfinance.com/post/business-central-as-the-ifrs-book-of-record-my-bc-waves-barcelona-session-written-up"
+          },
+          {
+            "host": "hougaard.com",
+            "count": 1,
+            "sample_title": "Building the World’s Best ControlAddIn for AL Code",
+            "sample_url": "https://www.hougaard.com/building-the-worlds-best-controladdin-for-al-code/"
+          },
+          {
+            "host": "javiarmesto.substack.com",
+            "count": 1,
+            "sample_title": "De un Excel a Business Central con Copilot, y de ahí a una skill reutilizable",
+            "sample_url": "https://javiarmesto.substack.com/p/de-un-excel-a-business-central-con"
+          },
+          {
+            "host": "oussamasabbouh.com",
+            "count": 1,
+            "sample_title": "Webhooks, Business Events, or Polling? Reliable Change Detection for Business Central Integrations",
+            "sample_url": "https://oussamasabbouh.com/2026/11/24/webhooks-business-events-or-polling-reliable-change-detection-for-business-central-integrations/"
+          },
+          {
+            "host": "ssosic.com",
+            "count": 1,
+            "sample_title": "First Look at AL 30.0: What's Coming in Business Central 2027 Wave 1",
+            "sample_url": "https://ssosic.com/development/first-look-at-al-30-0-business-central-2027-wave-1/"
+          },
+          {
+            "host": "techspheredynamics.com",
+            "count": 1,
+            "sample_title": "From an Excel file to Business Central with Copilot, then to a reusable skill",
+            "sample_url": "https://techspheredynamics.com/2026/11/16/copilot-business-central-excel-to-skill/"
+          },
+          {
+            "host": "theworkbench.blog",
+            "count": 1,
+            "sample_title": "Copilot Studio | Five Tools, Fifty-One Actions",
+            "sample_url": "http://www.theworkbench.blog/2026/11/copilot-studio-five-tools-fifty-one.html"
+          },
+          {
+            "host": "tobiasfenster.io",
+            "count": 1,
+            "sample_title": "Keith Atherton - AI in Power Apps, but also the impact of AI on Power Apps",
+            "sample_url": "https://tobiasfenster.io"
+          }
+        ],
+        "note": "50 digest entries, 13 unregistered hosts",
+        "duration_ms": 1088
+      }
+    ],
+    "totals": {
+      "sources": 53,
+      "failed": 0,
+      "deferred": 2,
+      "new": 27,
+      "changed": 15,
+      "updated": 0,
+      "unchanged": 10191,
+      "removed": 0
+    }
+  },
+  "plan": {
+    "quotas": {
+      "captions": 60,
+      "video_extract": 20,
+      "docs": 200,
+      "posts": 20,
+      "code_jobs": 1,
+      "hub_refresh": 30,
+      "roadmap_links": 20,
+      "topic_links": 20,
+      "learn_confirm": 40,
+      "learn_facts": 30,
+      "cautions": 20,
+      "topic_reviews": 7,
+      "coverage_reviews": 10,
+      "opus_reviews": 5,
+      "llm_calls_max": 225,
+      "preview_probes": 80,
+      "change_fetch": 60,
+      "changes": 20,
+      "change_narrative": 1,
+      "graph_jobs": 1,
+      "video_reviews": 10,
+      "post_reviews": 7,
+      "change_reviews": 7
+    },
+    "work": 39,
+    "executed": 39,
+    "skips": 0,
+    "quota_use": {
+      "unlimited": {
+        "selected": 8,
+        "available": 8,
+        "limit": null
+      },
+      "change_fetch": {
+        "selected": 29,
+        "available": 29,
+        "limit": 60
+      },
+      "posts": {
+        "selected": 1,
+        "available": 1,
+        "limit": 20
+      },
+      "code_jobs": {
+        "selected": 1,
+        "available": 5,
+        "limit": 1
+      }
+    },
+    "note": "stopped: done"
+  },
+  "llm": {
+    "calls": 117,
+    "cache_hits": 1,
+    "failures": 0,
+    "by_model": {
+      "claude-haiku-4-5-20251001": 74,
+      "claude-sonnet-5-5": 17,
+      "claude-opus-5-5": 26
+    },
+    "cost_usd": 3.8062451999999998,
+    "tokens_by_model": {
+      "claude-haiku-4-5-20251001": {
+        "calls": 74,
+        "input": 64702,
+        "output": 28988,
+        "cache_read": 0,
+        "cache_creation": 524538,
+        "cost_usd": 1.2587179999999998
+      },
+      "claude-sonnet-5-5": {
+        "calls": 17,
+        "input": 34,
+        "output": 16043,
+        "cache_read": 9780,
+        "cache_creation": 73503,
+        "cost_usd": 0.45646600000000004
+      },
+      "claude-opus-5-5": {
+        "calls": 26,
+        "input": 52,
+        "output": 34722,
+        "cache_read": 3266,
+        "cache_creation": 174470,
+        "cost_usd": 2.0910612
+      }
+    },
+    "day_cost_usd": 3.806245,
+    "day_capped_usd": 3.806245
+  },
+  "spend": {
+    "today_usd": 0,
+    "today_total_usd": 0,
+    "week_before_usd": 19.53236,
+    "week_before_uncapped_usd": 0,
+    "night_cap_usd": 15,
+    "week_cap_usd": 80,
+    "allowance_usd": 15,
+    "binding": "night",
+    "exhausted": false
+  },
+  "items_changed": 42,
+  "errors": [
+    "change/bcapps-prs/13671 fetched: The operation was aborted due to timeout",
+    "change/bcapps-prs/10046 fetched: The operation was aborted due to timeout",
+    "content: topics/business-central/business-functionality/local-functionality/denmark/auditing.md: broken link ../../../../../objects/page/13687-dk.md"
+  ],
+  "captions_retried": 0,
+  "checkpoints": 3,
+  "execution": {
+    "stop_reason": "done",
+    "deadline": "2026-11-27T05:35:00.000Z",
+    "items_touched": 39,
+    "stages_run": {
+      "release:fetched": 1,
+      "release:published": 1,
+      "docs:fetched": 7,
+      "change:fetched": 27,
+      "blog:fetched": 1,
+      "docs:extracted": 7,
+      "docs:summarized": 7,
+      "docs:linked": 7,
+      "docs:published": 7,
+      "code:fetched": 1,
+      "change:extracted": 20,
+      "change:linked": 20,
+      "change:published": 20,
+      "blog:extracted": 1,
+      "blog:summarized": 1,
+      "blog:linked": 1,
+      "blog:published": 1,
+      "code:extracted": 1,
+      "code:linked": 1,
+      "code:published": 1
+    },
+    "advanced": 127,
+    "skipped": 6,
+    "failed_attempts": 2,
+    "failed_final": 0,
+    "no_handler": 0,
+    "held": 0,
+    "parked": 24,
+    "quota_charged": {
+      "posts": 1,
+      "change_fetch": 29,
+      "code_jobs": 1,
+      "docs": 7,
+      "changes": 20,
+      "graph_jobs": 1
+    },
+    "regards": [
+      {
+        "at_calls": 25,
+        "decision": "reduced",
+        "status": "unavailable:not_configured"
+      }
+    ],
+    "errors": [
+      "change/bcapps-prs/13671 fetched: The operation was aborted due to timeout",
+      "change/bcapps-prs/10046 fetched: The operation was aborted due to timeout"
+    ],
+    "parked_left": 0
+  },
+  "code": {
+    "version_diffs": 7,
+    "country_diffs": 46,
+    "timelines": 19,
+    "deprecations": 3,
+    "written": 46,
+    "relations": 3,
+    "field_docs": 3,
+    "matrix": false,
+    "docs_objects": {
+      "links": 5348,
+      "missing": 108,
+      "obsolete": 43,
+      "undocumented": 44,
+      "written": 2
+    },
+    "graph": {
+      "runs": [
+        {
+          "major": "29",
+          "written": true,
+          "edges": 15906,
+          "unresolved": 1362,
+          "ms": 1954872
+        }
+      ]
+    },
+    "narratives": {
+      "ready": 22,
+      "refreshed": 1,
+      "failed": 0,
+      "waiting": [],
+      "stopped": "done"
+    },
+    "crosslinks": {
+      "pages": 5600,
+      "rows": 10242,
+      "certain": 2833,
+      "by": {
+        "code": 5776,
+        "override": 33,
+        "model": 4433
+      },
+      "learn_pages": 1842,
+      "written": true,
+      "errors": []
+    },
+    "cautions": {
+      "items": 774,
+      "cautions": 1756,
+      "objects": 63,
+      "attached": 86,
+      "written": false
+    },
+    "pages": {
+      "objects": 25834,
+      "written": 25734,
+      "removed": 23,
+      "localizations": 22,
+      "own_objects": 9194
+    },
+    "related": {
+      "pages": 10925,
+      "rows": 38597,
+      "by_rank": {
+        "1": 986,
+        "2": 67,
+        "3": 20282,
+        "4": 1910,
+        "5": 8011,
+        "6": 7204,
+        "7": 137
+      },
+      "written": true
+    },
+    "apps": {
+      "apps": 98,
+      "written": 2,
+      "removed": 0
+    }
+  },
+  "narrative_reviews": {
+    "localization": {
+      "candidates": 1,
+      "reviewed": 1,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 1,
+      "cost_usd": 0.1922,
+      "stopped": "done"
+    },
+    "digest": {
+      "candidates": 1,
+      "reviewed": 1,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 1,
+      "cost_usd": 0.1372,
+      "stopped": "done"
+    }
+  },
+  "changes": {
+    "fetched": 27,
+    "skipped_non_code": 6,
+    "held": 2,
+    "pages": 1614,
+    "relinked": 26,
+    "rerendered": 67,
+    "api_calls": 72,
+    "narrated": 1
+  },
+  "previews": {
+    "probed": 80,
+    "refreshed": 79,
+    "failed": 0,
+    "rerendered": 82,
+    "flipped": [],
+    "channels": 0
+  },
+  "roadmap_links": {
+    "units": 3995,
+    "stale": 3573,
+    "calls": 20,
+    "matched": 26,
+    "rejected": 7,
+    "related": 40,
+    "failed": 0,
+    "cost_usd": 0.412532,
+    "rejections": [
+      "video/TH70oJI4Ae0 f2 -> 573332: quote not verbatim: \"table extension fields are now stored in the same SQL server table as base table\"",
+      "video/Sh3ySQSTw-o f9 -> 573322: quote not verbatim: \"System fields like created by, created on, last modified by, last modified on an\"",
+      "video/UFLo2XGGS14 f2 -> 573335: quote not verbatim: \"Snapshot debugging MCP allowing agents to capture runtime snapshots\"",
+      "video/UFLo2XGGS14 f2 -> 573361: quote not verbatim: \"MCP server capturing runtime snapshots including call stacks and variables\"",
+      "video/UFLo2XGGS14 f6 -> 573335: quote not verbatim: \"Sampling profiling MCP capturing CPU profile files and activity metrics\"",
+      "video/UFLo2XGGS14 f7 -> 573335: quote not verbatim: \"Session-based profiling workflow capturing CPU profile files with activity metri\"",
+      "video/UFLo2XGGS14 f8 -> 573335: quote not verbatim: \"Telemetry-driven agent investigation triggering snapshot debugging or profiling\""
+    ],
+    "stopped": "quota",
+    "classified": 0,
+    "unclassified": 0,
+    "pages": 766,
+    "review": {
+      "candidates": 37,
+      "reviewed": 10,
+      "kept": 61,
+      "dropped": 130,
+      "failed": 0,
+      "cost_usd": 0.6377314000000001,
+      "stopped": "quota"
+    }
+  },
+  "topic_links": {
+    "units": 3387,
+    "stale": 461,
+    "calls": 20,
+    "matched": 101,
+    "rejected": 25,
+    "failed": 0,
+    "cost_usd": 0.625953,
+    "rejections": [
+      "post/yzhums-com/74366 -> topic/dev-itpro/integration/web-services/apis: quote not verbatim: \"Five new read-only APIs for querying permission sets, access controls, user perm\"",
+      "change/bcapps/14480 -> t306: not a candidate of this item",
+      "post/demiliani-com/17696 -> t496: not a candidate of this item",
+      "post/aardvarklabs-blog/2204 -> topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data: quote not verbatim: \"importing and exporting data into Business Central by parsing delimited files\"",
+      "post/aardvarklabs-blog/4023 -> topic/dev-itpro/administration/automation-api/extension: quote not verbatim: \"deploying Business Central extensions to production through the Admin API\"",
+      "post/gerardorenteria-blog/12801 -> topic/dev-itpro/development/extensibility/developing-client-add-ins: quote not verbatim: \"extension that renders Mermaid.js diagrams using JavaScript control add-in bridg\"",
+      "post/jeremyvyska-com/1449 -> t386: not a candidate of this item",
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156 -> t367: not a candidate of this item",
+      "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/ -> t386: not a candidate of this item",
+      "video/vyQnSxRGJDA -> topic/business-central/copilot-and-agent-capabilities/expense-agent-preview: quote not verbatim: \"Expense Agent: Per Diem Allowances showing itinerary detection\""
+    ],
+    "second": {
+      "due": 6,
+      "called": 0,
+      "matched": 0
+    },
+    "stopped": "quota"
+  },
+  "cautions": {
+    "due": 1,
+    "posts": 1,
+    "calls": 1,
+    "cautions": 1,
+    "failed": 0,
+    "cost_usd": 0.003647,
+    "stopped": "done"
+  },
+  "learn_confirm": {
+    "units": 4835,
+    "stale": 2532,
+    "called": 40,
+    "calls": 5,
+    "picks": 42,
+    "rejected": 2,
+    "failed": 0,
+    "cost_usd": 0.058661000000000005,
+    "rejections": [
+      "change/bcapps/10513 -> L3: not a candidate of this item",
+      "change/bcapps/11290 -> L20: not a candidate of this item"
+    ],
+    "stopped": "quota"
+  },
+  "topic_reviews": {
+    "candidates": 185,
+    "calls": 7,
+    "reviewed": 7,
+    "kept": 32,
+    "dropped": 43,
+    "failed": 0,
+    "cost_usd": 0.49148440000000004,
+    "stopped": "quota"
+  },
+  "reviews": {
+    "video": {
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0
+    },
+    "post": {
+      "reviewed": 1,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 1,
+      "cost_usd": 0.027344,
+      "candidates": 1,
+      "failed": 0,
+      "reset": 0,
+      "rerendered": 1,
+      "stopped": "done"
+    },
+    "change": {
+      "reviewed": 20,
+      "fixed": 10,
+      "rejected": 0,
+      "calls": 4,
+      "cost_usd": 0.141812,
+      "candidates": 20,
+      "failed": 0,
+      "reset": 0,
+      "rerendered": 20,
+      "stopped": "done"
+    }
+  },
+  "guidelines": {
+    "rerendered": 0,
+    "pages": 485
+  },
+  "learn_facts": {
+    "due": 0,
+    "pages": 0,
+    "calls": 0,
+    "facts": 0,
+    "dropped": 0,
+    "failed": 0,
+    "cost_usd": 0,
+    "stopped": "done"
+  },
+  "hubs": {
+    "topics": 608,
+    "narrated": 559,
+    "refreshed": 15,
+    "failed": 0,
+    "backlog": 0,
+    "stopped": "done",
+    "reviewed": 3,
+    "review_fixed": 1,
+    "review_rejected": 0,
+    "review_backlog": 264
+  },
+  "learn_identifiers": {
+    "items": 0,
+    "filled": 0,
+    "prefetched": 0,
+    "missing": 0,
+    "ms": 1036,
+    "rule": 2
+  },
+  "content": {
+    "pages": 30716,
+    "errors": 1
+  },
+  "leak": {
+    "vault": "scanned",
+    "raw_docs": 1265,
+    "files_scanned": 35823,
+    "findings": 0,
+    "blocked": false
+  }
+}

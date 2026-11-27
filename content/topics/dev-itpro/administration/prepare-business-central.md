@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,6 +147,7 @@ links:
   posts:
     - post/miljan-rs/639
     - post/thinkaboutit-be/7443
+    - post/yzhums-com/77475
   guidelines: []
 learn_toc_path:
   - Administration
@@ -158,7 +159,7 @@ coverage:
   learn: 13
   code: 13
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 1340
@@ -283,6 +284,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Understanding the Contoso Demo Data Tool in Business Central](../../../posts/miljan-rs/639.md) (community post): "creating demo-ready companies in Business Central, starting with 2024 Wave 2 Update 3"
 - [How Do I: Create a Business Central Trial From Scratch](../../../posts/thinkaboutit-be/7443.md) (community post): "Creating a Business Central trial requires starting with a clean Microsoft 365 trial"
+- [Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365](../../../posts/yzhums-com/77475.md) (community post): "Business Central can automatically populate the Company Information page by pulling organization details from Microsoft 365"
 - [Getting Started with Business Central (2025)](../../../videos/lRiED3AUfps.md) (video): "getting started; sample company; data migration; setup guide; company creation"
 
 ## Business Central pages and reports

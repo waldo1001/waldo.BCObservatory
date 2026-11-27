@@ -4476,112 +4476,100 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/sales-order-agent": {
-      "video/7QJeTXzZaEk@fe53f7ec7a4fecf1": {
+      "video/4nFViDASGhg@5166ba4c88b9db3f": {
         "verdict": "keep",
-        "reason": "Walkthrough of the Sales Order Agent, including its email integration and contact creation.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Covers Sales Order Agent enhancements such as attachment analysis, custom instructions and availability checks.",
+        "at": "2026-11-27T01:02:53.962Z",
         "v": 2
       },
-      "video/I7i25zBfyEQ@ee1071475f8df3b9": {
+      "video/7QJeTXzZaEk@674c6da7912ceaf9": {
         "verdict": "keep",
-        "reason": "Covers Sales Order Agent setup, email mapping and quote creation.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Walks through trying the Sales Order Agent, including setting up the email account it uses.",
+        "at": "2026-11-27T01:02:53.962Z",
+        "v": 2
+      },
+      "video/I7i25zBfyEQ@11b5dfdbb39e0b85": {
+        "verdict": "keep",
+        "reason": "Shows how to set up the Sales Order Agent and how it creates quotes and handles approvals.",
+        "at": "2026-11-27T01:02:53.962Z",
         "v": 2
       },
       "video/j6gadQyB4gM@8fb817ca9982b064": {
         "verdict": "keep",
-        "reason": "Covers the custom email signature setting of the Sales Order Agent.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Shows a Sales Order Agent setting: custom email signatures.",
+        "at": "2026-11-27T01:02:53.962Z",
         "v": 2
       },
       "video/kwGEoxN46hk@675e51dcbcbf050b": {
         "verdict": "keep",
-        "reason": "Shows how to set up multiple Sales Order Agent instances and their options.",
-        "at": "2026-11-10T00:54:07.239Z",
-        "v": 2
-      },
-      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
-        "verdict": "drop",
-        "reason": "About the Sales Validation sample agent, a different agent from the Sales Order Agent.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Shows how to set up several Sales Order Agents to run in parallel.",
+        "at": "2026-11-27T01:02:53.962Z",
         "v": 2
       },
       "video/Qmd6_5vYKDg@81383fd0445b8e2e": {
         "verdict": "keep",
-        "reason": "Shows how the Sales Order Agent searches for and matches items.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Shows how the Sales Order Agent finds the items customers ask for in emails.",
+        "at": "2026-11-27T01:02:53.962Z",
         "v": 2
       },
-      "video/qmGxeq5FJis@f77d064e1d9e0331": {
+      "video/UIL8ej7mSKQ@9471b69503614429": {
+        "verdict": "keep",
+        "reason": "A release overview whose main content is Sales Order Agent features, such as email processing, shipping addresses and delivery dates.",
+        "at": "2026-11-27T01:02:53.962Z",
+        "v": 2
+      },
+      "video/XhO4oFmoh1M@53b72a1b71d3270d": {
+        "verdict": "keep",
+        "reason": "Introduces the Sales Order Agent and covers its configuration, task pane, permissions and quote creation.",
+        "at": "2026-11-27T01:02:53.962Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2965@a38109fce595bda0": {
         "verdict": "drop",
-        "reason": "About Copilot sales line suggestions, which the sibling Sales line suggestion section documents.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Custom AI agents built for marketing campaigns; the sales orders are only where its own AL code runs, not the Sales Order Agent.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       },
-      "video/UIL8ej7mSKQ@24814d31abc584d1": {
+      "post/demiliani-com/11739@d2a01470befed8d3": {
         "verdict": "keep",
-        "reason": "Release overview that covers several new Sales Order Agent capabilities in detail.",
-        "at": "2026-11-10T00:54:07.239Z",
+        "reason": "Explains what the Sales Order Agent does and how its billing and environment linking work.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       },
-      "video/XhO4oFmoh1M@ba1558c9f46151a9": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html@4c72f3d0373765dd": {
         "verdict": "keep",
-        "reason": "Introduction to the Sales Order Agent covering its configuration, email processing and quote creation.",
-        "at": "2026-11-10T00:54:07.239Z",
-        "v": 2
-      },
-      "post/demiliani-com/11739@4526778a0429d0cc": {
-        "verdict": "keep",
-        "reason": "Explains what the Sales Order Agent does and how its billing works, including linking environments and message pricing.",
-        "at": "2026-11-10T00:54:11.463Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html@72a16d998aff4c27": {
-        "verdict": "keep",
-        "reason": "Recaps a session that demoed setting up the Sales Order Agent and processing orders with it.",
-        "at": "2026-11-10T00:54:11.463Z",
+        "reason": "Recaps a session that demoed setting up and running the Sales Order Agent.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@ccd469fb4452222b": {
         "verdict": "keep",
-        "reason": "Covers what the Sales Order Agent does and the license and Copilot Credits needed to use it.",
-        "at": "2026-11-10T00:54:11.463Z",
+        "reason": "Covers the Sales Order Agent's capabilities and the licensing and Copilot Credits it requires.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       },
       "post/yzhums-com/68482@75dc3fca129f91e9": {
-        "verdict": "drop",
-        "reason": "The task is turning capabilities off on the Copilot & agent capabilities page, which the sibling Manage Copilot and agent capabilities section documents more exactly.",
-        "at": "2026-11-10T00:54:11.463Z",
-        "v": 2
-      },
-      "post/yzhums-com/69476@404823025dc06f63": {
-        "verdict": "drop",
-        "reason": "A broad list of all Copilot features that only mentions sales order automation in passing.",
-        "at": "2026-11-10T00:54:11.463Z",
-        "v": 2
-      },
-      "video/_JkZCp64jNw@adc1eaf9565d4645": {
         "verdict": "keep",
-        "reason": "The launch event demonstrates several Sales Order Agent features, including item availability, email insights, auto-creating customers and PDF preview.",
-        "at": "2026-11-10T00:54:11.463Z",
+        "reason": "Explains how the Sales Order Agent icon appears and how to hide it by deactivating the capability.",
+        "at": "2026-11-27T01:02:57.425Z",
+        "v": 2
+      },
+      "video/_JkZCp64jNw@6bfe3f7d02e70327": {
+        "verdict": "keep",
+        "reason": "Launch event that demos Sales Order Agent features such as item availability, email insights and PDF preview.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       },
       "video/1ht5nxubZ9c@806ec6ced3da77bc": {
         "verdict": "keep",
-        "reason": "Shows how to set up the Sales Order Agent's mailbox with a personal or shared folder.",
-        "at": "2026-11-10T00:54:11.463Z",
+        "reason": "Shows how to configure the Sales Order Agent's mailbox folder, personal or shared.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       },
       "video/2ujWYYecA2c@3f5290c61e1b5834": {
         "verdict": "keep",
-        "reason": "Walks through setting up and testing the Sales Order Agent with the Try it out experience.",
-        "at": "2026-11-10T00:54:11.463Z",
-        "v": 2
-      },
-      "video/4nFViDASGhg@5166ba4c88b9db3f": {
-        "verdict": "keep",
-        "reason": "Covers new Sales Order Agent settings, including attachment analysis, custom instructions and review options.",
-        "at": "2026-11-10T00:54:11.463Z",
+        "reason": "Walkthrough of setting up and testing the Sales Order Agent, including its review and availability options.",
+        "at": "2026-11-27T01:02:57.425Z",
         "v": 2
       }
     },
@@ -10735,298 +10723,136 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
-      "post/thinkaboutit-be/7486@131ae97800aa4183": {
-        "verdict": "drop",
-        "reason": "About Copilot Plan mode for AL development workflow, not about building Business Central agents in AL.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
-        "verdict": "drop",
-        "reason": "About autonomy levels of AI coding agents in general, not coding BC agents in AL.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/@6371193df90b4b48": {
-        "verdict": "drop",
-        "reason": "About quality assurance for AI coding agents, not about building BC agents in AL.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
-        "verdict": "drop",
-        "reason": "About AI-assisted engineering discipline in general, not the BC agent development this section documents.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/vondervoort-be/130@80f191b9b56f9b87": {
-        "verdict": "drop",
-        "reason": "About a code analyzer for AL; AI tool integration is incidental, not about coding BC agents.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/vondervoort-be/147@99d92e66e963843b": {
-        "verdict": "drop",
-        "reason": "About the ALCops analyzers and an MCP server for AI assistants, not about building BC agents.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/waldo-be/318755@62d8c4b8300aea40": {
-        "verdict": "drop",
-        "reason": "About an AL test runner debugged with AI coding agents, not about BC agent development.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html@b05d0c2fabe45625": {
-        "verdict": "drop",
-        "reason": "A conference announcement about AI prompts and consultant roles, not about coding BC agents.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/yzhums-com/71363@49fdd2195a46cc2d": {
-        "verdict": "keep",
-        "reason": "Covers the new Agent template in AL: New Project for getting started building BC agents in AL.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "video/c91E6IykUnk@9c87e1a5eb37106f": {
-        "verdict": "drop",
-        "reason": "Mainly about AI-assisted AL development and report layouts, not about coding BC agents in AL.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "video/EwN3xb2q7vE@026d8348b84608e2": {
-        "verdict": "keep",
-        "reason": "Directly demonstrates coding BC agents in AL: agent interfaces, setup, tasks API and agent sessions.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "video/gd2TycVywv4@f20bd71818f9eeb8": {
-        "verdict": "drop",
-        "reason": "About an agentic mindset for developers using Copilot, not about building BC agents in AL.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "video/jfvUkNa4gyg@843581c971e53e3c": {
-        "verdict": "drop",
-        "reason": "About using Claude Code agents to write AL code, not about coding BC agents.",
-        "at": "2026-11-15T00:46:43.546Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/3060@cf622bf4ad3a6ad2": {
-        "verdict": "drop",
-        "reason": "About using Copilot Chat for requirements and design documents, not about coding Business Central agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
-        "verdict": "drop",
-        "reason": "About VS Code Copilot skills for AL development, not about building agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
-        "v": 2
-      },
       "post/bertverbeek-nl/1272@5592e82161ab5c60": {
         "verdict": "keep",
-        "reason": "Shows how to create and register agents in AL code with IAgentFactory, IAgentMetadata, setup pages and KPI pages, which is exactly this section's subject.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "Shows how to create and register agents in AL code with IAgentFactory, IAgentMetadata and setup pages, which is what this section documents.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
-      "post/demiliani-com/13814@d2bf07698adba447": {
+      "post/demiliani-com/13814@b321b022dd9d092d": {
         "verdict": "keep",
-        "reason": "Covers new Agent codeunit methods (SetModelId, GetModelId) for selecting the model of code-defined agents.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "Covers new Agent codeunit methods (such as SetModelId) for setting an agent's model from AL code.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
       "post/demiliani-com/13982@a0a946e5701b63bc": {
         "verdict": "drop",
-        "reason": "General essay on the costs of relying on AI for coding, not about coding agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "About the costs and skill risks of using AI for code generation, not about building agents in AL.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
-      "post/demiliani-com/14011@a4f2a5eb486e6c43": {
+      "post/demiliani-com/14098@9ef8b66699d7b0df": {
         "verdict": "drop",
-        "reason": "About VS Code agent hooks for auditing AI coding sessions, not about Business Central agents built in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "Its summary was withheld and its topics are general AI architecture and skills, with nothing specific to coding Business Central agents in AL.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
-      "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@cf1c867204c2f0fe": {
+      "post/demiliani-com/17529@02197b3ab0ee6596": {
         "verdict": "keep",
-        "reason": "Part of this roundup covers the AL APIs for setting the model of code-defined agents.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "The book includes chapters on designing custom agents and building AL copilots, which relates to coding agents in AL.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/@9a731a62b40514dc": {
         "verdict": "drop",
-        "reason": "About the AL MCP server for AI coding assistants, not about creating Business Central agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "About the AL MCP server for AI coding assistants like GitHub Copilot, not about creating Business Central agents.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
-      "post/gerardorenteria-blog/13945@46831719c8bc5ce4": {
+      "post/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai@b73108724175a97d": {
         "verdict": "drop",
-        "reason": "About organizing GitHub Copilot context per workspace, not about coding agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "Opinion piece on setting up AI coding agents for AL development, not about coding Business Central agents.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
-      "post/gerardorenteria-blog/14894@1b604f05710f6e53": {
+      "post/jeremyvyska-com/1428@9542af4e3e76a170": {
         "verdict": "drop",
-        "reason": "About cutting Copilot output-token costs, unrelated to building Business Central agents.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "About team AI infrastructure and MCP for development workflows, not about building agents in AL.",
+        "at": "2026-11-27T01:02:58.565Z",
+        "v": 2
+      },
+      "post/jeremyvyska-com/1433@c769c0ae8ce171fb": {
+        "verdict": "drop",
+        "reason": "About organizational AI adoption and governance, not about agent development in AL.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
       "post/katson-com/4756@fe746a1e7d77237d": {
         "verdict": "drop",
-        "reason": "A spec-driven method for AI-assisted extension development, not about the AL agent framework.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "A way of working with AI coding agents (spec-driven development), not about the AL agent framework.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
         "verdict": "drop",
-        "reason": "General guidance on using AI tools for BC development, not about coding agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "General guidance on using AI tools for Business Central development, not about creating agents in AL.",
+        "at": "2026-11-27T01:02:58.565Z",
         "v": 2
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
         "verdict": "drop",
-        "reason": "About quality risks in AI-generated AL code, not about building agents in AL.",
-        "at": "2026-11-15T00:46:44.192Z",
+        "reason": "About checking the quality of AL code written by AI, not about building Business Central agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
-      "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
-        "verdict": "keep",
-        "reason": "Covers designing and coding Business Central agents, including creating agent code with the AI Development Toolkit and deploying agent extensions.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/mBU2Iu0urw8@95ce2757d015d2fc": {
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184@07aad549cc1080f8": {
         "verdict": "drop",
-        "reason": "About using AI coding assistants and MCP tools to write AL in general, not about building Business Central agents in AL.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/MNwTt06ZxwY@84b9b76fb70d705a": {
-        "verdict": "keep",
-        "reason": "Shows the AL agent template, agent factory and metadata interfaces, and shipping agents through extensions.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/nbGw2g3KMXI@61321df23330d53b": {
-        "verdict": "keep",
-        "reason": "Builds custom agents in AL with an agent factory codeunit, capability registration and the AL agent project template.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/UgagVZVKCso@33c9fb0cd1fb23d4": {
-        "verdict": "drop",
-        "reason": "About partner experience building Copilot features with prompt engineering, not coding agents in AL.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/V4zCPAsYi_Y@c18383eb6e9d0dd2": {
-        "verdict": "keep",
-        "reason": "Covers testing AL-coded agents with the AI Development Toolkit evaluation app, which is part of building agents in AL.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/w2P3WskFaCA@9f8393e4268031d6": {
-        "verdict": "drop",
-        "reason": "About doing AL development from a Linux terminal with AI coding assistants, not building Business Central agents.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/WjFx9yYf1js@7a24bb789c86b0e4": {
-        "verdict": "drop",
-        "reason": "About the risks of AI-generated ('vibe-coded') extensions, not agent development in AL.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/XGEDwzIZQj4@53a5209267f30072": {
-        "verdict": "drop",
-        "reason": "A benchmark that scores AI coding assistants on fixing bugs, not on building Business Central agents.",
-        "at": "2026-11-15T00:46:44.264Z",
-        "v": 2
-      },
-      "video/xWOddQt1GUM@b37a64fe3602a41b": {
-        "verdict": "drop",
-        "reason": "Mainly about AI-assisted AL coding and the changing developer role; it mentions agent preview only in passing.",
-        "at": "2026-11-15T00:46:44.264Z",
+        "reason": "About the MCP server's data query tools that outside agents use, not about writing agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
         "verdict": "drop",
-        "reason": "A broad BC28 release roundup; its only overlap is AI coding agents measured with BC-Bench, not building Business Central agents in AL.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "A general BC 28 what's-new list whose only agent mention is AI coding agents measured with BC-Bench, not building agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/olofsimren-com/3653@e7fefac5ccde599a": {
         "verdict": "drop",
-        "reason": "About using AI vibe coding to build an audit extension, not about coding Business Central agents in AL.",
-        "at": "2026-11-15T00:46:52.735Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
-        "verdict": "drop",
-        "reason": "About setting up GitHub Copilot to help write AL code, not about building agents in AL.",
-        "at": "2026-11-15T00:46:52.735Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
-        "verdict": "keep",
-        "reason": "Discusses designing Business Central agents and the AI Development Toolkit and Agent Building Sandbox used to build them.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "Vibe coding is only how the audit extension was made, so the post is not about coding agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
         "verdict": "drop",
-        "reason": "A language-server tool for AI coding assistants, not about building Business Central agents.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "A language-server tool for AI coding assistants, not something this section documents.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
         "verdict": "drop",
-        "reason": "A Claude Code multi-agent workflow for AL development; the subject is AI-assisted coding, not BC agents.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "A Claude Code multi-agent workflow for writing AL, not about building Business Central agents.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
         "verdict": "drop",
-        "reason": "An MCP server for searching BC source code for AI coding assistants, not about building agents in AL.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "An MCP source-search server for AI coding assistants, unrelated to building agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
         "verdict": "drop",
-        "reason": "A dev container setup for Claude Code; unrelated to coding BC agents.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "A dev container setup for Claude Code, a tooling and sandbox topic this section does not cover.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
         "verdict": "drop",
-        "reason": "Docker sandboxing for Claude Code; unrelated to coding BC agents.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "Docker sandboxing for Claude Code, not about building agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
-      "post/thinkaboutit-be/7352@f7cfc535784925c8": {
+      "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
         "verdict": "drop",
-        "reason": "About Copilot's agent mode for writing AL code, not about building Business Central agents.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "An essay on autonomy levels for AI coding, not about the AL agent framework.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       },
-      "post/thinkaboutit-be/7383@7e8512d807291136": {
+      "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
         "verdict": "drop",
-        "reason": "About Copilot's plan mode for AL development, not about building BC agents.",
-        "at": "2026-11-15T00:46:52.735Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7402@b5ffe8888e16e784": {
-        "verdict": "drop",
-        "reason": "A mental model for using GitHub Copilot's modes; it is not about building agents.",
-        "at": "2026-11-15T00:46:52.735Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7414@2d8b4e6d2f5403fd": {
-        "verdict": "drop",
-        "reason": "A personal year-in-review about using Copilot; it is not about building BC agents in AL.",
-        "at": "2026-11-15T00:46:52.735Z",
+        "reason": "A general opinion piece on engineering with AI, not about building Business Central agents in AL.",
+        "at": "2026-11-27T01:03:10.640Z",
         "v": 2
       }
     },
@@ -11051,76 +10877,226 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@6f73990c21cad57e": {
+        "verdict": "drop",
+        "reason": "About using GitHub Copilot to write AL code, not building Copilot features into Business Central extensions.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7299@a66c13e9f08239bf": {
+        "verdict": "drop",
+        "reason": "Covers GitHub Copilot modes in VS Code for writing AL, not the Copilot developer toolkit this section documents.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7352@e3c58f6b35d5bd05": {
+        "verdict": "drop",
+        "reason": "Gives best practices for the GitHub Copilot Agent when writing AL, not for building Copilot capabilities in Business Central.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8132@38977d3cd41e7df5": {
+        "verdict": "drop",
+        "reason": "Covers a quality-rules repository for AL code review by AI agents, which is outside this section's scope.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8331@9aace12bc41bce82": {
+        "verdict": "drop",
+        "reason": "Covers benchmarking AI coding agents on AL tasks, not building Copilot features in Business Central.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "post/vondervoort-be/84@76d6c845b8b82118": {
+        "verdict": "drop",
+        "reason": "Building agents inside Business Central is documented by the sibling agents section, and the rest is about AI pair programming.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/9zQZHfXK-PQ@aa24364b9bd4a57b": {
+        "verdict": "drop",
+        "reason": "Shows GitHub Copilot automating documentation and specs, not the developer tools for building Copilot features.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/c91E6IykUnk@f6e298ea60c4a4dc": {
+        "verdict": "drop",
+        "reason": "Mostly about AI-assisted AL development workflows and report layouts, not building Copilot capabilities.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/e4S2LXKAARs@01444c363f837e78": {
+        "verdict": "drop",
+        "reason": "Covers AI-assisted test plan generation in VS Code, which is unrelated to building Copilot features.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/FUtePZVZLKs@0e26e74618fa30f5": {
+        "verdict": "drop",
+        "reason": "Vague AI documentation-generation topic with no link to the Copilot developer tools.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/gd2TycVywv4@c13d27e23ba440b2": {
+        "verdict": "drop",
+        "reason": "About an agentic development mindset with GitHub Copilot for writing AL, not building Copilot features.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/jdevJbGgB-k@3b95c296c2040e38": {
+        "verdict": "keep",
+        "reason": "Shows how to develop Copilot features in Business Central: the AI developer toolkit, prompting, function calling and the Copilot service architecture.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
+      "video/jfvUkNa4gyg@e5db3db2dfaaae41": {
+        "verdict": "drop",
+        "reason": "About using Claude Code agents to write AL code, not building Copilot features in Business Central.",
+        "at": "2026-11-27T01:02:59.544Z",
+        "v": 2
+      },
       "post/aardvarklabs-blog/1609@3fcb11f9f743c240": {
         "verdict": "keep",
-        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including capability registration and prompts.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, capability registration and prompts, which is what this section documents.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@acd02c808815148e": {
         "verdict": "keep",
-        "reason": "Shows an AI-assisted feature in AL that calls Azure OpenAI to pull out keywords for item recommendations.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "Shows an AL extension that calls AI to extract keywords for a multi-step recommendation feature, using the Copilot developer tooling.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2467@3ca0dd88204c02f4": {
         "verdict": "keep",
-        "reason": "Builds an AI feature in Business Central that uses Azure OpenAI chat completion with a system prompt.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "Builds an address-matching feature in AL with Azure OpenAI and system prompts, an example of extending Copilot in Business Central.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@8922993c3a103e02": {
         "verdict": "keep",
-        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization, which are part of the AI developer tools for Copilot.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "Compares the two Azure OpenAI authorization methods in the AL Copilot toolkit, SetAuthorization and SetManagedResourceAuthorization.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2759@9372b0a4a18dc232": {
         "verdict": "keep",
-        "reason": "Builds a Copilot feature in AL with a PromptDialog page and Azure OpenAI chat completion.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "Builds a Copilot prompt dialog (PromptDialog page) with Azure OpenAI chat completion in AL.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@6e75b1d333dd4bae": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot skills for AI-assisted AL coding in VS Code, not about building Copilot features in Business Central.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "About GitHub Copilot skills in VS Code for writing AL code, not about building Copilot features in Business Central.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/demiliani-com/13611@e3c49892fed21054": {
         "verdict": "keep",
-        "reason": "Discusses how the System.AI namespace wraps Chat Completions and how it could support the Responses API.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "Discusses how the System.AI namespace wraps Chat Completions and how it could evolve, which is the developer tooling this section documents.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14522@bad4b76377204575": {
         "verdict": "drop",
-        "reason": "About VS Code agent hooks for coding assistants, a feature this section doesn't document.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "About VS Code agent hooks for GitHub Copilot, not about the Business Central Copilot developer tools.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14663@1b6ca2e438286ef2": {
         "verdict": "drop",
-        "reason": "About memory settings for the VS Code coding agent, which has nothing to do with building Copilot features in Business Central.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "About memory settings for the VS Code Copilot agent, unrelated to extending Copilot in Business Central.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14730@291342724016cef4": {
         "verdict": "drop",
-        "reason": "About cutting GitHub Copilot credit usage, not about Business Central Copilot development.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "About cutting GitHub Copilot credit use, not about the Business Central AI developer tools.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/gerardorenteria-blog/15298@fd9dd06bc5970be6": {
         "verdict": "drop",
-        "reason": "A GitHub Copilot chat skill for labeling claims, not a Business Central Copilot development topic.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "A GitHub Copilot chat skill for labelling claims, not about building Copilot capabilities in Business Central.",
+        "at": "2026-11-27T01:03:00.361Z",
         "v": 2
       },
       "post/olofsimren-com/3585@15ba5b5a0e881166": {
         "verdict": "keep",
-        "reason": "An extension built with the AL Copilot capability tools and Azure OpenAI, with the API key in isolated storage.",
-        "at": "2026-11-26T01:03:20.499Z",
+        "reason": "An extension built with Microsoft's AL Copilot capability tools and Azure OpenAI, set up with isolated storage and a system prompt.",
+        "at": "2026-11-27T01:03:00.361Z",
+        "v": 2
+      },
+      "post/olofsimren-com/3630@6b0fd3846f4092a2": {
+        "verdict": "keep",
+        "reason": "A custom extension that uses Azure OpenAI Copilot with prompts and JSON output to suggest planning parameters, an example of extending Copilot in Business Central.",
+        "at": "2026-11-27T01:03:00.361Z",
+        "v": 2
+      },
+      "video/juUBVPfIp8A@f0534b54c2a95d2f": {
+        "verdict": "keep",
+        "reason": "Covers the AI Development Toolkit, including Azure OpenAI policy settings, content filtering and evaluations, which are the developer tools this section documents.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/KN-X4gBu8nE@a07610514f85e0a5": {
+        "verdict": "drop",
+        "reason": "About moving from Azure DevOps to GitHub and using GitHub Copilot, not about building Copilot features in Business Central.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/NE7NIjpkX3c@2e5bec9bf8a81635": {
+        "verdict": "keep",
+        "reason": "Practical guidance for building a Copilot extension (prompt engineering, function calling, validation), which is what this section documents.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/nMiLzdfidos@bc64d3b6b0e36a5a": {
+        "verdict": "drop",
+        "reason": "About AL language features and GitHub Copilot coding tools, not the Copilot developer toolkit.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/Q-oazDEucLE@0be41d0d668352fe": {
+        "verdict": "drop",
+        "reason": "About using AI coding agents to refactor legacy AL code, not about building Copilot features.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/QCo-uIfPs9g@59b1a32b0a63b532": {
+        "verdict": "keep",
+        "reason": "Directly covers extending Copilot in Business Central: prompt dialogs, function calling, managed AI resources and capability registration.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/qFGTq40UinE@d9a497a64fa23b3b": {
+        "verdict": "drop",
+        "reason": "About using GitHub Copilot as a coding assistant in VS Code, not the Business Central Copilot developer tools.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/RfHVHa_Qiqk@cc0c8bf13e8f1e08": {
+        "verdict": "keep",
+        "reason": "Discusses the AI test toolkit and prompt engineering for Business Central AI features, which relate to the Copilot developer tools.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/sv1utmneaXA@1ee66df1a8733a3e": {
+        "verdict": "keep",
+        "reason": "Shows partners how to extend Copilot Chat with their app's documentation, a form of Copilot extensibility.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/sycmF3cJa_s@0055d7202fe4643d": {
+        "verdict": "drop",
+        "reason": "Demo of a partner's Copilot scheduling feature for print shops, not about developer tools.",
+        "at": "2026-11-27T01:03:00.373Z",
+        "v": 2
+      },
+      "video/T63y0F_38SI@0220f004afa416c0": {
+        "verdict": "drop",
+        "reason": "About an end-user feature for creating Power Automate flows with Copilot, not about developing Copilot features.",
+        "at": "2026-11-27T01:03:00.373Z",
         "v": 2
       }
     },

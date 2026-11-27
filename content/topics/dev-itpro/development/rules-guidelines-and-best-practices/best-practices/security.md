@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:10.067Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,7 +48,9 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10346
+    - change/bcapps/11016
     - change/bcapps/12617
+    - change/bcapps/8556
     - change/bcquality/157
     - change/bcquality/187
     - change/bcquality/49
@@ -107,7 +109,9 @@ Start with the layered security model page for the overall picture. Then read th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10346 Fix activity log indirect permissions](../../../../../changes/bcapps/10346.md) (code change): "All activity writes remain code-mediated through Expense Activity Log Mgt"
+- [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../../../changes/bcapps/11016.md) (code change): "Hardens OAuth2 integrations: Intercompany now builds the authority from the tenant GUID over HTTPS"
 - [#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module](../../../../../changes/bcapps/12617.md) (code change): "Move URL checks from Web Request Helper to System Application Uri module"
+- [#8556 [Quality Management] Enforce rules and restrictions with indirect and implicit permissions](../../../../../changes/bcapps/8556.md) (code change): "Quality Management uses InherentPermissions so that, when no setup or triggered generation"
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../../changes/bcquality/157.md) (code change): "Security, error handling, UI, upgrade, web services and AppSource guidance on permission sets"
 - [#187 Code reviewer skill for recognizing and validating unauthenticated responses](../../../../../changes/bcquality/187.md) (code change): "Helps enforce security best practices in extension code"
 - [#49 Promote security knowledge from community to Microsoft layer](../../../../../changes/bcquality/49.md) (code change): "Best practice guidance improved for temporary table data protection"

@@ -20,7 +20,7 @@ review:
   at: "2026-10-26T06:40:02.611Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-27T00:13:11.976Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,7 +73,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://vjeko.com/wp-content/uploads/2020/12/cropped-Brand-Element-v3-32x32.png
-  probed_at: "2026-10-26T05:58:03.431Z"
+  probed_at: "2026-11-27T00:55:35.858Z"
 ---
 
 # The lump of labour fallacy fallacy

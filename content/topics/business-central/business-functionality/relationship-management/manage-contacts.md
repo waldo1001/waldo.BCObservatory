@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/relationship-management/manage-contacts
 type: topic
 title: Manage contacts
-summary: "Managing business contacts in Business Central: creating and linking contacts to customers, vendors, employees and bank accounts, classifying them with profile questionnaires, merging duplicates, setting up grouping information, and syncing contacts to Outlook. It answers how-to and setup questions for relationship management."
+summary: "Managing business contacts in Business Central: creating and linking contacts to customers, vendors, employees and bank accounts, setting up contact reference data, classifying contacts with profile questionnaires, merging duplicates, and syncing contacts to Outlook. It answers how-to questions about the Contacts list and its related setup."
 tier: official
 language: en
 system: crm
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7ce0bb871728d89bf720c29cf1b7060a2b7ca2005731852b18c445ac7708c979
+  input_hash: 5debad251773c4082e796f16457fc2ecf94aa807936aa3685ac41ad802346ba3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     title: Save Business Contacts to Microsoft Outlook
-    date: "2026-11-09"
+    date: "2026-11-25"
     commit: null
     t: null
     quote: null
@@ -110,27 +110,28 @@ narrative: generated
 
 # Manage contacts
 
-> Managing business contacts in Business Central: creating and linking contacts to customers, vendors, employees and bank accounts, classifying them with profile questionnaires, merging duplicates, setting up grouping information, and syncing contacts to Outlook. It answers how-to and setup questions for relationship management.
+> Managing business contacts in Business Central: creating and linking contacts to customers, vendors, employees and bank accounts, setting up contact reference data, classifying contacts with profile questionnaires, merging duplicates, and syncing contacts to Outlook. It answers how-to questions about the Contacts list and its related setup.
 
 Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage contacts · tier official · system crm · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Contacts in Business Central represent prospective business relations and external parties. The Contacts list is the central place to create contact cards, review statistics, manage sales opportunities and convert contacts into formal customer, vendor or bank relationships.
+The Contacts list holds prospective business relations and external contacts. You can use it to communicate with them and convert them into formal customer, vendor or bank relationships. Contacts can be created manually or from existing customers, vendors and bank accounts. They can also be linked to existing records, or used to create a customer, vendor, employee or bank account. Linked data can be synchronized, and links can be removed.
 
-The pages fit together around that list. One page covers creating contacts manually or from customers and vendors, linking them to existing records and synchronizing data. Another covers setup information such as industry groups, mailing groups, job responsibilities, organizational levels and web sources. Profile questionnaires classify contacts for targeting campaigns. A merge page handles duplicates, and an Outlook page covers saving contacts to Outlook and Teams.
+Supporting pages cover the setup and upkeep around contacts. Setup includes industry groups, mailing groups, alternate addresses, job responsibilities, organizational levels, web sources and business relations. Profile questionnaires use questions and answers with point values to classify and rate contacts for targeted sales campaigns. The Merge Duplicate feature combines duplicate customer, vendor or contact records. A synchronization feature saves contacts to Microsoft 365 for use in Outlook and Teams.
 
-Start with "Create and Manage Business Contacts" for the overview, then "Set Up Information for Business Contacts" before classifying or segmenting. Use the merge and Outlook pages when cleaning data or sharing contacts with Microsoft 365.
+Start with Create and Manage Business Contacts for the overall picture. Then use Create and Link Business Contacts for the relationship to customers and vendors. Set up the reference data before you segment or classify contacts.
 
 ## Key points
 
-- Contacts can be created manually, from customers, vendors or bank accounts, or turned into customers, vendors, employees or bank accounts.
-- Existing contacts can be linked to or unlinked from customer, vendor, employee and bank account records, with contact data synchronized.
-- Profile questionnaires use questions and answers with point values to rate and automatically classify contacts into one or more categories.
-- Setup data includes industry groups, mailing groups, alternate addresses, job responsibilities, organizational levels, web sources and business relations.
-- Merge Duplicate combines duplicate customers, vendors or contacts; you choose which field values to keep, review related tables and resolve conflicts.
+- Contacts can be created manually, from customers, vendors or bank accounts, or turned into a customer, vendor, employee or bank account.
+- Existing contacts can be linked to or unlinked from customers, vendors, employees and bank accounts, and contact data can be synchronized.
+- Setup data for segmentation includes industry groups, mailing groups, alternate addresses, job responsibilities, organizational levels and web sources.
+- Profile questionnaires assign point values to answers to classify and rate contacts automatically, based on customer, vendor or contact data.
+- Merge Duplicate combines duplicate customer, vendor or contact records; you choose which field values to keep, review related tables and resolve conflicts.
 - Merging requires the MERGE DUPLICATES permission set.
-- The Synchronize with Outlook action saves a filtered list of contacts to a chosen Outlook folder, with full sync and force full sync options and two-way synchronization (2026 release wave 1, version 28).
+- Contacts can be saved to Microsoft 365 for Outlook and Teams using the Synchronize with Outlook action, with filtering, folder selection, full or delta sync, and optional two-way sync.
+- The Outlook contact synchronization page is tagged to 2026 release wave 1 (v28).
 
 ## Learn pages
 

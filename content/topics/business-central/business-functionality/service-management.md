@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -455,12 +455,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10126 [Extensibility Request] issue 30389: allow skipping service item confirmation](../../../changes/bcapps/10126.md) (code change): "ServItemManagement codeunit now allows extensions to skip"
 - [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/10735.md) (code change): "posted sales, purchase, and service invoice and credit memo pages"
-- [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management"
+- [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management. Removes code"
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Service Shipment Lines pages to help users quickly locate"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
 - [Copilot Managing Maintenance Intake by Zig](../../../videos/PeI-Jv4KVn8.md) (video): "Copilot-powered maintenance intake; Image-based maintenance issue analysis"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
-- [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management (2024 release wave 2)"
+- [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management; Service Management Setup Changes"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -252,6 +252,7 @@ links:
   videos: []
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
+    - post/vondervoort-be/24
     - post/waldo-be/318627
   guidelines: []
 learn_toc_path:
@@ -267,7 +268,7 @@ coverage:
   learn: 29
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: f7fa283a2307b38645a0a6a5c070d9f11e217497e54ae695e9ce2e6e3db64c17
@@ -331,6 +332,7 @@ Three subtopics extend this: ALTool for command-line compile, package and test i
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md) (community post): "This guide covers the essential setup steps for creating a new Business Central AL development project"
+- [Rethinking LinterCop: Preparing for the Next Chapter](../../../posts/vondervoort-be/24.md) (community post): "LinterCop generates 50 assets per release due to AL language version"
 - [“the waldo way”](../../../posts/waldo-be/318627.md) (community post): "building a pre-packaged agentic development harness for the team to accelerate adoption"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 99743bd892f8f341ab7671a129404beff4327258e13318c52db4e891183e72f1
+  input_hash: ed893d644e8324bc044882dbd8db129445ffbd9e7f8090b65b6a00307c67f437
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al
     title: src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -69,14 +69,14 @@ relations:
   calls: 0
   called_by: 0
   implements: 0
-  implemented_by: 2
+  implemented_by: 3
 ---
 
 # Interface "CreateStandardDataSAFT"
 
 > Interface "CreateStandardDataSAFT" in SAF-T (Microsoft.Finance.AuditFileExport). 3 public procedures. Introduced in BC29, still in BC30.
 
-SAF-T · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al) · facts from BC29
+SAF-T · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -86,6 +86,7 @@ SAF-T · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 30498f50](ht
 
 ## Implemented by
 
+- [Codeunit 13687 "Create Standard Data SAF-T DK"](../codeunit/13687.md)
 - [Codeunit 5283 "Create Standard Data SAF-T"](../codeunit/5283.md)
 - [Enum 5280 "SAF-T Modification"](../enum/5280.md)
 

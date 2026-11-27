@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,6 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2202
-    - post/aardvarklabs-blog/2204
     - post/aardvarklabs-blog/2603
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3
@@ -105,7 +104,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 10
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -157,13 +156,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
 - [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../../changes/bcquality/277.md) (code change): "New xmlport domain with 4 articles: MS-DOS default TextEncoding, Xmlport.Run"
 - [Step by Step Guide to Importing Excel Data into Business Central](../../../../../posts/aardvarklabs-blog/2202.md) (community post): "Leverage the Excel Buffer record and File Management codeunit to read Excel files"
-- [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "import comma-separated values CSV customer data into Business Central by parsing delimited files"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files containing header and detail records"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "export data from Business Central to CSV format using the CSV Buffer table"
 - [BC Friday Tips #82 Excel Buffer Character Limit](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values."
 - [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../../posts/yzhums-com/63762.md) (community post): "comprehensive methods for importing and exporting data in Dynamics 365 Business Central"
 - [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../../../../../posts/yzhums-com/65326.md) (community post): "Custom AL code using XMLPORT with CSV format allows bulk import while handling large text values"
-- [Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL](../../../../../posts/yzhums-com/65426.md) (community post): "bulk import text longer than 250 or 2048 characters from external files"
+- [Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL](../../../../../posts/yzhums-com/65426.md) (community post): "bulk import text longer than 250 or 2048 characters from external files into Business Central"
 - [Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL](../../../../../posts/yzhums-com/66461.md) (community post): "demonstrates using the StripNotsupportChrInFileName method from codeunit 419 to automatically clean file names before export"
 - [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../../../posts/yzhums-com/68672.md) (community post): "Covered topics include importing CSV data into BC and exporting table data to CSV."
 

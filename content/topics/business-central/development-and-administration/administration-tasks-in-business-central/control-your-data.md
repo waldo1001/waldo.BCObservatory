@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
     - video/564XMP2IyLM
     - video/b-ixzwDS41c
     - video/DnZJ2iOgIjI
+    - video/lk1YJKOmHyI
   posts:
     - post/demiliani-com/17492
     - post/olofsimren-com/3564
@@ -135,7 +136,7 @@ children: []
 coverage:
   learn: 8
   code: 18
-  video: 3
+  video: 4
   blog: 8
   guideline: 0
 bc_forms:
@@ -221,6 +222,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
 - [What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)](../../../../videos/DnZJ2iOgIjI.md) (video): "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"
+- [What's New: Auditing In Purview (2024 release wave 2)](../../../../videos/lk1YJKOmHyI.md) (video): "Auditing Business Central events in Purview; Environment Administration event auditing"
 
 ## Business Central pages and reports
 

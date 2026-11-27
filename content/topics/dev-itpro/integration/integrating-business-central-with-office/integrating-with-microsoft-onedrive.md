@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,7 +102,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#8742 Enhance SharePoint error handling and add tests](../../../../changes/bcapps/8742.md) (code change): "SharePoint error handling now correctly parses OData verbose error responses"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "Integrate Business Central with OneDrive, including file import and export via AL and Graph API"
-- [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "disable or hide OneDrive action groups in Dynamics 365 Business Central for all users"
+- [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "OneDrive actions (Open in OneDrive, Share, Edit in OneDrive) are available"
 - [Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)](../../../../posts/yzhums-com/69433.md) (community post): "When OneDrive for system features is enabled, the Excel workbook opens directly in Excel for the web."
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

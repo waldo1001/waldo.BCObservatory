@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/copilot-and-agent-capabilities/autofill-preview",
-  "input_hash": "b3870fdc1b208a8fbd00e2ad58404b5e42ef599f89e09b4e14977a3ae75aa821",
-  "summary": "Autofill with Copilot (preview) covers how Business Central fills blank editable fields on card and document pages with suggestions, and how the feature handles AI, web search and data safety. It answers questions about using and reviewing suggestions and about responsible AI details.",
-  "overview": "Autofill is a Copilot feature that suggests values for blank editable fields on card and document pages. Suggestions come from Business Central data, AI generation, or web search results. Users review each suggestion and accept or discard it before saving.\n\nThe section has two pages. \"Autofill fields with Copilot (preview)\" explains how the feature works for users, including suggestion details and the accept or discard workflow. \"Responsible AI FAQ for Autofill (preview)\" explains the technology behind it: Azure OpenAI Service, optional Bing Search, permissions, content filtering and malicious site detection. Both pages refer to version 26.4.\n\nStart with the first page to learn how to use Autofill. Read the FAQ if you need to answer questions about data handling, safety or the role of web search.",
+  "input_hash": "d599e4b86c4ea50d5d2bf0d890a2006e021e494045182b10ab567fa5c3718922",
+  "summary": "Autofill (preview) is a Copilot feature in Business Central that suggests values for blank editable fields on card and document pages. It answers questions about how autofill works, where suggestions come from, how to accept or reject them, and the responsible AI details such as limitations, data residency and security.",
+  "overview": "Autofill is a Copilot capability, in preview, that proposes values for empty editable fields on card and document pages. Suggestions can come from Business Central data, from AI, or from a web search. Users stay in control and can accept or reject what is suggested.\n\nThe section has two pages. \"Autofill fields with Copilot (preview)\" is the functional guide: it covers how autofill behaves, auto paste from the clipboard, web search suggestions, showing details for a suggestion, and the Keep all button. \"Responsible AI FAQ for Autofill (preview)\" covers capabilities, evaluation methodology, limitations, data residency, security, content filtering, and best practices for reviewing suggestions.\n\nStart with the first page to learn how to use the feature, then read the FAQ before enabling it for users. Both pages refer to version 26.4.",
   "key_points": [
-    "Autofill fills blank editable fields on card and document pages with suggestions.",
-    "Suggestions can come from Business Central data, AI generation, or web search results.",
-    "Users must review and accept or reject each suggestion before saving.",
-    "Users can view details for each suggestion as part of reviewing it.",
-    "Web search uses Bing Search and is optional.",
-    "The feature uses Azure OpenAI Service and operates under the user's permissions.",
-    "Content filtering and malicious site detection are part of the responsible AI safeguards.",
-    "The feature is in preview and the pages reference update/version 26.4."
+    "Autofill suggests values for editable blank fields on card and document pages.",
+    "Suggestions can come from Business Central data, AI, or web search.",
+    "Users can accept or reject suggestions, use Show details to see more about a suggestion, and use Keep all to accept all of them.",
+    "Auto paste can use clipboard content to suggest values.",
+    "Web search suggestions use Bing Search, as named in the FAQ.",
+    "The feature is in preview and the pages reference version 26.4.",
+    "The Responsible AI FAQ covers evaluation, limitations, data residency, security, and content filtering.",
+    "Review suggestions before keeping them, as the FAQ recommends."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-30T01:11:10.900Z",
+  "at": "2026-11-27T01:04:41.053Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009517
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:09:06.420Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 4 says suggestion details let users 'see where a value came from'. The source only lists 'Suggestion details' as a feature and does not say what the details contain, so the point is reworded to stay within what the source supports.",
-      "Everything else is supported: preview status (from the page titles), the three suggestion sources, the review-and-accept workflow, Azure OpenAI Service, optional Bing Search, user permissions, content filtering, malicious site detection and version 26.4."
-    ],
-    "input_hash": "b3870fdc1b208a8fbd00e2ad58404b5e42ef599f89e09b4e14977a3ae75aa821",
-    "cost_usd": 0.027779200000000004
+    "cost_usd": 0.010003
   }
 }

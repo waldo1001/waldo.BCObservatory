@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:41.717Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-11-27T01:00:57.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,12 +184,10 @@ features:
     roadmap_ids:
       - "573315"
   - name: System fields in analysis mode
-    status: ga
+    status: unclear
     t: 447
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573322"
+    status_source: video
   - name: System fields in profiles
     status: ga
     t: 536
@@ -286,7 +284,7 @@ The main part covers the table extension data model. Extension fields are stored
 | Index management improvements | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=227s) |
 | Runtime-controlled index enablement | generally available (roadmap [AL developers can turn indexes on/off in AL code.](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |
 | Cross-table indexes | generally available (roadmap [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md)) | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |
-| System fields in analysis mode | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |
+| System fields in analysis mode | status not stated, demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |
 | System fields in profiles | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |
 | Permissions overview navigation | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=605s) |
 | Telemetry for Excel export audit | generally available (roadmap [Monitor usage of Open in Excel with telemetry](../features/573317.md)) | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |

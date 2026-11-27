@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,9 +315,8 @@ links:
     - post/yzhums-com/66714
     - post/yzhums-com/69023
     - post/yzhums-com/72539
+    - post/yzhums-com/75960
   guidelines: []
-  changes:
-    - change/bcapps/10449
 learn_toc_path:
   - Development and administration
   - Customize Business Central
@@ -329,7 +328,7 @@ coverage:
   learn: 30
   code: 65
   video: 2
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms:
   - 1
@@ -493,17 +492,17 @@ The subtopic Customize with extensions covers installing, uninstalling and manag
 - [Enable Premium features](https://learn.microsoft.com/dynamics365/business-central/ui-experiences): Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.
 - [Set Up Colored Indicators on Cues for a Company or User](https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues): As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Remove permission set ref and move the Page Inspector changes to BCApps"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../posts/demiliani-com/13215.md) (community post): "upgrade-safe layering in Business Central means extensions survive updates"
 - [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "administrators to use system audit fields in Analysis Mode and Profile customizations"
 - [D365 Business Central: Why is my Job Queue Tasks Cue in Red?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md) (community post): "You can adjust this threshold through the Cue Setup page"
 - [Dynamics 365 Business Central: How to add custom pages, reports, and queries to Role Explorer (Customizing Role Explorer)](../../../posts/yzhums-com/66714.md) (community post): "adding custom pages, reports, and queries to role centers"
 - [Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)](../../../posts/yzhums-com/69023.md) (community post): "A page extension on Companies adds a read-only Experience column"
 - [Dynamics 365 Business Central: How to display/add “Sent To” on the Sent Emails (8883, List) page?](../../../posts/yzhums-com/72539.md) (community post): "page extension that reads the internal Message Id"
+- [Dynamics 365 Business Central: How to clear all Customized Pages for a Profile (Role)](../../../posts/yzhums-com/75960.md) (community post): "Administrators can clear all customized pages for a Business Central profile to return it to its original state"
 - [Tips and Tricks for Better Pasting with Magic Page for Business Central](../../../videos/cwCZUHgDb9Q.md) (video): "Magic Paste bulk customer creation; Magic Paste key-based record updates; Magic Paste selective column pasting"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 

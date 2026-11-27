@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -296,6 +296,8 @@ links:
     - post/aardvarklabs-blog/2936
     - post/demiliani-com/12439
     - post/gerardorenteria-blog/14993
+    - post/thinkaboutit-be/8418
+    - post/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0
     - post/yzhums-com/25134
     - post/yzhums-com/63922
     - post/yzhums-com/65156
@@ -328,7 +330,7 @@ coverage:
   learn: 33
   code: 0
   video: 0
-  blog: 16
+  blog: 18
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -431,6 +433,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Integrating Analysis Views in Business Central Extensions](../../../../../posts/aardvarklabs-blog/2936.md) (community post): "AL runtime 17.0 adds an analysisviews section to pages and page extensions"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
 - [🧭 Page Explorer for Business Central: everything a page hides, in plain sight](../../../../../posts/gerardorenteria-blog/14993.md) (community post): "It uses the native Page Summary Provider codeunit to parse page metadata"
+- [Business Central 29: What’s New in Page Scripting?](../../../../../posts/thinkaboutit-be/8418.md) (community post): "recording and replaying bulk actions on selected records in lists"
+- [South Coast Summit 2025 - AI-Driven Page Scripting: Practical Use Cases for Dynamics 365](../../../../../posts/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0.md) (community post): "Page scripting baseline creation provides foundation for AI"
 - [Dynamics 365 Business Central: How to note the records that the user has selected on the Subpage/Lines (Page.SetSelectionFilter in part)](../../../../../posts/yzhums-com/25134.md) (community post): "Page.SetSelectionFilter gets user-selected records and applies a 'marked only' filter"
 - [Dynamics 365 Business Central: How to use Page.SetSelectionFilter Method in temporary records](../../../../../posts/yzhums-com/63922.md) (community post): "Page.SetSelectionFilter marks user-selected records but doesn't work directly with temporary records"
 - [Dynamics 365 Business Central: How to change Zero (0) of Flowfield field to Dash (-) on the page](../../../../../posts/yzhums-com/65156.md) (community post): "BlankZero property set to true hides zero values and displays them"

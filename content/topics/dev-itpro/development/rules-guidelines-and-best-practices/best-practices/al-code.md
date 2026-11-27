@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,7 +61,6 @@ links:
   posts:
     - post/aardvarklabs-blog/4100
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a
-    - post/jeremyvyska-com/1449
     - post/nataliekarolak-com/3494
   guidelines: []
   changes:
@@ -96,7 +95,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -159,7 +158,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 - [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](../../../../../posts/aardvarklabs-blog/4100.md) (community post): "Makes code cleaner and easier to maintain by eliminating boilerplate dirty-flag logic"
 - [Weekly Review: Business Central AL Development – June 21–27, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (community post): "Moving older AL apps to namespaces improves object clarity, reduces naming friction"
-- [BC Code Intelligence: Your New VS Code AI Development Partner](../../../../../posts/jeremyvyska-com/1449.md) (community post): "help developers solve problems faster and follow best practices"
 - [How to write good tooltips as a BC developer](../../../../../posts/nataliekarolak-com/3494.md) (community post): "following patterns like starting with Specifies"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

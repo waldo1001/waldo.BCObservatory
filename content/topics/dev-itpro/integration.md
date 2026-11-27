@@ -12,7 +12,7 @@ review:
   at: "2026-11-22T01:00:28.230Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -396,6 +396,8 @@ links:
     - change/bcapps/11386
     - change/bcapps/11484
     - change/bcapps/11527
+    - change/bcapps/11563
+    - change/bcapps/11745
     - change/bcapps/13765
 learn_toc_path:
   - Integration
@@ -545,6 +547,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected"
 - [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
 - [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
+- [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../changes/bcapps/11563.md) (code change): "Add PEPPOL Requested Delivery Period support at both header and line level"
+- [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
 - [🤖 Manage your projects, repositories, and more with Azure DevOps MCP Server ✅](../../posts/gerardorenteria-blog/11401.md) (community post): "Manage your projects, repositories, and more with Azure DevOps MCP Server"

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c4fc6974b90f098f83e17f8cf9fc70387cb0fadf53c6c6045e99031944a9015d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuote.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuote.PageCust.al
     title: src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuote.PageCust.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "SOA Sales Quote" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
-SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuote.PageCust.al) · facts from BC29
+SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuote.PageCust.al) · facts from BC29
 
 ## Across versions
 

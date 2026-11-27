@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:16.058Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-27T01:00:57.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,8 +70,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573332
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -126,12 +125,10 @@ features:
     verified: false
     status_source: video
   - name: New table extension data model
-    status: ga
+    status: unclear
     t: 129
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573332"
+    status_source: video
   - name: 300 field warning threshold
     status: unclear
     t: 496
@@ -218,13 +215,11 @@ The presenter tests the new compiler warning for tables approaching the SQL colu
 | Feature | Status | At |
 |---|---|---|
 | Detect table approaching SQL column limit warning | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=78s) |
-| New table extension data model | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)) | [2:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=129s) |
+| New table extension data model | status not stated | [2:09](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=129s) |
 | 300 field warning threshold | status not stated, demoed | [8:16](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=496s) |
 | Platform system fields | status not stated, demoed | [9:42](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=582s) |
 | Record size byte limit | status not stated, demoed | [15:12](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=912s) |
 | Data type byte consumption | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=948s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

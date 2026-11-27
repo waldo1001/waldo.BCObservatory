@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-26T01:01:19.782Z"
+  at: "2026-11-27T01:00:57.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,6 @@ links:
   objects: []
   features:
     - feature/573350
-    - feature/573362
     - feature/573624
     - feature/576872
     - feature/577820
@@ -213,12 +212,10 @@ features:
     verified: false
     status_source: video
   - name: Enhanced chat with Copilot - 20 languages
-    status: ga
+    status: unclear
     t: 906
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Payables agent in more countries
     status: unclear
     t: 940
@@ -434,7 +431,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Copilot billing type configuration | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [12:15](https://www.youtube.com/watch?v=H5EuObmeF4o&t=735s) |  |
 | Azure resources for Copilot extensions | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [13:31](https://www.youtube.com/watch?v=H5EuObmeF4o&t=811s) |  |
 | Enhanced analysis assist with Copilot | status not stated, demoed | [14:04](https://www.youtube.com/watch?v=H5EuObmeF4o&t=844s) |  |
-| Enhanced chat with Copilot - 20 languages | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [15:06](https://www.youtube.com/watch?v=H5EuObmeF4o&t=906s) |  |
+| Enhanced chat with Copilot - 20 languages | status not stated | [15:06](https://www.youtube.com/watch?v=H5EuObmeF4o&t=906s) |  |
 | Payables agent in more countries | status not stated | [15:40](https://www.youtube.com/watch?v=H5EuObmeF4o&t=940s) |  |
 | VAT enhancements for Checka | status not stated | [16:10](https://www.youtube.com/watch?v=H5EuObmeF4o&t=970s) |  |
 | Contoso coffee demo data for Checka | status not stated | [16:44](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1004s) |  |

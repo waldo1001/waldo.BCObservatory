@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
     - video/egE6UdOfar0
     - video/q-udoJPGUKE
     - video/qZALauRY_So
+    - video/vyQnSxRGJDA
   posts:
     - post/thinkaboutit-be/7920
     - post/thinkaboutit-be/8022
@@ -95,7 +96,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 6
+  video: 7
   blog: 2
   guideline: 0
 bc_forms:
@@ -163,6 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../../videos/egE6UdOfar0.md) (video): "expense agent in business central; receipt processing; expense categorization"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent expense agent; workflow; notification; policy compliance"
+- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowance Calculation; Expense Agent Wizard Configuration"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,13 +99,11 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/2204
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2875
     - post/demiliani-com/12267
     - post/duiliotacconi-com/1717
     - post/duiliotacconi-com/1850
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
     - post/yzhums-com/64898
     - post/yzhums-com/67343
     - post/yzhums-com/76252
@@ -118,7 +116,6 @@ links:
     - change/bcapps/10970
     - change/bcapps/11824
     - change/bcapps/14135
-    - change/bcapps/9168
     - change/bcapps/9712
     - change/bcapps/9850
     - change/bcquality/133
@@ -136,7 +133,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 10
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -192,20 +189,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10970 [Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods](../../../../../changes/bcapps/10970.md) (code change): "Fixed subscription billing to correctly include usage data entries whose charge periods span"
 - [#11824 [29.x][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../../changes/bcapps/11824.md) (code change): "Sales Subscription Line creation now correctly handles cached Sales Line data"
 - [#14135 [Job Queue] Don't cancel the executed task when scheduling the next run](../../../../../changes/bcapps/14135.md) (code change): "System Task ID is still cleared, and other task IDs are still cancelled"
-- [#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin](../../../../../changes/bcapps/9168.md) (code change): "Internal put-away disposition from Quality Inspection now resolves the source bin"
 - [#9712 [master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.](../../../../../changes/bcapps/9712.md) (code change): "Fixed missing email and phone number update when 'Sell-to Contact No.' is validated"
 - [#9850 Fix VariantCode lost during Contract Price Update proposal](../../../../../changes/bcapps/9850.md) (code change): "Variant code from subscription header service object is now correctly passed"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
 - [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../../changes/bcquality/264.md) (code change): "DataTransfer is preferred for equivalent field initialization and copies at any record count"
-- [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "Convert validated staging records to actual Business Central records in a separate procedure"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "Process headers first then lines using the stored keys to establish parent child relationships"
 - [Managing Optional Extensions in Business Central AL Code](../../../../../posts/aardvarklabs-blog/2875.md) (community post): "Use RecordRef and FieldRef with field numbers taken from page inspection"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Rec.Truncate AL method to enable efficient bulk deletion of table rows"
 - [LockTimeoutDuration in AL](../../../../../posts/duiliotacconi-com/1717.md) (community post): "AL code can call Database.LockTimeoutDuration to raise or lower the lock timeout"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "Rec.Truncate is a new AL method based on SQL Server TRUNCATE"
-- [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Bypassing validation can create hidden bugs by skipping trigger logic"
-- [Dynamics 365 Business Central: How to insert a record with a specified SystemId in AL](../../../../../posts/yzhums-com/64898.md) (community post): "insert a record with a specified SystemId in AL using the Insert"
+- [Dynamics 365 Business Central: How to insert a record with a specified SystemId in AL](../../../../../posts/yzhums-com/64898.md) (community post): "insert a record with a specified SystemId in AL using the Insert(Boolean, Boolean) method"
 - [Business Central 2025 wave 2 (BC27): Truncating table data with new AL method (procedure Truncate)](../../../../../posts/yzhums-com/67343.md) (community post): "Rec.Truncate AL method for efficiently deleting large volumes"
 - [Business Central 2026 release wave 2 (BC29): Check records for uncommitted changes (Added the IsDirty property to the Record API)](../../../../../posts/yzhums-com/76252.md) (community post): "IsDirty property to check whether a record instance has uncommitted changes"
 

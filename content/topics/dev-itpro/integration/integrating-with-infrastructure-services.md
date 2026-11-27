@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,8 +107,7 @@ links:
   topics:
     - topic/dev-itpro/integration
   localizations: []
-  videos:
-    - video/C5OdiYfxozc
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -123,7 +122,7 @@ children: []
 coverage:
   learn: 7
   code: 26
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -210,7 +209,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
 - [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet Http Web Request Mgt to native HttpClient"
-- [Going Stargazing with the Business Central Observatory](../../../videos/C5OdiYfxozc.md) (video): "MCP server for BC Observatory; Search functionality for BC concepts"
 
 ## Business Central pages and reports
 

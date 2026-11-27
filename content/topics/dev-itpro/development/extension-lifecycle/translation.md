@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,7 +46,6 @@ links:
   posts:
     - post/gerardorenteria-blog/14381
     - post/nataliekarolak-com/4242
-    - post/yzhums-com/64982
     - post/yzhums-com/76334
     - post/yzhums-com/76355
   guidelines: []
@@ -54,6 +53,7 @@ links:
     - change/bcapps/12062
     - change/bcapps/12097
     - change/bcapps/13333
+    - change/bcapps/9193
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -65,7 +65,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 5
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 58c2c81625df87190e9293aa2b56260d3bd28e99ed7146537c11d48f685008eb
@@ -104,11 +104,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12062 [Master]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12062.md) (code change): "Workflow event labels in the Quality Management app are now properly localized"
 - [#12097 [29.X]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12097.md) (code change): "Event labels for quality workflows now support localization"
 - [#13333 Fix configuration package import label translation collisions](../../../../changes/bcapps/13333.md) (code change): "Configuration package import methods in codeunit 8614"
+- [#9193 Lock Code labels on default Transformation Rule records](../../../../changes/bcapps/9193.md) (code change): "Transformation Rule record codes are now locked to prevent translation"
 - [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present before publishing AL extensions"
 - [Still locking strings on table (field) removal?](../../../../posts/nataliekarolak-com/4242.md) (community post): "removed fields and tables are automatically excluded from translation files"
-- [Dynamics 365 Business Central: How to use Custom Translator (D365 Translation Service support ends)](../../../../posts/yzhums-com/64982.md) (community post): "Custom Translator for translating Business Central solutions"
 - [Business Central 2026 release wave 2 (BC29): Translate objects with the same name in different namespaces (Translations with namespaces)](../../../../posts/yzhums-com/76334.md) (community post): "Translate objects with the same name in different namespaces"
 - [Dynamics 365 Business Central Blog Series: Working with Translations and Languages](../../../../posts/yzhums-com/76355.md) (community post): "Blog series covering translations, multilingual development, and language features"
-- [Translate your app with an LLM in Business Central](../../../../videos/fWBehdiuDpE.md) (video): "Translate your app with an LLM in Business Central; app translation; localization"
+- [Translate your app with an LLM in Business Central](../../../../videos/fWBehdiuDpE.md) (video): "app translation; llm integration; xliff files; localization; developer comments"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

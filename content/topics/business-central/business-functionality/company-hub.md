@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,7 +57,6 @@ links:
   videos: []
   posts:
     - post/yzhums-com/72442
-    - post/yzhums-com/77475
   guidelines: []
   changes:
     - change/bcapps/11741
@@ -71,7 +70,7 @@ coverage:
   learn: 3
   code: 5
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 1151
@@ -119,7 +118,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11741 [MCP] Add company and environment descriptions](../../../changes/bcapps/11741.md) (code change): "Company and environment descriptions are now stored and exposed via APIs"
 - [Dynamics 365 Business Central: Open the same list in a new tab when switching companies](../../../posts/yzhums-com/72442.md) (community post): "open the same list page in a new tab while keeping the original company context"
-- [Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365](../../../posts/yzhums-com/77475.md) (community post): "automatically populate the Company Information page by pulling organization details"
 
 ## Business Central pages and reports
 

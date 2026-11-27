@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -100,11 +100,12 @@ links:
     - post/kauffmann-nl/8332
     - post/yzhums-com/56046
     - post/yzhums-com/64775
+    - post/yzhums-com/64982
     - post/yzhums-com/65391
     - post/yzhums-com/65525
-    - post/yzhums-com/65533
   guidelines: []
   changes:
+    - change/bcapps/10755
     - change/bcapps/11612
     - change/bcapps/11993
     - change/bcapps/12140
@@ -168,6 +169,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "Six callers, including currency exchange rate updates, external accountant invitations, JSON structure retrieval, OData metadata download"
 - [#11612 Multiple runs of email retrieval on the same emails don't persist again](../../../../changes/bcapps/11612.md) (code change): "Email retrieval no longer creates duplicate entries when the same emails are retrieved"
 - [#11993 Enable HTTP requests before Expense Agent setup](../../../../changes/bcapps/11993.md) (code change): "The setup wizard enables HTTP client requests for the Expense Agent extension"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "OAuth2 SMTP authentication now correctly decodes Base64URL tokens"
@@ -185,9 +187,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "flexible OAuth authentication without .NET dependencies or complex function overloading"
 - [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "external APIs like QuickChart can generate QR codes and other barcode types"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "Use OAuth 2.0 with Client Credentials grant type to authenticate with Dataverse APIs before performing any operations."
-- [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests for extensions to allow outbound HTTP calls"
+- [Dynamics 365 Business Central: How to use Custom Translator (D365 Translation Service support ends)](../../../../posts/yzhums-com/64982.md) (community post): "Custom Translator is an Azure AI service that builds customized neural machine translation systems"
+- [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests must be enabled per extension to allow outbound HTTP calls from AL code"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security."
-- [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../../posts/yzhums-com/65533.md) (community post): "Allow HttpClient Requests setting for custom extensions during installation"
 - [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../../../videos/aXM5Kuo3DHM.md) (video): "SFTP client in Business Central; SFTP code unit methods"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "rest client; cookies; exception handling; collectible errors; error behavior"
 

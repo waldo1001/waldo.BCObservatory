@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,8 +66,7 @@ links:
   topics:
     - topic/business-central/development-and-administration
   localizations: []
-  videos:
-    - video/zE6uElxwSMQ
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -79,7 +78,7 @@ children: []
 coverage:
   learn: 5
   code: 1
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -160,12 +159,6 @@ Start with the on-premises to online overview to understand the phases. Then rea
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../objects/page/40063.md), [Page 9807 "User Card"](../../../objects/page/9807.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Carglass Sweden](../../../videos/zE6uElxwSMQ.md) (video): "cloud migration; booking management; customer satisfaction; data access"
 
 ## Business Central pages and reports
 

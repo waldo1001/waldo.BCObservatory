@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 483 objects in BC29-30 (177 pages, 100 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 487 objects in BC29-30 (177 pages, 101 codeunits, 68 tables, 47 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T00:59:15.045Z"
+  at: "2026-11-27T00:54:34.767Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c40f27b7e06fa0dfa59c0bdf2c74c198be52bf0eedde34559bd1528d1f95bb80
+  input_hash: 13435c4210c59ac76da6fb8de44bf05dfadc5bfc7c6b3df805994bda135365a3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app
@@ -254,19 +254,19 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 483
+  objects: 487
   by_type:
     page: 177
-    codeunit: 100
+    codeunit: 101
     table: 68
-    enum: 45
+    enum: 47
     entitlement: 25
     tableextension: 17
     pageextension: 13
     permissionset: 11
     query: 9
+    report: 5
     enumextension: 5
-    report: 4
     interface: 4
     permissionsetextension: 4
     profile: 1
@@ -277,7 +277,7 @@ counts:
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 483 objects in BC29-30 (177 pages, 100 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 487 objects in BC29-30 (177 pages, 101 codeunits, 68 tables, 47 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -294,7 +294,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-483 objects, by type.
+487 objects, by type.
 
 ### Tables (68)
 
@@ -591,7 +591,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7441 | [EA Bank Account Stmt. Lines](../objects/pageextension/7441.md) |  |
 | 7442 | [EA Bank Acc. Ledger Entries](../objects/pageextension/7442.md) |  |
 
-### Reports (4)
+### Reports (5)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -599,8 +599,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6950 | [Expense Report Details](../objects/report/6950.md) |  |
 | 6951 | [Expense Report Cover Page](../objects/report/6951.md) |  |
 | 6952 | [Expense Report Summary Page](../objects/report/6952.md) |  |
+| 6953 | [No Receipt Declaration](../objects/report/6953.md) |  |
 
-### Codeunits (100)
+### Codeunits (101)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -621,6 +622,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6922 | [Expense Agent Entra App Mgt.](../objects/codeunit/6922.md) |  |
 | 6923 | [Expense Agent Quota Impl.](../objects/codeunit/6923.md) |  |
 | 6924 | [Travel Req. Linked Reports](../objects/codeunit/6924.md) |  |
+| 6925 | [No Receipt Declaration Mgt.](../objects/codeunit/6925.md) |  |
 | 6926 | [Expense Activity Log Mgt.](../objects/codeunit/6926.md) |  |
 | 6930 | [Expense Agent MCP Config.](../objects/codeunit/6930.md) |  |
 | 6931 | [Expense Vendor Matching](../objects/codeunit/6931.md) |  |
@@ -719,7 +721,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7441 | [EA Report Card Displays](../objects/query/7441.md) |  |
 | 7442 | [EA Posted Report Card Displays](../objects/query/7442.md) |  |
 
-### Enums (45)
+### Enums (47)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -749,6 +751,8 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6923 | [Expense Activity Initiator](../objects/enum/6923.md) |  |
 | 6924 | [Expense Activity Actor Role](../objects/enum/6924.md) |  |
 | 6925 | [Expense Source](../objects/enum/6925.md) |  |
+| 6926 | [Expense Compliance Status](../objects/enum/6926.md) | Compliance Status |
+| 6927 | [Expense No Receipt Type](../objects/enum/6927.md) | No Receipt Type |
 | 6968 | [Expense Agent Cons. Source](../objects/enum/6968.md) |  |
 | 6978 | [Expense Line Type](../objects/enum/6978.md) |  |
 | 6982 | [Expense Age Handling](../objects/enum/6982.md) |  |

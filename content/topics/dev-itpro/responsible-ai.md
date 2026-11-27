@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,6 +64,7 @@ links:
     - video/MsMGsYqHeI8
     - video/qP0id91bIlA
   posts:
+    - post/freddysblog/https-freddysblog-com-2026-11-24-can-an-ai-model-be-brainwashed--613cab9c3d
     - post/jeremyvyska-com/1289
     - post/thinkaboutit-be/7877
     - post/vjeko-com/https-vjeko-com-2026-07-02-real-programmers-dont-use-pascal--7ddfc51873
@@ -77,7 +78,7 @@ coverage:
   learn: 4
   code: 0
   video: 6
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: f00a53dec064a6cf7d94c56f8e42b2ead38b97d66a09f079b7acc323527b9ceb
@@ -119,6 +120,7 @@ Start with the note that matches the feature you build or use. Partners building
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Can an AI model be brainwashed?](../../posts/freddysblog/https-freddysblog-com-2026-11-24-can-an-ai-model-be-brainwashed--613cab9c3d.md) (community post): "Protecting against AI-based fraud requires traditional internal controls"
 - [Before I begin… Ethics Moment](../../posts/jeremyvyska-com/1289.md) (community post): "ai ethics; responsible ai; data consent; environmental impact"
 - [Quick Tip: GitHub Copilot Billing: Setting the Record Straight](../../posts/thinkaboutit-be/7877.md) (community post): "GitHub Copilot Billing: Setting the Record Straight"
 - [Real Programmers Don’t Use Pascal](../../posts/vjeko-com/https-vjeko-com-2026-07-02-real-programmers-dont-use-pascal--7ddfc51873.md) (community post): "Real Programmers Don't Use Pascal"

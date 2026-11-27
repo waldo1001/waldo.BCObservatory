@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,6 +48,7 @@ links:
     - video/OszitKuf8t0
   posts:
     - post/thinkaboutit-be/7995
+    - post/yzhums-com/63803
     - post/yzhums-com/77046
   guidelines: []
   changes:
@@ -64,7 +65,7 @@ coverage:
   learn: 2
   code: 3
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 9171
@@ -111,6 +112,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11184 [29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions](../../../../changes/bcapps/11184.md) (code change): "User Management now updates Financial Report Audit Log entries when a user is renamed"
 - [#9946 Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)](../../../../changes/bcapps/9946.md) (code change): "Fixed a regression where Retrieve Users silently overwrote all existing users' custom Role Centers"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "SUPER in Business Central does not grant Power BI access"
+- [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "Administrators can disable OneDrive features for all users through the OneDrive Setup"
 - [Dynamics 365 Business Central: How to easily check users and their licenses (User Details)](../../../../posts/yzhums-com/77046.md) (community post): "User Details page provides a quick way to view all users and their assigned licenses"
 - [What's Cooking in Business Central: Limiting the Available Product Languages](../../../../videos/OszitKuf8t0.md) (video): "Limiting the Available Product Languages; language settings; administration; user settings; product languages"
 

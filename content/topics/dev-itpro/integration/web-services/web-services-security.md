@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,7 +88,6 @@ links:
     - post/yzhums-com/65525
   guidelines: []
   changes:
-    - change/bcapps/11016
     - change/bcapps/11171
     - change/bcapps/12133
     - change/bcapps/12194
@@ -158,7 +157,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../../changes/bcapps/11016.md) (code change): "Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations"
 - [#11171 [Security][Hardening] Validate integration URLs stored in setup tables](../../../../changes/bcapps/11171.md) (code change): "Integration endpoint URLs stored in setup tables are now validated"
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "Security fix that stops crafted URLs from reading files on the server"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "disable default credentials by default and require callers to opt in"

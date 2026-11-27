@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -166,6 +166,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Configuration (2026 release wave 1)](../../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; approval workflow; posting groups; mileage expenses; per diem"
 - [Introducing: Expense Management (2026 release wave 1)](../../../../videos/pjML7lXSsd0.md) (video): "Expense approval workflow; Credit card provider integration; Expense management rules"
 - [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../../videos/s3d9vW6tuT8.md) (video): "Travel Request; Travel Request Line Items; Expense Ledger Entries"
-- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowance Calculation; Expense Agent Wizard Configuration"
+- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "wizard configuration; location detection; travel policy setup"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,36 +1,36 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30690,
+  "pages": 30716,
   "shards": [
     {
-      "file": "pages-hubs-dfa585e5b97e.json",
-      "count": 1465,
-      "sha256": "dfa585e5b97edce1e6e6a07acc0cbe21369b60a29c352e78bf306253c728e9ed",
+      "file": "pages-hubs-abb47966c23f.json",
+      "count": 1466,
+      "sha256": "abb47966c23f272659388795b1d0b13e6d7c2f60df36d07d0d2bb1ccf9a88184",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-a7b02af3d899.json",
-      "count": 3395,
-      "sha256": "a7b02af3d899427937d9a59ee320376c55fa7d96ed4108151c54ae37bea11073",
+      "file": "pages-media-109510941faf.json",
+      "count": 3416,
+      "sha256": "109510941fafd39cab7a03ffcc3d0c8f62c352b839267a4aab7c1a43d1f696c9",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-ec9bfefcbe58.json",
-      "count": 14427,
-      "sha256": "ec9bfefcbe58bba7bcd1512a8ec52793e9000501989df86bad3428b97d2656b9",
+      "file": "pages-objects-1-8e16c52169d6.json",
+      "count": 14428,
+      "sha256": "8e16c52169d6dbcafe23411d23c67516d1ab97d7a982e911cd95d2d2d9de1369",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-79407a9259a3.json",
-      "count": 11403,
-      "sha256": "79407a9259a3b677328459034ba0cf3b88d4bcf306417d23f5ada6057abe3d53",
+      "file": "pages-objects-2-dce3c00dcb0a.json",
+      "count": 11406,
+      "sha256": "dce3c00dcb0a191d159be0ab2c386ca1a188e79c1ac9ef3979c25d991eda298e",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-c95e8a976108.json",
+    "file": "learn-ab5fc9cfed6d.json",
     "count": 8057,
-    "sha256": "c95e8a976108144dbef2b1211cecadcf9d4335a4b7b0f6730417bb019d21e09d"
+    "sha256": "ab5fc9cfed6d4580eed812b7b10901845884d14de15ea51dd3982c57dff3c004"
   },
   "learn_facts": {
     "file": "learn-facts-0479aa02e252.json",
@@ -38,15 +38,15 @@
     "sha256": "0479aa02e25261267aface9f0445038c6633dacfb5668ea09721db7a15827fec"
   },
   "by_type": {
-    "app": 97,
-    "change": 1594,
+    "app": 98,
+    "change": 1614,
     "digest": 11,
     "feature": 134,
     "guideline": 485,
     "hotfix": 3,
     "localization": 22,
-    "object": 25830,
-    "post": 1169,
+    "object": 25834,
+    "post": 1170,
     "release": 64,
     "source": 41,
     "topic": 608,

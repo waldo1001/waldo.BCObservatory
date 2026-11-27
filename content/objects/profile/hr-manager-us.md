@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d01610a69845ac668a7ff5d9aece4ac005fe6eeb428dc87346e5daa66423812e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "HR MANAGER" (US) in the US country layer. Introduced in BC29, still in BC30.
 
-US country layer · captioned "Human Resources Manager" · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al) · facts from BC29
+US country layer · captioned "Human Resources Manager" · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al) · facts from BC29
 
 An object of the [US localization](../../localizations/us.md), not part of W1.
 

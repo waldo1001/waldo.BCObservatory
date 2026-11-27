@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing",
-  "input_hash": "778eaee1e571432029908bb719c41e634bb691cfcb0af9a8b05e68303b552d64",
-  "summary": "Purchasing in Business Central covers the purchase process: quotes, orders, invoices, receipts, returns, cancellations, approvals, blanket orders, electronic documents and date calculation. It answers how to record, correct, match and analyze purchases. A subtopic covers purchasing analytics.",
-  "overview": "Purchasing groups the pages for buying goods and services from vendors. The core flow is to request an offer with a purchase quote, convert it to a purchase order, receive items, and record the purchase with a purchase invoice. Supporting pages cover recurring purchase lines, combining receipts or order lines on one invoice, blanket orders, external document numbers, and date calculation from lead times.\n\nOther pages handle exceptions and control: correcting or canceling unpaid posted invoices, processing returns with credit memos or return orders, checking invoice amounts before posting, and setting up approval workflows. Incoming documents are covered by the pages on electronic documents (PEPPOL and OCR) and on matching purchase invoice drafts to purchase orders, including with Payables Agent. The payment practices report and the Purchasing analytics subtopic (Power BI Purchases app, built-in reports, Data Analysis) cover reporting.\n\nStart with \"Overview of tasks to manage to purchase\" for a map of the processes. Then go to \"Record purchases with purchase invoices\" for the basic workflow.",
+  "input_hash": "2f443470d30da49dc5cf3709ae4b4023a6e0a0e4a93e06c3cdb1c4c67d452fdd",
+  "summary": "Purchasing in Business Central: quotes, orders, invoices, receipts, returns, approvals, electronic documents, date calculation, and the purchasing analytics subtopic. It answers how to record, correct, match, approve and analyze vendor purchases.",
+  "overview": "The Purchasing section covers the purchase process from request to payment. You can create a purchase quote to ask a vendor for an offer, convert it to a purchase order, receive goods, and record the vendor invoice. Blanket orders, recurring purchase lines, and creating purchases from sales documents support repeat and demand-driven buying.\nOther pages cover control and correction. You can combine receipts or order lines on one invoice, check invoice amounts before posting, enter external document numbers, and match invoice drafts to orders and receipts (with Payables Agent proposing matches). Unpaid posted invoices can be corrected or canceled, and returns go through credit memos or return orders. Approval workflows, electronic document receipt (PEPPOL, OCR), and the payment practices report round out the area.\nStart with \"Overview of tasks to manage to purchase\" for the map of processes, then \"Record purchases with purchase invoices\" for the core flow. The Purchasing analytics subtopic (43 pages) covers the Power BI Purchases app, built-in reports, and Data Analysis on list pages.",
   "key_points": [
-    "Purchase quotes request offers from vendors and convert to purchase orders. A quote can be created for a contact with no vendor record, and the vendor is then created automatically from the contact.",
-    "Unpaid posted purchase invoices can be corrected or canceled with the Correct or Cancel buttons. The system posts a corrective credit memo and keeps an audit trail.",
-    "Returns and cancellations use purchase credit memos or purchase return orders. Exact Cost Reversing keeps inventory valuation correct.",
-    "Get Receipt Lines and Get Order Lines combine several receipts or order lines on one invoice.",
-    "Standard recurring purchase lines can be assigned to vendors and inserted manually, automatically, or with Always Ask.",
-    "Order dates are calculated from the requested receipt date and lead times taken from item, vendor and stockkeeping unit cards.",
-    "Amount checks on purchase invoices and credit memos validate document totals including VAT against the purchase lines (2025 release wave 1).",
-    "Purchase invoice drafts can be matched to purchase orders and receipts, with Payables Agent proposing matches. The electronic documents page covers PEPPOL and OCR for versions before 2023 release wave 2."
+    "Posted unpaid purchase invoices can be fixed with Correct or Cancel on the Posted Purchase Invoice page; the system posts a corrective credit memo and keeps an audit trail.",
+    "Purchase quotes can be converted to orders, and quotes can be made for contacts with no vendor record, which creates a vendor from a template based on territory and country/region.",
+    "Get Receipt Lines and Get Order Lines combine several receipts or order lines on one invoice, with Receipt on Invoice support.",
+    "Order date is calculated from the requested receipt date and lead times, using item, vendor, and stockkeeping unit cards.",
+    "Returns and cancellations use purchase credit memos or return orders, with Exact Cost Reversing to keep inventory valuation correct.",
+    "Purchase invoice drafts can be matched to purchase orders and receipts, with checks on quantity, price differences, unit of measure, and item tracking.",
+    "Receiving PEPPOL or OCR electronic documents is described for versions before 2023 release wave 2; amount checking on invoices and credit memos is listed for 2025 release wave 1.",
+    "Merge Duplicate needs the MERGE DUPLICATES permission set; contact sync to Outlook is listed for 2026 release wave 1 (v28)."
   ],
   "members_used": 19,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-11-21T01:00:38.466Z",
+  "at": "2026-11-27T01:04:42.777Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.025587
+    "cost_usd": 0.025141
   }
 }

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:12:44.798Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-27T01:00:57.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -249,7 +249,8 @@ links:
     - object/table/18
     - object/page/21
     - object/page/22
-  features: []
+  features:
+    - feature/573359
   topics: []
   localizations: []
   videos: []
@@ -400,10 +401,12 @@ features:
     verified: true
     status_source: video
   - name: Namespaces in AL language
-    status: unclear
+    status: ga
     t: 295
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573359"
   - name: Using directives for namespace imports
     status: unclear
     t: 507
@@ -815,7 +818,7 @@ It then covers AL Doc, which turns XML documentation comments and app structure 
 | AL language extension pre-release versions | status not stated | [1:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=87s) |  |
 | AL language extension for Linux | preview, demoed | [1:56](https://www.youtube.com/watch?v=TY82NR2hGEg&t=116s) | "One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux." ([1:56](https://www.youtube.com/watch?v=TY82NR2hGEg&t=116s)) |
 | DevOps syntax highlighting | preview | [4:31](https://www.youtube.com/watch?v=TY82NR2hGEg&t=271s) | "Another thing we added as a preview is syntax highlighting for DevOps." ([4:31](https://www.youtube.com/watch?v=TY82NR2hGEg&t=271s)) |
-| Namespaces in AL language | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=TY82NR2hGEg&t=295s) |  |
+| Namespaces in AL language | generally available (roadmap [Translate objects with the same name in different namespaces](../features/573359.md)), demoed | [4:55](https://www.youtube.com/watch?v=TY82NR2hGEg&t=295s) |  |
 | Using directives for namespace imports | status not stated, demoed | [8:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=507s) |  |
 | Fully qualified object names | status not stated, demoed | [9:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=567s) |  |
 | Namespace code actions | status not stated, demoed | [8:27](https://www.youtube.com/watch?v=TY82NR2hGEg&t=507s) |  |
@@ -864,6 +867,8 @@ It then covers AL Doc, which turns XML documentation comments and app structure 
 | Enhanced developer resources and documentation | status not stated | [1:06:55](https://www.youtube.com/watch?v=TY82NR2hGEg&t=4015s) |  |
 | Performance tool kit | status not stated | [1:07:06](https://www.youtube.com/watch?v=TY82NR2hGEg&t=4026s) |  |
 | BC Icons overview | status not stated | [1:07:17](https://www.youtube.com/watch?v=TY82NR2hGEg&t=4037s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

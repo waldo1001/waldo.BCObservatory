@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12066 Bugs/remove asm inv mfg clean27 tags for wave2 2026](../../../../changes/bcapps/12066.md) (code change): "Removes the obsolete code that was kept under CLEAN27 conditional compilation"
 - [#12187 Restore parent table relations for Comment Line configuration imports](../../../../changes/bcapps/12187.md) (code change): "Restored twelve conditional table relations for Comment Line records during configuration"
 - [#13207 Skip missing and removed tables when loading record sets](../../../../changes/bcapps/13207.md) (code change): "Record Set Management now gracefully skips table references that have been removed"
-- [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "Obsolete MLLM Payables Agent rollout scaffold as feature is fully rolled out"
+- [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "MLLM processing is now the permanent behavior for the Payables Agent feature"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../posts/yzhums-com/65999.md) (community post): "When objects are marked as ObsoleteState = Removed during version updates, associated permissions must be cleaned up"
 - [Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)](../../../../posts/yzhums-com/77505.md) (community post): "must copy the page source code into their own extensions before upgrading"
 

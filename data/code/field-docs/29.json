@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "30498f50fecbd814d09f7d6e125190fc95d6c7f2",
+      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
       "4",
-      "30498f50fecbd814d09f7d6e125190fc95d6c7f2",
+      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 19055,
-    "bound": 12966,
+    "tooltips": 18981,
+    "bound": 12890,
     "unparsed": 2998,
-    "unmatched": 3091,
-    "tables": 1096,
-    "fields": 9105
+    "unmatched": 3093,
+    "tables": 1097,
+    "fields": 9068
   },
   "tables": {
     "table/4": {
@@ -29231,26 +29231,6 @@
         "page": "page/6988",
         "control": "Amount (LCY)"
       },
-      "Billable": {
-        "tooltip": "Specifies whether the expense is billable to a customer.",
-        "page": "page/6988",
-        "control": "Billable"
-      },
-      "Billable to Customer": {
-        "tooltip": "Specifies the customer to bill for this expense. Available when Billable is turned on.",
-        "page": "page/6988",
-        "control": "Billable to Customer"
-      },
-      "Created Date-Time": {
-        "tooltip": "Specifies the date and time the expense was created.",
-        "page": "page/6988",
-        "control": "Created Date-Time"
-      },
-      "Credit Card Feed No.": {
-        "tooltip": "Specifies the reference to the imported credit card transaction. Set by the system when matched to a card feed.",
-        "page": "page/6988",
-        "control": "Credit Card Feed No."
-      },
       "Currency Code": {
         "tooltip": "Specifies the Currency of the Amount.",
         "page": "page/6988",
@@ -29258,18 +29238,8 @@
       },
       "Description": {
         "tooltip": "Specifies a short description of the expense.",
-        "page": "page/6988",
+        "page": "page/6904",
         "control": "Description"
-      },
-      "Ending Date and Time": {
-        "tooltip": "Specifies the end of the travel period for this expense. Editable for Per Diem expenses.",
-        "page": "page/6988",
-        "control": "Ending Date and Time"
-      },
-      "Ending Point": {
-        "tooltip": "Specifies the ending location for mileage. Available for Mileage expenses.",
-        "page": "page/6988",
-        "control": "Ending Point"
       },
       "Expense Category": {
         "tooltip": "Specifies the category assigned to this expense.",
@@ -29281,26 +29251,6 @@
         "page": "page/6988",
         "control": "Expense Date"
       },
-      "Expense Ext. Doc. No.": {
-        "tooltip": "Specifies the receipt number or external reference on the document.",
-        "page": "page/6988",
-        "control": "Expense Ext. Doc. No."
-      },
-      "Expense Location": {
-        "tooltip": "Specifies the travel location for the expense. Available for Per Diem expenses.",
-        "page": "page/6988",
-        "control": "Expense Location"
-      },
-      "Expense Report No.": {
-        "tooltip": "Specifies the expense report that includes this expense. Set when added to a report.",
-        "page": "page/6988",
-        "control": "Expense Report No."
-      },
-      "Expense Time": {
-        "tooltip": "Specifies the time the expense occurred.",
-        "page": "page/6988",
-        "control": "Expense Time"
-      },
       "Expense User No.": {
         "tooltip": "Specifies the expense user who incurred the expense.",
         "page": "page/6988",
@@ -29311,40 +29261,20 @@
         "page": "page/6988",
         "control": "Expense Vendor No."
       },
-      "Job No.": {
-        "tooltip": "Specifies the job to assign this expense to.",
-        "page": "page/6988",
-        "control": "Job No."
-      },
-      "Job Task No.": {
-        "tooltip": "Specifies the job task to assign this expense to.",
-        "page": "page/6988",
-        "control": "Job Task No."
-      },
-      "Justification": {
-        "tooltip": "Specifies the justification for the expense per policy.",
-        "page": "page/6988",
-        "control": "Justification"
-      },
       "Merchant Name": {
         "tooltip": "Specifies the vendor or merchant for this expense.",
         "page": "page/6988",
         "control": "Merchant Name"
       },
       "Merchant Registration No.": {
-        "tooltip": "Specifies the vendor or merchant registration number for this expense.",
-        "page": "page/6988",
+        "tooltip": "Specifies the registration number of the merchant, as extracted from the receipt.",
+        "page": "page/7090",
         "control": "Merchant Registration No."
       },
       "Merchant VAT Registration No.": {
-        "tooltip": "Specifies the vendor or merchant VAT registration number for this expense.",
-        "page": "page/6988",
+        "tooltip": "Specifies the VAT registration number of the merchant, as extracted from the receipt.",
+        "page": "page/7090",
         "control": "Merchant VAT Registration No."
-      },
-      "Mileage": {
-        "tooltip": "Specifies the distance traveled for mileage reimbursement. Available for Mileage expenses.",
-        "page": "page/6988",
-        "control": "Mileage"
       },
       "No.": {
         "tooltip": "Specifies a unique number that identifies the expense.",
@@ -29361,21 +29291,6 @@
         "page": "page/6988",
         "control": "Payment Method Code"
       },
-      "Refundable": {
-        "tooltip": "Specifies whether the expense is reimbursable.",
-        "page": "page/6988",
-        "control": "Refundable"
-      },
-      "Refundable Amount": {
-        "tooltip": "Specifies the amount eligible for refund based on policy.",
-        "page": "page/6988",
-        "control": "Refundable Amount"
-      },
-      "Refundable Amount (LCY)": {
-        "tooltip": "Specifies the refundable amount in the local currency.",
-        "page": "page/6988",
-        "control": "Refundable Amount (LCY)"
-      },
       "Reimbursable Amount": {
         "tooltip": "Specifies the amount eligible for reimbursement based on policy.",
         "page": "page/6988",
@@ -29383,23 +29298,13 @@
       },
       "Reimbursable Amount (LCY)": {
         "tooltip": "Specifies the reimbursable amount in the local currency.",
-        "page": "page/6988",
+        "page": "page/6904",
         "control": "Reimbursable Amount (LCY)"
-      },
-      "Reimbursement Type": {
-        "tooltip": "Specifies the type of reimbursement for this expense.",
-        "page": "page/6988",
-        "control": "Reimbursement Type"
       },
       "Round Trip": {
         "tooltip": "Specifies whether the mileage expense is a round trip.",
         "page": "page/6927",
         "control": "roundTrip"
-      },
-      "Rule Violations": {
-        "tooltip": "Specifies whether any rule violations exist for this expense.",
-        "page": "page/6988",
-        "control": "Rule Violations"
       },
       "Shortcut Dimension 1 Code": {
         "tooltip": "Specifies Shortcut Dimension 1 for this expense.",
@@ -29416,25 +29321,10 @@
         "page": "page/6927",
         "control": "source"
       },
-      "Starting Date and Time": {
-        "tooltip": "Specifies the start of the travel period for this expense. Editable for Per Diem expenses.",
-        "page": "page/6988",
-        "control": "Starting Date and Time"
-      },
-      "Starting Point": {
-        "tooltip": "Specifies the starting location for mileage. Available for Mileage expenses.",
-        "page": "page/6988",
-        "control": "Starting Point"
-      },
       "Status": {
         "tooltip": "Specifies the current status of the expense.",
-        "page": "page/6988",
+        "page": "page/7090",
         "control": "Status"
-      },
-      "Unit of Measure Code": {
-        "tooltip": "Specifies the unit of measure for mileage (for example, miles or kilometers). Available for Mileage expenses.",
-        "page": "page/6988",
-        "control": "Unit of Measure Code"
       },
       "Vehicle Type": {
         "tooltip": "Specifies the vehicle type used for this mileage expense. The matching vehicle-specific mileage rate is applied, or the generic rate when none exists. Available for Mileage expenses.",
@@ -29740,11 +29630,6 @@
         "page": "page/6911",
         "control": "Account Type"
       },
-      "Additional Information": {
-        "tooltip": "Specifies additional information for the expense line.",
-        "page": "page/6999",
-        "control": "Additional Information"
-      },
       "Amount": {
         "tooltip": "Specifies the expense amount. Changing the amount recalculates totals.",
         "page": "page/6911",
@@ -29760,11 +29645,6 @@
         "page": "page/6911",
         "control": "Amount without VAT"
       },
-      "Amount without VAT (LCY)": {
-        "tooltip": "Specifies the value of the Amount without VAT (LCY) field.",
-        "page": "page/6999",
-        "control": "Amount without VAT (LCY)"
-      },
       "Billable": {
         "tooltip": "Specifies whether the expense is billable.",
         "page": "page/6961",
@@ -29779,16 +29659,6 @@
         "tooltip": "Specifies a brief description of the expense line.",
         "page": "page/6911",
         "control": "Description"
-      },
-      "Ending Date and Time": {
-        "tooltip": "Specifies the end date and time used for per diem calculations. Available when the expense requires per diem details.",
-        "page": "page/6999",
-        "control": "Ending Date and Time"
-      },
-      "Ending Point": {
-        "tooltip": "Specifies the ending point for mileage calculations. Available when the expense requires mileage details.",
-        "page": "page/6999",
-        "control": "Ending Point"
       },
       "Expense Category": {
         "tooltip": "Specifies the expense category. Category determines required details such as per diem or mileage.",
@@ -29815,11 +29685,6 @@
         "page": "page/6911",
         "control": "Expense Location"
       },
-      "Expense No.": {
-        "tooltip": "Specifies the expense report number this line belongs to.",
-        "page": "page/6999",
-        "control": "Expense No."
-      },
       "Job No.": {
         "tooltip": "Specifies the value of the Project No. field.",
         "page": "page/6961",
@@ -29829,11 +29694,6 @@
         "tooltip": "Specifies the value of the Project Task No. field.",
         "page": "page/6961",
         "control": "Job Task No."
-      },
-      "Justification": {
-        "tooltip": "Specifies the reason for the expense. Helps approvers understand why the expense was incurred.",
-        "page": "page/6999",
-        "control": "Justification"
       },
       "Merchant Name": {
         "tooltip": "Specifies the merchant name associated with the expense report.",
@@ -29850,11 +29710,6 @@
         "page": "page/6961",
         "control": "Merchant VAT Registration No."
       },
-      "Mileage": {
-        "tooltip": "Specifies the distance traveled for mileage reimbursement. Available when the expense requires mileage details.",
-        "page": "page/6999",
-        "control": "Mileage"
-      },
       "Non-Refundable Amount": {
         "tooltip": "Specifies any reduction applied to the amount, for example discounts or contributions.",
         "page": "page/6911",
@@ -29864,11 +29719,6 @@
         "tooltip": "Specifies any amount reduction in local currency.",
         "page": "page/6911",
         "control": "Non-Refundable Amount (LCY)"
-      },
-      "Payment Method Code": {
-        "tooltip": "Specifies the payment method used for this expense, for example corporate card or cash.",
-        "page": "page/6999",
-        "control": "Payment Method Code"
       },
       "Posted Date": {
         "tooltip": "Specifies the date when the line was posted.",
@@ -29885,21 +29735,6 @@
         "page": "page/6961",
         "control": "Purchase Invoice"
       },
-      "Refundable": {
-        "tooltip": "Specifies the value of the Refundable field.",
-        "page": "page/6999",
-        "control": "Refundable"
-      },
-      "Refundable Amount": {
-        "tooltip": "Specifies the portion of the expense that will be refundable. Calculated from amount, VAT, and reductions.",
-        "page": "page/6999",
-        "control": "Refundable Amount"
-      },
-      "Refundable Amount (LCY)": {
-        "tooltip": "Specifies the portion of the expense that will be refundable in local currency. Calculated from amount, VAT, and reductions.",
-        "page": "page/6999",
-        "control": "Refundable Amount (LCY)"
-      },
       "Reimbursable Amount": {
         "tooltip": "Specifies the portion of the expense that will be reimbursed to the employee.",
         "page": "page/6911",
@@ -29910,20 +29745,10 @@
         "page": "page/6911",
         "control": "Reimbursable Amount (LCY)"
       },
-      "Reimbursement Type": {
-        "tooltip": "Specifies how the expense is reimbursed, for example cash or payroll.",
-        "page": "page/6999",
-        "control": "Reimbursement Type"
-      },
       "Round Trip": {
         "tooltip": "Specifies whether the mileage expense is a round trip.",
         "page": "page/6929",
         "control": "roundTrip"
-      },
-      "Rule Violations": {
-        "tooltip": "Specifies if there are any rule violations for the expense line.",
-        "page": "page/6999",
-        "control": "Rule Violations"
       },
       "Shortcut Dimension 1 Code": {
         "tooltip": "Specifies dimension 1 used for analytics and posting.",
@@ -29934,16 +29759,6 @@
         "tooltip": "Specifies dimension 2 used for analytics and posting.",
         "page": "page/6911",
         "control": "Shortcut Dimension 2 Code"
-      },
-      "Starting Date and Time": {
-        "tooltip": "Specifies the start date and time used for per diem calculations. Available when the expense requires per diem details.",
-        "page": "page/6999",
-        "control": "Starting Date and Time"
-      },
-      "Starting Point": {
-        "tooltip": "Specifies the starting point for mileage calculations. Available when the expense requires mileage details.",
-        "page": "page/6999",
-        "control": "Starting Point"
       },
       "Unit of Measure Code": {
         "tooltip": "Specifies the unit of measure for the expense amount, for example units or hours.",
@@ -29964,11 +29779,6 @@
         "tooltip": "Specifies the VAT business posting group used when posting VAT for this expense.",
         "page": "page/6911",
         "control": "VAT Bus. Posting Group"
-      },
-      "VAT Liable": {
-        "tooltip": "Specifies the value of the VAT Liable field.",
-        "page": "page/6999",
-        "control": "VAT Liable"
       },
       "VAT Prod. Posting Group": {
         "tooltip": "Specifies the VAT product posting group used when posting VAT for this expense.",
@@ -30712,18 +30522,18 @@
     },
     "table/6921": {
       "Attachment Enforcement": {
-        "tooltip": "Specifies whether an attachment is required for expenses in this category.",
-        "page": "page/6945",
+        "tooltip": "Specifies how strictly attachments are enforced for this category.",
+        "page": "page/6966",
         "control": "Attachment Enforcement"
       },
       "Code": {
-        "tooltip": "Specifies the code for expense category.",
-        "page": "page/6945",
+        "tooltip": "Specifies the category code.",
+        "page": "page/6946",
         "control": "Code"
       },
       "Default Payment Method": {
-        "tooltip": "Specifies the default payment method applied to expenses in this category.",
-        "page": "page/6945",
+        "tooltip": "Specifies the default payment method for this category.",
+        "page": "page/6946",
         "control": "Default Payment Method"
       },
       "Default VAT %": {
@@ -30738,48 +30548,33 @@
       },
       "Description": {
         "tooltip": "Specifies the skill for the agent usage that identifies expense category and its purpose or usage.",
-        "page": "page/6945",
+        "page": "page/6946",
         "control": "Description"
       },
       "Expense Detail Required": {
-        "tooltip": "Specifies additional details required for expenses in the category, such as itemization, per-diem, or participants.",
-        "page": "page/6945",
+        "tooltip": "Specifies the detail required for expenses, such as itemization or participants.",
+        "page": "page/6946",
         "control": "Expense Detail Required"
       },
       "Expense Group": {
-        "tooltip": "Specifies the expense group for classification.",
-        "page": "page/6945",
+        "tooltip": "Specifies the expense group the category belongs to.",
+        "page": "page/6966",
         "control": "Expense Group"
       },
-      "Inactive": {
-        "tooltip": "Specifies whether the category is inactive. If inactive, the category can't be used on new expenses.",
-        "page": "page/6945",
-        "control": "Inactive"
-      },
-      "Posting Description": {
-        "tooltip": "Specifies the description used for posting to the general ledger.",
-        "page": "page/6945",
-        "control": "Posting Description"
-      },
       "Posting Group": {
-        "tooltip": "Specifies the posting group on the expense category that is used for accounting. The posting group links expense transactions to general ledger accounts.",
-        "page": "page/6945",
+        "tooltip": "Specifies the posting group used for accounting.",
+        "page": "page/6946",
         "control": "Posting Group"
       },
       "Prepayment-Cash Advance": {
-        "tooltip": "Specifies whether expenses in this category require prepayment or cash advance.",
-        "page": "page/6945",
-        "control": "Prepayment - Cash Advance"
+        "tooltip": "Specifies whether this category represents a prepayment or cash advance.",
+        "page": "page/6966",
+        "control": "Prepayment-Cash Advance"
       },
       "Refundable": {
-        "tooltip": "Specifies whether expenses in this category are refundable by default. This can be changed on the expense report.",
-        "page": "page/6945",
+        "tooltip": "Specifies whether expenses in this category are refundable.",
+        "page": "page/6946",
         "control": "Refundable"
-      },
-      "Reimbursement Type": {
-        "tooltip": "Specifies how expenses in this category are reimbursed.",
-        "page": "page/6945",
-        "control": "Reimbursement Type"
       },
       "VAT Prod. Posting Group": {
         "tooltip": "Specifies the VAT product posting group for this category.",
@@ -40530,6 +40325,28 @@
         "tooltip": "Specifies a prefix that will indicate that the field is from the related entity when you are setting up the template. For example, if you enter SALES, the field names are prefixed with SALES_. The prefix must be unique.",
         "page": "page/9987",
         "control": "Related Table Code"
+      }
+    },
+    "table/13687": {
+      "File Name": {
+        "tooltip": "Specifies the name with which the file was uploaded.",
+        "page": "page/13688",
+        "control": "SAFTFileName"
+      },
+      "File No.": {
+        "tooltip": "Specifies the number of the file.",
+        "page": "page/13688",
+        "control": "No."
+      },
+      "File Size": {
+        "tooltip": "Specifies the size of the file.",
+        "page": "page/13688",
+        "control": "SAFTFileSize"
+      },
+      "Upload Date": {
+        "tooltip": "Specifies the date on which the file was uploaded.",
+        "page": "page/13688",
+        "control": "FileUploadDate"
       }
     },
     "table/20100": {

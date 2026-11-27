@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales
 type: topic
 title: Sales
-summary: Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.
+summary: "Sales in Business Central covers the order-to-cash process: quotes, orders, invoices, shipments, returns, prepayments, customer setup, and delivery dates. It also covers two subtopics, sales analytics and subscription billing. It answers how-to and setup questions for each sales task."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-11-23T00:57:43.266Z"
+  at: "2026-11-27T01:05:12.073Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 34a941e35577b853260fe6bc3b20b62a59292f4d7a4d2870fac19a045c76036f
+  input_hash: 612410239be2673d8f19cf910f95429bfa3e187209f3e7ff21ddc069f03d483d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
@@ -479,6 +479,7 @@ links:
     - video/TSLXzbeyE7Y
     - video/VjYMhjjc3uw
     - video/YSDfDjrMUb0
+    - video/zE6uElxwSMQ
   posts:
     - post/aardvarklabs-blog/2965
     - post/aardvarklabs-blog/3704
@@ -518,7 +519,6 @@ links:
     - change/bcapps/11023
     - change/bcapps/11157
     - change/bcapps/11304
-    - change/bcapps/11483
     - change/bcapps/11562
     - change/bcapps/11667
     - change/bcapps/12145
@@ -536,6 +536,8 @@ links:
     - change/bcapps/13987
     - change/bcapps/14070
     - change/bcapps/14283
+    - change/bcapps/14413
+    - change/bcapps/14490
     - change/bcapps/8914
     - change/bcapps/9096
     - change/bcapps/9118
@@ -565,7 +567,7 @@ children:
 coverage:
   learn: 133
   code: 138
-  video: 8
+  video: 9
   blog: 21
   guideline: 0
 bc_forms:
@@ -721,28 +723,28 @@ narrative: generated
 
 # Sales
 
-> Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.
+> Sales in Business Central covers the order-to-cash process: quotes, orders, invoices, shipments, returns, prepayments, customer setup, and delivery dates. It also covers two subtopics, sales analytics and subscription billing. It answers how-to and setup questions for each sales task.
 
 Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Sales section describes the day-to-day sales workflow. Pages cover registering customers with a Customer Card, making quotes, creating sales orders and invoices, and posting them. They also cover handling shipments, returns and corrections, and tracking packages. Supporting pages cover merging duplicate records, entering external document numbers, and saving contacts to Outlook.
+The Sales section describes how to sell and invoice in Business Central. It starts with registering customers through the Customer Card and merging duplicates. It then covers sales quotes, orders, blanket orders, and invoices, and posting, correcting, and canceling them. An overview page lists the main tasks, from quotes through invoicing and customer management, and is a good place to start.
 
-Order variants have their own pages: partial shipments, drop shipments, special orders, blanket orders, prepayments, and standard recurring sales lines. Other pages explain delivery date calculation and order promising (Available-to-Promise and Capable-to-Promise). A further page covers printing inventory picking lists for companies without warehouse management.
+Several pages cover fulfillment variants: partial shipments, drop shipments, special orders, combining shipments on one invoice, picking lists from sales orders, and package tracking. Delivery date calculation and order promising cover how dates are worked out. Returns are handled with sales credit memos or sales return orders. Further pages cover prepayments, standard recurring sales lines, external document numbers, a sales campaign walkthrough, and saving contacts to Outlook.
 
-Two subtopics go deeper. Sales analytics compares the ways to analyze sales data, from the Power BI Sales app to built-in reports and ad-hoc Data Analysis. Subscription billing covers recurring invoicing for contracts. Start with "Overview of tasks to manage sales" to see the full flow, then open the page for the task you need.
+Two subtopics go deeper. Sales analytics compares the ways to analyze sales data, such as the Power BI Sales app, built-in reports, and Data Analysis on list pages. Subscription billing covers recurring invoicing for contracted services, from contracts to usage-based billing.
 
 ## Key points
 
-- Sales documents include quotes, orders, invoices, blanket orders, and credit memos. Quotes can be converted to orders or invoices, and blanket orders to sales orders.
-- Posting supports post, post and send, post batch, preview posting, and a test report. Posting creates ledger entries.
-- Unpaid posted invoices can be canceled or corrected. The Cancel action creates a corrective credit memo automatically. This applies to invoices that are unpaid and not fully shipped.
-- Drop shipments and special orders link a sales order to a purchase order through a purchasing code. The purchase order is created via the requisition worksheet or the Create Purchase Orders action.
-- Partial shipments are controlled by the Shipping Advice field on the Customer Card. Several shipments can be combined on one invoice manually or with the Combine Shipments batch job.
+- Quotes can be converted to sales orders or invoices. Blanket orders cover long-term agreements delivered in small shipments over time.
+- Posting options include post, post and send, post batch, preview posting, and a test report. Posting creates ledger entries.
+- Unpaid posted invoices can be canceled or corrected. The Cancel action automatically creates a corrective credit memo.
 - Returns use sales credit memos or sales return orders. Return orders support Copy Document, Get Posted Document Lines to Reverse, and Exact Cost Reversing.
-- Order promising and delivery date calculation use shipping time and warehouse handling time to compute realistic dates. They can also warn of stock-outs.
-- Merge Duplicate for customers, vendors, and contacts needs the MERGE DUPLICATES permission set. Outlook contact sync is described for 2026 release wave 1 (version 28).
+- Drop shipments and special orders link a sales order to a purchase order through a purchasing code and the requisition worksheet.
+- The Shipping Advice field on the Customer Card controls whether partial shipments are accepted. Shipments can later be combined on one invoice by hand or with a batch job.
+- Order promising uses Available-to-Promise and Capable-to-Promise. Delivery date calculation uses shipping time and warehouse handling time.
+- Contact sync to Outlook is described for 2026 release wave 1 (v28), with optional two-way synchronization.
 
 ## Subtopics
 
@@ -815,7 +817,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11023 BE's PEPPOL "escompte" compensation](../../../changes/bcapps/11023.md) (code change): "Belgian PEPPOL invoices and credit memos keep the payment discount AllowanceCharge"
 - [#11157 [main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../changes/bcapps/11157.md) (code change): "Assemble-to-Order sales lines from incorrectly blocking the shipment of unrelated"
 - [#11304 [Master]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/11304.md) (code change): "Validation of the item number field on sales lines now prevents duplicate production"
-- [#11483 [E-Documents Core] - Linkage & Traceability](../../../changes/bcapps/11483.md) (code change): "E-Document action wired into 30+ document list and card pages across sales"
 - [#11562 [Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit](../../../changes/bcapps/11562.md) (code change): "Sales Line Discount % field now consistently accepts the same number of decimal places"
 - [#11667 Fix quantity fields on Sales Return Order Archive](../../../changes/bcapps/11667.md) (code change): "Sales Return Order Archive pages now display return-receipt quantities instead of shipment"
 - [#12145 [Main]-Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12145.md) (code change): "Fixed an error on sales orders when assigning item charges by amount when some item lines have no price"
@@ -833,6 +834,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13987 [Main][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No](../../../changes/bcapps/13987.md) (code change): "VAT registration number validation error in Sales Orders where the system incorrectly validated"
 - [#14070 [29.x][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.](../../../changes/bcapps/14070.md) (code change): "Sales Header VAT Registration No. validation now checks the number entered on the document"
 - [#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted](../../../changes/bcapps/14283.md) (code change): "Prepmt. Line Amount no longer drifts below Prepmt. Amt. Inv. after partial invoices"
+- [#14413 [29.x][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)](../../../changes/bcapps/14413.md) (code change): "Posting a sales credit memo with a different unit of measure now correctly converts"
+- [#14490 [Master]-Repeated partial return posting reuses first credit memo and corrupts original order quantities](../../../changes/bcapps/14490.md) (code change): "repeated partial return postings that were incorrectly reusing the first credit memo"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"
@@ -880,6 +883,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "sales data analysis; customer insights; Copilot recommendations for sales"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)](../../../videos/VjYMhjjc3uw.md) (video): "Order Synchronization with Location Mapping; Push Business Central Customers to Shopify"
 - [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "order management; returns processing; Return order processing from Shopify refunds"
+- [Carglass Sweden](../../../videos/zE6uElxwSMQ.md) (video): "Automated technician scheduling with booking system; Real-time booking visibility"
 
 ## Business Central pages and reports
 

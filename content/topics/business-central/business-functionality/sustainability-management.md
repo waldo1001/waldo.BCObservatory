@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -380,7 +380,6 @@ links:
     - change/bcapps/10051
     - change/bcapps/10541
     - change/bcapps/10613
-    - change/bcapps/12053
     - change/bcapps/12466
     - change/bcapps/9478
     - change/bcapps/9613
@@ -518,7 +517,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10051 Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers](../../../changes/bcapps/10051.md) (code change): "Preview posting collects sustainability ledger entries in memory"
 - [#10541 [Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting](../../../changes/bcapps/10541.md) (code change): "Collect function excludes previously collected entries based on the relation table"
 - [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "Reversing a G/L transaction now also reverses the sustainability ledger"
-- [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../changes/bcapps/12053.md) (code change): "Removes code marked for cleanup in version 27 CLEAN27 from the Sustainability"
 - [#12466 Hide Navigate and Reverse Transaction on sustainability posting preview](../../../changes/bcapps/12466.md) (code change): "Hide Navigate and Reverse Transaction on sustainability posting preview"
 - [#9478 feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries](../../../changes/bcapps/9478.md) (code change): "Users can now reverse posted Sustainability Ledger Entries manually from the page"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../changes/bcapps/9613.md) (code change): "Sustainability module fixes for carbon tracking with item charges"

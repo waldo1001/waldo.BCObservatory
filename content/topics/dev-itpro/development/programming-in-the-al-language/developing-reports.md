@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -341,7 +341,6 @@ links:
   videos:
     - video/eUkx_VCcyoU
     - video/M1S2_bgLd3Q
-    - video/TY82NR2hGEg
   posts:
     - post/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
@@ -359,6 +358,7 @@ links:
     - post/yzhums-com/76319
   guidelines: []
   changes:
+    - change/bcapps/10270
     - change/bcapps/10404
     - change/bcapps/10489
     - change/bcapps/11137
@@ -385,7 +385,7 @@ children:
 coverage:
   learn: 54
   code: 13
-  video: 3
+  video: 2
   blog: 14
   guideline: 0
 bc_forms:
@@ -474,6 +474,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10270 [Quality Management] Repair and improve XML documentation of procedures](../../../../changes/bcapps/10270.md) (code change): "XML documentation for Quality Management procedures has been repaired and improved"
 - [#10404 Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes](../../../../changes/bcapps/10404.md) (code change): "Word layout was added to the Spend Request Document report"
 - [#10489 MSlenejennum/647452/new header and footer layouts and report themes](../../../../changes/bcapps/10489.md) (code change): "New composite report parts management codeunit seeds 11 header/footer designs and 3 themes"
 - [#11137 Composite Report Parts: seed via a report extension instead of install/upgrade code](../../../../changes/bcapps/11137.md) (code change): "Report extension replaces SeedPart-based install/upgrade code for seeding"
@@ -500,7 +501,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Use cross-platform report layout paths (forward slashes or backslashes)](../../../../posts/yzhums-com/76319.md) (community post): "Report layout and analysis view paths to use either forward or backward slashes"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
 - [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
-- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL Doc reference documentation tool; XML documentation comments in AL"
 
 ## Business Central pages and reports
 

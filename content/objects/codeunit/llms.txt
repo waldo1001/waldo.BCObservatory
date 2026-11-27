@@ -1,6 +1,6 @@
 # BC Observatory: Codeunit objects
 
-4106 objects, by id.
+4115 objects, by id.
 
 - [Codeunit 2 "Company-Initialize"](2.md): Base Application
 - [Codeunit 3 "G/L Account-Indent"](3.md): Base Application
@@ -2546,6 +2546,7 @@
 - [Codeunit 6922 "Expense Agent Entra App Mgt."](6922.md): ExpenseAgent
 - [Codeunit 6923 "Expense Agent Quota Impl."](6923.md): ExpenseAgent
 - [Codeunit 6924 "Travel Req. Linked Reports"](6924.md): ExpenseAgent
+- [Codeunit 6925 "No Receipt Declaration Mgt."](6925.md): ExpenseAgent
 - [Codeunit 6926 "Expense Activity Log Mgt."](6926.md): ExpenseAgent
 - [Codeunit 6930 "Expense Agent MCP Config."](6930.md): ExpenseAgent, obsolete 28.0
 - [Codeunit 6931 "Expense Vendor Matching"](6931.md): ExpenseAgent
@@ -3315,6 +3316,14 @@
 - [Codeunit 9996 "Upgrade Tag Impl."](9996.md): System Application
 - [Codeunit 9998 "Upgrade Tag Definitions"](9998.md): Base Application
 - [Codeunit 9999 "Upgrade Tag"](9999.md): System Application
+- [Codeunit 13687 "Create Standard Data SAF-T DK"](13687.md): SAFTModificationDK
+- [Codeunit 13688 "Install SAF-T DK"](13688.md): SAFTModificationDK
+- [Codeunit 13689 "Xml Data Handling SAF-T DK"](13689.md): SAFTModificationDK
+- [Codeunit 13694 "SAF-T Notification Mgt. DK"](13694.md): SAFTModificationDK
+- [Codeunit 13695 "Standard Account DK"](13695.md): SAFTModificationDK
+- [Codeunit 13696 "Standard Tax Code DK"](13696.md): SAFTModificationDK
+- [Codeunit 13697 "Data Check SAF-T DK"](13697.md): SAFTModificationDK
+- [Codeunit 13698 "Regnskab Basis Export"](13698.md): SAFTModificationDK
 - [Codeunit 20038 "APIV1 - Send Sales Document"](20038.md): APIV1
 - [Codeunit 20105 "AMC Banking Mgt."](20105.md): AMCBanking365Fundamentals, obsolete 28.0
 - [Codeunit 20106 "AMC Bank Exp. CT Launcher"](20106.md): AMCBanking365Fundamentals, obsolete 28.0

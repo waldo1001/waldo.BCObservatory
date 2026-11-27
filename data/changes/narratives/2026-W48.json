@@ -1,22 +1,23 @@
 {
   "week": "2026-W48",
-  "input_hash": "58ad343f2409aaba533a3723d6314d195a831b4d6001f1cf44bdb98c284e1b4a",
-  "text": "The week's behaviour changes centre on the Expense Agent and Payables Agent. #14492 registers the Expense Agent Copilot capability as Generally Available instead of Preview, #14491 moves E-Document LLM calls under the Payables Agent capability, and #14442 offers the Payables Agent again in a company recreated with the same name. Expense Agent work also includes configurable per diem rounding (#14136), approval setup fixes (#13910, backported in #13927), and API changes that expose the active approver and obsolete an unused FlowFilter (#13673). Partners get new extension events and a public Create Expense Report codeunit (#14346). Codeunits were renumbered in #14405 to avoid collisions with deprecated country apps. Posting and warehouse fixes cover item charges on purchase invoice cancellation (#13112), partial inventory picks with strict expiration (#14240), FEFO pick splitting (#13331), stale pick bins (#14013) and serial numbers when reversing capacity entries (#13206). Finance and localization fixes include #13676, #14184, #14139, #13613, #14297, #13854 and #14225. Other changes: Report Filename defaults (#13732), clearer Master Data Management errors (#14400, #14077), EAP cockpit details (#14480), demo data excluding the WorkIQ feature key (#13905), Navigate (#13904), and locked Transformation Rule codes (#9193). Type and buffer fixes are #14471 and #14423, and #14327 is test fixtures only.",
-  "changes": 31,
+  "input_hash": "f2602e7c8309319462fc24b560eae589fd1e14d0ff4da21a5a72feca0f217a2c",
+  "text": "Most of the week's 51 pull requests in BCApps changed behaviour, and none were marked as breaking. Posting and cost fixes lead. #14490 stops repeated partial return postings from reusing the first credit memo, #14413 converts quantities for a different unit of measure, and #13112 corrects item charge handling when a posted purchase invoice is canceled. #14450, #12153, #14186 and #13562 address production order and inventory valuation problems. #14507 and #13854 make Set G/L Account No. on VAT Entries respect filters. #14429 and #14225 fix Get Return Shipment Lines for non-inventory items. Localization fixes include #13015 for Mexico, #14297 for Germany, #13613 for Australia and #14139 for Czech compensations. The Expense Agent had the most feature work: #14528 adds a Lost Receipt option, #14136 adds per diem rounding, #14492 registers the capability as generally available, and #13673 exposes the active approver. #14405 renumbers three codeunits to avoid collisions. Payables Agent fixes are #14527 and #14442. Custom agents gain Markdown instructions in #13831 and timeline task creation in #13811. Partners get new expense events in #14346. #14471 changes a field type to BigInteger.",
+  "changes": 51,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.038296,
-  "at": "2026-11-26T00:13:01.755Z",
+  "cost_usd": 0.057072,
+  "at": "2026-11-27T00:13:11.976Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-26T01:04:12.635Z",
+    "at": "2026-11-27T01:04:02.742Z",
     "verdict": "approve",
     "issues": [
-      "The opening sentence says the week's behaviour changes centre on the Expense Agent and Payables Agent. That framing is a little narrow: 26 of the 31 pull requests are flagged as behaviour changes, and most of them are posting, warehouse, finance and localization fixes, not agent work.",
-      "The finance and localization sentence lists seven pull request numbers (#13676, #14184, #14139, #13613, #14297, #13854, #14225) without saying what any of them do. That makes the sentence less useful. Short labels would help, for example dispute status on ledger entries, the electronic payment Document No. fix, Czech compensation lookup events, Australian VAT/GST additional currency, German ELMA export status, VAT Entries filters, and the purchase credit memo return shipment regression."
+      "Gaps in coverage: some fixes that change behaviour are left out, such as warehouse picks and shipments (#13331, #14013, #14240) and price list duplicates (#13786). Some features are also left out: #13732, #14480, #13813. This is acceptable for a summary.",
+      "#14405 and #14346 are flagged as not changing behaviour. The paragraph does not say they do, so it is consistent with the flags.",
+      "#14139 is filed under localization. It also changes the events partners can use (separate customer and vendor lookup events). This is fine where it sits."
     ],
-    "input_hash": "58ad343f2409aaba533a3723d6314d195a831b4d6001f1cf44bdb98c284e1b4a",
-    "cost_usd": 0.092192,
+    "input_hash": "f2602e7c8309319462fc24b560eae589fd1e14d0ff4da21a5a72feca0f217a2c",
+    "cost_usd": 0.137224,
     "applied": [],
     "rejected_edits": []
   }

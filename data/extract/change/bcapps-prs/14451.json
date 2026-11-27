@@ -6,13 +6,12 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Sales Quote reports for subscription billing now correctly exclude quote variant lines from subscription totals across all localization versions.",
+  "summary": "Quote variant lines are no longer counted in subscription totals on the Sales Quote for Subscription Billing, a problem reported in the Switzerland version. The change is made in the Sales Line table across 12 base app layers and in the Subscription Billing Sales Subscription Line table.",
   "key_points": [
-    "Quote variant lines are excluded from subscription total calculations in reports",
-    "Fix applied consistently across 13 regional localization versions",
-    "New test coverage added for Sales Service Commitment subscription calculations",
-    "Corrects reporting accuracy for subscription billing functionality",
-    "Switzerland-specific test case enhanced with additional validations"
+    "Quote variant lines are excluded from subscription totals on sales quotes",
+    "Sales Line table updated in the W1 layer and 11 localization layers, including CH",
+    "Sales Subscription Line table in Subscription Billing also updated",
+    "Tests added in Sales Service Commitment Test and the CH Quote Management test"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -506,7 +506,7 @@ Start with the install and uninstall page and the page on customizing with apps 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](../../../../changes/bcapps/9326.md) (code change): "New extension app DepreciationDifferencesFI provides depreciation differences functionality with table extensions, page extensions"
-- [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace terminology"
+- [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
 - [BC Friday Tips #87 Check for Microsoft Apps on AppSource](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md) (community post): "Microsoft apps for Business Central are distributed across multiple separate applications"
 - [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../../posts/yzhums-com/65781.md) (community post): "Copilot can now answer questions about ISV add-on apps installed"

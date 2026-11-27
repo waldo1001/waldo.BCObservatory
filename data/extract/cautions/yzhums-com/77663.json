@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/77663",
+  "page_id": "post/yzhums-com/77663",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If the original string is already longer than PadLength, GetPaddedString() does not truncate the string.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "StringConversionManagement"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003647,
+    "posts_in_call": 1
+  }
+}

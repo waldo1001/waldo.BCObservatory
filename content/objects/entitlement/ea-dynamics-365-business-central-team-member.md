@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1cd6f91fabf0955b6d553510a99cd7836ae39614d4ab59e3a77083f3ce00f1c7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central Team Member" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralTeamMember.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

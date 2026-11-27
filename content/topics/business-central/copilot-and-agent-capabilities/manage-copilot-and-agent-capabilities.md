@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities
 type: topic
 title: Manage Copilot and agent capabilities
-summary: "Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, data movement across geographies, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions about enabling, controlling and fixing Copilot features."
+summary: "Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, Bing Search, cross-geography data movement, Azure OpenAI data handling, and troubleshooting. It answers questions about what admins can control and how data is processed."
 tier: official
 language: en
 system: copilot
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1472c1d8aadc7383dec5cbd4274676a31d244fa9a90e84911b4e0f375210a0e5
+  input_hash: 09cf827f2bb821c3b08aa63f472f0a0f9c01969403f2ae9ee38bb332a3717c80
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/azure-openai-data
@@ -116,23 +116,27 @@ narrative: generated
 
 # Manage Copilot and agent capabilities
 
-> Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, data movement across geographies, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions about enabling, controlling and fixing Copilot features.
+> Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, Bing Search, cross-geography data movement, Azure OpenAI data handling, and troubleshooting. It answers questions about what admins can control and how data is processed.
 
 Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Manage Copilot and agent capabilities · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for administrators who control how Copilot and agent capabilities work in Business Central. Most settings sit on the Copilot & agent capabilities page, where you turn features on or off, manage user access through permissions, set feedback options, and choose consent for data movement and web search.
+This section is for administrators who need to turn Copilot and agent capabilities on or off, decide who can use them, and understand how data is handled. Most controls are on the Copilot & agent capabilities page, and the configuration page is the main starting point.
+
+The other pages cover specific topics. One explains how Azure OpenAI Service processes requests and business data. One covers data movement across geographies and the Allow data movement setting. One covers the Bing Search setting for web search. The troubleshooting page covers common problems such as Copilot not appearing or activation errors.
+
+Start with the configuration page to see the available settings. Then read the data movement and Azure OpenAI pages if your organization has residency or compliance requirements. Use the troubleshooting page when a feature is missing or will not activate.
 
 ## Key points
 
-- The Copilot & agent capabilities page is the central place for feature activation and deactivation, user permissions, data movement, Bing Search, feedback controls and agent model selection.
-- Allow data movement controls consent for prompts and outputs routed to Azure OpenAI endpoints outside your geography when local processing isn't available; the page also mentions EU Data Boundary processing.
-- The Enable Bing Search setting controls web search for Chat with Copilot and Autofill, starting in update 26.3 (sandbox) and 27.0 (production); the feature is in preview.
-- Azure OpenAI Service processes Copilot requests with enterprise security controls. Data is not used to train models and stays in its original geographic region.
-- Abuse monitoring and data access controls are part of the Azure OpenAI data handling described for Copilot chat, Analysis assist and bank account reconciliation assist.
+- The Copilot & agent capabilities page is the central place to activate or deactivate features, manage user access through permissions, set data movement, control Bing Search, set feedback options and select the agent model.
+- Azure OpenAI Service processes Copilot requests with enterprise-grade security. Data is never used to train models and stays in its original geographic region.
+- The Allow data movement setting controls whether prompts and outputs can be processed by Azure OpenAI resources hosted in a different geography from the Business Central environment.
+- The data movement page mentions EU Data Boundary processing and data movement consent.
+- The Enable Bing Search setting (preview) controls web search for Chat with Copilot and Autofill. It applies from update 26.3 in sandbox and 27.0 in production.
 - Troubleshooting covers Copilot not appearing on pages, activation errors, and missing Microsoft AI features when embed apps are installed.
-- Common checks for troubleshooting include feature activation, personalization settings, the privacy notice agreement and Feature Management.
+- Typical checks for missing Copilot include feature activation, personalization settings, the privacy notice agreement and Feature Management.
 
 ## Learn pages
 

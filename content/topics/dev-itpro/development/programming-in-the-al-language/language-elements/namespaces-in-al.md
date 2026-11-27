@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:23.659Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,7 @@ links:
   localizations: []
   videos:
     - video/KmuTVkodRXM
+    - video/TY82NR2hGEg
   posts:
     - post/aardvarklabs-blog/3255
     - post/yzhums-com/68087
@@ -61,7 +62,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 2
   blog: 5
   guideline: 0
 bc_forms: []
@@ -109,5 +110,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Run AL objects and open record references using fully qualified names (Support for namespaces and fully qualified names)](../../../../../posts/yzhums-com/71262.md) (community post): "support for namespaces and fully qualified names in AL, allowing developers to run"
 - [Business Central 2026 release wave 2 (BC29): Translate objects with the same name in different namespaces (Translations with namespaces)](../../../../../posts/yzhums-com/76334.md) (community post): "namespace-aware translation identifiers that allow identically named AL objects"
 - [All new goodies about AL Namespace in BC 2025 wave 2](../../../../../videos/KmuTVkodRXM.md) (video): "AL namespace; record id formatting; system reflection; fully qualified names"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../../videos/TY82NR2hGEg.md) (video): "Namespaces in AL language; Using directives for namespace imports; Namespace code actions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

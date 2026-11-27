@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,8 +310,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/administration/monitoring-business-central-server
     - topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance
   localizations: []
-  videos:
-    - video/KA1vHd1hITY
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -329,7 +328,7 @@ children:
 coverage:
   learn: 38
   code: 3
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -458,12 +457,6 @@ Integration setup pages cover registering the deployment in Microsoft Entra ID, 
   - The add-in enables the Edit in Excel action on list pages, allowing users to push changed data back to Business Central, unlike the basic Open in Excel action.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [How to Install Business Central 29 On-Premises \| Full Setup](../../../videos/KA1vHd1hITY.md) (video): "Business Central 29 On-Premises Installation; Advanced Installation Option; Service tier configuration"
 
 ## Business Central pages and reports
 

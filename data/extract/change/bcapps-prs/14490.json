@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed repeated partial return postings that were incorrectly reusing the first credit memo and corrupting original order quantities. The fix ensures each posting uses the current credit memo to update order quantities correctly.",
   "key_points": [
-    "Repeated partial returns were reusing the first credit memo instead of the latest one",
-    "This caused original sales order quantities to be corrupted incorrectly",
-    "Solution uses the current posting's credit memo from a global variable to update quantities",
-    "Fix applied across Sales-Post codeunit in all localization layers",
-    "New test cases added to validate the correction"
+    "Repeated partial returns reused the first credit memo instead of the latest posted one",
+    "This corrupted the quantities on the original sales order",
+    "Sales-Post now updates order quantities from the current posting's credit memo held in a global variable",
+    "Change applied to Sales-Post in the W1, APAC, BE, CH, ES, FI, FR, GB, IT, NA, NO and RU layers",
+    "Regression tests added in ERM Copy Purch Sales Doc (W1 and APAC)"
   ],
   "change_kind": "fix",
   "behavior_change": true,

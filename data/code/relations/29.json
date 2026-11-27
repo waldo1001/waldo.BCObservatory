@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "30498f50fecbd814d09f7d6e125190fc95d6c7f2",
+      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
       "4",
       9478,
-      "30498f50fecbd814d09f7d6e125190fc95d6c7f2",
+      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
       "4",
-      7052
+      7079
     ]
   ],
   "schema": "al-relations@1",
@@ -3714,6 +3714,16 @@
       "k": "runs_on"
     },
     {
+      "s": "enumextension/13687",
+      "t": "enum/5280",
+      "k": "extends"
+    },
+    {
+      "s": "enumextension/13695",
+      "t": "enum/5260",
+      "k": "extends"
+    },
+    {
       "s": "enumextension/1690",
       "t": "enum/89",
       "k": "extends"
@@ -5431,6 +5441,11 @@
     {
       "s": "page/1367",
       "t": "table/405",
+      "k": "source_table"
+    },
+    {
+      "s": "page/13688",
+      "t": "table/13687",
       "k": "source_table"
     },
     {
@@ -23979,6 +23994,11 @@
       "k": "extends"
     },
     {
+      "s": "pageextension/13687",
+      "t": "page/5266",
+      "k": "extends"
+    },
+    {
       "s": "pageextension/1440",
       "t": "page/1440",
       "k": "extends"
@@ -28521,6 +28541,36 @@
     {
       "s": "permissionsetextension/10639",
       "t": "permissionset/732",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/13687",
+      "t": "permissionset/732",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/13688",
+      "t": "permissionset/207",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/13689",
+      "t": "permissionset/1044",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/13695",
+      "t": "permissionset/7931",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/13696",
+      "t": "permissionset/6121",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/13697",
+      "t": "permissionset/1001",
       "k": "extends"
     },
     {
@@ -126281,6 +126331,13 @@
         "subs": []
       }
     },
+    "codeunit/13698": {
+      "OnGetAmountForDateRangeOnCaseElse": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      }
+    },
     "codeunit/1371": {
       "OnAfterCanPostDocument": {
         "kind": "integration",
@@ -132257,6 +132314,11 @@
             "s": "codeunit/1160",
             "proc": "OnCompanyInitialize",
             "app": "CompanyHub"
+          },
+          {
+            "s": "codeunit/13688",
+            "proc": "CompanyInitialize",
+            "app": "SAFTModificationDK"
           },
           {
             "s": "codeunit/1436",
@@ -284629,7 +284691,7 @@
     }
   },
   "dead_events": {
-    "count": 22506
+    "count": 22507
   },
   "unresolved": [
     {
@@ -294890,8 +294952,8 @@
   "stats": {
     "runs_on": 740,
     "unresolved_unknown": 1500,
-    "extends": 1843,
-    "source_table": 3641,
+    "extends": 1852,
+    "source_table": 3642,
     "card_page": 320,
     "lookup_page": 829,
     "table_relation": 10235,
@@ -294899,9 +294961,9 @@
     "drilldown_page": 526,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5199,
-    "edges": 20695,
-    "published_events": 26337,
-    "dead_events": 22506
+    "subscribes": 5200,
+    "edges": 20705,
+    "published_events": 26338,
+    "dead_events": 22507
   }
 }

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -290,7 +290,6 @@ links:
     - post/demiliani-com/12116
     - post/demiliani-com/12123
     - post/demiliani-com/12422
-    - post/vondervoort-be/24
   guidelines: []
   changes:
     - change/al-go/2441
@@ -317,7 +316,7 @@ coverage:
   learn: 35
   code: 0
   video: 5
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms:
   - 149000
@@ -388,7 +387,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
 - [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"
-- [Rethinking LinterCop: Preparing for the Next Chapter](../../../posts/vondervoort-be/24.md) (community post): "DevOps integration breaks in pre-release AL Language versions"
 - [AL Go for GitHub February Office Hour](../../../videos/dSPRY1_f1S0.md) (video): "Private repository support in AL-Go"
 - [What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)](../../../videos/Gjs00Wy0HlI.md) (video): "What's New: AL-Go for GitHub on Build and Performance"
 - [AL-Go for Github May Office Hour](../../../videos/vDGrVHQHLA0.md) (video): "AL-Go for Github May Office Hour"

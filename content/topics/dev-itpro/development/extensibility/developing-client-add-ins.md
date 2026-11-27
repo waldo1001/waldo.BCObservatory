@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,7 +46,6 @@ links:
     - video/hS8yWS3bxWE
   posts:
     - post/aardvarklabs-blog/3680
-    - post/gerardorenteria-blog/12801
     - post/jpearson-blog/1583
     - post/yzhums-com/70008
     - post/yzhums-com/74975
@@ -65,7 +64,7 @@ coverage:
   learn: 2
   code: 0
   video: 2
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 3d20b4404dfd3d105a8c3efeda9a8cb0aeb66c7a3cac01e9f0546de2b6c119f3
@@ -107,7 +106,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#100 Add P0 integration and control add-in runtime guidance](../../../../changes/bcquality/100.md) (code change): "Control add-in AJAX requests for packaged resources need withCredentials"
 - [Step-by-Step Guide to Custom User Controls in Business Central](../../../../posts/aardvarklabs-blog/3680.md) (community post): "Custom user controls in Business Central use HTML, JavaScript, and AL to create bespoke UI components"
-- [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../../posts/gerardorenteria-blog/12801.md) (community post): "JavaScript control add-in bridge, and the Mermaid.js CDN"
 - [Embed Visual Studio Code in Business Central](../../../../posts/jpearson-blog/1583.md) (community post): "Embedding Visual Studio Code's Monaco editor in a Business Central control add-in"
 - [Dynamics 365 Business Central: Add a Scan Barcode action and scan multiple/Continious scanning (Invoke barcode scanning programmatically from AL)](../../../../posts/yzhums-com/70008.md) (community post): "invoke barcode scanning programmatically from AL"
 - [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "add a calculator control to the sales order page using control add-in objects built with AL and JavaScript"

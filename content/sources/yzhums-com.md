@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 406 posts in the knowledge base, 2025-04-28 to 2026-11-25, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 407 posts in the knowledge base, 2025-04-28 to 2026-11-26, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:13:01.755Z"
+  at: "2026-11-27T00:13:11.976Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 46d71f6908f99fe91b3f5ea8f83bff351a5cb2fc9b61b0c25fe68ed62ea16503
+  input_hash: 088f977acdac2096d9d611d524d4527b9b00a7652c2e6e19c066fa5c4d278b24
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -439,6 +439,7 @@ links:
     - post/yzhums-com/77046
     - post/yzhums-com/77607
     - post/yzhums-com/75960
+    - post/yzhums-com/77663
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -446,11 +447,11 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 406
+item_count: 407
 footprint:
   systems:
     - id: development
-      weight: 289
+      weight: 291
     - id: administration
       weight: 216
     - id: platform
@@ -463,7 +464,7 @@ footprint:
       weight: 77
   topics:
     - id: al development
-      weight: 66
+      weight: 67
     - id: bc28
       weight: 27
     - id: bc27
@@ -509,12 +510,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-25"
+last_item: "2026-11-26"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 406 posts in the knowledge base, 2025-04-28 to 2026-11-25, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 407 posts in the knowledge base, 2025-04-28 to 2026-11-26, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -522,7 +523,7 @@ last_item: "2026-11-25"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (289) | al development (66) | table Customer (14) |
+| development (291) | al development (67) | table Customer (14) |
 | administration (216) | bc28 (27) | table Sales Header (12) |
 | platform (204) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
@@ -545,10 +546,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ************************************* 37
+- 2026-Q4: ************************************** 38
 
 ## Most recent
 
+- [Dynamics 365 Business Central: How to pad a string to a specified length with a character (GetPaddedString)](../posts/yzhums-com/77663.md) (2026-11-26)
 - [Dynamics 365 Business Central: How to clear all Customized Pages for a Profile (Role)](../posts/yzhums-com/75960.md) (2026-11-25)
 - [Business Central 2026 release wave 2 (BC29): New API Overview page to view all available APIs (Discover APIs with the API Overview page)](../posts/yzhums-com/77607.md) (2026-11-24)
 - [Dynamics 365 Business Central: How to easily check users and their licenses (User Details)](../posts/yzhums-com/77046.md) (2026-11-20)
@@ -568,6 +570,5 @@ Items per quarter, oldest first:
 - [Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities](../posts/yzhums-com/77021.md) (2026-10-29)
 - [Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)](../posts/yzhums-com/76990.md) (2026-10-28)
 - [Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)](../posts/yzhums-com/76918.md) (2026-10-26)
-- [Business Central 2026 release wave 2 (BC29): Evolve AL interfaces with default implementations (Default interface method implementations)](../posts/yzhums-com/76547.md) (2026-10-26)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

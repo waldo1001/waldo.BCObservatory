@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central/get-the-most-out-of-microsoft-365-apps",
-  "input_hash": "e17dc59070fc26e806713456ed3a2bb8a597c96a2e3afdfaa51e6b1f6c2b98a3",
-  "summary": "Using Business Central together with Microsoft 365 apps: Excel, Word, Outlook, Teams and OneDrive. It answers questions on editing data in Excel, mail merge with Word templates, syncing contacts to Outlook, sharing records in Teams, and opening or sharing files in OneDrive.",
-  "overview": "This section covers five ways to work with Business Central data from Microsoft 365 apps. Each page is a task-focused guide for one app: Excel, Word, Outlook, Teams and OneDrive.\n\nFor data work, start with the Excel page, which explains the Open in Excel and Edit in Excel actions, publishing changes back, and Copilot in Excel. For communication, the Word templates page covers mail merge to contacts, customers and vendors, and the Outlook page covers syncing contacts. For collaboration, the Teams and OneDrive pages cover sharing records, page links and files.\n\nThe pages are independent, so pick the one that matches the app you want to use.",
+  "input_hash": "52a30f5f0cb5bce71851e5b217a98304a911a00c8ff1f5c26e15d89dcf3c77c7",
+  "summary": "Microsoft 365 integration in Business Central: working with Business Central data in Excel, Word, OneDrive, Outlook and Teams. It answers questions on editing lists in Excel, mail merge with Word templates, sharing files and records, and syncing contacts to Outlook.",
+  "overview": "This section covers how Business Central works together with Microsoft 365 apps so users can stay in familiar tools. Each page deals with one app: Excel, Word, OneDrive, Outlook and Teams. The pages are independent, so you can read only the one that matches your task.\n\nStart with the Excel page if you need to export or edit list data, or with the Word templates page for bulk communication with contacts, customers and vendors. The OneDrive and Teams pages cover sharing files and records with colleagues. The Outlook page covers saving Business Central contacts to Microsoft 365 so they show up in Outlook and Teams.",
   "key_points": [
-    "Open in Excel exports a list; Edit in Excel lets you change data and publish it back through the Excel Add-in pane.",
-    "Copilot in Excel can help with data cleaning, preparation and analysis, including multi-step workflows.",
-    "Word templates use entities as data sources, with merge fields, related and unrelated entities, and field prefixes, to generate documents or send emails in bulk.",
-    "The Synchronize with Outlook action syncs a filtered list of contacts to a chosen Outlook folder, for use in Outlook and Teams. It supports full sync, forced full sync and two-way sync (2026 release wave 1, version 28).",
-    "Records can be shared in Teams as interactive cards, and you can view card details and edit data in Teams. Page links can also be copied or shared to Teams.",
-    "Open in OneDrive copies files to OneDrive for editing in online Excel, Word and PowerPoint.",
-    "Files can be shared from OneDrive with specific people or by link (Send link, Copy link). File version history and access control are available."
+    "Excel: use Open in Excel or Edit in Excel on lists. Edit in Excel uses the Add-in pane to publish changes back, and Copilot in Excel can help with data cleaning, preparation and analysis.",
+    "Word templates: use entities as data sources, add merge fields, and apply the template to generate documents or send emails. Related and unrelated entities and field prefixes are supported.",
+    "OneDrive: open Business Central files in OneDrive to edit them in online Excel, Word or PowerPoint. Share with specific people or via a link (Send link, Copy link).",
+    "OneDrive sharing includes file version history and access control.",
+    "Teams: share a Business Central record as an interactive card in a conversation, or share or copy a page link. Card details can be viewed and data edited in Teams.",
+    "Outlook: the Synchronize with Outlook action saves contacts to Microsoft 365 for use in Outlook and Teams. You can filter contacts and choose the contacts folder.",
+    "Contact sync supports full and delta synchronization, with optional two-way synchronization. The page is tied to 2026 release wave 1 (v28)."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-11T00:58:47.628Z",
+  "at": "2026-11-27T01:04:30.658Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012805
+    "cost_usd": 0.015886
   }
 }

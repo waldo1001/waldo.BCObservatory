@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 04c7c1716b5c03847d30b60d5688fee04b2a70b315073dc57c834aef87a7f937
+  input_hash: fd3df27eb56cc6ff9347be10ac26743f4bab8c1831fe5e9cb3c3fdac523e6079
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al
     title: src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -69,14 +69,14 @@ relations:
   calls: 0
   called_by: 0
   implements: 0
-  implemented_by: 2
+  implemented_by: 3
 ---
 
 # Interface "XmlDataHandlingSAFT"
 
 > Interface "XmlDataHandlingSAFT" in SAF-T. 8 public procedures. Introduced in BC29, still in BC30.
 
-SAF-T · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al) · facts from BC29
+SAF-T · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -91,6 +91,7 @@ SAF-T · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blo
 
 ## Implemented by
 
+- [Codeunit 13689 "Xml Data Handling SAF-T DK"](../codeunit/13689.md)
 - [Codeunit 5282 "Xml Data Handling SAF-T"](../codeunit/5282.md)
 - [Enum 5280 "SAF-T Modification"](../enum/5280.md)
 

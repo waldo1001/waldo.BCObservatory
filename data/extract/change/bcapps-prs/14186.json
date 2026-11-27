@@ -6,12 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Inventory Valuation - WIP report now correctly displays consistent work-in-progress values regardless of production order starting dates when consumption has been reversed and revalued.",
+  "summary": "The Inventory Valuation - WIP report now shows the same WIP value whatever Starting Date is used, after reversed consumption has been revalued. A test covers the scenario.",
   "key_points": [
-    "Fixed calculation issue in Inventory Valuation - WIP report",
-    "Report now handles reversed consumption with revaluation correctly",
-    "WIP values no longer vary based on production order starting dates",
-    "Test coverage added for the scenario"
+    "Fixed the WIP calculation in report 5802 Inventory Valuation - WIP",
+    "Handles consumption that was reversed and then revalued",
+    "WIP value no longer depends on the Starting Date used",
+    "Test added in SCM Inventory Reports III"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.721Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,8 +45,6 @@ links:
     - video/z1H6nQCEIeY
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/10631
 learn_toc_path:
   - Copilot and agent capabilities
   - Map E-Documents (preview)
@@ -93,11 +91,10 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 - [FAQ for mapping e-documents with purchase orders](https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments): This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Map e-documents to purchase order lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot): Learn about how to use Copilot to map e-documents to purchase order lines.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "E-Document, AgentDesignExperience, Sales Order Agent, Shopify, Sustainability"
 - [Introducing: E-Invoice Matching with Copilot (2024 release wave 1)](../../../videos/z1H6nQCEIeY.md) (video): "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

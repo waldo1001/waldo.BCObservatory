@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:13:01.755Z"
+  at: "2026-11-27T00:13:11.976Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 14e5459a56eee836f1f930537a7eeaac7dbdff76436964b77997538650c5bd23
@@ -30,7 +30,6 @@ links:
   objects: []
   features:
     - feature/573350
-    - feature/573362
     - feature/573624
     - feature/576872
     - feature/577820
@@ -122,8 +121,6 @@ footprint:
   features:
     - id: feature/573350
       weight: 1
-    - id: feature/573362
-      weight: 1
     - id: feature/573624
       weight: 1
     - id: feature/576872
@@ -167,7 +164,6 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Manually upload 1099 forms to the IRIS](../features/573624.md): USA, announced, GA 2027-01, 1 video
 - [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 1 video

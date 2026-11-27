@@ -12,7 +12,7 @@ review:
   at: "2026-11-26T01:05:24.879Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -406,11 +406,13 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10545
+    - change/bcapps/10675
     - change/bcapps/10828
     - change/bcapps/10869
     - change/bcapps/10927
     - change/bcapps/11002
     - change/bcapps/12187
+    - change/bcapps/13759
     - change/bcapps/8745
     - change/bcapps/9351
     - change/bcapps/9600
@@ -582,11 +584,13 @@ Later stages are covered by Rules, guidelines, and best practices, Extension lif
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10545 [Master] - Bug 647253: [WHT] Inconsistency with the Payments](../../changes/bcapps/10545.md) (code change): "Fixes bug 647253 about withholding tax inconsistency"
+- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../changes/bcapps/10675.md) (code change): "Pragmas temporarily suppress the AppSourceCop AS0072 error on elements"
 - [#10828 Avoid remote attachment checks during FactBox refresh](../../changes/bcapps/10828.md) (code change): "Attachment FactBox navigation performance improved by deferring external file existence checks"
 - [#10869 [29.x]-[WHT] Inconsistency with the Payments](../../changes/bcapps/10869.md) (code change): "Withholding Tax Mgmt. codeunit 6785 is modified in releases"
 - [#10927 [Change Log] Preserve SystemId for unloaded record modifications](../../changes/bcapps/10927.md) (code change): "Change Log Management now preserves the SystemId from persisted"
 - [#11002 [Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation](../../changes/bcapps/11002.md) (code change): "Excise duty calculation now supports specific-per-unit, ad valorem"
 - [#12187 Restore parent table relations for Comment Line configuration imports](../../changes/bcapps/12187.md) (code change): "table extension with twelve conditional table relations restores Comment Line"
+- [#13759 [Layers, Apps] Remove CLEAN27 obsolete code](../../changes/bcapps/13759.md) (code change): "Obsolete code guarded by CLEAN27 preprocessor tags is removed from"
 - [#8745 Bug 640098: Make Table Information Cache refresh resilient to duplicate table numbers](../../changes/bcapps/8745.md) (code change): "Table Information Cache refresh now aggregates metrics when duplicate table numbers are encountered"
 - [#9351 [master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)](../../changes/bcapps/9351.md) (code change): "Contract renewal detection in the Sales-Post subscribers was reworked"
 - [#9600 Uptake sift disable enable support](../../changes/bcapps/9600.md) (code change): "Index management pages now support viewing and disabling SIFT indexes on relevant tables"

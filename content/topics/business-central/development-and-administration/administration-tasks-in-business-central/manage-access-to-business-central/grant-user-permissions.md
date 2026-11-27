@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
     - post/yzhums-com/77046
   guidelines: []
   changes:
+    - change/bcapps/10449
     - change/bcapps/10579
     - change/bcapps/10991
     - change/bcapps/11561
@@ -165,6 +166,7 @@ Then use "Define granular permissions" when the standard permission sets are not
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../../../changes/bcapps/10449.md) (code change): "Removes references to the soon-to-be-obsoleted table from three permission sets"
 - [#10579 [Bug 638696] Add teaching tip to Effective Permissions page 9852](../../../../../changes/bcapps/10579.md) (code change): "teaching tip to the Effective Permissions page to explain what effective permissions are"
 - [#10991 [Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy](../../../../../changes/bcapps/10991.md) (code change): "User Management now correctly updates Financial Report Audit Log"
 - [#11561 [Permissions] Fix read-only error in obsolete permission cleanup](../../../../../changes/bcapps/11561.md) (code change): "Remove Obsolete Permissions action now deletes only from the Tenant Permission table"

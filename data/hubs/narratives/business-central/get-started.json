@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/get-started",
-  "input_hash": "d9184411d5e68ebc0c8604b57c085ebe32796ad4ad1f57feead968f23c9fa15b",
-  "summary": "Getting started with Business Central: an overview of supported business functionality, free trial and initial setup, quick start guides, learning resources, everyday productivity tips, FAQs and troubleshooting, and help and support. It answers questions on where to begin, how to trial and set up, and how to work day to day.",
-  "overview": "This section is the entry point for new Business Central users. Its own page gives an overview of the business functionality the product supports: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.\n\nThe subtopics follow a natural path. Try and Buy cover the free trial, sign-up, extending the trial, moving to a paid subscription, and first setup such as company information, users, permissions and role-specific home pages. Quick starts give short beginner guides for setup and basic daily tasks in finance, sales, procurement and reporting.\n\nOnce you are set up, Learn offers onboarding, documentation, community and video content, plus practice with demo data in CRONUS or Contoso Coffee. Get productive in Business Central covers daily use, including search, filtering, notifications, personalization and Copilot. Troubleshooting and FAQs and Help and Support cover common questions and how to get help. Start with the functionality overview, then Try or Buy, then Quick starts.",
+  "input_hash": "5b3a1e3b95e73558d890cbf2fc1a576d507ea4cebb45fb3f6cb7227505764d5e",
+  "summary": "Getting started with Business Central: an overview of supported business functionality, free trial and sign-up, initial setup, quick starts, learning resources, everyday productivity, FAQs and support. It answers where a new user or admin should begin and how to get help.",
+  "overview": "This section is the entry point to Business Central. Its own page lists the business functionality the product supports: finance and payments, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Use it to check which business processes are available.\n\nThe subtopics follow a typical path. Try and Buy cover the free trial, sign-up, extending the trial, moving to a paid subscription and first setup tasks such as company information, users and permissions. Quick starts give beginner guides for setup and basic daily tasks. Learn offers onboarding, documentation, community and video content, plus practice with demo data in CRONUS or Contoso Coffee.\n\nOnce the system is running, Get productive covers everyday use: search, data entry, notifications, personalization, reports, document layouts, Microsoft 365 apps and Copilot. Troubleshooting and FAQs and Help and Support cover common questions and how to find help or escalate issues. New users can start with Try or Buy, then Quick starts.",
   "key_points": [
-    "The overview page lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.",
-    "Try covers signing up for a free trial, extending it, the trial FAQ, moving to a paid subscription, and fixing self-service sign-up problems.",
+    "The overview page lists supported functionality: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.",
+    "Try covers signing up for a free trial, extending it, the trial FAQ, moving to a paid subscription and fixing self-service sign-up problems.",
     "Buy covers trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.",
     "Quick starts are beginner guides for company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.",
-    "Learn offers onboarding, documentation, community and video content, and practice scenarios in CRONUS or Contoso Coffee demo data.",
-    "Get productive covers basic settings, data entry, Tell Me and Role Explorer search, filtering, notifications, company switching, attachments, performance and Copilot, with subtopics on Microsoft 365 apps, personalization, reports, document layouts, sharing data and accessibility.",
-    "Troubleshooting and FAQs covers Teams integration, Tell Me search, Copilot licensing and data access, and minimum system requirements such as supported browsers, devices and clients.",
-    "Help and Support explains where to find help, how to use Chat with Copilot and the Help pane, and how to troubleshoot and escalate issues."
+    "Learn points to onboarding, documentation, community and video content, and practice scenarios with demo data in CRONUS or Contoso Coffee.",
+    "Get productive covers search (Tell Me, Role Explorer, filters), notifications, errors, attachments, company switching, performance tips and Copilot.",
+    "Troubleshooting and FAQs answers questions on Teams integration, Tell Me search, Copilot licensing and data access, and minimum system requirements such as supported browsers and devices.",
+    "Help and Support explains where to find help, using Chat with Copilot and the Help pane, and how to troubleshoot and escalate issues."
   ],
   "members_used": 1,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-11-22T00:59:56.504Z",
+  "at": "2026-11-27T01:04:56.821Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015439
+    "cost_usd": 0.014785
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-23T00:57:34.865Z",
+    "at": "2026-11-27T01:05:10.024Z",
     "verdict": "approve",
     "issues": [
-      "The closing reading order in the overview ('Start with the functionality overview, then Try or Buy, then Quick starts') and the framing 'Once you are set up, Learn offers...' are the writer's own suggestions. The source summaries don't give an order, but the advice is reasonable and harmless.",
-      "The overview calls the quick starts 'short' beginner guides. The source only says 'beginner guides'. This is minor."
+      "Minor: the Try and Buy subtopic summaries overlap (both mention free trial sign-up and initial setup). The overview handles this by describing them together, which is acceptable.",
+      "Minor: the Quick starts key point shortens 'reports and documents output' to 'reports'. That is still accurate."
     ],
-    "input_hash": "d9184411d5e68ebc0c8604b57c085ebe32796ad4ad1f57feead968f23c9fa15b",
-    "cost_usd": 0.041696
+    "input_hash": "5b3a1e3b95e73558d890cbf2fc1a576d507ea4cebb45fb3f6cb7227505764d5e",
+    "cost_usd": 0.0381538
   }
 }

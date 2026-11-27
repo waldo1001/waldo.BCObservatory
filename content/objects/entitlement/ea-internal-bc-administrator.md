@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T00:52:49.089Z"
+  at: "2026-11-27T00:52:12.002Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 54832a9a24e445e1a4a210fa215dd3045cfa63745deb054faaec4304a77c8d4f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalBCAdministrator.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalBCAdministrator.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalBCAdministrator.Entitlement.al (releases/29.x)
     date: null
-    commit: 30498f50fecbd814d09f7d6e125190fc95d6c7f2
+    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Entitlement "EA - Internal BC Administrator" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 30498f50](https://github.com/microsoft/BCApps/blob/30498f50fecbd814d09f7d6e125190fc95d6c7f2/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalBCAdministrator.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalBCAdministrator.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

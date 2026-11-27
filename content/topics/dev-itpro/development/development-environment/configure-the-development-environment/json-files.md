@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:28.632Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,7 +57,8 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment/configure-the-development-environment
   localizations: []
-  videos: []
+  videos:
+    - video/TY82NR2hGEg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -71,7 +72,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -107,5 +108,11 @@ Start with the app.json page, which holds the core extension settings such as pu
 - [JSON Files for AL Extension Projects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-files): Learn how to configure the app.json manifest for AL extension projects in Business Central, including runtime, features, dependencies, and IDs.
 - [Launch JSON Settings for Business Central AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file): Configure launch.json settings for AL publishing, attach debugging, and snapshot debugging in Business Central online and on-premises environments.
 - [Migration JSON file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migration-json-file): Description of the JSON file for data migration for AL in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../../videos/TY82NR2hGEg.md) (video): "AL Doc reference documentation tool; XML documentation comments; DocFX integration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

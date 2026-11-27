@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -44,7 +44,7 @@ links:
     - video/KbXzMR4n4h8
   posts:
     - post/aardvarklabs-blog/3998
-    - post/thinkaboutit-be/8313
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
   guidelines: []
   changes:
     - change/bcapps/11319
@@ -85,7 +85,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
 - [#9569 Enforce permissions when reviewing orphaned extension data](../../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "automating extension management in Business Central using the Administration API"
-- [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "Per-Tenant Extension management to the Admin Center, allowing administrators to upload"
+- [Introducing BC Mission Control](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "extension deployment, and app updates"
 - [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../../videos/KbXzMR4n4h8.md) (video): "Appsource transact for Business Central apps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

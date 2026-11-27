@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales",
-  "input_hash": "34a941e35577b853260fe6bc3b20b62a59292f4d7a4d2870fac19a045c76036f",
-  "summary": "Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.",
-  "overview": "The Sales section describes the day-to-day sales workflow. Pages cover registering customers with a Customer Card, making quotes, creating sales orders and invoices, and posting them. They also cover handling shipments, returns and corrections, and tracking packages. Supporting pages cover merging duplicate records, entering external document numbers, and saving contacts to Outlook.\n\nOrder variants have their own pages: partial shipments, drop shipments, special orders, blanket orders, prepayments, and standard recurring sales lines. Other pages explain delivery date calculation and order promising (Available-to-Promise and Capable-to-Promise). A further page covers printing inventory picking lists for companies without warehouse management.\n\nTwo subtopics go deeper. Sales analytics compares the ways to analyze sales data, from the Power BI Sales app to built-in reports and ad-hoc Data Analysis. Subscription billing covers recurring invoicing for contracts. Start with \"Overview of tasks to manage sales\" to see the full flow, then open the page for the task you need.",
+  "input_hash": "612410239be2673d8f19cf910f95429bfa3e187209f3e7ff21ddc069f03d483d",
+  "summary": "Sales in Business Central covers the order-to-cash process: quotes, orders, invoices, shipments, returns, prepayments, customer setup, and delivery dates. It also covers two subtopics, sales analytics and subscription billing. It answers how-to and setup questions for each sales task.",
+  "overview": "The Sales section describes how to sell and invoice in Business Central. It starts with registering customers through the Customer Card and merging duplicates. It then covers sales quotes, orders, blanket orders, and invoices, and posting, correcting, and canceling them. An overview page lists the main tasks, from quotes through invoicing and customer management, and is a good place to start.\n\nSeveral pages cover fulfillment variants: partial shipments, drop shipments, special orders, combining shipments on one invoice, picking lists from sales orders, and package tracking. Delivery date calculation and order promising cover how dates are worked out. Returns are handled with sales credit memos or sales return orders. Further pages cover prepayments, standard recurring sales lines, external document numbers, a sales campaign walkthrough, and saving contacts to Outlook.\n\nTwo subtopics go deeper. Sales analytics compares the ways to analyze sales data, such as the Power BI Sales app, built-in reports, and Data Analysis on list pages. Subscription billing covers recurring invoicing for contracted services, from contracts to usage-based billing.",
   "key_points": [
-    "Sales documents include quotes, orders, invoices, blanket orders, and credit memos. Quotes can be converted to orders or invoices, and blanket orders to sales orders.",
-    "Posting supports post, post and send, post batch, preview posting, and a test report. Posting creates ledger entries.",
-    "Unpaid posted invoices can be canceled or corrected. The Cancel action creates a corrective credit memo automatically. This applies to invoices that are unpaid and not fully shipped.",
-    "Drop shipments and special orders link a sales order to a purchase order through a purchasing code. The purchase order is created via the requisition worksheet or the Create Purchase Orders action.",
-    "Partial shipments are controlled by the Shipping Advice field on the Customer Card. Several shipments can be combined on one invoice manually or with the Combine Shipments batch job.",
+    "Quotes can be converted to sales orders or invoices. Blanket orders cover long-term agreements delivered in small shipments over time.",
+    "Posting options include post, post and send, post batch, preview posting, and a test report. Posting creates ledger entries.",
+    "Unpaid posted invoices can be canceled or corrected. The Cancel action automatically creates a corrective credit memo.",
     "Returns use sales credit memos or sales return orders. Return orders support Copy Document, Get Posted Document Lines to Reverse, and Exact Cost Reversing.",
-    "Order promising and delivery date calculation use shipping time and warehouse handling time to compute realistic dates. They can also warn of stock-outs.",
-    "Merge Duplicate for customers, vendors, and contacts needs the MERGE DUPLICATES permission set. Outlook contact sync is described for 2026 release wave 1 (version 28)."
+    "Drop shipments and special orders link a sales order to a purchase order through a purchasing code and the requisition worksheet.",
+    "The Shipping Advice field on the Customer Card controls whether partial shipments are accepted. Shipments can later be combined on one invoice by hand or with a batch job.",
+    "Order promising uses Available-to-Promise and Capable-to-Promise. Delivery date calculation uses shipping time and warehouse handling time.",
+    "Contact sync to Outlook is described for 2026 release wave 1 (v28), with optional two-way synchronization."
   ],
   "members_used": 24,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-21T01:00:37.919Z",
+  "at": "2026-11-27T01:04:42.482Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.029099
+    "cost_usd": 0.028493
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-23T00:57:43.266Z",
+    "at": "2026-11-27T01:05:12.073Z",
     "verdict": "approve",
     "issues": [
-      "The overview leaves out the page 'Walkthrough: Conduct a Sales Campaign' (campaigns, contact segments, logging interactions). It could be listed with the supporting pages.",
-      "Key point 3 says cancel or correct applies to unpaid invoices that are not fully shipped. This matches the page summary, but the condition is unusual and the narrative states it as fact. Check it against the Learn page if possible."
+      "Minor: key point 5 says drop shipments use the requisition worksheet. The drop shipment page only implies this, through its Get Sales Order and Carry Out Action Message actions, and it also lists a Create Purchase Orders action as another route. The claim is acceptable.",
+      "Minor: key point 8 (the version for contact sync to Outlook) is less useful than the other points but is supported by the page's version metadata. It makes no claim about release status."
     ],
-    "input_hash": "34a941e35577b853260fe6bc3b20b62a59292f4d7a4d2870fac19a045c76036f",
-    "cost_usd": 0.08812400000000001
+    "input_hash": "612410239be2673d8f19cf910f95429bfa3e187209f3e7ff21ddc069f03d483d",
+    "cost_usd": 0.0697698
   }
 }

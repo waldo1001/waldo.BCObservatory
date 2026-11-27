@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:04.924Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10048
+    - change/bcapps/9355
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -98,5 +99,6 @@ This section covers the French local functionality for meeting the electronic in
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10048 Add GTIN to XRechnung and ZUGFeRD exports](../../../../../changes/bcapps/10048.md) (code change): "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD"
+- [#9355 [master] [FR] [E-document] Changed place for "SIRET No." and exposed codeunit for export Factur-X](../../../../../changes/bcapps/9355.md) (code change): "Export Factur-X Document codeunit in the French E-Document app"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

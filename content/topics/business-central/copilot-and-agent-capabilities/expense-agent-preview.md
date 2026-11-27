@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,6 @@ links:
     - video/rSGCNMIBcpc
     - video/s3d9vW6tuT8
     - video/tj1vvsmAMVs
-    - video/vyQnSxRGJDA
     - video/YL50nOTAPIY
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241
@@ -136,7 +135,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10461
-    - change/bcapps/10631
     - change/bcapps/11040
     - change/bcapps/11375
     - change/bcapps/11740
@@ -182,7 +180,7 @@ children:
 coverage:
   learn: 11
   code: 3
-  video: 16
+  video: 15
   blog: 2
   guideline: 0
 bc_forms:
@@ -240,7 +238,6 @@ Start with the overview subtopic to understand the agent, then read the setup pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed when they exhaust their retry budget"
-- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
 - [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
 - [#11375 Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments](../../../changes/bcapps/11375.md) (code change): "Sales Order Agent attachment extraction and item search now use them"
 - [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../changes/bcapps/11740.md) (code change): "The Expense Agent now calls an existing cleanup function"
@@ -292,7 +289,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; Default approver setup; Per-user approver override"
 - [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../videos/s3d9vW6tuT8.md) (video): "What's new in Expense Agent: Use Travel Request"
 - [What's new in Expense Agent: Overview (2026 release wave 2)](../../../videos/tj1vvsmAMVs.md) (video): "What's new in Expense Agent: Overview (2026 release wave 2)"
-- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowances; expense agent; itinerary detection; meal reductions"
 - [Introducing: Copilot for Finance: Why Is This a Game Changer (2024 release wave 2)](../../../videos/YL50nOTAPIY.md) (video): "copilot for finance; role-based agents; accounts receivable"
 
 ## Business Central pages and reports

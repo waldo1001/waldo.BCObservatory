@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14413",
+  "input_hash": "afa19cf457d3d7f725dd2dc26e3c9e9a438455c2fb7bd8da656becd8a27485f8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-27T01:03:39.784Z",
+  "issues": [
+    "The page matches the issue, cause and solution in the description, including the 8 PCS vs 8 SET example and the regression tests for different, fractional and matching units."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017391,
+    "changes_in_call": 6
+  }
+}

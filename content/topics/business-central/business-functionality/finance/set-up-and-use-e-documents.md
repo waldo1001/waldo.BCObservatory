@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,7 +117,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10029
-    - change/bcapps/10755
+    - change/bcapps/10631
     - change/bcapps/10799
     - change/bcapps/11483
     - change/bcapps/9578
@@ -205,7 +205,7 @@ For daily work, one page covers sending e-invoices and credit memos from sales a
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10029 [Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation](../../../../changes/bcapps/10029.md) (code change): "Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message"
-- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "currency exchange rate updates, external accountant invitations, JSON structure retrieval, OData metadata download"
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../../changes/bcapps/10631.md) (code change): "E-Document, AgentDesignExperience, Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified"
 - [#10799 Remove OnPrem scope from Table 1226 "Payment Export Data".SetSwissExport](../../../../changes/bcapps/10799.md) (code change): "Payment Export Data table is now callable from Cloud extensions"
 - [#11483 [E-Documents Core] - Linkage & Traceability](../../../../changes/bcapps/11483.md) (code change): "E-Documents module now provides linkage and traceability by adding lookup functions"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals"
@@ -215,11 +215,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9878 Add buyer order reference to ZUGFeRD export](../../../../changes/bcapps/9878.md) (code change): "ZUGFeRD export now includes the buyer order reference"
 - [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../../../posts/gerardorenteria-blog/15508.md) (community post): "Finance and localization ideas focus on e-invoicing (French rules, ZUGFeRD, EN 16931, E-Document for AT and CH)"
 - [What's new in E-Documents: Overview (2026 release wave 2)](../../../../videos/07G7aC14Y_w.md) (video): "EDI; e-documents; purchase order; sales order; xml"
-- [What's New: E-Documents Connectors (2025 release wave 1)](../../../../videos/GM0DNxu39LM.md) (video): "E-Documents Connectors; e-documents; connectors; appsource; electronic invoicing; integration setup"
-- [What's New: E-Documents ZUGFeRD Format (2025 release wave 2)](../../../../videos/gVjrKPHlrgM.md) (video): "E-Documents ZUGFeRD Format; zugferd; pdf-a3; germany; invoicing; hybrid documents"
+- [What's New: E-Documents Connectors (2025 release wave 1)](../../../../videos/GM0DNxu39LM.md) (video): "E-Documents Connectors; connectors; appsource; electronic invoicing; integration setup"
+- [What's New: E-Documents ZUGFeRD Format (2025 release wave 2)](../../../../videos/gVjrKPHlrgM.md) (video): "ZUGFeRD Format Support; PDF/A-3 Format for Long-term Archival; Outgoing E-Document"
 - [What's New: E-Documents and Clearance Model (2025 release wave 2)](../../../../videos/h6a8BVzvuZ4.md) (video): "Clearance model for e-documents; E-document workflow orchestration; Clearance service"
-- [What's New: E-Documents (2024 release wave 2)](../../../../videos/hba7KVWrIwY.md) (video): "E-Documents; electronic invoicing; avalara; pagero; b2b; b2g; connectors; attachments"
-- [What's New: E-Documents Localizations (2025 release wave 1)](../../../../videos/hL4PUhjyhNY.md) (video): "E-Documents Localizations; e-documents; localizations; peppol; factura; ubl; pdf/a"
+- [What's New: E-Documents (2024 release wave 2)](../../../../videos/hba7KVWrIwY.md) (video): "New E-Document Connectors; Attachments as Encoded Objects in XML; Improved Search"
+- [What's New: E-Documents Localizations (2025 release wave 1)](../../../../videos/hL4PUhjyhNY.md) (video): "E-Documents Core App; Peppol B3 Format (Global); Germany E-Documents Localization"
 
 ## Business Central pages and reports
 

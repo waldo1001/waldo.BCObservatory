@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-27T01:05:12.074Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,9 +67,9 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/2640
     - post/aardvarklabs-blog/3460
     - post/kauffmann-nl/8332
+    - post/yzhums-com/64057
   guidelines: []
   changes:
     - change/bcapps/12557
@@ -159,8 +159,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../../changes/bcapps/12557.md) (code change): "Implement first-party app authentication for Microsoft Fabric Export"
 - [#13326 [Fabric] Clean up test events, app naming, authentication and telemetry](../../../../../changes/bcapps/13326.md) (code change): "removed the unused Key Vault first-party client-ID lookup"
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
-- [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText is a data type in Business Central AL that protects sensitive values like API keys"
 - [Native SFTP Support in Business Central 28](../../../../../posts/aardvarklabs-blog/3460.md) (community post): "Sensitive FTP credentials should be stored using Isolated Storage with SecretText"
 - [OAuth library for the Rest Client](../../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
+- [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../../posts/yzhums-com/64057.md) (community post): "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

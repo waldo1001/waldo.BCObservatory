@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14527",
+  "input_hash": "f836746d3ea7d57e341b0c57a3fdda387b6443496b0a766552cb7a4188dca571",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-27T01:03:39.433Z",
+  "issues": [
+    "Summary and key points match the description: name-based reuse now requires access to the current company, otherwise a new agent is created."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022484,
+    "changes_in_call": 6
+  }
+}
