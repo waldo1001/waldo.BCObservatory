@@ -6,10 +6,35 @@
   "title": "[Main]-Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
   "url": "https://github.com/microsoft/BCApps/pull/14420",
   "published_at": "2026-11-27T07:09:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:17:37.241Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:17:41.296Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003202
+    },
+    "linked": {
+      "at": "2026-11-28T00:17:41.533Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:17:41.543Z",
+      "path": "content/changes/bcapps/14420.md"
     }
   },
   "input_hash": "4e96402155e2599f2be9f1dd9f29ef3d5fa87521:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "export electronic payments one vendor s missing email can clear another vendor s document no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a9a0abdda755b65d97a65476b290f2798523719980f59d7e6aef3aa01c5d13b5"
 }

@@ -6,10 +6,18 @@
   "title": "[29.x]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.",
   "url": "https://github.com/microsoft/BCApps/pull/14105",
   "published_at": "2026-11-27T04:42:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:17:46.154Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 14,
+      "objects": 10,
+      "unjoined": 4
     }
   },
   "input_hash": "0c54f0fb8c232bd1e2f89663d18d1dbb59fab150:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "project ledger entry does not get the modified amount from purchase order statistics if the purchase line is of type g l account in the spanish version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6365954953f7c6d63683f6f1489a010892df157f8d1f785482234256d3efafac"
 }

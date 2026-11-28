@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14534",
+  "number": 14534,
+  "title": "Fix Sales FR feature activation data migration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales FR feature activation now uses RecordRef-based copying instead of DataTransfer to avoid execution errors outside installation or upgrade sessions.",
+  "key_points": [
+    "Replaced DataTransfer with RecordRef-based record copying during feature activation",
+    "DataTransfer usage retained for CLEAN30 installation and upgrade scenarios",
+    "Preserves non-default source filters and skips OnModify triggers in the new approach",
+    "Fixes feature activation failure in the Sales FR app"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Enabling the Sales FR feature fails because its migration uses DataTransfer outside an installation or upgrade session.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003257,
+    "changes_in_call": 1
+  }
+}

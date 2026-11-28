@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14432",
+  "number": 14432,
+  "title": "[Main]- Item Journal approval link fails after approver switches batches",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed item journal approval links failing when approvers had previously accessed a different batch. The IsOpenedFromBatch method now correctly uses the record's template and batch instead of falling back to the user's saved batch.",
+  "key_points": [
+    "Item Journal's IsOpenedFromBatch now matches General Journal's implementation",
+    "When no batch filter is set, the method uses the record's own batch name",
+    "Special filter characters in batch names are properly quoted",
+    "Approval email links now navigate to the correct batch for the approver",
+    "Applied to W1 and all localized versions (APAC, CH, ES, FR, GB, IT, RU)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004011,
+    "changes_in_call": 1
+  }
+}

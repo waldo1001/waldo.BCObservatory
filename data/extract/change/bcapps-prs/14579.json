@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14579",
+  "number": 14579,
+  "title": "[29.x][Genrate Lines from Allocation Account Line leaves incorrect Non-deductible VAT amounts when Prices Including VAT is enabled.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a bug where generating purchase lines from allocation account entries calculated incorrect non-deductible VAT amounts when prices include VAT.",
+  "key_points": [
+    "Corrects non-deductible VAT calculation in purchase allocation account line generation",
+    "Issue occurred specifically when prices including VAT mode was enabled",
+    "Fix applied to Purchase Allocation Account Management codeunit",
+    "Test coverage added across multiple localization layers (W1, IT, NL, NO)",
+    "Affects the allocation account feature for purchase transactions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "quote": "Generate Lines from Allocation Account Line leaves incorrect Non-deductible VAT amounts when Prices Including VAT is enabled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003622,
+    "changes_in_call": 1
+  }
+}

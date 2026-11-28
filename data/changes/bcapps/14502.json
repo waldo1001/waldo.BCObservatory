@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14502,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14502",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-27T06:42:43Z",
+  "merge_commit_sha": "add604316006ecb098f2a6d8c8470ea5916b73ea",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main][Subcontracting] Create Return includes components and WIP from unrelated purchase orders",
+  "body_hash": "3c0861e1d48861b14cb02be935d1e91e2ff88857eb5256446698b2a829434516",
+  "fixes_issues": [],
+  "work_items": [
+    660503
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCreateSubCReturnOrder.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWIPTransCreateTest.Codeunit.al",
+      "status": "modified",
+      "additions": 231,
+      "deletions": 10,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 232,
+    "deletions": 10,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCreateSubCReturnOrder.Report.al",
+        "status": "modified",
+        "key": "report/20502",
+        "type": "report",
+        "id": 20502,
+        "name": "Subc. Create SubCReturnOrder",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20502"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

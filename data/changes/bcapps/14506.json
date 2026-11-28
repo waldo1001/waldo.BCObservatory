@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14506,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14506",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-27T04:35:11Z",
+  "merge_commit_sha": "aa48591b71c0196cd67b39b7e8180247fdfad7cf",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[29.x]-\"Cannot match item tracking\" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled",
+  "body_hash": "a91eb87c0bd76fb56677cddcd966116c99363738339db7c03ca87829c1bc51ad",
+  "fixes_issues": [],
+  "work_items": [
+    657960
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Reservation/SCMInventoryItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 81,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 82,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "baedf68df311071024c0711fde8b1fbac33ec290",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6500",
+        "type": "codeunit",
+        "id": 6500,
+        "name": "Item Tracking Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6500"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

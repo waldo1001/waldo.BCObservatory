@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14485",
+  "number": 14485,
+  "title": "[Job Queue] Apply Job Timeout to tasks re-created by the dispatcher",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Job Queue entries are now terminated according to their configured Job Timeout when re-created by the dispatcher, instead of using the platform default 12-hour timeout.",
+  "key_points": [
+    "Reschedule and RescheduleAsWaiting methods now pass the job timeout to CreateTask calls",
+    "New internal GetJobTimeout procedure returns the entry timeout or the default if zero",
+    "Tasks running entries in Waiting state or outside Starting/Ending Time now respect configured timeouts",
+    "Prevents long-running jobs from holding locks past their intended timeout during business hours",
+    "Tests added to verify timeout is applied on both rescheduling paths"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004499,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Job Queue: resume interrupted finalization on task retry",
   "url": "https://github.com/microsoft/BCApps/pull/14499",
   "published_at": "2026-11-27T10:26:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:16:22.979Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:16:35.013Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004787
+    },
+    "linked": {
+      "at": "2026-11-28T00:16:35.237Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:16:35.243Z",
+      "path": "content/changes/bcapps/14499.md"
     }
   },
   "input_hash": "28e07f3f0e04f8b002a8ff6501600dac0e2b5217:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "job queue resume interrupted finalization on task retry"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71ec7f4b00a35bcb456c93a50b87a440c589a5b53c6d5305675c0b558944792e"
 }

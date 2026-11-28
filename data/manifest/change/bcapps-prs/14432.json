@@ -6,10 +6,35 @@
   "title": "[Main]- Item Journal approval link fails after approver switches batches",
   "url": "https://github.com/microsoft/BCApps/pull/14432",
   "published_at": "2026-11-27T05:58:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:17:40.215Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:17:45.290Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004011
+    },
+    "linked": {
+      "at": "2026-11-28T00:17:45.523Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:17:45.531Z",
+      "path": "content/changes/bcapps/14432.md"
     }
   },
   "input_hash": "31622ff7373235e672285196fce802268760e380:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "item journal approval link fails after approver switches batches"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c3673f95f8b4f68f75816b25b52dd31bee03a1e74517f5a0331d117aa903699f"
 }

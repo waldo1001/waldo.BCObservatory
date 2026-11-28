@@ -6,10 +6,35 @@
   "title": "[29.x][Genrate Lines from Allocation Account Line leaves incorrect Non-deductible VAT amounts when Prices Including VAT is enabled.",
   "url": "https://github.com/microsoft/BCApps/pull/14579",
   "published_at": "2026-11-27T12:39:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:14:49.102Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-28T00:14:54.272Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003622
+    },
+    "linked": {
+      "at": "2026-11-28T00:14:54.558Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "baedf68df311071024c0711fde8b1fbac33ec290"
+    },
+    "published": {
+      "at": "2026-11-28T00:14:54.563Z",
+      "path": "content/changes/bcapps/14579.md"
     }
   },
   "input_hash": "8a7d8af0d3b0b6e3ba2b16bed20aec331023e63a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "genrate lines from allocation account line leaves incorrect non deductible vat amounts when prices including vat is enabled"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "344064bdaad3ad3ec4255aad69782f91c6e900da15b06e436ea2e4128f8e1cf8"
 }

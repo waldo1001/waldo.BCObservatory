@@ -6,14 +6,22 @@
   "title": "Obsolete objects and add deprecation notices for PTE upload/install in Extension Management",
   "url": "https://github.com/microsoft/BCApps/pull/10046",
   "published_at": "2026-11-26T14:45:02Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:17:47.307Z",
+      "change_class": "code",
+      "files": 30,
+      "al": 26,
+      "objects": 24,
+      "unjoined": 2
     }
   },
   "input_hash": "a751b15368453c5fc15e40bd1a4037b1dee3553f:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 10046,
@@ -31,6 +39,7 @@
     "community_contribution": false,
     "title_key": "obsolete objects and add deprecation notices for pte upload install in extension management"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-27T02:15:58.551Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82d8fb72ff763c8f3238184add62720083dcd405ada1d6b00692845ee2ff24c7"
 }

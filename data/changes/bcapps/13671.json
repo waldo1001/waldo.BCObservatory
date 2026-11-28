@@ -1,0 +1,187 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13671,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13671",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T15:24:39Z",
+  "merge_commit_sha": "829ce7b3fb8145aa0bcfe66837e221b66deb8353",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Expense Agent: configure posting groups per subcategory",
+  "body_hash": "40c6d4a2597c1412c17beececd93ecceea981cb275620746a33b7fd87a9b7af6",
+  "fixes_issues": [],
+  "work_items": [
+    623814
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseSubcategoriesAPI.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 225,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseSubcategories.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseCategory.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpensePostingGroup.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseSubcategory.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpSubcategoriesPreview.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseCategoryUITest.Codeunit.al",
+      "status": "added",
+      "additions": 143,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePostingVATTest.Codeunit.al",
+      "status": "modified",
+      "additions": 439,
+      "deletions": 49,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 843,
+    "deletions": 67,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseSubcategoriesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6925",
+        "type": "page",
+        "id": 6925,
+        "name": "Expense Subcategories API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6925"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseSubcategories.Page.al",
+        "status": "modified",
+        "key": "page/6973",
+        "type": "page",
+        "id": 6973,
+        "name": "Expense Subcategories",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6973"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseCategory.Table.al",
+        "status": "modified",
+        "key": "table/6921",
+        "type": "table",
+        "id": 6921,
+        "name": "Expense Category",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6921"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpensePostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/6928",
+        "type": "table",
+        "id": 6928,
+        "name": "Expense Posting Group",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6928"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseSubcategory.Table.al",
+        "status": "modified",
+        "key": "table/6929",
+        "type": "table",
+        "id": 6929,
+        "name": "Expense Subcategory",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6929"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpSubcategoriesPreview.Page.al",
+        "status": "modified",
+        "key": "page/6967",
+        "type": "page",
+        "id": 6967,
+        "name": "Exp. Subcategories Preview",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6967"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

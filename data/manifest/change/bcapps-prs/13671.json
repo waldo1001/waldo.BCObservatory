@@ -6,14 +6,22 @@
   "title": "Expense Agent: configure posting groups per subcategory",
   "url": "https://github.com/microsoft/BCApps/pull/13671",
   "published_at": "2026-11-26T15:24:39Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-27T00:13:11.976Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:17:46.939Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
     }
   },
   "input_hash": "829ce7b3fb8145aa0bcfe66837e221b66deb8353:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13671,
@@ -31,6 +39,7 @@
     "community_contribution": false,
     "title_key": "expense agent configure posting groups per subcategory"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-27T02:15:10.839Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f5f0c4b5436791776d2364729b86b8769d6a8e9d041a84ce8e779965d36099f"
 }

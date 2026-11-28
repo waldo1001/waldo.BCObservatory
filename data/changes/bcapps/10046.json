@@ -1,0 +1,537 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10046,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10046",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-26T14:45:02Z",
+  "merge_commit_sha": "a751b15368453c5fc15e40bd1a4037b1dee3553f",
+  "author": "PooyaKharamesh",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Obsolete objects and add deprecation notices for PTE upload/install in Extension Management",
+  "body_hash": "1e04b1e99776e0acbd0f0cc30506a0a9b5fefd5dd47e3b27c172e85694441ccf",
+  "fixes_issues": [],
+  "work_items": [
+    638999
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/APIV1/app/src/pages/APIV1AutExtensionDepl.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV1/app/src/pages/APIV1AutExtensionUpload.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV1/app/src/permissions/d365automationapiv1.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/app/src/pages/APIV2AutExtensionDepl.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/app/src/pages/APIV2AutExtensionUpload.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/app/src/permissions/d365automationapiv2.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/ExtensionSubscribers.PageExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/ExtensionManagement/AutomationExtensionDepl.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/API/APIExtensionUpload.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/NewObjectTests-Internal/CloudMigrationPropertyTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/permissions/ExtensionManagementObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionDeployTo.Enum.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionDeploymentStatus.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionDeploymentStatus.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionManagement.Page.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionOperationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionSyncMode.Enum.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/UploadAndDeployExtension.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/Extension Management/Permissions/ExtenMgtUITest.PermissionSet.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test Library/Extension Management/src/ExtensionMgtTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/Extension Management/src/ExtensionManagementTest.Codeunit.al",
+      "status": "modified",
+      "additions": 102,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 30,
+    "additions": 367,
+    "deletions": 17,
+    "al": 26
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/APIV1/app/src/pages/APIV1AutExtensionDepl.Page.al",
+        "status": "modified",
+        "key": "page/20007",
+        "type": "page",
+        "id": 20007,
+        "name": "APIV1 - Aut. Extension Depl.",
+        "app": "APIV1",
+        "cc": "w1",
+        "page": "page/20007"
+      },
+      {
+        "path": "src/Apps/W1/APIV1/app/src/pages/APIV1AutExtensionUpload.Page.al",
+        "status": "modified",
+        "key": "page/20006",
+        "type": "page",
+        "id": 20006,
+        "name": "APIV1 - Aut. Extension Upload",
+        "app": "APIV1",
+        "cc": "w1",
+        "page": "page/20006"
+      },
+      {
+        "path": "src/Apps/W1/APIV1/app/src/permissions/d365automationapiv1.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/2148",
+        "type": "permissionset",
+        "id": 2148,
+        "name": "D365 Automation APIV1",
+        "app": "APIV1",
+        "cc": "w1",
+        "page": "permissionset/2148"
+      },
+      {
+        "path": "src/Apps/W1/APIV2/app/src/pages/APIV2AutExtensionDepl.Page.al",
+        "status": "modified",
+        "key": "page/30007",
+        "type": "page",
+        "id": 30007,
+        "name": "APIV2 - Aut. Extension Depl.",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "page/30007"
+      },
+      {
+        "path": "src/Apps/W1/APIV2/app/src/pages/APIV2AutExtensionUpload.Page.al",
+        "status": "modified",
+        "key": "page/30006",
+        "type": "page",
+        "id": 30006,
+        "name": "APIV2 - Aut. Extension Upload",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "page/30006"
+      },
+      {
+        "path": "src/Apps/W1/APIV2/app/src/permissions/d365automationapiv2.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/2147",
+        "type": "permissionset",
+        "id": 2147,
+        "name": "D365 Automation APIV2",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "permissionset/2147"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/ExtensionSubscribers.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/2510",
+        "type": "pageextension",
+        "id": 2510,
+        "name": "Extension Subscribers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/2510"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/ExtensionManagement/AutomationExtensionDepl.Page.al",
+        "status": "modified",
+        "key": "page/5448",
+        "type": "page",
+        "id": 5448,
+        "name": "Automation Extension Depl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5448"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5117",
+        "type": "permissionset",
+        "id": 5117,
+        "name": "D365 AUTOMATION",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/732",
+        "type": "permissionset",
+        "id": 732,
+        "name": "D365 BASIC ISV",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/732"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/959",
+        "type": "permissionset",
+        "id": 959,
+        "name": "D365 BUS FULL ACCESS",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/959"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1044",
+        "type": "permissionset",
+        "id": 1044,
+        "name": "D365 READ",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/1044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7931",
+        "type": "permissionset",
+        "id": 7931,
+        "name": "D365 TEAM MEMBER",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7931"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6121",
+        "type": "permissionset",
+        "id": 6121,
+        "name": "INTELLIGENT CLOUD",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/API/APIExtensionUpload.Table.al",
+        "status": "modified",
+        "key": "table/5447",
+        "type": "table",
+        "id": 5447,
+        "name": "API Extension Upload",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5447"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/permissions/ExtensionManagementObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/2504",
+        "type": "permissionset",
+        "id": 2504,
+        "name": "Extension Management - Objects",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/2504"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionDeployTo.Enum.al",
+        "status": "modified",
+        "key": "enum/2504",
+        "type": "enum",
+        "id": 2504,
+        "name": "Extension Deploy To",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "enum/2504"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionDeploymentStatus.Page.al",
+        "status": "modified",
+        "key": "page/2508",
+        "type": "page",
+        "id": 2508,
+        "name": "Extension Deployment Status",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2508"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionDeploymentStatus.Table.al",
+        "status": "modified",
+        "key": "table/2508",
+        "type": "table",
+        "id": 2508,
+        "name": "Extension Deployment Status",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/2508"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2504",
+        "type": "codeunit",
+        "id": 2504,
+        "name": "Extension Management",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2504"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionManagement.Page.al",
+        "status": "modified",
+        "key": "page/2500",
+        "type": "page",
+        "id": 2500,
+        "name": "Extension Management",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2500"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionOperationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2503",
+        "type": "codeunit",
+        "id": 2503,
+        "name": "Extension Operation Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2503"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionSyncMode.Enum.al",
+        "status": "modified",
+        "key": "enum/2505",
+        "type": "enum",
+        "id": 2505,
+        "name": "Extension Sync Mode",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "enum/2505"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/UploadAndDeployExtension.Page.al",
+        "status": "modified",
+        "key": "page/2507",
+        "type": "page",
+        "id": 2507,
+        "name": "Upload And Deploy Extension",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2507"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "administration",
+    "integration"
+  ],
+  "apps": [
+    "APIV1",
+    "APIV2",
+    "Base Application",
+    "System Application"
+  ]
+}

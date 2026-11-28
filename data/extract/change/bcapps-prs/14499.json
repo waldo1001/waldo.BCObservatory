@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14499",
+  "number": 14499,
+  "title": "Job Queue: resume interrupted finalization on task retry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Job Queue Dispatcher now resumes interrupted finalization when a task retries after a lock timeout, preventing recurring jobs from being permanently stuck in the Finished state without scheduling their next recurrence.",
+  "key_points": [
+    "Detects when a task retry occurs after finalization failure by checking for In Process or Success log entries matching the System Task ID",
+    "Resumes bookkeeping to finalize the log entry and call FinalizeRun to schedule the next recurrence or delete non-recurring entries",
+    "Only acts on entries that are Finished, have Manual Recurrence off, and have a matching log entry, leaving other Finished entries untouched",
+    "Emits new telemetry signal 0000WW6 to track when job queue entry finalization is resumed",
+    "Includes new tests covering recurring entry rescheduling, non-recurring entry deletion, and entries left untouched when no log entry exists"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "A recurring Job Queue Entry can stop being scheduled forever.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004787,
+    "changes_in_call": 1
+  }
+}

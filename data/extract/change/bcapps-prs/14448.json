@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14448",
+  "number": 14448,
+  "title": "[main] Fix ELSTER UStVA 2026 XML export",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The ELSTER VAT advance notification export for Germany now uses the correct 2026 XML namespace and fixes the key-figure ordering to match the 2026 schema requirements, ensuring ELSTER accepts the exports.",
+  "key_points": [
+    "Namespace selection updated to use v2026 from 2026 onward while preserving v2023 for earlier filings",
+    "Key-figure Kz90 now correctly follows Kz93 as required by the 2026 schema",
+    "New test cases added to cover monthly, quarterly, prior-year and future-year filing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "ELSTER rejects 2026 German VAT advance notification exports because they use the obsolete v2023 namespace.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003545,
+    "changes_in_call": 1
+  }
+}

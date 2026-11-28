@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/14502",
+  "number": 14502,
+  "title": "[main][Subcontracting] Create Return includes components and WIP from unrelated purchase orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Return transfer orders in subcontracting now correctly filter by purchase order number to prevent including lines from unrelated orders.",
+  "key_points": [
+    "Return transfer headers are now filtered by Subcontr. Purch. Order No. when creating return orders",
+    "Prevents mixing of components and WIP from different subcontracting purchase orders",
+    "Regression test coverage expanded to verify purchase-order isolation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Filter matching return headers by Subcontr. Purch. Order No. and update regression coverage to verify purchase-order isolation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003317,
+    "changes_in_call": 1
+  }
+}

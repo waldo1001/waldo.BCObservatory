@@ -1,0 +1,88 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14485,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14485",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-27T10:26:40Z",
+  "merge_commit_sha": "37479bb2af892a42b8835d74193e55bbcec970cb",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Job Queue] Apply Job Timeout to tasks re-created by the dispatcher",
+  "body_hash": "16377e16b3368e796862e1ef0b5e5632c66b5e600738ff2bedcc7cc59a715c70",
+  "fixes_issues": [],
+  "work_items": [
+    659837
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueDispatcher.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/TestJobQueueSNAP.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 93,
+    "deletions": 9,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueDispatcher.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/448",
+        "type": "codeunit",
+        "id": 448,
+        "name": "Job Queue Dispatcher",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/448"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+        "status": "modified",
+        "key": "table/472",
+        "type": "table",
+        "id": 472,
+        "name": "Job Queue Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/472"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

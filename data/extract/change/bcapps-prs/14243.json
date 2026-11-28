@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14243",
+  "number": 14243,
+  "title": "[Main]- Lot-for-Lot accumulation splits supply into multiple requisition lines when Dampener Period and Safety Stock are enabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed Lot-for-Lot accumulation in inventory planning to consolidate multiple requisition lines into one when both Dampener Period and Safety Stock are enabled.",
+  "key_points": [
+    "Lot-for-Lot orders are no longer split unnecessarily when planned within a dampener period",
+    "Planning now allows new orders to grow within the lot accumulation period",
+    "Requires both Dampener Period and Safety Stock settings to be active",
+    "Multiple order lines are consolidated into a single requisition line",
+    "Improves supply planning efficiency and reduces fragmentation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003634,
+    "changes_in_call": 1
+  }
+}

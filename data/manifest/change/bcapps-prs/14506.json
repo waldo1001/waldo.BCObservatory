@@ -6,10 +6,35 @@
   "title": "[29.x]-\"Cannot match item tracking\" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled",
   "url": "https://github.com/microsoft/BCApps/pull/14506",
   "published_at": "2026-11-27T04:35:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:17:45.270Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:17:50.183Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004088
+    },
+    "linked": {
+      "at": "2026-11-28T00:17:50.386Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "baedf68df311071024c0711fde8b1fbac33ec290"
+    },
+    "published": {
+      "at": "2026-11-28T00:17:50.393Z",
+      "path": "content/changes/bcapps/14506.md"
     }
   },
   "input_hash": "aa48591b71c0196cd67b39b7e8180247fdfad7cf:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "cannot match item tracking when partially posting an inventory pick for lot tracked items with strict expiration posting enabled"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ebe80b03c5b077ebdcd1c75eff685857c984dc5803557735cd621d2616e2228"
 }

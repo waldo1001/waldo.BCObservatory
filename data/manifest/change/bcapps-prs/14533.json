@@ -6,7 +6,7 @@
   "title": "[ES] Verifactu: report exempt operations (E1-E6) and foreign recipients (IDOtro)",
   "url": "https://github.com/microsoft/BCApps/pull/14533",
   "published_at": "2026-11-27T12:15:16Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-28T00:12:53.289Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "es verifactu report exempt operations e1 e6 and foreign recipients idotro"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-28T00:14:53.691Z",
+  "retry_after": null
 }

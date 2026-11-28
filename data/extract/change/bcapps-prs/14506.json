@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14506",
+  "number": 14506,
+  "title": "[29.x]-\"Cannot match item tracking\" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed an error that prevented partial posting of inventory picks for lot-tracked items when Strict Expiration Posting is enabled. The fix filters warehouse activity lines to only validate lots being posted, not all lot lines created by the pick split.",
+  "key_points": [
+    "Partial posting of inventory picks for lot-tracked items now works correctly with Strict Expiration Posting enabled",
+    "Added a filter to exclude pick lines with zero quantity to handle from lot tracking validation",
+    "Preserves original lot-mismatch validation for lines that are actually being posted",
+    "Regression test added to prevent recurrence of this issue"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004088,
+    "changes_in_call": 1
+  }
+}

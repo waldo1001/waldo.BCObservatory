@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14420,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14420",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-27T07:09:41Z",
+  "merge_commit_sha": "4e96402155e2599f2be9f1dd9f29ef3d5fa87521",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
+  "body_hash": "dc5238999c763d3240bf5b4b5cbcc7651de5d4a032d57f77967a9ae894794f3e",
+  "fixes_issues": [],
+  "work_items": [
+    659463
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Finance/GeneralLedger/Journal/BulkVendorRemitReporting.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Local/ERMElectronicFundsTransfer.Codeunit.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 105,
+    "deletions": 12,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Finance/GeneralLedger/Journal/BulkVendorRemitReporting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10250",
+        "type": "codeunit",
+        "id": 10250,
+        "name": "Bulk Vendor Remit Reporting",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/10250-ca"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
