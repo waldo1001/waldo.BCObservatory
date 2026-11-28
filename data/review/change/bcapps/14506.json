@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/14506",
+  "input_hash": "1747ff03af9d55091966017326c9fa120a3324f8f7d39987c479e1d55518dbb3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-28T01:06:47.641Z",
+  "issues": [
+    "Summary and key points match the description: the Qty. to Handle (Base) <>0 filter in WhseActivityLineValidateLotTracking, the kept lot-mismatch check and the regression test.",
+    "Marking it as a non-breaking fix with a behaviour change is correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03567,
+    "changes_in_call": 2
+  }
+}

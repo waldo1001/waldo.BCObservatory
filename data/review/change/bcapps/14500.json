@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/14500",
+  "input_hash": "63c60f2d5b38a4c8b9814831039d293d5c524886894c6f417f2eac3de86adb0c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:06:57.124Z",
+  "issues": [
+    "The PR comes from a reported customer case and fixes a work item, so it is a fix rather than a feature.",
+    "The summary overstates 'XRechnung implementation standards'; the description only says it matches how XRechnung export does it.",
+    "Key points were padded and repeated each other."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019101,
+    "changes_in_call": 6
+  }
+}

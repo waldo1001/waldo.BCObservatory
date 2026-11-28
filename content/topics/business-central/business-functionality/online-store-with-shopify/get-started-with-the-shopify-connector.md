@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:59.535Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11400
     - change/bcapps/12214
     - change/bcapps/12215
     - change/bcapps/12260
@@ -115,6 +116,7 @@ Start with the account page if you have no Shopify store to test with. Otherwise
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11400 [Shopify] Handle missing variant mapping in product action](../../../../changes/bcapps/11400.md) (code change): "Show product in Shopify action on the Item Card and Item List is now enabled only when"
 - [#12214 [Shopify] Store currency handling for auto-created orders](../../../../changes/bcapps/12214.md) (code change): "Shopify connector now persists the currency handling mode used"
 - [#12215 [Shopify] Link grouped invoice to all originating orders](../../../../changes/bcapps/12215.md) (code change): "Invoice document linking to Shopify orders now correctly associates"
 - [#12260 [Shopify] Fix shop card transaction navigation](../../../../changes/bcapps/12260.md) (code change): "Shopify Shop Card payment transaction navigation now opens the correct"

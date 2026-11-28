@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -224,6 +224,7 @@ links:
     - change/al-go/2402
     - change/al-go/2413
     - change/bcapps/10205
+    - change/bcapps/10408
     - change/bcapps/11073
     - change/bcapps/12428
     - change/bcquality/246
@@ -295,6 +296,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2402 Move Copilot review engine into AL-Go](../../../changes/al-go/2402.md) (code change): "AL-Go gains a built-in Copilot pull request review"
 - [#2413 Only enable automatic Copilot review triggers when opted in](../../../changes/al-go/2413.md) (code change): "Automatic Copilot review workflow triggers now activate only when explicitly opted in"
 - [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
+- [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "Registers a Copilot capability and calls GPT-4.1 to match Shopify tax"
 - [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending to Computer Vision"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
 - [#246 Expose plan guidance as a preview plugin skill](../../../changes/bcquality/246.md) (code change): "BCQuality now exposes plan guidance as a preview plugin skill"

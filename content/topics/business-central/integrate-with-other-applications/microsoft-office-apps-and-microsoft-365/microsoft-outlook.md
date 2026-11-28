@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,9 +51,9 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
   localizations: []
-  videos:
-    - video/_OClSlushOU
-  posts: []
+  videos: []
+  posts:
+    - post/yzhums-com/72611
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -65,8 +65,8 @@ children: []
 coverage:
   learn: 3
   code: 2
-  video: 1
-  blog: 0
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1831
@@ -110,7 +110,7 @@ For organizations that do not use Outlook, the Set Up Email assisted setup guide
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Business Central in Outlook"
+- [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../../posts/yzhums-com/72611.md) (community post): "New Synchronize with Outlook action on the Contacts"
 
 ## Business Central pages and reports
 

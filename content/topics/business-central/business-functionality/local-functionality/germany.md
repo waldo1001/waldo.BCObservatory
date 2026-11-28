@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:12.562Z"
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -232,6 +232,7 @@ links:
     - post/miljan-rs/812
   guidelines: []
   changes:
+    - change/bcapps/10342
     - change/bcapps/9078
     - change/bcapps/9347
 learn_toc_path:
@@ -322,6 +323,7 @@ Start with the Germany local functionality page for an overview and the planned 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../changes/bcapps/10342.md) (code change): "GLN identifiers with schemeID 0088 are now included in German XRechnung and ZUGFeRD"
 - [#9078 Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin](../../../../changes/bcapps/9078.md) (code change): "German Intrastat export now groups detail lines by both Tariff Number and Country"
 - [#9347 Fix IssueDate in E-Documents for Germany](../../../../changes/bcapps/9347.md) (code change): "Fixed the IssueDate field in German E-Document exports"
 - [Polishing xRechnung and ZUGFeRD in Business Central](../../../../posts/miljan-rs/812.md) (community post): "xRechnung and ZUGFeRD formats built on the E-Documents framework"

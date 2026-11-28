@@ -7,12 +7,12 @@ tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-28T01:08:03.979Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -475,7 +475,7 @@ narrative: generated
 
 > Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in analysis and document reports, ad-hoc Data Analysis on list pages, custom analysis reports, and legacy reports slated for removal. It answers what each report shows, its filters and options, and which method fits a need.
 
-Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Sales analytics · tier official · system sales · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Sales analytics · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

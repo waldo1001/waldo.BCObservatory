@@ -12,7 +12,7 @@ review:
   at: "2026-11-22T01:00:28.230Z"
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -392,12 +392,13 @@ links:
     - change/bcapps/10141
     - change/bcapps/10143
     - change/bcapps/10162
-    - change/bcapps/10437
-    - change/bcapps/11386
-    - change/bcapps/11484
+    - change/bcapps/11152
+    - change/bcapps/11168
+    - change/bcapps/11318
     - change/bcapps/11527
     - change/bcapps/11563
     - change/bcapps/11745
+    - change/bcapps/12148
     - change/bcapps/13765
 learn_toc_path:
   - Integration
@@ -543,12 +544,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10141 [Quality Management] Make transaction blocked error more understandable and actionable](../../changes/bcapps/10141.md) (code change): "Quality Management transaction blocking errors now display more clearly with actionable information"
 - [#10143 Handle non-invoice or currupt PDF extraction](../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs that return empty data"
 - [#10162 Fix stale start status in e-document import pipeline](../../changes/bcapps/10162.md) (code change): "The e-document import pipeline now uses the initial processing status"
-- [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support added to enable payment and invoice lifecycle communication"
-- [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected"
-- [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
+- [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../changes/bcapps/11152.md) (code change): "New Mark As Accepted action on posted sales, purchase, and service documents for Spanish SII"
+- [#11168 Restore E-Document vendor invoice field compatibility](../../changes/bcapps/11168.md) (code change): "E-Document vendor invoice field name restored from 'Applies-to Ext. Invoice No.' to 'Vendor Invoice No.'"
+- [#11318 [main] Bug 649189: Update E-Document vendor invoice caption](../../changes/bcapps/11318.md) (code change): "E-Document purchase header field caption and page labels were updated to use applies-to terminology"
 - [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
 - [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../changes/bcapps/11563.md) (code change): "Add PEPPOL Requested Delivery Period support at both header and line level"
 - [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
+- [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28"
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
 - [🤖 Manage your projects, repositories, and more with Azure DevOps MCP Server ✅](../../posts/gerardorenteria-blog/11401.md) (community post): "Manage your projects, repositories, and more with Azure DevOps MCP Server"

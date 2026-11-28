@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:57.224Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,6 +199,7 @@ links:
   videos:
     - video/zt9_HEmPKNg
   posts:
+    - post/olofsimren-com/3981
     - post/yzhums-com/67657
     - post/yzhums-com/71239
   guidelines: []
@@ -230,7 +231,7 @@ coverage:
   learn: 13
   code: 67
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 911
@@ -376,6 +377,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9277.md) (code change): "PRODUCED item template with manufacturing-specific settings like replenishment system, manufacturing policy"
 - [#9787 [Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code](../../../../changes/bcapps/9787.md) (code change): "enabling early detection of missing configuration before downstream"
 - [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Added assisted setup guide for initial app configuration"
+- [Shop Floor and Warehouse Mobile for Business Central](../../../../posts/olofsimren-com/3981.md) (community post): "Solution is built entirely as an AL extension inside Business Central"
 - [Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)](../../../../posts/yzhums-com/67657.md) (community post): "Default Consumption Calculation Based on field in Manufacturing Setup"
 - [Business Central 2026 release wave 1 (BC28): Add the Description 2 field to various pages to gain more insight (planning, routing, production order creation, and related processes)](../../../../posts/yzhums-com/71239.md) (community post): "Description 2 is added at table level and supported across planning, routing, production order creation"
 - [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; shop calendar; work shifts; production scheduling"

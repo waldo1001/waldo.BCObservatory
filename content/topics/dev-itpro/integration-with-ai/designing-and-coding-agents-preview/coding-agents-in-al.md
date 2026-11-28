@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,16 +93,10 @@ links:
     - video/EwN3xb2q7vE
     - video/MNwTt06ZxwY
     - video/nbGw2g3KMXI
-    - video/WjFx9yYf1js
-    - video/xqwJTCPD9tA
   posts:
     - post/bertverbeek-nl/1272
     - post/demiliani-com/13814
     - post/demiliani-com/17529
-    - post/vondervoort-be/130
-    - post/vondervoort-be/147
-    - post/waldo-be/318755
-    - post/wingate365-com/https-blog-wingate365-com-2026-10-directions-emea-2026-paris-the-consultant-zone-and-two-panels-html--9438fa651d
     - post/yzhums-com/71363
   guidelines: []
   changes:
@@ -199,8 +193,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 5
-  blog: 8
+  video: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -339,15 +333,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "Implement IAgentFactory to control agent creation, setup experience, and access"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "new Agent codeunit methods: SetModelId, SetModelIdToAuto, GetModelId"
 - [Copilots and agents for Dynamics 365 Business Central: our new book is out!](../../../../posts/demiliani-com/17529.md) (community post): "covering copilots, agents, and various implementation approaches using AL"
-- [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "AI agent integration (Claude Code, GitHub Copilot), and potential MCP integration"
-- [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops now integrates with AI assistants like Claude, Codex, and Cursor via an MCP server"
-- [Agent Maron & waldo: Mission AL Runner](../../../../posts/waldo-be/318755.md) (community post): "Two AI agents coordinated continuously over one week"
-- [Directions EMEA 2026 - Paris, the Consultant Zone, and Two Panels](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-10-directions-emea-2026-paris-the-consultant-zone-and-two-panels-html--9438fa651d.md) (community post): "practical AI prompts used in actual Business Central work"
 - [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../../posts/yzhums-com/71363.md) (community post): "the AL Language extension adds an Agent template to the AL: New Project command"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent creation and configuration; Agent instructions configuration; Agent model selection"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central; AL Agent Development"
-- [Vibe Coding Risks in Business Central. #businesscentral #bc #podcast](../../../../videos/WjFx9yYf1js.md) (video): "Vibe Coding Risks in Business Central"
-- [Designing Modern Integrations in Business Central](../../../../videos/xqwJTCPD9tA.md) (video): "AI agents for integration design; Agent skills documentation; Agent-generated technical documentation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

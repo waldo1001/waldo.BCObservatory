@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -281,6 +281,7 @@ links:
     - change/bcapps/12293
     - change/bcapps/12541
     - change/bcapps/13201
+    - change/bcapps/13331
     - change/bcapps/8905
     - change/bcapps/9224
     - change/bcapps/9333
@@ -402,11 +403,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12293 Remove CLEAN27 from Warehouse](../../../changes/bcapps/12293.md) (code change): "Removes code guarded by CLEAN27 from warehouse codeunits"
 - [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../changes/bcapps/12541.md) (code change): "Preserve transfer line UOM when toggling Direct Transfer"
 - [#13201 [main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.](../../../changes/bcapps/13201.md) (code change): "Retention policy now works correctly with posted inventory documents"
+- [#13331 [Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.](../../../changes/bcapps/13331.md) (code change): "Fixed lot quantity calculation in FEFO picking to respect unit of measure constraints"
 - [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../changes/bcapps/8905.md) (code change): "Reservation entries for project job planning lines now get the same source reference"
 - [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Whse.-Source - Create Document. The description does not say what each fix does"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../changes/bcapps/9333.md) (code change): "Warehouse management logic updated to enforce bin content block rules consistently"
 - [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "Direct transfers now support outbound warehouse handling at the source location"
-- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "barcode scanning, task-focused pages, and label printing integration"
+- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "warehouse receipts, picks, counts, and transfers directly from tablets"
 - [Dutch Dynamics Community Event 18 november 2025](../../../posts/vondervoort-be/67.md) (community post): "connecting Business Central to Dynamics 365 Supply Chain Management Warehouse Only Mode"
 - [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../videos/QdWPlIV3Avk.md) (video): "Warehouse integration for subcontracting; Warehouse receipt for subcontracting operations"

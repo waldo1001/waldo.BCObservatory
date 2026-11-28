@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 88 posts in the knowledge base, 2025-04-18 to 2026-11-20, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 89 posts in the knowledge base, 2025-04-18 to 2026-11-27, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-28T00:12:53.289Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 80d6629dc74605634e4ef47b1abe1acc0123d6f757dcc167bfcf40601c5e64e4
+  input_hash: adae381b576b8e7f45a5414688886d8cf7f898519019afb4b61a36d82f7a1d22
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -121,6 +121,7 @@ links:
     - post/aardvarklabs-blog/4100
     - post/aardvarklabs-blog/4095
     - post/aardvarklabs-blog/4116
+    - post/aardvarklabs-blog/4198
   guidelines: []
 source_id: aardvarklabs-blog
 kind: blog
@@ -128,15 +129,15 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 88
+item_count: 89
 footprint:
   systems:
     - id: development
-      weight: 100
+      weight: 102
     - id: integration
       weight: 45
     - id: copilot
-      weight: 38
+      weight: 39
     - id: platform
       weight: 33
     - id: reporting
@@ -154,14 +155,14 @@ footprint:
       weight: 6
     - id: json
       weight: 6
+    - id: ai agents
+      weight: 5
     - id: automation
       weight: 5
     - id: azure openai
       weight: 5
     - id: security
       weight: 5
-    - id: ai agents
-      weight: 4
     - id: community
       weight: 4
   objects:
@@ -191,12 +192,12 @@ footprint:
       weight: 2
   features: []
 first_item: "2025-04-18"
-last_item: "2026-11-20"
+last_item: "2026-11-27"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 88 posts in the knowledge base, 2025-04-18 to 2026-11-20, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 89 posts in the knowledge base, 2025-04-18 to 2026-11-27, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -204,15 +205,15 @@ last_item: "2026-11-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (100) | al development (22) | table Customer (7) |
+| development (102) | al development (22) | table Customer (7) |
 | integration (45) | copilot (10) | page Customer Card (5) |
-| copilot (38) | al code (8) | table Sales Header (5) |
+| copilot (39) | al code (8) | table Sales Header (5) |
 | platform (33) | api (6) | table Vendor (3) |
 | reporting (15) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
-| administration (14) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
-|  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
-|  | security (5) | codeunit ARD_CashFlowAgentSetup (2) |
-|  | ai agents (4) | codeunit ARD_IsolatedStorageWrapper (2) |
+| administration (14) | ai agents (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
+|  | automation (5) | codeunit ARD_CashFlowAgentMetadata (2) |
+|  | azure openai (5) | codeunit ARD_CashFlowAgentSetup (2) |
+|  | security (5) | codeunit ARD_IsolatedStorageWrapper (2) |
 |  | community (4) | codeunit Environment Information (2) |
 |  |  | page ARD_Cash Flow Agent KPI (2) |
 |  |  | page ARD_Cash Flow Agent Setup (2) |
@@ -227,10 +228,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
-- 2026-Q4: ******** 8
+- 2026-Q4: ********* 9
 
 ## Most recent
 
+- [Boosting Software Development with AI: Manage Your Agents](../posts/aardvarklabs-blog/4198.md) (2026-11-27)
 - [Business Central v29: Using AL Interfaces with Default Method Support](../posts/aardvarklabs-blog/4116.md) (2026-11-20)
 - [Business Central v29: ModuleInfo Gets Four New Runtime 18 Values](../posts/aardvarklabs-blog/4095.md) (2026-11-13)
 - [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](../posts/aardvarklabs-blog/4100.md) (2026-11-06)
@@ -250,6 +252,5 @@ Items per quarter, oldest first:
 - [Essential Guides to Data Imports in Business Central](../posts/aardvarklabs-blog/2333.md) (2026-07-31)
 - [Connect Claude to Business Central MCP: A Step-by-Step Guide](../posts/aardvarklabs-blog/3775.md) (2026-07-24)
 - [Optimizing Business Central Indexes for Performance with Copilot](../posts/aardvarklabs-blog/3761.md) (2026-07-17)
-- [Push Documents from Business Central to SFTP via Power Automate](../posts/aardvarklabs-blog/3704.md) (2026-07-10)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

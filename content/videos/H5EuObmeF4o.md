@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-27T01:00:57.817Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,6 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573350
     - feature/573624
     - feature/576872
     - feature/577820
@@ -329,12 +328,10 @@ features:
     verified: false
     status_source: video
   - name: Quality management extension
-    status: ga
+    status: unclear
     t: 1703
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573350"
+    status_source: video
   - name: Concurrent inventory posting with line sorting
     status: unclear
     t: 1753
@@ -454,7 +451,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Personalization of supply chain pages | status not stated | [27:09](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1629s) |  |
 | Statistics group for card pages | status not stated | [27:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1647s) |  |
 | Configure default consumption calculation | status not stated | [27:46](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1666s) |  |
-| Quality management extension | generally available (roadmap [Reduce manual work in quality tests and inspections](../features/573350.md)) | [28:23](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1703s) |  |
+| Quality management extension | status not stated | [28:23](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1703s) |  |
 | Concurrent inventory posting with line sorting | status not stated | [29:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1753s) |  |
 | Subcontracting capabilities in production | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)) | [29:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1798s) |  |
 | Resizable copilot help panes | status not stated | [31:43](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1903s) |  |

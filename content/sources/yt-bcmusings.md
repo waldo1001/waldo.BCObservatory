@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:13:11.976Z"
+  at: "2026-11-28T00:12:53.289Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 14e5459a56eee836f1f930537a7eeaac7dbdff76436964b77997538650c5bd23
@@ -29,7 +29,7 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573350
+    - feature/573317
     - feature/573624
     - feature/576872
     - feature/577820
@@ -119,7 +119,7 @@ footprint:
     - id: other set authorization
       weight: 1
   features:
-    - id: feature/573350
+    - id: feature/573317
       weight: 1
     - id: feature/573624
       weight: 1
@@ -165,7 +165,7 @@ Items per quarter, oldest first:
 ## Roadmap features it demonstrates
 
 - [Manually upload 1099 forms to the IRIS](../features/573624.md): USA, announced, GA 2027-01, 1 video
-- [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
+- [Monitor usage of Open in Excel with telemetry](../features/573317.md): Governance and administration, generally available, GA 2026-10, 1 video
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 1 video
 - [Use subcontracting capabilities in production processes](../features/576872.md): Supply chain management, generally available, GA 2026-07, 1 video
 

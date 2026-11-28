@@ -2,7 +2,7 @@
 id: source/mohana-blog
 type: source
 title: Mohana's Dynamics NAV & BC blog
-summary: "Mohana's Dynamics NAV & BC blog (Mohana Yadav): 28 posts in the knowledge base, 2026-02-11 to 2026-11-11, mostly about administration, development, integration."
+summary: "Mohana's Dynamics NAV & BC blog (Mohana Yadav): 29 posts in the knowledge base, 2026-02-11 to 2026-11-27, mostly about administration, development, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:14:43.393Z"
+  at: "2026-11-28T00:12:53.289Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c2f632790cfc3fb8e3713bedae4e3b238190756af185caa30b2b94b06d3e3fd6
+  input_hash: 84ff39f7c5f9f0755f5ffe2d69961217f78c89254063dbbb5dacd8375a8e94ec
 evidence:
   - kind: blog
     url: https://mohana-dynamicsnav.blogspot.com
@@ -61,6 +61,7 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8858724149942666914--7e2682363b
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6599711385738349777--4f78d5017d
   guidelines: []
 source_id: mohana-blog
 kind: blog
@@ -68,17 +69,17 @@ url: https://mohana-dynamicsnav.blogspot.com
 author: Mohana Yadav
 mvp: false
 full_text: false
-item_count: 28
+item_count: 29
 footprint:
   systems:
     - id: administration
-      weight: 17
+      weight: 19
     - id: development
       weight: 14
     - id: integration
       weight: 12
     - id: platform
-      weight: 11
+      weight: 12
     - id: inventory
       weight: 9
     - id: purchasing
@@ -131,12 +132,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2026-02-11"
-last_item: "2026-11-11"
+last_item: "2026-11-27"
 ---
 
 # Mohana's Dynamics NAV & BC blog
 
-> Mohana's Dynamics NAV & BC blog (Mohana Yadav): 28 posts in the knowledge base, 2026-02-11 to 2026-11-11, mostly about administration, development, integration.
+> Mohana's Dynamics NAV & BC blog (Mohana Yadav): 29 posts in the knowledge base, 2026-02-11 to 2026-11-27, mostly about administration, development, integration.
 
 [https://mohana-dynamicsnav.blogspot.com](https://mohana-dynamicsnav.blogspot.com) · blog · tier community
 
@@ -144,10 +145,10 @@ last_item: "2026-11-11"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| administration (17) | mcp server (3) | table Customer (2) |
+| administration (19) | mcp server (3) | table Customer (2) |
 | development (14) | migration (3) | api contacts (1) |
 | integration (12) | vendor management (3) | api countriesRegions (1) |
-| platform (11) | al development (2) | api currencies (1) |
+| platform (12) | al development (2) | api currencies (1) |
 | inventory (9) | automation (2) | api customers (1) |
 | purchasing (7) | claude desktop (2) | api employees (1) |
 |  | custom api pages (2) | api Item API page (1) |
@@ -163,10 +164,11 @@ Items per quarter, oldest first:
 
 - 2026-Q1: ********* 9
 - 2026-Q3: ************* 13
-- 2026-Q4: ****** 6
+- 2026-Q4: ******* 7
 
 ## Most recent
 
+- [BC28.5 Upgrade: Fixing the OpenTelemetry Error in Invoke-NAVApplicationDatabaseConversion](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6599711385738349777--4f78d5017d.md) (2026-11-27)
 - [Business Central is transitioning to .NET 10](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8858724149942666914--7e2682363b.md) (2026-11-11)
 - [Expense Agent just got half as expensive, and you can now try it for free](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241.md) (2026-11-11)
 - [Data query tools in the Business Central MCP server: a hands-on test guide](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6.md) (2026-10-07)
@@ -186,6 +188,5 @@ Items per quarter, oldest first:
 - [Dynamics NAV, GP and SL: Why I Think Customers Should Start Planning Now](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6059752303506296242--09a61c77e2.md) (2026-09-01)
 - [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) (2026-08-16)
 - [How to See When Your SQL Server Backup or Restore Will Finish](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4940750630260972824--c477aa77f5.md) (2026-07-23)
-- [Approval Workflows for Item Journals and Requisition Worksheets](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (2026-03-18)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

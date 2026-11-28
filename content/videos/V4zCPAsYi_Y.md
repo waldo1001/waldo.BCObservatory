@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:32.774Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,7 +94,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573333
+    - feature/573334
   topics: []
   localizations: []
   videos: []
@@ -170,10 +172,12 @@ features:
     verified: false
     status_source: video
   - name: Data-driven test structure with YAML
-    status: unclear
+    status: ga
     t: 86
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573333"
   - name: P0 test category
     status: unclear
     t: 155
@@ -190,10 +194,12 @@ features:
     verified: false
     status_source: video
   - name: PowerShell test runner for AL tests
-    status: unclear
+    status: ga
     t: 246
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573334"
   - name: LLM as judge for test validation
     status: announced
     t: 329
@@ -284,14 +290,16 @@ It then covers categorizing tests (P0, P1, load, variation), shows a sales retur
 | AI Development Toolkit Evaluation app | status not stated | [0:49](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=49s) |  |
 | AI Test Toolkits | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=49s) |  |
 | Test Suite Management methods | status not stated | [2:02](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=122s) |  |
-| Data-driven test structure with YAML | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=86s) |  |
+| Data-driven test structure with YAML | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [1:26](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=86s) |  |
 | P0 test category | status not stated | [2:35](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=155s) |  |
 | P1 scenario tests | status not stated | [2:45](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=165s) |  |
 | Load and variation tests | status not stated | [3:12](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=192s) |  |
-| PowerShell test runner for AL tests | status not stated | [4:06](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=246s) |  |
+| PowerShell test runner for AL tests | generally available (roadmap [Run AL tests from command-line and CI/CD workflows](../features/573334.md)) | [4:06](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=246s) |  |
 | LLM as judge for test validation | announced | [5:29](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=329s) | "we are planning to introduce LLM as a judge and this one is to verify the user intervention if it is containing the text" ([5:29](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=329s)) |
 | Visual Studio Code test execution | status not stated | [5:49](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=349s) |  |
 | Agent-assisted agent implementation | status not stated | [5:59](https://www.youtube.com/watch?v=V4zCPAsYi_Y&t=359s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

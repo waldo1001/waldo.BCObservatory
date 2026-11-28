@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -162,7 +162,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2331 Support trackALAlertsInGitHub for workspace compilation build path](../../../../changes/al-go/2331.md) (code change): "Support trackALAlertsInGitHub for workspace compilation build path"
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Prevents AL1153 compiler errors from runtime version mismatches"
 - [#10086 Make AA0194 an error in the base ruleset](../../../../changes/bcapps/10086.md) (code change): "Make AA0194 an error in the base ruleset"
-- [#10251 Ruleset hardening: promote 5 rules from Warning to Error](../../../../changes/bcapps/10251.md) (code change): "promote 5 rules from Warning to Error"
+- [#10251 Ruleset hardening: promote 5 rules from Warning to Error](../../../../changes/bcapps/10251.md) (code change): "Five analyzer rules were promoted back to Error by removing their overrides"
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../changes/bcapps/11682.md) (code change): "Code validated with BCApps ruleset and analyzers"
 - [#109 style-review: calibrate variable-declaration order (AA0021) to info](../../../../changes/bcquality/109.md) (code change): "variable-declaration-order rule (AA0021) severity is calibrated down from minor to info level"
 - [#110 review: stop reference-less agent findings in privacy and UI/accessibility leaves](../../../../changes/bcquality/110.md) (code change): "review skills now report only findings backed by a BCQuality knowledge file"

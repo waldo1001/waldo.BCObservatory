@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -445,7 +445,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the 'automate' API group"
-- [#10478 [Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries](../../../../changes/bcapps/10478.md) (code change): "The APIV2 dimension set lines page now uses FindSet() instead of FindFirst()"
+- [#10478 [Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries](../../../../changes/bcapps/10478.md) (code change): "APIV2 dimension set lines page now uses FindSet"
 - [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData public APIs"
 - [#12683 [API tests] Return shipment PDF selection and pdfDocument test isolation](../../../../changes/bcapps/12683.md) (code change): "Return shipment PDF selection and pdfDocument test isolation. The return shipment PDF handler"
 - [#12694 Allow API tests to issue local HTTP requests](../../../../changes/bcapps/12694.md) (code change): "API tests can now issue local HTTP requests by declaring explicit test HTTP request policies"

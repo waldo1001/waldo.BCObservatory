@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.802Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,26 +95,27 @@ links:
     - change/bcapps/10092
     - change/bcapps/10256
     - change/bcapps/10307
-    - change/bcapps/10349
     - change/bcapps/10407
     - change/bcapps/10417
     - change/bcapps/10462
+    - change/bcapps/10466
     - change/bcapps/10467
     - change/bcapps/10619
     - change/bcapps/10741
     - change/bcapps/10775
     - change/bcapps/11096
     - change/bcapps/11373
-    - change/bcapps/11400
     - change/bcapps/11407
+    - change/bcapps/11560
     - change/bcapps/11603
     - change/bcapps/11604
     - change/bcapps/11611
     - change/bcapps/11658
+    - change/bcapps/11660
     - change/bcapps/11854
     - change/bcapps/11866
+    - change/bcapps/11899
     - change/bcapps/12139
-    - change/bcapps/12148
     - change/bcapps/13883
     - change/bcapps/13899
     - change/bcapps/14123
@@ -220,27 +221,28 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10034 [Shopify] Don't block Shops page when user lacks extension permissions](../../../changes/bcapps/10034.md) (code change): "The Shopify Shops page no longer fails to open on Belgian environments"
 - [#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page](../../../changes/bcapps/10092.md) (code change): "Two new cues on the Shopify Activities page display counts of skipped sync records"
 - [#10256 [Shopify] Fix customer matching when phone numbers contain spaces](../../../changes/bcapps/10256.md) (code change): "When exporting customers to Shopify, the connector now strips phone numbers"
-- [#10307 [Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice](../../../changes/bcapps/10307.md) (code change): "Shopify Order Totals factbox now correctly resolves and displays totals for open sales orders"
-- [#10349 [DE] Support registration numbers in E-Documents](../../../changes/bcapps/10349.md) (code change): "Support registration numbers in E-Documents. E-Document import and export processing now handles registration numbers"
-- [#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)](../../../changes/bcapps/10407.md) (code change): "Shopify connector now captures and persists tax area code, tax liable, and tax exempt fields from Shopify orders"
-- [#10417 [Shopify] Pace raw-text GraphQL calls to prevent excessive throttling](../../../changes/bcapps/10417.md) (code change): "The Shopify connector now paces GraphQL requests issued through the raw-text overload to prevent excessive throttling"
-- [#10462 [Shopify] Fix order edit retaining discount allocation for removed quantity](../../../changes/bcapps/10462.md) (code change): "The Shopify connector now correctly adjusts line-level discount amounts when refunds reduce order line quantities"
-- [#10467 [Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning](../../../changes/bcapps/10467.md) (code change): "Fixed Shopify exchange refund handling when the replacement item is more expensive"
+- [#10307 [Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice](../../../changes/bcapps/10307.md) (code change): "The Shopify Order Totals factbox now correctly resolves and displays totals"
+- [#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)](../../../changes/bcapps/10407.md) (code change): "Shopify connector now captures and persists tax area code"
+- [#10417 [Shopify] Pace raw-text GraphQL calls to prevent excessive throttling](../../../changes/bcapps/10417.md) (code change): "The Shopify connector now paces GraphQL requests issued through the raw-text"
+- [#10462 [Shopify] Fix order edit retaining discount allocation for removed quantity](../../../changes/bcapps/10462.md) (code change): "The Shopify connector now correctly adjusts line-level discount amounts"
+- [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items when the description exactly matches"
+- [#10467 [Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning](../../../changes/bcapps/10467.md) (code change): "Fixed Shopify exchange refund handling when the replacement item"
 - [#10619 [Shopify] Index Has Order State Error to fix slow Shopify Activities cue](../../../changes/bcapps/10619.md) (code change): "database index is added to the Shopify Order Header table"
 - [#10741 [Shopify] Fix exchange refund order links, totals, and refund page layout](../../../changes/bcapps/10741.md) (code change): "Exchange credit memos and moved invoices now stamped with Shopify order identifiers"
-- [#10775 [Shopify] Optimize unmapped cue counts](../../../changes/bcapps/10775.md) (code change): "Shopify Activities cues for unmapped customers, products and companies"
-- [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "French PEPPOL exports now correctly handle billing profiles"
-- [#11373 [Shopify] Improve shop navigation and background sync guidance](../../../changes/bcapps/11373.md) (code change): "Shopify integration adds shop-filtered payment actions to the Shop Card"
-- [#11400 [Shopify] Handle missing variant mapping in product action](../../../changes/bcapps/11400.md) (code change): "Show product in Shopify action on the Item Card and Item List"
+- [#10775 [Shopify] Optimize unmapped cue counts](../../../changes/bcapps/10775.md) (code change): "The Shopify Activities cues for unmapped customers, products and companies now count records"
+- [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "French PEPPOL exports now correctly handle billing profiles, identifiers, regulatory comments, and delivery information"
+- [#11373 [Shopify] Improve shop navigation and background sync guidance](../../../changes/bcapps/11373.md) (code change): "Payment Transactions and Payouts actions added to Shop Card Related menu"
 - [#11407 [Shopify] Keep exchange shipments eligible for synchronization](../../../changes/bcapps/11407.md) (code change): "Exchange-refund Shopify orders now sync their shipments correctly"
-- [#11603 [Shopify] Show configured product status in Add to Shopify confirmation](../../../changes/bcapps/11603.md) (code change): "Shopify connector now displays the configured product status in the Add to Shopify confirmation dialog"
+- [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../../../changes/bcapps/11560.md) (code change): "Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)"
+- [#11603 [Shopify] Show configured product status in Add to Shopify confirmation](../../../changes/bcapps/11603.md) (code change): "Shopify connector now displays the configured product status (Active, Draft, or Unlisted)"
 - [#11604 fix: capture Shopify fulfillment deliveredAt timestamp](../../../changes/bcapps/11604.md) (code change): "Shopify connector now captures and displays the fulfillment delivery timestamp from Shopify"
 - [#11611 [Shopify] Add GraphQL type to request telemetry](../../../changes/bcapps/11611.md) (code change): "Shopify request telemetry now includes a GraphQL Type custom dimension"
 - [#11658 [Shopify] Limit webhook subscription payload fields](../../../changes/bcapps/11658.md) (code change): "Shopify webhook subscriptions now request only the required fields"
-- [#11854 [Shopify] Make refund currency codes read-only](../../../changes/bcapps/11854.md) (code change): "Currency Code and Presentment Currency Code fields on the Shopify Refund Header"
+- [#11660 Fix #11377: Prevent invalid FatturaPA CAP values](../../../changes/bcapps/11660.md) (code change): "Validates company and domestic customer post codes before FatturaPA document generation"
+- [#11854 [Shopify] Make refund currency codes read-only](../../../changes/bcapps/11854.md) (code change): "Currency Code fields on the Shopify Refund Header table are now read-only"
 - [#11866 [Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist](../../../changes/bcapps/11866.md) (code change): "Sync Shipments To Shopify action on the Shopify Orders page is now disabled"
-- [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page is now disabled"
-- [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28 (T76) standard"
+- [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "Tax matching now runs only for US and Canadian orders"
+- [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page"
 - [#13883 [Shopify] Initialize return processing for existing shops on upgrade](../../../changes/bcapps/13883.md) (code change): "Initialize return processing for existing shops on upgrade"
 - [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../../../changes/bcapps/13899.md) (code change): "Fixed Shopify refund sales line creation to use the correct amount"
 - [#14123 [Shopify] Keep gift cards from unverified POS returns on the sales invoice](../../../changes/bcapps/14123.md) (code change): "Keep gift cards from unverified POS returns on the sales invoice"

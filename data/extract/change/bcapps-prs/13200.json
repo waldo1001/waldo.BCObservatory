@@ -8,13 +8,13 @@
     "sales",
     "inventory"
   ],
-  "summary": "Backported six batch SCM extensibility requests to the BC29 release branch, adding new events and extending Quality Management and purchase document handling across all localizations.",
+  "summary": "Backports six SCM extensibility requests to releases/29.x, one commit per reference. Touches Quality Management generation rules and result evaluation, Purchase Line, Customer and Requisition Line across several localization layers. Customer gains an enum-based event publisher while the option-based one is kept under CLEAN30 handling.",
   "key_points": [
-    "Six extensibility requests backported from main branch to releases/29.x with dedicated commits per reference",
-    "New events added to Quality Management and Purchase Line tables across all localization layers",
-    "Customer table extended with new events maintaining backward compatibility through CLEAN30 handling",
-    "Requisition Line updated in both W1 and IT localization layers",
-    "No conflicts during application; final code tree identical to original merged backports"
+    "Six extensibility requests backported to releases/29.x with one dedicated commit each",
+    "Quality Management generation rule table and result evaluation codeunit modified",
+    "Purchase Line and Customer updated in W1 and many, but not all, localization layers",
+    "Customer adds an enum-based event publisher, keeping the option-based one under CLEAN30",
+    "Requisition Line updated in W1 and IT layers"
   ],
   "change_kind": "feature",
   "behavior_change": false,

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:54:34.767Z"
+  at: "2026-11-28T00:58:16.514Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2ca76a8b220dc3c6336105c858496b73722023e77005c074e80a7e99b59bd278
+  input_hash: b02f689592cbd4bacb376b197c31b03b1b00830f6cbf89732f030e2eaa0afdcd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SAFTModificationDK/app
+    url: https://github.com/microsoft/BCApps/tree/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/SAFTModificationDK/app
     title: src/Apps/W1/SAFTModificationDK/app (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -146,4 +146,4 @@ First-party app · folder `src/Apps/W1/SAFTModificationDK/app` · namespace `Mic
 | 13696 | [INTELLIGENT CLOUD - SAF-T DK](../objects/permissionsetextension/13696.md) |  |
 | 13697 | [LOCAL - SAF-T DK](../objects/permissionsetextension/13697.md) |  |
 
-Source: [src/Apps/W1/SAFTModificationDK/app](https://github.com/microsoft/BCApps/tree/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/SAFTModificationDK/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SAFTModificationDK/app](https://github.com/microsoft/BCApps/tree/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/SAFTModificationDK/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

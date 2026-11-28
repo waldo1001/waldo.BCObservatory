@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "The Activate action on the Business Skill Card is now hidden until the skill is saved, and guidance text is updated to explain how Copilot and agents use skill information. A test-only fix corrects an argument type issue in the Custom Agent test.",
   "key_points": [
-    "Activate action hidden on new unsaved cards but visible after first save if skill is inactive",
-    "Instructional text updated to 'Copilot and agents use the name and description to find matching skills'",
-    "Name and Description tooltips clarified with 'Specifies' wording",
-    "Fixed AL0133 analyzer warning by passing Code[50] variable instead of Text expression to Agent.Create",
-    "UI regression test updated to verify activation visibility before and after save"
+    "Activate action hidden on unsaved cards and shown after first save for inactive skills",
+    "Instructional text now says Copilot and agents use name and description to find matching skills",
+    "Name and Description tooltips reworded with 'Specifies' wording",
+    "Custom Agent test fixed for AL0133 by passing a Code[50] variable to Agent.Create",
+    "UI regression test checks Activate visibility before and after first save"
   ],
   "change_kind": "feature",
   "behavior_change": true,

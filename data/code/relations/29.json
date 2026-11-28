@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
+      "baedf68df311071024c0711fde8b1fbac33ec290",
       "4",
       9478,
-      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
+      "baedf68df311071024c0711fde8b1fbac33ec290",
       "4",
       7079
     ]
@@ -237958,6 +237958,11 @@
       },
       "OnBeforeCheckBlockedCust": {
         "kind": "integration",
+        "obsolete": "Pending 30.0",
+        "subs": []
+      },
+      "OnBeforeCheckBlockedCust2": {
+        "kind": "integration",
         "obsolete": null,
         "subs": []
       },
@@ -240929,6 +240934,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnAfterValidateQuantity": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnAfterValidateShortcutDimCode": {
         "kind": "integration",
         "obsolete": null,
@@ -241111,6 +241121,11 @@
         "subs": []
       },
       "OnBeforeValidateLocationChange": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeValidateQuantity": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -284691,7 +284706,7 @@
     }
   },
   "dead_events": {
-    "count": 22507
+    "count": 22509
   },
   "unresolved": [
     {
@@ -294963,7 +294978,7 @@
     "unresolved_ambiguous": 76,
     "subscribes": 5200,
     "edges": 20705,
-    "published_events": 26338,
-    "dead_events": 22507
+    "published_events": 26341,
+    "dead_events": 22509
   }
 }

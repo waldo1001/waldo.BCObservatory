@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9b8024775fc0ce525f16a58799c1844030bf917d9e8f5ecdd064e6953e5bab50
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al
     title: src/Apps/W1/Email - SMTP API/app/src/Authentication/SMTPAuth.Interface.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "SMTP Auth" in Email - SMTP API (System.Email). 1 public procedures. Introduced in BC29, still in BC30.
 
-Email - SMTP API · System.Email · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al) · facts from BC29
+Email - SMTP API · System.Email · BC29-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/Email%20-%20SMTP%20API/app/src/Authentication/SMTPAuth.Interface.al) · facts from BC29
 
 ## Properties
 

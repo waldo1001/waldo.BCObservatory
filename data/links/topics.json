@@ -1854,10 +1854,10 @@
     "change/bcapps/10230": {
       "kind": "change",
       "key": "change/bcapps/10230",
-      "hash": "3e87dc90d4e7e71d7850d26b2ab30a207deefa4d5b3907d3f6dca97fdd6d7019",
+      "hash": "1c8d027b82eb1e386929ad6a01b540d02e2191abfbd766f7e8451b3678c8864b",
       "title": "#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version",
       "source": "bcapps-prs",
-      "at": "2026-11-08T00:55:48.961Z",
+      "at": "2026-11-28T01:04:53.055Z",
       "matches": []
     },
     "change/bcapps/10232": {
@@ -1937,14 +1937,14 @@
     "change/bcapps/10251": {
       "kind": "change",
       "key": "change/bcapps/10251",
-      "hash": "8377eed26f339a56abfc1ad34d2d338ff0bed1d0d0fa2bd7086ecc2df4ab8b9c",
+      "hash": "585b32735fbfdb61e39889e6294cf04ce2f0009fbb3fcd34b54873cee89b8ac6",
       "title": "#10251 Ruleset hardening: promote 5 rules from Warning to Error",
       "source": "bcapps-prs",
-      "at": "2026-11-08T00:55:48.961Z",
+      "at": "2026-11-28T01:04:53.055Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "promote 5 rules from Warning to Error"
+          "quote": "Five analyzer rules were promoted back to Error by removing their overrides"
         }
       ]
     },
@@ -2007,10 +2007,10 @@
     "change/bcapps/10256": {
       "kind": "change",
       "key": "change/bcapps/10256",
-      "hash": "c8f23f315da45a549a82b628a3376bdee68419e0a7a1f153703728038b90a270",
+      "hash": "1a1ee94156ffcb76dc69b49bfcbf19b93096bd7176e507eda710186599655ae4",
       "title": "#10256 [Shopify] Fix customer matching when phone numbers contain spaces",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.571Z",
+      "at": "2026-11-28T01:04:53.055Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -2275,14 +2275,14 @@
     "change/bcapps/10307": {
       "kind": "change",
       "key": "change/bcapps/10307",
-      "hash": "c3e6db62b59219504f3ea69d2fcd0d2e68d26d1f05908b6b1855cb99fb318876",
+      "hash": "fe3b76e5bad99011c923735946c4691acb59bbdaa97495403f1327bfb0a0da4c",
       "title": "#10307 [Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.571Z",
+      "at": "2026-11-28T01:04:53.055Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify Order Totals factbox now correctly resolves and displays totals for open sales orders"
+          "quote": "The Shopify Order Totals factbox now correctly resolves and displays totals"
         }
       ]
     },
@@ -2428,14 +2428,14 @@
     "change/bcapps/10342": {
       "kind": "change",
       "key": "change/bcapps/10342",
-      "hash": "8a87d6e1806ff44fe1042d6da5b2ecd7b63ddd502bc6c5c93a6e5ec6c106e176",
+      "hash": "b56a5bcf90fb7a616c424998d7270d1a4a7b002cc86a8a43bf55c65756752ba6",
       "title": "#10342 Add GLN information to XRechnung and ZUGFeRD exports",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.571Z",
+      "at": "2026-11-28T01:04:53.055Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/spain/electronic-invoices",
-          "quote": "GLN identifiers with schemeID 0088 are now included in German XRechnung and ZUGFeRD electronic document exports"
+          "topic": "topic/business-central/business-functionality/local-functionality/germany",
+          "quote": "GLN identifiers with schemeID 0088 are now included in German XRechnung and ZUGFeRD"
         }
       ]
     },
@@ -2515,16 +2515,11 @@
     "change/bcapps/10349": {
       "kind": "change",
       "key": "change/bcapps/10349",
-      "hash": "3183b8052d3ce6352eee60921586260b0b0d33f7bd3bff2997471ffbf773c864",
+      "hash": "1ba0faabade7c96eea4a53aaef643f56258188634e8f05a3a20d63971c3d2d44",
       "title": "#10349 [DE] Support registration numbers in E-Documents",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.357Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Support registration numbers in E-Documents. E-Document import and export processing now handles registration numbers"
-        }
-      ]
+      "at": "2026-11-28T01:04:53.055Z",
+      "matches": []
     },
     "change/bcapps/10352": {
       "kind": "change",
@@ -2751,28 +2746,40 @@
     "change/bcapps/10407": {
       "kind": "change",
       "key": "change/bcapps/10407",
-      "hash": "885b888cac822cc56b788bcd68a733ac3b9f2bbb8986e4b5c5f7986fac9d029d",
+      "hash": "fd213d83cd32007fcbed7b153405713f4616fb7a4492a226f69c8ecf990e607b",
       "title": "#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.357Z",
+      "at": "2026-11-28T01:04:55.707Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify connector now captures and persists tax area code, tax liable, and tax exempt fields from Shopify orders"
+          "quote": "Shopify connector now captures and persists tax area code"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "Integration events and CommitBehavior added for extensibility"
         }
       ]
     },
     "change/bcapps/10408": {
       "kind": "change",
       "key": "change/bcapps/10408",
-      "hash": "eec795d6fee68ce012fe77c40e258c4adc939ede938c9750add8dab47ed9bfed",
+      "hash": "5260a487016b2e29db60417e1bb74d37cb86e2984c8bc970595e27c2ef212cce",
       "title": "#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.357Z",
+      "at": "2026-11-28T01:04:55.707Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
-          "quote": "Shopify Copilot Tax Matching Agent adds a headless matching engine that uses AI to match Shopify tax lines"
+          "quote": "Shopify Copilot Tax Matching Agent adds a headless matching engine"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Registers a Copilot capability and calls GPT-4.1 to match Shopify tax"
+        },
+        {
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "Tracks provenance Created by Agent Verified and handles low-confidence matches deterministically"
         }
       ]
     },
@@ -2825,14 +2832,14 @@
     "change/bcapps/10417": {
       "kind": "change",
       "key": "change/bcapps/10417",
-      "hash": "9fad212c9f2dddd07149b98287fb432613eaad681c74e24dcdcb1207d8d09c8f",
+      "hash": "b2b33139699e95afe7cde116723656c3706f006218bf465b810260b14a05f41c",
       "title": "#10417 [Shopify] Pace raw-text GraphQL calls to prevent excessive throttling",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.357Z",
+      "at": "2026-11-28T01:04:55.707Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "The Shopify connector now paces GraphQL requests issued through the raw-text overload to prevent excessive throttling"
+          "quote": "The Shopify connector now paces GraphQL requests issued through the raw-text"
         }
       ]
     },
@@ -2955,14 +2962,14 @@
     "change/bcapps/10437": {
       "kind": "change",
       "key": "change/bcapps/10437",
-      "hash": "eaf2c315dcfe0aee15140e47bb3443b7f640695fe0812577c6769fa57a108381",
+      "hash": "280a4ab19b60d366e836df639cecb1af5e0046a20939d2336e5a8b9c75c3a747",
       "title": "#10437 [FR E-Reporting] Add payment and invoice lifecycle messages",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.357Z",
+      "at": "2026-11-28T01:04:55.707Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "E-Document message lifecycle infrastructure and French electronic invoicing support added to enable payment and invoice lifecycle communication"
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "New public E-Document message API with IMessageSender and IMessageResponseHandler contracts"
         }
       ]
     },
@@ -3099,27 +3106,27 @@
     "change/bcapps/10462": {
       "kind": "change",
       "key": "change/bcapps/10462",
-      "hash": "ccc44129e71689f741128edb61def1a60e5c6c1b0560c3114a5e3425d42867a7",
+      "hash": "f02e7a4113f6550e31d694b784841f3dcc678dd76c8b77e9e5e074779da96453",
       "title": "#10462 [Shopify] Fix order edit retaining discount allocation for removed quantity",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:08.357Z",
+      "at": "2026-11-28T01:04:55.707Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "The Shopify connector now correctly adjusts line-level discount amounts when refunds reduce order line quantities"
+          "quote": "The Shopify connector now correctly adjusts line-level discount amounts"
         }
       ]
     },
     "change/bcapps/10466": {
       "kind": "change",
       "key": "change/bcapps/10466",
-      "hash": "b0ba85ae5498de12146407e4e7d922d68901049795317154467cc4ae2d71d332",
+      "hash": "a58af8ec85bfebc457f9c1b443342ea983b3ab3d7ee25a21359102b8909204ca",
       "title": "#10466 Resolve purchase lines to items on exact description match",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:10.956Z",
+      "at": "2026-11-28T01:04:55.707Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
           "quote": "Inbound purchase invoice lines now resolve to items when the description exactly matches"
         }
       ]
@@ -3127,14 +3134,14 @@
     "change/bcapps/10467": {
       "kind": "change",
       "key": "change/bcapps/10467",
-      "hash": "7303e5a5fffe460eed5fed6c7c75448a0765411c01ec961cc0aa9d86e5075649",
+      "hash": "6f8310606d9ae6734a79a0a54fb1152f40dd1f331c46bfbb2129dafd4530571b",
       "title": "#10467 [Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:10.956Z",
+      "at": "2026-11-28T01:04:56.151Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Fixed Shopify exchange refund handling when the replacement item is more expensive"
+          "quote": "Fixed Shopify exchange refund handling when the replacement item"
         }
       ]
     },
@@ -3159,28 +3166,28 @@
     "change/bcapps/10478": {
       "kind": "change",
       "key": "change/bcapps/10478",
-      "hash": "9ad051f0b4745b1b26414133ef47ad645d41cdb4c1d8725333e92fb84d01450d",
+      "hash": "838ccc3b347c061c0cecf74e7a31b6f2016fec9bfa239cfe304fb591500d15a3",
       "title": "#10478 [Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:10.956Z",
+      "at": "2026-11-28T01:04:56.151Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "The APIV2 dimension set lines page now uses FindSet() instead of FindFirst()"
+          "quote": "APIV2 dimension set lines page now uses FindSet"
         }
       ]
     },
     "change/bcapps/10480": {
       "kind": "change",
       "key": "change/bcapps/10480",
-      "hash": "2363b15832e6f8e05a197df53523f7ed0c61101b8114f873e9ef53a24bddff5f",
+      "hash": "5172898becac67f7a9e564ef9d9059c6190d01f0c4b989fcdc2793bbe8a0609b",
       "title": "#10480 [Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:10.956Z",
+      "at": "2026-11-28T01:04:56.151Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
-          "quote": "Field Service connection setup wizard now properly checks the result of the ImportFSSolution function"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "Field Service connection setup wizard now properly checks"
         }
       ]
     },
@@ -3483,14 +3490,14 @@
     "change/bcapps/10526": {
       "kind": "change",
       "key": "change/bcapps/10526",
-      "hash": "c1a499a14e567a670d28cc01730391dc1e5e114f0bc8a4ea0c5af83a80b218d7",
+      "hash": "10a6cf4d40d845d101421008a359c5b3a02c357bba1b33b439b76ae297fa148c",
       "title": "#10526 Use BaseApp's new PO Matching module in E-Documents",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:10.956Z",
+      "at": "2026-11-28T01:04:56.151Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
-          "quote": "E-Documents now leverages BaseApp's new PO Matching module to support one-to-many matching"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "E-Documents now leverages BaseApp's new PO Matching module"
         }
       ]
     },
@@ -3737,14 +3744,14 @@
     "change/bcapps/10578": {
       "kind": "change",
       "key": "change/bcapps/10578",
-      "hash": "77b0e30772218e068b54a575f5df7dbbda2cf976836ce0dbf02ae2be841109c4",
+      "hash": "8abb7e4cf2eaadaca79b9e6c91d0a5c43f6deac996c53cc4393450564cd74440",
       "title": "#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:10.956Z",
+      "at": "2026-11-28T01:04:56.151Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Four integration events are added to allow extensions to select the correct CRM integration table mapping"
+          "quote": "Four integration events are added to allow extensions to select"
         }
       ]
     },
@@ -3871,10 +3878,10 @@
     "change/bcapps/10619": {
       "kind": "change",
       "key": "change/bcapps/10619",
-      "hash": "3212628ae0af17cf9cc360ee4722e73ac0d453ba1d105d5d5bf8f6e61608e8cb",
+      "hash": "84fb76acbd0b1d70cffce5f6d85b36defc685250db0e813fb5f1203acca1ce78",
       "title": "#10619 [Shopify] Index Has Order State Error to fix slow Shopify Activities cue",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:12.747Z",
+      "at": "2026-11-28T01:04:56.151Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -4045,18 +4052,14 @@
     "change/bcapps/10700": {
       "kind": "change",
       "key": "change/bcapps/10700",
-      "hash": "895f8b234016f74deb9000805e8d51cd5f77ca0a1c0fd99a5b7a88bb0f657370",
+      "hash": "8d73bb321bace026c6cd6d80e8ae188fe94d1a09ad074823afad692281d32556",
       "title": "#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:11.257Z",
+      "at": "2026-11-28T01:04:43.610Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables",
           "quote": "purchase order matching API to the Base Application, with receipt-on-invoice line tracking"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "New Base Application codeunits for PO matching, matching groups, matched order lines"
         }
       ]
     },
@@ -4091,14 +4094,14 @@
     "change/bcapps/10735": {
       "kind": "change",
       "key": "change/bcapps/10735",
-      "hash": "b886655c1fb92d8053f6cac8115e0f0cc9105f347d36c091afb54c1982cee363",
+      "hash": "2e348299b6c2a1e6a95590d77a732d914f4babce4cfa40265bd159ee4dc7d1d0",
       "title": "#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:12.747Z",
+      "at": "2026-11-28T01:04:56.771Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/service-management",
-          "quote": "posted sales, purchase, and service invoice and credit memo pages"
+          "quote": "posted sales, purchase, and service invoice and credit memo pages for Spanish localization"
         }
       ]
     },
@@ -4114,10 +4117,10 @@
     "change/bcapps/10741": {
       "kind": "change",
       "key": "change/bcapps/10741",
-      "hash": "66a21f83a0e53db646a639791bfe9b1084178550eeb6a4926278d82f7f5cf406",
+      "hash": "793530727463bcf28b0c2f72cdd28927555ca502252e4c0388f209e92c6d70a3",
       "title": "#10741 [Shopify] Fix exchange refund order links, totals, and refund page layout",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:12.747Z",
+      "at": "2026-11-28T01:04:56.771Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -4137,10 +4140,10 @@
     "change/bcapps/10753": {
       "kind": "change",
       "key": "change/bcapps/10753",
-      "hash": "c3dc008e0b186c04790a0494912c1cbfb36ac8a42c93a5b63c418df14df66b67",
+      "hash": "24c77408a5aad06194d2cb3ba3467862c7818e445e0f0087e089f5fd182af24b",
       "title": "#10753 Cross-environment Master Data synchronization (same tenant)",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:12.747Z",
+      "at": "2026-11-28T01:04:56.771Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
@@ -4178,14 +4181,14 @@
     "change/bcapps/10775": {
       "kind": "change",
       "key": "change/bcapps/10775",
-      "hash": "3bf53800c507e0986ce718652c9ce06f8a2d4642f16c85b86bac275543afd577",
+      "hash": "6b70bb8b813493e17d60fd8c3e40a41cffece704d2c31797196a788a3b0e0098",
       "title": "#10775 [Shopify] Optimize unmapped cue counts",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:12.747Z",
+      "at": "2026-11-28T01:04:56.771Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify Activities cues for unmapped customers, products and companies"
+          "quote": "The Shopify Activities cues for unmapped customers, products and companies now count records"
         }
       ]
     },
@@ -4986,10 +4989,10 @@
     "change/bcapps/11013": {
       "kind": "change",
       "key": "change/bcapps/11013",
-      "hash": "c1a92adc970f253a4f58c309f88e6fbd57a1eb16912fa2da3546cd9733433ce5",
+      "hash": "488d5abae1a94c6056bc09bd51eb33d68a5d0dd863640bb5cfba528a15f24242",
       "title": "#11013 Remove 43 unused DotNet alias declarations",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:12.747Z",
+      "at": "2026-11-28T01:04:56.771Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only",
@@ -5186,10 +5189,10 @@
     "change/bcapps/11094": {
       "kind": "change",
       "key": "change/bcapps/11094",
-      "hash": "e1a118f0f8394c7efae87064e342626f02792a5a75d2cb869e1691eedbe125d5",
+      "hash": "094e97b4a3aae94e33c5ba1580d3152caf869b7e9c47b94b1e0dfeaacec0b0df",
       "title": "#11094 [FS] Prevent duplicate Field Service customer assets during item synchronization",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.119Z",
+      "at": "2026-11-28T01:04:56.771Z",
       "matches": []
     },
     "change/bcapps/11095": {
@@ -5209,14 +5212,14 @@
     "change/bcapps/11096": {
       "kind": "change",
       "key": "change/bcapps/11096",
-      "hash": "f093dafeed41e78e5a52055ce2c0d234fd49b8e6e3c4e73c10544fcb9b512dd6",
+      "hash": "ddbf2f7c1f3bf81487a0a229af4b96f531f0fe6383e9d52349ce2584ed521c9e",
       "title": "#11096 PEPPOL FR improvements",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.119Z",
+      "at": "2026-11-28T01:05:00.635Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "French PEPPOL exports now correctly handle billing profiles"
+          "quote": "French PEPPOL exports now correctly handle billing profiles, identifiers, regulatory comments, and delivery information"
         }
       ]
     },
@@ -5413,14 +5416,14 @@
     "change/bcapps/11152": {
       "kind": "change",
       "key": "change/bcapps/11152",
-      "hash": "6f0495abd36a4923e07a0ae256dfb61c2cef3221787b950c7a123eb15b32c20b",
+      "hash": "70dd8a7a50ccc45dee4e689e96adc9ccac6ea531eb5582f8efbff2140e9041be",
       "title": "#11152 [29.x]Mark as Accepted in posted documents for Spanish SII",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.119Z",
+      "at": "2026-11-28T01:05:00.635Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Mark as Accepted action was added to posted sales, purchase, and service invoice"
+          "topic": "topic/dev-itpro/integration",
+          "quote": "New Mark As Accepted action on posted sales, purchase, and service documents for Spanish SII"
         }
       ]
     },
@@ -5538,28 +5541,28 @@
     "change/bcapps/11168": {
       "kind": "change",
       "key": "change/bcapps/11168",
-      "hash": "ad65b5e615d1e84017d10aa0dea37d107aa5ceea53f2f909263bd22e17cded52",
+      "hash": "1bced74f5df91eda638cd89855a077e015df4d1088d6440e744693de9ce9eab3",
       "title": "#11168 Restore E-Document vendor invoice field compatibility",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.119Z",
+      "at": "2026-11-28T01:05:00.635Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "E-Document vendor invoice field name restored from Applies-to"
+          "topic": "topic/dev-itpro/integration",
+          "quote": "E-Document vendor invoice field name restored from 'Applies-to Ext. Invoice No.' to 'Vendor Invoice No.'"
         }
       ]
     },
     "change/bcapps/11171": {
       "kind": "change",
       "key": "change/bcapps/11171",
-      "hash": "bdf59d22b9c0723cb8025e25c4ceacd31f269c930621bec0b2e51f1bf5889bbf",
+      "hash": "8d9f096e95e141b5c7b28a405284a43bb5fa4f494c17b49a52556369cda5ba8a",
       "title": "#11171 [Security][Hardening] Validate integration URLs stored in setup tables",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.119Z",
+      "at": "2026-11-28T01:05:00.635Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/web-services-security",
-          "quote": "Integration endpoint URLs stored in setup tables are now validated"
+          "quote": "Integration endpoint URLs stored in setup tables are now validated against their expected host and scheme"
         }
       ]
     },
@@ -5978,14 +5981,14 @@
     "change/bcapps/11318": {
       "kind": "change",
       "key": "change/bcapps/11318",
-      "hash": "797402a9e316ad9bc216af08ddcf719d19ff8deb9a5e4dcd95340a6e269c4e2f",
+      "hash": "49a4f470102fb807495fadd1b75472c1bda46dea4018fdba8a361d67dd1d4eed",
       "title": "#11318 [main] Bug 649189: Update E-Document vendor invoice caption",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.119Z",
+      "at": "2026-11-28T01:05:00.635Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "E-Document purchase header field caption and page labels were updated"
+          "topic": "topic/dev-itpro/integration",
+          "quote": "E-Document purchase header field caption and page labels were updated to use applies-to terminology"
         }
       ]
     },
@@ -6155,14 +6158,14 @@
     "change/bcapps/11373": {
       "kind": "change",
       "key": "change/bcapps/11373",
-      "hash": "e02768b8c7d9a9646b1559396123bdcc08016056e7c12dd7d3e847112e95b923",
+      "hash": "b35c265c8d6de6075f4cddba8c73029e0ac3e489bb4b47a4f06b225e11af7ee5",
       "title": "#11373 [Shopify] Improve shop navigation and background sync guidance",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.459Z",
+      "at": "2026-11-28T01:05:00.635Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify integration adds shop-filtered payment actions to the Shop Card"
+          "quote": "Payment Transactions and Payouts actions added to Shop Card Related menu"
         }
       ]
     },
@@ -6234,16 +6237,11 @@
     "change/bcapps/11386": {
       "kind": "change",
       "key": "change/bcapps/11386",
-      "hash": "f998494a265169eb3fde546680b220914c4da7013fc3c52aab316e2f98611850",
+      "hash": "9d5527c3e308ef7ed406d5a00451e6dc4c5bfde6909e6a73581fb5b57f987eb9",
       "title": "#11386 Fix E-Doc. Item Charge Mapping codeunit ID",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.459Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "E-Doc. Item Charge Mapping codeunit ID was corrected"
-        }
-      ]
+      "at": "2026-11-28T01:05:02.006Z",
+      "matches": []
     },
     "change/bcapps/11399": {
       "kind": "change",
@@ -6257,25 +6255,33 @@
     "change/bcapps/11400": {
       "kind": "change",
       "key": "change/bcapps/11400",
-      "hash": "600991f83e5203bc8345a9961ba17c281da03a1f415f1d97a0155f6d8a1aeebc",
+      "hash": "d74050f59120e4b879951dc14780d4e732c3c12e13bbbb104a018bdbdbf06c65",
       "title": "#11400 [Shopify] Handle missing variant mapping in product action",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.459Z",
+      "at": "2026-11-28T01:05:02.006Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Show product in Shopify action on the Item Card and Item List"
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector",
+          "quote": "Show product in Shopify action on the Item Card and Item List is now enabled only when"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "quote": "Show product in Shopify action on the Item Card and Item List is now enabled only when"
         }
       ]
     },
     "change/bcapps/11407": {
       "kind": "change",
       "key": "change/bcapps/11407",
-      "hash": "782ef805aac2e85451166cae66e8f6e9b2a20cea134150c727c61d4a3903d374",
+      "hash": "ff55e9daa834c6f457b87955bbe62921d506183cca258acfb62ca69d4a0a66ca",
       "title": "#11407 [Shopify] Keep exchange shipments eligible for synchronization",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.459Z",
+      "at": "2026-11-28T01:05:02.006Z",
       "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "quote": "Exchange-refund Shopify orders now sync their shipments correctly"
+        },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
           "quote": "Exchange-refund Shopify orders now sync their shipments correctly"
@@ -6443,16 +6449,11 @@
     "change/bcapps/11484": {
       "kind": "change",
       "key": "change/bcapps/11484",
-      "hash": "ddd59feceb20ebbadbc0ff5d89621a889edf60034d8af355b2e0ab40d1a5c364",
+      "hash": "abc465b8919e57cc3ab9e8ec6a8e77deebb9c64a565614062cf739aa7371f66f",
       "title": "#11484 [E-Documents Core] - Supported type direction configuration",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.459Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "E-Document services now support per-document-type direction configuration"
-        }
-      ]
+      "at": "2026-11-28T01:05:02.006Z",
+      "matches": []
     },
     "change/bcapps/11489": {
       "kind": "change",
@@ -6550,10 +6551,10 @@
     "change/bcapps/11527": {
       "kind": "change",
       "key": "change/bcapps/11527",
-      "hash": "bbcdc0d4cd94a6c06f2ef124d09265e9d0945cd247164f593242b22cd1edbb29",
+      "hash": "63ad8ad7f24e537aca4487ae1ed6662dea3aa1948dce1e42679fc42f44c1f4e1",
       "title": "#11527 E-document payment improvements",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:13.459Z",
+      "at": "2026-11-28T01:05:02.006Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration",
@@ -6578,28 +6579,23 @@
     "change/bcapps/11555": {
       "kind": "change",
       "key": "change/bcapps/11555",
-      "hash": "92658badf787a2ebb193145ce3a81df5fbbd48d6819541b0758c96171ede92bb",
+      "hash": "d05e7f6fe677c056a9910195a48cc015f8b53ec35987777f3c7b4b0813192a05",
       "title": "#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.088Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations"
-        }
-      ]
+      "at": "2026-11-28T01:05:02.006Z",
+      "matches": []
     },
     "change/bcapps/11560": {
       "kind": "change",
       "key": "change/bcapps/11560",
-      "hash": "88f4bf7e2b24db875d4715a9894506dd41ed6b11696eadc145d7cb82d8d9b836",
+      "hash": "a867c1b49a21a360386ba0205d1dfbc3db1d9ab87632dea2319b5870b91dda73",
       "title": "#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.088Z",
+      "at": "2026-11-28T01:05:00.985Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents"
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)"
         }
       ]
     },
@@ -6749,24 +6745,24 @@
     "change/bcapps/11603": {
       "kind": "change",
       "key": "change/bcapps/11603",
-      "hash": "c7c0d2d8c4baf118f6b4b77fcdd2dceace20f9215a3eb7de15b58b989b384db5",
+      "hash": "3bd7622ca262b7f3e2dc5c0d32c395f269c874c096f751951c40b792e073de3e",
       "title": "#11603 [Shopify] Show configured product status in Add to Shopify confirmation",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.088Z",
+      "at": "2026-11-28T01:05:00.985Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify connector now displays the configured product status in the Add to Shopify confirmation dialog"
+          "quote": "Shopify connector now displays the configured product status (Active, Draft, or Unlisted)"
         }
       ]
     },
     "change/bcapps/11604": {
       "kind": "change",
       "key": "change/bcapps/11604",
-      "hash": "c08d652e71167bd32e2b8647b4957be0ef1a0997f9c1bfe192ab6a0bd90e3fa3",
+      "hash": "c499a0145298087bf6957f4c386d339a2e18b3f6e4f9bbac4e1fe8a48b68a609",
       "title": "#11604 fix: capture Shopify fulfillment deliveredAt timestamp",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.088Z",
+      "at": "2026-11-28T01:05:00.985Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -6791,10 +6787,10 @@
     "change/bcapps/11611": {
       "kind": "change",
       "key": "change/bcapps/11611",
-      "hash": "96a03ca2bf1da85defc25b12ebc11d3184066988d54467bccc982c849290c2a8",
+      "hash": "adbc8e8022a27c3b204c0ce76a64a6aa8b836273e38e7d5298aea34e751399c2",
       "title": "#11611 [Shopify] Add GraphQL type to request telemetry",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.088Z",
+      "at": "2026-11-28T01:05:00.985Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -6819,10 +6815,10 @@
     "change/bcapps/11626": {
       "kind": "change",
       "key": "change/bcapps/11626",
-      "hash": "9071faf98db4be7059c5c1aedfc1be75f873ef69b161a9e3b348a02f5126c803",
+      "hash": "c4dfe24174ec3aef4be29b71b76dc11b0f267017c85a91e31b2c1f68ec4c9a62",
       "title": "#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.088Z",
+      "at": "2026-11-28T01:05:00.985Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
@@ -6982,10 +6978,10 @@
     "change/bcapps/11658": {
       "kind": "change",
       "key": "change/bcapps/11658",
-      "hash": "ac5b5f78569bf17057567b77d36bd3ae6e18a9b3ea38a0cad5cbc71ff7bc0624",
+      "hash": "e40866917f8771baf3ee1bcbeee1bbd06fb91d19db61f67b59a1c083e1dfe816",
       "title": "#11658 [Shopify] Limit webhook subscription payload fields",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.196Z",
+      "at": "2026-11-28T01:05:00.985Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -6996,11 +6992,16 @@
     "change/bcapps/11660": {
       "kind": "change",
       "key": "change/bcapps/11660",
-      "hash": "c05b774002390e096949d356a27a6b63c733e2649dc06964853fe21f4cfb9888",
+      "hash": "896d5f9496db14abc9b629339878ccf8fc98152df2d2a83f2c311a415731b8b5",
       "title": "#11660 Fix #11377: Prevent invalid FatturaPA CAP values",
       "source": "bcapps-prs",
-      "at": "2026-11-19T00:54:33.822Z",
-      "matches": []
+      "at": "2026-11-28T01:05:00.735Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Validates company and domestic customer post codes before FatturaPA document generation"
+        }
+      ]
     },
     "change/bcapps/11664": {
       "kind": "change",
@@ -7189,10 +7190,10 @@
     "change/bcapps/11722": {
       "kind": "change",
       "key": "change/bcapps/11722",
-      "hash": "a777982eac076303db4a1298ba180ebb6e2f796be27b9e61cf4bf070017c8e37",
+      "hash": "f54d5fefcbfa1554b51104d3d962d2c8d6ae45e97073bd0862eadac98d389a75",
       "title": "#11722 [Shopify] Rename tax matching and add configurable processing limit",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.196Z",
+      "at": "2026-11-28T01:05:00.735Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
@@ -7417,10 +7418,10 @@
     "change/bcapps/11815": {
       "kind": "change",
       "key": "change/bcapps/11815",
-      "hash": "5a73d8c692be8047a31048db8f7e1f837ec64dc38819b4b1ae101e9595e75857",
+      "hash": "4504fbab15a6dc026900a5c8b37f377ade7a4fb5de99ae739960e92692949c2b",
       "title": "#11815 Improvements to E-Documents PO matching (E2E findings)",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.196Z",
+      "at": "2026-11-28T01:05:00.735Z",
       "matches": []
     },
     "change/bcapps/11822": {
@@ -7482,10 +7483,10 @@
     "change/bcapps/11846": {
       "kind": "change",
       "key": "change/bcapps/11846",
-      "hash": "d598db731512b4739f88828104c40bac0870b5fe0111077e81dbcd98ffc605f0",
+      "hash": "07a5b3d53a881023b411399673b440901ce6d3d2d9e3da8cd38dd427c7a63ae1",
       "title": "#11846 Fix View file on outgoing E-Documents to open the exported file",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.196Z",
+      "at": "2026-11-28T01:05:00.735Z",
       "matches": []
     },
     "change/bcapps/11847": {
@@ -7546,24 +7547,24 @@
     "change/bcapps/11854": {
       "kind": "change",
       "key": "change/bcapps/11854",
-      "hash": "a151789f599e33013930f181a75ed46d0d5bdcf0d3bb42e1b53ad6f2b988e7ba",
+      "hash": "901aa672c0b4d9cfcd99620a54f5f43fb2e60b4f0b5e3665c371eb4a204ec727",
       "title": "#11854 [Shopify] Make refund currency codes read-only",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.196Z",
+      "at": "2026-11-28T01:05:00.735Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Currency Code and Presentment Currency Code fields on the Shopify Refund Header"
+          "quote": "Currency Code fields on the Shopify Refund Header table are now read-only"
         }
       ]
     },
     "change/bcapps/11866": {
       "kind": "change",
       "key": "change/bcapps/11866",
-      "hash": "fb8bbd12e93ea756a193202a051bba1c4274bc78c7cf1418f613a3d96e870705",
+      "hash": "ade86b74d1ae12198e1d7d3de29b101452dc9c4d8079eb3030f5f6ded5b29884",
       "title": "#11866 [Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:16.196Z",
+      "at": "2026-11-28T01:05:00.735Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -7634,32 +7635,36 @@
     "change/bcapps/11895": {
       "kind": "change",
       "key": "change/bcapps/11895",
-      "hash": "2ba709b49515d7df938274aecd2884f9390555e4e2ffe778e11f4fde1eb896b5",
+      "hash": "18249d695d4a147bca89728c9691e00c69ae091f7e8c17d9d26759844498ece9",
       "title": "#11895 Make Reject Order reachable on inbound sales order drafts and confirm…",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.623Z",
+      "at": "2026-11-28T01:05:03.452Z",
       "matches": []
     },
     "change/bcapps/11896": {
       "kind": "change",
       "key": "change/bcapps/11896",
-      "hash": "8b00a1a9332178291d75c15b1748e13af409ecdb201d7f7ec49680a4b51f0b3d",
+      "hash": "df04d95edf0e27a6c3dbce97b0a4c82c2a05ed5010e8d126ea173f75cb4ca1d4",
       "title": "#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.623Z",
+      "at": "2026-11-28T01:05:03.452Z",
       "matches": []
     },
     "change/bcapps/11899": {
       "kind": "change",
       "key": "change/bcapps/11899",
-      "hash": "5402f92d68b99d05fc89e75a0ee28724141f72c97cbc174bf0620e01b66f16fc",
+      "hash": "b7b91f9e46add6d26afee7234335602af5b2ff04173b438b57648d45dc32c950",
       "title": "#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.623Z",
+      "at": "2026-11-28T01:05:03.452Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
-          "quote": "The Shopify Tax Matching Agent now runs only for US and Canadian orders"
+          "quote": "Shopify Tax Matching Agent now runs only for US and Canadian orders"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Tax matching now runs only for US and Canadian orders"
         }
       ]
     },
@@ -7861,16 +7866,11 @@
     "change/bcapps/11967": {
       "kind": "change",
       "key": "change/bcapps/11967",
-      "hash": "c3ac45b11515623db9ee8f0955dce9dfc05fb4f3ea1d7b1ca20bb3d132c00c12",
+      "hash": "7c3d16d680dbc0837994aa516a729a41a7b01789f2b1f5a7a7cfe6eee7085a2c",
       "title": "#11967 Block Edit in Excel for pages based on the User table",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.623Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
-          "quote": "Edit in Excel now blocks page-based editing for tables that are the User table"
-        }
-      ]
+      "at": "2026-11-28T01:05:03.452Z",
+      "matches": []
     },
     "change/bcapps/11968": {
       "kind": "change",
@@ -8075,10 +8075,10 @@
     "change/bcapps/12055": {
       "kind": "change",
       "key": "change/bcapps/12055",
-      "hash": "8a6cebbcf8681416e8e2a7b9af60b118338801dc6a9af01afae3109360a4fba4",
+      "hash": "b06b83418e3aa72c253497b07e3ca80c374bd3c84d71dab163d4194d70e25795",
       "title": "#12055 [E-Documents Core] Show error for unmatched inbound Order Response",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.623Z",
+      "at": "2026-11-28T01:05:03.452Z",
       "matches": []
     },
     "change/bcapps/12059": {
@@ -8181,10 +8181,10 @@
     "change/bcapps/12070": {
       "kind": "change",
       "key": "change/bcapps/12070",
-      "hash": "90d21eddb8f1df944f328f7a541584164f06909a771a186c859185ba451ffba7",
+      "hash": "4301697b3285e8c2b56af90eaae4af8ce9bad43d4790a14ad18fca1b309854e6",
       "title": "#12070 Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.623Z",
+      "at": "2026-11-28T01:05:03.452Z",
       "matches": []
     },
     "change/bcapps/12074": {
@@ -8387,14 +8387,14 @@
     "change/bcapps/12133": {
       "kind": "change",
       "key": "change/bcapps/12133",
-      "hash": "2c157da7b6aea7f9c11b7644e014bc9f57ff094e474258b2d201421247dcf191",
+      "hash": "0538d265a9068aaf4aa53984600115821f36d4f19078020e53d5e45c87dfdc2c",
       "title": "#12133 Block file scheme in Web Request Helper",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.726Z",
+      "at": "2026-11-28T01:05:01.529Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/web-services-security",
-          "quote": "Security fix that stops crafted URLs from reading files on the server"
+          "quote": "Security fix that stops crafted URLs from reading files"
         }
       ]
     },
@@ -8429,14 +8429,14 @@
     "change/bcapps/12139": {
       "kind": "change",
       "key": "change/bcapps/12139",
-      "hash": "0e78f153d3a8ed1fa1e3c61b18b22a526d4720611850411faae768b05374e938",
+      "hash": "3ec367116189d816b31f9e937d30020288e72048f30e9262158e26a494510aba",
       "title": "#12139 [Shopify] Disable Create Sales Documents for empty order views",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.726Z",
+      "at": "2026-11-28T01:05:01.529Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Create Sales Documents action on the Shopify Orders page is now disabled"
+          "quote": "Create Sales Documents action on the Shopify Orders page"
         }
       ]
     },
@@ -8531,14 +8531,14 @@
     "change/bcapps/12148": {
       "kind": "change",
       "key": "change/bcapps/12148",
-      "hash": "09b2f43901c1e3ca505df13cca2013a895840e54be95eef212973df45ed1a1a5",
+      "hash": "448b69ffa001c64775e6c8ba4a53935d053ab97d61844f85f2fd6ae6555971a6",
       "title": "#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.726Z",
+      "at": "2026-11-28T01:05:01.529Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "PEPPOL Order Response messages now conform to BIS 28 (T76) standard"
+          "topic": "topic/dev-itpro/integration",
+          "quote": "PEPPOL Order Response messages now conform to BIS 28"
         }
       ]
     },
@@ -8567,6 +8567,24 @@
         {
           "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
           "quote": "Clear environment description after environment copy"
+        }
+      ]
+    },
+    "change/bcapps/12153": {
+      "kind": "change",
+      "key": "change/bcapps/12153",
+      "hash": "0d48efdf5c044ac1763537e56f16b6174871ed677c4d6fb43616d6085a5e9a20",
+      "title": "#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:53.964Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "variance value entries incorrectly marked as expected cost instead of actual cost"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-inventory-costs",
+          "quote": "Post Inventory Cost to G/L failures on standard cost items after production order reopening"
         }
       ]
     },
@@ -8679,13 +8697,13 @@
     "change/bcapps/12189": {
       "kind": "change",
       "key": "change/bcapps/12189",
-      "hash": "de066c376c3b85493fc93c2f58797c79904aab3781b0b0e23321c979cd97c656",
+      "hash": "05c78e67051d40dbc8c3fd95962586fcf7a1836b6af2e7aa56467c9246745251",
       "title": "#12189 Removing the restriction of deploying Power BI reports only to evaluation companies",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.726Z",
+      "at": "2026-11-28T01:05:01.529Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric-preview",
           "quote": "Power BI report deployment now works with regular companies"
         }
       ]
@@ -8693,14 +8711,14 @@
     "change/bcapps/12194": {
       "kind": "change",
       "key": "change/bcapps/12194",
-      "hash": "d3988a1aab7d689ac940c789dd712d7621e1f01eeb48269b868212679b4511f2",
+      "hash": "96cff1a89aca40e083263beab2216557b664fa81368408b7913a834ee6b87a4b",
       "title": "#12194 Harden web request helpers: opt-in default credentials",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.726Z",
+      "at": "2026-11-28T01:05:01.529Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/web-services-security",
-          "quote": "disable default credentials by default and require callers to opt in"
+          "quote": "default credentials by default and require callers to opt in"
         }
       ]
     },
@@ -8716,14 +8734,14 @@
     "change/bcapps/12196": {
       "kind": "change",
       "key": "change/bcapps/12196",
-      "hash": "e2f88010b48c09634f8c2ac65ba5ede35d6898614c7c1521288eff5a735ed983",
+      "hash": "f09b45daa7764801c187998289f210fcc8f2f31e3a5b6ad3823bb337f692c855",
       "title": "#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:17.726Z",
+      "at": "2026-11-28T01:05:01.529Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Master Data Management cross-environment setup action is now disabled for on-premises"
+          "quote": "Master Data Management cross-environment setup action is now disabled"
         }
       ]
     },
@@ -11143,6 +11161,20 @@
         }
       ]
     },
+    "change/bcapps/13200": {
+      "kind": "change",
+      "key": "change/bcapps/13200",
+      "hash": "522deb646bcb3a5ff979e0e9464107b69d94cf128e2a44bf42c9417e3a5ec33f",
+      "title": "#13200 [Backport 29.x] Batch SCM extensibility requests",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:43.610Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "New events added to Quality Management and Purchase Line tables across all localization layers"
+        }
+      ]
+    },
     "change/bcapps/13201": {
       "kind": "change",
       "key": "change/bcapps/13201",
@@ -11182,14 +11214,18 @@
     "change/bcapps/13206": {
       "kind": "change",
       "key": "change/bcapps/13206",
-      "hash": "2dad9aab3ab8dd8cc80c8fbff48bdf7c25086501b1ec8ddb3234f081ad5a9e4c",
+      "hash": "6df4eedd4d4fd781713181d71b4c28d788baf105e3e04c524b0a400bab6a48db",
       "title": "#13206 [29x]- \"You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
       "source": "bcapps-prs",
-      "at": "2026-11-24T01:01:46.448Z",
+      "at": "2026-11-28T01:04:53.964Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
-          "quote": "serial number for item xxx when trying to reverse Capacity Ledger Entry"
+          "quote": "serial number assignment, allowing these entries to be reversed"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "reversing Capacity Ledger Entry for items requiring serial number assignment"
         }
       ]
     },
@@ -11614,6 +11650,24 @@
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
           "quote": "Recurring Frequency field is now editable in Edit in Excel for recurring general journals"
+        }
+      ]
+    },
+    "change/bcapps/13331": {
+      "kind": "change",
+      "key": "change/bcapps/13331",
+      "hash": "caa00c07b5e592281d9d50f952cbc1ae948cd2fbe031d68d50373cb1b73f48dc",
+      "title": "#13331 [Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:52.057Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+          "quote": "Create Pick now correctly assigns lot quantities when breakbulk is disabled"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management",
+          "quote": "Fixed lot quantity calculation in FEFO picking to respect unit of measure constraints"
         }
       ]
     },
@@ -12360,6 +12414,24 @@
         }
       ]
     },
+    "change/bcapps/13562": {
+      "kind": "change",
+      "key": "change/bcapps/13562",
+      "hash": "b031d4d221cf99ab5817357783428048f420b9f82841f654687d9a05e952773d",
+      "title": "#13562 [29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:53.964Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "component consumption and the item tracking quantity differ only by rounding"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-supply-planning",
+          "quote": "Production order can now be finished when the component consumption"
+        }
+      ]
+    },
     "change/bcapps/13566": {
       "kind": "change",
       "key": "change/bcapps/13566",
@@ -12511,6 +12583,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
           "quote": "Subcontracting material returns from vendors now correctly preserve"
+        }
+      ]
+    },
+    "change/bcapps/13613": {
+      "kind": "change",
+      "key": "change/bcapps/13613",
+      "hash": "5440f85bf62700a7a2e3af48ced287d1b0b12bf9571a1b4cfe616e8869962b5d",
+      "title": "#13613 [main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:43.610Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "Corrects Additional Currency Base and Additional Currency Amount calculations when line discounts are applied"
         }
       ]
     },
@@ -12696,6 +12782,20 @@
         {
           "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
           "quote": "The Expense Reports API now exposes activeApproverExpenseUserNo"
+        }
+      ]
+    },
+    "change/bcapps/13676": {
+      "kind": "change",
+      "key": "change/bcapps/13676",
+      "hash": "37aae6bf9a7cdfeba8d9f0a850c2ed4aa1babf53e614bc72f024800578c0220c",
+      "title": "#13676 [29.X]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:43.610Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "Fixes inconsistent On Hold and document synchronization behaviour tied to the dispute status on vendor ledger entries"
         }
       ]
     },
@@ -13001,16 +13101,11 @@
     "change/bcapps/13786": {
       "kind": "change",
       "key": "change/bcapps/13786",
-      "hash": "6f4d7dfebc74abb947571151c0e42f988ddc58d07ef1b8e52d4ff960ccaf2f42",
+      "hash": "ffe47c0b4b131ccc3a854f5aba808a00af9306d2e7c8cf77911fb4a60a96ab2f",
       "title": "#13786 [29.X]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
       "source": "bcapps-prs",
-      "at": "2026-11-27T01:01:45.750Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "Price list activation was creating duplicate line entries. Test coverage added to verify the fix"
-        }
-      ]
+      "at": "2026-11-28T01:04:47.332Z",
+      "matches": []
     },
     "change/bcapps/13787": {
       "kind": "change",
@@ -13980,6 +14075,24 @@
       "at": "2026-11-26T01:02:04.153Z",
       "matches": []
     },
+    "change/bcapps/14186": {
+      "kind": "change",
+      "key": "change/bcapps/14186",
+      "hash": "71b7da531892e1c1bec255ae2e52b89c5ab3c923a5cff6679937118d3aad4931",
+      "title": "#14186 [Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:53.964Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "Fixed the WIP calculation in report 5802 Inventory Valuation - WIP"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-inventory-costs",
+          "quote": "WIP value no longer depends on the Starting Date used"
+        }
+      ]
+    },
     "change/bcapps/14198": {
       "kind": "change",
       "key": "change/bcapps/14198",
@@ -14085,14 +14198,14 @@
     "change/bcapps/14225": {
       "kind": "change",
       "key": "change/bcapps/14225",
-      "hash": "d66cf776aa5aac58980b62bff6207dc3badc089d7bb53eae6a545c36f5cf3726",
+      "hash": "59dfa98d43805488c7f7144f5457b6642ddcb2c7393630b18c9fdba95902fddd",
       "title": "#14225 [Master]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
       "source": "bcapps-prs",
-      "at": "2026-11-24T01:01:52.781Z",
+      "at": "2026-11-28T01:04:44.180Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "Purchase credit memos can now retrieve return shipment lines for non-inventory items"
+          "quote": "Get Return Shipment Lines fails for Non-Inventory items with corrective credit memo error"
         }
       ]
     },
@@ -14111,6 +14224,42 @@
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
           "quote": "Power BI auto-deployment clearing now affects only the selected record instead of all records"
+        }
+      ]
+    },
+    "change/bcapps/14240": {
+      "kind": "change",
+      "key": "change/bcapps/14240",
+      "hash": "bc4869de11c44b9d91512381c4b08e4c18a66bb349c316244cfefa8d69125f75",
+      "title": "#14240 [Main]-\"Cannot match item tracking\" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:53.964Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "lot-tracked items with Strict Expiration Posting enabled"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/inventory",
+          "quote": "Partial posting of Inventory Picks split by lot now works correctly"
+        }
+      ]
+    },
+    "change/bcapps/14243": {
+      "kind": "change",
+      "key": "change/bcapps/14243",
+      "hash": "70458f649259ea17965d9a61c449e3f47d181cca3f021fc47233131e6c493a23",
+      "title": "#14243 [Main]- Lot-for-Lot accumulation splits supply into multiple requisition lines when Dampener Period and Safety Stock are enabled",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:51.263Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-supply-planning",
+          "quote": "Lot-for-Lot accumulation splits supply into multiple requisition lines when Dampener Period and Safety Stock"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning",
+          "quote": "Improves supply planning efficiency and reduces fragmentation"
         }
       ]
     },
@@ -14409,6 +14558,75 @@
         }
       ]
     },
+    "change/bcapps/14429": {
+      "kind": "change",
+      "key": "change/bcapps/14429",
+      "hash": "19a49158923bd7d684c3f35f036e5fe353b30e0795b1ccef696dcc0b4887dacd",
+      "title": "#14429 [29.x]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:44.180Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Get Return Shipment Lines on purchase credit memos works again for non-inventory items"
+        }
+      ]
+    },
+    "change/bcapps/14432": {
+      "kind": "change",
+      "key": "change/bcapps/14432",
+      "hash": "7ba424a79344d6fd9bdb52da2472ba9a8a799114cf14896b5f9e1689845ab9f3",
+      "title": "#14432 [Main]- Item Journal approval link fails after approver switches batches",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:51.263Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-inventory",
+          "quote": "Item Journal approval link fails after approver switches batches"
+        }
+      ]
+    },
+    "change/bcapps/14442": {
+      "kind": "change",
+      "key": "change/bcapps/14442",
+      "hash": "222e84f3edb09f7506155d9365d381c34093160b3929b5bed14ebbe2b4b99aad",
+      "title": "#14442 Offer the Payables Agent again in a company recreated with the same name",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:44.180Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
+          "quote": "The Payables Agent is now offered again in the plus menu when a company is recreated"
+        }
+      ]
+    },
+    "change/bcapps/14448": {
+      "kind": "change",
+      "key": "change/bcapps/14448",
+      "hash": "405553a265894d75b566631f067511dff11284bc721ebb72ea8e88153c0672a4",
+      "title": "#14448 [main] Fix ELSTER UStVA 2026 XML export",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:47.332Z",
+      "matches": []
+    },
+    "change/bcapps/14450": {
+      "kind": "change",
+      "key": "change/bcapps/14450",
+      "hash": "5a68b517b994a65b5d5e5058e10aca5ccd6df633fb23b3b925c3ecd5aa64e47f",
+      "title": "#14450  [29.x] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:51.263Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "Reversed output entry stays uninvoiced causing quantity discrepancy in Inventory Valuation"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-inventory-costs",
+          "quote": "removes the quantity discrepancy it caused in Inventory Valuation"
+        }
+      ]
+    },
     "change/bcapps/14451": {
       "kind": "change",
       "key": "change/bcapps/14451",
@@ -14431,6 +14649,20 @@
       "source": "bcapps-prs",
       "at": "2026-11-27T01:01:30.405Z",
       "matches": []
+    },
+    "change/bcapps/14485": {
+      "kind": "change",
+      "key": "change/bcapps/14485",
+      "hash": "b57965bca33b8bc1005108bbafa2b369a8aea62dde3491ebe7af0d451c088209",
+      "title": "#14485 [Job Queue] Apply Job Timeout to tasks re-created by the dispatcher",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:47.332Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
+          "quote": "Job Queue entries are now terminated according to their configured Job Timeout"
+        }
+      ]
     },
     "change/bcapps/14490": {
       "kind": "change",
@@ -14457,6 +14689,66 @@
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
           "quote": "Expense Agent Copilot capability is now registered as Generally Available"
+        }
+      ]
+    },
+    "change/bcapps/14499": {
+      "kind": "change",
+      "key": "change/bcapps/14499",
+      "hash": "5994e9de5f4cd94f5be13e7495eac51403e2718a1e61a659e873d9f58aa22c96",
+      "title": "#14499 Job Queue: resume interrupted finalization on task retry",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:47.332Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
+          "quote": "Job Queue Dispatcher now resumes interrupted finalization when a task retries"
+        }
+      ]
+    },
+    "change/bcapps/14502": {
+      "kind": "change",
+      "key": "change/bcapps/14502",
+      "hash": "9a12aa06e4c787e33bc72b2d1911177d0ff524cef98443050debff2b2f319825",
+      "title": "#14502 [main][Subcontracting] Create Return includes components and WIP from unrelated purchase orders",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:44.838Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Return transfer orders in subcontracting now correctly filter by purchase order"
+        }
+      ]
+    },
+    "change/bcapps/14506": {
+      "kind": "change",
+      "key": "change/bcapps/14506",
+      "hash": "e1fae560d1ea52a56c560830677f00cca563ffd859f7f622ea36a782287d0da1",
+      "title": "#14506 [29.x]-\"Cannot match item tracking\" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:51.263Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "inventory picks for lot-tracked items with Strict Expiration Posting enabled"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/inventory",
+          "quote": "Partial posting of inventory picks for lot-tracked items now works correctly"
+        }
+      ]
+    },
+    "change/bcapps/14619": {
+      "kind": "change",
+      "key": "change/bcapps/14619",
+      "hash": "6f7364e26ce697f88de0d37ad505836285554ea74f319c7e44927b8bd89cef69",
+      "title": "#14619 [Fabric] Fix installation with an existing upgrade tag",
+      "source": "bcapps-prs",
+      "at": "2026-11-28T01:04:47.332Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "Fabric installation now guards the database upgrade tag insert to prevent duplicate-key errors"
         }
       ]
     },
@@ -15762,13 +16054,13 @@
     "change/bcapps/9145": {
       "kind": "change",
       "key": "change/bcapps/9145",
-      "hash": "c773f89641749959165e06b0a69be6d2e5fbe395a003e3e1cd25c7f317eea49a",
+      "hash": "cf943768fc10e1d3778b66f0d6eaed7952360df37389b38c9e58c7d6189ac985",
       "title": "#9145 [E-Document] Show PDF preview factbox on purchase invoice pages",
       "source": "bcapps-prs",
-      "at": "2026-11-12T00:53:07.673Z",
+      "at": "2026-11-28T01:04:44.180Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "topic": "topic/business-central/business-functionality/purchasing",
           "quote": "PDF preview factbox is added to purchase invoice pages to display the original invoice PDF"
         }
       ]
@@ -23376,6 +23668,15 @@
         ]
       }
     },
+    "post/aardvarklabs-blog/4198": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/4198",
+      "hash": "1da3a73d782c10b05ecc16f405469827414476632862f9119e773a0e4cbfe7b2",
+      "title": "Boosting Software Development with AI: Manage Your Agents",
+      "source": "aardvarklabs-blog",
+      "at": "2026-11-28T01:04:47.332Z",
+      "matches": []
+    },
     "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/": {
       "kind": "post",
       "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/",
@@ -23973,22 +24274,14 @@
     "post/demiliani-com/12076": {
       "kind": "post",
       "key": "post/demiliani-com/12076",
-      "hash": "4bd1e5994266d7fbddd9b8d33286500241462f3d6f7d9f68ca28d59a1b2ea04a",
+      "hash": "9c9452439d52067b3e13fa3b2097bd2f5c010889ef3a2fc8d222b38668f0da93",
       "title": "Dynamics 365 Business Central: introducing the Payables Agent.",
       "source": "demiliani-com",
-      "at": "2026-11-12T00:53:11.257Z",
+      "at": "2026-11-28T01:04:43.610Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
           "quote": "Payables Agent automates AP workflows by retrieving vendor invoices from email"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables",
-          "quote": "accounts payable; automation; ai agent; invoice processing; vendor invoices"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Setup requires activating the agent and configuring a shared email account"
         }
       ]
     },
@@ -29250,22 +29543,18 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027",
-      "hash": "1a78216659e32fa12c001f99a6e0669e87ede7dae3ad11fc2648dfe87ed997d0",
+      "hash": "fae717779202c1c967c6731d3a5b0a5e07216cb70b43f9f41cedd4d9a61e1131",
       "title": "Approval Workflows for Item Journals and Requisition Worksheets",
       "source": "mohana-blog",
-      "at": "2026-11-15T00:45:12.235Z",
+      "at": "2026-11-28T01:04:53.964Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ",
+          "topic": "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows",
           "quote": "approval workflows for item journals, requisition worksheets, and planning worksheets"
         },
         {
-          "topic": "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows",
-          "quote": "Approval Workflows for Item Journals and Requisition Worksheets"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning",
-          "quote": "batch-level approvals before posting or conversion to purchase documents"
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ",
+          "quote": "Standard approval actions (Approve, Reject, Delegate, Comments) and workflow status"
         }
       ]
     },
@@ -29307,6 +29596,24 @@
         {
           "topic": "topic/business-central/business-functionality/purchasing",
           "quote": "Creating purchase quotes in Business Central now allows selecting contacts"
+        }
+      ]
+    },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6599711385738349777": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6599711385738349777",
+      "hash": "597b822ab0fe39548d9909c4100c38a1e55d5b98dc4461e7f6080f1ebf03fd00",
+      "title": "BC28.5 Upgrade: Fixing the OpenTelemetry Error in Invoke-NAVApplicationDatabaseConversion",
+      "source": "mohana-blog",
+      "at": "2026-11-28T01:04:51.457Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+          "quote": "During a Business Central 25 to 28.5 on-premises upgrade"
+        },
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry",
+          "quote": "OpenTelemetry.Instrumentation.Http type initialization exception during BC upgrades"
         }
       ]
     },
@@ -30072,22 +30379,22 @@
     "post/olofsimren-com/3981": {
       "kind": "post",
       "key": "post/olofsimren-com/3981",
-      "hash": "c52b1258d75af24b0a28e495a4d5ff46b450fe1eb00363d991a6a933e11c4e40",
+      "hash": "10d39ede341f9b6fe819d11def46427e0dc15e2446cff7e72fe156a7d44bba31",
       "title": "Shop Floor and Warehouse Mobile for Business Central",
       "source": "olofsimren-com",
-      "at": "2026-11-15T00:45:13.198Z",
+      "at": "2026-11-28T01:04:52.057Z",
       "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/warehouse-management",
-          "quote": "barcode scanning, task-focused pages, and label printing integration"
-        },
         {
           "topic": "topic/business-central/business-functionality/manufacturing",
           "quote": "enables real-time data capture directly on shop floors and in warehouses"
         },
         {
-          "topic": "topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/warehouse-counting",
-          "quote": "handle warehouse receipts, picks, counts, and transfers directly from tablets"
+          "topic": "topic/business-central/business-functionality/warehouse-management",
+          "quote": "warehouse receipts, picks, counts, and transfers directly from tablets"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+          "quote": "Solution is built entirely as an AL extension inside Business Central"
         }
       ]
     },
@@ -40599,17 +40906,21 @@
     "post/yzhums-com/72611": {
       "kind": "post",
       "key": "post/yzhums-com/72611",
-      "hash": "fd378aa6e04d50a15ff2ea2d5ae4c48894725fa0d656714675b2765b165df9c4",
+      "hash": "6c32aa6abd0975e51a131ec00276287b38bc34225148be9e262b5377db1702e0",
       "title": "Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)",
       "source": "yzhums-com",
-      "at": "2026-11-12T00:53:11.465Z",
+      "at": "2026-11-28T01:04:48.753Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/relationship-management/manage-contacts",
-          "quote": "Synchronize with Outlook action on the Contacts list enables copying contacts"
+          "quote": "copy contacts from BC to Microsoft 365 Outlook and Teams"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-outlook",
+          "quote": "New Synchronize with Outlook action on the Contacts"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
           "quote": "copy contacts from BC to Microsoft 365 Outlook and Teams"
         }
       ]
@@ -40663,18 +40974,14 @@
     "post/yzhums-com/72842": {
       "kind": "post",
       "key": "post/yzhums-com/72842",
-      "hash": "0e6785013389f7178b3514a3d9fa05fc550ad2b4fc6cf01645a630c13c0a64c0",
+      "hash": "29dac7310bc3c530ea3c0dca92d68c7c7f9de0f1b509f0e257f18d464757d196",
       "title": "Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)",
       "source": "yzhums-com",
-      "at": "2026-11-12T00:53:11.257Z",
+      "at": "2026-11-28T01:04:43.610Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
-          "quote": "Payables Agent analyzes PDF documents, identifies the vendor, and generates a draft"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
-          "quote": "Purchase invoices can now be created manually from PDF files via a new"
+          "quote": "Purchase invoices can now be created manually from PDF files via a new 'New from PDF' button"
         }
       ]
     },
@@ -42828,40 +43135,40 @@
     "video/_OClSlushOU": {
       "kind": "video",
       "key": "video/_OClSlushOU",
-      "hash": "b5aa7d27e0fd9623478c820ae38b1404dfff5cef4fc7cff6a135fbc8d7188bd7",
+      "hash": "b997d3f20e42c60fac70cf42249f8036e278892d264625fe1241a04f8365553b",
       "title": "Work Seamlessly with Microsoft Outlook, Excel, and Teams",
       "source": "yt-microsoft",
-      "at": "2026-11-12T00:53:11.465Z",
+      "at": "2026-11-28T01:04:48.753Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
-          "quote": "Business data tabs in Teams chat"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "Work Seamlessly with Microsoft Outlook, Excel, and Teams"
         },
         {
-          "topic": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-outlook",
-          "quote": "Business Central in Outlook"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
+          "quote": "Business Central records in Teams chat links; Sales order modification"
+        },
+        {
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
+          "quote": "Power Automate escalation workflow"
         }
       ]
     },
     "video/_ynMUzh956w": {
       "kind": "video",
       "key": "video/_ynMUzh956w",
-      "hash": "ff7eb99f9c74048a712f082426186b3a64d3004b19506f0e62d8a30ec1c07b3b",
+      "hash": "aac5ad527b7415e6e5c0bf68aff672275954243c2cb7cddc82ee60b487e4fcfd",
       "title": "Introducing: Sustainability in Business Central (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-11T00:55:00.084Z",
+      "at": "2026-11-28T01:04:45.163Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Sustainability in Business Central emissions tracking csrd compliance esg reporting"
+          "quote": "Sustainability journal; Chart of sustainability accounts; Emissions calculation formulas"
         },
         {
           "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics",
-          "quote": "Sustainability journal chart of sustainability accounts emissions calculation formulas"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "chart of accounts sustainability journals emission factors scope tracking"
+          "quote": "Sustainability ledger entries; Standard sustainability reports; Carbon footprint tracking"
         }
       ]
     },
@@ -46927,10 +47234,10 @@
     "video/gKmkjTT-KhA": {
       "kind": "video",
       "key": "video/gKmkjTT-KhA",
-      "hash": "3ee04098969279b739ff2707af7fc16b8d89787f135096a55ef18f91ae00d503",
+      "hash": "7bf7e99e468cb5ed4da14512efad215bb1b32527cf6491e54cb81c87f2ddd6a6",
       "title": "The Energized Business Central Community",
       "source": "yt-microsoft",
-      "at": "2026-11-12T00:53:11.465Z",
+      "at": "2026-11-28T01:04:48.753Z",
       "matches": []
     },
     "video/GlY_e-jH0V0": {
@@ -48907,22 +49214,22 @@
     "video/m8-7-JKq4dc": {
       "kind": "video",
       "key": "video/m8-7-JKq4dc",
-      "hash": "a53325f81717b085fe5dc4960d068df6a037142a7f0537ded1774d76d698a478",
+      "hash": "45ad5cd1759faced2fca16e955ed942c644f659289cca5564ee9817de1d8fb1f",
       "title": "Introducing: Quality Management (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-13T00:57:13.317Z",
+      "at": "2026-11-28T01:04:44.838Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "Introducing: Quality Management (2026 release wave 1). Topics: quality inspection"
+          "quote": "quality inspection; item tracking; non-compliant items; test results"
         },
         {
           "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
           "quote": "configuration; quality templates; sampling; evaluation sequence"
         },
         {
-          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
-          "quote": "item tracking; non-compliant items; Item Tracking Preservation in Quality Process"
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-quality-management",
+          "quote": "Quality Management Setup; Inspection Actions for Non-Conforming Items"
         }
       ]
     },
@@ -50639,18 +50946,22 @@
     "video/qPInVj03wkY": {
       "kind": "video",
       "key": "video/qPInVj03wkY",
-      "hash": "0b27edc2ac57f90c4b782d05e60e408e26abc945f47246523f8d4a11df17ab88",
+      "hash": "64546c20a4ca44091b83d77b96505bda9030e71806c20bd4c7f3f8098cbf5ebc",
       "title": "What's New in Sustainability: Reporting CSRD (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-11-11T00:55:00.084Z",
+      "at": "2026-11-28T01:04:45.163Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Reporting CSRD csrd compliance reporting esg aggregation compliance reporting"
+          "quote": "CSRD reporting; esg aggregation; compliance reporting; sustainability ledger"
         },
         {
           "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics",
-          "quote": "ESG Aggregation Reporting Tool CSRD Compliance Reporting Sustainability Ledger Entry Mapping"
+          "quote": "ESG Aggregation Reporting Tool; Formula-based ESG Calculations; CSRD Preparation Reports"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app",
+          "quote": "External ESG Reporting Power App; Dataverse Connection Setup"
         }
       ]
     },

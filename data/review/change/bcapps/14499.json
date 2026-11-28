@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14499",
+  "input_hash": "624f46726bc134f465fc443e1e4e4950bcdbc39be9895549250b7b26923b278a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:06:56.904Z",
+  "issues": [
+    "The summary ties the retry to a lock timeout, but that was only the incident example. Recovery applies whenever the bookkeeping after Finished fails and the task is retried.",
+    "The key points leave out that the next waiting job in the category is activated, and that Manual Recurrence entries are covered by tests."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019937,
+    "changes_in_call": 6
+  }
+}

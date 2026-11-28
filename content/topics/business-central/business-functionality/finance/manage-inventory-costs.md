@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,8 +163,11 @@ links:
     - change/bcapps/11309
     - change/bcapps/11714
     - change/bcapps/11906
+    - change/bcapps/12153
     - change/bcapps/12868
     - change/bcapps/13442
+    - change/bcapps/14186
+    - change/bcapps/14450
     - change/bcapps/9005
     - change/bcapps/9118
     - change/bcapps/9212
@@ -262,8 +265,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11309 [29.X]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11309.md) (code change): "Post Inventory Cost to G/L' report now handles dimension text longer than 250"
 - [#11714 [Main]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment.](../../../../changes/bcapps/11714.md) (code change): "Cost adjustment for assembly items now uses unit-amount rounding precision"
 - [#11906 [Main]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11906.md) (code change): "Custom Duty is now included in inventory cost for import invoices"
+- [#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.](../../../../changes/bcapps/12153.md) (code change): "Post Inventory Cost to G/L failures on standard cost items after production order reopening"
 - [#12868 [29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment](../../../../changes/bcapps/12868.md) (code change): "rounding precision issue in the Adjust Cost process that was creating unexpected variance"
 - [#13442 [SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L](../../../../changes/bcapps/13442.md) (code change): "Post Inventory Cost to G/L: stop using marks, add clean-up"
+- [#14186 [Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption](../../../../changes/bcapps/14186.md) (code change): "WIP value no longer depends on the Starting Date used"
+- [#14450 [29.x] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation](../../../../changes/bcapps/14450.md) (code change): "removes the quantity discrepancy it caused in Inventory Valuation"
 - [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Item journal posting now prevents duplicate-key errors in concurrent scenarios"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "Item Jnl.-Post Line changed in W1, APAC, CH, ES, IT and RU"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single"

@@ -1432,52 +1432,52 @@
       }
     },
     "topic/business-central/business-functionality/finance/set-up-and-use-e-documents": {
-      "video/07G7aC14Y_w@bd1fddab6a1d4752": {
-        "verdict": "keep",
-        "reason": "Covers new E-Documents EDI capabilities such as order and remittance document types.",
-        "at": "2026-11-12T00:54:43.626Z",
-        "v": 2
-      },
-      "video/GM0DNxu39LM@6552a82a7b9121e0": {
-        "verdict": "keep",
-        "reason": "Covers E-Document connectors and service integration setup, which are part of setting up E-Documents.",
-        "at": "2026-11-12T00:54:43.626Z",
-        "v": 2
-      },
-      "video/gVjrKPHlrgM@9315c4f94b64f45b": {
-        "verdict": "keep",
-        "reason": "Covers the ZUGFeRD format for outgoing and incoming E-Documents.",
-        "at": "2026-11-12T00:54:43.626Z",
-        "v": 2
-      },
-      "video/h6a8BVzvuZ4@d1400ff1055ee3ea": {
-        "verdict": "keep",
-        "reason": "Covers the E-Documents clearance model, workflow and service setup.",
-        "at": "2026-11-12T00:54:43.626Z",
-        "v": 2
-      },
-      "video/hba7KVWrIwY@b76fd1f9324eebee": {
-        "verdict": "keep",
-        "reason": "Covers E-Documents connectors, formats, sending profiles and import.",
-        "at": "2026-11-12T00:54:43.626Z",
-        "v": 2
-      },
-      "video/hL4PUhjyhNY@4fd960605ba523fd": {
-        "verdict": "keep",
-        "reason": "Covers E-Documents country versions and formats such as Peppol and Factura.",
-        "at": "2026-11-12T00:54:43.626Z",
-        "v": 2
-      },
-      "video/whtP2i7zeso@cf7fdbe97e969b34": {
+      "post/gerardorenteria-blog/15508@9c3779aa7c8babd2": {
         "verdict": "drop",
-        "reason": "About Intrastat reporting, which this E-Documents section doesn't document.",
-        "at": "2026-11-12T00:54:43.626Z",
+        "reason": "A monthly roundup of community feature ideas across every area; the E-Document ideas are a small part, and they are requests rather than anything the section documents.",
+        "at": "2026-11-28T01:06:10.896Z",
+        "v": 2
+      },
+      "video/07G7aC14Y_w@68740331617169f0": {
+        "verdict": "keep",
+        "reason": "Covers new E-Documents features, including EDI document types, French e-reporting formats and message logging.",
+        "at": "2026-11-28T01:06:10.896Z",
+        "v": 2
+      },
+      "video/GM0DNxu39LM@94764e2af0aa8055": {
+        "verdict": "keep",
+        "reason": "Shows how to install E-Document connectors and set up the E-Document service integration.",
+        "at": "2026-11-28T01:06:10.896Z",
+        "v": 2
+      },
+      "video/gVjrKPHlrgM@628bfc8043aeb189": {
+        "verdict": "keep",
+        "reason": "Demonstrates support for the ZUGFeRD e-document format for outgoing and incoming invoices.",
+        "at": "2026-11-28T01:06:10.896Z",
+        "v": 2
+      },
+      "video/h6a8BVzvuZ4@c32b4fa85a384894": {
+        "verdict": "keep",
+        "reason": "Covers the clearance model, workflow orchestration and service setup for e-documents.",
+        "at": "2026-11-28T01:06:10.896Z",
+        "v": 2
+      },
+      "video/hba7KVWrIwY@fa409e2bfa4ed199": {
+        "verdict": "keep",
+        "reason": "Covers E-Documents connectors, Peppol formats, document sending profiles and scheduled import of received documents.",
+        "at": "2026-11-28T01:06:10.896Z",
+        "v": 2
+      },
+      "video/hL4PUhjyhNY@5c2ef54812091033": {
+        "verdict": "keep",
+        "reason": "Covers the E-Documents core app, its country versions and its formats.",
+        "at": "2026-11-28T01:06:10.896Z",
         "v": 2
       },
       "video/Xc3ISQ7NAaQ@dd1708aa3d981673": {
         "verdict": "drop",
-        "reason": "Mainly about the AI Payables Agent, which belongs with the payables documentation; e-invoices are only mentioned in passing.",
-        "at": "2026-11-12T00:54:43.626Z",
+        "reason": "Its subject is the Payables Agent, which is documented elsewhere; e-invoice support is only a minor point.",
+        "at": "2026-11-28T01:06:10.896Z",
         "v": 2
       }
     },
@@ -2753,202 +2753,220 @@
       }
     },
     "topic/business-central/business-functionality/sales": {
-      "post/yzhums-com/64277@596d600886ad9237": {
-        "verdict": "keep",
-        "reason": "Editing sales price lists is part of the sales pricing that the Sales section documents.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/64609@8e88925380585b0d": {
-        "verdict": "keep",
-        "reason": "Covers which fields can be edited when updating posted sales invoices, a sales document task.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/65326@48449cb68de280af": {
+      "post/aardvarklabs-blog/2965@a38109fce595bda0": {
         "verdict": "drop",
-        "reason": "Marketing text for items is about item data, which the Inventory section covers rather than Sales.",
-        "at": "2026-11-13T00:58:40.936Z",
+        "reason": "Subject is AI agents and grounded search; adding samples to sales orders is just the demo scenario.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
-      "post/yzhums-com/66212@382f4116ce153e4c": {
-        "verdict": "keep",
-        "reason": "Customizes default quantities on sales document lines.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/68428@c44da8ee6d1716d6": {
-        "verdict": "keep",
-        "reason": "Adds a posting-date check when posting sales documents.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/69356@c565a140cb20a251": {
-        "verdict": "keep",
-        "reason": "Archiving sales orders is a sales document feature, extended here with AL code.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/70137@7549225fc5208ecc": {
-        "verdict": "keep",
-        "reason": "Shows sales order comments in a FactBox and in reports, building on comments that sales documents support.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/71137@3215568ca222ff1b": {
-        "verdict": "keep",
-        "reason": "Sending posted sales shipments and return receipts by email is sales document functionality.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/71304@d5f72bf352306d07": {
-        "verdict": "keep",
-        "reason": "Drop shipments started from sales orders are documented under Sales.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/71489@30bede6bfb81030a": {
-        "verdict": "keep",
-        "reason": "Undoing a drop shipment from the sales shipment side is a sales process.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/yzhums-com/71648@56f0ac64fad920dc": {
-        "verdict": "keep",
-        "reason": "New filters for combining sales shipments into one invoice, which is sales invoicing.",
-        "at": "2026-11-13T00:58:40.936Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2759@5ed95368f7334ba4": {
+      "post/aardvarklabs-blog/3704@03d714dcce8ca13f": {
         "verdict": "drop",
-        "reason": "The lesson is building a Copilot prompt dialog in AL; the sales invoice is only the demo setting.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Subject is a Power Automate/SFTP integration pattern; the sales invoice is only the example document.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
         "verdict": "drop",
-        "reason": "The subject is Word report layout design with an MCP agent; the sales quote is only the example report.",
-        "at": "2026-11-13T00:58:44.728Z",
-        "v": 2
-      },
-      "post/demiliani-com/11739@4526778a0429d0cc": {
-        "verdict": "keep",
-        "reason": "It explains how the Sales Order Agent automates sales quote processing, which matters to sales readers even though the focus is billing.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Subject is Word report layout design with an MCP tool, not sales functionality.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
         "verdict": "keep",
-        "reason": "It covers a change to the order in which sales document lines are posted.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Explains a change in how lines are ordered when sales documents are posted.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14595@d578ce4454e6a906": {
         "verdict": "drop",
-        "reason": "A general list of community ideas across many modules, not about sales functionality.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Roundup of community ideas across many modules, not about what the sales section documents.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
         "verdict": "keep",
-        "reason": "It shows how to email posted sales shipments and return receipts, which are sales documents.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Covers emailing and attaching PDFs to posted sales shipments and return receipts.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
         "verdict": "keep",
-        "reason": "It covers which fields carry over when copying sales documents.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Explains which fields carry over when copying sales documents.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
         "verdict": "keep",
-        "reason": "It explains how Copy Document on sales documents handles custom fields, which extends a sales feature.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Explains how Copy Document handles custom fields on sales documents, which extends the sales copy feature.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
         "verdict": "keep",
-        "reason": "It explains why Blocked and Sales Blocked items are hidden from the sales line item lookup.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Troubleshoots item selection on sales lines using the Sales Blocked setting.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
         "verdict": "keep",
-        "reason": "It shows how to post a sales credit memo with an item charge, a sales process.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Shows how to post a sales credit memo using item charges.",
+        "at": "2026-11-28T01:06:15.091Z",
         "v": 2
       },
       "post/yzhums-com/63644@bd6456dccce2f10b": {
         "verdict": "keep",
-        "reason": "It covers the Stockout Warning in Sales & Receivables Setup on sales documents and how to extend it.",
-        "at": "2026-11-13T00:58:44.728Z",
+        "reason": "Covers the Stockout Warning setting in Sales & Receivables Setup and how to extend it.",
+        "at": "2026-11-28T01:06:15.091Z",
+        "v": 2
+      },
+      "post/yzhums-com/64277@596d600886ad9237": {
+        "verdict": "keep",
+        "reason": "Covers editing sales price lists in Excel under the new sales pricing experience.",
+        "at": "2026-11-28T01:06:15.091Z",
+        "v": 2
+      },
+      "post/yzhums-com/64609@8e88925380585b0d": {
+        "verdict": "keep",
+        "reason": "Explains a setting that controls which fields users can edit when updating posted sales invoices.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/65326@48449cb68de280af": {
+        "verdict": "drop",
+        "reason": "Marketing text is item data, which the Inventory section documents, not sales processes.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/66212@382f4116ce153e4c": {
+        "verdict": "keep",
+        "reason": "Customizes the default quantity on sales document lines, which extends how sales documents work.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/68428@c44da8ee6d1716d6": {
+        "verdict": "keep",
+        "reason": "Adds a posting-date check before sales documents are posted, extending sales posting.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/69356@c565a140cb20a251": {
+        "verdict": "keep",
+        "reason": "Extends the archiving of sales documents with a new automatic trigger.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/70137@7549225fc5208ecc": {
+        "verdict": "keep",
+        "reason": "Shows sales order comments in FactBoxes and reports, which builds on sales document comments.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/71137@3215568ca222ff1b": {
+        "verdict": "keep",
+        "reason": "Covers sending posted sales shipments and return receipts by email.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/71304@d5f72bf352306d07": {
+        "verdict": "keep",
+        "reason": "Covers creating purchase orders for sales orders set up for drop shipment, part of the drop shipment process the Sales section documents.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/71489@30bede6bfb81030a": {
+        "verdict": "keep",
+        "reason": "Covers undoing posted sales shipments from drop shipments.",
+        "at": "2026-11-28T01:06:16.327Z",
+        "v": 2
+      },
+      "post/yzhums-com/71648@56f0ac64fad920dc": {
+        "verdict": "keep",
+        "reason": "Covers new filters on Get Shipment Lines, used when combining sales shipments into one invoice.",
+        "at": "2026-11-28T01:06:16.327Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "drop",
-        "reason": "Creating production orders from sales orders is covered more exactly by the Manufacturing section.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Creating production orders from sales orders is documented more exactly in the Manufacturing section.",
+        "at": "2026-11-28T01:06:16.327Z",
         "v": 2
       },
       "post/yzhums-com/74172@68298266e334ae55": {
         "verdict": "drop",
-        "reason": "AL event code for passing fields to production orders belongs to manufacturing/development, not sales functionality.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Passing custom field values into production orders is a Manufacturing customization, not sales functionality.",
+        "at": "2026-11-28T01:06:16.327Z",
         "v": 2
       },
       "post/yzhums-com/74940@0a04d2158fa0cf45": {
         "verdict": "keep",
-        "reason": "It covers checking for duplicate external document numbers on sales documents and posted sales documents.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Covers the standard check for duplicate external document numbers on sales documents and posted sales documents.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
       "post/yzhums-com/75073@8cf1463c91b41f54": {
         "verdict": "keep",
-        "reason": "It extends the Sales Order page to capture customer signatures, so it works with sales documents.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Extends the Sales Order page with customer signature capture, so it builds on what the Sales section documents.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
-      "video/cwCZUHgDb9Q@c83e81f9b6a252a5": {
+      "video/07G7aC14Y_w@68740331617169f0": {
         "verdict": "drop",
-        "reason": "Magic Paste is a general data-entry tool; sales orders are only one example.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Its subject is E-Documents and EDI, which is documented outside the Sales section; sales orders appear only as one of the EDI document types.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
-      "video/e5Dr3jzCLM8@34d9eff8c95d7107": {
+      "video/3tmaVpPTQLw@b7e25b47b50e4453": {
         "verdict": "drop",
-        "reason": "The Shopify integration is documented by the sibling Online store with Shopify section.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Shopify Connector B2B features are documented in the sibling Online store with Shopify section.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
       "video/fatcqVFrTXI@5b8350204a49289f": {
         "verdict": "keep",
-        "reason": "It demonstrates entering sales invoices and credit memos in Business Central.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Shows how to enter sales invoices and credit memos in Business Central.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
       "video/fdP1HKBEDjA@6af3635966f0e3d7": {
         "verdict": "keep",
-        "reason": "It shows sales invoice documents and credit memos in Business Central.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Shows sales invoice documents and sales journals for customer receivables in Business Central.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
       "video/PB2ZG8fM3EE@5e64bc0343800835": {
         "verdict": "drop",
-        "reason": "Copilot autofill is a general data-entry feature, not specific to sales.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Copilot autofill is a general data-entry feature, not a sales capability.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
       "video/PIWxU93eCT4@dd35816b55e7e608": {
         "verdict": "keep",
-        "reason": "Editing sales price lists is part of the sales pricing that this section documents.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "reason": "Covers editing sales price lists, which is part of sales pricing.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       },
       "video/TSLXzbeyE7Y@115b88135d2b7633": {
-        "verdict": "keep",
-        "reason": "It shows Copilot analysing sales data and producing sales recommendations, which relates to Sales analytics.",
-        "at": "2026-11-13T00:58:45.272Z",
+        "verdict": "drop",
+        "reason": "Its subject is the general Copilot Chat feature; analysing sales data is only one of its examples.",
+        "at": "2026-11-28T01:06:24.836Z",
+        "v": 2
+      },
+      "video/VjYMhjjc3uw@4ff4b045d8ad390f": {
+        "verdict": "drop",
+        "reason": "Shopify B2B companies and locations are documented in the sibling Online store with Shopify section.",
+        "at": "2026-11-28T01:06:24.836Z",
+        "v": 2
+      },
+      "video/YSDfDjrMUb0@a662c19382da2ba6": {
+        "verdict": "drop",
+        "reason": "Shopify Connector updates belong to the sibling Online store with Shopify section.",
+        "at": "2026-11-28T01:06:24.836Z",
+        "v": 2
+      },
+      "video/zE6uElxwSMQ@b4fb21ce2f759bbe": {
+        "verdict": "drop",
+        "reason": "A customer story about booking and cloud migration that does not cover any sales functionality.",
+        "at": "2026-11-28T01:06:24.836Z",
         "v": 2
       }
     },
@@ -10723,136 +10741,196 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
+      "post/vondervoort-be/130@80f191b9b56f9b87": {
+        "verdict": "drop",
+        "reason": "This is an AL linter project, and its AI agent integration means coding assistants like Claude Code, not building Business Central agents in AL.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "post/vondervoort-be/147@99d92e66e963843b": {
+        "verdict": "drop",
+        "reason": "This covers the ALCops code analyzers and an MCP server for AI coding assistants, which is not agent development in AL.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "post/waldo-be/318755@62d8c4b8300aea40": {
+        "verdict": "drop",
+        "reason": "This is about running AL tests outside Business Central with help from AI coding agents, not coding Business Central agents.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html@b05d0c2fabe45625": {
+        "verdict": "drop",
+        "reason": "This is a conference announcement about AI prompts and the consultant versus developer role, with no agent development in AL.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "post/yzhums-com/71363@49fdd2195a46cc2d": {
+        "verdict": "keep",
+        "reason": "It covers the new Agent project template in the AL Language extension for building Business Central agents.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "video/EwN3xb2q7vE@026d8348b84608e2": {
+        "verdict": "keep",
+        "reason": "It demonstrates coding agents in AL, including the agent factory, metadata and task execution interfaces, agent setup and the tasks API.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "video/MNwTt06ZxwY@84b9b76fb70d705a": {
+        "verdict": "keep",
+        "reason": "It covers building and shipping agents via extensions, including the AL agent template, the factory and metadata interfaces, and agent testing.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "video/nbGw2g3KMXI@61321df23330d53b": {
+        "verdict": "keep",
+        "reason": "It shows custom agent development in AL with the agent factory, creation and task builder codeunits, and the AL agent project template.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "video/WjFx9yYf1js@7a24bb789c86b0e4": {
+        "verdict": "drop",
+        "reason": "It discusses the risks of vibe-coding extensions, which this section does not document.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
+      "video/xqwJTCPD9tA@238bec66ecccec25": {
+        "verdict": "drop",
+        "reason": "It is about integration design patterns that use AI coding agents as tools, not building Business Central agents in AL.",
+        "at": "2026-11-28T01:06:11.898Z",
+        "v": 2
+      },
       "post/bertverbeek-nl/1272@5592e82161ab5c60": {
         "verdict": "keep",
-        "reason": "Shows how to create and register agents in AL code with IAgentFactory, IAgentMetadata and setup pages, which is what this section documents.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It covers creating and registering agents in AL with IAgentFactory, IAgentMetadata, setup pages and KPI pages, which is exactly what this section documents.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/demiliani-com/13814@b321b022dd9d092d": {
         "verdict": "keep",
-        "reason": "Covers new Agent codeunit methods (such as SetModelId) for setting an agent's model from AL code.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It covers new Agent codeunit methods for setting an agent's AI model from AL, which is part of coding agents in AL.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/demiliani-com/13982@a0a946e5701b63bc": {
         "verdict": "drop",
-        "reason": "About the costs and skill risks of using AI for code generation, not about building agents in AL.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It is about the costs and skill loss of AI-assisted code generation, not about building Business Central agents in AL.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/demiliani-com/14098@9ef8b66699d7b0df": {
         "verdict": "drop",
-        "reason": "Its summary was withheld and its topics are general AI architecture and skills, with nothing specific to coding Business Central agents in AL.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "Only general AI architecture topics are available, with nothing showing it covers coding Business Central agents in AL.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/demiliani-com/17529@02197b3ab0ee6596": {
         "verdict": "keep",
-        "reason": "The book includes chapters on designing custom agents and building AL copilots, which relates to coding agents in AL.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "The book includes designing custom agents with AL, which relates to this section.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/@9a731a62b40514dc": {
         "verdict": "drop",
-        "reason": "About the AL MCP server for AI coding assistants like GitHub Copilot, not about creating Business Central agents.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It is about an MCP server that helps coding assistants like GitHub Copilot build AL projects, not about building Business Central agents.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai@b73108724175a97d": {
         "verdict": "drop",
-        "reason": "Opinion piece on setting up AI coding agents for AL development, not about coding Business Central agents.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It is an opinion piece on setting up AI coding agents for AL development, not on building Business Central agents.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/jeremyvyska-com/1428@9542af4e3e76a170": {
         "verdict": "drop",
-        "reason": "About team AI infrastructure and MCP for development workflows, not about building agents in AL.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It is about team AI infrastructure and MCP for development workflows, not about coding Business Central agents in AL.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/jeremyvyska-com/1433@c769c0ae8ce171fb": {
         "verdict": "drop",
-        "reason": "About organizational AI adoption and governance, not about agent development in AL.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It is about scaling AI adoption across a team, which this section does not document.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/katson-com/4756@fe746a1e7d77237d": {
         "verdict": "drop",
-        "reason": "A way of working with AI coding agents (spec-driven development), not about the AL agent framework.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It describes a method for building extensions with AI coding assistants, not for building Business Central agents.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
         "verdict": "drop",
-        "reason": "General guidance on using AI tools for Business Central development, not about creating agents in AL.",
-        "at": "2026-11-27T01:02:58.565Z",
+        "reason": "It gives general guidance on AI-assisted Business Central development, not on coding agents in AL.",
+        "at": "2026-11-28T01:06:11.988Z",
         "v": 2
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
         "verdict": "drop",
-        "reason": "About checking the quality of AL code written by AI, not about building Business Central agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "About checking the quality of AI-generated AL code, not about building Business Central agents in AL.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184@07aad549cc1080f8": {
         "verdict": "drop",
-        "reason": "About the MCP server's data query tools that outside agents use, not about writing agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "About the MCP server's data query tools for outside agents, which this section doesn't document.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
         "verdict": "drop",
-        "reason": "A general BC 28 what's-new list whose only agent mention is AI coding agents measured with BC-Bench, not building agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "Broad BC 28 release overview; its mention of AL coding agents and BC-Bench is about AI coding tools, not building agents in AL.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/olofsimren-com/3653@e7fefac5ccde599a": {
         "verdict": "drop",
-        "reason": "Vibe coding is only how the audit extension was made, so the post is not about coding agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "Vibe coding a configuration audit extension is AI-assisted development, not building agents.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
         "verdict": "drop",
-        "reason": "A language-server tool for AI coding assistants, not something this section documents.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "Language server tooling for AI coding assistants, not the AL agent framework.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
         "verdict": "drop",
-        "reason": "A Claude Code multi-agent workflow for writing AL, not about building Business Central agents.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "A Claude Code multi-agent workflow for AL development is about AI-assisted coding, not building Business Central agents.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
         "verdict": "drop",
-        "reason": "An MCP source-search server for AI coding assistants, unrelated to building agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "An MCP source-search tool for coding assistants, not about building agents in AL.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
         "verdict": "drop",
-        "reason": "A dev container setup for Claude Code, a tooling and sandbox topic this section does not cover.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "Dev container setup for Claude Code; nothing about building agents in AL.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
         "verdict": "drop",
-        "reason": "Docker sandboxing for Claude Code, not about building agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "Docker sandboxing for Claude Code is outside what this section documents.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
         "verdict": "drop",
-        "reason": "An essay on autonomy levels for AI coding, not about the AL agent framework.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "A general essay on how autonomous agentic coding can be, not about building agents in AL.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
         "verdict": "drop",
-        "reason": "A general opinion piece on engineering with AI, not about building Business Central agents in AL.",
-        "at": "2026-11-27T01:03:10.640Z",
+        "reason": "A general essay on AI engineering discipline, not about building agents in AL.",
+        "at": "2026-11-28T01:06:17.223Z",
         "v": 2
       }
     },

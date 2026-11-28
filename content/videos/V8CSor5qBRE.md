@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:04:48.860Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,7 +105,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573327
   topics: []
   localizations: []
   videos: []
@@ -192,10 +193,12 @@ features:
     verified: false
     status_source: video
   - name: Themeable reports with Office themes
-    status: unclear
+    status: ga
     t: 1137
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573327"
   - name: Word alignment bug fix
     status: unclear
     t: 1373
@@ -298,10 +301,12 @@ It then shows Word sections working in layouts that use the merge data item prop
 | Hide Empty Table Column Layout Control | status not stated, demoed | [9:56](https://www.youtube.com/watch?v=V8CSor5qBRE&t=596s) |
 | Hide Field If Zero Layout Control | status not stated, demoed | [11:22](https://www.youtube.com/watch?v=V8CSor5qBRE&t=682s) |
 | Word Sections Support for Merge Data Item | status not stated, demoed | [13:06](https://www.youtube.com/watch?v=V8CSor5qBRE&t=786s) |
-| Themeable reports with Office themes | status not stated, demoed | [18:57](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1137s) |
+| Themeable reports with Office themes | generally available (roadmap [Brand document reports with report themes](../features/573327.md)), demoed | [18:57](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1137s) |
 | Word alignment bug fix | status not stated | [22:53](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1373s) |
 | Planet PostNet and IMB font support | status not stated | [23:49](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1429s) |
 | Aptos font availability | status not stated | [24:23](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1463s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

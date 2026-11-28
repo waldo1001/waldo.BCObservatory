@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-11-24T01:05:28.728Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,6 @@ links:
     - topic/business-central/business-functionality/design-details
   localizations: []
   videos:
-    - video/m8-7-JKq4dc
     - video/SdQVQLNXVS0
   posts:
     - post/yzhums-com/67269
@@ -117,8 +116,11 @@ links:
     - change/bcapps/13056
     - change/bcapps/13206
     - change/bcapps/13552
+    - change/bcapps/13562
     - change/bcapps/14013
+    - change/bcapps/14240
     - change/bcapps/14281
+    - change/bcapps/14506
     - change/bcapps/9465
     - change/bcapps/9466
     - change/bcapps/9651
@@ -136,7 +138,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 2
+  video: 1
   blog: 4
   guideline: 0
 bc_forms: []
@@ -200,10 +202,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12542 [Main]Incorrect Calculation of Remaining Prod. Order Comp.](../../../../changes/bcapps/12542.md) (code change): "Incorrect calculation of remaining production order component quantities"
 - [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/12690.md) (code change): "Disabled item tracking for reversing capacity ledger entries that have zero output quantity"
 - [#13056 [QM] Tracking specification quantity now is used properly](../../../../changes/bcapps/13056.md) (code change): "tracking specification quantity now is used properly"
-- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/13206.md) (code change): "serial number for item xxx when trying to reverse Capacity Ledger Entry"
+- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/13206.md) (code change): "serial number assignment, allowing these entries to be reversed"
 - [#13552 [Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../../changes/bcapps/13552.md) (code change): "Warehouse shipment item tracking inherits the source line's stale pick bin"
+- [#13562 [29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy](../../../../changes/bcapps/13562.md) (code change): "component consumption and the item tracking quantity differ only by rounding"
 - [#14013 [29x]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../../changes/bcapps/14013.md) (code change): "Warehouse shipment item tracking inherits the source line's stale pick bin"
+- [#14240 [Main]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](../../../../changes/bcapps/14240.md) (code change): "lot-tracked items with Strict Expiration Posting enabled"
 - [#14281 Fix manufacturing enum fallback in item journals](../../../../changes/bcapps/14281.md) (code change): "item tracking validation, recurring journal selection"
+- [#14506 [29.x]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](../../../../changes/bcapps/14506.md) (code change): "inventory picks for lot-tracked items with Strict Expiration Posting enabled"
 - [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22 so extensions can validate item tracking"
 - [#9466 [Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event](../../../../changes/bcapps/9466.md) (code change): "extend OnCheckExpirationDateOnBeforeAssignExpirationDate event"
 - [#9651 [Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot](../../../../changes/bcapps/9651.md) (code change): "add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot"
@@ -215,7 +220,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to record extra serial or lot number information (Item Tracking Comments)](../../../../posts/yzhums-com/68786.md) (community post): "Recording extra information for serial or lot numbers using the Item Tracking Comments feature"
 - [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../../posts/yzhums-com/72006.md) (community post): "serial-tracked items get one line with quantity 1 per serial number while lot-tracked items"
 - [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../../../../posts/yzhums-com/73895.md) (community post): "tracking items via Item Tracking Lines, selecting lot numbers to consolidate"
-- [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "item tracking; non-compliant items; Item Tracking Preservation in Quality Process"
 - [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../../videos/SdQVQLNXVS0.md) (video): "Item tracking in consumption and output journals; Barcode label printing for tracked items"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

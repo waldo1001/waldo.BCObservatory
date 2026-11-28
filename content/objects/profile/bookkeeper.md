@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 51bf07be4a0aadf91b60639e7dfadc53f268927fa26ebc1b11442e3439ad980b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Layers/W1/BaseApp/Finance/RoleCenters/BookKeeper.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Layers/W1/BaseApp/Finance/RoleCenters/BookKeeper.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/BookKeeper.Profile.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "BOOKKEEPER" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · captioned "Bookkeeper" · BC23-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Layers/W1/BaseApp/Finance/RoleCenters/BookKeeper.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · captioned "Bookkeeper" · BC23-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Layers/W1/BaseApp/Finance/RoleCenters/BookKeeper.Profile.al) · facts from BC29
 
 ## Properties
 

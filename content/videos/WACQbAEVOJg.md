@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:29.976Z"
   flags: []
 generated:
-  at: "2026-11-02T00:53:48.322Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,10 +141,12 @@ features:
     roadmap_ids:
       - "573355"
   - name: Create released production orders from planning worksheet
-    status: unclear
+    status: ga
     t: 281
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573358"
   - name: Dynamic field visibility for parallel routings
     status: unclear
     t: 418
@@ -165,35 +167,43 @@ features:
     roadmap_ids:
       - "573347"
   - name: Partial shipment for direct transfer shipment and receipt mode
-    status: unclear
+    status: ga
     t: 645
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573347"
   - name: Transfer route specification for direct transfer mode
-    status: unclear
+    status: ga
     t: 669
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573347"
   - name: In-transit location for transfers
     status: unclear
     t: 743
     verified: false
     status_source: video
   - name: Inventory put-away and pick for partial transfers
-    status: unclear
+    status: ga
     t: 810
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573355"
   - name: Quality inspection blocking transfers
     status: unclear
     t: 925
     verified: false
     status_source: video
   - name: Quality inspection user role permissions
-    status: unclear
+    status: ga
     t: 989
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573350"
   - name: Quality inspection auto-assignment recommendation
     status: ga
     t: 978
@@ -277,16 +287,16 @@ It then covers transfers: choosing a posting mode for direct transfers, partial 
 |---|---|---|
 | Subcontracting comments and attachments on purchase lines | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [1:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=89s) |
 | Inventory put-away for subcontracted operations | generally available (roadmap [Use inventory put-aways and picks for subcontracting](../features/573355.md)), demoed | [2:48](https://www.youtube.com/watch?v=WACQbAEVOJg&t=168s) |
-| Create released production orders from planning worksheet | status not stated, demoed | [4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s) |
+| Create released production orders from planning worksheet | generally available (roadmap [Work more efficiently with manufacturing documents and capacity calendars](../features/573358.md)), demoed | [4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s) |
 | Dynamic field visibility for parallel routings | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=WACQbAEVOJg&t=418s) |
 | Machine center calendar entries availability check | generally available (roadmap [Work more efficiently with manufacturing documents and capacity calendars](../features/573358.md)), demoed | [7:36](https://www.youtube.com/watch?v=WACQbAEVOJg&t=456s) |
 | Direct transfer posting modes selection | generally available (roadmap [Post direct transfer orders from warehouse-enabled locations](../features/573347.md)), demoed | [9:42](https://www.youtube.com/watch?v=WACQbAEVOJg&t=582s) |
-| Partial shipment for direct transfer shipment and receipt mode | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) |
-| Transfer route specification for direct transfer mode | status not stated, demoed | [11:09](https://www.youtube.com/watch?v=WACQbAEVOJg&t=669s) |
+| Partial shipment for direct transfer shipment and receipt mode | generally available (roadmap [Post direct transfer orders from warehouse-enabled locations](../features/573347.md)), demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) |
+| Transfer route specification for direct transfer mode | generally available (roadmap [Post direct transfer orders from warehouse-enabled locations](../features/573347.md)), demoed | [11:09](https://www.youtube.com/watch?v=WACQbAEVOJg&t=669s) |
 | In-transit location for transfers | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=WACQbAEVOJg&t=743s) |
-| Inventory put-away and pick for partial transfers | status not stated, demoed | [13:30](https://www.youtube.com/watch?v=WACQbAEVOJg&t=810s) |
+| Inventory put-away and pick for partial transfers | generally available (roadmap [Use inventory put-aways and picks for subcontracting](../features/573355.md)), demoed | [13:30](https://www.youtube.com/watch?v=WACQbAEVOJg&t=810s) |
 | Quality inspection blocking transfers | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=WACQbAEVOJg&t=925s) |
-| Quality inspection user role permissions | status not stated, demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |
+| Quality inspection user role permissions | generally available (roadmap [Reduce manual work in quality tests and inspections](../features/573350.md)), demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |
 | Quality inspection auto-assignment recommendation | generally available (roadmap [Reduce manual work in quality tests and inspections](../features/573350.md)), demoed | [16:18](https://www.youtube.com/watch?v=WACQbAEVOJg&t=978s) |
 | Quality inspection passed/failed quantity auto-update | generally available (roadmap [Reduce manual work in quality tests and inspections](../features/573350.md)), demoed | [17:34](https://www.youtube.com/watch?v=WACQbAEVOJg&t=1054s) |
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e52ed4e7855103bdab6e00f291e088e8e8743aede10d66afeb5e8d4a589cc813
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/Shopify/app/src/Products/Interfaces/ShpfyICreateProductStatusValue.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/Shopify/app/src/Products/Interfaces/ShpfyICreateProductStatusValue.Interface.al
     title: src/Apps/W1/Shopify/app/src/Products/Interfaces/ShpfyICreateProductStatusValue.Interface.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy ICreateProductStatusValue" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/Shopify/app/src/Products/Interfaces/ShpfyICreateProductStatusValue.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/Shopify/app/src/Products/Interfaces/ShpfyICreateProductStatusValue.Interface.al) · facts from BC29
 
 ## Properties
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -454,7 +454,7 @@ Start with the overview page to confirm the Premium requirement. Then follow the
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10126 [Extensibility Request] issue 30389: allow skipping service item confirmation](../../../changes/bcapps/10126.md) (code change): "ServItemManagement codeunit now allows extensions to skip"
-- [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/10735.md) (code change): "posted sales, purchase, and service invoice and credit memo pages"
+- [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/10735.md) (code change): "posted sales, purchase, and service invoice and credit memo pages for Spanish localization"
 - [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management. Removes code"
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Service Shipment Lines pages to help users quickly locate"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"

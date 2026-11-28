@@ -6,13 +6,12 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Sales invoice posting now correctly applies the customer's General Product Posting Group instead of the item's group when creating prepayment deduction lines on the final invoice.",
+  "summary": "Posting a final sales invoice no longer applies the item's Gen. Prod. Posting Group to the prepayment deduction line. The fix is in Sales-Post (codeunit 80) across all localized layers, with new prepayment tests.",
   "key_points": [
-    "Prepayment deduction lines on final sales invoices now use customer General Product Posting Group",
-    "Fixes incorrect posting group assignment that was using item General Product Posting Group",
-    "Change applied consistently across all localization layers (W1, NA, BE, CH, ES, FI, FR, GB, IT, NO, RU)",
-    "New test cases added to verify correct General Product Posting Group application in prepayment scenarios",
-    "Affects sales invoice posting logic in codeunit 80"
+    "Prepayment deduction lines on the final sales invoice no longer take the item's Gen. Prod. Posting Group",
+    "Small change in Sales-Post codeunit 80",
+    "Applied in APAC, BE, CH, ES, FI, FR, GB, IT, NA, NO, RU and W1 layers",
+    "Regression tests added to ERM Prepayment in W1 and RU"
   ],
   "change_kind": "fix",
   "behavior_change": true,

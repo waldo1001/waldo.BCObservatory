@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,7 +123,6 @@ links:
     - change/bcapps/12557
     - change/bcapps/13558
     - change/bcapps/13622
-    - change/bcapps/13786
     - change/bcapps/8924
     - change/bcapps/9293
     - change/bcquality/159
@@ -210,7 +209,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
 - [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "Updates the existing tests to match"
 - [#13622 [Main]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)](../../../../changes/bcapps/13622.md) (code change): "Added unit test UnitOfMeasureCodeOnInsertLineViaOData to verify the fix"
-- [#13786 [29.X]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.](../../../../changes/bcapps/13786.md) (code change): "Price list activation was creating duplicate line entries. Test coverage added to verify the fix"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"

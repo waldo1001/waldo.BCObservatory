@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,7 +103,9 @@ links:
     - change/bcapps/12464
     - change/bcapps/12690
     - change/bcapps/12760
+    - change/bcapps/13562
     - change/bcapps/13704
+    - change/bcapps/14243
     - change/bcapps/9118
     - change/bcapps/9196
     - change/bcapps/9224
@@ -189,7 +191,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12464 [Master]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../../changes/bcapps/12464.md) (code change): "Order Planning feature now correctly processes remaining valid demand"
 - [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/12690.md) (code change): "reversing capacity entries without requiring serial number assignment"
 - [#12760 [29.X]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../../changes/bcapps/12760.md) (code change): "Order planning calculation no longer stops when it reaches a blocked item"
+- [#13562 [29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy](../../../../changes/bcapps/13562.md) (code change): "Production order can now be finished when the component consumption"
 - [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../../../../changes/bcapps/13704.md) (code change): "The calculation respects send-ahead quantities and thresholds"
+- [#14243 [Main]- Lot-for-Lot accumulation splits supply into multiple requisition lines when Dampener Period and Safety Stock are enabled](../../../../changes/bcapps/14243.md) (code change): "Lot-for-Lot accumulation splits supply into multiple requisition lines when Dampener Period and Safety Stock"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "planning, availability check and item budget Excel reports"
 - [#9196 [Master] - What If Impact on Planning and Supply](../../../../changes/bcapps/9196.md) (code change): "supply what-if analysis to analyze the negative impact of supply changes on demand"
 - [#9224 [main] GitHub event batch 1746](../../../../changes/bcapps/9224.md) (code change): "Calculate Plan - Plan. Wksh. and Whse.-Source - Create Document"

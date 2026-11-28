@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:45.452Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,8 +50,7 @@ links:
     - topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes
   localizations: []
   videos: []
-  posts:
-    - post/olofsimren-com/3981
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -65,7 +64,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 1b126813e48c79ebb2e4528e6ebb21a6bfa82718febdbf6573f935403dbcd944
@@ -103,11 +102,5 @@ Start with "Count and adjust inventory" for the document-based process, or "Coun
   - In the observatory: [Page 392 "Phys. Inventory Journal"](../../../../../objects/page/392.md), [Page 5875 "Physical Inventory Order"](../../../../../objects/page/5875.md)
 - [Design Details - Integration with Inventory](https://learn.microsoft.com/dynamics365/business-central/design-details-integration-with-inventory): The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
   - In the observatory: [Page 392 "Phys. Inventory Journal"](../../../../../objects/page/392.md), [Page 40 "Item Journal"](../../../../../objects/page/40.md)
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Shop Floor and Warehouse Mobile for Business Central](../../../../../posts/olofsimren-com/3981.md) (community post): "handle warehouse receipts, picks, counts, and transfers directly from tablets"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

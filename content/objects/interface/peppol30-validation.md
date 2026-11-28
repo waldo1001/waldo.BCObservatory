@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 91b73973b01b96d4003530334359de28d68d7e0c448c26cd86ca4fe941be4dfe
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOL30Validation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOL30Validation.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOL30Validation.Interface.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PEPPOL30 Validation" in PEPPOL (Microsoft.Peppol). 5 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOL30Validation.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOL30Validation.Interface.al) · facts from BC29
 
 ## Procedures
 

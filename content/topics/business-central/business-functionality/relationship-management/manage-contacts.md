@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,7 +158,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9966 Harden Contact Sync delta URL and ownership checks](../../../../changes/bcapps/9966.md) (code change): "Contact Sync now validates delta URLs against the approved Microsoft Graph endpoint"
 - [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../../../../posts/yzhums-com/67058.md) (community post): "Merge duplicate records (customers, vendors, or contacts)"
 - [Dynamics 365 Business Central: Search for duplicate contacts (automatic and manual)](../../../../posts/yzhums-com/67162.md) (community post): "Search for duplicate contacts (automatic and manual)"
-- [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../../posts/yzhums-com/72611.md) (community post): "Synchronize with Outlook action on the Contacts list enables copying contacts"
+- [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../../posts/yzhums-com/72611.md) (community post): "copy contacts from BC to Microsoft 365 Outlook and Teams"
 
 ## Business Central pages and reports
 

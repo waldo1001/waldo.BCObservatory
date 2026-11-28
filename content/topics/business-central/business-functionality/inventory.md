@@ -12,7 +12,7 @@ review:
   at: "2026-11-20T01:01:29.535Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -451,7 +451,9 @@ links:
     - change/bcapps/13898
     - change/bcapps/13926
     - change/bcapps/14020
+    - change/bcapps/14240
     - change/bcapps/14281
+    - change/bcapps/14506
     - change/bcapps/9180
     - change/bcapps/9531
     - change/bcapps/9602
@@ -655,7 +657,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13898 [29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13898.md) (code change): "Decimal item attributes now correctly handle entering 0 after clearing a value to blank"
 - [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](../../../changes/bcapps/13926.md) (code change): "Transfer Routes matrix does not indicate configured direct routes"
 - [#14020 Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order](../../../changes/bcapps/14020.md) (code change): "Transfer orders using routes now correctly apply the configured In-Transit Code"
+- [#14240 [Main]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](../../../changes/bcapps/14240.md) (code change): "Partial posting of Inventory Picks split by lot now works correctly"
 - [#14281 Fix manufacturing enum fallback in item journals](../../../changes/bcapps/14281.md) (code change): "manufacturing enum fallback in item journals"
+- [#14506 [29.x]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](../../../changes/bcapps/14506.md) (code change): "Partial posting of inventory picks for lot-tracked items now works correctly"
 - [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers are now copied"
 - [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "items with multiple SKUs sharing the same Production BOM"
 - [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "The user experience for adding attributes to item categories was corrected by modifying the item category attributes page"

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-28T01:08:02.450Z"
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -437,7 +437,6 @@ links:
   changes:
     - change/bcapps/10290
     - change/bcapps/10528
-    - change/bcapps/10700
     - change/bcapps/10898
     - change/bcapps/11134
     - change/bcapps/11149
@@ -446,7 +445,6 @@ links:
     - change/bcapps/11274
     - change/bcapps/11339
     - change/bcapps/11367
-    - change/bcapps/11560
     - change/bcapps/12003
     - change/bcapps/12532
     - change/bcapps/12723
@@ -463,8 +461,10 @@ links:
     - change/bcapps/13628
     - change/bcapps/14138
     - change/bcapps/14225
+    - change/bcapps/14429
     - change/bcapps/9044
     - change/bcapps/9084
+    - change/bcapps/9145
     - change/bcapps/9182
     - change/bcapps/9443
     - change/bcapps/9446
@@ -581,7 +581,7 @@ narrative: generated
 
 > Purchasing in Business Central: quotes, orders, invoices, receipts, returns, approvals, electronic documents, date calculation, and the purchasing analytics subtopic. It answers how to record, correct, match, approve and analyze vendor purchases.
 
-Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -642,7 +642,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10290 [Main] -Drop shipment undo receipt fails for service and non-inventory items.](../../../changes/bcapps/10290.md) (code change): "Undo receipt and undo shipment operations now work correctly for drop shipments"
 - [#10528 Track receipt on invoice per purchase order line](../../../changes/bcapps/10528.md) (code change): "Receipt on invoice can now be set per purchase order line"
-- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../changes/bcapps/10700.md) (code change): "New Base Application codeunits for PO matching, matching groups, matched order lines"
 - [#10898 [Extensibility Request] issue 30434: add purchase prepayment amount event](../../../changes/bcapps/10898.md) (code change): "purchase prepayment amount event. An extensibility event allows purchase prepayment"
 - [#11134 [Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line](../../../changes/bcapps/11134.md) (code change): "Posted Purchase Invoice Order No. is blank when invoice rounding"
 - [#11149 [BE][Purchase Ledger Report] Wrong VAT Amounts on the report](../../../changes/bcapps/11149.md) (code change): "Belgium-specific Purchase Ledger report now displays correct VAT"
@@ -651,7 +650,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11274 [Master]-[Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11274.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
-- [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../../../changes/bcapps/11560.md) (code change): "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents"
 - [#12003 [Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12003.md) (code change): "Project Planning Lines are created in reverse order when posting purchase invoices"
 - [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor/Purchase"
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
@@ -667,9 +665,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13616 [main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions](../../../changes/bcapps/13616.md) (code change): "SWIFT Code validation is made consistent across Czech localization by disabling table relation validation"
 - [#13628 [main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines](../../../changes/bcapps/13628.md) (code change): "Drop shipment receipts now correctly populate Your Reference, Vendor Order No., and Vendor Shipment No."
 - [#14138 [MAIN] Fix undo of final subcontracting operation after earlier operation undo (Bug 653934)](../../../changes/bcapps/14138.md) (code change): "Fixed a bug where undoing the final subcontracting operation on a posted purchase receipt"
-- [#14225 [Master]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](../../../changes/bcapps/14225.md) (code change): "Purchase credit memos can now retrieve return shipment lines for non-inventory items"
+- [#14225 [Master]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](../../../changes/bcapps/14225.md) (code change): "Get Return Shipment Lines fails for Non-Inventory items with corrective credit memo error"
+- [#14429 [29.x]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](../../../changes/bcapps/14429.md) (code change): "Get Return Shipment Lines on purchase credit memos works again for non-inventory items"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
+- [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display the original invoice PDF"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 field on purchase documents is now editable"
 - [#9443 [Extensibility Request] issue 30222: add handled event before RecreatePurchLines in Pay-to Vendor No. validation](../../../changes/bcapps/9443.md) (code change): "integration event OnValidatePayToVendorNoOnBeforeRecreatePurchLines was added to the Pay-to Vendor No. field validation in Purchase Header"
 - [#9446 [Extensibility Request] issue 30216: add OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine event in codeunit 90 Purch.-Post](../../../changes/bcapps/9446.md) (code change): "new integration event OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine is added to codeunit 90 Purch.-Post"

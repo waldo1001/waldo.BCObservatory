@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
     - change/bcapps/12842
     - change/bcapps/13166
     - change/bcapps/13293
+    - change/bcapps/13331
     - change/bcapps/13724
     - change/bcapps/13991
     - change/bcapps/9297
@@ -199,6 +200,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12842 [main] Bug 653921 Warehouse pick fails with "Nothing to handle" when an earlier unshipped pick uses a non-default shipment bin](../../../../changes/bcapps/12842.md) (code change): "Warehouse pick validation now correctly recognizes picked quantities in non-default shipment bins"
 - [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "posting a warehouse shipment for a WIP transfer"
 - [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "posting a warehouse shipment for a WIP transfer"
+- [#13331 [Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.](../../../../changes/bcapps/13331.md) (code change): "Create Pick now correctly assigns lot quantities when breakbulk is disabled"
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../../changes/bcapps/13724.md) (code change): "Extended warehouse-picking eligibility to include Planning Level 1 components"
 - [#13991 [Main][All-E] Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted](../../../../changes/bcapps/13991.md) (code change): "Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted"
 - [#9297 [Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order](../../../../changes/bcapps/9297.md) (code change): "Fixed a bug preventing posting of inventory picks for assemble-to-order items"

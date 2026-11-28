@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 44f0a13ac8ca2bec5437d1e81abc58cc5c6385fa64ca15df7c1211d1699676ae
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVOrderProcessorRC.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVOrderProcessorRC.PageCust.al
     title: src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVOrderProcessorRC.PageCust.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "SVOrderProcessorRC" in AgentSamples (System.Agents.Designer.AgentSamples.SalesValidation). Introduced in BC29, still in BC30.
 
-AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVOrderProcessorRC.PageCust.al) · facts from BC29
+AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · BC29-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVOrderProcessorRC.PageCust.al) · facts from BC29
 
 ## Across versions
 

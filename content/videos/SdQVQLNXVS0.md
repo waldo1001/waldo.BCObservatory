@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:00:02.289Z"
   flags: []
 generated:
-  at: "2026-11-27T01:00:57.817Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,6 @@ links:
     - object/page/99000768
   features:
     - feature/573345
-    - feature/573358
   topics: []
   localizations: []
   videos: []
@@ -180,12 +179,10 @@ features:
     verified: false
     status_source: video
   - name: Enhanced routing overview and link code updates
-    status: ga
+    status: unclear
     t: 120
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573358"
+    status_source: video
   - name: Item tracking in consumption and output journals
     status: unclear
     t: 133
@@ -265,7 +262,7 @@ Most items are demoed. Production orders can be moved between statuses in bulk, 
 | Attachments in production order headers and lines | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [1:21](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=81s) |
 | Default business posting group in production orders | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=91s) |
 | Improved component availability information | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=103s) |
-| Enhanced routing overview and link code updates | generally available (roadmap [Work more efficiently with manufacturing documents and capacity calendars](../features/573358.md)), demoed | [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) |
+| Enhanced routing overview and link code updates | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) |
 | Item tracking in consumption and output journals | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=133s) |
 | Barcode label printing for tracked items | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=163s) |
 

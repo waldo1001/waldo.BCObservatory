@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.576Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ Start with the standard chart of accounts page to set up the mapping. Then use t
 ## Learn pages
 
 - [Export accounting data to Regnskab Basis in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export): This article describes how to upload a comma-separated values (CSV) file that contains accounting data to Regnskab Basis in Denmark.
-  - In the observatory: [Page 13687 "RB Accounting File (DK)"](../../../../../objects/page/13687-dk.md)
+  - In the observatory: [Page 13687 "RB Accounting File"](../../../../../objects/page/13687.md)
 - [Export the SAF-T audit file format in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export): This article explains how to export all required data according to the SAF-T format in Denmark.
 - [Standard chart of accounts in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa): This article explains how to set up a standard chart of accounts in Denmark.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)

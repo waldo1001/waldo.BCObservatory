@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,6 +204,8 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11400
+    - change/bcapps/11407
     - change/bcapps/13899
 learn_toc_path:
   - Business functionality
@@ -325,6 +327,8 @@ For operations and support, use the troubleshooting page (logging, skipped recor
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11400 [Shopify] Handle missing variant mapping in product action](../../../changes/bcapps/11400.md) (code change): "Show product in Shopify action on the Item Card and Item List is now enabled only when"
+- [#11407 [Shopify] Keep exchange shipments eligible for synchronization](../../../changes/bcapps/11407.md) (code change): "Exchange-refund Shopify orders now sync their shipments correctly"
 - [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../../../changes/bcapps/13899.md) (code change): "Shopify refund sales line creation when shop and presentment currencies differ"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Item variant images and attributes support; Shopify collections import"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "Shopify B2B company locations import; Tax ID automatic entity mapping"

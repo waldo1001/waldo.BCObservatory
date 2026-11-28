@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,6 +158,8 @@ links:
   posts:
     - post/demiliani-com/15935
   guidelines: []
+  changes:
+    - change/bcapps/10408
 learn_toc_path:
   - Responsible AI
 toc_file: business-central/TOC.md
@@ -219,10 +221,11 @@ Start with the index page, "Responsible AI FAQs for Dynamics 365 Business Centra
 - [Responsible AI FAQ for summarize (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-summarize): Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 - [Responsible AI FAQs for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/responsible-ai-overview): Responsible AI FAQs provide information about the AI technology used in Business Central, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../changes/bcapps/10408.md) (code change): "Tracks provenance Created by Agent Verified and handles low-confidence matches deterministically"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../videos/bCIcq1zESKk.md) (video): "responsible ai; llm; embedding; product information"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../videos/eA7CENx7se0.md) (video): "responsible ai; test automation; external evaluation with Azure AI Studio"

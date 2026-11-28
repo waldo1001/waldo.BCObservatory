@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14651",
+  "input_hash": "4ed9c477dfe8adbd10f763ac72509fdd0b5424e3a833e7164e368bcb1d7327fc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:07:02.453Z",
+  "issues": [
+    "The description says only that AL0133 was fixed in a test. It does not call AL0133 an analyzer warning."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024291,
+    "changes_in_call": 6
+  }
+}

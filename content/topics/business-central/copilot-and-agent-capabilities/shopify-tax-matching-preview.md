@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:02.098Z"
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,10 +104,10 @@ Start with the setup page if you want to turn the feature on. Read the applicati
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "Shopify Copilot Tax Matching Agent adds a headless matching engine that uses AI to match Shopify tax lines"
+- [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "Shopify Copilot Tax Matching Agent adds a headless matching engine"
 - [#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)](../../../changes/bcapps/10409.md) (code change): "The Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience"
 - [#11722 [Shopify] Rename tax matching and add configurable processing limit](../../../changes/bcapps/11722.md) (code change): "Shopify Tax Matching and add configurable processing limit"
-- [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "The Shopify Tax Matching Agent now runs only for US and Canadian orders"
+- [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "Shopify Tax Matching Agent now runs only for US and Canadian orders"
 - [#12468 [Shopify] Clarify VAT Bus. Posting Group tooltip](../../../changes/bcapps/12468.md) (code change): "Shopify Tax Areas page tooltip now clarifies when the VAT business posting group applies"
 - [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "Shopify order processing now preserves tax mappings and holds document creation"
 - [#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres](../../../changes/bcapps/13052.md) (code change): "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres"

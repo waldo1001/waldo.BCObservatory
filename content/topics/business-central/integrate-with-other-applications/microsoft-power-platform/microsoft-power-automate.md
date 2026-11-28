@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,7 +50,8 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
-  videos: []
+  videos:
+    - video/_OClSlushOU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -63,7 +64,7 @@ children: []
 coverage:
   learn: 3
   code: 1
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -101,6 +102,12 @@ Start with the overview to understand the concepts, then read the usage page to 
 - [Troubleshoot Business Central Power Automate Workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
   - In the observatory: [Codeunit 1544 "Workflow Webhook Subscription"](../../../../objects/codeunit/1544.md), [Page 6403 "Sales Document Line Entity"](../../../../objects/page/6403.md), [Page 6405 "Purchase Document Line Entity"](../../../../objects/page/6405.md)
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Power Automate escalation workflow"
 
 ## Business Central pages and reports
 

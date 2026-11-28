@@ -1,23 +1,22 @@
 {
   "week": "2026-W48",
-  "input_hash": "f2602e7c8309319462fc24b560eae589fd1e14d0ff4da21a5a72feca0f217a2c",
-  "text": "Most of the week's 51 pull requests in BCApps changed behaviour, and none were marked as breaking. Posting and cost fixes lead. #14490 stops repeated partial return postings from reusing the first credit memo, #14413 converts quantities for a different unit of measure, and #13112 corrects item charge handling when a posted purchase invoice is canceled. #14450, #12153, #14186 and #13562 address production order and inventory valuation problems. #14507 and #13854 make Set G/L Account No. on VAT Entries respect filters. #14429 and #14225 fix Get Return Shipment Lines for non-inventory items. Localization fixes include #13015 for Mexico, #14297 for Germany, #13613 for Australia and #14139 for Czech compensations. The Expense Agent had the most feature work: #14528 adds a Lost Receipt option, #14136 adds per diem rounding, #14492 registers the capability as generally available, and #13673 exposes the active approver. #14405 renumbers three codeunits to avoid collisions. Payables Agent fixes are #14527 and #14442. Custom agents gain Markdown instructions in #13831 and timeline task creation in #13811. Partners get new expense events in #14346. #14471 changes a field type to BigInteger.",
-  "changes": 51,
+  "input_hash": "6ec4ef0931c336100d4e7e10dd664ff38fa9e12cd2ccd9bd987350b72aaf48ed",
+  "text": "Most of the week's 71 pull requests in BCApps were fixes that change behaviour, and none are marked breaking. Posting and inventory got the most attention: #14490 stops repeated partial return postings from reusing the first credit memo, #13885 keeps the item's Gen. Prod. Posting Group off the prepayment deduction line, and #14506 and #14240 clear the \"Cannot match item tracking\" error on partial inventory picks. Other fixes cover Lot-for-Lot planning (#14243), production order finishing (#13562) and reversed output (#14450, #12153). Regional work includes the 2026 ELSTER XML export (#14448), Norwegian SAF-T exchange rates (#14437), ZUGFeRD Description 2 (#14500, #14501) and Mexican cash basis VAT (#13015). #14507 and #13854 make Set G/L Account No. respect filters. In Job Queue, #14499 resumes interrupted finalization and #14485 applies Job Timeout to re-created tasks. The agent apps moved most on features: Expense Agent gained interim approval (#13674), lost-receipt expenses (#14528) and general availability (#14492), while custom agents got native Markdown instructions (#13831) and timeline task creation (#13811). #14372 moves Business Skills core into System Application. For partners, #14650, #13200 and #14346 add extensibility, and #14405 renumbers three Expense Agent codeunits to avoid collisions.",
+  "changes": 71,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.057072,
-  "at": "2026-11-27T00:13:11.976Z",
+  "cost_usd": 0.07534,
+  "at": "2026-11-28T00:12:53.289Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-27T01:04:02.742Z",
+    "at": "2026-11-28T01:07:27.121Z",
     "verdict": "approve",
     "issues": [
-      "Gaps in coverage: some fixes that change behaviour are left out, such as warehouse picks and shipments (#13331, #14013, #14240) and price list duplicates (#13786). Some features are also left out: #13732, #14480, #13813. This is acceptable for a summary.",
-      "#14405 and #14346 are flagged as not changing behaviour. The paragraph does not say they do, so it is consistent with the flags.",
-      "#14139 is filed under localization. It also changes the events partners can use (separate customer and vendor lookup events). This is fine where it sits."
+      "\"Posting and inventory got the most attention\" and \"the agent apps moved most on features\" are the writer's interpretation, not facts from the list, though both are plausible.",
+      "Calling #12153 \"reversed output\" is a slight simplification: it fixes the Adjust Cost variance entries created after a finished production order is reversed and its output posted again."
     ],
-    "input_hash": "f2602e7c8309319462fc24b560eae589fd1e14d0ff4da21a5a72feca0f217a2c",
-    "cost_usd": 0.137224,
+    "input_hash": "6ec4ef0931c336100d4e7e10dd664ff38fa9e12cd2ccd9bd987350b72aaf48ed",
+    "cost_usd": 0.184632,
     "applied": [],
     "rejected_edits": []
   }

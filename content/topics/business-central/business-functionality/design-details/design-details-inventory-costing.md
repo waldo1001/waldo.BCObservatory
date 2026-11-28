@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,11 +212,15 @@ links:
     - change/bcapps/10575
     - change/bcapps/10663
     - change/bcapps/11714
+    - change/bcapps/12153
     - change/bcapps/12868
+    - change/bcapps/13206
     - change/bcapps/13220
     - change/bcapps/13725
     - change/bcapps/14080
+    - change/bcapps/14186
     - change/bcapps/14332
+    - change/bcapps/14450
     - change/bcapps/9062
     - change/bcapps/9212
     - change/bcapps/9398
@@ -314,11 +318,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10575 Calculate Inventory: scope Default Dimension reads by source table](../../../../changes/bcapps/10575.md) (code change): "Calculate Inventory now scopes Default Dimension reads by source table"
 - [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../changes/bcapps/10663.md) (code change): "Stock Card report shows incorrect received quantity"
 - [#11714 [Main]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment.](../../../../changes/bcapps/11714.md) (code change): "Cost adjustment for assembly items now uses unit-amount rounding precision"
+- [#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.](../../../../changes/bcapps/12153.md) (code change): "variance value entries incorrectly marked as expected cost instead of actual cost"
 - [#12868 [29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment](../../../../changes/bcapps/12868.md) (code change): "Adjust Cost creates an additional unexpected variance amount due to rounding precision"
+- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/13206.md) (code change): "reversing Capacity Ledger Entry for items requiring serial number assignment"
 - [#13220 Fix average cost adjustment overflow on same-period transfers](../../../../changes/bcapps/13220.md) (code change): "Same-period transfers no longer cause average cost adjustments to overflow"
 - [#13725 Reduce repeated ILE reads and JIT loads in average cost adjustment](../../../../changes/bcapps/13725.md) (code change): "Codeunit 5895 Inventory Adjustment reduces repeated database reads and JIT loads during average cost calculation"
 - [#14080 [master] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation](../../../../changes/bcapps/14080.md) (code change): "inventory valuation discrepancies caused by uninvoiced reversed entries"
+- [#14186 [Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption](../../../../changes/bcapps/14186.md) (code change): "Fixed the WIP calculation in report 5802 Inventory Valuation - WIP"
 - [#14332 Bug 660000: [64bit] Overflow in item application entry](../../../../changes/bcapps/14332.md) (code change): "Some variables in the Item Application Entry table were declared as Integer instead of BigInteger"
+- [#14450 [29.x] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation](../../../../changes/bcapps/14450.md) (code change): "Reversed output entry stays uninvoiced causing quantity discrepancy in Inventory Valuation"
 - [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../changes/bcapps/9062.md) (code change): "incorrect consumption amount shown for production orders in the Inventory Valuation - WIP report"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Manufacturing-enabled installations route to production data XMLPorts"
 - [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Fixes wrong Cost Amount (Actual) in value entries for assembly orders after Calc. Assembly Std. Cost"

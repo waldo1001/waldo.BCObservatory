@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,6 +117,7 @@ links:
     - change/bcapps/14014
     - change/bcapps/14111
     - change/bcapps/14122
+    - change/bcapps/14502
     - change/bcapps/8747
     - change/bcapps/8750
     - change/bcapps/8752
@@ -245,6 +246,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#14014 Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty "Released Produciton Orders" page resulting in errors when clicked](../../../../changes/bcapps/14014.md) (code change): "Test coverage includes initial empty and non-empty page states plus subcontracting extension actions"
 - [#14111 Slice 636866: [Subcontracting] Subcontracting Summary Factbox on Released Production Order Card](../../../../changes/bcapps/14111.md) (code change): "Subcontracting Summary FactBox was added to the Released Production Order Card showing nine order-level indicators"
 - [#14122 [Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting](../../../../changes/bcapps/14122.md) (code change): "SetIsSubcontracting on the Subc. Trans. Order Sub. page extension now calls CurrPage.Update"
+- [#14502 [main][Subcontracting] Create Return includes components and WIP from unrelated purchase orders](../../../../changes/bcapps/14502.md) (code change): "Return transfer orders in subcontracting now correctly filter by purchase order"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
 - [#8752 [Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines](../../../../changes/bcapps/8752.md) (code change): "Open TO from PO actions on subcontracting purchase order lines"

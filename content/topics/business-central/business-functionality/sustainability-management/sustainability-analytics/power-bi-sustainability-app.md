@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,6 +132,7 @@ links:
   localizations: []
   videos:
     - video/hX2zkeUvvdY
+    - video/qPInVj03wkY
   posts: []
   guidelines: []
   changes:
@@ -147,7 +148,7 @@ children: []
 coverage:
   learn: 13
   code: 1
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -213,6 +214,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9039 Adding all Power BI reports to Business Manager's Role Center](../../../../../changes/bcapps/9039.md) (code change): "Power BI reports are now added to the Business Manager's Role Center"
 - [What's New: Power BI Reports for Sustainability (2025 release wave 1)](../../../../../videos/hX2zkeUvvdY.md) (video): "Power BI Reports for Sustainability greenhouse gas emissions carbon equivalent water and waste"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../../../videos/qPInVj03wkY.md) (video): "External ESG Reporting Power App; Dataverse Connection Setup"
 
 ## Business Central pages and reports
 

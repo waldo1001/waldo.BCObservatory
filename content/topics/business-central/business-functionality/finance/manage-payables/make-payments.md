@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,8 +148,7 @@ links:
     - video/CoQH7Z-leVE
     - video/fpc_XlVEnWw
     - video/z4Ri5SAqUcc
-  posts:
-    - post/yzhums-com/72842
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10124
@@ -179,7 +178,7 @@ coverage:
   learn: 9
   code: 45
   video: 5
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 39
@@ -305,7 +304,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13447 [master]"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor." error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.](../../../../../changes/bcapps/13447.md) (code change): "Create Payment for some Vendor Ledger Entries filtered by Remaining Amount"
 - [#14096 [29.x]-"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor." error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.](../../../../../changes/bcapps/14096.md) (code change): "Create Payment no longer fails with an ambiguous 'Importe pendiente' caption error"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
-- [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../../../posts/yzhums-com/72842.md) (community post): "Purchase invoices can now be created manually from PDF files via a new"
 - [What's New: Draft Page for Electronic Invoices (2025 release wave 2)](../../../../../videos/axQegcPweNY.md) (video): "electronic invoices; purchase invoicing; document processing; item references"
 - [What's New: Document Preview in E-Documents (2025 release wave 1)](../../../../../videos/CCIGX86ljYQ.md) (video): "electronic invoicing; document preview; vendor documents; purchase invoice"
 - [E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)](../../../../../videos/CoQH7Z-leVE.md) (video): "e-invoicing; invoice matching; copilot; purchase order"

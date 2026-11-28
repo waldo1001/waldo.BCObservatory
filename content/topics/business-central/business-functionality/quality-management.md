@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,6 +126,7 @@ links:
     - change/bcapps/13056
     - change/bcapps/13104
     - change/bcapps/13111
+    - change/bcapps/13200
     - change/bcapps/13261
     - change/bcapps/13325
     - change/bcapps/13427
@@ -205,13 +206,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality Management now uses the tracking specification quantity properly in its receiving integration"
 - [#13104 update tests and enable them](../../../changes/bcapps/13104.md) (code change): "Disabled Quality Management result condition tests are re-enabled"
 - [#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper](../../../changes/bcapps/13111.md) (code change): "large text modal helper on page 20441 Qlty. Edit Large Text in Quality Management"
+- [#13200 [Backport 29.x] Batch SCM extensibility requests](../../../changes/bcapps/13200.md) (code change): "New events added to Quality Management and Purchase Line tables across all localization layers"
 - [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../changes/bcapps/13261.md) (code change): "Modifies Qlty. Result Condition Mgmt. and Qlty. Filter Helpers in Quality Management"
 - [#13325 [Quality Management] Certificate of analysis shows now full name instead of the ID.](../../../changes/bcapps/13325.md) (code change): "Certificate of Analysis, General Purpose Inspection and Non-Conformance reports now show a full name"
 - [#13427 [Quality Management] Confirm before finishing on Create Re-inspection](../../../changes/bcapps/13427.md) (code change): "Quality inspections now ask for confirmation before finishing when creating a re-inspection"
 - [#13560 [QM] Move Inventory: allow destination location for non-directed item](../../../changes/bcapps/13560.md) (code change): "Quality Management Move Inventory report now allows a destination location to be set"
 - [#14219 [QM] Copy template doesn't ignore target description anymore](../../../changes/bcapps/14219.md) (code change): "The Qlty. Inspection Copy Template report (20402) in Quality Management no longer ignores"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
-- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Introducing: Quality Management (2026 release wave 1). Topics: quality inspection"
+- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "quality inspection; item tracking; non-compliant items; test results"
 
 ## Business Central pages and reports
 

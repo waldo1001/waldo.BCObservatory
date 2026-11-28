@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-11-25T01:06:09.711Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,9 +47,8 @@ links:
     - post/yzhums-com/65857
   guidelines: []
   changes:
-    - change/bcapps/10466
-    - change/bcapps/10480
-    - change/bcapps/10526
+    - change/bcapps/10407
+    - change/bcapps/10437
     - change/bcapps/13065
     - change/bcapps/13174
     - change/bcapps/13507
@@ -110,9 +109,8 @@ Start with the business events page if you want to trigger Power Automate flows 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items when the description exactly matches"
-- [#10480 [Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard](../../../changes/bcapps/10480.md) (code change): "Field Service connection setup wizard now properly checks the result of the ImportFSSolution function"
-- [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "E-Documents now leverages BaseApp's new PO Matching module to support one-to-many matching"
+- [#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)](../../../changes/bcapps/10407.md) (code change): "Integration events and CommitBehavior added for extensibility"
+- [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../../changes/bcapps/10437.md) (code change): "New public E-Document message API with IMessageSender and IMessageResponseHandler contracts"
 - [#13065 Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.](../../../changes/bcapps/13065.md) (code change): "E-Document Purchase Draft page is made extensible"
 - [#13174 [E-Documents] Remove the PDF reader service credit memo upgrade](../../../changes/bcapps/13174.md) (code change): "Removes obsolete upgrade code with no behavior change"
 - [#13507 [E-Document] Add AKV switch for PA-related LLM calls](../../../changes/bcapps/13507.md) (code change): "E-Document AI processing now supports switching between LLM models"

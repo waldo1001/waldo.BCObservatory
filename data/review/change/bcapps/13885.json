@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13885",
+  "input_hash": "ea01db0877e2dc704a2e78b901a4b38fb1006610d9cbe9d03f725aeb1bd91b93",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:06:57.124Z",
+  "issues": [
+    "The summary claims the customer's General Product Posting Group is now used; nothing given says which group is correct, only that using the item's group was the bug.",
+    "The layer list leaves out APAC; tests were added only in W1 and RU."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019101,
+    "changes_in_call": 6
+  }
+}

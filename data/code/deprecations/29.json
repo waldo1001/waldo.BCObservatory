@@ -2,13 +2,13 @@
   "inputs": [
     7,
     [
-      "34e1078527c84ba7c885b871a9be47229ba9e4f4",
+      "baedf68df311071024c0711fde8b1fbac33ec290",
       "4",
       9478
     ]
   ],
   "major": "29",
-  "count": 1229,
+  "count": 1230,
   "by_tag": {
     "untagged": 326,
     "23.0": 1,
@@ -20,7 +20,8 @@
     "27.2": 1,
     "28.0": 144,
     "29.0": 72,
-    "29.1": 2
+    "29.1": 2,
+    "30.0": 1
   },
   "items": [
     {
@@ -15689,6 +15690,19 @@
         "CLEAN29"
       ],
       "clean_version": "29"
+    },
+    {
+      "key": "table/18",
+      "object": "Customer",
+      "member": "OnBeforeCheckBlockedCust",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by OnBeforeCheckBlockedCust2",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
     }
   ]
 }

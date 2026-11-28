@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:13:11.976Z"
+  at: "2026-11-28T00:12:53.289Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
@@ -122,6 +122,7 @@ links:
     - feature/576881
     - feature/577820
     - feature/578065
+    - feature/578068
   topics: []
   localizations: []
   videos:
@@ -724,22 +725,22 @@ footprint:
       weight: 5
     - id: feature/577820
       weight: 5
+    - id: feature/573342
+      weight: 4
+    - id: feature/576789
+      weight: 4
     - id: feature/573254
       weight: 3
     - id: feature/573265
       weight: 3
+    - id: feature/573312
+      weight: 3
     - id: feature/573320
+      weight: 3
+    - id: feature/573333
       weight: 3
     - id: feature/573345
       weight: 3
-    - id: feature/573362
-      weight: 3
-    - id: feature/576789
-      weight: 3
-    - id: feature/573256
-      weight: 2
-    - id: feature/573257
-      weight: 2
 first_item: "2023-10-23"
 last_item: "2026-10-29"
 ---
@@ -789,28 +790,34 @@ Items per quarter, oldest first:
 
 - [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 5 videos
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 5 videos
+- [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md): Ecommerce, generally available, GA 2026-10, 4 videos
+- [Unlock more Business Central data with MCP server enhancements](../features/576789.md): Copilot and agents, generally available, GA 2026-06, 4 videos
 - [Add date ranges and vehicle types in your mileage calculation](../features/573254.md): Expense Agent, in preview, GA 2026-10, 3 videos
+- [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 3 videos
 - [Carry subcontracting instructions into purchase orders](../features/573345.md): Supply Chain Management, generally available, GA 2026-10, 3 videos
 - [Control the lifecycle of all report layouts](../features/573320.md): Reporting and data analysis, generally available, GA 2026-10, 3 videos
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 3 videos
-- [Unlock more Business Central data with MCP server enhancements](../features/576789.md): Copilot and agents, generally available, GA 2026-06, 3 videos
+- [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 2 videos
 - [Add an interim approver when you submit an expense report](../features/573260.md): Expense Agent, in preview, GA 2026-11, 2 videos
 - [Audit AL app accessibility and debugging boundaries](../features/573336.md): Development, generally available, GA 2026-10, 2 videos
 - [Automate report outputs](../features/573318.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
-- [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 2 videos
+- [Brand document reports with report themes](../features/573327.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
 - [Calculate withholding tax automatically in expense reports](../features/573304.md): Expense Agent, in preview, GA 2027-04, 2 videos
 - [Create expense reports per trip automatically](../features/573257.md): Expense Agent, in preview, GA 2026-11, 2 videos
 - [Create expenses from credit card feeds](../features/573256.md): Expense Agent, announced, GA 2026-12, 2 videos
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 2 videos
 - [Enable approving limits and alternate approvers when primary is not available](../features/573605.md): Expense Agent, announced, GA 2027-02, 2 videos
 - [Enable electronic invoicing in France](../features/576832.md): Country and regional, generally available, GA 2026-08, 2 videos
+- [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 2 videos
 - [Let agents allocate free AL object IDs](../features/573346.md): Development, generally available, GA 2026-10, 2 videos
 - [Process Shopify order changes, exchanges, and refunds](../features/573343.md): Ecommerce, generally available, GA 2026-10, 2 videos
 - [Profile slow Business Central sessions with AI agents](../features/573335.md): Development, generally available, GA 2026-10, 2 videos
+- [Reduce complexity of report datasets](../features/573321.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
 - [Reverse Sustainability Ledger entries transaction](../features/573376.md): Sustainability Management, generally available, GA 2026-10, 2 videos
-- [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 2 videos
+- [Review content generated by agents directly on pages](../features/573366.md): Copilot and agents, generally available, GA 2026-10, 2 videos
+- [Run AL tests from command-line and CI/CD workflows](../features/573334.md): Development, generally available, GA 2026-10, 2 videos
 - [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 2 videos
 - [Show avatars for record creators and modifiers in list](../features/573364.md): Copilot and agents, generally available, GA 2026-10, 2 videos
 - [Translate objects with the same name in different namespaces](../features/573359.md): Development, generally available, GA 2026-10, 2 videos
@@ -822,13 +829,11 @@ Items per quarter, oldest first:
 - [Use specific method for carbon footprint calculation when enabling item tracking](../features/573379.md): Sustainability Management, generally available, GA 2026-10, 2 videos
 - [Use subcontracting capabilities in production processes](../features/576872.md): Supply chain management, generally available, GA 2026-07, 2 videos
 - [Use system audit fields in analysis mode and in profiles](../features/573322.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
-- [Work more efficiently with manufacturing documents and capacity calendars](../features/573358.md): Supply Chain Management, generally available, GA 2026-10, 2 videos
 - [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md): Ecommerce, in preview, GA 2027-04, 1 video
 - [Add EUDR certification information](../features/573251.md): Sustainability Management, announced, GA 2026-11, 1 video
 - [Agent actions review notifications on lists](../features/573369.md): User experiences, generally available, GA 2026-10, 1 video
 - [AL developers can turn indexes on/off in AL code.](../features/573314.md): Development, generally available, GA 2026-10, 1 video
 - [Bookmark list views and analysis tabs](../features/573319.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
-- [Brand document reports with report themes](../features/573327.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Calculate and report VAT based on expense reports](../features/573262.md): Expense Agent, in preview, GA 2026-12, 1 video
 - [Calculate multiple excise duties per item](../features/573306.md): Finance, in preview, GA 2027-01, 1 video
 - [Calculate taxes for plastic and sugar](../features/576844.md): Financial Management, generally available, GA 2026-07, 1 video
@@ -852,16 +857,12 @@ Items per quarter, oldest first:
 - [Financial report changes are now always logged](../features/573325.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Improve purchase order matching in Payables Agent](../features/573380.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Keep Shopify connections current](../features/573341.md): Ecommerce, generally available, GA 2026-10, 1 video
-- [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md): Ecommerce, generally available, GA 2026-10, 1 video
 - [Manage tasks from all agents in dedicated task pane](../features/573363.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Monitor usage of Open in Excel with telemetry](../features/573317.md): Governance and administration, generally available, GA 2026-10, 1 video
 - [More countries and languages](../features/573253.md): Expense Agent, in preview, GA 2026-10, 1 video
 - [Post direct transfer orders from warehouse-enabled locations](../features/573347.md): Supply Chain Management, generally available, GA 2026-10, 1 video
-- [Reduce complexity of report datasets](../features/573321.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
 - [Reuse header/footer layouts across document reports](../features/573326.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
-- [Review content generated by agents directly on pages](../features/573366.md): Copilot and agents, generally available, GA 2026-10, 1 video
-- [Run AL tests from command-line and CI/CD workflows](../features/573334.md): Development, generally available, GA 2026-10, 1 video
 - [Run multiple financial reports and get a single PDF output](../features/573323.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Self-billing enablement](../features/573612.md): E-Documents, in preview, GA 2027-01, 1 video
 - [Sell to business customers on more Shopify plans with B2B company sync](../features/576836.md): Ecommerce, generally available, GA 2026-07, 1 video
@@ -880,6 +881,7 @@ Items per quarter, oldest first:
 - [Use self-billed invoices](../features/576881.md): Financial Management, generally available, GA 2026-06, 1 video
 - [Use withholding taxes (WHT) with employee transactions](../features/573308.md): Finance, in preview, GA 2027-01, 1 video
 - [Vendor specific number series for Self-billing Invoices](../features/573307.md): Finance, in preview, GA 2027-01, 1 video
+- [Work more efficiently with manufacturing documents and capacity calendars](../features/573358.md): Supply Chain Management, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

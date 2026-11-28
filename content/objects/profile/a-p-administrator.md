@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cbb1b98a542e49547ed99ca28300865fce940f16b07dc6840dc39131a37fb89b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Layers/W1/BaseApp/Finance/RoleCenters/APAdministrator.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Layers/W1/BaseApp/Finance/RoleCenters/APAdministrator.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/APAdministrator.Profile.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -78,7 +78,7 @@ relations:
 
 > Profile "A/P Administrator" in Base Application (Microsoft.Finance.RoleCenters). Introduced in BC27, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · captioned "Accounts Payable Administrator" · BC27-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Layers/W1/BaseApp/Finance/RoleCenters/APAdministrator.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · captioned "Accounts Payable Administrator" · BC27-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Layers/W1/BaseApp/Finance/RoleCenters/APAdministrator.Profile.al) · facts from BC29
 
 ## Properties
 

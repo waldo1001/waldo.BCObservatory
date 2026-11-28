@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14650",
+  "input_hash": "832f544aa1880a3856e29a8d2b81d4f131c9d902568638086d1dba2435d12472",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-28T01:07:02.453Z",
+  "issues": [
+    "Page matches the description: one-line removal of Extensible = false on page 6181, forward-ported from 29.x."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024291,
+    "changes_in_call": 6
+  }
+}

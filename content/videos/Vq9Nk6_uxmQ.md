@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:37.225Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,7 +199,8 @@ links:
     - object/page/4316
     - object/page/9301
     - object/page/42
-  features: []
+  features:
+    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -345,15 +346,19 @@ features:
     verified: false
     status_source: video
   - name: Agent Instructions
-    status: unclear
+    status: preview
     t: 287
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Agent Profiles
-    status: unclear
+    status: preview
     t: 638
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Profile UI Clearing Properties
     status: unclear
     t: 789
@@ -420,10 +425,12 @@ features:
     verified: false
     status_source: video
   - name: Custom agent creation wizard
-    status: unclear
+    status: preview
     t: 1654
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Sales Validator sample agent
     status: unclear
     t: 1706
@@ -596,8 +603,8 @@ The video spends time on profiles, which limit the agent's UI and set the starti
 | Custom Agents | status not stated | [1:04](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=64s) |  |
 | Sales Order Agent | status not stated | [2:03](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=123s) |  |
 | Payables Agent | status not stated | [2:03](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=123s) |  |
-| Agent Instructions | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=287s) |  |
-| Agent Profiles | status not stated | [10:38](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=638s) |  |
+| Agent Instructions | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [4:47](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=287s) |  |
+| Agent Profiles | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)) | [10:38](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=638s) |  |
 | Profile UI Clearing Properties | status not stated | [13:09](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=789s) |  |
 | Agent Security Handling | status not stated | [9:40](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=580s) |  |
 | UI-based profile configuration | status not stated | [13:41](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=821s) |  |
@@ -611,7 +618,7 @@ The video spends time on profiles, which limit the agent's UI and set the starti
 | Model abstraction for partners | status not stated | [24:03](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1443s) |  |
 | Page-specific instruction syntax | status not stated | [26:28](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1588s) |  |
 | Timeline-reflective instructions structuring | status not stated | [26:18](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1578s) |  |
-| Custom agent creation wizard | status not stated | [27:34](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1654s) |  |
+| Custom agent creation wizard | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)) | [27:34](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1654s) |  |
 | Sales Validator sample agent | status not stated | [28:26](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1706s) |  |
 | Sales return agent | status not stated, demoed | [28:42](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1722s) |  |
 | Agentic scenarios guidance | status not stated | [29:22](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1762s) |  |
@@ -621,6 +628,8 @@ The video spends time on profiles, which limit the agent's UI and set the starti
 | Low-frequency task automation with agents | status not stated | [33:52](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2032s) |  |
 | Agent SDK | status not stated | [34:57](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2097s) |  |
 | Agent testing capability | announced | [35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s) | "giving you the ability to test your agents which we will be releasing quite soon" ([35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

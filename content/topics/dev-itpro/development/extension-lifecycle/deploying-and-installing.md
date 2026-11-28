@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,6 +88,7 @@ links:
     - change/bcapps/11065
     - change/bcapps/12626
     - change/bcapps/13558
+    - change/bcapps/14619
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -145,6 +146,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
 - [#12626 Fix AppSource product details opening in write transactions](../../../../changes/bcapps/12626.md) (code change): "Changed from Page.RunModal() to Page.Run() to avoid write transaction conflicts"
 - [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "Add logging table management during installation and upgrade processes"
+- [#14619 [Fabric] Fix installation with an existing upgrade tag](../../../../changes/bcapps/14619.md) (code change): "Fabric installation now guards the database upgrade tag insert to prevent duplicate-key errors"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
 - [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (community post): "Business Central automatically deploys extensions during the scheduled window"
 - [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "Admin Center APIs expose PTE deployment operations, enabling automation"

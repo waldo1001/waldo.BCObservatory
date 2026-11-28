@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,6 +88,7 @@ links:
   changes:
     - change/bcapps/13361
     - change/bcapps/14329
+    - change/bcapps/14442
 learn_toc_path:
   - Copilot and agent capabilities
   - Payables Agent
@@ -148,11 +149,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#13361 Foundation for Payables Agent V2.0](../../../changes/bcapps/13361.md) (code change): "Payables Agent v2.0, a rewrite in which the agent works directly on purchase invoices"
 - [#14329 Optimizing check for PA eligibility](../../../changes/bcapps/14329.md) (code change): "The Payables Agent eligibility check now uses a more efficient query strategy"
+- [#14442 Offer the Payables Agent again in a company recreated with the same name](../../../changes/bcapps/14442.md) (code change): "The Payables Agent is now offered again in the plus menu when a company is recreated"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email"
 - [Quick Tip: Business Central Update 27.3 – What’s New](../../../posts/thinkaboutit-be/7496.md) (community post): "Payables Agent now matches purchase invoices to orders intelligently"
 - [Business Central 2025 wave 1 (BC26.3): Automate payables processes with the Payables Agent](../../../posts/yzhums-com/65721.md) (community post): "The Payables Agent in Business Central 2025 wave 1 automates accounts payable work"
 - [Dynamics 365 Business Central: How to hide the Sales Order Agent and Payables Agent icons in the upper right corner](../../../posts/yzhums-com/68482.md) (community post): "Payables Agent processes vendor invoices end-to-end to reduce accounting bottlenecks"
-- [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../posts/yzhums-com/72842.md) (community post): "Payables Agent analyzes PDF documents, identifies the vendor, and generates a draft"
+- [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../posts/yzhums-com/72842.md) (community post): "Purchase invoices can now be created manually from PDF files via a new 'New from PDF' button"
 - [Business Central 2026 release wave 1 (BC28.4): Speed up processing with Known Senders in Payables Agent](../../../posts/yzhums-com/75245.md) (community post): "Known Senders in the Payables Agent, allowing administrators to define trusted email senders"
 - [What's Cooking in Business Central: Agent Reasoning and Transparency](../../../videos/FBrZwXpOhmM.md) (video): "Agent Reasoning Display; Payables Agent"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "Payables agent contextual invoice drafts; Payables agent confidence level prioritization"

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:18.230Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,8 @@ links:
   objects:
     - object/report/99000791
     - object/report/99000753
-  features: []
+  features:
+    - feature/573317
   topics: []
   localizations: []
   videos: []
@@ -184,10 +185,12 @@ features:
     verified: false
     status_source: video
   - name: Open in Excel from list pages
-    status: unclear
+    status: ga
     t: 1343
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573317"
 objects_mentioned:
   - report Production Order Work in Progress
   - report Production Order Statistics
@@ -265,7 +268,9 @@ The presenter then runs the Where Used report and reviews code changes in it and
 | Report data export to data set only | status not stated | [14:49](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=889s) |
 | Manufacturing analytics site | status not stated | [20:42](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1242s) |
 | Ad hoc analysis on manufacturing ledger pages | status not stated, demoed | [21:27](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1287s) |
-| Open in Excel from list pages | status not stated, demoed | [22:23](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1343s) |
+| Open in Excel from list pages | generally available (roadmap [Monitor usage of Open in Excel with telemetry](../features/573317.md)), demoed | [22:23](https://www.youtube.com/watch?v=VoiUhPb6HQ0&t=1343s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

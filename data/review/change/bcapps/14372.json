@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14372",
+  "input_hash": "05199b6ae45b9edbdb9598b69af839e70cc4f1196e67e2b198b7d9411bca2235",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-28T01:06:47.641Z",
+  "issues": [
+    "The description implies the move from NAV BusinessIQ: the other parts remain there and there is a companion NAV migration.",
+    "The key points match the listed scope, including the separately packaged test library and the parts that stay in NAV BusinessIQ.",
+    "Calling it a non-breaking feature is reasonable because the feature is unreleased and no compatibility aliases are added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03567,
+    "changes_in_call": 2
+  }
+}

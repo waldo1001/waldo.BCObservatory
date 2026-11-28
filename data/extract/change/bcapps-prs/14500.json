@@ -6,15 +6,14 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "The ZUGFeRD document export now includes the Description 2 field when available in the XML output, aligning with XRechnung implementation standards.",
+  "summary": "The ZUGFeRD e-document export now writes the line's Description 2 under ram:Description when it is available, matching how the XRechnung export already handles it.",
   "key_points": [
-    "Description 2 field is now exported when present",
-    "Aligns with XRechnung handling and XSD validation",
-    "Addresses customer case requirement",
-    "Modifies ZUGFeRD export codeunit",
-    "Follows established patterns in related export functionality"
+    "ZUGFeRD export adds Description 2 under ram:Description when present",
+    "Behaviour now matches the XRechnung export",
+    "The field is valid according to the CII XSD",
+    "Fixes a reported customer case"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

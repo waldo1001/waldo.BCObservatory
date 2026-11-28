@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 23d831b8176f4fa11127d010cf919b24fd51200c7ebb29edf551d1ab4d737a5b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardExpenseWriter.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardExpenseWriter.Interface.al
     title: src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardExpenseWriter.Interface.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Interface "EA Corp Card Expense Writer" in ExpenseAgent (Microsoft.ExpenseAgent). 2 public procedures. Introduced in BC29, gone after BC29.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardExpenseWriter.Interface.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardExpenseWriter.Interface.al) · facts from BC29
 
 ## Properties
 

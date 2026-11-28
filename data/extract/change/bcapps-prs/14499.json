@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Job Queue Dispatcher now resumes interrupted finalization when a task retries after a lock timeout, preventing recurring jobs from being permanently stuck in the Finished state without scheduling their next recurrence.",
+  "summary": "When a task is retried after the job already finished but its bookkeeping failed, the Job Queue Dispatcher now completes the pending log entry and runs FinalizeRun instead of exiting. The job is not re-run, and recurring entries no longer stop being scheduled.",
   "key_points": [
-    "Detects when a task retry occurs after finalization failure by checking for In Process or Success log entries matching the System Task ID",
-    "Resumes bookkeeping to finalize the log entry and call FinalizeRun to schedule the next recurrence or delete non-recurring entries",
-    "Only acts on entries that are Finished, have Manual Recurrence off, and have a matching log entry, leaving other Finished entries untouched",
-    "Emits new telemetry signal 0000WW6 to track when job queue entry finalization is resumed",
-    "Includes new tests covering recurring entry rescheduling, non-recurring entry deletion, and entries left untouched when no log entry exists"
+    "Acts only when a locked re-read shows the entry is still Finished, Manual Recurrence is off, and a log entry for the same System Task ID is In Process or Success",
+    "Sets the pending log entry to Success and calls FinalizeRun, which schedules the next run or deletes a non-recurring entry",
+    "Activates the next waiting job in the same category",
+    "Emits new warning telemetry 0000WW6 (Job queue entry finalization resumed)",
+    "Tests cover rescheduling a recurring entry, deleting a non-recurring entry, and leaving entries untouched when there is no matching log or Manual Recurrence is on"
   ],
   "change_kind": "fix",
   "behavior_change": true,

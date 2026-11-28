@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2629f1c168560f1c8f820c9716ec98ca2a11f26fbdaaaa23ee96e03a0c6e71fb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app/Entitlements/ExtSFTPConnector.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app/Entitlements/ExtSFTPConnector.Entitlement.al
     title: src/Apps/W1/External File Storage - SFTP Connector/app/Entitlements/ExtSFTPConnector.Entitlement.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Ext. SFTP Connector" in External File Storage - SFTP Connector (System.ExternalFileStorage). Introduced in BC29, still in BC30.
 
-External File Storage - SFTP Connector · System.ExternalFileStorage · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app/Entitlements/ExtSFTPConnector.Entitlement.al) · facts from BC29
+External File Storage - SFTP Connector · System.ExternalFileStorage · BC29-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app/Entitlements/ExtSFTPConnector.Entitlement.al) · facts from BC29
 
 ## Across versions
 

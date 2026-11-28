@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,7 @@ links:
     - post/duiliotacconi-com/1501
     - post/duiliotacconi-com/1925
     - post/duiliotacconi-com/2074
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6599711385738349777--4f78d5017d
     - post/waldo-be/318212
     - post/waldo-be/318461
   guidelines: []
@@ -100,7 +101,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -188,6 +189,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Client Crash? Check Error Dialog signal](../../../../posts/duiliotacconi-com/1501.md) (community post): "telemetry is the way to investigate client crashes. Start from the operation id shown at the crash"
 - [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../posts/duiliotacconi-com/1925.md) (community post): "AI can analyze exported wait statistics telemetry to provide performance insights"
 - [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "Investigation workflow involves isolating lock timeouts, filtering lock snapshots"
+- [BC28.5 Upgrade: Fixing the OpenTelemetry Error in Invoke-NAVApplicationDatabaseConversion](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6599711385738349777--4f78d5017d.md) (community post): "OpenTelemetry.Instrumentation.Http type initialization exception during BC upgrades"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../posts/waldo-be/318212.md) (community post): "Sending daily snapshots of missing indexes to telemetry allows trend analysis"
 - [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../../../posts/waldo-be/318461.md) (community post): "lets you question Business Central telemetry in natural language instead of writing KQL"
 

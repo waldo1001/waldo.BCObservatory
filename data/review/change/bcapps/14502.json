@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14502",
+  "input_hash": "7b4797e7c917e967cf96bb644ce5718b93a2807d7205319b2f256acb0eba6387",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-28T01:06:56.904Z",
+  "issues": [
+    "Summary and key points match the description: existing return headers are now filtered by Subcontr. Purch. Order No., and regression tests were updated."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019937,
+    "changes_in_call": 6
+  }
+}

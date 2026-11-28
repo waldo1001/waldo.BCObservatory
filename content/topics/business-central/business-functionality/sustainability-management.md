@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T01:05:12.074Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -520,7 +520,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12466 Hide Navigate and Reverse Transaction on sustainability posting preview](../../../changes/bcapps/12466.md) (code change): "Hide Navigate and Reverse Transaction on sustainability posting preview"
 - [#9478 feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries](../../../changes/bcapps/9478.md) (code change): "Users can now reverse posted Sustainability Ledger Entries manually from the page"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../changes/bcapps/9613.md) (code change): "Sustainability module fixes for carbon tracking with item charges"
-- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Sustainability in Business Central emissions tracking csrd compliance esg reporting"
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Sustainability journal; Chart of sustainability accounts; Emissions calculation formulas"
 - [What's New: Default Sustainability Information (2025 release wave 1)](../../../videos/2_yYu3RgYwo.md) (video): "Default Sustainability Information; sustainability setup; emissions; carbon equivalent"
 - [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../../../videos/i-MTLNYwA9o.md) (video): "Track Your Energy Consumption emissions reporting energy sources kilowatt hours"
 - [What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)](../../../videos/JoGW2xlIq0I.md) (video): "emissions tracking; sustainability setup; Sustainability Value Entry"
@@ -528,7 +528,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Sustainability (2026 release wave 1)](../../../videos/lqVWc-Yuots.md) (video): "ESG-reporting carbon-footprint sustainability-apis csrd-compliance carbon-costing item-tracking value-chain"
 - [What's New: Water and Waste Management (2025 release wave 1)](../../../videos/MaMwHvimNTY.md) (video): "Water and waste management; sustainability ledger; emissions tracking"
 - [What's New in Sustainability (2024 release wave 2)](../../../videos/NYG4pOtW-Xw.md) (video): "Emissions tracking; carbon accounting; sustainability ledger; carbon credits"
-- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../videos/qPInVj03wkY.md) (video): "Reporting CSRD csrd compliance reporting esg aggregation compliance reporting"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../videos/qPInVj03wkY.md) (video): "CSRD reporting; esg aggregation; compliance reporting; sustainability ledger"
 - [What's new in Sustainability (2026 release wave 2)](../../../videos/t_UXxbvgnHY.md) (video): "formulas; value chain emissions; scope three; item tracking; fixed assets"
 - [End To End Sustainability Tracking and Reporting for SMBs](../../../videos/uan4dV9eVCA.md) (video): "End To End Sustainability Tracking and Reporting for SMBs"
 - [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../../../videos/UKVp28M5TtU.md) (video): "Measure All Gasses as Carbon Equivalents carbon equivalents; emission factors; sustainability setup"

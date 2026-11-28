@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:59.161Z"
   flags: []
 generated:
-  at: "2026-11-26T01:01:19.782Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,7 @@ links:
   objects: []
   features:
     - feature/573364
+    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -179,10 +180,12 @@ features:
     verified: false
     status_source: video
   - name: Tasks API
-    status: unclear
+    status: preview
     t: 602
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Task and Message Model
     status: unclear
     t: 626
@@ -204,10 +207,12 @@ features:
     verified: false
     status_source: video
   - name: Agent Task Triggering
-    status: unclear
+    status: preview
     t: 776
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Agent Task Codeunit Management
     status: unclear
     t: 797
@@ -320,12 +325,12 @@ It then covers agent instances, which are also users in Business Central, and ho
 | Programmatic Agent Creation | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=514s) |
 | Agent Instructions | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=551s) |
 | Agent KPI Pages | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=572s) |
-| Tasks API | status not stated, demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
+| Tasks API | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
 | Task and Message Model | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |
 | Message Attachments | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=706s) |
 | Multi-turn Agent Interactions | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=740s) |
 | External ID for Messages | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=755s) |
-| Agent Task Triggering | status not stated, demoed | [12:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=776s) |
+| Agent Task Triggering | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [12:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=776s) |
 | Agent Task Codeunit Management | status not stated, demoed | [13:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=797s) |
 | Task Result Polling | status not stated, demoed | [13:31](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=811s) |
 | Agent Session Events | status not stated, demoed | [13:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=836s) |

@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:51.177Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,8 +76,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/10342
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -190,12 +188,6 @@ The Cartera pages describe handling of customer and vendor payments with bills o
 - [Receivables Cartera Module in the Spanish Version [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module): Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
 - [SII Invoice and Credit Memo Types for Spain](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents): Learn how Business Central for Spain exports SII invoice and credit memo types, including simplified invoices and replacement corrective invoices.
 - [VERI*FACTU with External Service Integration [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup): Configure the B2Brouter connector for external VERIFACTU integration in Business Central, including API credentials, project settings, and sandbox mode.
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../../changes/bcapps/10342.md) (code change): "GLN identifiers with schemeID 0088 are now included in German XRechnung and ZUGFeRD electronic document exports"
 
 ## Business Central pages and reports
 

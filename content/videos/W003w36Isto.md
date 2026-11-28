@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:52.633Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-28T01:04:10.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -75,7 +75,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573321
   topics: []
   localizations: []
   videos: []
@@ -140,10 +141,12 @@ features:
     verified: false
     status_source: video
   - name: Standard BC report information in Word layouts
-    status: unclear
+    status: ga
     t: 373
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573321"
   - name: Word layout date/time hierarchy
     status: unclear
     t: 541
@@ -219,9 +222,11 @@ It then moves to the report layouts page, where the Excel property can be set, a
 | Set Excel layout properties in report layouts page | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=W003w36Isto&t=174s) |
 | Validate report layouts | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=W003w36Isto&t=269s) |
 | Show layout info action | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=W003w36Isto&t=269s) |
-| Standard BC report information in Word layouts | status not stated, demoed | [6:13](https://www.youtube.com/watch?v=W003w36Isto&t=373s) |
+| Standard BC report information in Word layouts | generally available (roadmap [Reduce complexity of report datasets](../features/573321.md)), demoed | [6:13](https://www.youtube.com/watch?v=W003w36Isto&t=373s) |
 | Word layout date/time hierarchy | status not stated, demoed | [9:01](https://www.youtube.com/watch?v=W003w36Isto&t=541s) |
 | Obsoleting reports developer documentation | status not stated | [11:12](https://www.youtube.com/watch?v=W003w36Isto&t=672s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

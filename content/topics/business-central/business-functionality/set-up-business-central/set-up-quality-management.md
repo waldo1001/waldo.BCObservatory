@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,8 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/m8-7-JKq4dc
   posts: []
   guidelines: []
   changes:
@@ -87,7 +88,7 @@ children: []
 coverage:
   learn: 5
   code: 5
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -138,6 +139,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Application logic in Qlty. Result Condition Mgmt. reworked"
 - [#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)](../../../../changes/bcapps/13428.md) (code change): "Quality Management inspections now enforce that Sample Size and Pass/Fail Quantity"
 - [#14147 Fix reactivated direct transfer and BEANS issues](../../../../changes/bcapps/14147.md) (code change): "Quality Management BEANS demo data now gives the Coffee Defect and Coffee Uniformity tests"
+- [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Quality Management Setup; Inspection Actions for Non-Conforming Items"
 
 ## Business Central pages and reports
 

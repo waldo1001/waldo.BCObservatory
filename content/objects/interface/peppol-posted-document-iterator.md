@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-27T00:52:12.002Z"
+  at: "2026-11-28T00:55:56.881Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5b33c12648388993449865bf1a0508deb342cfe317cb95ff54279b65e84ff455
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al (releases/29.x)
     date: null
-    commit: 34e1078527c84ba7c885b871a9be47229ba9e4f4
+    commit: baedf68df311071024c0711fde8b1fbac33ec290
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PEPPOL Posted Document Iterator" in PEPPOL (Microsoft.Peppol). 2 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at 34e10785](https://github.com/microsoft/BCApps/blob/34e1078527c84ba7c885b871a9be47229ba9e4f4/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at baedf68d](https://github.com/microsoft/BCApps/blob/baedf68df311071024c0711fde8b1fbac33ec290/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al) · facts from BC29
 
 ## Procedures
 

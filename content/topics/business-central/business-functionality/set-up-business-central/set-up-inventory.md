@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,6 +146,7 @@ links:
     - change/bcapps/11155
     - change/bcapps/12124
     - change/bcapps/14147
+    - change/bcapps/14432
     - change/bcapps/9933
 learn_toc_path:
   - Business functionality
@@ -238,6 +239,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11155 Fix missing default item journal batch in Contoso Inventory setup](../../../../changes/bcapps/11155.md) (code change): "Inventory's default item journal batch is now created with its template"
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Prevent default-bin assignment for drop shipments during validation"
 - [#14147 Fix reactivated direct transfer and BEANS issues](../../../../changes/bcapps/14147.md) (code change): "direct transfer orders now use the posting mode from their transfer route"
+- [#14432 [Main]- Item Journal approval link fails after approver switches batches](../../../../changes/bcapps/14432.md) (code change): "Item Journal approval link fails after approver switches batches"
 - [#9933 [MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion](../../../../changes/bcapps/9933.md) (code change): "Item Template validation no longer fails with warehouse entry errors"
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "warehouse setup; location management; configuration; business central 2026"
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Item variants can now have their own pictures for visual identification"

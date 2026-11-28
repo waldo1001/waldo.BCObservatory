@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,6 +83,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10348
+    - change/bcapps/12189
     - change/bcapps/12242
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -187,6 +188,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10348 Adding a Power BI workspace to Company Information to be used when deploying reports](../../../../changes/bcapps/10348.md) (code change): "Power BI Workspace field added to the Reporting section of Company Information"
+- [#12189 Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12189.md) (code change): "Power BI report deployment now works with regular companies"
 - [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is no longer limited to evaluation companies"
 - [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
 - [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "native data mirroring to Microsoft Fabric, allowing users to replicate"

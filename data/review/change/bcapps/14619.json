@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14619",
+  "input_hash": "c175ce5c9e908a92d1be25dafa4a68e484ea62ce75cccce51974b070ffbf2128",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:07:02.453Z",
+  "issues": [
+    "Installation no longer fails with a duplicate-key error when the tag exists, which is a behavior change."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024291,
+    "changes_in_call": 6
+  }
+}

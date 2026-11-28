@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13200",
+  "input_hash": "c9f791909bc3d0cfc36c37e886f719d1f40c283cbbf444413d1b0908742ba51b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:07:02.453Z",
+  "issues": [
+    "Claim of changes 'across all localization layers' is unsupported: Purchase Line has no FR file, and Customer has no DACH, FI or GB file.",
+    "The given data does not show that Purchase Line and Quality Management changes are new events, only that the files were modified.",
+    "Customer change adds an enum-based publisher and keeps the option-based one under CLEAN30, per the description."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024291,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:18.371Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,7 +180,7 @@ Start with "Set up approval workflows" for the overall flow, then "How to create
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
+- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "Standard approval actions (Approve, Reject, Delegate, Comments) and workflow status"
 - [Approval Workflows in Planning Worksheet](../../../../posts/olofsimren-com/3779.md) (community post): "Setup happens on the Workflows page using the Requisition Worksheet batch approval template"
 - [Dynamics 365 Business Central: How to hide the confirmation message (An approval request has been sent) when sending an Approval Request?](../../../../posts/yzhums-com/70683.md) (community post): "approval workflows in Business Central can be configured to hide the confirmation message"
 

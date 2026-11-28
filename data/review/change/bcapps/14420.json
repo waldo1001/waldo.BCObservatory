@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14420",
+  "input_hash": "9580b2a22d82b2fd05f33d42ca9c08e13fc7ce59ce76f1dbf0045d3084e0baa2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-28T01:06:56.904Z",
+  "issues": [
+    "The description has only the title and work item. The claim that the export now validates vendor email independently describes how the fix works, and nothing given supports it.",
+    "The NA layer scope can be stated from the file paths."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019937,
+    "changes_in_call": 6
+  }
+}

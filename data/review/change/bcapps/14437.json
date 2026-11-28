@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14437",
+  "input_hash": "13be32299850bd4a2445cab87c06130888e53a956e474c29f2928dc0cc91c629",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-28T01:07:02.453Z",
+  "issues": [
+    "Exchange rate and currency amount fix is supported. The account mapping wording in the description is ambiguous, but the page's reading that all accounts must be mapped is plausible."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024291,
+    "changes_in_call": 6
+  }
+}

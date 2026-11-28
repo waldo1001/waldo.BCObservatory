@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,12 +199,10 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10207
+    - change/bcapps/10480
+    - change/bcapps/10526
     - change/bcapps/10578
     - change/bcapps/10753
-    - change/bcapps/11152
-    - change/bcapps/11168
-    - change/bcapps/11318
-    - change/bcapps/11555
     - change/bcapps/11626
     - change/bcapps/12196
     - change/bcapps/12261
@@ -272,14 +270,12 @@ Start with the landing page to see which mechanism fits your scenario. Go to dat
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy](../../../changes/bcapps/10207.md) (code change): "Environment copy cleanup of CRM Integration Records now uses bulk truncate"
-- [#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings](../../../changes/bcapps/10578.md) (code change): "Four integration events are added to allow extensions to select the correct CRM integration table mapping"
+- [#10480 [Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard](../../../changes/bcapps/10480.md) (code change): "Field Service connection setup wizard now properly checks"
+- [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "E-Documents now leverages BaseApp's new PO Matching module"
+- [#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings](../../../changes/bcapps/10578.md) (code change): "Four integration events are added to allow extensions to select"
 - [#10753 Cross-environment Master Data synchronization (same tenant)](../../../changes/bcapps/10753.md) (code change): "Cross-environment Master Data Management now allows subsidiary environments to synchronize master data"
-- [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/11152.md) (code change): "Mark as Accepted action was added to posted sales, purchase, and service invoice"
-- [#11168 Restore E-Document vendor invoice field compatibility](../../../changes/bcapps/11168.md) (code change): "E-Document vendor invoice field name restored from Applies-to"
-- [#11318 [main] Bug 649189: Update E-Document vendor invoice caption](../../../changes/bcapps/11318.md) (code change): "E-Document purchase header field caption and page labels were updated"
-- [#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry](../../../changes/bcapps/11555.md) (code change): "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations"
 - [#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues](../../../changes/bcapps/11626.md) (code change): "Master Data Management synchronization is fixed to handle contacts, media caching, date/datetime values"
-- [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled for on-premises"
+- [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled"
 - [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../changes/bcapps/12261.md) (code change): "Dataverse synchronization job reschedule logic now checks both the"
 - [#12328 [Master Data Management] Fix usage telemetry and make it emit max once per day](../../../changes/bcapps/12328.md) (code change): "Master Data Management usage telemetry distinguishing cross-environment and same-environment synchronizations"
 - [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../../../changes/bcapps/13623.md) (code change): "creating a Business Central sales order from Dynamics 365 Sales"

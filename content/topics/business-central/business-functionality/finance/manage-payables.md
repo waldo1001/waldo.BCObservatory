@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-26T01:05:31.204Z"
+  at: "2026-11-28T01:08:05.989Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -312,7 +312,6 @@ links:
     - video/OvI9jaA1mJY
     - video/Xc3ISQ7NAaQ
   posts:
-    - post/demiliani-com/12076
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
     - post/yzhums-com/68956
     - post/yzhums-com/71463
@@ -332,8 +331,9 @@ links:
     - change/bcapps/13228
     - change/bcapps/13396
     - change/bcapps/13467
+    - change/bcapps/13613
+    - change/bcapps/13676
     - change/bcapps/9133
-    - change/bcapps/9145
     - change/bcapps/9182
 learn_toc_path:
   - Business functionality
@@ -348,7 +348,7 @@ coverage:
   learn: 25
   code: 94
   video: 3
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms:
   - 6
@@ -536,10 +536,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "Fixes inconsistent syncing of On Hold and document dispute status"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../../changes/bcapps/13396.md) (code change): "partial purchase invoices with non-base units of measure and quantity rounding"
 - [#13467 [29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](../../../../changes/bcapps/13467.md) (code change): "Payment discounts now correctly reflected in sales and purchase totals"
+- [#13613 [main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version](../../../../changes/bcapps/13613.md) (code change): "Corrects Additional Currency Base and Additional Currency Amount calculations when line discounts are applied"
+- [#13676 [29.X]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13676.md) (code change): "Fixes inconsistent On Hold and document synchronization behaviour tied to the dispute status on vendor ledger entries"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
-- [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display the original invoice PDF"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"
-- [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "accounts payable; automation; ai agent; invoice processing; vendor invoices"
 - [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "customer and vendor entries typically require manual or configured auto-apply rules"
 - [Business Central 2025 wave 2 (BC27.1): Use the Account Payable Role Center](../../../../posts/yzhums-com/68956.md) (community post): "new Accounts Payable Administrator Role Center that consolidates purchase documents"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../../../../posts/yzhums-com/71463.md) (community post): "automatically calculates and withholds taxes from vendor payments"
