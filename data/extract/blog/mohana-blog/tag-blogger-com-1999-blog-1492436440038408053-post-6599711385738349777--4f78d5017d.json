@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6599711385738349777",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/11/bc285-upgrade-fixing-opentelemetry.html",
+  "title": "BC28.5 Upgrade: Fixing the OpenTelemetry Error in Invoke-NAVApplicationDatabaseConversion",
+  "source": "mohana-blog",
+  "published_at": "2026-11-27T08:32:04.000Z",
+  "words": 225,
+  "summary": "During a Business Central 25 to 28.5 on-premises upgrade, the Invoke-NAVApplicationDatabaseConversion cmdlet fails with an OpenTelemetry error because PowerShell 5.1 cannot resolve newer .NET dependencies required by OpenTelemetry.Instrumentation.Http 1.16. Upgrading to PowerShell 7.6.6 or newer resolves the issue.",
+  "key_points": [
+    "Invoke-NAVApplicationDatabaseConversion fails in PowerShell 5.1 with OpenTelemetry.Instrumentation.Http type initialization exception during BC upgrades",
+    "The issue is a regression in BC 28.5 where OpenTelemetry.Instrumentation.Http was upgraded from 1.9 to 1.16, requiring newer .NET dependencies",
+    "Binding redirects in Microsoft.Dynamics.Nav.Management.dll.config do not apply in PowerShell 5.1 because .NET Framework only reads the host's .exe.config",
+    "The service tier runs fine; only admin cmdlets are affected",
+    "Upgrading to PowerShell 7.6.6 or newer resolves the error"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "opentelemetry",
+    "powershell",
+    "database conversion",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Invoke-NAVApplicationDatabaseConversion cmdlet",
+    "OpenTelemetry instrumentation",
+    "Database conversion"
+  ],
+  "versions": [
+    "25",
+    "28.5"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": ".NET Framework only reads the host's .exe.config, so inside powershell.exe or ISE they never apply.",
+      "why_it_matters": "Clarifies why binding redirects do not work in PowerShell 5.1 and identifies the technical limitation"
+    },
+    {
+      "text": "Update PowerShell 7 to PowerShell 7.6.6 or newer.",
+      "why_it_matters": "Provides the direct solution to resolve the OpenTelemetry error"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005981,
+    "posts_in_call": 1
+  }
+}

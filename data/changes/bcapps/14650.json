@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14650,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14650",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-27T23:49:42Z",
+  "merge_commit_sha": "0f213eefcca19edbfa60b4ef49623bdd3a3ca794",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[main] Forward-port E-Document Purchase Draft extensibility",
+  "body_hash": "c60d202c95a31475f52c026b573722a385dd91dac00c218e418b5b528bdda71f",
+  "fixes_issues": [
+    10580
+  ],
+  "work_items": [
+    661034
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocumentPurchaseDraft.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocumentPurchaseDraft.Page.al",
+        "status": "modified",
+        "key": "page/6181",
+        "type": "page",
+        "id": 6181,
+        "name": "E-Document Purchase Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6181"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ],
+  "issues": [
+    {
+      "number": 10580,
+      "title": "[Extensibility Request] Make Business Central's E-Document object extensible",
+      "state": "closed"
+    }
+  ]
+}

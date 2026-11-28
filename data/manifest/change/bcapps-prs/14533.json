@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14533",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[ES] Verifactu: report exempt operations (E1-E6) and foreign recipients (IDOtro)",
+  "url": "https://github.com/microsoft/BCApps/pull/14533",
+  "published_at": "2026-11-27T12:15:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "8ea2f729ba06bfa2b425ce918d242a67a55e4e91:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14533,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8ea2f729ba06bfa2b425ce918d242a67a55e4e91",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "es verifactu report exempt operations e1 e6 and foreign recipients idotro"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14541",
+  "number": 14541,
+  "title": "[Expense Agent] Send company scope header on company-bound requests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent now sends an X-ERP-Scope header on company-bound requests to route them to the correct company registration, computed from tenant ID, environment name, and company ID using UUIDv5.",
+  "key_points": [
+    "Scope header added only to company-bound requests (expense submission, open report reminders, reimbursement notifications, welcome emails)",
+    "Scope ID calculated on-the-fly from AAD tenant ID, environment name, and company ID without persistence",
+    "Scope value computed as UUIDv5 hash of normalized name with fixed namespace",
+    "Company ID canonicalized to accept prefixes and various GUID formats, producing lowercase hyphenated GUID",
+    "Requests fail with error if tenant, environment, or company is missing instead of being sent without scope"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004473,
+    "changes_in_call": 1
+  }
+}

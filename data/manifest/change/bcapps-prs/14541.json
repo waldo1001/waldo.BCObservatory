@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/14541",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Send company scope header on company-bound requests",
+  "url": "https://github.com/microsoft/BCApps/pull/14541",
+  "published_at": "2026-11-27T19:23:26Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:13:53.439Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:14:02.075Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004473
+    },
+    "linked": {
+      "at": "2026-11-28T00:14:02.284Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:14:02.298Z",
+      "path": "content/changes/bcapps/14541.md"
+    }
+  },
+  "input_hash": "5a14a56edff732508f0ac73c3b5d8669d1069a75:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14541,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5a14a56edff732508f0ac73c3b5d8669d1069a75",
+    "author": "icipriand",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "expense agent send company scope header on company bound requests"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "229b47dda3836e67f2763834480ea1dd3adf499edc2df72d2c76c251328828ad"
+}

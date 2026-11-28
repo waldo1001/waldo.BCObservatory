@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14243",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Lot-for-Lot accumulation splits supply into multiple requisition lines when Dampener Period and Safety Stock are enabled",
+  "url": "https://github.com/microsoft/BCApps/pull/14243",
+  "published_at": "2026-11-27T07:09:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "ab9f5450977cf792cdc09d736109fa2c4906aa57:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14243,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ab9f5450977cf792cdc09d736109fa2c4906aa57",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "lot for lot accumulation splits supply into multiple requisition lines when dampener period and safety stock are enabled"
+  }
+}

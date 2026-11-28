@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14650",
+  "number": 14650,
+  "title": "[main] Forward-port E-Document Purchase Draft extensibility",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Page 6181 'E-Document Purchase Draft' is now extensible by removing the Extensible = false property, allowing extensions to extend this page on main.",
+  "key_points": [
+    "Removes Extensible = false restriction from E-Document Purchase Draft page",
+    "Enables page extensions to extend this page on main branch",
+    "One-line change, no runtime logic or schema modifications",
+    "Forward-port of previously merged change from releases/29.x",
+    "No upgrade code or test changes required"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003938,
+    "changes_in_call": 1
+  }
+}

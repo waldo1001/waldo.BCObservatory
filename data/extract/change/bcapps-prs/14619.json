@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14619",
+  "number": 14619,
+  "title": "[Fabric] Fix installation with an existing upgrade tag",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fabric installation now guards the database upgrade tag insert to prevent duplicate-key errors when the tag already exists from company initialization, while keeping log-table initialization unconditional.",
+  "key_points": [
+    "Prevents duplicate-key error during Fabric installation when upgrade tag already registered",
+    "Guards tag insert with HasDatabaseUpgradeTag check",
+    "Preserves unconditional log-table initialization on every install",
+    "No impact on existing database-upgrade paths",
+    "No API, schema, or permission changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Guard the insert with `HasDatabaseUpgradeTag` while keeping required log-table initialization unconditional.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003676,
+    "changes_in_call": 1
+  }
+}

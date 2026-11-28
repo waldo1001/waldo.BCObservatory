@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14500",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Adding \"Description 2\"  when available under ram:Description",
+  "url": "https://github.com/microsoft/BCApps/pull/14500",
+  "published_at": "2026-11-27T14:42:08Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:14:16.794Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:14:22.081Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003375
+    },
+    "linked": {
+      "at": "2026-11-28T00:14:22.290Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:14:22.299Z",
+      "path": "content/changes/bcapps/14500.md"
+    }
+  },
+  "input_hash": "7a4d258eebfed9b5955e72ec3e4f10a960ee6a23:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14500,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7a4d258eebfed9b5955e72ec3e4f10a960ee6a23",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "adding description 2 when available under ram description"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd410c31fc13032b83defe370f676152d75474ccb2575943a0f5db5fece40640"
+}

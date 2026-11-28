@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13674",
+  "number": 13674,
+  "title": "Add expense interim approval controls, approval outcomes, and approver lookup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent now supports interim approval controls with explicit approval outcomes, an interim approver capability flag, and an API to discover available approvers for assignment.",
+  "key_points": [
+    "Added SubmitAndAssignInterimApprover action to release, assign, and submit expense reports in one transaction",
+    "New approval outcome endpoints return approval status, completion state, and next approver information as JSON",
+    "InterimApprover capability reflects Allow Interim Approvers setting; ApprovalsWithOutcome capability always enabled",
+    "New availableApprovers API collection and per-user endpoint expose eligible approvers for interim assignment",
+    "Interim assignments clear on resubmission when feature is disabled; active approvals are preserved"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "This PR adds interim approval controls and explicit approval outcomes.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005065,
+    "changes_in_call": 1
+  }
+}

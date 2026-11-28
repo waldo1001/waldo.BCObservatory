@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14499",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Job Queue: resume interrupted finalization on task retry",
+  "url": "https://github.com/microsoft/BCApps/pull/14499",
+  "published_at": "2026-11-27T10:26:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "28e07f3f0e04f8b002a8ff6501600dac0e2b5217:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14499,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "28e07f3f0e04f8b002a8ff6501600dac0e2b5217",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "job queue resume interrupted finalization on task retry"
+  }
+}

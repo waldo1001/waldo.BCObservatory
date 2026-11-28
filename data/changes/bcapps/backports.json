@@ -1304,6 +1304,15 @@
       "title_key": "only skip draft preparation for the payables agent s own e documents with agent driven line matching"
     }
   ],
+  "14215": [
+    {
+      "number": 14564,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T11:01:12Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14564",
+      "title_key": "master data management security review fixes and user friendly errors for cross environment synchronization"
+    }
+  ],
   "14218": [
     {
       "number": 14221,
@@ -1311,6 +1320,15 @@
       "merged_at": "2026-11-18T14:07:19Z",
       "url": "https://github.com/microsoft/BCApps/pull/14221",
       "title_key": "show notification only to super users in env where copilot substitution suggestion was used"
+    }
+  ],
+  "14284": [
+    {
+      "number": 14585,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T13:41:01Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14585",
+      "title_key": "e document default legacy po matching to ceres with key vault override"
     }
   ],
   "14314": [
@@ -1338,6 +1356,33 @@
       "merged_at": "2026-11-23T09:54:24Z",
       "url": "https://github.com/microsoft/BCApps/pull/14392",
       "title_key": "29 x backport fix trailing periods in generated document attachment folders"
+    }
+  ],
+  "14388": [
+    {
+      "number": 14636,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T20:45:47Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14636",
+      "title_key": "deliverable 660219 29 x prepare 1099 iris for 2026 tax year"
+    }
+  ],
+  "14442": [
+    {
+      "number": 14599,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T12:58:31Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14599",
+      "title_key": "offer the payables agent again in a company recreated with the same name"
+    }
+  ],
+  "14533": [
+    {
+      "number": 14634,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T13:33:26Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14634",
+      "title_key": "bug 660666 verifactu report exempt operations e1 e6 and foreign recipients idotro"
     }
   ],
   "unmatched": [
@@ -2992,6 +3037,20 @@
       "merged_at": "2026-11-26T19:40:28Z",
       "url": "https://github.com/microsoft/BCApps/pull/13329",
       "title_key": "fix opportunity chance refresh after changing skip jump destination"
+    },
+    {
+      "number": 14522,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T11:39:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14522",
+      "title_key": "e documents peppol v1 import fails for ubl invoices using alternate cac cbc namespace prefixes"
+    },
+    {
+      "number": 14538,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-27T11:59:03Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14538",
+      "title_key": "bug 658242 it report 12135 fiscal inventory valuation shows prior year value for an item first posted in a later year"
     }
   ]
 }

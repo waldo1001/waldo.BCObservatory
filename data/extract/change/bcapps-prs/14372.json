@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14372",
+  "number": 14372,
+  "title": "Move Business Skills core into System Application",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Business Skills core functionality moves from NAV BusinessIQ into System Application, adding authoring APIs, builder, pages, content history, and XML import/export capabilities with comprehensive test coverage.",
+  "key_points": [
+    "Business Skills AL core components migrate to System Application in BC30",
+    "Includes authoring and lifecycle APIs, app-owned builder, and content management UI pages",
+    "Adds content versioning history, XML import/export, and test infrastructure",
+    "Discovery, search, HTTP APIs, and Agent API remain in NAV BusinessIQ",
+    "New independent Business Skills Test Library packaged separately for testing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "platform",
+    "development"
+  ],
+  "quote": "Move the Business Skills AL core into System Application, consuming the platform's Business Skill system table.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009737,
+    "changes_in_call": 1
+  }
+}

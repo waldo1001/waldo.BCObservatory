@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14448",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Fix ELSTER UStVA 2026 XML export",
+  "url": "https://github.com/microsoft/BCApps/pull/14448",
+  "published_at": "2026-11-27T12:03:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "e6fe8d51905e421b3c97961dcef60d8dbb1e537b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14448,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e6fe8d51905e421b3c97961dcef60d8dbb1e537b",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix elster ustva 2026 xml export"
+  }
+}

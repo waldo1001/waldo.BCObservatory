@@ -1,0 +1,67 @@
+{
+  "id": "change/bcapps-prs/13200",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Backport 29.x] Batch SCM extensibility requests",
+  "url": "https://github.com/microsoft/BCApps/pull/13200",
+  "published_at": "2026-11-27T23:59:24Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:13:20.331Z",
+      "change_class": "code",
+      "files": 29,
+      "al": 29,
+      "objects": 28,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-28T00:13:29.664Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00522
+    },
+    "linked": {
+      "at": "2026-11-28T00:13:29.951Z",
+      "objects": 28,
+      "unjoined": 1,
+      "commit": "34e1078527c84ba7c885b871a9be47229ba9e4f4"
+    },
+    "published": {
+      "at": "2026-11-28T00:13:29.960Z",
+      "path": "content/changes/bcapps/13200.md"
+    }
+  },
+  "input_hash": "baedf68df311071024c0711fde8b1fbac33ec290:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13200,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "baedf68df311071024c0711fde8b1fbac33ec290",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Approved",
+      "Ownership: Manual",
+      "Team: SCM",
+      "event-request",
+      "ext-backporting",
+      "ext-ready-to-implement",
+      "request-for-external"
+    ],
+    "community_contribution": false,
+    "title_key": "backport 29 x batch scm extensibility requests"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22efd97fdf95ee45cd6be3ff7a9c3168cda77f5cdf7d028318b2e49a12903939"
+}

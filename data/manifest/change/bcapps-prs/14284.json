@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14284",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document] Default legacy PO matching to Ceres with Key Vault override",
+  "url": "https://github.com/microsoft/BCApps/pull/14284",
+  "published_at": "2026-11-27T11:32:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "75b60da9a100e64af08ed7517a26812e5be6a75f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14284,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "75b60da9a100e64af08ed7517a26812e5be6a75f",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e document default legacy po matching to ceres with key vault override"
+  }
+}

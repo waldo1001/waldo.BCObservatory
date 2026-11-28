@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14437",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bugs/659500 NO SAF-T: ExchangeRate is inverted and calculated CurrencyAmount is wrong for customer/vendor transactions",
+  "url": "https://github.com/microsoft/BCApps/pull/14437",
+  "published_at": "2026-11-27T21:00:03Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:13:48.072Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-28T00:13:54.116Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004084
+    },
+    "linked": {
+      "at": "2026-11-28T00:13:54.383Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:13:54.391Z",
+      "path": "content/changes/bcapps/14437.md"
+    }
+  },
+  "input_hash": "91043eda034d08425a99cab7b9d3f560e5d98d6e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14437,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "91043eda034d08425a99cab7b9d3f560e5d98d6e",
+    "author": "AndersLarsenMicrosoft",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bugs 659500 no saf t exchangerate is inverted and calculated currencyamount is wrong for customer vendor transactions"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4236e0b03c0f581ac17d2001ad101fcf0b1715fba26311d74e9bd5527f078bb4"
+}

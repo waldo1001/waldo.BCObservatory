@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13885",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Final sales invoice uses item Gen. Prod. Posting Group on prepayment deduction line",
+  "url": "https://github.com/microsoft/BCApps/pull/13885",
+  "published_at": "2026-11-27T14:05:44Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:14:28.798Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 12,
+      "objects": 9,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-28T00:14:35.172Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004126
+    },
+    "linked": {
+      "at": "2026-11-28T00:14:35.442Z",
+      "objects": 9,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:14:35.452Z",
+      "path": "content/changes/bcapps/13885.md"
+    }
+  },
+  "input_hash": "b9977ce535588a297bc270c0d311e2e2ae465f2d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13885,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b9977ce535588a297bc270c0d311e2e2ae465f2d",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "final sales invoice uses item gen prod posting group on prepayment deduction line"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b3be10950151e4db299fe063516d7b852813a7e5c7af660d4d1142c2d0863a79"
+}

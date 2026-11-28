@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14619",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Fabric] Fix installation with an existing upgrade tag",
+  "url": "https://github.com/microsoft/BCApps/pull/14619",
+  "published_at": "2026-11-27T15:54:41Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:14:06.408Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:14:12.543Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003676
+    },
+    "linked": {
+      "at": "2026-11-28T00:14:12.732Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:14:12.741Z",
+      "path": "content/changes/bcapps/14619.md"
+    }
+  },
+  "input_hash": "4ab0f18383414005a6ae2cf483ea1e4e082e9074:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14619,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4ab0f18383414005a6ae2cf483ea1e4e082e9074",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fabric fix installation with an existing upgrade tag"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d0f7030ccc068a6fcbd567041935e3c121e22a98dba68b3ed7b2336bca18258"
+}

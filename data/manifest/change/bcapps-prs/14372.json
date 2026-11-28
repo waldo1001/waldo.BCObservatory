@@ -6,7 +6,7 @@
   "title": "Move Business Skills core into System Application",
   "url": "https://github.com/microsoft/BCApps/pull/14372",
   "published_at": "2026-11-23T11:22:45Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
@@ -18,6 +18,23 @@
       "al": 15,
       "objects": 1,
       "unjoined": 14
+    },
+    "extracted": {
+      "at": "2026-11-28T00:13:24.208Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009737
+    },
+    "linked": {
+      "at": "2026-11-28T00:13:24.383Z",
+      "objects": 1,
+      "unjoined": 14,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:13:24.485Z",
+      "path": "content/changes/bcapps/14372.md"
     }
   },
   "input_hash": "dc3bdd237dec6ff76eb16a7e708b5b1fca806f32:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16ed929daf2d3b6416f5a840657f55829772f98995e8519a8eb31f2f2f3ec766"
+  "output_hash": "e8ecc64451da418d3e15e888d08c01ec7c80eca512f0a426f830dca9d707ce3f"
 }

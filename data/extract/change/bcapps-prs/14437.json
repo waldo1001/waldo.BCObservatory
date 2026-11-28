@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14437",
+  "number": 14437,
+  "title": "Bugs/659500 NO SAF-T: ExchangeRate is inverted and calculated CurrencyAmount is wrong for customer/vendor transactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed inverted exchange rate and incorrect currency amount calculations for customer and vendor transactions in Norwegian SAF-T export, plus improved account mapping to include all accounts as required by tax regulations.",
+  "key_points": [
+    "Corrected exchange rate inversion causing wrong CurrencyAmount calculations in SAF-T 1.30 and 1.40 files",
+    "Updated account mapping logic to include all chart of accounts in export regardless of period activity",
+    "Aligns with Norwegian Tax Administration requirements for complete account visibility in SAF-T files",
+    "Enhanced test coverage with additional validation for currency calculations and account handling",
+    "Changes affect both SAF-T 1.3 and 1.4 file generation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "ExchangeRate is inverted and calculated CurrencyAmount is wrong for customer/vendor transactions",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004084,
+    "changes_in_call": 1
+  }
+}

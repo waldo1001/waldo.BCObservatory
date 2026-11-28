@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14534",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Sales FR feature activation data migration",
+  "url": "https://github.com/microsoft/BCApps/pull/14534",
+  "published_at": "2026-11-27T12:03:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "c720cd5f9a024d0a32a0a60ecdf1f601a38ff26d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14534,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c720cd5f9a024d0a32a0a60ecdf1f601a38ff26d",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix sales fr feature activation data migration"
+  }
+}

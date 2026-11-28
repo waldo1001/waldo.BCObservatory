@@ -1,0 +1,45 @@
+{
+  "id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6599711385738349777",
+  "pillar": "blog",
+  "source": "mohana-blog",
+  "tier": "community",
+  "title": "BC28.5 Upgrade: Fixing the OpenTelemetry Error in Invoke-NAVApplicationDatabaseConversion",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/11/bc285-upgrade-fixing-opentelemetry.html",
+  "published_at": "2026-11-27T08:32:04.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:13:18.523Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6599711385738349777--4f78d5017d.md",
+      "words": 225
+    },
+    "extracted": {
+      "at": "2026-11-28T00:13:28.726Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005981
+    },
+    "summarized": {
+      "at": "2026-11-28T00:13:28.728Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-11-28T00:13:28.729Z"
+    },
+    "published": {
+      "at": "2026-11-28T00:13:28.740Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6599711385738349777--4f78d5017d.md"
+    }
+  },
+  "input_hash": "2026-11-27T08:32:04.911Z",
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "38606f7d5e6cda3d5bd8442112d1a0e136e3fad74dab43e406a3eb94738aee3c"
+}

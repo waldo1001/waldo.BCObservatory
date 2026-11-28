@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13885",
+  "number": 13885,
+  "title": "[Main]- Final sales invoice uses item Gen. Prod. Posting Group on prepayment deduction line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales invoice posting now correctly applies the customer's General Product Posting Group instead of the item's group when creating prepayment deduction lines on the final invoice.",
+  "key_points": [
+    "Prepayment deduction lines on final sales invoices now use customer General Product Posting Group",
+    "Fixes incorrect posting group assignment that was using item General Product Posting Group",
+    "Change applied consistently across all localization layers (W1, NA, BE, CH, ES, FI, FR, GB, IT, NO, RU)",
+    "New test cases added to verify correct General Product Posting Group application in prepayment scenarios",
+    "Affects sales invoice posting logic in codeunit 80"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": "Final sales invoice uses item Gen. Prod. Posting Group on prepayment deduction line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004126,
+    "changes_in_call": 1
+  }
+}

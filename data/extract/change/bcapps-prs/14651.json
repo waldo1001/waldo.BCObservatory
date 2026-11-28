@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14651",
+  "number": 14651,
+  "title": "Polish Business Skill Card guidance and activation visibility",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The Activate action on the Business Skill Card is now hidden until the skill is saved, and guidance text is updated to explain how Copilot and agents use skill information. A test-only fix corrects an argument type issue in the Custom Agent test.",
+  "key_points": [
+    "Activate action hidden on new unsaved cards but visible after first save if skill is inactive",
+    "Instructional text updated to 'Copilot and agents use the name and description to find matching skills'",
+    "Name and Description tooltips clarified with 'Specifies' wording",
+    "Fixed AL0133 analyzer warning by passing Code[50] variable instead of Text expression to Agent.Create",
+    "UI regression test updated to verify activation visibility before and after save"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Hide the Business Skill Card's Activate action until the skill has been saved, while retaining activation for saved inactive skills.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004189,
+    "changes_in_call": 1
+  }
+}

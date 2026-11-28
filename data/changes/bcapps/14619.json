@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14619,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14619",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-27T15:54:41Z",
+  "merge_commit_sha": "4ab0f18383414005a6ae2cf483ea1e4e082e9074",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Fabric] Fix installation with an existing upgrade tag",
+  "body_hash": "eb55728aeb7ae7865a223b192bf3ad4b0b4bce334045ff4e63db27fde11c2416",
+  "fixes_issues": [],
+  "work_items": [
+    660891
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/configpackage/FabricUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/48528",
+        "type": "codeunit",
+        "id": 48528,
+        "name": "Fabric Upgrade",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48528"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "MicrosoftFabricMirroring"
+  ]
+}

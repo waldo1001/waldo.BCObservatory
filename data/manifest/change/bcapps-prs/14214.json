@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/14214",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix web-service test permissions and application test fixtures",
+  "url": "https://github.com/microsoft/BCApps/pull/14214",
+  "published_at": "2026-11-27T09:32:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "5332a79167311f4cfdd103241d99be974badd7e9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14214,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5332a79167311f4cfdd103241d99be974badd7e9",
+    "author": "nhsejth",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fix web service test permissions and application test fixtures"
+  }
+}

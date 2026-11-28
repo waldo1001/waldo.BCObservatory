@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/14623",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Allow agent eval suites to run on a selected model from UI",
+  "url": "https://github.com/microsoft/BCApps/pull/14623",
+  "published_at": "2026-11-27T11:05:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "ca25d2b2f673baa355356ead421d0e6a9dd97b6a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14623,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ca25d2b2f673baa355356ead421d0e6a9dd97b6a",
+    "author": "mbaranovych",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "AL: Tools",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "allow agent eval suites to run on a selected model from ui"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/14536",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Isolate service-contract dimension regression test (AB#657824)",
+  "url": "https://github.com/microsoft/BCApps/pull/14536",
+  "published_at": "2026-11-27T18:26:51Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "21eb75ae66983d38883092ae3a624e91ae5c1c54:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14536,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "21eb75ae66983d38883092ae3a624e91ae5c1c54",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "isolate service contract dimension regression test ab 657824"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-28T00:13:58.080Z",
+  "retry_after": null
+}

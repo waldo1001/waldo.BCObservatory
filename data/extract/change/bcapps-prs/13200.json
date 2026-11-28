@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/13200",
+  "number": 13200,
+  "title": "[Backport 29.x] Batch SCM extensibility requests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "summary": "Backported six batch SCM extensibility requests to the BC29 release branch, adding new events and extending Quality Management and purchase document handling across all localizations.",
+  "key_points": [
+    "Six extensibility requests backported from main branch to releases/29.x with dedicated commits per reference",
+    "New events added to Quality Management and Purchase Line tables across all localization layers",
+    "Customer table extended with new events maintaining backward compatibility through CLEAN30 handling",
+    "Requisition Line updated in both W1 and IT localization layers",
+    "No conflicts during application; final code tree identical to original merged backports"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00522,
+    "changes_in_call": 1
+  }
+}

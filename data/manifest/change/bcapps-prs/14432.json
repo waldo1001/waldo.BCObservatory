@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/14432",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Item Journal approval link fails after approver switches batches",
+  "url": "https://github.com/microsoft/BCApps/pull/14432",
+  "published_at": "2026-11-27T05:58:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "31622ff7373235e672285196fce802268760e380:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14432,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "31622ff7373235e672285196fce802268760e380",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "item journal approval link fails after approver switches batches"
+  }
+}

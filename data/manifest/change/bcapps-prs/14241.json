@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/14241",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Fix corporate card data integrity",
+  "url": "https://github.com/microsoft/BCApps/pull/14241",
+  "published_at": "2026-11-27T10:46:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "26849205a1bcd6a4a477ed167758793366aa0591:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14241,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "26849205a1bcd6a4a477ed167758793366aa0591",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent fix corporate card data integrity"
+  }
+}

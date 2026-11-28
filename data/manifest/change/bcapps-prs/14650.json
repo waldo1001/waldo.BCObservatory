@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14650",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Forward-port E-Document Purchase Draft extensibility",
+  "url": "https://github.com/microsoft/BCApps/pull/14650",
+  "published_at": "2026-11-27T23:49:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:13:19.978Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-28T00:13:24.490Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003938
+    },
+    "linked": {
+      "at": "2026-11-28T00:13:24.730Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:13:24.738Z",
+      "path": "content/changes/bcapps/14650.md"
+    }
+  },
+  "input_hash": "0f213eefcca19edbfa60b4ef49623bdd3a3ca794:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14650,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0f213eefcca19edbfa60b4ef49623bdd3a3ca794",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "forward port e document purchase draft extensibility"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c16cfad83e0166bfb12caaeac5983a3b5f53780750ae697b8b49d820179105c1"
+}

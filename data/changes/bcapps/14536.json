@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14536,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14536",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-27T18:26:51Z",
+  "merge_commit_sha": "21eb75ae66983d38883092ae3a624e91ae5c1c54",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Isolate service-contract dimension regression test (AB#657824)",
+  "body_hash": "a69b6ea034a5018a5eeb403689b7f9fdff6fede36a9c77c5b453a05507589f5c",
+  "fixes_issues": [],
+  "work_items": [
+    654757,
+    657824
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

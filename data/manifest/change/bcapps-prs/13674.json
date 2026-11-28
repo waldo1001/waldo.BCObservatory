@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/13674",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add expense interim approval controls, approval outcomes, and approver lookup",
+  "url": "https://github.com/microsoft/BCApps/pull/13674",
+  "published_at": "2026-11-27T15:42:56Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:14:30.259Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 13,
+      "objects": 12,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-28T00:14:37.171Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005065
+    },
+    "linked": {
+      "at": "2026-11-28T00:14:37.457Z",
+      "objects": 12,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:14:37.468Z",
+      "path": "content/changes/bcapps/13674.md"
+    }
+  },
+  "input_hash": "9b353bb2e6c5b8b8bc12a4de49de1b22d8dfe26d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13674,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9b353bb2e6c5b8b8bc12a4de49de1b22d8dfe26d",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add expense interim approval controls approval outcomes and approver lookup"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ef6af2778781d3d79f8c673ad3602195b781988fd41dc0271d71065bfb904f91"
+}

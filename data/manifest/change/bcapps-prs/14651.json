@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14651",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Polish Business Skill Card guidance and activation visibility",
+  "url": "https://github.com/microsoft/BCApps/pull/14651",
+  "published_at": "2026-11-27T20:14:18Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    },
+    "fetched": {
+      "at": "2026-11-28T00:13:35.532Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-28T00:13:43.827Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004189
+    },
+    "linked": {
+      "at": "2026-11-28T00:13:44.083Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-28T00:13:44.091Z",
+      "path": "content/changes/bcapps/14651.md"
+    }
+  },
+  "input_hash": "bb766ea2dfc4082bafcafd677e733e4b1fdf37df:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14651,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bb766ea2dfc4082bafcafd677e733e4b1fdf37df",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "polish business skill card guidance and activation visibility"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "06c355600297d98d21faa6f8eecff094d01edfd3dbacc47b0a17386ac31b0d7e"
+}

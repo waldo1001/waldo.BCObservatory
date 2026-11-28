@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14426",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main][Repair item] Standard Sales Quote Word layouts rejected when reimporting an unchanged export",
+  "url": "https://github.com/microsoft/BCApps/pull/14426",
+  "published_at": "2026-11-27T05:52:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-28T00:12:53.289Z"
+    }
+  },
+  "input_hash": "73adeef5671ffc181c5ad510be797bb6d52e3520:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14426,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "73adeef5671ffc181c5ad510be797bb6d52e3520",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "repair item standard sales quote word layouts rejected when reimporting an unchanged export"
+  }
+}
